@@ -23,7 +23,7 @@ export default function BlogLayout({
             <a href="/blog" className="blog-nav-link">
               Articles
             </a>
-            <a href="/" className="blog-nav-link blog-nav-link-admin">
+            <a href="/admin" className="blog-nav-link blog-nav-link-admin">
               Dashboard
             </a>
           </nav>

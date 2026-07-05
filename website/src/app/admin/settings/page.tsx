@@ -77,7 +77,7 @@ export default function SettingsPage() {
           <h3>AI models</h3>
           <p>
             The pipeline picks models by <strong>spending tier</strong>. Change the tier on the{" "}
-            <Link href="/analytics" style={{ color: "var(--accent-brand)" }}>Analytics</Link> page — these update automatically.
+            <Link href="/admin/analytics" style={{ color: "var(--accent-brand)" }}>Analytics</Link> page — these update automatically.
           </p>
 
           <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "6px 0 16px" }}>

@@ -1,10 +1,11 @@
 /**
- * Subdomain → niche magazine routing.
+ * Subdomain routing.
  *
- *   ai.terrytory.xyz/*    → /site/ai/*
- *   tech.terrytory.xyz/*  → /site/tech/*
+ *   ai.terrytory.xyz/*     → /site/ai/*      (public magazine)
+ *   tech.terrytory.xyz/*   → /site/tech/*
+ *   admin.terrytory.xyz/*  → /admin/*        (private dashboard)
  *
- * The apex domain / localhost keep serving the admin dashboard.
+ * The apex domain (terrytory.xyz) serves the public landing hub at /.
  * Image API calls on a niche subdomain get the niche query attached
  * so each magazine serves its own images.
  */
@@ -19,9 +20,18 @@ export function proxy(req: NextRequest) {
   const labels = host.split(".");
   const sub = labels.length > 1 ? labels[0] : "";
 
-  if (!NICHE_SUBDOMAINS.has(sub)) return NextResponse.next();
-
   const url = req.nextUrl.clone();
+
+  // admin.terrytory.xyz → /admin
+  if (sub === "admin") {
+    if (url.pathname.startsWith("/api/") || url.pathname.startsWith("/admin")) {
+      return NextResponse.next();
+    }
+    url.pathname = `/admin${url.pathname === "/" ? "" : url.pathname}`;
+    return NextResponse.rewrite(url);
+  }
+
+  if (!NICHE_SUBDOMAINS.has(sub)) return NextResponse.next();
 
   if (url.pathname.startsWith("/api/")) {
     // Scope image requests to the subdomain's niche.

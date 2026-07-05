@@ -7,7 +7,7 @@ import { BrandMark } from "@/components/BrandMark";
 
 const NAV_ITEMS = [
   {
-    href: "/",
+    href: "/admin",
     label: "SCRAPER",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
@@ -16,7 +16,7 @@ const NAV_ITEMS = [
     ),
   },
   {
-    href: "/content",
+    href: "/admin/content",
     label: "CREATE",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
@@ -26,7 +26,7 @@ const NAV_ITEMS = [
     ),
   },
   {
-    href: "/content/published",
+    href: "/admin/content/published",
     label: "PUBLISHED",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
@@ -36,7 +36,7 @@ const NAV_ITEMS = [
     ),
   },
   {
-    href: "/analytics",
+    href: "/admin/analytics",
     label: "ANALYTICS",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
@@ -155,7 +155,7 @@ export function Sidebar() {
           >
             {item.icon}
             <span>{item.label}</span>
-            {item.href === "/content" && draftCount !== null && draftCount > 0 && (
+            {item.href === "/admin/content" && draftCount !== null && draftCount > 0 && (
               <span
                 style={{
                   background: "var(--accent-fresh, #00e676)",

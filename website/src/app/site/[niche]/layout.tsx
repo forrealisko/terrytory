@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Fraunces } from "next/font/google";
 import { isValidNiche, magBasePath, nicheBrand } from "@/lib/site";
-import "./magazine.css";
+import "@/styles/magazine.css";
 
 const display = Fraunces({
   subsets: ["latin"],
