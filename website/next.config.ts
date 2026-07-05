@@ -9,9 +9,6 @@ import path from "node:path";
 const repoRoot = path.join(process.cwd(), "..");
 
 const nextConfig: NextConfig = {
-  // Pre-existing lint nits live in the admin dashboard only; don't let them
-  // block a production deploy. Run `npm run lint` to see/fix them.
-  eslint: { ignoreDuringBuilds: true },
   outputFileTracingRoot: repoRoot,
   outputFileTracingIncludes: {
     "/**": [
