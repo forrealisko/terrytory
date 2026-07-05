@@ -1,0 +1,19 @@
+{
+  "id": "2efd0a10-1615-4a32-9349-1d871ffef811",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:55.029Z",
+  "status": "pending",
+  "headline": "In-Flight Wi-Fi Woes: Why Your 'Fast, Free' Connection is Slowing Down and What's Next",
+  "rating": 8.8,
+  "reasoning": "This topic has high travel relevance as in-flight Wi-Fi directly impacts passenger experience and productivity. It offers timely information on current issues and future improvements, allowing readers to set expectations or plan accordingly. The source, The Points Guy, is a highly credible travel publication known for its industry insights.",
+  "summary": "Many airlines' 'fast, free' in-flight Wi-Fi has become sluggish due to increased usage and satellite issues with providers like Viasat and older Panasonic tech. However, new satellite launches and upgrades to Starlink and Amazon-backed services promise significant improvements in the near future.",
+  "source_articles": [
+    {
+      "source_id": "thepointsguy",
+      "source_name": "The Points Guy",
+      "title": "Was the 'fast, free' Wi-Fi really slow on your flight, too? Here's what's going on",
+      "url": "https://thepointsguy.com/news/airline-wifi-problems/",
+      "excerpt": "Airlines have made big promises about \"fast, free\" inflight Wi-Fi. But passengers have run into problems logging on during recent flights."
+    }
+  ]
+}

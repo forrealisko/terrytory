@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "created_at": "2026-07-03T15:10:31.317Z",
+  "last_scrape": "2026-07-03T15:10:33.748Z",
+  "total_scrapes": 1,
+  "seen_hashes": {
+    "d236000049480e76": {
+      "first_seen": "2026-07-03T15:10:33.745Z",
+      "last_seen": "2026-07-03T15:10:33.745Z",
+      "title": "Turkey Quietly Built One of the World’s Most Complete Travel Tech Stacks",
+      "url": "https://skift.com/2026/07/03/turkey-quietly-built-one-of-the-worlds-most-complete-travel-tech-stacks/"
+    },
+    "368fef96d1c2d069": {
+      "first_seen": "2026-07-03T15:10:33.745Z",
+      "last_seen": "2026-07-03T15:10:33.745Z",
+      "title": "Cabo Verde Has Made History at the World Cup. Can It Convert Attention Into Bookings?",
+      "url": "https://skift.com/2026/07/02/cabo-verde-world-cup-tourism-surge/"
+    },
+    "6616a0f458d662cb": {
+      "first_seen": "2026-07-03T15:10:33.745Z",
+      "last_seen": "2026-07-03T15:10:33.745Z",
+      "title": "Marriott Outspends Rivals on TV, But Airbnb Owns the World Cup",
+      "url": "https://skift.com/2026/07/02/marriott-outspends-rivals-on-tv-but-airbnb-owns-the-world-cup/"
+    },
+    "dd3de6e4c1758547": {
+      "first_seen": "2026-07-03T15:10:33.745Z",
+      "last_seen": "2026-07-03T15:10:33.745Z",
+      "title": "OTAs Are Betting on Traveler Trust. But the Scramble Is On to Win the Trust of AI Agents",
+      "url": "https://skift.com/2026/07/02/otas-are-betting-on-traveler-trust-but-the-scramble-is-on-to-win-the-trust-of-ai-agents/"
+    },
+    "d751b6b4535a9c93": {
+      "first_seen": "2026-07-03T15:10:33.746Z",
+      "last_seen": "2026-07-03T15:10:33.746Z",
+      "title": "Noble Investment Group’s Extended-Stay Bet Is Behind a 149-Hotel Buying Spree",
+      "url": "https://skift.com/2026/07/02/noble-investment-groups-extended-stay-bet-is-behind-a-149-hotel-buying-spree/"
+    },
+    "8b8cb04fcbe1af9c": {
+      "first_seen": "2026-07-03T15:10:33.746Z",
+      "last_seen": "2026-07-03T15:10:33.746Z",
+      "title": "UAE Bets on Discounts, Insurance, and New Visa Markets to Refill Hotel Rooms After Iran War Hit",
+      "url": "https://skift.com/2026/07/02/uae-bets-on-discounts-insurance-and-new-visa-markets-to-refill-hotel-rooms-after-iran-war-hit/"
+    },
+    "9f2f7b6c6dcd6c3f": {
+      "first_seen": "2026-07-03T15:10:33.746Z",
+      "last_seen": "2026-07-03T15:10:33.746Z",
+      "title": "Booking.com Built Its India Business on Leisure — Now It’s Going Corporate",
+      "url": "https://skift.com/2026/07/01/booking-com-built-its-india-business-on-leisure-now-its-going-corporate/"
+    },
+    "fc53ff679fb903cb": {
+      "first_seen": "2026-07-03T15:10:33.746Z",
+      "last_seen": "2026-07-03T15:10:33.746Z",
+      "title": "Expedia’s First IShowSpeed Video Brought Awareness. The Latest Pushes for Bookings.",
+      "url": "https://skift.com/2026/07/01/expedia-ishowspeed-bookable-video/"
+    },
+    "9725c69795bb849d": {
+      "first_seen": "2026-07-03T15:10:33.746Z",
+      "last_seen": "2026-07-03T15:10:33.746Z",
+      "title": "Trump Administration Moves to Repeal Obama’s Airfare Transparency Rule",
+      "url": "https://skift.com/2026/07/01/trump-administration-moves-to-repeal-obamas-airfare-transparency-rule/"
+    },
+    "6005dedf7f66a3b2": {
+      "first_seen": "2026-07-03T15:10:33.746Z",
+      "last_seen": "2026-07-03T15:10:33.746Z",
+      "title": "American Launches Flights to Tokyo From Chicago O’Hare as It Looks to Rebuild Hub and Take on United",
+      "url": "https://skift.com/2026/07/01/american-launches-flights-to-tokyo-from-chicago-ohare-as-it-looks-to-rebuild-hub/"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 10
+  }
+}

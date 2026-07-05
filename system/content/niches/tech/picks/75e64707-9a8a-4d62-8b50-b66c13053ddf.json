@@ -1,0 +1,19 @@
+{
+  "id": "75e64707-9a8a-4d62-8b50-b66c13053ddf",
+  "niche": "tech",
+  "created_at": "2026-07-03T21:09:54.254Z",
+  "status": "pending",
+  "headline": "PlayStation's All-Digital Future: A Blow to Game Preservation and Consumer Rights",
+  "rating": 9.2,
+  "reasoning": "This topic is highly relevant to technology, focusing on a major platform holder's strategic shift in content distribution and its implications for hardware, software, and consumer experience. The decision to eliminate physical game discs and shutter older digital storefronts represents a significant, newsworthy change with long-term consequences for game preservation and digital rights management. It offers substantial reader value by highlighting an anti-consumer trend and sparking important discussions about the future of gaming ownership.",
+  "summary": "Sony's PlayStation is moving towards an all-digital future by ending physical game disc production by 2028 and shutting down PS3 and Vita digital storefronts, raising significant concerns about game preservation and consumer ownership rights.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "PlayStation just struck a hammer blow to game preservation",
+      "url": "https://www.engadget.com/2207297/playstation-just-struck-a-hammer-blow-to-game-preservation/",
+      "excerpt": "Killing game discs is an anti-consumer move that only benefits Sony."
+    }
+  ]
+}

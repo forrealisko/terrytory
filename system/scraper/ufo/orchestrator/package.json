@@ -1,0 +1,10 @@
+{
+  "name": "ufo-orchestrator",
+  "version": "1.0.0",
+  "description": "Runs all 3 UFO scrapers and merges new headlines into a digest. Fires every 12h via launchd.",
+  "type": "module",
+  "scripts": {
+    "start": "node run.mjs",
+    "test": "node run.mjs --dry-run"
+  }
+}

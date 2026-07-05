@@ -1,0 +1,592 @@
+{
+  "meta": {
+    "scrape_id": "470ce5fb-79f6-4fa7-bec1-f9addec01053",
+    "scraped_at": "2026-07-03T15:10:31.315Z",
+    "source_url": "https://onemileatatime.com/feed/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "brightdata-residential",
+    "total_headlines": 25,
+    "new_headlines": 25,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Chase Sapphire Preferred Hotel Credit: Any Catch To This Easy $100 Benefit?",
+      "url": "https://onemileatatime.com/guides/chase-sapphire-preferred-hotel-credit/",
+      "article_date": "2026-07-03T14:56:00.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "There’s a lot to love about the Chase Sapphire Preferred Card (learn more), including the card’s great return on spending and bonus categories. One of the other awesome perks worth being aware of is the Chase Sapphire Preferred hotel credit, which can get you up to $100 of value per year, for eligible bookings through Chase Travel.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2021/03/Hyatt-Centric-New-Orleans-32-1.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Chase"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T14:56:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 78,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "TSA’s Crewmember Access Point (CMAP) Replaces Known Crewmember (KCM)",
+      "url": "https://onemileatatime.com/news/tsa-crewmember-access-point-replaces-known-crewmember/",
+      "article_date": "2026-07-03T13:18:27.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Airline pilots and flight attendants are able to sign up for a program that gives them a special way to bypass security at airports, completely different from the screening process that passengers are used to. Historically, this has been referred to as the Known Crewmember (KCM) program. However, that program is in the process of being discontinued, and is being replaced by the Crewmember Access P…",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2025/01/Known-Crewmember-Access-Point.jpg?width=1200&quality=75&height=851&aspect_ratio=1200%3A851",
+      "categories": [
+        "TSA"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T13:18:27.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Air France Removes All Foreign Drinks In First & Business Class… Except One",
+      "url": "https://onemileatatime.com/news/air-france-removes-foreign-drinks-first-business-class/",
+      "article_date": "2026-07-03T12:37:06.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "France is a country loved around the world for its culture, including gastronomy and fashion. That’s a major competitive advantage for national carrier Air France, and makes the airline very appealing, including among premium passengers.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2025/06/Air-France-La-Premiere-First-Class-Suite-13.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Air France"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T12:37:06.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 45,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "United CEO Scott Kirby: United Is World’s Best Airline, USA Is World’s Best Country",
+      "url": "https://onemileatatime.com/news/united-ceo-scott-kirby-united-worlds-best-airline-usa-worlds-best-country/",
+      "article_date": "2026-07-03T11:00:46.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "United Airlines CEO Scott Kirby has just published his July 4th message to employees at the airline, as shared by Live and Let’s Fly. To Kirby’s credit, he’s consistent in his messaging. That being said, he sure takes some liberties both with how he views his airline, and how he ”ranks” the United States…",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2023/04/United-Boeing-787-Chicago.jpg?width=1200&quality=75&height=893&aspect_ratio=1200%3A893",
+      "categories": [
+        "United Airlines"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T11:00:46.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 40,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "The Surprising Frontrunner For The Air Canada CEO Job (Non-French Speaker!)",
+      "url": "https://onemileatatime.com/news/surprising-frontrunner-air-canada-ceo-job/",
+      "article_date": "2026-07-03T10:30:32.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Several weeks ago, we learned how Air Canada CEO Michael Rousseau would be ”retiring.” This followed the Air Canada accident at LaGuardia, where Rousseau was under fire in Quebec for his inability to speak French, a consistent theme of his tenure.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2024/10/Air-Canada-Boeing-787.jpeg?width=1200&quality=75&height=855&aspect_ratio=80%3A57",
+      "categories": [
+        "Air Canada"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T10:30:32.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 65,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Lufthansa First Class Awards With Partner Miles: I Assume It’s The End",
+      "url": "https://onemileatatime.com/insights/lufthansa-first-class-awards-partner-miles/",
+      "article_date": "2026-07-03T04:05:01.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "As of June 1, 2026, Lufthansa completely stopped releasing first class award space to partner frequent flyer programs. This wasn’t the first time that had happened on a temporary basis, but as I noted, this time around definitely felt different. This ”outage” has also lasted longer than we’ve ever seen before. Now that this has consistently been the case for over a month, I’d like to take an updat…",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2023/08/Lufthansa-First-Class-A380-99.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Lufthansa"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T04:05:01.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 95,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Chase Sapphire Preferred Bonus Hits 100K Points — Here’s What To Consider",
+      "url": "https://onemileatatime.com/deals/chase-sapphire-preferred-bonus/",
+      "article_date": "2026-07-02T18:03:53.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "The Chase Sapphire Preferred Card has recently undergone a major refresh, and the changes are a mixed bag, with some people better off, and some worse off. It’s still one of my top recommendations for beginners and people who value Chase Ultimate Rewards points, and don’t mind the recent Hyatt devaluation (or are willing to pair this card with one that makes the devaluation immaterial).",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2021/03/Alila-Ventana-Big-Sur-Suite.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Chase"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T18:03:53.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 92,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Chase Sapphire Reserve Offering Marriott Bonvoy Gold Status Challenge",
+      "url": "https://onemileatatime.com/deals/chase-sapphire-reserve-marriott-bonvoy-bonvoy-gold/",
+      "article_date": "2026-07-02T18:02:33.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Thanks to a new promotion, Chase Sapphire Reserve cardmembers can receive Marriott Bonvoy Gold status for three months, and then extend it with qualifying activity. While I wouldn’t say this is the most exciting offer ever, I’m sure it’ll still come in handy for some. A similar promotion has been offered the past few years, and it’s now available once again.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2026/03/Singapore-EDITION-17.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Chase",
+        "Marriott Bonvoy"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T18:02:33.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Delta Pilots Subtly Blame Management For “Unacceptable” Flight Reliability",
+      "url": "https://onemileatatime.com/news/delta-pilots-blame-management-unacceptable-flight-reliability/",
+      "article_date": "2026-07-02T12:55:00.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Delta Air Lines’ pilot union has set up a website to apologize to customers for the carrier’s declining operational reliability. The site is genuinely useful and comes across as just being intended to help, but the undertone here is very clear. I must say, this is very well played on the part of the union.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2025/02/Delta-One-Lounge-New-York-JFK-61-1.jpeg?width=1200&quality=75&height=859&aspect_ratio=1200%3A859",
+      "categories": [
+        "Delta Air Lines"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T12:55:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "JetBlue “Blue First” First Class Rolling Out Fleetwide Starting In Late 2026",
+      "url": "https://onemileatatime.com/news/jetblue-first-class/",
+      "article_date": "2026-07-02T12:54:16.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "JetBlue is known for its excellent Mint business class experience, though the catch is that it’s only available on select premium routes. Fortunately some time ago, JetBlue announced plans to introduce a premium product throughout the rest of its fleet, more comparable to domestic first class.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2023/02/Bamboo-Airways-Business-Class-A321neo-59.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "JetBlue"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T12:54:16.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 60,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Are Doors On Business Class Seats A Big Deal, Or Just A Silly Gimmick?",
+      "url": "https://onemileatatime.com/insights/business-class-seats-doors/",
+      "article_date": "2026-07-02T11:16:52.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "We’re increasingly seeing airlines introduce business class seats with doors, which is something that most travelers are happy about. Of course we all have different preferences when it comes to seating arrangements, and there’s not a one-size-fits-all solution. Some people even prefer older generation business class seats, especially if traveling as a couple or family.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2022/05/Business-Class-Seat-Door.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Airline"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T11:16:52.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 10,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Plane Crashing Into Beijing’s Tallest Tower Blamed On “Personal Reasons”",
+      "url": "https://onemileatatime.com/news/plane-crash-beijing-tallest-tower-blamed-personal-reasons/",
+      "article_date": "2026-07-02T11:15:00.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Last week, a small plane crashed into Beijing’s tallest skyscraper — obviously this wasn’t an accident, and that’s a chilling reality, which has had implications for aviation throughout the country. There’s now an update, as the government claims it has completed its investigation, and has released more information about the pilot of the aircraft… sort of.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2026/06/Plane-Crashes-Beijing-Tower.jpg?width=1000&quality=75&height=720&aspect_ratio=25%3A18",
+      "categories": [
+        "Aviation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T11:15:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 85,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Alaska Atmos Rewards’ Global Getaways Award Sale: Save Up To 50%",
+      "url": "https://onemileatatime.com/deals/alaska-atmos-rewards-global-getaways/",
+      "article_date": "2026-07-02T10:11:36.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Alaska Atmos Rewards offers the Global Getaways promotion, whereby members can save on award tickets in select regions. While this promotion used to be quarterly, it’s now offered monthly, so there are more frequent offers, but a shorter booking window.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2025/11/Starlux-A330neo.jpg?width=1200&quality=75&height=895&aspect_ratio=240%3A179",
+      "categories": [
+        "Alaska Airlines Atmos Rewards"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T10:11:36.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 90,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Guide To United MileagePlus Elite Status Match & Challenge (Good Timing)",
+      "url": "https://onemileatatime.com/guides/united-status-match/",
+      "article_date": "2026-07-02T07:43:21.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "It’s common for airlines to offer some sort of status challenge or status match program, in order to lure frequent flyers who are loyal to competing airlines, but are considering a switch. In the United States, most major airlines offer some sort of a status match challenge opportunity, including Alaska, American, Delta, JetBlue, and Southwest.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2019/11/United-Polaris-767-25.jpg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "United MileagePlus"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T07:43:21.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 90,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Guide To Alaska Atmos Rewards Elite Status Match & Challenge (Ideal Timing)",
+      "url": "https://onemileatatime.com/guides/alaska-status-match/",
+      "article_date": "2026-07-02T07:25:12.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Its common for airlines to offer some sort of status challenge or status match program, in order to lure frequent flyers who are loyal to competing airlines, but are considering a switch. In the United States, most major airlines offer some sort of a status match challenge opportunity, including American, Delta, JetBlue, Southwest, and United.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2024/10/Alaska-737-MAX-First-Class-2.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Alaska Airlines Atmos Rewards"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T07:25:12.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "American Airlines Adds Chicago To Tokyo Narita Route: Cool But Sort Of Boring",
+      "url": "https://onemileatatime.com/news/american-airlines-chicago-tokyo-narita-flights/",
+      "article_date": "2026-07-01T16:46:54.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "American Airlines has revealed plans to launch a new daily flight between Chicago and Tokyo, which is a route resumption, and also represents American’s return of Asia flying out of Chicago. I’m delighted to see American adding new long haul service, though this is also about as boring as it gets (which isn’t to say it’s a bad idea, but…).",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2023/01/American-787-8-Miami.jpg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "American Airlines"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T16:46:54.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 15,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Awful: Royal Jordanian Crew Involved In Fatal New York Bus Crash After Flight",
+      "url": "https://onemileatatime.com/news/royal-jordanian-crew-fatal-new-york-bus-crash-after-flight/",
+      "article_date": "2026-07-01T14:30:16.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Royal Jordanian Airlines has suffered a major loss, after its crew was involved in a serious vehicle accident in New York, on their way to the crew hotel on a layover. There’s often the saying that the most dangerous part of flying is getting to and from the airport, and this is a somber reminder of that reality.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2026/04/Royal-Jordanian-Business-Class-Embraer-E190-E2-12-1.jpeg?width=1200&quality=75&height=888&aspect_ratio=50%3A37",
+      "categories": [
+        "Royal Jordanian"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T14:30:16.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 50,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Marriott Makes The Switch To Coca-Cola, After 34 Years Of Pepsi Exclusivity",
+      "url": "https://onemileatatime.com/news/marriott-coca-cola/",
+      "article_date": "2026-07-01T14:25:26.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Several weeks ago, we learned how Marriott will be making the switch from Pepsi to Coke across its properties globally. The timeline wasn’t clear at the time, so there’s now an update, as we should start seeing this phased rollout immediately. I imagine most people will be happy to hear this, but of course not everyone will agree!",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2025/07/Koenigshof-Munich-Marriott-Luxury-Collection-80.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Marriott"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T14:25:26.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 88,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Marriott Bonvoy & United MileagePlus Dual Accrual Promotion (Complex)",
+      "url": "https://onemileatatime.com/deals/marriott-bonvoy-united-mileageplus-promotion/",
+      "article_date": "2026-07-01T14:20:23.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "Marriott Bonvoy and United MileagePlus have a partnership, offering some reciprocal perks and opportunities. The two programs have just launched a new promotion that incentivizes summer travel, available to select elite members of both programs.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2023/09/Roomers-Baden-Baden-52.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Marriott Bonvoy",
+        "United MileagePlus"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T14:20:23.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 95,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Transfer Amex Points To Virgin Atlantic Flying Club With 30% Bonus: Worth It?",
+      "url": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
+      "article_date": "2026-07-01T13:41:40.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "The Amex Membership Rewards program has just launched a new 30% transfer bonus to Virgin Atlantic Flying Club. While Flying Club is in some ways a niche program, this is a deal that has the potential to offer outsized value, and I’m sure it will interest many people. I’d probably speculatively take advantage of this, except for the fact that I moved a bunch of points last year when there was a 40%…",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2023/03/Virgin-Atlantic-Upper-Class-A330neo-23.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "American Express",
+        "Virgin Atlantic Flying Club"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T13:41:40.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 95,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Transfer Amex Points To Hilton Honors With 20% Bonus: Worth It?",
+      "url": "https://onemileatatime.com/deals/amex-hilton-transfer-bonus/",
+      "article_date": "2026-07-01T13:28:34.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "The American Express Membership Rewards program has just launched a new 20% transfer bonus to Hilton Honors. We see transfer bonuses between the programs with some frequency. While this offer might sound nice, especially with the 1:2 transfer ratio in the first place (before the bonus), this isn’t an offer I’d personally recommend taking advantage of. However, everyone has to decide for themselves…",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2019/11/Waldorf-Astoria-Beverly-Hills-9.jpg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "American Express Membership Rewards",
+        "Hilton Honors"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T13:28:34.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 90,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Air France-KLM Flying Blue Promo Rewards: Save 25% On Select Awards",
+      "url": "https://onemileatatime.com/deals/flying-blue-promo-rewards/",
+      "article_date": "2026-07-01T13:18:37.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "The Air France-KLM Flying Blue program has its monthly Promo Rewards promotion, whereby members can save 25% on select award tickets over a limited travel period. The program has just published its new Promo Rewards list for July 2026, offering discounted short haul and long haul awards for travel over the coming months.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2024/02/KLM-Business-Class-777-13.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Flying Blue"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T13:18:37.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 85,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "CLEAR+ Membership Price Increases (Again), Amex Credits Also Bumped",
+      "url": "https://onemileatatime.com/news/clear-membership-price-increase/",
+      "article_date": "2026-07-01T11:00:09.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "CLEAR is a technology company that helps with expediting clearing of security at select US airports. The company stores the biometric data of members, allowing them to (typically) skip the ID check, and get straight into the security line. Combined with TSA PreCheck, this is the best setup you can have for clearing security in the US.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2017/07/Clear-Security-2.jpg?width=1200&quality=75&height=1048&aspect_ratio=150%3A131",
+      "categories": [
+        "Security"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T11:00:09.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 95,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Transfer Capital One Miles To EVA Air With 30% Bonus: This Could Be Worth It",
+      "url": "https://onemileatatime.com/deals/capital-one-eva-air-transfer-bonus/",
+      "article_date": "2026-07-01T10:30:07.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "The Capital One mileage program has just launched its newest transfer bonus, to EVA Air Infinity MileageLands. Typically the transfer ratio between the programs is significantly less than 1:1, while this bonus gets it to very close to 1:1.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2023/11/EVA-Air-Boeing-787-4.jpeg?width=1200&quality=75&height=900&aspect_ratio=4%3A3",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T10:30:07.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 90,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Chase Freedom Flex Categories: How To Earn 5x Points For Q3 2026",
+      "url": "https://onemileatatime.com/guides/chase-freedom-flex-bonus-categories/",
+      "article_date": "2026-07-01T10:00:32.000Z",
+      "article_date_raw": null,
+      "author": "Ben Schlappig",
+      "excerpt": "The Chase Freedom Flex Credit Card(learn more) is a useful no annual fee card belonging to Chase’s Freedom portfolio, which can help you maximize your points, thanks to its quarterly bonus categories. With it now being a new quarter, Chase has just launched its Q3 2026 bonus categories, so this is a great time to register.",
+      "image_url": "https://cdn.onemileatatime.com/wp-content/uploads/2020/07/Road-Trip-21.jpg?width=1200&quality=75&height=763&aspect_ratio=1200%3A763",
+      "categories": [
+        "Chase"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T10:00:32.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    }
+  ]
+}

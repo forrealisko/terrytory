@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "scrape_id": "905331c5-950a-4561-9540-53006dec3d02",
+    "scraped_at": "2026-06-25T16:16:27.149Z",
+    "source_url": "https://www.liberationtimes.com/",
+    "scraper_version": "1.0.0",
+    "total_headlines": 20,
+    "new_headlines": 0,
+    "previously_seen": 20
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "The Architecture of Secrecy: MJ-12, Recovered Craft and the Origins of a UFO Legacy Program",
+      "url": "https://www.liberationtimes.com/home/the-architecture-of-secrecy-mj-12-recovered-craft-and-the-origins-of-a-ufo-legacy-program",
+      "article_date": null,
+      "article_date_raw": "Jun 17, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "If you believe the documents, the architecture of the greatest secret alive today can be seen being built. It begins in the late 1940s, in the shadow of World War Two.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.755Z"
+    },
+    {
+      "type": "article",
+      "title": "U.S. Government Establishes New Interagency UAP Governance Board to Coordinate Investigations and Declassification",
+      "url": "https://www.liberationtimes.com/home/us-establishes-new-interagency-uap-governance-board-to-coordinate-investigations-and-declassification",
+      "article_date": null,
+      "article_date_raw": "Jun 16, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "The U.S. government has established a new interagency body to coordinate UAP investigations, improve the collection and analysis of relevant data, and assist with the declassification of UAP-related information, according to an official from the Office of the Director of National Intelligence (ODNI).",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.755Z"
+    },
+    {
+      "type": "article",
+      "title": "Disclosure Day: What Happens the Day After?",
+      "url": "https://www.liberationtimes.com/home/disclosure-day-what-happens-the-day-after",
+      "article_date": null,
+      "article_date_raw": "Jun 14, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "Steven Spielberg's new film Disclosure Day ends at the moment when the real story would begin. The world has just learned that it is not alone.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.755Z"
+    },
+    {
+      "type": "article",
+      "title": "The Two Senators Who Could Push UFO Disclosure Over the Line",
+      "url": "https://www.liberationtimes.com/home/the-two-senators-who-could-push-ufo-disclosure-over-the-line",
+      "article_date": null,
+      "article_date_raw": "Jun 08, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "On Tuesday at 1 pm, a whistleblower and four members of Congress will stand on the steps of the U.S. Capitol and ask their own government to stop hiding the truth about UFOs and non-human intelligence.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.755Z"
+    },
+    {
+      "type": "article",
+      "title": "Lue Elizondo: “There’s No Going Back” on UFO Disclosure",
+      "url": "https://www.liberationtimes.com/home/lue-elizondo-theres-no-going-back-on-ufo-disclosure",
+      "article_date": null,
+      "article_date_raw": "Jun 03, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "It has been almost a decade since Lue Elizondo first emerged as one of the most prominent public faces of the modern UFO / UAP issue, following the New York Times’ 2017 reporting on AATIP, the Pentagon’s secretive Advanced Aerospace Threat Identification Program.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Trump, The Vatican And The Market Shock: Inside The Growing Disclosure Debate",
+      "url": "https://www.liberationtimes.com/home/trump-the-vatican-and-the-market-shock-inside-the-growing-disclosure-debate",
+      "article_date": null,
+      "article_date_raw": "May 30, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "Following recent reporting that White House and defense officials have sought advice on how to prepare the public for a possible announcement regarding UAP and non-human intelligence, Liberation Times has spoken to additional sources who believe the consequences of such a moment would extend far beyond Washington.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Meet the Investor Betting UFO Disclosure Will Move Markets",
+      "url": "https://www.liberationtimes.com/home/meet-the-investor-betting-ufo-disclosure-will-move-markets",
+      "article_date": null,
+      "article_date_raw": "May 20, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "Matthew Tuttle is no stranger to unconventional investments. But with the Tuttle Capital UFO Disclosure ETF – ticker symbol UFOD – the chief executive and chief investment officer of Connecticut-based Tuttle Capital Management may have made the defining bet of his career: that UFO disclosure will not just reshape politics and culture, but markets too.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "UFO Disclosure Battle Commences As Trump Administration Releases Files",
+      "url": "https://www.liberationtimes.com/home/ufo-disclosure-battle-commences-as-trump-administration-releases-files",
+      "article_date": null,
+      "article_date_raw": "May 10, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "President Donald Trump’s administration has done something unprecedented. It has committed itself to UFO transparency, putting its weight and authority behind a series of intriguing files, images and videos.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "The Pentagon’s UFO Office Knows They’re Real. But Can It Tell the Truth?",
+      "url": "https://www.liberationtimes.com/home/the-pentagons-ufo-office-knows-theyre-real-but-can-it-tell-the-truth",
+      "article_date": null,
+      "article_date_raw": "May 04, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "The official line: there are true anomalies which the head of the Pentagon’s UFO office does not understand with his physics and engineering background, and from his time in the Intelligence Community.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Late Air Force Officer Linked To Alleged Legacy UFO Program",
+      "url": "https://www.liberationtimes.com/home/late-air-force-officer-linked-to-alleged-legacy-ufo-program",
+      "article_date": null,
+      "article_date_raw": "Apr 24, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "The late U.S. Air Force intelligence officer Matthew Sullivan, who died in 2024 before he could, according to Representative Eric Burlison, testify in a federal UFO whistleblower case, is understood by Liberation Times to have been involved in an alleged legacy UFO program.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "War Department Says White House Coordinating Release of Never-Before-Seen UFO Material",
+      "url": "https://www.liberationtimes.com/home/war-department-says-white-house-coordinating-release-of-never-before-seen-ufo-material",
+      "article_date": null,
+      "article_date_raw": "Apr 14, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "A War Department official has told Liberation Times that the Pentagon’s dedicated UFO office is working with the White House and federal agencies to prepare the release of previously unseen Unidentified Anomalous Phenomena (UAP) material.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Evidence, Drones and the UFO Debate",
+      "url": "https://www.liberationtimes.com/home/evidence-drones-and-the-ufo-debate",
+      "article_date": null,
+      "article_date_raw": "Apr 10, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "The first and most immediately obvious takeaway is that European NATO states have major problems of their own in the Baltic Sea, North Sea, Black Sea, Atlantic Ocean, Arctic and English Channel, just as President Trump wants them to deploy scarce, precious naval resources to the Straits of Hormuz.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Newly Released Records Reveal Drone Incursions, Including Triangular Object With Spotlight, Above U.S. Nuclear Sites",
+      "url": "https://www.liberationtimes.com/home/newly-released-records-reveal-drone-incursions-including-triangular-object-with-spotlight-above-us-nuclear-sites",
+      "article_date": null,
+      "article_date_raw": "Apr 08, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "Liberation Times has obtained records detailing drone incidents around sensitive U.S. nuclear facilities. The documents point to a spate of activity around critical infrastructure between September 2022 and February 2023.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Director of National Intelligence UFO Inquiry Rocked by Claims of Whistleblower Smears and Intimidation",
+      "url": "https://www.liberationtimes.com/home/director-of-national-intelligence-ufo-inquiry-rocked-by-claims-of-whistleblower-smears-and-intimidation",
+      "article_date": null,
+      "article_date_raw": "Mar 27, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "An alleged Unidentified Anomalous Phenomena (UAP) investigation overseen by the Office of the Director of National Intelligence (ODNI) has come under scrutiny over claims of whistleblower intimidation, false allegations and efforts to discredit those who came forward.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "The Missing General: Neil McCasland, UFO Claims and an Unfolding Mystery",
+      "url": "https://www.liberationtimes.com/home/the-missing-general-neil-mccasland-ufo-claims-and-an-unfolding-mystery",
+      "article_date": null,
+      "article_date_raw": "Mar 16, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "Two weeks have now passed since retired U.S. Air Force General William ‘Neil’ McCasland vanished from the edge of Albuquerque, and the facts, such as they are, remain spare, cold and strangely resistant to meaning.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "An Invisible Atlantic Boundary Where UFO Reporting Changes",
+      "url": "https://www.liberationtimes.com/home/an-invisible-atlantic-boundary-where-ufo-reporting-changes",
+      "article_date": null,
+      "article_date_raw": "Mar 13, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "A passenger jet crossing the North Atlantic can move from one system for handling reports of unidentified objects to another without anything on board changing at all.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "White House-Approved Trip Allegedly Took Congressman to Maryland Base to Examine Suspected UFO Facility",
+      "url": "https://www.liberationtimes.com/home/white-house-approved-trip-allegedly-took-congressman-to-maryland-base-to-examine-suspected-ufo-facility",
+      "article_date": null,
+      "article_date_raw": "Mar 06, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "Liberation Times understands Representative Eric Burlison, a key congressional Unidentified Anomalous Phenomena advocate, visited Naval Air Station Patuxent River (Pax River) in Maryland last month on a White House-approved trip.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Obama, Trump and the New Push for UFO Disclosure",
+      "url": "https://www.liberationtimes.com/home/obama-trump-and-the-new-push-for-ufo-disclosure",
+      "article_date": null,
+      "article_date_raw": "Mar 04, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "Former President Barack Obama unleashed a storm, whether he meant to or not. When American podcast host Brian Tyler Cohen asked, “Are aliens real?”, Barack Obama gave an answer that exceeded expectations: “They’re real, but I haven’t seen them, and they’re not being kept in Area 51,” he said in the interview released on 14 February.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "New Footage Shows Mushroom-Shaped UFO Making Apparent Sudden Acceleration, Echoing CIA Director’s Warning to War Secretary",
+      "url": "https://www.liberationtimes.com/home/new-footage-shows-mushroom-shaped-ufo-making-apparent-sudden-acceleration-echoing-cia-directors-warning-to-defense-secretary",
+      "article_date": null,
+      "article_date_raw": "Feb 08, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "On a bitter Sunday morning in January 2023, as New York sat cold and dry beyond the Fox & Friends studio walls, former Director of National Intelligence John Ratcliffe said something that should have sent a chill through the American national security apparatus.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    },
+    {
+      "type": "article",
+      "title": "Russia, Drones, and the UFO Narrative",
+      "url": "https://www.liberationtimes.com/home/russia-drones-and-the-ufo-narrative",
+      "article_date": null,
+      "article_date_raw": "Feb 05, 2026",
+      "author": "Christopher Sharp",
+      "excerpt": "November to December 2024 saw some fascinating events at many strategically important Royal Air Force bases used by the Americans in the UK. They had all the ingredients for a genuinely anomalous UFO mystery: strange lights in the sky, multiple locations, repeat incidents, nuclear weapons, deployment of Special Forces, unknown actors, with the major East Anglia base cluster in a region already steeped in UFO history around airbases and nukes.",
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-19T22:32:58.756Z"
+    }
+  ]
+}

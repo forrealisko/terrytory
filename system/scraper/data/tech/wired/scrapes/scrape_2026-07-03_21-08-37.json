@@ -1,0 +1,899 @@
+{
+  "meta": {
+    "scrape_id": "23039807-b414-4cf7-90da-47ce72e2afca",
+    "scraped_at": "2026-07-03T21:08:37.299Z",
+    "source_url": "https://www.wired.com/feed/rss",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "brightdata-residential",
+    "total_headlines": 40,
+    "new_headlines": 40,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+      "article_date": "2026-07-03T18:13:15.000Z",
+      "article_date_raw": null,
+      "author": "Molly Taft",
+      "excerpt": "The companies’ Fourth of July plans include celebrating new reactor designs coming online. But there’s still a long way to go before they deliver energy at a meaningful scale.",
+      "image_url": "https://media.wired.com/photos/6a4458adca4ecb6c5b11ffa9/master/pass/Nuclear-Startups-Hit-Big-Milestone-Science.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T18:13:15.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
+      "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
+      "article_date": "2026-07-03T16:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Joel Khalili",
+      "excerpt": "During negotiations on Wednesday, employees voiced frustrations with what they consider an unwillingness among executives to engage meaningfully with the prospect of unionization.",
+      "image_url": "https://media.wired.com/photos/6a47cb0ef78eee0a42c7fd67/master/pass/GettyImages-2273112054.jpg",
+      "categories": [
+        "Business",
+        "Business / Big Tech",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T16:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
+      "url": "https://www.wired.com/gallery/best-bone-conduction-headphones/",
+      "article_date": "2026-07-03T11:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Michael Sawh",
+      "excerpt": "Everyone needs a safe way to listen to music on outdoor runs. We’ve found the bone conduction headphones to grab on your way out the door.",
+      "image_url": "https://media.wired.com/photos/6966abea428592e866cf6614/master/pass/The%20Best%20Bone%20Conduction%20Headphones.png",
+      "categories": [
+        "Gear / Buying Guides",
+        "Gear",
+        "Gear / Products / Audio"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T11:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "All Your Favorite Gadgets Are Getting Way More Expensive … Again",
+      "url": "https://www.wired.com/story/we-are-in-the-knockout-round-of-price-increases-for-consumer-electronics/",
+      "article_date": "2026-07-03T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Boone Ashworth",
+      "excerpt": "Thanks to the AI-driven chip shortage, prices for phones, computers, and consoles are sky-high—and still climbing.",
+      "image_url": "https://media.wired.com/photos/6a459359c28e761b85a7ec73/master/pass/gear_product_price_GettyImages-2281531744.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "7 Best Phones You Can’t Buy in the US (2026)",
+      "url": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/",
+      "article_date": "2026-07-03T10:31:00.000Z",
+      "article_date_raw": null,
+      "author": "Simon Hill",
+      "excerpt": "Avoid phone FOMO with our favorite smartphones that aren’t officially sold stateside but are available in markets like the UK and Europe.",
+      "image_url": "https://media.wired.com/photos/69bdf168d86dbf7bd47a3b44/master/pass/Best%20Non%20US%20Phones%20Update%202%20SOURCE%20Simon%20Hill.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Phones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T10:31:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "The FDA Ruled That ZYN Pouches Are Safer Than Cigarettes. That Doesn’t Mean They’re Safe",
+      "url": "https://www.wired.com/story/the-fda-ruled-that-zyn-pouches-are-safer-than-cigarettes-that-doesnt-mean-theyre-safe/",
+      "article_date": "2026-07-03T10:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Megan Tomos",
+      "excerpt": "ZYN nicotine pouches, the FDA found, can be advertised as a less-harmful option for adult smokers. But quitting all tobacco and nicotine products remains the best idea.",
+      "image_url": "https://media.wired.com/photos/6a456015f7e1e70ee2698ad5/master/pass/Zyn_Lead.jpg",
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T10:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI",
+      "url": "https://www.wired.com/story/the-best-ultralight-backpacking-quilts/",
+      "article_date": "2026-07-03T10:06:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "Lighten your pack this summer—skip the sleeping bag and carry one of our favorite ultralight backpacking quilts instead.",
+      "image_url": "https://media.wired.com/photos/6a4706d127890b0c3ffffb66/master/pass/The-Best-Ultralight-Backpacking-Quilts-for-Ounce-Counting-Cubicle-Refugees.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Outdoor"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T10:06:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "When the Law Kills Your Electric Car Dealership",
+      "url": "https://www.wired.com/story/when-the-law-kills-your-polestar-electric-car-dealership/",
+      "article_date": "2026-07-03T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Aarian Marshall",
+      "excerpt": "Dealers who invested in Polestar won’t be able to sell in the US next year after the federal government denied an authorization that would have allowed the company to avoid a Chinese tech ban.",
+      "image_url": "https://media.wired.com/photos/6a4544d1c28e761b85a7de2d/master/pass/What-Will-Polestar-Do-Now-Gear-1405480870.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T09:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "The 11 Best TV Shows to Stream This Month (July 2026)",
+      "url": "https://www.wired.com/story/the-11-best-shows-to-stream-right-now/",
+      "article_date": "2026-07-03T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Jennifer M. Wood",
+      "excerpt": "House of the Dragon, Adventure Time: Side Quests, and The Man Will Burn are just a few of the TV shows you should be watching right now.",
+      "image_url": "https://media.wired.com/photos/6a440581ba8a42527760db43/master/pass/Show-Guide-emma-d-arcy_2-Culture.jpg",
+      "categories": [
+        "Culture",
+        "Culture / TV"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy",
+      "url": "https://www.wired.com/story/sony-erases-digital-content-from-libraries/",
+      "article_date": "2026-07-03T08:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding, Ars Technica",
+      "excerpt": "In September, some PlayStation customers will no longer be able to access some purchased movies and shows. It underscores the fact that digital purchases are really more like long-term rentals.",
+      "image_url": "https://media.wired.com/photos/6a441f68bc1db6ab64698aad/master/pass/GettyImages-2272756692.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T08:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "EU Politicians Investigated Pegasus Spyware. Then It Ended Up on One of Their Phones",
+      "url": "https://www.wired.com/story/eu-politicians-investigated-pegasus-spyware-then-it-ended-up-on-one-of-their-phones/",
+      "article_date": "2026-07-03T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Lily Hay Newman, Matt Burgess",
+      "excerpt": "“It is a direct attack on the rule of law,” says one European Parliament member of the new findings from Citizen Lab.",
+      "image_url": "https://media.wired.com/photos/6a4666ebcb22d2a8724199f2/master/pass/GettyImages-128087200.jpg",
+      "categories": [
+        "Security",
+        "Security / Cyberattacks and Hacks"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It",
+      "url": "https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/",
+      "article_date": "2026-07-03T00:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Miles Klee",
+      "excerpt": "The satirical site is fighting to officially take over Infowars. In the meantime, CEO Ben Collins says the new show will mock “how fucking stupid” conspiratorial brain rot has become.",
+      "image_url": "https://media.wired.com/photos/6a46d189d3a3e66a651b0e66/master/pass/IMG_0190.png",
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T00:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "How Big Is ‘Love Island USA’? More Than 10 Million People Are Already on Its App",
+      "url": "https://www.wired.com/story/love-island-usa-app/",
+      "article_date": "2026-07-02T20:47:27.000Z",
+      "article_date_raw": null,
+      "author": "Reece Rogers",
+      "excerpt": "“We have more people voting on the ‘Love Island USA’ app than we do in many political elections taking place across the country,” says the show's executive producer.",
+      "image_url": "https://media.wired.com/photos/6a46af1af78eee0a42c7f75f/master/pass/GettyImages-2282580741.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T20:47:27.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Cries Foul",
+      "url": "https://www.wired.com/story/spotify-streaming-manipulation-prediction-markets-polymarket-kalshi/",
+      "article_date": "2026-07-02T18:30:59.000Z",
+      "article_date_raw": null,
+      "author": "Kate Knibbs",
+      "excerpt": "One of Kalshi’s most prominent traders tells WIRED he’s swearing off Spotify-related markets until the issue is resolved.",
+      "image_url": "https://media.wired.com/photos/6a467843a501cf42d472ee3c/master/pass/GettyImages-2277135438.jpg",
+      "categories": [
+        "Business"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T18:30:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
+      "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+      "article_date": "2026-07-02T18:01:20.000Z",
+      "article_date_raw": null,
+      "author": "Maxwell Zeff",
+      "excerpt": "Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.",
+      "image_url": "https://media.wired.com/photos/6a45a0b0f1efb2d48b192c77/master/pass/Model-Behavior-Cursor-Will-Keep-Using-Anthropic-OpenAI-Models-After-SpaceX-Deal-Business.jpg",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T18:01:20.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "The DEA Plans to Ban Opioid-Like Kratom Compound 7-OH",
+      "url": "https://www.wired.com/story/the-dea-plans-to-ban-kratom-compound-7-oh-sold-as-a-gas-station-opioid/",
+      "article_date": "2026-07-02T16:21:40.000Z",
+      "article_date_raw": null,
+      "author": "Manisha Krishnan",
+      "excerpt": "The federal agency says it will temporarily schedule the drug, which has been called “gas station heroin,” as a controlled substance—a boon for MAHA and the mainstream kratom industry.",
+      "image_url": "https://media.wired.com/photos/6a4665ffbc6a7b7d7a89d98f/master/pass/070226_Kratom.jpg",
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T16:21:40.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "7 Lesser-Known Google Account Settings You Should Change",
+      "url": "https://www.wired.com/story/7-google-account-settings-you-should-change/",
+      "article_date": "2026-07-02T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": "David Nield",
+      "excerpt": "Adjust your options for things like account recovery, ad personalization, and which parts of your Google profile are shared publicly.",
+      "image_url": "https://media.wired.com/photos/6a43de2b329ca5a09d2b7803/master/pass/Gear_7%20Lesser-Known%20Google%20Account%20Settings%20You%20Should%20Change_v3.jpg",
+      "categories": [
+        "Gear",
+        "Gear / How To and Advice"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "8 Best Travel Adapters (2026): My Top Recommendations",
+      "url": "https://www.wired.com/gallery/best-travel-adapters/",
+      "article_date": "2026-07-02T11:31:00.000Z",
+      "article_date_raw": null,
+      "author": "Simon Hill",
+      "excerpt": "When going abroad, the right plugs are essential to keep your gadgets charged. These are my favorite travel adapters and chargers.",
+      "image_url": "https://media.wired.com/photos/69f5039cd2f33f723151e0ca/master/pass/The-Best-Travel-Adapters.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Accessories"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T11:31:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Bublue BuVortex V5 Pool Skimmer Review: An Impractical Cleaner",
+      "url": "https://www.wired.com/review/bublue-buvortex-v5-pool-skimmer/",
+      "article_date": "2026-07-02T11:04:00.000Z",
+      "article_date_raw": null,
+      "author": "Christopher Null",
+      "excerpt": "The Bublue BuVortex V5 ditches conventional skimming for a vortex-powered design that’s fascinating to watch, even if it’s severely impractical.",
+      "image_url": "https://media.wired.com/photos/6a45f4c0043fba997ea268a9/master/pass/Review--Bublue-BuVortex-V5-Pool-Skimmer.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T11:04:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "How Trump Helped China Make America’s Cheapest EV",
+      "url": "https://www.wired.com/story/how-trump-helped-china-make-slate-americas-cheapest-ev/",
+      "article_date": "2026-07-02T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Aarian Marshall",
+      "excerpt": "Slate is the latest automaker to transition to lower-cost batteries perfected in China, driven in part by the repeal of EV tax credits that required materials to be sourced domestically.",
+      "image_url": "https://media.wired.com/photos/6a3ae9474f9749be536e0518/master/pass/GettyImages-2253542353.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment",
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "I Tried Rips, the Card-Pack App Where Users Spend Thousands Chasing Pricey Pokémon",
+      "url": "https://www.wired.com/story/i-tried-rips-the-card-pack-app-where-users-spend-thousands-chasing-pricey-pokemon/",
+      "article_date": "2026-07-02T10:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Reece Rogers",
+      "excerpt": "I ripped open $892 worth of Pokémon packs on my phone in under 15 minutes and walked away with 62 cents. My adrenaline rush felt like the future of gambling.",
+      "image_url": "https://media.wired.com/photos/6a458c4aeb0e5a0a10614037/master/pass/IMG_0914.PNG",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T10:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Inside the Luddite Festival Harnessing Gen Z’s Rage Against Big Tech",
+      "url": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "article_date": "2026-07-02T10:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Vittoria Elliott",
+      "excerpt": "New York City’s Summer of Ludd festival is teaching people how to live offline amid the suffocating presence of Big Tech.",
+      "image_url": "https://media.wired.com/photos/6a440cd07bfc78bf5e9f6406/master/pass/GenZ-Luddite-Summer-Culture-IMG_4448.jpg",
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T10:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech",
+      "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
+      "article_date": "2026-07-02T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Julian Chokkattu",
+      "excerpt": "You bought the hardware. Now you’ll need to subscribe for “expanded access” to the most advanced features.",
+      "image_url": "https://media.wired.com/photos/6a39b04cb817861918a9c777/master/pass/Meta%20Fury%20SOURCE%20Julian%20Chokkattu.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T09:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Heat Domes Are Dangerous. July Fourth Activities Will Make Things Worse",
+      "url": "https://www.wired.com/story/heat-domes-are-dangerous-july-fourth-activities-make-things-worse/",
+      "article_date": "2026-07-02T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Emily Mullin",
+      "excerpt": "Long hours outdoors, day drinking, and World Cup matches are among the factors raising the risks of heat-related illness, as hot weather spreads across the eastern US.",
+      "image_url": "https://media.wired.com/photos/6a4558d767fdeb11005ae06d/master/pass/Heat-Domes-Are-Dangerous-Science-2158401574.jpg",
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Paramount+ Coupon Codes and Deals for July 2026",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "image_url": "https://media.wired.com/photos/67b63b985c0507c1bb18ab66/master/pass/WIRED-Coupons-R2_14.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Dell Coupon Codes: 20% Off for July 2026",
+      "url": "https://www.wired.com/story/dell-coupon-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.",
+      "image_url": "https://media.wired.com/photos/66ea076e571d60947a48460b/master/pass/WIRED-Coupons-16.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Booking.com Promo Codes: 20% Off | July 2026",
+      "url": "https://www.wired.com/story/booking-com-promo-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals.",
+      "image_url": "https://media.wired.com/photos/66ea0770a11625d8759598b4/master/pass/WIRED-Coupons-8.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "B&H Photo Promo Codes and Deals This July 2026",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "image_url": "https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "30% Off Canon Promo Codes | July 2026",
+      "url": "https://www.wired.com/story/canon-promo-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this July.",
+      "image_url": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Walmart Promo Codes: Up to 65% Off for July 2026",
+      "url": "https://www.wired.com/story/top-walmart-promo-codes/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Score $10 off with our Walmart promo codes and coupon, and shop flash deals up to 65% off today.",
+      "image_url": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Hostinger Promo Code: 79% Off for July 2026",
+      "url": "https://www.wired.com/story/hostinger-coupon-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Discover exclusive Hostinger promo codes, discounts, and deals on web hosting, cloud plans, and domain registration. Save big on your next Hostinger purchase today.",
+      "image_url": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7a/master/pass/WIRED-Coupons-R2_9.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Squarespace Promo Codes: 20% Off in July 2026",
+      "url": "https://www.wired.com/story/squarespace-promo-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.",
+      "image_url": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "30% Off Samsung Promo Code | July 2026",
+      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "image_url": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Altra Running Promo Codes July 2026",
+      "url": "https://www.wired.com/story/altra-promo-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Adrienne So",
+      "excerpt": "Score big savings on Altra Running shoes with up to 50% off sale styles, 20% off select models, 10% off your first order when you sign up, plus free standard delivery on every purchase.",
+      "image_url": "https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Whoop Promo Codes: 20% Off This July 2026",
+      "url": "https://www.wired.com/story/whoop-promo-code/",
+      "article_date": "2026-07-02T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Boutayna Chokrane",
+      "excerpt": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of your fitness goals for less.",
+      "image_url": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "The Best July 4 Grill and Griddle Deals: Weber, Traeger, Recteq",
+      "url": "https://www.wired.com/story/best-grill-griddle-deals-july-4-2026/",
+      "article_date": "2026-07-01T23:16:11.000Z",
+      "article_date_raw": null,
+      "author": "Matthew Korfhage",
+      "excerpt": "Fourth of July weekend is the last great grill and griddle sale of the summer, including $250 off my favorite pellet smoker.",
+      "image_url": "https://media.wired.com/photos/6a45e7443a2aaf342dba2557/master/pass/The-Best-July-4-Grill-Deals-of-2026-on-WIRED%E2%80%99s-Top-Picks.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home",
+        "Gear / Products / Outdoor",
+        "Gear / Products / Kitchen"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T23:16:11.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Mexico’s Victory Over Ecuador Made the Ground Shake. Was It an Artificial Earthquake?",
+      "url": "https://www.wired.com/story/mexicos-victory-over-ecuador-artificial-earthquake/",
+      "article_date": "2026-07-01T21:34:03.000Z",
+      "article_date_raw": null,
+      "author": "Fernanda González",
+      "excerpt": "Fans’ euphoric reactions to the Mexican national team’s recent victory in the 2026 World Cup caused a series of unusual vibrations that were detected by seismic warning systems.",
+      "image_url": "https://media.wired.com/photos/6a4578b359073610a9b6b035/master/pass/seleccionnacional.jpg",
+      "categories": [
+        "Science"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T21:34:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Goose, a New Gay Dating App, Appears to Be a Psyop",
+      "url": "https://www.wired.com/story/goose-a-new-gay-dating-app-appears-to-be-a-psyop/",
+      "article_date": "2026-07-01T20:28:57.000Z",
+      "article_date_raw": null,
+      "author": "Ej Dickson",
+      "excerpt": "Touted as a less-hookup-focused Grindr, Goose is an invite-only space for gay men. The problem is the people promoting it don’t seem real.",
+      "image_url": "https://media.wired.com/photos/6a457cf259073610a9b6b04c/master/pass/Goose-New-Gay-Dating-App-Appears-to-Be-Psyop-Culture-86489432.jpg",
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T20:28:57.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "An Explosion Knocked Out Anduril’s Rocket Motor Test Site in Mississippi",
+      "url": "https://www.wired.com/story/anduril-mississippi-explosion-missiles-rocket-motor/",
+      "article_date": "2026-07-01T19:29:21.000Z",
+      "article_date_raw": null,
+      "author": "Paresh Dave",
+      "excerpt": "The incident could disrupt a key part of the defense company’s rocket motor business, which designs and tests prototype motors for military customers.",
+      "image_url": "https://media.wired.com/photos/6a454ecdc28e761b85a7de34/master/pass/Explosion-Knocked-Out-Anduril-Rocket-Motor-Test-Site-Business-2239733185.jpg",
+      "categories": [
+        "Business",
+        "Business / Startups"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T19:29:21.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "You Can Now Sound the Alarm on AI Behaving Badly",
+      "url": "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/",
+      "article_date": "2026-07-01T18:10:00.000Z",
+      "article_date_raw": null,
+      "author": "Will Knight",
+      "excerpt": "Are you worried your AI chatbot is trying to build a bomb or leak personal information about you? There’s a website for that.",
+      "image_url": "https://media.wired.com/photos/6a42d38427caad328b221827/master/pass/AI-Lab-Ring-Alarm-on-AI-Business.jpg",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-01T18:10:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    }
+  ]
+}

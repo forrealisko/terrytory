@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "created_at": "2026-07-03T21:08:51.886Z",
+  "last_scrape": "2026-07-03T21:08:55.882Z",
+  "total_scrapes": 1,
+  "seen_hashes": {
+    "70ae8fcbe6ecc488": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "The Space Shuttle Endeavour goes on public display later this year",
+      "url": "https://www.engadget.com/2207813/space-shuttle-endeavour-goes-on-public-display-later-this-year/"
+    },
+    "9ddc89083406860b": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "International Google Pixels are different than American models - here's how",
+      "url": "https://www.engadget.com/2205901/how-international-google-pixel-phones-different-american/"
+    },
+    "00eabe4de0dcd73d": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "How to watch Summer Games Done Quick 2026",
+      "url": "https://www.engadget.com/2207676/how-to-watch-summer-games-done-quick-2026/"
+    },
+    "0d596510766a1584": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Amazon's Fire HD 10 tablet just got a refresh with a bit more RAM",
+      "url": "https://www.engadget.com/2207669/amazon-fire-hd-10-ram-refresh/"
+    },
+    "b06970674b57dc25": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Engadget Podcast: Who needs Valve's Steam Machine?",
+      "url": "https://www.engadget.com/2207598/engadget-podcast-who-needs-valve-steam-machine/"
+    },
+    "1ba5a94cad7c5c47": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "How to claim a WhatsApp username",
+      "url": "https://www.engadget.com/2207358/how-to-claim-whatsapp-username/"
+    },
+    "5fe370b0f08825ff": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "PlayStation just struck a hammer blow to game preservation",
+      "url": "https://www.engadget.com/2207297/playstation-just-struck-a-hammer-blow-to-game-preservation/"
+    },
+    "bb2bc9a526d82ce6": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Sony already invested $34 million to repurpose its EU PlayStation disc factory",
+      "url": "https://www.engadget.com/2207546/sony-repurposing-austrian-playstation-disc-factory/"
+    },
+    "277cc2c48f467311": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Microsoft filing shows how it shifts profits around to reduce its European tax bill",
+      "url": "https://www.engadget.com/2207542/microsoft-eu-tax-disclosure-report/"
+    },
+    "7e6d8711a782651d": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Tesla's Model Y L finally comes to the US with six seats and a $62,000 price tag",
+      "url": "https://www.engadget.com/2207503/teslas-model-y-long-wheelbase-comes-to-the-us/"
+    },
+    "6090f35b0626282e": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Meta has released an app for making generative AI games",
+      "url": "https://www.engadget.com/2207426/meta-has-released-an-app-for-making-generative-ai-games/"
+    },
+    "60f08aeca3faadf5": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Cloudflare will filter out web crawlers that serve AI companies",
+      "url": "https://www.engadget.com/2207360/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/"
+    },
+    "194785207fcbe323": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Why bulky laptop chargers are a relic of the past",
+      "url": "https://www.engadget.com/2204249/why-bulky-laptop-chargers-are-outdated/"
+    },
+    "09fdfbc81cb1d060": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Tesla Q2 vehicle deliveries are up 25 percent over last year",
+      "url": "https://www.engadget.com/2207032/tesla-q2-vehicle-deliveries-up-25-percent-over-last-year/"
+    },
+    "179c8656e42a0ba8": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Onimusha: Way of the Sword's release date has been pushed up to avoid the pre-GTA 6 scramble",
+      "url": "https://www.engadget.com/2206772/onimusha-way-of-the-sword-release-date-has-been-pushed-up-to-avoid-pre-gta-6-scramble/"
+    },
+    "eb514814da496f89": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "HDMI 2.1 vs USB-C vs DisplayPort: Which connection is better for your monitor?",
+      "url": "https://www.engadget.com/2205560/hdmi-2-1-vs-usb-c-displayport-monitor/"
+    },
+    "0b4d00c9a556abe7": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Donald Trump bought a bunch of tech stock the same day he announced his AI Action Plan",
+      "url": "https://www.engadget.com/2206671/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/"
+    },
+    "6c067df173853dac": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Threads' ubiquitous Mr Beast spam is part of a massive crypto scam network",
+      "url": "https://www.engadget.com/2206409/threads-ubiquitous-mr-beast-spam-is-part-of-a-massive-crypto-scam-network/"
+    },
+    "0ae425bc92321284": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "Amazon is ready to deploy the Leo satellite broadband service",
+      "url": "https://www.engadget.com/2206582/amazon-leo-is-ready-to-go/"
+    },
+    "14a4c7545f07548b": {
+      "first_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-03T21:08:55.880Z",
+      "title": "A strange attempt to revive the 3DO is already dead",
+      "url": "https://www.engadget.com/2206578/3do-revival-empire-interactive/"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 20
+  }
+}

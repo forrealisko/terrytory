@@ -1,0 +1,61 @@
+name: Daily Scrape + Digest
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 06:00 UTC daily
+  workflow_dispatch: {} # manual "Run workflow" button
+
+# Allow the job to commit scraped data back to the repo
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      FAL_KEY: ${{ secrets.FAL_KEY }}
+      PROXY_ENABLED: ${{ secrets.PROXY_ENABLED }}
+      BRIGHTDATA_HOST: ${{ secrets.BRIGHTDATA_HOST }}
+      BRIGHTDATA_PORT: ${{ secrets.BRIGHTDATA_PORT }}
+      BRIGHTDATA_USER: ${{ secrets.BRIGHTDATA_USER }}
+      BRIGHTDATA_PASS: ${{ secrets.BRIGHTDATA_PASS }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      HEADLESS: "true"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install scraper engine deps
+        working-directory: system/scraper/engine
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Install content pipeline deps
+        working-directory: system/content
+        run: npm ci
+
+      - name: Scrape all niches + send digest
+        run: node system/scrape-all.mjs
+
+      - name: Commit new headlines & picks
+        run: |
+          git config user.name  "terrytory-bot"
+          git config user.email "bot@terrytory.xyz"
+          git add system/scraper/data system/content/niches/*/picks 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No new data to commit."
+          else
+            git commit -m "chore(scrape): daily headlines & picks [skip ci]"
+            git push
+          fi

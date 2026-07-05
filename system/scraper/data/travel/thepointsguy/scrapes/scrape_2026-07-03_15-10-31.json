@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "scrape_id": "bb63ec09-597d-4648-8ceb-97895045f512",
+    "scraped_at": "2026-07-03T15:10:31.315Z",
+    "source_url": "https://thepointsguy.com/feed/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "brightdata-residential",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Getting a refund for a canceled or delayed flight: What to know in 2026",
+      "url": "https://thepointsguy.com/airline/refund-for-canceled-flight/",
+      "article_date": "2026-07-03T14:00:47.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "If your flight is canceled and you choose not to fly, you are entitled to a full refund.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2022/11/concourse-at-DFW.jpeg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T14:00:47.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "These 7 welcome offers are stealing the spotlight in July 2026",
+      "url": "https://thepointsguy.com/credit-cards/best-credit-card-offers-this-month/",
+      "article_date": "2026-07-03T13:00:26.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Discover the best credit cards to apply in July 2026, with top welcome bonuses and limited-time offers you won't want to miss. Apply now to maximize value.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2025/04/Woman-sitting-outdoors-using-phone-and-holding-credit-card_-RgStudio.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T13:00:26.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Frontier's first transfer partner: Rove adds Frontier Miles with 25% transfer bonus",
+      "url": "https://thepointsguy.com/news/frontier-rove-transfer-partner/",
+      "article_date": "2026-07-02T20:30:36.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "You can now transfer Rove miles to Frontier, with a limited-time 25% transfer bonus.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2025/09/frontier-plane-hanger.jpeg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T20:30:36.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "How (and why) to combine your Chase Ultimate Rewards points into a single account",
+      "url": "https://thepointsguy.com/loyalty-programs/transfer-ultimate-rewards-points-between-accounts/",
+      "article_date": "2026-07-02T20:00:48.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Here's a look at how to transfer Ultimate Rewards points among your accounts or to a household member's account to make the most of your travel rewards.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2023/05/Couple-paying-bils-at-home-with-credit-card_miniseries.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T20:00:48.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "The Chase Sapphire Preferred's 100,000-point offer is back. Why I wouldn't wait",
+      "url": "https://thepointsguy.com/news/chase-sapphire-preferred-100k-apply-now/",
+      "article_date": "2026-07-02T19:30:37.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The Chase Sapphire Preferred's 100,000-point welcome offer is back. Here's why now may be the best time to apply for one of TPG's favorite travel cards.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2026/06/SAPPHIREPREF_-IRISHUMM-GA-_Pool_Couple_BigCard_09745_FULL_FRAME.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T19:30:37.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "EU leaders call 'urgent meeting' with airlines as airport chaos grows",
+      "url": "https://thepointsguy.com/news/european-union-ees-airport-chaos/",
+      "article_date": "2026-07-02T19:00:05.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The European Union has called an \"urgent meeting\" as wait times grow because of the new entry and exit system. Here's what travelers should to do prepare.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2026/07/ees-copenhagen.jpeg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T19:00:05.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Monthly checklist: Credit card perks and benefits you should be using in July",
+      "url": "https://thepointsguy.com/credit-cards/credit-cards-monthly-checklist/",
+      "article_date": "2026-07-02T18:00:15.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "There are numerous monthly perks and credits you should be using on your credit cards in July 2026. We've compiled them here so you won't forget about them.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2023/02/Man-using-credit-card-with-smart-phone-computer-notebook_-MixMedia.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T18:00:15.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "It's back: Sapphire Reserve cardholders can enroll for Marriott Bonvoy Gold Elite status",
+      "url": "https://thepointsguy.com/deals/sapphire-reserve-marriott-bonvoy-gold/",
+      "article_date": "2026-07-02T17:30:56.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Chase Sapphire Reserve cardholders can enjoy three months of complimentary Gold Elite status with Marriott Bonvoy, plus a simple pathway to keeping this status.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2025/03/The-Westin-Resort-Spa-Puerto-Vallarta.jpeg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T17:30:56.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Kroger Rewards now lets you redeem points for groceries — but should you?",
+      "url": "https://thepointsguy.com/news/use-kroger-rewards-groceries/",
+      "article_date": "2026-07-02T17:00:48.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Kroger Rewards members can now redeem points for groceries instead of just fuel. Here's how much Kroger points are worth and when each option makes sense.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2023/03/Young-Asian-monther-and-her-daughter-grocery-shopping-in-supermarket_-d3sign.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T17:00:48.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Delta SkyMiles Blue American Express Card review: Delta miles without an annual fee",
+      "url": "https://thepointsguy.com/credit-cards/reviews/blue-delta-skymiles-credit-card-review/",
+      "article_date": "2026-07-02T16:00:16.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The Delta SkyMiles Blue is a simple option for occasional Delta Air Lines flyers. Here are more details on this card from American Express.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2024/04/Customer-payinh-for-food-with-credit-card-at-food-truck-stand-in-city_Maskot.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T16:00:16.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "How to use 100,000 Chase points to fly business class to Europe",
+      "url": "https://thepointsguy.com/credit-cards/100k-chase-points-europe-business-class-aeroplan/",
+      "article_date": "2026-07-02T15:00:38.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Here's how to use 100,000 Chase Ultimate Rewards points to fly business class to Europe, including which transfer partner to use, and what it's worth.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2025/05/20250516_Lufthansa-Allegris-Business-Class_Lufthansa-A350-Allegris-business-class-cabin-center_ERosen_32.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T15:00:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Does it make sense to hold both the Chase Sapphire Preferred and Reserve?",
+      "url": "https://thepointsguy.com/credit-cards/sapphire-preferred-and-reserve-hold-both/",
+      "article_date": "2026-07-02T14:00:40.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The Sapphire Preferred’s new bonus categories and 100,000-point offer make a compelling case for Sapphire Reserve cardholders to carry both cards.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2025/07/Person-handing-credit-card-over-to-pay-for-bill-at-restaurant_Oscar-Wong.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T14:00:40.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Predict your TSA wait: This handy app is back up and running after 2 government shutdowns",
+      "url": "https://thepointsguy.com/airline/tsa-app/",
+      "article_date": "2026-07-02T13:00:55.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Knowing what's ahead is important for air travel. The MyTSA app can help you anticipate wait times at the airport checkpoints.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2024/06/crowded-tsa-rdu.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T13:00:55.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Was the 'fast, free' Wi-Fi really slow on your flight, too? Here's what's going on",
+      "url": "https://thepointsguy.com/news/airline-wifi-problems/",
+      "article_date": "2026-07-02T12:00:13.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Airlines have made big promises about \"fast, free\" inflight Wi-Fi. But passengers have run into problems logging on during recent flights.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2026/05/delta-main-cabin.jpeg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T12:00:13.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Coca-Cola ousts Pepsi as the official soda at Marriott hotels worldwide",
+      "url": "https://thepointsguy.com/news/marriott-coca-cola-official-drink-partner/",
+      "article_date": "2026-07-01T21:30:08.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The Coca-Cola Company and Marriott have teamed up to make Coke products the official drink of Marriott.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2026/07/coca-cola-truck.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T21:30:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "My biggest assumption about the Chase Sapphire Preferred was wrong",
+      "url": "https://thepointsguy.com/credit-cards/chase-sapphire-preferred-vs-sapphire-reserve-chase-travel/",
+      "article_date": "2026-07-01T21:00:46.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The Chase Sapphire Preferred can sometimes offer better Chase Travel pricing than the Sapphire Reserve. Here's why it's worth checking both.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2024/11/The-Ritz-Carlton-Oahu-Turtle-Bay_Facebook.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T21:00:46.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Quarterly statement credits and bonus categories: Your July-September 2026 checklist",
+      "url": "https://thepointsguy.com/credit-cards/quarterly-credit-card-statement-credits/",
+      "article_date": "2026-07-01T19:00:12.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Quarterly credit card statement credits: What to use in the third quarter of 2026. Keep track of your statement credits and bonus categories to maximize value.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2025/04/Woman-sitting-outdoors-using-phone-and-holding-credit-card_-RgStudio.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T19:00:12.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "Credit card transfer bonuses (July): 50% to Accor, 30% to Virgin Atlantic, 25% to Frontier and more",
+      "url": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "article_date": "2026-07-01T18:00:47.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Here's a look at all the current transfer bonuses involving major credit cards and airline and hotel loyalty programs.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2025/07/Person-handing-credit-card-over-to-pay-for-bill-at-restaurant_Oscar-Wong.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T18:00:47.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "New bonuses on Atmos Rewards credit cards: Up to 80,000 points, companion fares and more",
+      "url": "https://thepointsguy.com/credit-cards/alaska-atmos-rewards-current-offers/",
+      "article_date": "2026-07-01T17:40:27.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Atmos Rewards credit cards offer big bonuses for Alaska Airlines and Hawaiian Airlines travelers looking to earn points to redeem for award flights.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2024/08/An-Alaska-Airlines-airplane-and-a-Hawaiian-Airlines-airplane-at-Los-Angeles-International-Airport-LAX-in-Los-Angeles-California_Eric-ThayerBloomberg-via-Getty-Images.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T17:40:27.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    },
+    {
+      "type": "article",
+      "title": "The best credit card welcome bonuses of July 2026",
+      "url": "https://thepointsguy.com/credit-cards/limited-time-card-offers/",
+      "article_date": "2026-07-01T17:00:21.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Make sure these elevated and limited-time credit card offers are on your radar this month, or you could end up missing out.",
+      "image_url": "https://runway-media-production.global.ssl.fastly.net/us/originals/2023/06/Woman-holding-credit-card-while-on-smartphone_Brothers91.jpg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T17:00:21.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z"
+    }
+  ]
+}

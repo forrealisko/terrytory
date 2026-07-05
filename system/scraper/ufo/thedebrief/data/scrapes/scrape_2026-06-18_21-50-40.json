@@ -1,0 +1,1573 @@
+{
+  "meta": {
+    "scrape_id": "51dc88d5-ab36-41d5-83cc-6353d6e544c9",
+    "scraped_at": "2026-06-18T21:50:40.578Z",
+    "source_url": "https://thedebrief.org/",
+    "scraper_version": "1.0.0",
+    "total_headlines": 56,
+    "new_headlines": 3,
+    "previously_seen": 53,
+    "featured_count": 3,
+    "highlighted_count": 19,
+    "article_count": 34
+  },
+  "headlines": [
+    {
+      "type": "featured",
+      "title": "Physicists Say This Exotic Particle’s Odd Decay Could Reveal Clues to a Longstanding Mystery",
+      "url": "https://thedebrief.org/physicists-say-this-exotic-particles-odd-decay-could-reveal-clues-to-a-longstanding-mystery/",
+      "article_date": null,
+      "author": null,
+      "excerpt": null,
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "ds2317 meson",
+        "exotic particle",
+        "physics",
+        "quasiparticles"
+      ],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.219Z"
+    },
+    {
+      "type": "featured",
+      "title": "Astronomers Observing a Supermassive Black Hole Just Had an Unexpected UFO Sighting",
+      "url": "https://thedebrief.org/astronomers-observing-a-supermassive-black-hole-just-had-an-unexpected-ufo-sighting/",
+      "article_date": null,
+      "author": null,
+      "excerpt": null,
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "nustar x ray telescope",
+        "supermassive black hole",
+        "ufo",
+        "ultra fast outflows",
+        "wissh13",
+        "wisshful",
+        "xmm newton space observatory"
+      ],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "featured",
+      "title": "Darkest Black Ever? New “Ultra-Black” Automotive Coating with Carbon Nanotubes Absorbs over 99% of Visible Light",
+      "url": "https://thedebrief.org/darkest-black-ever-new-ultra-black-automotive-coating-with-carbon-nanotubes-absorbs-over-99-of-visible-light/",
+      "article_date": null,
+      "author": null,
+      "excerpt": null,
+      "categories": [
+        "breaking news",
+        "physics",
+        "tech"
+      ],
+      "tags": [
+        "automotive coating",
+        "black",
+        "carbon nanotubes",
+        "darkest black",
+        "light absorbtion",
+        "nippon paint",
+        "nipsea group",
+        "ultra black"
+      ],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Material Scientists Just Created a Revolutionary New Building Material Based on a Tangled Ball of Staples",
+      "url": "https://thedebrief.org/material-scientists-just-created-a-revolutionary-new-building-material-based-on-a-tangled-ball-of-staples/",
+      "article_date": "2026-06-18T08:28:47-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "A new material, inspired by the frustrating strength of a tangled ball of staples could be the future of flexible, adaptable design.",
+      "categories": [
+        "breaking news",
+        "engineering"
+      ],
+      "tags": [
+        "material science",
+        "particle",
+        "reusable technology",
+        "university of colorado at boulder"
+      ],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-06-18T12:28:47.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Holographic Breakthrough: This New Futuristic 3D Imaging System Overcomes a Longstanding Problem for Holographic Tech",
+      "url": "https://thedebrief.org/holographic-breakthrough-this-new-futuristic-3d-imaging-system-overcomes-a-longstanding-problem-for-holographic-tech/",
+      "article_date": "2026-06-18T08:18:42-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "A new 3D image projection system marks a major step toward overcoming a longstanding problem for holographic technology.",
+      "categories": [
+        "breaking news",
+        "engineering",
+        "science",
+        "tech"
+      ],
+      "tags": [
+        "3d holographic displays",
+        "3d images",
+        "augmented reality",
+        "virtual reality"
+      ],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-06-18T12:18:42.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "Archaeologists Discover Stonehenge ‘Prototype’ Constructed 500 Years Before Britain’s Most Famous Megalithic Site",
+      "url": "https://thedebrief.org/archaeologists-discover-stonehenge-prototype-constructed-500-years-before-britains-most-famous-megalithic-site/",
+      "article_date": "2026-06-18T08:04:06-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "Archaeologists have discovered a Stonehenge 'prototype' structure aligned with the solstices that is 500 years older than the famous site.",
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "astronomical alignment",
+        "stonehenge",
+        "summer solstice",
+        "wessex archaeology",
+        "winter solstice"
+      ],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-06-18T12:04:06.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "NASA’s Curiosity Uncovers New Clues to Mars’ Potential of Supporting Ancient Life",
+      "url": "https://thedebrief.org/nasas-curiosity-uncovers-new-clues-to-mars-potential-of-supporting-ancient-life/",
+      "article_date": "2026-06-18T07:57:21-04:00",
+      "author": "Chrissy Newton",
+      "excerpt": "NASA’s Curiosity rover has made a discovery that offers promising new indications of the ancient preservation of organic chemistry on Mars.",
+      "categories": [
+        "science",
+        "space"
+      ],
+      "tags": [
+        "curiosity",
+        "curiosity rover",
+        "deep space exploration",
+        "life",
+        "mars",
+        "nasa",
+        "rocks",
+        "space",
+        "supporting life"
+      ],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-06-18T11:57:21.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "NASA Just Tested a Secretive Experimental Aircraft in a “Major Milestone” for Supersonic Flight",
+      "url": "https://thedebrief.org/nasa-just-tested-a-secretive-experimental-aircraft-in-a-major-milestone-for-supersonic-flight/",
+      "article_date": "2026-06-17T13:53:23-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "An experimental aircraft just achieved a “major milestone” that NASA officials say brings the future of quiet supersonic flight closer...",
+      "categories": [
+        "aerospace",
+        "breaking news"
+      ],
+      "tags": [
+        "nasa",
+        "quesst mission",
+        "sonic boom",
+        "supersonic aircraft",
+        "x 59"
+      ],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-17T17:53:23.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "An Ancient Maya City Was Lost for Centuries—This Student Accidentally Rediscovered it Hidden in Google Data",
+      "url": "https://thedebrief.org/an-ancient-maya-city-was-lost-for-centuries-this-student-accidentally-rediscovered-it-hidden-in-google-data/",
+      "article_date": "2026-06-17T11:56:35-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "An ancient Maya settlement, lost to the forest for hundreds of years, was unexpectedly discovered at the bottom of an internet rabbit hole.",
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "lidar",
+        "lost city",
+        "maya",
+        "mexico"
+      ],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-17T15:56:35.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "This Breakthrough Propulsion Technology Could One Day Carry Humans to the Stars—But There’s a Problem",
+      "url": "https://thedebrief.org/this-breakthrough-propulsion-technology-could-one-day-carry-humans-to-the-stars-but-theres-a-problem/",
+      "article_date": "2026-06-17T11:42:27-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "A futuristic propulsion system may have a few hurdles to cross before it can attain the near-light-speeds many experts had hoped for.",
+      "categories": [
+        "breaking news",
+        "physics",
+        "space"
+      ],
+      "tags": [
+        "future spacecraft",
+        "interstellar space travel",
+        "propulsion system",
+        "relativistic light aberration",
+        "solar light sail"
+      ],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-17T15:42:27.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "“This is Far from an Ordinary Burial”: Archaeologists Have Made Rare Discoveries in an ‘Elite’ Siberian Grave",
+      "url": "https://thedebrief.org/this-is-far-from-an-ordinary-burial-archaeologists-have-made-rare-discoveries-in-an-elite-siberian-grave/",
+      "article_date": "2026-06-17T09:03:18-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "A burial site uncovered by archaeologists in southern Siberia has revealed a series of unusual discoveries.",
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "10th century",
+        "archaeology",
+        "eurasian steppe",
+        "grave",
+        "ritual",
+        "sayan mountains",
+        "siberian burial"
+      ],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-17T13:03:18.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "Scientists Say We Need to Prepare Astronauts for What They May Encounter Inside the Moon’s Oldest and Largest Crater",
+      "url": "https://thedebrief.org/scientists-say-we-need-to-prepare-astronauts-for-what-they-may-encounter-inside-the-moons-oldest-and-largest-crater/",
+      "article_date": "2026-06-17T08:06:12-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "Scientists examining the Moon's oldest and largest crater have provided a \"roadmap\" for what future Artemis astronauts may encounter.",
+      "categories": [
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "center for lunar origin and evolution",
+        "cloe",
+        "lunar mantle",
+        "moons largest crater",
+        "moons oldest crater",
+        "nasa",
+        "southwest research institute",
+        "spa basin",
+        "swri"
+      ],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-17T12:06:12.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Could Alien Consciousness Be Unlike Anything We Can Imagine? Non-Human Intelligence May Be Stranger Than We Think, These Experts Say",
+      "url": "https://thedebrief.org/could-alien-consciousness-be-unlike-anything-we-can-imagine-these-experts-say-non-human-intelligence-may-be-stranger-than-we-ever-imagined/",
+      "article_date": "2026-06-17T07:55:08-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "Consciousness may arise in systems far different than the biology on Earth we are used to, according to new research.",
+      "categories": [
+        "biology",
+        "breaking news",
+        "consciousness"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "consciousness",
+        "extraterrestrial life",
+        "university of california riverside"
+      ],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-17T11:55:08.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Ancient Microbes Preserved in Rapidly Thawing Arctic Middens Are Waking Up—Could They Pose a Threat to Us Today?",
+      "url": "https://thedebrief.org/ancient-microbes-preserved-in-rapidly-thawing-arctic-middens-are-waking-up-could-they-pose-a-threat-to-us-today/",
+      "article_date": "2026-06-17T07:39:11-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "An analysis of ancient microbes frozen in rapidly thawing ancient middens spanning Greenland estimates the potential for modern-day spread.",
+      "categories": [
+        "archaeology",
+        "breaking news",
+        "health",
+        "science"
+      ],
+      "tags": [
+        "ancient bacteria",
+        "ancient microbes",
+        "ancient middens",
+        "antimicrobial resistance",
+        "denmark technical university",
+        "greenland",
+        "national food institute"
+      ],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-17T11:39:11.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "Forgotten in a Museum for Two Centuries, This Weird Artifact’s Rediscovery Upends a Long-Held Belief About the Vikings",
+      "url": "https://thedebrief.org/forgotten-in-a-museum-for-two-centuries-this-weird-artifacts-rediscovery-upends-a-long-held-belief-about-the-vikings/",
+      "article_date": "2026-06-16T12:47:40-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "A curiosity that had been locked away in a museum’s archives for more than 200 years is now revealing clues to a longstanding Viking mystery.",
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-16T16:47:40.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Scientists Uncover New Evidence of Mysterious ‘Time-Reversal Symmetry Breaking’ in This ‘Exotic’ Kagome Metal",
+      "url": "https://thedebrief.org/scientists-uncover-new-evidence-of-mysterious-time-reversal-symmetry-breaking-in-this-exotic-kagome-metal/",
+      "article_date": "2026-06-16T11:24:17-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "Physicists report the discovery of new evidence for a mysterious quantum state in an unusual class of materials.",
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "cesium vanadium antimonide",
+        "electrical resistance",
+        "exotic materials",
+        "high temperature superconductivity",
+        "kagome metals",
+        "matter",
+        "physics",
+        "time reversal symmetry"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-16T15:24:17.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "“We’ve Never Seen Anything Like This”: Discovery of a Hidden Biological Clock Reveals the “Master Key” to Growth and Development",
+      "url": "https://thedebrief.org/weve-never-seen-anything-like-this-discovery-of-a-hidden-biological-clock-reveals-the-master-key-to-growth-and-development/",
+      "article_date": "2026-06-16T09:54:15-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "A hidden biological clock has been discovered by genetic researchers, revealing how proteins act as a timing mechanism during development.",
+      "categories": [
+        "biology",
+        "breaking news",
+        "genetics",
+        "science"
+      ],
+      "tags": [
+        "aging",
+        "biological clock",
+        "dna analysis",
+        "growth and development"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-16T13:54:15.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "Experts Warn of Potential Covert Misuse of Fusion Reactors—Antineutrino Detectors Could Offer a Safeguard, New Research Reveals",
+      "url": "https://thedebrief.org/experts-warn-of-potential-covert-misuse-of-fusion-reactors-antineutrino-detectors-could-offer-a-safeguard-new-research-reveals/",
+      "article_date": "2026-06-16T09:45:16-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "New research reveals how fusion reactors could be monitored for any potential illicit production of plutonium for nuclear weapons.",
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "antineutrino detector",
+        "antineutrinos",
+        "fusion reactors",
+        "nuclear fusion",
+        "virginia tech"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-16T13:45:16.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "James Webb Space Telescope Reveals Two Completely Different Twilights on an Alien World",
+      "url": "https://thedebrief.org/james-webb-space-telescope-reveals-two-completely-different-twilights-on-an-alien-world/",
+      "article_date": "2026-06-16T08:09:18-04:00",
+      "author": "Austin Burgess",
+      "excerpt": "For the first time, astronomers have distinguished between the morning and evening atmospheres of a single planet, revealing two remarkably different environments at its edges.",
+      "categories": [
+        "breaking news",
+        "science",
+        "space"
+      ],
+      "tags": [
+        "exoplanet",
+        "gas giant",
+        "james webb",
+        "james webb space telescope",
+        "james webb telescope",
+        "jwst",
+        "wasp 121 b"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-16T12:09:18.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Quest for Fire: New Technique Pushes First Intentional Use of Fire to Over One Million Years Ago",
+      "url": "https://thedebrief.org/quest-for-fire-new-technique-pushes-first-intentional-use-of-fire-to-over-one-million-years-ago/",
+      "article_date": "2026-06-16T08:07:00-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "Scientists studying the site of the oldest-known intentional use of fire have found evidence pushing that date past one million years ago.",
+      "categories": [
+        "archaeology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "1 million years ago",
+        "fire",
+        "homo erectus",
+        "intentional use of fire",
+        "owls",
+        "quest for fire",
+        "the hebrew university of jerusalem",
+        "university of toronto"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-16T12:07:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "A Venus Flytrap Mystery That Has Perplexed Scientists Since Darwin Has Finally Been Solved",
+      "url": "https://thedebrief.org/a-venus-flytrap-mystery-that-has-perplexed-scientists-since-darwin-has-finally-been-solved/",
+      "article_date": "2026-06-15T12:01:29-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "New research is finally shedding light on one of the Venus flytrap's most curious and enduring mysteries.",
+      "categories": [
+        "biology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "biology",
+        "darwin",
+        "flora",
+        "hair trigger",
+        "insect",
+        "plant",
+        "venus flytrap"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-15T16:01:29.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "A Hidden Subterranean Fungal Network is Revealing the Secrets of Earth’s ‘Circulatory System’",
+      "url": "https://thedebrief.org/a-hidden-subterranean-fungal-network-is-revealing-the-secrets-of-earths-circulatory-system/",
+      "article_date": "2026-06-15T08:12:19-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "Ancient mycorrhizal fungal networks, consisting of a billion astronomical units' worth of roots, have finally been mapped by scientists.",
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "carbon",
+        "climate change",
+        "earths circulatory system",
+        "fungal network",
+        "fungi"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-15T12:12:19.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Black Holes Aren’t Real? Astronomers Propose Elusive Formation Mechanism for “Gravastar” Alternative That is “Easier to Accept”",
+      "url": "https://thedebrief.org/black-holes-arent-real-astronomers-propose-elusive-formation-mechanism-for-gravastar-alternative-that-is-easier-to-accept/",
+      "article_date": "2026-06-15T08:06:32-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "After 25 years of debate, scientists have proposed a mathematical model for an alternative to black holes called a gravastar.",
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "big bang",
+        "black hole",
+        "dark energy",
+        "goethe university frankfurt",
+        "gravastar",
+        "gravity",
+        "mini universe",
+        "singuarity"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-15T12:06:32.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "The Amaterasu Particle May Not Be a Proton at All, New Research Suggests",
+      "url": "https://thedebrief.org/the-amaterasu-particle-may-not-be-a-proton-at-all-new-research-suggests/",
+      "article_date": "2026-06-15T08:02:57-04:00",
+      "author": "Austin Burgess",
+      "excerpt": "A recent study suggests that the Amaterasu particle, along with other extremely energetic cosmic rays, may actually be atomic nuclei heavier than iron.",
+      "categories": [
+        "breaking news",
+        "physics",
+        "science",
+        "space"
+      ],
+      "tags": [
+        "amaterasu",
+        "amaterasu particle",
+        "cosmic ray",
+        "cosmic rays",
+        "nucleus",
+        "proton",
+        "subatomic particle"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-15T12:02:57.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "This Philosopher Thinks Physics May Be Asking the Wrong Question About Space-Time",
+      "url": "https://thedebrief.org/this-philosopher-thinks-physics-may-be-asking-the-wrong-question-about-space-time/",
+      "article_date": "2026-06-15T07:57:02-04:00",
+      "author": "Austin Burgess",
+      "excerpt": "Einstein's equations have withstood every experimental test for more than a century; however, according to one philosopher, they have not withstood careful scrutiny of the language used to describe them.",
+      "categories": [
+        "physics",
+        "science",
+        "space"
+      ],
+      "tags": [
+        "albert einstein",
+        "block universe",
+        "einstein",
+        "eternalism",
+        "philosophy",
+        "space time",
+        "spacetime"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-15T11:57:02.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "The Pentagon Just Released Its Third Batch of UAP Files—What Have We Learned from the PURSUE Releases So Far?",
+      "url": "https://thedebrief.org/the-pentagon-just-released-its-third-batch-of-uap-files-what-have-we-learned-from-the-pursue-releases-so-far/",
+      "article_date": "2026-06-14T15:08:07-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "What do the Pentagon's latest releases of UAP records reveal? The Debrief takes a look at what's in the new files, what's missing, and how it relates to public attitudes toward the UAP issue.",
+      "categories": [
+        "analysis",
+        "opinion",
+        "uap"
+      ],
+      "tags": [
+        "department of war",
+        "pentagon",
+        "pursue",
+        "uap",
+        "ufo"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-14T19:08:07.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "DNA Breakthrough: Silver Nanoparticles Cut and Join DNA Segments with Incredible Efficiency",
+      "url": "https://thedebrief.org/dna-breakthrough-silver-nanoparticles-cut-and-join-segments-with-incredible-efficiency/",
+      "article_date": "2026-06-14T14:19:20-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "A new DNA splicing method developed by a Japanese research team using silver nanoparticles offers a incredible efficiency",
+      "categories": [
+        "breaking news",
+        "genetics",
+        "science"
+      ],
+      "tags": [
+        "dna",
+        "mrna",
+        "nanoparticles"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-14T18:19:20.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "From Lunar Dust to Lunar Cities:  Engineers Turn the Moon’s Harsh Surface into a Blueprint for Settlement",
+      "url": "https://thedebrief.org/from-lunar-dust-to-lunar-cities-engineers-turn-the-moons-harsh-surface-into-a-blueprint-for-settlement/",
+      "article_date": "2026-06-14T14:18:32-04:00",
+      "author": "Chrissy Newton",
+      "excerpt": "Researchers at Texas A&M University are exploring how lunar material could become a key building block for the first permanent settlements beyond Earth.",
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "aerospace",
+        "airspace safety",
+        "lunar regolith",
+        "lunar settlement",
+        "moon",
+        "moon construction",
+        "nasa lunar innovation park",
+        "obotic construction systems",
+        "space",
+        "texas am space institute",
+        "unar base development"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-14T18:18:32.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "This Unusual Artifact Resembling a TV Remote Could Reveal the Oldest Evidence of Numerical Calculation in Mesoamerica",
+      "url": "https://thedebrief.org/this-unusual-artifact-resembling-a-tv-remote-could-reveal-the-oldest-evidence-of-numerical-calculation-in-mesoamerica/",
+      "article_date": "2026-06-13T13:38:20-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "Archaeologists have discovered an unusual artifact they say could represent the earliest known use of written numbers ever discovered in Mesoamerica.",
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "archaeology",
+        "artifact",
+        "guatemala",
+        "la blanca",
+        "mesoamerica",
+        "personhood",
+        "tab figurines"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-13T17:38:20.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "NASA’s James Webb Space Telescope Spots a Hidden ‘Galaxy Killer’ Lurking in the Early Universe",
+      "url": "https://thedebrief.org/nasas-james-webb-space-telescope-spots-a-hidden-galaxy-killer-lurking-in-the-early-universe/",
+      "article_date": "2026-06-13T11:48:37-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "The James Webb Space Telescope has revealed a cosmic catastrophe, as winds extinguished a star-forming galaxy in the early universe.",
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "cosmic wind",
+        "early universe",
+        "james webb space telescope",
+        "star formation"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-13T15:48:37.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Transformers on the Moon? Japan Reveals Details of Tiny Shape-Shifting Rover’s Historic Lunar Exploration",
+      "url": "https://thedebrief.org/transformers-on-the-moon-japan-reveals-details-of-tiny-shape-shifting-rovers-historic-autonomous-exploration-of-the-lunar-surface/",
+      "article_date": "2026-06-13T11:22:09-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "Japan's space agency has revealed details from their historic SLIM mission, including an autonomous shape-shifting rover's lunar exploration.",
+      "categories": [
+        "artificial intelligence",
+        "breaking news",
+        "robotics",
+        "space"
+      ],
+      "tags": [
+        "autonomous rover",
+        "jaxa",
+        "lev 1 rover",
+        "lev 2 rover",
+        "lunar exploration",
+        "shape shifting rovers",
+        "slim",
+        "smart lander for investigating moon"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-13T15:22:09.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Prada and Axiom Space Unveil New Lunar Spacesuit Garment for Artemis Missions",
+      "url": "https://thedebrief.org/prada-and-axiom-space-unveil-new-lunar-spacesuit-garment-for-artemis-missions/",
+      "article_date": "2026-06-13T11:18:50-04:00",
+      "author": "Chrissy Newton",
+      "excerpt": "Astronauts selected for NASA’s Artemis missions are traveling to outer space in style, the American space agency has revealed.",
+      "categories": [
+        "aerospace",
+        "space"
+      ],
+      "tags": [
+        "3d modeled",
+        "axiom space",
+        "liquid cooling and ventilation garment",
+        "nasa artemis",
+        "prada",
+        "prada spacesuit",
+        "spacesuit",
+        "spacesuit design",
+        "spacewalk suit technology"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-13T15:18:50.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "“Her Brain Had Been Intentionally Removed”: An Unsettling Iron Age Burial Practice Has Been Uncovered in Scotland",
+      "url": "https://thedebrief.org/her-brain-had-been-intentionally-removed-an-unsettling-iron-age-burial-practice-has-been-uncovered-in-scotland/",
+      "article_date": "2026-06-13T10:26:03-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "Archaeologists say bones unearthed from an Iron Age burial in Scotland revealed how human remains were interred in ancient Europe.",
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "britain",
+        "burial",
+        "iron age",
+        "scotland"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-13T14:26:03.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "What is Time? This Scientist Built a Miniature Universe to Find Out",
+      "url": "https://thedebrief.org/what-is-time-this-scientist-built-a-miniature-universe-to-find-out/",
+      "article_date": "2026-06-13T10:02:16-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "The nature of time has long puzzled scientists, and now a researcher has constructed a mini-universe to get to the bottom of it.",
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "arrow of time",
+        "miniature universe",
+        "quantum physics",
+        "time"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-13T14:02:16.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Archaeologists Uncover 4,000-Year-Old Evidence of a Deadly Event in Ancient Mesopotamia",
+      "url": "https://thedebrief.org/archaeologists-uncover-4000-year-old-evidence-of-a-deadly-event-in-ancient-mesopotamia/",
+      "article_date": "2026-06-13T09:56:12-04:00",
+      "author": "Austin Burgess",
+      "excerpt": "Archaeologists believe a site in present-day northern Iraq may preserve the remains of an ancient city whose fall was recorded in Mesopotamian texts.",
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "ancient",
+        "ancient city",
+        "ancient mesopotamia",
+        "cuneiform",
+        "iraq",
+        "kurd qaburstan project",
+        "mesopotamia",
+        "siege"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-13T13:56:12.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "This James Webb Space Telescope Discovery Could Finally Solve the Mystery Behind “Little Red Dots”",
+      "url": "https://thedebrief.org/this-james-webb-space-telescope-discovery-could-finally-solve-the-mystery-behind-little-red-dots/",
+      "article_date": "2026-06-12T10:58:06-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "New James Webb Space Telescope imagery may hold the long-sought answers to the astronomical mystery of \"little red dots.\"",
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "black hole",
+        "early universe",
+        "james webb space telescope",
+        "little red dots"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-12T14:58:06.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "New SPHEREx Space Telescope Images Confirm a Major Problem That Many Astronomers Were Afraid Of",
+      "url": "https://thedebrief.org/new-spherex-space-telescope-images-confirm-a-major-problem-that-many-astronomers-were-afraid-of/",
+      "article_date": "2026-06-12T10:52:48-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "Nearly 3 out of every 4 images obtained by NASA’s SPHEREx space telescope now confirm something many astronomers had been afraid of.",
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "dark sky",
+        "light pollution",
+        "nasa",
+        "satellite",
+        "space",
+        "spherex"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-12T14:52:48.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Art Fraudsters Beware: Science Has Found a Way to Tell a Fake Van Gogh from a Real One",
+      "url": "https://thedebrief.org/art-fraudsters-beware-science-has-found-a-way-to-tell-a-fake-van-gogh-from-a-real-one/",
+      "article_date": "2026-06-12T10:52:18-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "A new forgery identification method using surface \"texture\" analysis has identified authentic artworks by van Gogh and at least one fake.",
+      "categories": [
+        "culture",
+        "tech"
+      ],
+      "tags": [
+        "art forgery",
+        "art surface texture",
+        "counterfeit art",
+        "fractal math",
+        "monet",
+        "universite polytechnique hauts de france",
+        "vincent van gogh"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-12T14:52:18.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "A ‘Memory Switchboard’ in the Hippocampus May Help Explain How the Brain Learns Without Overwriting Old Memories",
+      "url": "https://thedebrief.org/a-memory-switchboard-in-the-hippocampus-may-help-explain-how-the-brain-learns-without-overwriting-old-memories/",
+      "article_date": "2026-06-12T10:51:19-04:00",
+      "author": "Austin Burgess",
+      "excerpt": "New research identifies a mechanism that may explain how the brain can take in new experiences without erasing stored memeories.",
+      "categories": [
+        "artificial intelligence",
+        "neuroscience",
+        "science"
+      ],
+      "tags": [
+        "ai",
+        "artificial intelligence",
+        "hippocampus",
+        "memories",
+        "memory",
+        "mice",
+        "neurons",
+        "patterns",
+        "switchboard",
+        "the brain"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-12T14:51:19.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "NASA and USAF-Backed Research Reveals the Breakthrough Propulsion Technology That Could Propell Future Satellite Swarms",
+      "url": "https://thedebrief.org/nasa-and-usaf-backed-research-reveals-the-breakthrough-propulsion-technology-that-could-propell-future-satellite-swarms/",
+      "article_date": "2026-06-12T08:21:55-04:00",
+      "author": "Tim McMillan",
+      "excerpt": "A NASA and USAF-backed study demonstrates propellantless satellite formation control using magnetic forces for future spacecraft swarms.",
+      "categories": [
+        "breaking news",
+        "defense",
+        "space"
+      ],
+      "tags": [
+        "alternative propulsion",
+        "electromagnetism",
+        "nasa",
+        "satellite constellation",
+        "u s air force"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-12T12:21:55.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "A Remarkable 400,000-Year-Old “Time Capsule” Unsealed in Israel Could Reshape Our Understanding of Early Human Evolution",
+      "url": "https://thedebrief.org/a-remarkable-400000-year-old-time-capsule-unsealed-in-israel-could-reshape-our-understanding-of-early-human-evolution/",
+      "article_date": "2026-06-12T08:09:53-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "Archaeologists in Israel have uncovered a remarkable site \"protected from the ravages of time,\" revealing an early human presence that may extend to 400,000 years ago.",
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "acheulo yabrudian culture",
+        "anatomically modern human",
+        "ancient cave",
+        "ancient humans",
+        "human evolution",
+        "israeli antiquities authority",
+        "neanderthals",
+        "tool making",
+        "university of haifa"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-12T12:09:53.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "High-Dose Psilocybin Case Report Suggests Hidden Function May Persist in Advanced Alzheimer’s",
+      "url": "https://thedebrief.org/high-dose-psilocybin-case-report-suggests-hidden-function-may-persist-in-advanced-alzheimers/",
+      "article_date": "2026-06-12T08:04:32-04:00",
+      "author": "Tim McMillan",
+      "excerpt": "High-dose psilocybin case report describes temporary speech, mobility, and continence gains in a woman with advanced Alzheimer’s disease.",
+      "categories": [
+        "breaking news",
+        "health",
+        "neuroscience",
+        "psychology",
+        "science"
+      ],
+      "tags": [
+        "alzheimers disease",
+        "health",
+        "neuroscience",
+        "psilocybin",
+        "psilocybin therapy"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-12T12:04:32.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "“Disclosure Day” in Real Life? Scientists and Mental Health Advocates Update Rules for Alien Contact as “Disclosure” Debate Grows",
+      "url": "https://thedebrief.org/disclosure-day-in-real-life-scientists-and-mental-health-advocates-update-rules-for-alien-contact-as-disclosure-debate-grows/",
+      "article_date": "2026-06-11T15:31:33-04:00",
+      "author": "Chrissy Newton",
+      "excerpt": "Scientists and public health advocates are urging for preparedness in advance of confirmation of the discovery of extraterrestrial life.",
+      "categories": [
+        "breaking news",
+        "culture",
+        "seti",
+        "uap"
+      ],
+      "tags": [
+        "alien",
+        "aliens",
+        "disclosure",
+        "disclosure day",
+        "extraterrestrial intelligence",
+        "iaa seti committee",
+        "mental health",
+        "seti",
+        "seti committee",
+        "steven spielberg",
+        "technosignatures",
+        "uap",
+        "ufo",
+        "unhidden foundation"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-11T19:31:33.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Pentagon Official Provides Update on “Hazardous Materials Incident” That Prompted Shelter-in-Place Order",
+      "url": "https://thedebrief.org/pentagon-official-provides-update-on-hazardous-materials-incident-that-prompted-shelter-in-place-order/",
+      "article_date": "2026-06-11T14:26:54-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "A shelter-in-place order was issued at the Pentagon on Thursday following what was characterized as a “hazardous materials incident”.",
+      "categories": [
+        "breaking news"
+      ],
+      "tags": [
+        "department of war",
+        "hazardous materials incident",
+        "pentagon",
+        "sean parnell",
+        "shelter in place"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-11T18:26:54.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "“When We Build the ARC Fusion Power Plant, It Will Work”: Company Claims Nuclear Fusion Reactor Design Will Produce More Energy Than It Consumes",
+      "url": "https://thedebrief.org/when-we-build-the-arc-fusion-power-plant-it-will-work-company-claims-nuclear-fusion-reactor-design-will-produce-more-energy-than-it-consumes/",
+      "article_date": "2026-06-11T10:24:53-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "Commonwealth Fusion Systems has published a series of papers they claim will lead to the successful construction of their ARC fusion reactor.",
+      "categories": [
+        "breaking news",
+        "energy",
+        "engineering",
+        "physics"
+      ],
+      "tags": [
+        "arc fusion reactor",
+        "commonwealth fusion systems",
+        "cornell university",
+        "fusion energy",
+        "nuclear fusion",
+        "sparc",
+        "university of cambridge"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-11T14:24:53.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "New Analysis Confirms the Universe is Still Expanding, Refuting Controversial 2025 Claims and Prompting Immediate Response",
+      "url": "https://thedebrief.org/new-analysis-confirms-the-universe-is-still-expanding-refuting-controversial-2025-claims-and-prompting-immediate-response/",
+      "article_date": "2026-06-11T09:55:21-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "A new paper suggests a 2025 study claiming the universe is not expanding, which refuted a previous Nobel Prize-winning discovery, is wrong.",
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "physics",
+        "space"
+      ],
+      "tags": [
+        "cosmic expansion",
+        "dark energy",
+        "dark matter",
+        "expanding universe",
+        "galaxy mass",
+        "sagan standard",
+        "universe is expanding",
+        "university of southampton",
+        "white dwarf stars",
+        "yonsei university"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-11T13:55:21.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Scientists Have Just Uncovered a Thriving Ecosystem Hiding in Fog",
+      "url": "https://thedebrief.org/scientists-have-just-uncovered-a-thriving-ecosystem-hiding-in-fog/",
+      "article_date": "2026-06-11T09:54:50-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "Fog is a living ecosystem for bacteria, rather than just a sterile cloud of mist, according to Arizona State University researchers.",
+      "categories": [
+        "biology",
+        "breaking news",
+        "environment"
+      ],
+      "tags": [
+        "bacteria",
+        "fog",
+        "formaldehyde",
+        "habitat"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-11T13:54:50.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "This Species Was Long Thought Extinct—Scientists Just Spotted One Alive and Well on a Caribbean Island",
+      "url": "https://thedebrief.org/this-species-was-long-thought-extinct-scientists-just-spotted-one-alive-and-well-on-a-carribean-island/",
+      "article_date": "2026-06-11T09:35:11-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "The Cozumel dwarf fox, a rare species previously known only from secondhand reports and fossil records, has been discovered alive.",
+      "categories": [
+        "biology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "cozumel fox",
+        "critical endangerment",
+        "extinct species",
+        "yucatan"
+      ],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-11T13:35:11.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "Earthquake Experts Modeled 1,000 Years of Activity in California—What They Found Now Has Scientists Concerned",
+      "url": "https://thedebrief.org/earthquake-experts-modeled-1000-years-of-activity-in-california-what-they-found-now-has-scientists-concerned/",
+      "article_date": "2026-06-10T09:31:24-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "California could be due for a major earthquake in the near future, according to concerning new models based on a millennium of data.",
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "7 9 magnitude",
+        "california",
+        "earthquake",
+        "fort tejon earthquake",
+        "millenium",
+        "seismic data"
+      ],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-10T13:31:24.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "DMT Users Have Described Encounters with Non-Human Intelligences for Decades—A New Mathematical Framework Could Test Such Claims",
+      "url": "https://thedebrief.org/dmt-users-have-told-of-encounters-with-non-human-intelligences-for-decades-a-new-mathematical-framework-could-test-such-claims/",
+      "article_date": "2026-06-10T09:28:34-04:00",
+      "author": "Austin Burgess",
+      "excerpt": "Researchers have introduced a new mathematical framework to help unravel the most baffling aspects of the DMT psychedelic experience.",
+      "categories": [
+        "neuroscience",
+        "psychology",
+        "science"
+      ],
+      "tags": [
+        "dmt",
+        "dmt entities",
+        "entities",
+        "entity",
+        "hallucinations",
+        "non human",
+        "non human entities",
+        "psychedelic"
+      ],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-10T13:28:34.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "MIT Engineers Testing Exotic ‘Electrospray’ Propulsion for Faster, More Maneuverable Spacecraft",
+      "url": "https://thedebrief.org/mit-engineers-testing-exotic-electrospray-propulsion-for-faster-more-maneuverable-spacecraft/",
+      "article_date": "2026-06-10T07:58:27-04:00",
+      "author": "Christopher Plain",
+      "excerpt": "MIT engineers are testing \"electrospray\" propulsion thrusters that could make satellites and small spacecraft more powerful and maneuverable.",
+      "categories": [
+        "breaking news",
+        "engineering",
+        "space"
+      ],
+      "tags": [
+        "chemical propulsion",
+        "electric propulsion",
+        "electrospray propulsion system",
+        "mit"
+      ],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-10T11:58:27.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "This Curious Moon Rock Preserves Evidence of Ancient Impacts Across Three Worlds",
+      "url": "https://thedebrief.org/this-curious-moon-rock-preserves-evidence-of-ancient-impacts-across-three-worlds/",
+      "article_date": "2026-06-10T07:56:23-04:00",
+      "author": "Ryan Whalen",
+      "excerpt": "The ancient impact history of our planet is coming into focus as researchers triangulate similarly aged impacts across the solar system.",
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "4 vesta",
+        "asteroid",
+        "life on earth",
+        "meteorite impact",
+        "the moon"
+      ],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-10T11:56:23.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "article",
+      "title": "2,600-Year-Old Underground Discovery Reveals a Mysterious Ancient Structure Hidden Below Egypt’s Nile Delta",
+      "url": "https://thedebrief.org/2600-year-old-underground-discovery-reveals-a-mysterious-ancient-structure-hidden-below-egypts-nile-delta/",
+      "article_date": "2026-06-10T07:55:28-04:00",
+      "author": "Micah Hanks",
+      "excerpt": "A curious recent discovery has revealed a promising new underground archaeological find at the ancient site of Buto in Egypt’s Nile Delta.",
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "archaeology",
+        "buto",
+        "egypt",
+        "excavation",
+        "nile delta",
+        "remote sensing"
+      ],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-10T11:55:28.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-06-18T20:59:15.220Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "Technology of the Future Could Turn Radio Waves into Electricity",
+      "url": "https://thedebrief.org/technology-of-the-future-could-turn-radio-waves-into-electricity/",
+      "article_date": null,
+      "author": null,
+      "excerpt": null,
+      "categories": [
+        "debriefs",
+        "features",
+        "science",
+        "tech"
+      ],
+      "tags": [
+        "antenna",
+        "metasurface",
+        "radio waves",
+        "university of south florida"
+      ],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": true,
+      "first_seen": "2026-06-18T21:50:40.578Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "Are Incels the Future Face of Terrorism?",
+      "url": "https://thedebrief.org/are-incels-terrorists-the-future-of-extremist-nihilism/",
+      "article_date": null,
+      "author": null,
+      "excerpt": null,
+      "categories": [
+        "defense",
+        "features"
+      ],
+      "tags": [
+        "defense",
+        "incel",
+        "incels",
+        "internet culture",
+        "involuntary celibate",
+        "terrorism"
+      ],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": true,
+      "first_seen": "2026-06-18T21:50:40.578Z"
+    },
+    {
+      "type": "highlighted",
+      "title": "Here Comes the October Surprise",
+      "url": "https://thedebrief.org/here-comes-the-october-surprise/",
+      "article_date": null,
+      "author": null,
+      "excerpt": null,
+      "categories": [
+        "features",
+        "opinion",
+        "trail of the saucers",
+        "uap"
+      ],
+      "tags": [
+        "bryce zabel",
+        "october surprise",
+        "preliminary assessment",
+        "uap report"
+      ],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": true,
+      "first_seen": "2026-06-18T21:50:40.578Z"
+    }
+  ]
+}

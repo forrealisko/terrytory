@@ -1,0 +1,25 @@
+{
+  "id": "test-pick-12345",
+  "created_at": "2026-06-21T14:33:00.000Z",
+  "status": "pending",
+  "headline": "Congress Convenes Closed-Door Intelligence Briefing on Recovered UAP Technologies",
+  "rating": 9.2,
+  "reasoning": "This topic has extremely high relevance to UAP disclosure, featuring active congressional involvement and claims of recovered hardware. The credibility is high due to official government schedules, and it represents a significant breaking development.",
+  "summary": "Members of the House Intelligence Committee held a classified briefing to discuss aerospace materials allegedly retrieved from unidentified aerial phenomena.",
+  "source_articles": [
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "title": "Congressmen Seek Access to UAP Materials Following Classified Session",
+      "url": "https://thedebrief.org/congressmen-seek-access-to-uap-materials/",
+      "excerpt": "Lawmakers are calling for a formal review of materials currently stored in defense contractor facilities."
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "title": "Declassification Pressures Grow Over Alleged Off-World Retrievals",
+      "url": "https://www.liberationtimes.com/pressures-grow-over-retrievals",
+      "excerpt": "A bipartisan coalition is drafting a disclosure mandate in the upcoming defense authorization bill."
+    }
+  ]
+}

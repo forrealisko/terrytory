@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "scrape_id": "e2f35189-f5a8-49fb-9213-85c427fcc25d",
+    "scraped_at": "2026-07-03T15:10:31.315Z",
+    "source_url": "https://skift.com/feed/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "brightdata-residential",
+    "total_headlines": 10,
+    "new_headlines": 10,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Turkey Quietly Built One of the World’s Most Complete Travel Tech Stacks",
+      "url": "https://skift.com/2026/07/03/turkey-quietly-built-one-of-the-worlds-most-complete-travel-tech-stacks/",
+      "article_date": "2026-07-03T13:46:11.000Z",
+      "article_date_raw": null,
+      "author": "Rafat Ali",
+      "excerpt": "Durable travel tech is forged by hard operating conditions, not venture capital and conference circuits, and Turkey is the proof.",
+      "image_url": "https://skift.com/wp-content/uploads/2026/07/Turkey-1200x800px.png?w=1024",
+      "categories": [
+        "Travel Technology",
+        "artificial intelligence",
+        "the prompt",
+        "travel tech",
+        "turkey"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T13:46:11.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 35,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Cabo Verde Has Made History at the World Cup. Can It Convert Attention Into Bookings?",
+      "url": "https://skift.com/2026/07/02/cabo-verde-world-cup-tourism-surge/",
+      "article_date": "2026-07-02T20:35:41.000Z",
+      "article_date_raw": null,
+      "author": "Bailey Schulz",
+      "excerpt": "The island nation draws 1.2 million tourists a year — predominantly from Europe, and predominantly on all-inclusive packages. A World Cup run won't change that overnight, but it may bring awareness to Americans who struggle to place the island nation on a map.",
+      "image_url": "https://skift.com/wp-content/uploads/2024/11/Cape_Verde_4_org-scaled-e1783021554241.jpg?w=1024",
+      "categories": [
+        "Tourism",
+        "cabo verde",
+        "cape verde",
+        "tourism",
+        "world cup"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T20:35:41.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 42,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Marriott Outspends Rivals on TV, But Airbnb Owns the World Cup",
+      "url": "https://skift.com/2026/07/02/marriott-outspends-rivals-on-tv-but-airbnb-owns-the-world-cup/",
+      "article_date": "2026-07-02T18:57:19.000Z",
+      "article_date_raw": null,
+      "author": "Sean O&apos;Neill",
+      "excerpt": "Marriott outspent every hotel brand on national TV, yet Airbnb's World Cup ads have out-reached Marriott's so far. Marketers should note that focus, rather than budget, wins marquee experiences.",
+      "image_url": "https://skift.com/wp-content/uploads/2026/07/still-image-from-Marriott-Bonvoy-ad-campaign-tied-to-FIFA-World-Cup-2026-as-official-sponsor.jpg?w=1024",
+      "categories": [
+        "Hotels",
+        "Media and PR",
+        "advertising",
+        "airbnb",
+        "events",
+        "experiences",
+        "fifa world cup",
+        "marketing"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T18:57:19.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 58,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "OTAs Are Betting on Traveler Trust. But the Scramble Is On to Win the Trust of AI Agents",
+      "url": "https://skift.com/2026/07/02/otas-are-betting-on-traveler-trust-but-the-scramble-is-on-to-win-the-trust-of-ai-agents/",
+      "article_date": "2026-07-02T14:37:03.000Z",
+      "article_date_raw": null,
+      "author": "Dennis Schaal",
+      "excerpt": "Whether or not travelers trust AI would almost be irrelevant to OTAs if the LLMs don't trust them enough to surface their inventory for discovery. The contest is on behind-the-scenes battle to become the LLMs' OTA fave.",
+      "image_url": "https://skift.com/wp-content/uploads/2024/06/tripcom-AdobeStock_473233782_Editorial_Use_Only-e1747718112637.jpg?w=1024",
+      "categories": [
+        "Online Travel",
+        "booking.com",
+        "expedia",
+        "online travel newsletter",
+        "the prompt",
+        "travel tech",
+        "trip.com"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T14:37:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 65,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Noble Investment Group’s Extended-Stay Bet Is Behind a 149-Hotel Buying Spree",
+      "url": "https://skift.com/2026/07/02/noble-investment-groups-extended-stay-bet-is-behind-a-149-hotel-buying-spree/",
+      "article_date": "2026-07-02T14:14:56.000Z",
+      "article_date_raw": null,
+      "author": "Rob Schneider",
+      "excerpt": "With other investors sitting on the sidelines, Noble is buying hotels from REITs and overleveraged owners at a discount — and betting that extended-stay demand will outlast the current rate headwinds.",
+      "image_url": "https://skift.com/wp-content/uploads/2026/07/Residence-Inn-Clackamas-Exterior-1.jpg?w=1024",
+      "categories": [
+        "Hotels",
+        "extended stay",
+        "investments"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T14:14:56.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 30,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "UAE Bets on Discounts, Insurance, and New Visa Markets to Refill Hotel Rooms After Iran War Hit",
+      "url": "https://skift.com/2026/07/02/uae-bets-on-discounts-insurance-and-new-visa-markets-to-refill-hotel-rooms-after-iran-war-hit/",
+      "article_date": "2026-07-02T13:52:27.000Z",
+      "article_date_raw": null,
+      "author": "Deepthi Nair",
+      "excerpt": "The UAE is running two recovery tracks at once — emergency incentives to plug a war-driven demand hole and multibillion-dollar infrastructure bets. The gap between those timelines is the story.",
+      "image_url": "https://skift.com/wp-content/uploads/2024/06/Dubai-Skyline-2024-scaled.jpeg?w=1024",
+      "categories": [
+        "Airlines",
+        "Business Travel",
+        "Hotels",
+        "Meetings",
+        "Tourism",
+        "dubai airports",
+        "dubai hotels",
+        "iran war"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T13:52:27.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 68,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Booking.com Built Its India Business on Leisure — Now It’s Going Corporate",
+      "url": "https://skift.com/2026/07/01/booking-com-built-its-india-business-on-leisure-now-its-going-corporate/",
+      "article_date": "2026-07-02T02:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Peden Doma Bhutia",
+      "excerpt": "India's business travel boom gives Booking.com a rare chance to grow two businesses at once — corporate bookings today and leisure loyalty tomorrow.",
+      "image_url": "https://skift.com/wp-content/uploads/2026/07/Santosh-e1782898690138.jpeg?w=1024",
+      "categories": [
+        "Business Travel",
+        "Online Travel",
+        "asia monthly",
+        "booking.com",
+        "business travel",
+        "india"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T02:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 60,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Expedia’s First IShowSpeed Video Brought Awareness. The Latest Pushes for Bookings.",
+      "url": "https://skift.com/2026/07/01/expedia-ishowspeed-bookable-video/",
+      "article_date": "2026-07-01T16:46:39.000Z",
+      "article_date_raw": null,
+      "author": "Bailey Schulz",
+      "excerpt": "With a shoppable IShowSpeed video, Expedia is trying to convert creator hype into transactions.",
+      "image_url": "https://skift.com/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-10.01.13-AM-e1782874591890.png?w=1024",
+      "categories": [
+        "Online Travel",
+        "Tourism",
+        "content creators",
+        "creator",
+        "creators",
+        "expedia",
+        "ishowspeed",
+        "wanderlust"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T16:46:39.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 55,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "Trump Administration Moves to Repeal Obama’s Airfare Transparency Rule",
+      "url": "https://skift.com/2026/07/01/trump-administration-moves-to-repeal-obamas-airfare-transparency-rule/",
+      "article_date": "2026-07-01T16:41:58.000Z",
+      "article_date_raw": null,
+      "author": "Meghna Maharishi",
+      "excerpt": "It's the latest move to roll back consumer protections and enforcement measures against airlines.",
+      "image_url": "https://skift.com/wp-content/uploads/2024/11/AdobeStock_522879682_Editorial_Use_Only.jpg?w=1024",
+      "categories": [
+        "Airlines",
+        "Department of Transportation",
+        "jet stream",
+        "trump effect"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T16:41:58.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 87,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    },
+    {
+      "type": "article",
+      "title": "American Launches Flights to Tokyo From Chicago O’Hare as It Looks to Rebuild Hub and Take on United",
+      "url": "https://skift.com/2026/07/01/american-launches-flights-to-tokyo-from-chicago-ohare-as-it-looks-to-rebuild-hub/",
+      "article_date": "2026-07-01T15:17:26.000Z",
+      "article_date_raw": null,
+      "author": "Meghna Maharishi",
+      "excerpt": "American is launching flights to Tokyo from Chicago as it seeks to regain some of its market share in the hub that it lost during the pandemic.",
+      "image_url": "https://skift.com/wp-content/uploads/2026/01/American-Airlines-Airbus-A321neo.jpg?w=1024",
+      "categories": [
+        "Airlines",
+        "american airlines",
+        "Chicago O'Hare",
+        "jet stream",
+        "tokyo"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-01T15:17:26.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T15:10:31.315Z",
+      "interest_score": 80,
+      "ranked_at": "2026-07-03T15:48:19.815Z"
+    }
+  ]
+}

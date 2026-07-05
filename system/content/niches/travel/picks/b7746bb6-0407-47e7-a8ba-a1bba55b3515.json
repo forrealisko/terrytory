@@ -1,0 +1,26 @@
+{
+  "id": "b7746bb6-0407-47e7-a8ba-a1bba55b3515",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:03.531Z",
+  "status": "pending",
+  "headline": "Lufthansa First Class Award Space Disappears for Partner Programs; Frontier Adds First Transfer Partner with Bonus",
+  "rating": 8.8,
+  "reasoning": "Both articles present highly relevant and actionable information for points and miles enthusiasts. The Lufthansa news, while speculative, addresses a significant shift in premium award availability, directly impacting high-value redemptions. The Frontier news offers a new, albeit niche, opportunity for earning and redeeming miles, with a timely transfer bonus. Both sources are highly credible in the travel points and miles space.",
+  "summary": "Lufthansa has reportedly ceased releasing First Class award space to partner frequent flyer programs since June 1, 2026, a move speculated to be permanent. Separately, Frontier Airlines has announced Rove as its first transfer partner, offering a 25% bonus on transfers until July 31.",
+  "source_articles": [
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "Lufthansa First Class Awards With Partner Miles: I Assume It’s The End",
+      "url": "https://onemileatatime.com/insights/lufthansa-first-class-awards-partner-miles/",
+      "excerpt": "As of June 1, 2026, Lufthansa completely stopped releasing first class award space to partner frequent flyer programs. This wasn’t the first time that had happened on a temporary basis, but as I noted, this time around definitely felt different. This ”outage” has also lasted longer than we’ve ever seen before. Now that this has consistently been the case for over a month, I’d like to take an updat…"
+    },
+    {
+      "source_id": "thepointsguy",
+      "source_name": "The Points Guy",
+      "title": "Frontier's first transfer partner: Rove adds Frontier Miles with 25% transfer bonus",
+      "url": "https://thepointsguy.com/news/frontier-rove-transfer-partner/",
+      "excerpt": "You can now transfer Rove miles to Frontier, with a limited-time 25% transfer bonus."
+    }
+  ]
+}

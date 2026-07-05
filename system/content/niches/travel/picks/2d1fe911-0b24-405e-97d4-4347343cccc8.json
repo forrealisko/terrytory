@@ -1,0 +1,19 @@
+{
+  "id": "2d1fe911-0b24-405e-97d4-4347343cccc8",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:44.639Z",
+  "status": "pending",
+  "headline": "UAE Tourism Recovery: Discounts, Insurance, and New Visas to Boost Post-War Travel",
+  "rating": 8.5,
+  "reasoning": "This topic has high travel relevance as it directly impacts a major global travel hub (UAE) and discusses strategies to attract tourists, including new visa markets and incentives. It offers actionability for readers interested in UAE travel, as it hints at potential deals and easier access. Skift is a highly credible source for travel industry news.",
+  "summary": "Following a significant drop in hotel occupancy due to the Iran war, the UAE is implementing short-term incentives like discounts and free insurance, alongside long-term infrastructure investments and new visa markets, to revive its tourism sector. Occupancy rates saw a temporary recovery during Eid but have since settled lower, indicating an ongoing effort to attract international visitors.",
+  "source_articles": [
+    {
+      "source_id": "skift",
+      "source_name": "Skift",
+      "title": "UAE Bets on Discounts, Insurance, and New Visa Markets to Refill Hotel Rooms After Iran War Hit",
+      "url": "https://skift.com/2026/07/02/uae-bets-on-discounts-insurance-and-new-visa-markets-to-refill-hotel-rooms-after-iran-war-hit/",
+      "excerpt": "The UAE is running two recovery tracks at once — emergency incentives to plug a war-driven demand hole and multibillion-dollar infrastructure bets. The gap between those timelines is the story."
+    }
+  ]
+}

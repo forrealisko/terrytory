@@ -1,0 +1,19 @@
+{
+  "id": "3d7e9f13-be1a-4cd3-85f8-e8f49ff0839e",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:47.193Z",
+  "status": "pending",
+  "headline": "MyTSA App Returns Post-Shutdowns, Offers Real-Time and Predictive Wait Times",
+  "rating": 8.2,
+  "reasoning": "This topic has high travel relevance and reader value as it directly impacts airport experience and planning. It's actionable and timely, providing information on a tool that can save travelers time and reduce stress, especially with the app being recently restored. The source, The Points Guy, is a credible travel publication, and the information pertains to an official government app.",
+  "summary": "The MyTSA app, which provides current and predictive airport security wait times, is fully operational again after being offline during two government shutdowns. The app also offers information on FAA delays and 3-1-1 compliance for carry-on items.",
+  "source_articles": [
+    {
+      "source_id": "thepointsguy",
+      "source_name": "The Points Guy",
+      "title": "Predict your TSA wait: This handy app is back up and running after 2 government shutdowns",
+      "url": "https://thepointsguy.com/airline/tsa-app/",
+      "excerpt": "Knowing what's ahead is important for air travel. The MyTSA app can help you anticipate wait times at the airport checkpoints."
+    }
+  ]
+}

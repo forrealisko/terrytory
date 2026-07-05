@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "scrape_id": "8f4bb501-417e-42e4-8d25-4fa28ca0731b",
+    "scraped_at": "2026-07-03T21:08:37.299Z",
+    "source_url": "https://www.engadget.com/rss.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "brightdata-residential",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "The Space Shuttle Endeavour goes on public display later this year",
+      "url": "https://www.engadget.com/2207813/space-shuttle-endeavour-goes-on-public-display-later-this-year/",
+      "article_date": "2026-07-03T19:41:47.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The spacecraft has been in LA since 2012, but now it's moving to a new permanent home at the California Science Center.",
+      "image_url": "https://www.engadget.com/img/gallery/the-space-shuttle-endeavour-goes-on-public-display-later-this-year/l-intro-1783107534.jpg",
+      "categories": [
+        "Space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T19:41:47.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 20,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "International Google Pixels are different than American models - here's how",
+      "url": "https://www.engadget.com/2205901/how-international-google-pixel-phones-different-american/",
+      "article_date": "2026-07-03T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "In case you were wondering in which country you should buy a Pixel phone, you world traveler you.",
+      "image_url": "https://www.engadget.com/img/gallery/international-google-pixels-are-different-than-american-models-heres-how/l-intro-1782917013.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 85,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "How to watch Summer Games Done Quick 2026",
+      "url": "https://www.engadget.com/2207676/how-to-watch-summer-games-done-quick-2026/",
+      "article_date": "2026-07-03T16:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The latest week-long speedrunning marathon starts on July 5.",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-watch-summer-games-done-quick-2026/l-intro-1783093497.jpg",
+      "categories": [
+        "Gaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T16:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 87,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Amazon's Fire HD 10 tablet just got a refresh with a bit more RAM",
+      "url": "https://www.engadget.com/2207669/amazon-fire-hd-10-ram-refresh/",
+      "article_date": "2026-07-03T15:40:03.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A RAM upgrade? In this memory economy?!",
+      "image_url": "https://www.engadget.com/img/gallery/amazons-fire-hd-10-tablet-just-got-a-refresh-with-a-bit-more-ram/l-intro-1783093073.jpg",
+      "categories": [
+        "Tablets"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T15:40:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 40,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Engadget Podcast: Who needs Valve's Steam Machine?",
+      "url": "https://www.engadget.com/2207598/engadget-podcast-who-needs-valve-steam-machine/",
+      "article_date": "2026-07-03T13:35:55.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "This week on the Engadget Podcast, we've got our first impressions of Valve's pricey Steam Machine, and we chat about Sony dumping PlayStation discs in 2028.",
+      "image_url": "https://www.engadget.com/img/gallery/engadget-podcast-who-needs-valves-steam-machine/l-intro-1783085552.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T13:35:55.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "How to claim a WhatsApp username",
+      "url": "https://www.engadget.com/2207358/how-to-claim-whatsapp-username/",
+      "article_date": "2026-07-03T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Get ready to navigate a free-for-all of social media handles.",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-claim-a-whatsapp-username/l-intro-1783026777.jpg",
+      "categories": [
+        "Apps",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 65,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "PlayStation just struck a hammer blow to game preservation",
+      "url": "https://www.engadget.com/2207297/playstation-just-struck-a-hammer-blow-to-game-preservation/",
+      "article_date": "2026-07-03T12:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Killing game discs is an anti-consumer move that only benefits Sony.",
+      "image_url": "https://www.engadget.com/img/gallery/playstation-just-struck-a-hammer-blow-to-game-preservation/l-intro-1783023883.jpg",
+      "categories": [
+        "PlayStation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T12:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 90,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Sony already invested $34 million to repurpose its EU PlayStation disc factory",
+      "url": "https://www.engadget.com/2207546/sony-repurposing-austrian-playstation-disc-factory/",
+      "article_date": "2026-07-03T11:12:15.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Sony is converting its PlayStation disc factory into a plant for optical microlenses.",
+      "image_url": "https://www.engadget.com/img/gallery/sony-already-invested-34-million-to-repurpose-its-playstation-disc-factory/l-intro-1783077019.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T11:12:15.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Microsoft filing shows how it shifts profits around to reduce its European tax bill",
+      "url": "https://www.engadget.com/2207542/microsoft-eu-tax-disclosure-report/",
+      "article_date": "2026-07-03T11:01:52.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A new mandatory compliance report released by Microsoft shows how it declares profits in different European nations to reduce its tax bill.",
+      "image_url": "https://www.engadget.com/img/gallery/microsoft-filings-show-how-big-tech-reduces-its-tax-bill-in-europe/l-intro-1783076375.jpg",
+      "categories": [
+        "Microsoft"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T11:01:52.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 80,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Tesla's Model Y L finally comes to the US with six seats and a $62,000 price tag",
+      "url": "https://www.engadget.com/2207503/teslas-model-y-long-wheelbase-comes-to-the-us/",
+      "article_date": "2026-07-03T07:00:33.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Tesla has started taking orders for the Model Y Long Wheelbase in the US and Puerto Rico.",
+      "image_url": "https://www.engadget.com/img/gallery/teslas-model-y-l-finally-comes-to-the-us-with-six-seats-and-a-62000-price-tag/l-intro-1783061915.jpg",
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T07:00:33.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta has released an app for making generative AI games",
+      "url": "https://www.engadget.com/2207426/meta-has-released-an-app-for-making-generative-ai-games/",
+      "article_date": "2026-07-02T22:53:42.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Pocket is listed in app stores but seemingly unavailable in the US.",
+      "image_url": "https://www.engadget.com/img/gallery/meta-has-released-an-app-for-making-generative-ai-games/l-intro-1783032213.jpg",
+      "categories": [
+        "Apps",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T22:53:42.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 90,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Cloudflare will filter out web crawlers that serve AI companies",
+      "url": "https://www.engadget.com/2207360/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/",
+      "article_date": "2026-07-02T21:17:10.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The hosting platform wants sites to have more control over how AI companies use their content.",
+      "image_url": "https://www.engadget.com/img/gallery/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/l-intro-1783026774.jpg",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T21:17:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 90,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Why bulky laptop chargers are a relic of the past",
+      "url": "https://www.engadget.com/2204249/why-bulky-laptop-chargers-are-outdated/",
+      "article_date": "2026-07-02T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Laptop chargers are much easier to travel with these days, and there's one specific technology that is largely to thank.",
+      "image_url": "https://www.engadget.com/img/gallery/why-bulky-laptop-chargers-are-a-relic-of-the-past/l-intro-1782755634.jpg",
+      "categories": [
+        "Laptops"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Tesla Q2 vehicle deliveries are up 25 percent over last year",
+      "url": "https://www.engadget.com/2207032/tesla-q2-vehicle-deliveries-up-25-percent-over-last-year/",
+      "article_date": "2026-07-02T17:44:50.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The company has been gaining traction in Europe.",
+      "image_url": "https://www.engadget.com/img/gallery/tesla-q2-vehicle-deliveries-are-up-25-percent-over-last-year/l-intro-1783013749.jpg",
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T17:44:50.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Onimusha: Way of the Sword's release date has been pushed up to avoid the pre-GTA 6 scramble",
+      "url": "https://www.engadget.com/2206772/onimusha-way-of-the-sword-release-date-has-been-pushed-up-to-avoid-pre-gta-6-scramble/",
+      "article_date": "2026-07-02T14:53:03.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Capcom is trying to get Onimusha: Way of the Sword out the door before the fall release calendar gets really crowded.",
+      "image_url": "https://www.engadget.com/img/gallery/onimusha-way-of-the-swords-release-date-has-been-pushed-up-to-avoid-pre-gta-6-scramble/l-intro-1783003856.jpg",
+      "categories": [
+        "Gaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T14:53:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 30,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "HDMI 2.1 vs USB-C vs DisplayPort: Which connection is better for your monitor?",
+      "url": "https://www.engadget.com/2205560/hdmi-2-1-vs-usb-c-displayport-monitor/",
+      "article_date": "2026-07-02T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "HDMI excels for media consumption, while PC gamers prefer DisplayPort.",
+      "image_url": "https://www.engadget.com/img/gallery/hdmi-2-1-vs-usb-c-vs-displayport-which-connection-is-better-for-your-monitor/l-intro-1782861816.jpg",
+      "categories": [
+        "Entertainment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 80,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Donald Trump bought a bunch of tech stock the same day he announced his AI Action Plan",
+      "url": "https://www.engadget.com/2206671/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/",
+      "article_date": "2026-07-02T13:27:42.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Financial disclosures show how much Trump loves tech stocks.",
+      "image_url": "https://www.engadget.com/img/gallery/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/l-intro-1782998790.jpg",
+      "categories": [
+        "Big Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T13:27:42.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Threads' ubiquitous Mr Beast spam is part of a massive crypto scam network",
+      "url": "https://www.engadget.com/2206409/threads-ubiquitous-mr-beast-spam-is-part-of-a-massive-crypto-scam-network/",
+      "article_date": "2026-07-02T13:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Fake Mr Beast \"promotions\" are ubiquitous on Threads - they're also part of massive crypto scam network.",
+      "image_url": "https://www.engadget.com/img/gallery/threads-ubiquitous-mr-beast-spam-is-part-of-a-massive-crypto-scam-network/l-intro-1782941700.jpg",
+      "categories": [
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T13:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 85,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Amazon is ready to deploy the Leo satellite broadband service",
+      "url": "https://www.engadget.com/2206582/amazon-leo-is-ready-to-go/",
+      "article_date": "2026-07-02T11:18:30.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "There are now enough Amazon Leo satellites to launch the service, but its constellation is still tiny compared to Starlink's.",
+      "image_url": "https://www.engadget.com/img/gallery/amazon-is-ready-to-deploy-the-leo-satellite-broadband-service/l-intro-1782990997.jpg",
+      "categories": [
+        "News",
+        "Space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T11:18:30.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 88,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    },
+    {
+      "type": "article",
+      "title": "A strange attempt to revive the 3DO is already dead",
+      "url": "https://www.engadget.com/2206578/3do-revival-empire-interactive/",
+      "article_date": "2026-07-02T11:12:14.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A long-defunct developer returned from the dead promising to revive the 3DO, but quickly pulled its pledge when it became apparent it didn't have the right to.",
+      "image_url": "https://www.engadget.com/img/gallery/a-strange-attempt-to-revive-the-3do-is-already-dead/l-intro-1782990631.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T11:12:14.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z",
+      "interest_score": 60,
+      "ranked_at": "2026-07-03T21:09:06.472Z"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "created_at": "2026-07-03T21:08:55.883Z",
+  "last_scrape": "2026-07-03T21:09:00.054Z",
+  "total_scrapes": 1,
+  "seen_hashes": {
+    "d6dd4632acf41d5a": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/"
+    },
+    "3d570a7af8596dad": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
+      "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/"
+    },
+    "32c43587996e1188": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
+      "url": "https://www.wired.com/gallery/best-bone-conduction-headphones/"
+    },
+    "efad2d7bf411b010": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "All Your Favorite Gadgets Are Getting Way More Expensive … Again",
+      "url": "https://www.wired.com/story/we-are-in-the-knockout-round-of-price-increases-for-consumer-electronics/"
+    },
+    "c1cb11c8c915d060": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "7 Best Phones You Can’t Buy in the US (2026)",
+      "url": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/"
+    },
+    "5046e892a44e6564": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "The FDA Ruled That ZYN Pouches Are Safer Than Cigarettes. That Doesn’t Mean They’re Safe",
+      "url": "https://www.wired.com/story/the-fda-ruled-that-zyn-pouches-are-safer-than-cigarettes-that-doesnt-mean-theyre-safe/"
+    },
+    "1c8a72e5e94bb988": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI",
+      "url": "https://www.wired.com/story/the-best-ultralight-backpacking-quilts/"
+    },
+    "ef18d4623d1aa139": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "When the Law Kills Your Electric Car Dealership",
+      "url": "https://www.wired.com/story/when-the-law-kills-your-polestar-electric-car-dealership/"
+    },
+    "068da21c3b0cd831": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "The 11 Best TV Shows to Stream This Month (July 2026)",
+      "url": "https://www.wired.com/story/the-11-best-shows-to-stream-right-now/"
+    },
+    "151746c52a494def": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy",
+      "url": "https://www.wired.com/story/sony-erases-digital-content-from-libraries/"
+    },
+    "894de78e5f61bc14": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "EU Politicians Investigated Pegasus Spyware. Then It Ended Up on One of Their Phones",
+      "url": "https://www.wired.com/story/eu-politicians-investigated-pegasus-spyware-then-it-ended-up-on-one-of-their-phones/"
+    },
+    "ec57f741883839cc": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It",
+      "url": "https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/"
+    },
+    "16de244a9d35673c": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "How Big Is ‘Love Island USA’? More Than 10 Million People Are Already on Its App",
+      "url": "https://www.wired.com/story/love-island-usa-app/"
+    },
+    "0df957f8934203b6": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Cries Foul",
+      "url": "https://www.wired.com/story/spotify-streaming-manipulation-prediction-markets-polymarket-kalshi/"
+    },
+    "b6e1d000cca8d3c7": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
+      "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/"
+    },
+    "82a959c9c5fca78f": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "The DEA Plans to Ban Opioid-Like Kratom Compound 7-OH",
+      "url": "https://www.wired.com/story/the-dea-plans-to-ban-kratom-compound-7-oh-sold-as-a-gas-station-opioid/"
+    },
+    "9ed041d355e51b6e": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "7 Lesser-Known Google Account Settings You Should Change",
+      "url": "https://www.wired.com/story/7-google-account-settings-you-should-change/"
+    },
+    "9ce6e19cfdf4e189": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "8 Best Travel Adapters (2026): My Top Recommendations",
+      "url": "https://www.wired.com/gallery/best-travel-adapters/"
+    },
+    "b0b137819dd06b38": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Bublue BuVortex V5 Pool Skimmer Review: An Impractical Cleaner",
+      "url": "https://www.wired.com/review/bublue-buvortex-v5-pool-skimmer/"
+    },
+    "69cc730b560a788f": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "How Trump Helped China Make America’s Cheapest EV",
+      "url": "https://www.wired.com/story/how-trump-helped-china-make-slate-americas-cheapest-ev/"
+    },
+    "027f6996ac913bf2": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "I Tried Rips, the Card-Pack App Where Users Spend Thousands Chasing Pricey Pokémon",
+      "url": "https://www.wired.com/story/i-tried-rips-the-card-pack-app-where-users-spend-thousands-chasing-pricey-pokemon/"
+    },
+    "7c8bfa1f6b34b5f6": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Inside the Luddite Festival Harnessing Gen Z’s Rage Against Big Tech",
+      "url": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/"
+    },
+    "fe20d39b5c1a564d": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech",
+      "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/"
+    },
+    "8598504a72fd2b89": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Heat Domes Are Dangerous. July Fourth Activities Will Make Things Worse",
+      "url": "https://www.wired.com/story/heat-domes-are-dangerous-july-fourth-activities-make-things-worse/"
+    },
+    "4a4c056c3a226c0b": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Paramount+ Coupon Codes and Deals for July 2026",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/"
+    },
+    "fb8b65d838aee727": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Dell Coupon Codes: 20% Off for July 2026",
+      "url": "https://www.wired.com/story/dell-coupon-code/"
+    },
+    "99acb403cfea820f": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Booking.com Promo Codes: 20% Off | July 2026",
+      "url": "https://www.wired.com/story/booking-com-promo-code/"
+    },
+    "c1d3ff4133e59b93": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "B&H Photo Promo Codes and Deals This July 2026",
+      "url": "https://www.wired.com/story/bh-photo-coupon/"
+    },
+    "abd3c2ac85d0b187": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "30% Off Canon Promo Codes | July 2026",
+      "url": "https://www.wired.com/story/canon-promo-code/"
+    },
+    "3d7512e82c8b5165": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Walmart Promo Codes: Up to 65% Off for July 2026",
+      "url": "https://www.wired.com/story/top-walmart-promo-codes/"
+    },
+    "8a6f890a3c4d6504": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Hostinger Promo Code: 79% Off for July 2026",
+      "url": "https://www.wired.com/story/hostinger-coupon-code/"
+    },
+    "ed64648a44a9702e": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Squarespace Promo Codes: 20% Off in July 2026",
+      "url": "https://www.wired.com/story/squarespace-promo-code/"
+    },
+    "4e621b47d1e88de1": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "30% Off Samsung Promo Code | July 2026",
+      "url": "https://www.wired.com/story/samsung-promo-codes/"
+    },
+    "d4c9062ba217e3c4": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Altra Running Promo Codes July 2026",
+      "url": "https://www.wired.com/story/altra-promo-code/"
+    },
+    "eba4d13a4de40c77": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Whoop Promo Codes: 20% Off This July 2026",
+      "url": "https://www.wired.com/story/whoop-promo-code/"
+    },
+    "56b81e1ddf633404": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "The Best July 4 Grill and Griddle Deals: Weber, Traeger, Recteq",
+      "url": "https://www.wired.com/story/best-grill-griddle-deals-july-4-2026/"
+    },
+    "9b57352ce2b91b9e": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Mexico’s Victory Over Ecuador Made the Ground Shake. Was It an Artificial Earthquake?",
+      "url": "https://www.wired.com/story/mexicos-victory-over-ecuador-artificial-earthquake/"
+    },
+    "9e1794ab39193541": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "Goose, a New Gay Dating App, Appears to Be a Psyop",
+      "url": "https://www.wired.com/story/goose-a-new-gay-dating-app-appears-to-be-a-psyop/"
+    },
+    "41dc89ac6a8123b0": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "An Explosion Knocked Out Anduril’s Rocket Motor Test Site in Mississippi",
+      "url": "https://www.wired.com/story/anduril-mississippi-explosion-missiles-rocket-motor/"
+    },
+    "5e069c6374019fff": {
+      "first_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-03T21:09:00.053Z",
+      "title": "You Can Now Sound the Alarm on AI Behaving Badly",
+      "url": "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 40
+  }
+}

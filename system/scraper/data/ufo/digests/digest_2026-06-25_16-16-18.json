@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "digest_id": "fe2a6217-445f-4f30-9319-795bee4504c1",
+    "run_at": "2026-06-25T16:16:18.518Z",
+    "orchestrator_version": "1.0.0",
+    "sources_attempted": 3,
+    "sources_ok": 3,
+    "sources_failed": 0,
+    "total_new": 7,
+    "run_results": {
+      "theblackvault": {
+        "ok": true,
+        "elapsed": "8.3"
+      },
+      "liberationtimes": {
+        "ok": true,
+        "elapsed": "8.2"
+      },
+      "thedebrief": {
+        "ok": true,
+        "elapsed": "9.6"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Sunscreen Misinformation Attracts High Engagement on TikTok, Study Finds",
+      "url": "https://thedebrief.org/sunscreen-misinformation-attracts-high-engagement-on-tiktok-study-finds/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/pexels-mikhail-nilov-8157145-360x240.jpg",
+      "author": "Chrissy Newton",
+      "excerpt": "TikTok videos promoting sunscreen misinformation receive significantly more engagement than pro-sunscreen content, according to new research.",
+      "article_date": "2026-06-25T08:55:52-04:00",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-06-25T12:55:52.000Z"
+      },
+      "categories": [
+        "culture",
+        "environment"
+      ],
+      "tags": [
+        "cancer prevention",
+        "health misinformation",
+        "health news",
+        "public health",
+        "skin cancer",
+        "skincancerprevention",
+        "social media",
+        "sunscreen",
+        "tiktok"
+      ],
+      "first_seen": "2026-06-25T16:16:35.372Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "Two-Century-Old Light Phenomenon Could Power the Next Generation of Communications and Data Storage Tech",
+      "url": "https://thedebrief.org/two-century-old-light-phenomenon-could-power-the-next-generation-of-communications-and-data-storage-tech/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/light-image.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "data storage",
+        "nanyang technical university",
+        "optical skyrmions",
+        "poisson spot"
+      ],
+      "first_seen": "2026-06-25T16:16:35.372Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "Discovery of Fungi Living Within Desert Moss is Challenging Past Thinking on How Organisms Thrive in Arid Environments",
+      "url": "https://thedebrief.org/discovery-of-fungi-living-within-desert-moss-is-challenging-past-thinking-on-how-organisms-thrive-in-arid-environments/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/moss-fungi-700x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "biology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "amf",
+        "arbuscular mycorrhizal fungi",
+        "desert",
+        "desert environments",
+        "fungal",
+        "fungi",
+        "land plants",
+        "moss",
+        "partnership"
+      ],
+      "first_seen": "2026-06-25T16:16:35.372Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "NASA’s Perseverance Rover Finds Complex Carbon at Ancient Martian Site Rich in Potential Biosignatures",
+      "url": "https://thedebrief.org/nasas-perseverance-rover-finds-complex-carbon-at-ancient-martian-site-rich-in-potential-biosignatures/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Mars-Perseverance-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "ancient mars",
+        "extraterrestrial life",
+        "life on mars",
+        "perseverance rover"
+      ],
+      "first_seen": "2026-06-25T16:16:35.372Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Have UFOs Ever Attacked Terrestrial Aircraft?",
+      "url": "https://thedebrief.org/have-ufos-ever-attacked-terrestrial-aircraft/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2022/04/UAP-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "features",
+        "uap"
+      ],
+      "tags": [
+        "aviation safety",
+        "uap",
+        "ufos"
+      ],
+      "first_seen": "2026-06-25T16:16:35.372Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Here Are the Top Ten Sci-Fi Bars Where Thirsty Space Travelers Can Grab a Drink",
+      "url": "https://thedebrief.org/here-are-the-top-ten-sci-fi-bars-where-thirsty-space-travelers-can-grab-a-drink/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2021/10/spocktails-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "debriefs",
+        "features",
+        "science fiction"
+      ],
+      "tags": [
+        "alcohol",
+        "cocktails",
+        "james t kirk",
+        "sci fi bars",
+        "science fiction",
+        "star trek",
+        "star wars",
+        "william shatner"
+      ],
+      "first_seen": "2026-06-25T16:16:35.372Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "The US Navy Plans to “Unman the Frontlines” With Its New Drone Programs",
+      "url": "https://thedebrief.org/the-us-navy-plans-to-unman-the-frontlines-with-its-new-drone-programs/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2021/06/X-47B-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "debriefs",
+        "defense",
+        "features"
+      ],
+      "tags": [
+        "air force",
+        "drone",
+        "drones",
+        "predator",
+        "unmanned aerial vehicle",
+        "us navy",
+        "x 47b"
+      ],
+      "first_seen": "2026-06-25T16:16:35.372Z"
+    }
+  ]
+}

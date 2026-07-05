@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "digest_id": "1279a8dc-f314-446c-bf40-f495cec3d03e",
+    "run_at": "2026-06-21T20:11:46.245Z",
+    "orchestrator_version": "1.0.0",
+    "sources_attempted": 3,
+    "sources_ok": 0,
+    "sources_failed": 3,
+    "total_new": 0,
+    "run_results": {
+      "theblackvault": {
+        "ok": false,
+        "elapsed": "6.8",
+        "error": "Command failed: npm run scrape:headless"
+      },
+      "liberationtimes": {
+        "ok": false,
+        "elapsed": "47.3",
+        "error": "Command failed: npm run scrape:headless"
+      },
+      "thedebrief": {
+        "ok": false,
+        "elapsed": "6.4",
+        "error": "Command failed: npm run scrape:headless"
+      }
+    }
+  },
+  "articles": []
+}

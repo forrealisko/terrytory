@@ -1,0 +1,19 @@
+{
+  "id": "db449d69-1c1f-4735-acf6-655cef30cc61",
+  "niche": "tech",
+  "created_at": "2026-07-03T21:09:36.525Z",
+  "status": "pending",
+  "headline": "Anthropic Ventures into Drug Development with Claude Science and In-House Research",
+  "rating": 8.8,
+  "reasoning": "This topic is highly relevant to tech, showcasing a major AI company's direct entry into a new, complex field. It's newsworthy due to Anthropic's significant shift from purely software to drug development, indicating a meaningful trend in AI application. Readers will find it valuable for understanding the evolving landscape of AI and its real-world impact beyond traditional tech products.",
+  "summary": "Anthropic has launched Claude Science, an AI workbench for scientists, and announced its intention to develop its own drugs, focusing on neglected diseases. This move positions a major AI company as a direct competitor in the drug discovery space, alongside selling AI tools to other pharmaceutical companies.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "Anthropic wants to develop its own drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "excerpt": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding tools and powerful AI models, framed the launch around what it […]"
+    }
+  ]
+}

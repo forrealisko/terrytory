@@ -1,0 +1,19 @@
+{
+  "id": "f053d489-e84e-4175-99f0-f007c8c16b6a",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:12:29.124Z",
+  "status": "pending",
+  "headline": "American Airlines Launches New Chicago O'Hare to Tokyo Route",
+  "rating": 8.8,
+  "reasoning": "This topic has high travel relevance as it directly impacts international travel options and airline competition. It's actionable for travelers planning future trips to Tokyo from Chicago, offering a new direct route, though the start date is a bit far out. Skift is a highly credible source for airline industry news.",
+  "summary": "American Airlines will launch nonstop flights from Chicago O'Hare to Tokyo starting March 27, 2027, using a Boeing 787-9, as it aims to strengthen its international presence and compete with rivals.",
+  "source_articles": [
+    {
+      "source_id": "skift",
+      "source_name": "Skift",
+      "title": "American Launches Flights to Tokyo From Chicago O’Hare as It Looks to Rebuild Hub and Take on United",
+      "url": "https://skift.com/2026/07/01/american-launches-flights-to-tokyo-from-chicago-ohare-as-it-looks-to-rebuild-hub/",
+      "excerpt": "American is launching flights to Tokyo from Chicago as it seeks to regain some of its market share in the hub that it lost during the pandemic."
+    }
+  ]
+}

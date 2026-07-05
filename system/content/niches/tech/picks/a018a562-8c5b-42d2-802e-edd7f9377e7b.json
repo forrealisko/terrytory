@@ -1,0 +1,19 @@
+{
+  "id": "a018a562-8c5b-42d2-802e-edd7f9377e7b",
+  "niche": "tech",
+  "created_at": "2026-07-03T21:09:23.766Z",
+  "status": "pending",
+  "headline": "Chevy's Silverado EV: A Technical Marvel Facing Market Inertia",
+  "rating": 8.2,
+  "reasoning": "This topic is highly relevant to tech, focusing on EV hardware, software (infotainment, ADAS), and market dynamics. It's newsworthy as it analyzes the unexpected slow adoption of a major EV product from a legacy automaker. Readers would find it valuable for understanding the challenges and innovations in the EV truck segment, despite the product's technical merits.",
+  "summary": "Despite its advanced features, long range, and impressive driving experience, the Chevrolet Silverado EV is experiencing unexpectedly low sales. The article explores potential reasons for this market inertia, including price perceptions and consumer anxieties about EV charging and range, even though data suggests these concerns might be overblown for most truck owners.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Chevy built an all-American EV truck — why is nobody buying it?",
+      "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+      "excerpt": "The Chevy Silverado EV is a solid first draft of an EV pickup truck. Here's what could make it better."
+    }
+  ]
+}

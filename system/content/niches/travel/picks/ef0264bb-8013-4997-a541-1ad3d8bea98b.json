@@ -1,0 +1,26 @@
+{
+  "id": "ef0264bb-8013-4997-a541-1ad3d8bea98b",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:12:06.462Z",
+  "status": "pending",
+  "headline": "Airline Status Match Opportunities: United MileagePlus and Alaska Atmos Rewards",
+  "rating": 9.2,
+  "reasoning": "These articles offer highly actionable and timely information for frequent travelers looking to switch airline loyalty or maximize their elite status. The 'good timing' aspect, highlighting the extended validity through 2028 for United and end of 2027 for Alaska if initiated now, provides significant reader value. Both sources are established travel blogs known for accurate and detailed points and miles content.",
+  "summary": "United MileagePlus and Alaska Atmos Rewards are offering status match challenges, with July being an ideal time to initiate them for maximum status validity through January 2028 and end of 2027, respectively. The articles detail eligibility, requirements, benefits, and how to apply for each program.",
+  "source_articles": [
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "Guide To United MileagePlus Elite Status Match & Challenge (Good Timing)",
+      "url": "https://onemileatatime.com/guides/united-status-match/",
+      "excerpt": "It’s common for airlines to offer some sort of status challenge or status match program, in order to lure frequent flyers who are loyal to competing airlines, but are considering a switch. In the United States, most major airlines offer some sort of a status match challenge opportunity, including Alaska, American, Delta, JetBlue, and Southwest."
+    },
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "Guide To Alaska Atmos Rewards Elite Status Match & Challenge (Ideal Timing)",
+      "url": "https://onemileatatime.com/guides/alaska-status-match/",
+      "excerpt": "Its common for airlines to offer some sort of status challenge or status match program, in order to lure frequent flyers who are loyal to competing airlines, but are considering a switch. In the United States, most major airlines offer some sort of a status match challenge opportunity, including American, Delta, JetBlue, Southwest, and United."
+    }
+  ]
+}

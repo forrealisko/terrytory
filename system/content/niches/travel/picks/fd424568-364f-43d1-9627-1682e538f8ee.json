@@ -1,0 +1,19 @@
+{
+  "id": "fd424568-364f-43d1-9627-1682e538f8ee",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:12:26.759Z",
+  "status": "pending",
+  "headline": "DOT Proposes Repealing Obama-Era Airfare Transparency Rules",
+  "rating": 8.8,
+  "reasoning": "This topic has high travel relevance as it directly impacts how consumers view and understand airfare pricing, affecting booking decisions. It is timely news with significant actionability, as it signals a potential shift in consumer protection that readers need to be aware of for future travel planning. Skift is a highly credible source for travel industry news.",
+  "summary": "The Department of Transportation is proposing to repeal Obama-era regulations that required airlines to prominently display total airfare, including all taxes and fees, and to use a larger font size for the total fare compared to its components.",
+  "source_articles": [
+    {
+      "source_id": "skift",
+      "source_name": "Skift",
+      "title": "Trump Administration Moves to Repeal Obama’s Airfare Transparency Rule",
+      "url": "https://skift.com/2026/07/01/trump-administration-moves-to-repeal-obamas-airfare-transparency-rule/",
+      "excerpt": "It's the latest move to roll back consumer protections and enforcement measures against airlines."
+    }
+  ]
+}

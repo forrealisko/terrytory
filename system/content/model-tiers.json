@@ -1,0 +1,26 @@
+{
+  "low": {
+    "label": "Low",
+    "blurb": "Cheapest capable models — fast and economical.",
+    "writer": "deepseek/deepseek-chat",
+    "rating": "google/gemini-2.5-flash",
+    "research": "perplexity/sonar",
+    "image": "openai/dall-e-3"
+  },
+  "medium": {
+    "label": "Medium",
+    "blurb": "Balanced quality and cost — the default.",
+    "writer": "anthropic/claude-sonnet-4.6",
+    "rating": "google/gemini-2.5-flash",
+    "research": "perplexity/sonar",
+    "image": "openai/dall-e-3"
+  },
+  "best": {
+    "label": "Best",
+    "blurb": "Top models for the job — highest quality, highest cost.",
+    "writer": "anthropic/claude-opus-4.8",
+    "rating": "google/gemini-2.5-pro",
+    "research": "perplexity/sonar-pro",
+    "image": "openai/dall-e-3"
+  }
+}

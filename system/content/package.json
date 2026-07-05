@@ -1,0 +1,13 @@
+{
+  "name": "terrytory-content-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-articles.mjs",
+    "generate:dry": "node generate-articles.mjs --dry-run"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

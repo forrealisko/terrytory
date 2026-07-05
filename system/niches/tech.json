@@ -1,0 +1,66 @@
+{
+  "id": "tech",
+  "enabled": true,
+  "brand": {
+    "name": "TERRYTORY Tech",
+    "shortName": "Tech",
+    "tagline": "Technology, Unpacked",
+    "accent": "#f97316",
+    "hero_title": "Technology,\nUnpacked.",
+    "hero_subtitle": "Gadgets, software, hardware, science, and the companies shaping what comes next — explained with clarity, not hype."
+  },
+  "editorial": {
+    "publication_description": "a smart, accessible technology publication covering consumer gadgets, software, hardware, startups, and science — explaining what's new and why it matters",
+    "voice": "tech-journalist",
+    "target_word_count": 1100,
+    "rating_criteria": [
+      "Tech Relevance (1-10): Is this genuinely about technology — devices, software, hardware, platforms, startups, or applied science? (Not pure AI research, which has its own niche.)",
+      "Novelty & Newsworthiness (1-10): Is this a launch, breakthrough, major update, or meaningful shift? (Or is it a rehash or thin press release?)",
+      "Reader Value (1-10): Would a curious, tech-literate reader find this genuinely useful, interesting, or important?"
+    ],
+    "research_focus": "breaking technology development — product launches, hardware and software releases, platform changes, startup and industry moves, and the science behind them",
+    "image_style": "Prefer: sleek product photography, gadgets and devices on clean backdrops, circuit boards and hardware close-ups, modern workspaces, futuristic concept imagery. Avoid literal text, logos, or watermarks."
+  },
+  "monetization": {
+    "mode": "none",
+    "programs": [],
+    "disclosure": ""
+  },
+  "sources": [
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "color": "#f97316",
+      "type": "rss",
+      "url": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "id": "arstechnica",
+      "name": "Ars Technica",
+      "color": "#ff4e00",
+      "type": "rss",
+      "url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "color": "#22c55e",
+      "type": "rss",
+      "url": "https://techcrunch.com/feed/"
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "color": "#a855f7",
+      "type": "rss",
+      "url": "https://www.engadget.com/rss.xml"
+    },
+    {
+      "id": "wired",
+      "name": "Wired",
+      "color": "#38bdf8",
+      "type": "rss",
+      "url": "https://www.wired.com/feed/rss"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "created_at": "2026-06-19T22:32:33.406Z",
+  "last_scrape": "2026-07-01T16:09:02.071Z",
+  "total_scrapes": 6,
+  "seen_hashes": {
+    "dadfe24cae09dd0b": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FOIA Release Provides Glimpse Into Air Force, SpaceX Efforts to Advance Rocket Cargo Program",
+      "url": "https://www.theblackvault.com/documentarchive/foia-release-provides-glimpse-into-air-force-spacex-efforts-to-advance-rocket-cargo-program/"
+    },
+    "63dc0143cece45c6": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Department of War Cites National Security to Hide Core UAP Evaluation Details",
+      "url": "https://www.theblackvault.com/documentarchive/department-of-war-cites-national-security-to-hide-core-uap-evaluation-details/"
+    },
+    "eaa6e2069063bc1b": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "The Black Vault Launches Searchable UFO Files Release Archive",
+      "url": "https://www.theblackvault.com/documentarchive/the-black-vault-launches-searchable-ufo-files-release-archive/"
+    },
+    "02d8bc7330b7d5e0": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "17-Year FOIA Request Ends With Total Withholding, Marking Longest Case in The Black Vault’s History",
+      "url": "https://www.theblackvault.com/documentarchive/17-year-foia-request-ends-with-total-withholding-marking-longest-case-in-the-black-vaults-history/"
+    },
+    "7f378151a2426b28": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "NASA Documents Show Renewed Internal Planning on How to Announce Discovery of Extraterrestrial Life",
+      "url": "https://www.theblackvault.com/documentarchive/nasa-documents-show-renewed-internal-planning-on-how-to-announce-discovery-of-extraterrestrial-life/"
+    },
+    "a16b05b035e5ff51": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Newly Released Documents Show UAP “Space Tiger Team” Built Around Space and Transmedium Cases",
+      "url": "https://www.theblackvault.com/documentarchive/newly-released-documents-show-uap-space-tiger-team-built-around-space-and-transmedium-cases/"
+    },
+    "5075ccebaeb80487": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "New Emails Reveal Pentagon Effort to Align Messaging on AATIP and Luis Elizondo",
+      "url": "https://www.theblackvault.com/documentarchive/new-emails-reveal-pentagon-effort-to-align-messaging-on-aatip-and-luis-elizondo/"
+    },
+    "a02100ed52bb10db": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FCC Records Detail Internal and Public Response to Jimmy Kimmel Controversy",
+      "url": "https://www.theblackvault.com/documentarchive/fcc-records-detail-internal-and-public-response-to-jimmy-kimmel-controversy/"
+    },
+    "e6b00d7a72062e37": {
+      "first_seen": "2026-06-19T22:32:42.371Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "CIA Reprocesses Detention Program Record Under FOIA More Than a Decade After Public Disclosure",
+      "url": "https://www.theblackvault.com/documentarchive/cia-reprocesses-detention-program-record-under-foia-more-than-a-decade-after-public-disclosure/"
+    },
+    "d57a9443d7e54370": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Amelia Earhart Declassified: New Government Records Released and Indexed by The Black Vault",
+      "url": "https://www.theblackvault.com/documentarchive/amelia-earhart-declassified-new-government-records-released-and-indexed-by-the-black-vault/"
+    },
+    "b37f768f1919059d": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Las Vegas Police Release Full Report on Cybertruck Explosion — and the Federal Intervention That Followed",
+      "url": "https://www.theblackvault.com/documentarchive/las-vegas-police-release-full-report-on-cybertruck-explosion-and-the-federal-intervention-that-followed/"
+    },
+    "3f23d2acc33da5c7": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FBI File Collection on J. Edgar Hoover",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-file-collection-on-j-edgar-hoover/"
+    },
+    "758358de92d8afec": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Department of Defense Morning News of Note – 11 March 2018",
+      "url": "https://www.theblackvault.com/documentarchive/department-of-defense-morning-news-of-note-11-march-2018/"
+    },
+    "9c3c957f127c1309": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FBI Files: Historical Figures & Groups",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-historical-figures-groups/"
+    },
+    "fcf786f4220333fa": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FBI Files: Civil Rights Era",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-civil-rights/"
+    },
+    "2e86089471f92317": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FBI Files: Scientists and Medical Professionals",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-scientists-and-medical-professionals/"
+    },
+    "4d015aa4cdafba74": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FBI Files: Directors, Agents and Personnel of the Central Intelligence Agency (CIA)",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-directors-agents-and-personnel-of-the-central-intelligence-agency-cia/"
+    },
+    "75b49577120d6451": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FBI Files: Journalists and their Periodicals",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-journalists/"
+    },
+    "d5e718709af589d1": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FBI Files: The Paranormal Collection",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-the-paranormal-collection/"
+    },
+    "99940952a1e40db5": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Newly Released FBI File Details 1984 Washington Navy Yard Bombing Investigation",
+      "url": "https://www.theblackvault.com/documentarchive/newly-released-fbi-file-details-1984-washington-navy-yard-bombing-investigation/"
+    },
+    "c0a2fc1513e94a93": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Cold War Nuclear Assessment Re-Released with Fewer Redactions After Five-Year Review",
+      "url": "https://www.theblackvault.com/documentarchive/cold-war-nuclear-assessment-re-released-with-fewer-redactions-after-five-year-review/"
+    },
+    "cbfa72811d913b5e": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "DoD Releases Previously Unseen Document Detailing “NIGHT TRAIN 84” Nuclear War Exercise Scenario",
+      "url": "https://www.theblackvault.com/documentarchive/dod-releases-previously-unseen-document-detailing-night-train-84-nuclear-war-exercise-scenario/"
+    },
+    "05abec80161ea3aa": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "NASA Partially Lifts Redactions in James Webb Briefing Records Following Appeal",
+      "url": "https://www.theblackvault.com/documentarchive/nasa-partially-lifts-redactions-in-james-webb-briefing-records-following-appeal/"
+    },
+    "ae3ed5f766224d5d": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "From Blue Dragon to Woodstock: DOE’s Classified Human Subjects Research Revealed After 7 Year Wait",
+      "url": "https://www.theblackvault.com/documentarchive/from-blue-dragon-to-woodstock-does-classified-human-subjects-research-revealed-after-7-year-wait/"
+    },
+    "566081a9946e234d": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Declassified DoD Interviews Reveal Soviet Cold War Fears and Nuclear Realities",
+      "url": "https://www.theblackvault.com/documentarchive/declassified-dod-interviews-reveal-soviet-cold-war-fears-and-nuclear-realities/"
+    },
+    "a511547da2705b87": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Operation Northwoods",
+      "url": "https://www.theblackvault.com/documentarchive/operation-northwoods/"
+    },
+    "172c2de1143b3d65": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "DoD’s Private Discussions on 2022 Afghan Screening and Extremism IG Reports",
+      "url": "https://www.theblackvault.com/documentarchive/dods-private-discussions-on-2022-afghan-screening-and-extremism-ig-reports/"
+    },
+    "22ea327170e92613": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "The “Family Jewels” Collection (CIA)",
+      "url": "https://www.theblackvault.com/documentarchive/the-family-jewels-collection-cia/"
+    },
+    "6d022ae3baaa5681": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Closed-Door 2024 UAP Briefing: FOIA Discloses Select Media Invitees",
+      "url": "https://www.theblackvault.com/documentarchive/closed-door-2024-uap-briefing-foia-discloses-select-media-invitees/"
+    },
+    "c79a5e8e668fa91c": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "DoD IG Releases Final UAP Whistleblower Reprisal Report",
+      "url": "https://www.theblackvault.com/documentarchive/dod-ig-releases-final-uap-whistleblower-reprisal-report/"
+    },
+    "02efbbbc243a1964": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-06-21T20:14:55.312Z",
+      "title": "Six and a Half Years Later, the DoD’s Reply to Harry Reid’s AATIP Memo Remains Missing",
+      "url": "https://www.theblackvault.com/documentarchive/six-and-a-half-years-later-the-dods-reply-to-harry-reids-aatip-memo-remains-missing/"
+    },
+    "90171108f88539bf": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Pentagon Spokesperson Christopher Sherwood Emails on UFOs, UAP, and more",
+      "url": "https://www.theblackvault.com/documentarchive/pentagon-spokesperson-christopher-sherwood-emails-on-ufos-uap-and-more/"
+    },
+    "28cd3dba55532e38": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Archive of Luis Elizondo’s “Deleted” Emails",
+      "url": "https://www.theblackvault.com/documentarchive/archive-of-luis-elizondos-deleted-emails/"
+    },
+    "e19c7fce2aed813f": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FAA Records Detail Pilot Encounter with Unidentified Object Pacing Aircraft Over Nevada",
+      "url": "https://www.theblackvault.com/documentarchive/faa-records-detail-pilot-encounter-with-unidentified-object-pacing-aircraft-over-nevada/"
+    },
+    "165cbaea6875820b": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "FOIA Request on UAP Keywords Produces Minimal Results, Heavy Redactions, from Energy Department",
+      "url": "https://www.theblackvault.com/documentarchive/foia-request-on-uap-keywords-produces-minimal-results-heavy-redactions-from-energy-department/"
+    },
+    "4e2381095e78ee3d": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "AATIP Resurfaces in 2022 TS-SCI Briefing, According to Navy FOIA Release",
+      "url": "https://www.theblackvault.com/documentarchive/aatip-resurfaces-in-2022-ts-sci-briefing-according-to-navy-foia-release/"
+    },
+    "c8403c0550944ede": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Despite Trump’s Call to Release UAP Files, Navy Denies Appeal for 78 Classified UAP Photographs",
+      "url": "https://www.theblackvault.com/documentarchive/despite-trumps-call-to-release-uap-files-navy-denies-appeal-for-78-classified-uap-photographs/"
+    },
+    "a21a5eb31256f5e0": {
+      "first_seen": "2026-06-19T22:32:42.372Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "Pentagon Refuses to Search for ‘Immaculate Constellation’ Emails",
+      "url": "https://www.theblackvault.com/documentarchive/pentagon-refuses-to-search-for-immaculate-constellation-emails/"
+    },
+    "22e4ae5b9c0fc3a0": {
+      "first_seen": "2026-06-25T07:12:24.290Z",
+      "last_seen": "2026-07-01T16:09:02.067Z",
+      "title": "What Timothy Gallaudet’s NOAA Emails Reveal About His Interest in UAPs",
+      "url": "https://www.theblackvault.com/documentarchive/what-timothy-gallaudets-noaa-emails-reveal-about-his-interest-in-uaps/"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 39,
+    "total_new_this_session": 0
+  }
+}

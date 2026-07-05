@@ -1,0 +1,85 @@
+{
+  "id": "ai",
+  "enabled": true,
+  "brand": {
+    "name": "TERRYTORY AI",
+    "shortName": "AI",
+    "tagline": "Artificial Intelligence, Decoded",
+    "accent": "#a855f7",
+    "hero_title": "AI, Decoded.\nSignal Over Hype.",
+    "hero_subtitle": "Model releases, research breakthroughs, and industry moves — and what they actually mean for builders and businesses."
+  },
+  "editorial": {
+    "publication_description": "a sharp, technically-literate AI intelligence publication covering model releases, research breakthroughs, industry moves, and what they actually mean for builders and businesses",
+    "voice": "ai-industry-analyst",
+    "target_word_count": 1100,
+    "rating_criteria": [
+      "AI Relevance (1-10): Is this genuinely about AI/ML — model releases, research, tooling, industry moves, policy, or safety? (Not generic tech or crypto.)",
+      "Novelty & Significance (1-10): Is this a real breakthrough, major release, or meaningful development? (Or is it hype, a rehash, or a thin press release?)",
+      "Technical Credibility (1-10): Is it from a credible lab, researcher, or outlet — with substance over speculation?"
+    ],
+    "research_focus": "breaking AI/ML development — model or product launches, benchmark results, research findings, funding and industry moves, and the key labs and researchers involved (OpenAI, Anthropic, Google DeepMind, Meta, Mistral, and academia)",
+    "image_style": "Prefer: sleek data-center hardware, abstract neural-network and circuit visualizations, humanoid robotics, glowing server racks, futuristic UI screens, researchers at workstations. Avoid literal text, logos, or watermarks."
+  },
+  "monetization": {
+    "mode": "none",
+    "programs": [],
+    "disclosure": ""
+  },
+  "sources": [
+    {
+      "id": "mittechreview",
+      "name": "MIT Technology Review",
+      "color": "#a855f7",
+      "type": "html",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "scrape": {
+        "scroll_passes": 5,
+        "settle_ms": 2000,
+        "items": [
+          {
+            "mode": "links",
+            "type_label": "article",
+            "links": "a[data-event-label=\"topic-story\"]",
+            "closest": "div, article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "venturebeatai",
+      "name": "VentureBeat AI",
+      "color": "#38bdf8",
+      "type": "rss",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    },
+    {
+      "id": "arxivai",
+      "name": "ArXiv cs.AI",
+      "color": "#f43f5e",
+      "type": "rss",
+      "url": "http://export.arxiv.org/rss/cs.AI"
+    },
+    {
+      "id": "arxivlg",
+      "name": "ArXiv cs.LG",
+      "color": "#22c55e",
+      "type": "rss",
+      "url": "http://export.arxiv.org/rss/cs.LG"
+    },
+    {
+      "id": "thegradient",
+      "name": "The Gradient",
+      "color": "#eab308",
+      "type": "rss",
+      "url": "https://thegradient.pub/rss/"
+    },
+    {
+      "id": "importai",
+      "name": "Import AI",
+      "color": "#f97316",
+      "type": "rss",
+      "url": "https://importai.substack.com/feed"
+    }
+  ]
+}

@@ -1,0 +1,958 @@
+"use client";
+
+import { useEffect, useState, useCallback, useRef } from "react";
+import { useParams, useRouter } from "next/navigation";
+import { MODELS } from "@/lib/models";
+
+interface Draft {
+  id: string;
+  created_at: string;
+  status: string;
+  source_articles: Array<{
+    source_id: string;
+    source_name: string;
+    title: string;
+    url: string;
+    excerpt?: string;
+  }>;
+  headline_options: string[];
+  selected_headline?: string;
+  slug: string;
+  body_markdown: string;
+  excerpt: string;
+  seo: {
+    meta_title: string;
+    meta_description: string;
+    keywords: string[];
+  };
+  hero_image_url?: string;
+  hero_image_alt?: string;
+  hero_image_prompt?: string;
+  generation: {
+    model: string;
+    prompt_tokens: number;
+    completion_tokens: number;
+    generation_time_ms: number;
+  };
+}
+
+function renderMarkdown(text: string): string {
+  if (!text) return "";
+  let html = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+  // Images
+  html = html.replace(
+    /!\[([^\]]*)\]\(([^)]+)\)/g,
+    '<div class="blog-body-image-container"><img src="$2" alt="$1" class="blog-body-image" /><span class="blog-body-image-caption">$1</span></div>'
+  );
+
+  // Headings
+  html = html.replace(/^### (.+)$/gm, '<h3 class="md-h3">$1</h3>');
+  html = html.replace(/^## (.+)$/gm, '<h2 class="md-h2">$1</h2>');
+  html = html.replace(/^# (.+)$/gm, '<h1 class="md-h1">$1</h1>');
+
+  // Code blocks
+  html = html.replace(
+    /```(?:[a-zA-Z0-9]+)?\n([\s\S]*?)```/g,
+    '<pre class="code-block"><code>$1</code></pre>'
+  );
+  html = html.replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+
+  // Bold & italic
+  html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  html = html.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+
+  // Bullet points
+  html = html.replace(/^\s*[-*]\s+(.+)$/gm, "<li>$1</li>");
+  html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, "<ul>$1</ul>");
+
+  // Links
+  html = html.replace(
+    /\[([^\]]+)\]\(([^)]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
+
+  // Paragraphs
+  const parts = html.split(/(<pre[\s\S]*?<\/pre>|<h[1-3][\s\S]*?<\/h[1-3]>|<ul>[\s\S]*?<\/ul>|<div[\s\S]*?<\/div>)/);
+  for (let i = 0; i < parts.length; i++) {
+    if (
+      !parts[i].startsWith("<pre") &&
+      !parts[i].startsWith("<h") &&
+      !parts[i].startsWith("<ul") &&
+      !parts[i].startsWith("<div")
+    ) {
+      parts[i] = parts[i]
+        .split(/\n\n+/)
+        .map((p) => (p.trim() ? `<p>${p.replace(/\n/g, "<br/>")}</p>` : ""))
+        .join("");
+    }
+  }
+  return parts.join("");
+}
+
+function wordCount(text: string): number {
+  return text
+    .replace(/[#*_\[\]()>`-]/g, "")
+    .split(/\s+/)
+    .filter((w) => w.length > 0).length;
+}
+
+export default function ReviewPage() {
+  const params = useParams();
+  const router = useRouter();
+  const draftId = params.id as string;
+
+  const [draft, setDraft] = useState<Draft | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState(false);
+  const [shipping, setShipping] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [toast, setToast] = useState<string | null>(null);
+
+  // Editable state
+  const [selectedHeadline, setSelectedHeadline] = useState<string>("");
+  const [customHeadline, setCustomHeadline] = useState("");
+  const [body, setBody] = useState("");
+  const [excerpt, setExcerpt] = useState("");
+  const [slug, setSlug] = useState("");
+  const [metaTitle, setMetaTitle] = useState("");
+  const [metaDesc, setMetaDesc] = useState("");
+  const [keywords, setKeywords] = useState<string[]>([]);
+  const [newKeyword, setNewKeyword] = useState("");
+  const [heroAlt, setHeroAlt] = useState("");
+  const [heroImageUrl, setHeroImageUrl] = useState("");
+  const [heroImagePrompt, setHeroImagePrompt] = useState("");
+  const [imageGenerating, setImageGenerating] = useState(false);
+  const [showEditor, setShowEditor] = useState(false);
+  const [seoOpen, setSeoOpen] = useState(false);
+  const [falConnected, setFalConnected] = useState(false);
+  
+  const [regenerateModel, setRegenerateModel] = useState<string>("anthropic/claude-sonnet-4.6");
+  const [isRegenerating, setIsRegenerating] = useState(false);
+  const pollIntervalRef = useRef<NodeJS.Timeout | null>(null);
+
+  const fetchDraft = useCallback(async (isPolling = false) => {
+    if (!isPolling) setLoading(true);
+    try {
+      const res = await fetch(`/api/content/drafts/${draftId}`);
+      if (!res.ok) throw new Error("Draft not found");
+      const data = await res.json();
+      setDraft(data);
+
+      // Initialize editable fields
+      setSelectedHeadline(
+        data.selected_headline || data.headline || data.headline_options?.[0] || ""
+      );
+      setCustomHeadline("");
+      setBody(data.body_markdown || "");
+      setExcerpt(data.excerpt || "");
+      setSlug(data.slug || "");
+      setMetaTitle(data.seo?.meta_title || "");
+      setMetaDesc(data.seo?.meta_description || "");
+      setKeywords(data.seo?.keywords || []);
+      setHeroAlt(data.hero_image_alt || "");
+      setHeroImageUrl(data.hero_image_url || "");
+      setHeroImagePrompt(data.hero_image_prompt || "");
+
+      if (data.status === "generating") {
+        setIsRegenerating(true);
+      } else {
+        setIsRegenerating(false);
+      }
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
+      setLoading(false);
+    }
+  }, [draftId]);
+
+  useEffect(() => {
+    fetchDraft(false);
+
+    fetch("/api/settings/status")
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.fal_connected) {
+          setFalConnected(true);
+        }
+      })
+      .catch(() => {});
+  }, [fetchDraft]);
+
+  useEffect(() => {
+    if (isRegenerating) {
+      pollIntervalRef.current = setInterval(() => {
+        fetchDraft(true);
+      }, 5000);
+    } else {
+      if (pollIntervalRef.current) clearInterval(pollIntervalRef.current);
+    }
+    return () => {
+      if (pollIntervalRef.current) clearInterval(pollIntervalRef.current);
+    };
+  }, [isRegenerating, fetchDraft]);
+
+  const showToast = (msg: string) => {
+    setToast(msg);
+    setTimeout(() => setToast(null), 3000);
+  };
+
+  const handleSave = async () => {
+    setSaving(true);
+    try {
+      const finalHeadline = customHeadline.trim() || selectedHeadline;
+      await fetch(`/api/content/drafts/${draftId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          selected_headline: finalHeadline,
+          body_markdown: body,
+          excerpt,
+          slug,
+          seo: {
+            meta_title: metaTitle,
+            meta_description: metaDesc,
+            keywords,
+          },
+          hero_image_url: heroImageUrl,
+          hero_image_prompt: heroImagePrompt,
+          hero_image_alt: heroAlt,
+        }),
+      });
+      showToast("Draft saved ✓");
+    } catch {
+      showToast("Failed to save ✗");
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const handleShip = async () => {
+    if (!confirm("Ship this article? It will be packaged into a folder for publishing."))
+      return;
+    setShipping(true);
+    try {
+      const finalHeadline = customHeadline.trim() || selectedHeadline;
+      const res = await fetch("/api/content/ship", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          draftId,
+          selected_headline: finalHeadline,
+          body_markdown: body,
+          slug,
+          seo: {
+            meta_title: metaTitle,
+            meta_description: metaDesc,
+            keywords,
+          },
+          hero_image_url: heroImageUrl,
+          hero_image_prompt: heroImagePrompt,
+          hero_image_alt: heroAlt,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error);
+      showToast(`Shipped! → ${data.folder_name}`);
+    } catch (err) {
+      showToast(`Ship failed: ${(err as Error).message}`);
+    } finally {
+      setShipping(false);
+    }
+  };
+
+  const handleReject = async () => {
+    if (!confirm("Reject this draft? It will be archived.")) return;
+    try {
+      await fetch(`/api/content/drafts/${draftId}`, { method: "DELETE" });
+      router.push("/content");
+    } catch {
+      showToast("Failed to reject ✗");
+    }
+  };
+
+  const handleRegenerate = async () => {
+    if (!confirm("Regenerate this article? This will overwrite the current draft content.")) return;
+    try {
+      const res = await fetch(`/api/content/drafts/${draftId}/regenerate`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ model: regenerateModel }),
+      });
+      if (!res.ok) throw new Error("Failed to start regeneration");
+      showToast("Regeneration started...");
+      setIsRegenerating(true);
+      fetchDraft(true); // Immediate fetch to update status
+    } catch (err) {
+      showToast(`Regeneration failed: ${(err as Error).message}`);
+    }
+  };
+
+  const removeKeyword = (idx: number) => {
+    setKeywords((prev) => prev.filter((_, i) => i !== idx));
+  };
+
+  const addKeyword = () => {
+    if (newKeyword.trim() && !keywords.includes(newKeyword.trim())) {
+      setKeywords((prev) => [...prev, newKeyword.trim()]);
+      setNewKeyword("");
+    }
+  };
+
+  if (loading) {
+    return (
+      <>
+        <header className="main-header">
+          <h2>Loading...</h2>
+        </header>
+        <div className="main-body">
+          <div
+            className="loading-skeleton"
+            style={{ width: "60%", height: 28, marginBottom: 20 }}
+          />
+          <div
+            className="loading-skeleton"
+            style={{ width: "100%", height: 400 }}
+          />
+        </div>
+      </>
+    );
+  }
+
+  if (error || !draft) {
+    return (
+      <>
+        <header className="main-header">
+          <h2>Error</h2>
+        </header>
+        <div className="main-body">
+          <div className="empty-state">
+            <div className="empty-state-icon">⚠️</div>
+            <p>{error || "Draft not found"}</p>
+            <button
+              className="btn btn-secondary"
+              onClick={() => router.push("/content")}
+              style={{ marginTop: 12 }}
+            >
+              Back to Queue
+            </button>
+          </div>
+        </div>
+      </>
+    );
+  }
+
+  const words = wordCount(body);
+  const readTime = Math.max(1, Math.ceil(words / 250));
+  const finalHeadline = customHeadline.trim() || selectedHeadline;
+
+  return (
+    <>
+      {/* Toast */}
+      {toast && <div className="review-toast">{toast}</div>}
+
+      <header className="main-header">
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <button
+            className="btn btn-secondary"
+            onClick={() => router.push("/content")}
+            style={{ padding: "6px 10px" }}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+          </button>
+          <div>
+            <h2>Review Article</h2>
+            <span
+              style={{
+                fontSize: 11,
+                color: "var(--text-muted)",
+              }}
+            >
+              {words.toLocaleString()} words · {readTime} min read ·{" "}
+              {draft.generation.model.split("/").pop()}
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <div className="main-body review-layout">
+        {/* ── SECTION 1: Headline (AI-chosen) ── */}
+        <section className="review-section">
+          <h3 className="review-section-title">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path d="M4 7V4h16v3" />
+              <path d="M9 20h6" />
+              <path d="M12 4v16" />
+            </svg>
+            Headline
+          </h3>
+          <p
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: 22,
+              fontWeight: 700,
+              lineHeight: 1.3,
+              color: "var(--text-primary)",
+              margin: "4px 0 0",
+            }}
+          >
+            {selectedHeadline}
+          </p>
+        </section>
+
+        {/* ── SECTION 2: Article Body ── */}
+        <section className="review-section">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <h3 className="review-section-title">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+              </svg>
+              Article Body
+            </h3>
+            <button
+              className="btn btn-secondary"
+              onClick={() => setShowEditor(!showEditor)}
+              style={{ fontSize: 12 }}
+            >
+              {showEditor ? "Preview" : "Edit Markdown"}
+            </button>
+          </div>
+
+          {showEditor ? (
+            <textarea
+              className="review-body-editor"
+              value={body}
+              onChange={(e) => setBody(e.target.value)}
+              spellCheck
+            />
+          ) : (
+            <div
+              className="review-body-preview"
+              dangerouslySetInnerHTML={{
+                __html: `<h1 class="md-h1">${finalHeadline.replace(/</g, "&lt;")}</h1>${renderMarkdown(body)}`,
+              }}
+            />
+          )}
+        </section>
+
+        {/* ── SECTION 3: Excerpt ── */}
+        <section className="review-section">
+          <h3 className="review-section-title">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <line x1="17" y1="10" x2="3" y2="10" />
+              <line x1="21" y1="6" x2="3" y2="6" />
+              <line x1="21" y1="14" x2="3" y2="14" />
+              <line x1="17" y1="18" x2="3" y2="18" />
+            </svg>
+            Excerpt
+          </h3>
+          <textarea
+            className="input-field"
+            value={excerpt}
+            onChange={(e) => setExcerpt(e.target.value)}
+            rows={2}
+            maxLength={200}
+            style={{
+              resize: "vertical",
+              fontFamily: "var(--font-sans)",
+              fontSize: 13,
+            }}
+          />
+          <span
+            style={{
+              fontSize: 11,
+              color:
+                excerpt.length > 155
+                  ? "var(--accent-rose)"
+                  : "var(--text-muted)",
+              marginTop: 4,
+              display: "block",
+            }}
+          >
+            {excerpt.length}/155 characters
+          </span>
+        </section>
+
+        {/* ── SECTION 3.5: Hero Image ── */}
+        <section className="review-section">
+          <h3 className="review-section-title">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <polyline points="21 15 16 10 5 21" />
+            </svg>
+            Hero Image
+          </h3>
+
+          {heroImageUrl ? (
+            <div className="review-image-preview-container" style={{ position: "relative", marginBottom: 12 }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={heroImageUrl}
+                alt={heroAlt || "Hero preview"}
+                style={{
+                  width: "100%",
+                  maxHeight: 300,
+                  objectFit: "cover",
+                  borderRadius: 8,
+                  border: "1px solid var(--border-subtle)",
+                }}
+              />
+              <button
+                type="button"
+                className="btn btn-secondary"
+                onClick={() => setHeroImageUrl("")}
+                style={{
+                  position: "absolute",
+                  top: 10,
+                  right: 10,
+                  background: "rgba(11, 12, 15, 0.8)",
+                  borderColor: "rgba(255, 255, 255, 0.2)",
+                  color: "var(--accent-rose)",
+                  padding: "4px 8px",
+                  fontSize: 12,
+                }}
+              >
+                Remove
+              </button>
+            </div>
+          ) : (
+            <div
+              style={{
+                border: "2px dashed var(--border-subtle)",
+                borderRadius: 8,
+                padding: "24px 16px",
+                textAlign: "center",
+                color: "var(--text-muted)",
+                marginBottom: 12,
+                fontSize: 13,
+              }}
+            >
+              No hero image selected. Generate one below or enter a custom URL.
+            </div>
+          )}
+
+          <div className="input-group" style={{ marginBottom: 12 }}>
+            <label>Image URL (Local API path or external URL)</label>
+            <input
+              type="text"
+              className="input-field"
+              value={heroImageUrl}
+              onChange={(e) => setHeroImageUrl(e.target.value)}
+              placeholder="e.g. /api/content/images/hero-123.webp or https://example.com/image.jpg"
+              style={{ fontFamily: "var(--font-mono)", fontSize: 12 }}
+            />
+          </div>
+
+          <div className="input-group">
+            <label>AI Image Generation Prompt</label>
+            <textarea
+              className="input-field"
+              value={heroImagePrompt}
+              onChange={(e) => setHeroImagePrompt(e.target.value)}
+              rows={2}
+              placeholder="Describe the image you want DALL-E 3 to generate..."
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 13,
+                resize: "vertical",
+                marginBottom: 8,
+              }}
+            />
+            <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={async () => {
+                  if (!heroImagePrompt.trim()) {
+                    alert("Please write a prompt first.");
+                    return;
+                  }
+                  setImageGenerating(true);
+                  try {
+                    const res = await fetch("/api/content/generate-image", {
+                      method: "POST",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({
+                        prompt: heroImagePrompt,
+                        articleId: draftId,
+                      }),
+                    });
+                    const data = await res.json();
+                    if (!res.ok) throw new Error(data.error || "Failed to generate");
+                    setHeroImageUrl(data.image_url);
+                    showToast("Image generated successfully! ✓");
+                  } catch (err) {
+                    showToast(`Generation failed: ${(err as Error).message}`);
+                  } finally {
+                    setImageGenerating(false);
+                  }
+                }}
+                disabled={imageGenerating}
+                style={{ fontSize: 12 }}
+              >
+                {imageGenerating ? "Generating..." : `⚡ Generate AI Image (${falConnected ? "Flux Dev" : "DALL-E 3"})`}
+              </button>
+            </div>
+          </div>
+        </section>
+
+        {/* ── SECTION 4: SEO Panel ── */}
+        <section className="review-section">
+          <button
+            className="review-section-toggle"
+            onClick={() => setSeoOpen(!seoOpen)}
+          >
+            <h3 className="review-section-title" style={{ margin: 0 }}>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              SEO Settings
+            </h3>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+              style={{
+                transform: seoOpen ? "rotate(180deg)" : "rotate(0deg)",
+                transition: "transform 0.2s",
+              }}
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+
+          {seoOpen && (
+            <div className="review-seo-panel">
+              <div className="input-group">
+                <label>
+                  Meta Title{" "}
+                  <span
+                    style={{
+                      color:
+                        metaTitle.length > 60
+                          ? "var(--accent-rose)"
+                          : "var(--text-muted)",
+                      fontWeight: 400,
+                    }}
+                  >
+                    ({metaTitle.length}/60)
+                  </span>
+                </label>
+                <input
+                  type="text"
+                  className="input-field"
+                  value={metaTitle}
+                  onChange={(e) => setMetaTitle(e.target.value)}
+                  maxLength={70}
+                  style={{ fontFamily: "var(--font-sans)" }}
+                />
+              </div>
+
+              <div className="input-group">
+                <label>
+                  Meta Description{" "}
+                  <span
+                    style={{
+                      color:
+                        metaDesc.length > 155
+                          ? "var(--accent-rose)"
+                          : "var(--text-muted)",
+                      fontWeight: 400,
+                    }}
+                  >
+                    ({metaDesc.length}/155)
+                  </span>
+                </label>
+                <textarea
+                  className="input-field"
+                  value={metaDesc}
+                  onChange={(e) => setMetaDesc(e.target.value)}
+                  rows={2}
+                  maxLength={200}
+                  style={{ resize: "vertical", fontFamily: "var(--font-sans)" }}
+                />
+              </div>
+
+              <div className="input-group">
+                <label>Slug</label>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 0,
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: 12,
+                      color: "var(--text-muted)",
+                      padding: "8px 10px",
+                      background: "var(--bg-elevated)",
+                      borderRadius: "8px 0 0 8px",
+                      border: "1px solid var(--border-subtle)",
+                      borderRight: "none",
+                      fontFamily: "var(--font-mono)",
+                    }}
+                  >
+                    /blog/
+                  </span>
+                  <input
+                    type="text"
+                    className="input-field"
+                    value={slug}
+                    onChange={(e) => setSlug(e.target.value)}
+                    style={{
+                      borderRadius: "0 8px 8px 0",
+                      fontFamily: "var(--font-mono)",
+                      fontSize: 12,
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div className="input-group">
+                <label>Keywords</label>
+                <div className="review-keywords">
+                  {keywords.map((kw, i) => (
+                    <span key={i} className="review-keyword-chip">
+                      {kw}
+                      <button
+                        onClick={() => removeKeyword(i)}
+                        style={{
+                          background: "none",
+                          border: "none",
+                          color: "inherit",
+                          cursor: "pointer",
+                          padding: "0 0 0 4px",
+                          fontSize: 12,
+                          opacity: 0.7,
+                        }}
+                      >
+                        ×
+                      </button>
+                    </span>
+                  ))}
+                </div>
+                <div style={{ display: "flex", gap: 6, marginTop: 6 }}>
+                  <input
+                    type="text"
+                    className="input-field"
+                    placeholder="Add keyword"
+                    value={newKeyword}
+                    onChange={(e) => setNewKeyword(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") {
+                        e.preventDefault();
+                        addKeyword();
+                      }
+                    }}
+                    style={{
+                      flex: 1,
+                      fontFamily: "var(--font-sans)",
+                      fontSize: 12,
+                    }}
+                  />
+                  <button
+                    className="btn btn-secondary"
+                    onClick={addKeyword}
+                    style={{ fontSize: 12 }}
+                  >
+                    Add
+                  </button>
+                </div>
+              </div>
+
+              {/* Hero image alt */}
+              <div className="input-group">
+                <label>Hero Image Alt Text</label>
+                <input
+                  type="text"
+                  className="input-field"
+                  value={heroAlt}
+                  onChange={(e) => setHeroAlt(e.target.value)}
+                  placeholder="Descriptive alt text for the hero image"
+                  style={{ fontFamily: "var(--font-sans)" }}
+                />
+              </div>
+
+              {/* Image prompt display */}
+              {draft.hero_image_prompt && (
+                <div className="input-group">
+                  <label>AI Image Prompt</label>
+                  <div
+                    style={{
+                      fontSize: 12,
+                      color: "var(--text-muted)",
+                      fontStyle: "italic",
+                      padding: "8px 12px",
+                      background: "var(--bg-primary)",
+                      borderRadius: 6,
+                      border: "1px solid var(--border-subtle)",
+                    }}
+                  >
+                    {draft.hero_image_prompt}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </section>
+
+        {/* ── SECTION 5: Source Attribution ── */}
+        <section className="review-section">
+          <h3 className="review-section-title">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+            </svg>
+            Source Articles
+          </h3>
+          <div className="review-sources">
+            {draft.source_articles.map((src, i) => (
+              <a
+                key={i}
+                href={src.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="review-source-card"
+              >
+                <span className="review-source-name">{src.source_name}</span>
+                <span className="review-source-title">{src.title}</span>
+                {src.excerpt && (
+                  <span className="review-source-excerpt">{src.excerpt}</span>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+      </div>
+
+      {/* ── Sticky Action Bar ── */}
+      <div className="review-action-bar">
+        <div className="review-action-bar-inner">
+          <button
+            className="btn btn-primary review-action-btn"
+            onClick={handleShip}
+            disabled={shipping}
+          >
+            {shipping ? (
+              <>
+                <span className="loading-spinner" style={{ width: 14, height: 14 }} />
+                Shipping...
+              </>
+            ) : (
+              <>
+                🚀 Ship
+              </>
+            )}
+          </button>
+          <button
+            className="btn btn-secondary review-action-btn"
+            onClick={handleSave}
+            disabled={saving}
+          >
+            {saving ? "Saving..." : "💾 Save Draft"}
+          </button>
+          <button
+            className="btn btn-secondary review-action-btn"
+            onClick={handleReject}
+            style={{
+              color: "var(--accent-rose)",
+              borderColor: "rgba(244, 63, 94, 0.2)",
+            }}
+          >
+            ✗ Reject
+          </button>
+          
+          <div style={{ display: "flex", gap: "8px", alignItems: "center", borderLeft: "1px solid var(--border-subtle)", paddingLeft: "12px", marginLeft: "auto" }}>
+            <select 
+              className="input-field" 
+              style={{ padding: "6px 12px", fontSize: 12, width: 180, height: 32 }}
+              value={regenerateModel}
+              onChange={(e) => setRegenerateModel(e.target.value)}
+              disabled={isRegenerating || shipping || saving}
+            >
+              {MODELS.map(m => <option key={m.id} value={m.id}>{m.name}</option>)}
+            </select>
+            <button
+              className="btn btn-secondary review-action-btn"
+              onClick={handleRegenerate}
+              disabled={isRegenerating || shipping || saving}
+              style={{ borderColor: "var(--accent-brand)", color: "var(--accent-brand)" }}
+            >
+              {isRegenerating ? "Regenerating..." : "🔄 Regenerate"}
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

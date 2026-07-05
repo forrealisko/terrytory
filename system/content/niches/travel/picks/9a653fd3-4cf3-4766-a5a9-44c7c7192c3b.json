@@ -1,0 +1,19 @@
+{
+  "id": "9a653fd3-4cf3-4766-a5a9-44c7c7192c3b",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:14.566Z",
+  "status": "pending",
+  "headline": "EU Airport Chaos: New Biometric System Causes Massive Delays, Leaders Call Urgent Meeting",
+  "rating": 9.2,
+  "reasoning": "This topic has high travel relevance and reader value, directly impacting travelers to Europe with actionable advice on how to mitigate delays. It is extremely timely, addressing current and ongoing airport chaos, and comes from a credible travel news source reporting on official EU and airline responses.",
+  "summary": "The EU's new Entry and Exit System (EES) requiring biometric checks has led to significant airport delays across Europe, prompting EU leaders to call an urgent meeting with airlines to address the growing chaos ahead of peak summer travel.",
+  "source_articles": [
+    {
+      "source_id": "thepointsguy",
+      "source_name": "The Points Guy",
+      "title": "EU leaders call 'urgent meeting' with airlines as airport chaos grows",
+      "url": "https://thepointsguy.com/news/european-union-ees-airport-chaos/",
+      "excerpt": "The European Union has called an \"urgent meeting\" as wait times grow because of the new entry and exit system. Here's what travelers should to do prepare."
+    }
+  ]
+}

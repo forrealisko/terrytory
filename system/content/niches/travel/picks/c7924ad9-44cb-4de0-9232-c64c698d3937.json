@@ -1,0 +1,19 @@
+{
+  "id": "c7924ad9-44cb-4de0-9232-c64c698d3937",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:37.141Z",
+  "status": "pending",
+  "headline": "OTAs Battle for AI Agent Trust in Future Travel Bookings",
+  "rating": 8.5,
+  "reasoning": "This topic has high travel relevance as it discusses a significant shift in how travel bookings might occur, impacting both consumers and industry players. While not immediately actionable for travelers, it's timely industry news from a credible source (Skift) that provides valuable insight into future travel planning dynamics and potential changes in how deals and inventory are surfaced.",
+  "summary": "Online Travel Agencies (OTAs) are shifting their focus from solely winning traveler trust to also securing the 'trust' of AI agents, as these AI platforms are poised to become central to future trip planning and booking processes. Companies like Trip.com are positioning themselves as the infrastructure for AI agents to access travel data and inventory.",
+  "source_articles": [
+    {
+      "source_id": "skift",
+      "source_name": "Skift",
+      "title": "OTAs Are Betting on Traveler Trust. But the Scramble Is On to Win the Trust of AI Agents",
+      "url": "https://skift.com/2026/07/02/otas-are-betting-on-traveler-trust-but-the-scramble-is-on-to-win-the-trust-of-ai-agents/",
+      "excerpt": "Whether or not travelers trust AI would almost be irrelevant to OTAs if the LLMs don't trust them enough to surface their inventory for discovery. The contest is on behind-the-scenes battle to become the LLMs' OTA fave."
+    }
+  ]
+}

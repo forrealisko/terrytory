@@ -1,0 +1,19 @@
+{
+  "id": "b49a47dd-0b92-434d-899c-9d28cd04c0ed",
+  "niche": "tech",
+  "created_at": "2026-07-03T21:09:45.324Z",
+  "status": "pending",
+  "headline": "Steam Machine's High Price Point, Sony's Digital-Only Future, and Xbox Layoffs Signal Major Industry Shifts",
+  "rating": 8.8,
+  "reasoning": "This podcast covers multiple highly relevant and newsworthy tech topics, including a major hardware launch (Steam Machine), a significant industry shift (Sony dropping physical discs), and substantial news from major players (Xbox layoffs, Apple rumors, Meta Glasses). The combined impact offers high reader value for those interested in the gaming and consumer tech landscape.",
+  "summary": "The Engadget podcast discusses the high price and target audience for Valve's new Steam Machine, Sony's decision to discontinue physical PlayStation discs by 2028, and recent layoffs at Xbox impacting several studios, alongside mentions of Apple's MacBook Ultra and new Meta Glasses.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Engadget Podcast: Who needs Valve's Steam Machine?",
+      "url": "https://www.engadget.com/2207598/engadget-podcast-who-needs-valve-steam-machine/",
+      "excerpt": "This week on the Engadget Podcast, we've got our first impressions of Valve's pricey Steam Machine, and we chat about Sony dumping PlayStation discs in 2028."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "995416a4-dbc1-4f5d-accc-c843013cea57",
+  "niche": "ai",
+  "created_at": "2026-07-03T20:51:07.864Z",
+  "status": "picked",
+  "headline": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+  "rating": 10,
+  "reasoning": "Starred by user.",
+  "summary": "Custom user-starred topic.",
+  "source_articles": [
+    {
+      "source_id": "starred",
+      "source_name": "Starred",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/"
+    }
+  ]
+}

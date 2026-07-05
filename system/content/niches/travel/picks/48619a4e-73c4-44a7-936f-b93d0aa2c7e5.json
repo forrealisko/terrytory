@@ -1,0 +1,33 @@
+{
+  "id": "48619a4e-73c4-44a7-936f-b93d0aa2c7e5",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:12:40.048Z",
+  "status": "pending",
+  "headline": "Amex, Capital One Launch Multiple Points Transfer Bonuses to Airlines and Hotels",
+  "rating": 8.8,
+  "reasoning": "This topic is highly relevant to travelers, offering actionable strategies to maximize points value for flights and hotels. The news is fresh, with specific dates for each bonus, and comes from a credible source specializing in points and miles, providing immediate value for readers looking to book travel.",
+  "summary": "American Express and Capital One have announced several limited-time transfer bonuses for their rewards points programs, including a 30% bonus to Virgin Atlantic Flying Club, a 20% bonus to Hilton Honors, and a 30% bonus to EVA Air Infinity MileageLands.",
+  "source_articles": [
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "Transfer Amex Points To Virgin Atlantic Flying Club With 30% Bonus: Worth It?",
+      "url": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
+      "excerpt": "The Amex Membership Rewards program has just launched a new 30% transfer bonus to Virgin Atlantic Flying Club. While Flying Club is in some ways a niche program, this is a deal that has the potential to offer outsized value, and I’m sure it will interest many people. I’d probably speculatively take advantage of this, except for the fact that I moved a bunch of points last year when there was a 40%…"
+    },
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "Transfer Amex Points To Hilton Honors With 20% Bonus: Worth It?",
+      "url": "https://onemileatatime.com/deals/amex-hilton-transfer-bonus/",
+      "excerpt": "The American Express Membership Rewards program has just launched a new 20% transfer bonus to Hilton Honors. We see transfer bonuses between the programs with some frequency. While this offer might sound nice, especially with the 1:2 transfer ratio in the first place (before the bonus), this isn’t an offer I’d personally recommend taking advantage of. However, everyone has to decide for themselves…"
+    },
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "Transfer Capital One Miles To EVA Air With 30% Bonus: This Could Be Worth It",
+      "url": "https://onemileatatime.com/deals/capital-one-eva-air-transfer-bonus/",
+      "excerpt": "The Capital One mileage program has just launched its newest transfer bonus, to EVA Air Infinity MileageLands. Typically the transfer ratio between the programs is significantly less than 1:1, while this bonus gets it to very close to 1:1."
+    }
+  ]
+}

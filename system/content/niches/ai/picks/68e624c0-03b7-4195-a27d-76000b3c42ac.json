@@ -1,0 +1,19 @@
+{
+  "id": "68e624c0-03b7-4195-a27d-76000b3c42ac",
+  "niche": "ai",
+  "created_at": "2026-07-05T16:21:29.889Z",
+  "status": "picked",
+  "headline": "Google DeepMind is worried about what happens when millions of agents start to interact",
+  "rating": 9.2,
+  "reasoning": "Timely, high-signal story on multi-agent AI risk from a top-tier lab (Google DeepMind), covered by a credible outlet. Strong reader interest for a builder/business audience.",
+  "summary": "Google DeepMind researchers warn about emergent risks as large populations of AI agents begin interacting at scale.",
+  "source_articles": [
+    {
+      "source_id": "mittechreview",
+      "source_name": "MIT Technology Review",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "excerpt": ""
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "travel",
+  "enabled": false,
+  "brand": {
+    "name": "TERRYTORY Travel",
+    "shortName": "Travel",
+    "tagline": "Smarter Trips, Better Deals",
+    "accent": "#38bdf8",
+    "hero_title": "Travel Smarter.\nGo Further.",
+    "hero_subtitle": "Destination intelligence, airline news, points & miles strategy, and the travel deals actually worth booking."
+  },
+  "editorial": {
+    "publication_description": "a premium travel intelligence publication covering destinations, airline industry news, points & miles strategy, and genuinely worthwhile travel deals",
+    "voice": "savvy-travel-insider",
+    "target_word_count": 1100,
+    "rating_criteria": [
+      "Travel Relevance & Reader Value (1-10): Is this about destinations, airlines, hotels, travel deals, points/miles, visas, or travel industry shifts that actually affect how people plan trips?",
+      "Actionability & Timeliness (1-10): Can a reader act on this (book, plan, avoid, save money)? Is it fresh news or an evergreen opportunity, not rehashed listicle filler?",
+      "Source Credibility (1-10): Is this from an established travel outlet, official announcement (airline, tourism board, government), or credible industry reporting?"
+    ],
+    "research_focus": "travel news or destination topic — current prices and deals, airline/hotel policy changes, seasonal timing, entry requirements, insider tips, and concrete booking advice travelers can act on",
+    "image_style": "Prefer: sweeping destination landscapes, golden-hour cityscapes, airplane wing views, tropical coastlines, cozy European streets, airport terminals, luxury hotel interiors"
+  },
+  "monetization": {
+    "mode": "affiliate",
+    "programs": [
+      { "id": "travelpayouts", "name": "Travelpayouts", "url": "https://www.travelpayouts.com", "status": "planned" },
+      { "id": "booking", "name": "Booking.com Affiliate", "url": "https://www.booking.com/affiliate-program/v2/index.html", "status": "planned" },
+      { "id": "getyourguide", "name": "GetYourGuide Partner", "url": "https://partner.getyourguide.com", "status": "planned" }
+    ],
+    "disclosure": "This article may contain affiliate links. If you book through them, we may earn a commission at no extra cost to you."
+  },
+  "sources": [
+    {
+      "id": "skift",
+      "name": "Skift",
+      "color": "#f43f5e",
+      "type": "rss",
+      "url": "https://skift.com/feed/"
+    },
+    {
+      "id": "thepointsguy",
+      "name": "The Points Guy",
+      "color": "#22c55e",
+      "type": "rss",
+      "url": "https://thepointsguy.com/feed/"
+    },
+    {
+      "id": "onemileatatime",
+      "name": "One Mile at a Time",
+      "color": "#a78bfa",
+      "type": "rss",
+      "url": "https://onemileatatime.com/feed/"
+    },
+    {
+      "id": "travelandleisure",
+      "name": "Travel + Leisure",
+      "color": "#eab308",
+      "type": "html",
+      "url": "https://www.travelandleisure.com/",
+      "scrape": {
+        "scroll_passes": 6,
+        "settle_ms": 2000,
+        "items": [
+          {
+            "mode": "links",
+            "type_label": "article",
+            "links": "a.mntl-card-list-items[href]",
+            "closest": "div"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cntraveler",
+      "name": "Condé Nast Traveler",
+      "color": "#f97316",
+      "type": "html",
+      "url": "https://www.cntraveler.com/",
+      "scrape": {
+        "scroll_passes": 6,
+        "settle_ms": 2000,
+        "items": [
+          {
+            "mode": "links",
+            "type_label": "article",
+            "links": "a.summary-item__hed-link, a[href*=\"/story/\"]",
+            "closest": "div"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "ufo",
+  "enabled": false,
+  "brand": {
+    "name": "TERRYTORY",
+    "shortName": "UFO",
+    "tagline": "UAP Intelligence & Analysis",
+    "accent": "#00e676",
+    "hero_title": "UAP Intelligence\n& Analysis",
+    "hero_subtitle": "Investigative journalism and in-depth analysis of Unidentified Aerial Phenomena, government disclosure, and emerging defense intelligence."
+  },
+  "editorial": {
+    "publication_description": "a premium UAP/UFO intelligence publication known for rigorous analysis and compelling storytelling",
+    "voice": "investigative-analyst",
+    "target_word_count": 1200,
+    "rating_criteria": [
+      "UAP/UFO Relevance (1-10): Is this about UAPs, UFOs, NHI (Non-Human Intelligence), military disclosure, congressional hearings, or whistleblower testimony?",
+      "Novelty & Newsworthiness (1-10): Is this breaking news, a major leak, or contains new investigative details? (Or is it rehashed old news?)",
+      "Source Credibility (1-10): Is this from a mainstream investigative outlet, credible journalist, government official, or just a random internet rumor?"
+    ],
+    "research_focus": "breaking UAP/UFO disclosure topic — official statements, press releases, legislative amendments (such as NDAA UAP provisions), key figures (government officials, whistleblowers, departments)",
+    "image_style": "Prefer: dramatic skies, government buildings, radar screens, mysterious aerial phenomena, document close-ups, congressional settings"
+  },
+  "monetization": {
+    "mode": "none",
+    "programs": [],
+    "disclosure": ""
+  },
+  "sources": [
+    {
+      "id": "theblackvault",
+      "name": "The Black Vault",
+      "color": "#f59e0b",
+      "type": "html",
+      "url": "https://www.theblackvault.com/documentarchive/",
+      "scrape": {
+        "scroll_passes": 8,
+        "settle_ms": 2000,
+        "items": [
+          {
+            "mode": "container",
+            "type_label": "featured",
+            "container": ".caption",
+            "title": "h3 a.post-title, h3 a",
+            "date": { "selector": "time.the-date", "attr": "datetime" },
+            "image_walk_up": 4
+          },
+          {
+            "mode": "links",
+            "type_label": "article",
+            "links": "h2.post-title a, h3.post-title a, h4.post-title a, .post-title a, h2.is-title.post-title a, h4.is-title.post-title a",
+            "closest": "article, .post-item, .post, .listing-item, .post-content, .post-details",
+            "date": { "selector": "time[datetime], time.post-date, time.the-date", "attr": "datetime" }
+          }
+        ]
+      }
+    },
+    {
+      "id": "liberationtimes",
+      "name": "Liberation Times",
+      "color": "#3b82f6",
+      "type": "html",
+      "url": "https://www.liberationtimes.com/",
+      "scrape": {
+        "scroll_passes": 8,
+        "settle_ms": 2000,
+        "date_parse": "mdy-short",
+        "items": [
+          {
+            "mode": "container",
+            "type_label": "article",
+            "container": "article.blog-item",
+            "title": "h1.blog-title a",
+            "date": { "selector": ".blog-meta-primary time.blog-date", "text": true },
+            "author": ".blog-meta-primary .blog-author",
+            "excerpt": ".blog-excerpt-wrapper"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thedebrief",
+      "name": "The Debrief",
+      "color": "#8b5cf6",
+      "type": "html",
+      "url": "https://thedebrief.org/",
+      "scrape": {
+        "scroll_passes": 10,
+        "settle_ms": 2000,
+        "wp_categories": true,
+        "items": [
+          {
+            "mode": "container",
+            "type_label": "featured",
+            "container": "article.preview-grid",
+            "title": "h2.title a"
+          },
+          {
+            "mode": "container",
+            "type_label": "article",
+            "container": "article.preview-classic",
+            "highlight_class": "preview-2",
+            "title": "h2.title a",
+            "date": { "selector": "time.entry-date", "attr": "datetime" },
+            "author": ".byline-part.author a",
+            "excerpt": "div.excerpt"
+          }
+        ]
+      }
+    }
+  ]
+}

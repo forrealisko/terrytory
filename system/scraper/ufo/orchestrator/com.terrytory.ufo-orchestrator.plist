@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <!-- Unique identifier for this launchd job -->
+  <key>Label</key>
+  <string>com.terrytory.ufo-orchestrator</string>
+
+  <!-- The command to run -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/node</string>
+    <string>/Users/poisonforreal/Library/Mobile Documents/com~apple~CloudDocs/POISON/business/terrytory/system/scraper/ufo/orchestrator/run.mjs</string>
+  </array>
+
+  <!-- Working directory -->
+  <key>WorkingDirectory</key>
+  <string>/Users/poisonforreal/Library/Mobile Documents/com~apple~CloudDocs/POISON/business/terrytory/system/scraper/ufo/orchestrator</string>
+
+  <!-- Run every 12 hours (43200 seconds) -->
+  <key>StartInterval</key>
+  <integer>43200</integer>
+
+  <!-- Also run once immediately on load -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <!-- Redirect stdout and stderr to a log file -->
+  <key>StandardOutPath</key>
+  <string>/Users/poisonforreal/Library/Mobile Documents/com~apple~CloudDocs/POISON/business/terrytory/system/scraper/ufo/orchestrator/data/launchd.stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/poisonforreal/Library/Mobile Documents/com~apple~CloudDocs/POISON/business/terrytory/system/scraper/ufo/orchestrator/data/launchd.stderr.log</string>
+
+  <!-- Keep the job alive if it crashes unexpectedly -->
+  <key>KeepAlive</key>
+  <false/>
+
+  <!-- Throttle: don't restart more often than once per 60s if it fails -->
+  <key>ThrottleInterval</key>
+  <integer>60</integer>
+
+  <!-- Environment: ensure PATH includes node and npm -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    <key>HEADLESS</key>
+    <string>true</string>
+  </dict>
+
+</dict>
+</plist>

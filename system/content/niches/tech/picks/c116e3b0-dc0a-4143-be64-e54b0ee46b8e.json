@@ -1,0 +1,19 @@
+{
+  "id": "c116e3b0-dc0a-4143-be64-e54b0ee46b8e",
+  "niche": "tech",
+  "created_at": "2026-07-03T21:09:18.084Z",
+  "status": "pending",
+  "headline": "Nuclear Startups Achieve Criticality Milestone, Sparking 'Nuclear Renaissance' Debate",
+  "rating": 8.2,
+  "reasoning": "This topic is highly relevant to tech, involving startups, advanced reactor designs, and their potential to power data centers. The achievement of criticality by multiple companies represents a significant, newsworthy milestone, even if commercialization is still distant. It offers substantial reader value by exploring a potential future energy source and the interplay between innovation, regulation, and investment.",
+  "summary": "Three nuclear startups have reached criticality with new reactor designs as part of a Department of Energy pilot program, aiming to accelerate the development of next-generation atomic energy, though experts caution about the long road to commercial viability.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+      "excerpt": "The companies’ Fourth of July plans include celebrating new reactor designs coming online. But there’s still a long way to go before they deliver energy at a meaningful scale."
+    }
+  ]
+}

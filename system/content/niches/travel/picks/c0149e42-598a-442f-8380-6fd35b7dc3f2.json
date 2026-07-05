@@ -1,0 +1,19 @@
+{
+  "id": "c0149e42-598a-442f-8380-6fd35b7dc3f2",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:49.678Z",
+  "status": "pending",
+  "headline": "Delta Pilots Union Launches Website Criticizing Airline's 'Unacceptable' Reliability Amid Contract Negotiations",
+  "rating": 8.8,
+  "reasoning": "This topic has high travel relevance as it directly impacts Delta passengers' travel experiences and highlights potential systemic issues. It offers actionable insights for travelers (Smart Traveler Playbook, DOT complaints) and is timely given the impending contract negotiations. One Mile At A Time is a credible source for airline industry news.",
+  "summary": "Delta's pilot union (ALPA) launched 'deltapilotscare.com' to address the airline's declining operational reliability, subtly blaming management and encouraging customers to file DOT complaints, ahead of upcoming contract negotiations.",
+  "source_articles": [
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "Delta Pilots Subtly Blame Management For “Unacceptable” Flight Reliability",
+      "url": "https://onemileatatime.com/news/delta-pilots-blame-management-unacceptable-flight-reliability/",
+      "excerpt": "Delta Air Lines’ pilot union has set up a website to apologize to customers for the carrier’s declining operational reliability. The site is genuinely useful and comes across as just being intended to help, but the undertone here is very clear. I must say, this is very well played on the part of the union."
+    }
+  ]
+}

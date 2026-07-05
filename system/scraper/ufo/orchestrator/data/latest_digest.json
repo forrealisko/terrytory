@@ -1,0 +1,485 @@
+{
+  "meta": {
+    "digest_id": "8d52892f-4cd5-4386-80ac-b2ccc7dd066f",
+    "run_at": "2026-07-01T16:08:53.120Z",
+    "orchestrator_version": "1.0.0",
+    "sources_attempted": 3,
+    "sources_ok": 3,
+    "sources_failed": 0,
+    "total_new": 15,
+    "run_results": {
+      "theblackvault": {
+        "ok": true,
+        "elapsed": "9.0"
+      },
+      "liberationtimes": {
+        "ok": true,
+        "elapsed": "8.4"
+      },
+      "thedebrief": {
+        "ok": true,
+        "elapsed": "9.5"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Scientists Used Water to Uncover a Strange, ‘Invisible’ Quantum Phenomenon That Remained Elusive for Decades",
+      "url": "https://thedebrief.org/scientists-used-water-to-uncover-a-strange-invisible-quantum-phenomenon-that-remained-elusive-for-decades/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/water-tank-360x240.jpg",
+      "author": "Austin Burgess",
+      "excerpt": "A team of physicists set out to recreate a 60-year-old quantum mystery using a large water tank.",
+      "article_date": "2026-06-30T08:17:49-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-30T12:17:49.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics",
+        "science"
+      ],
+      "tags": [
+        "electrons",
+        "magnetic field",
+        "particle accelerator",
+        "quantum",
+        "quantum physics",
+        "water",
+        "water tank"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Yellowstone Supervolcano Eruptions Aren’t Caused by What Scientists Used to Think They Were",
+      "url": "https://thedebrief.org/yellowstone-supervolcano-eruptions-arent-caused-by-what-scientists-used-to-think-they-were/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/yellostone-supervolcano-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "Yellowstone and other volcanic supereruptions may work completely differently than previously assumed, according to researchers.",
+      "article_date": "2026-06-30T08:02:36-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-30T12:02:36.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "magma",
+        "supereruption",
+        "supervolcano",
+        "yellowstone supervolcano"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Ancient Romans Buried Secret Coin Hoards Across Europe and Never Retrieved Them—Now Archaeologists Finally Know Why",
+      "url": "https://thedebrief.org/ancient-romans-buried-secret-coin-hoards-across-europe-and-never-retrieved-them-now-archaeologists-may-finally-know-why/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Roman-coin-hoard-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "Scholars may have solved an enduring archaeological riddle: why ancient Romans concealed massive coin hoards and never returned for them.",
+      "article_date": "2026-06-29T13:17:50-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-29T17:17:50.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news",
+        "history"
+      ],
+      "tags": [
+        "ancient rome",
+        "archaeology",
+        "art history",
+        "buried treasure",
+        "roman coin hoard",
+        "roman coins",
+        "roman empire"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "“It Has a Hidden Order That Becomes Visible”: Physicists Just Discovered a Bizarre New Quantum State",
+      "url": "https://thedebrief.org/it-has-a-hidden-order-that-becomes-visible-physicists-just-discovered-a-bizarre-new-quantum-state/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/quantum-state-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "An unusual new type of quantum state has been revealed by theoretical physicists by pushing particles to their limits.",
+      "article_date": "2026-06-29T09:45:47-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-29T13:45:47.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "exotic critical states",
+        "fractional fermi sea",
+        "one dimensional",
+        "physics",
+        "quantum phenomena",
+        "quantum state",
+        "super fermions"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Scientists Create Bio-Inspired Robots to Hack the Hovering Powers of This Exceptional Species to Build Better UAVs",
+      "url": "https://thedebrief.org/scientists-create-bio-inspired-robots-to-hack-the-hovering-powers-of-this-exceptional-species-to-build-better-uavs/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Robotic-bird-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "An innovative new approach to building safer, more efficient small unmanned aerial vehicles is taking a cue from nature.",
+      "article_date": "2026-06-29T09:09:46-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-29T13:09:46.000Z"
+      },
+      "categories": [
+        "aerospace",
+        "breaking news",
+        "engineering",
+        "robotics"
+      ],
+      "tags": [
+        "birds",
+        "drones",
+        "kestrels",
+        "rmit university",
+        "robotic bird",
+        "suav",
+        "turbulence",
+        "university of bristol"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "The First Ancient Protein Analysis of Homo Naledi Has Revealed a New Burial Mystery",
+      "url": "https://thedebrief.org/the-first-ancient-protein-analysis-of-homo-naledi-has-revealed-a-new-burial-mystery/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/ancient-tooth-protein-360x240.jpg",
+      "author": "Austin Burgess",
+      "excerpt": "A recent study, published in Cell, marks the first ancient protein analysis of Homo naledi and raises the possibility that the Dinaledi Chamber may contain predominantly, or possibly exclusively, female individuals.",
+      "article_date": "2026-06-29T08:18:34-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-29T12:18:34.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news",
+        "paleontology",
+        "science"
+      ],
+      "tags": [
+        "ancient",
+        "burial",
+        "dinaledi chamber",
+        "homo naledi",
+        "non human",
+        "protein",
+        "rising star cave",
+        "species",
+        "teeth"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "New Research Suggests Human Laughter May Hold a 15-Million-Year Old Secret",
+      "url": "https://thedebrief.org/new-research-suggests-human-laughter-may-hold-a-15-million-year-old-secret/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/02/COVER_2-2-360x240.webp",
+      "author": "Chrissy Newton",
+      "excerpt": "Human laughter may share a 15-million-year-old evolutionary rhythm with our primate ancestors, offering clues about the origins of speech.",
+      "article_date": "2026-06-29T08:04:50-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-29T12:04:50.000Z"
+      },
+      "categories": [
+        "culture",
+        "science"
+      ],
+      "tags": [
+        "apes",
+        "human laughter evolution",
+        "human speech origins",
+        "laughter",
+        "monkey",
+        "primate",
+        "primate ancestors",
+        "primate studies"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Lost for Centuries, One of the Seven Wonders of the Ancient World Has Been Rediscovered, and is Now Rising from the Mediterranean Sea",
+      "url": "https://thedebrief.org/lost-for-centuries-one-of-the-seven-wonders-of-the-ancient-world-has-been-rediscovered-and-is-now-rising-from-the-mediterranean-sea/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Lighthouse-of-Alexandria-CEAlex-Pharos-Project--360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "After more than seven centuries, the third-longest-surviving of the seven ancient wonders is rising again, offering archaeologists clues to the appearance and construction of this historic marvel.",
+      "article_date": "2026-06-28T10:35:39-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-28T14:35:39.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "antiquity",
+        "archaeology",
+        "egypt",
+        "lighthouse of alexandria",
+        "mediterranean sea",
+        "pharos",
+        "pharos project",
+        "seven wonders of the ancient world"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Scientists Have Discovered an Ancient Brain Circuit That Filters Distractions",
+      "url": "https://thedebrief.org/scientists-have-discovered-an-ancient-brain-circuit-that-filters-distractions/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/chenspec-brain-5436467_640-360x240.jpg",
+      "author": "Austin Burgess",
+      "excerpt": "Before the prefrontal cortex evolved, another system in the brain may already have been directing attention.",
+      "article_date": "2026-06-28T10:35:16-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-28T14:35:16.000Z"
+      },
+      "categories": [
+        "neuroscience",
+        "science"
+      ],
+      "tags": [
+        "adhd",
+        "attention",
+        "attention span",
+        "brain",
+        "brain circuit",
+        "distractions",
+        "neurons",
+        "the brain"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "A Mysterious Circular Structure Buried Under the North Sea Has Revealed New Evidence of an Ancient Cataclysmic Event",
+      "url": "https://thedebrief.org/a-mysterious-circular-structure-buried-under-the-north-sea-has-revealed-new-evidence-of-an-ancient-cataclysmic-event/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/07/Silverpit-impact.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "asteroid",
+        "circular structure",
+        "geology",
+        "impact crafter",
+        "north sea",
+        "seismology",
+        "silverpit"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "This Strange Exoplanet Has Revealed “the Clearest Evidence To Date” of Something Many Astronomers Suspected",
+      "url": "https://thedebrief.org/this-strange-exoplanet-has-revealed-first-evidence-to-date-of-something-many-astronomers-suspected/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/exoplanet-magnetic-field-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "exoplanet",
+        "habitability",
+        "institute of astrophyics andalusia",
+        "magnetic field"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "“We Don’t Have Any Records So Far”: Archaeologists Discover Ancient ‘Monolith’ in Mexico Unlike Anything Previously Seen",
+      "url": "https://thedebrief.org/we-dont-have-any-records-so-far-archaeologists-discover-ancient-monolith-in-mexico-unlike-anything-previously-seen/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/INAH-Veracruz-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "archaeology",
+        "maya",
+        "maya early classic period",
+        "mexico",
+        "monolith",
+        "veracruz"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "‘Fast Movers’ and Transmedium Vehicles – The Pentagon’s Unidentified Aerial Phenomena Task Force",
+      "url": "https://thedebrief.org/fast-movers-and-transmedium-vehicles-the-pentagons-uap-task-force/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2020/11/Cover1-e1613479484417.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "defense",
+        "features",
+        "uap"
+      ],
+      "tags": [
+        "department of defense",
+        "oni",
+        "uap",
+        "uap intelligence reports",
+        "uap task force",
+        "uaptf",
+        "unidentified aerial phenomena task force",
+        "uso"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Dating the Next `Oumuamua and the Art of Cosmic Mating",
+      "url": "https://thedebrief.org/dating-the-next-oumuamua-and-the-art-of-cosmic-mating/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2021/12/staring-the-comet-neowise-2021-08-28-23-40-49-utc_optimized.jpeg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "features",
+        "ideas",
+        "space"
+      ],
+      "tags": [
+        "alien life",
+        "galileo project",
+        "seti",
+        "sex",
+        "solar system dating scene"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "The First Interstellar Meteor Had a Larger Material Strength Than Iron Meteorites",
+      "url": "https://thedebrief.org/the-first-interstellar-meteor-had-a-larger-material-strength-than-iron-meteorites/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2022/04/iron-meteorite-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "features",
+        "our cosmic neighborhood",
+        "space"
+      ],
+      "tags": [
+        "cneos",
+        "fireball",
+        "interstellar",
+        "iron meteorite",
+        "meteorite",
+        "oumuamua"
+      ],
+      "first_seen": "2026-07-01T16:09:10.952Z"
+    }
+  ]
+}

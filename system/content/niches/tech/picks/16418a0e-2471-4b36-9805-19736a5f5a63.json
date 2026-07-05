@@ -1,0 +1,19 @@
+{
+  "id": "16418a0e-2471-4b36-9805-19736a5f5a63",
+  "niche": "tech",
+  "created_at": "2026-07-03T21:09:40.394Z",
+  "status": "pending",
+  "headline": "Indian Startup Skyroot Aerospace Nears First Orbital Launch, Signaling New Era for Private Space in India",
+  "rating": 8.2,
+  "reasoning": "This topic is highly relevant to tech, focusing on a significant development in private spaceflight and rocketry. The impending launch of India's first private orbital rocket represents a major breakthrough and a meaningful shift in the global space industry, offering high novelty and newsworthiness. A tech-literate reader would find this interesting due to the implications for commercial space and international competition.",
+  "summary": "Indian startup Skyroot Aerospace is preparing for the first test flight of its Vikram-1 rocket between July 12 and August 4, aiming to be India's first private company to place a launch vehicle into orbit. This mission will gather critical in-flight performance data and marks a significant milestone for India's private space sector.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
+      "url": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/",
+      "excerpt": "NASA awarded Rocket Lab deals for three dedicated launches using the company's Electron rocket."
+    }
+  ]
+}

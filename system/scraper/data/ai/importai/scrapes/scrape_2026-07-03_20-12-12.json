@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "scrape_id": "f984f9f1-70be-48bf-8bc5-ef008ea7693f",
+    "scraped_at": "2026-07-03T20:12:12.147Z",
+    "source_url": "https://importai.substack.com/feed",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "brightdata-residential",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+      "article_date": "2026-06-29T13:03:27.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "What eras bookend our interregnum?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-29T13:03:27.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+      "article_date": "2026-06-22T12:31:45.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "How religious are beliefs in the singularity?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 11,
+        "parsed": "2026-06-22T12:31:45.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+      "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
+      "article_date": "2026-06-15T11:30:53.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Where are your agents right now?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 18,
+        "parsed": "2026-06-15T11:30:53.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+      "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+      "article_date": "2026-06-08T12:31:32.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "When will markets price the singularity?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 25,
+        "parsed": "2026-06-08T12:31:32.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
+      "article_date": "2026-06-01T13:31:56.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Do you feel as though you are living in a revolution?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 32,
+        "parsed": "2026-06-01T13:31:56.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 458: Reckoning with the future; and a singularity story",
+      "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+      "article_date": "2026-05-26T12:32:03.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "What AI-driven miracles will happen this year?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 38,
+        "parsed": "2026-05-26T12:32:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+      "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
+      "article_date": "2026-05-18T13:31:17.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Welcome to Import AI, a newsletter about AI research.",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 46,
+        "parsed": "2026-05-18T13:31:17.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
+      "url": "https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth",
+      "article_date": "2026-05-11T12:46:12.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "What laws does superintelligence demand?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 53,
+        "parsed": "2026-05-11T12:46:12.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 455: AI systems are about to start building themselves.",
+      "url": "https://importai.substack.com/p/import-ai-455-automating-ai-research",
+      "article_date": "2026-05-04T12:32:09.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "The first step towards recursive self improvement",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 60,
+        "parsed": "2026-05-04T12:32:09.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
+      "url": "https://importai.substack.com/p/import-ai-454-automating-alignment",
+      "article_date": "2026-04-20T12:30:19.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "At what point do the financial markets price in the singularity?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 74,
+        "parsed": "2026-04-20T12:30:19.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment",
+      "url": "https://importai.substack.com/p/import-ai-453-breaking-ai-agents",
+      "article_date": "2026-04-13T10:02:22.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Was fire equivalent to a singularity for people at the time?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 81,
+        "parsed": "2026-04-13T10:02:22.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting",
+      "url": "https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar",
+      "article_date": "2026-04-06T12:31:31.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "How much could AI revolutionize the economy?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 88,
+        "parsed": "2026-04-06T12:31:31.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 451: Political superintelligence; Google's society of minds, and a robot drummer",
+      "url": "https://importai.substack.com/p/import-ai-451-political-superintelligence",
+      "article_date": "2026-03-30T12:28:13.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Are there any genies that can be put back in the bottle?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 95,
+        "parsed": "2026-03-30T12:28:13.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 450: China's electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks",
+      "url": "https://importai.substack.com/p/import-ai-450-chinas-electronic-warfare",
+      "article_date": "2026-03-23T12:31:45.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "How will timeless minds value time?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 102,
+        "parsed": "2026-03-23T12:31:45.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text",
+      "url": "https://importai.substack.com/p/importai-449-llms-training-other",
+      "article_date": "2026-03-16T12:30:50.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Will AI cause a political interregnum",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 109,
+        "parsed": "2026-03-16T12:30:50.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 448: AI R&D; Bytedance's CUDA-writing agent; on-device satellite AI",
+      "url": "https://importai.substack.com/p/import-ai-448-ai-r-and-d-bytedances",
+      "article_date": "2026-03-09T12:45:54.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "If Ukraine is the first major drone war, when will there be the first major AI war?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 116,
+        "parsed": "2026-03-09T12:45:54.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies",
+      "url": "https://importai.substack.com/p/import-ai-447-the-agi-economy-testing",
+      "article_date": "2026-03-02T13:45:27.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "What might a superintelligence arcology be like?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 123,
+        "parsed": "2026-03-02T13:45:27.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 446: Nuclear LLMs; China's big AI benchmark; measurement and AI policy",
+      "url": "https://importai.substack.com/p/import-ai-446-nuclear-llms-chinas",
+      "article_date": "2026-02-23T13:31:18.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Will AIs be jealous of one another?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 130,
+        "parsed": "2026-02-23T13:31:18.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 445: Timing superintelligence; AIs solve frontier math proofs; a new ML research benchmark",
+      "url": "https://importai.substack.com/p/import-ai-445-timing-superintelligence",
+      "article_date": "2026-02-16T14:01:19.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "Will 2026 be looked back on as the pivotal year for making decisions about the singularity?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 137,
+        "parsed": "2026-02-16T14:01:19.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    },
+    {
+      "type": "article",
+      "title": "Import AI 444: LLM societies; Huawei makes kernels with AI; ChipBench",
+      "url": "https://importai.substack.com/p/import-ai-444-llm-societies-huawei",
+      "article_date": "2026-02-09T14:03:34.000Z",
+      "article_date_raw": null,
+      "author": "Jack Clark",
+      "excerpt": "How can you quantify creativity?",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 144,
+        "parsed": "2026-02-09T14:03:34.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T20:12:12.147Z"
+    }
+  ]
+}

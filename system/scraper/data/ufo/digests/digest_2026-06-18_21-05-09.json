@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "digest_id": "44f016b2-919f-4b87-98eb-ad032afd6327",
+    "run_at": "2026-06-18T21:05:09.402Z",
+    "orchestrator_version": "1.0.0",
+    "sources_attempted": 3,
+    "sources_ok": 3,
+    "sources_failed": 0,
+    "total_new": 3,
+    "run_results": {
+      "theblackvault": {
+        "ok": true,
+        "elapsed": "200.1"
+      },
+      "liberationtimes": {
+        "ok": true,
+        "elapsed": "2497.5"
+      },
+      "thedebrief": {
+        "ok": true,
+        "elapsed": "44.0"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Technology of the Future Could Turn Radio Waves into Electricity",
+      "url": "https://thedebrief.org/technology-of-the-future-could-turn-radio-waves-into-electricity/",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "debriefs",
+        "features",
+        "science",
+        "tech"
+      ],
+      "tags": [
+        "antenna",
+        "metasurface",
+        "radio waves",
+        "university of south florida"
+      ],
+      "first_seen": "2026-06-18T21:50:40.578Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Are Incels the Future Face of Terrorism?",
+      "url": "https://thedebrief.org/are-incels-terrorists-the-future-of-extremist-nihilism/",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "defense",
+        "features"
+      ],
+      "tags": [
+        "defense",
+        "incel",
+        "incels",
+        "internet culture",
+        "involuntary celibate",
+        "terrorism"
+      ],
+      "first_seen": "2026-06-18T21:50:40.578Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Here Comes the October Surprise",
+      "url": "https://thedebrief.org/here-comes-the-october-surprise/",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "features",
+        "opinion",
+        "trail of the saucers",
+        "uap"
+      ],
+      "tags": [
+        "bryce zabel",
+        "october surprise",
+        "preliminary assessment",
+        "uap report"
+      ],
+      "first_seen": "2026-06-18T21:50:40.578Z"
+    }
+  ]
+}

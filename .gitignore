@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────
+# SECRETS — never commit these (API keys, proxy creds, tokens)
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.local.example
+**/.env
+**/.env.local
+**/.env.*.local
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# ─────────────────────────────────────────────────────────────
+# Dependencies
+# ─────────────────────────────────────────────────────────────
+node_modules/
+**/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+
+# ─────────────────────────────────────────────────────────────
+# Build output
+# ─────────────────────────────────────────────────────────────
+.next/
+**/.next/
+/out/
+/build/
+*.tsbuildinfo
+next-env.d.ts
+
+# ─────────────────────────────────────────────────────────────
+# Deploy / tooling
+# ─────────────────────────────────────────────────────────────
+.vercel
+.claude/
+coverage/
+
+# ─────────────────────────────────────────────────────────────
+# OS / editor cruft
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ─────────────────────────────────────────────────────────────
+# Runtime scratch (logs, locks, temp) — but KEEP published content,
+# images, and scraper data: the live site serves those from the repo.
+# ─────────────────────────────────────────────────────────────
+system/**/*.log
+system/content/**/tmp/
+*.pid

@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "scrape_id": "12f9e7a1-11db-47f6-9866-83e031cdc5aa",
+    "scraped_at": "2026-07-03T21:08:37.299Z",
+    "source_url": "https://techcrunch.com/feed/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "brightdata-residential",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "article_date": "2026-07-03T18:43:00.000Z",
+      "article_date_raw": null,
+      "author": "Lauren Forristal",
+      "excerpt": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "Startups",
+        "Browser",
+        "evergreens",
+        "search engines",
+        "web browser"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T18:43:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "The Dune keypad device can be your meeting controller and more",
+      "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+      "article_date": "2026-07-03T18:28:30.000Z",
+      "article_date_raw": null,
+      "author": "Ivan Mehta",
+      "excerpt": "The gadget has three buttons, and it changes context based on what app you are looking at. For instance, in meeting apps and sites, it could be toggle mic, toggle video, and bring window to the front.",
+      "image_url": null,
+      "categories": [
+        "Gadgets",
+        "Claude",
+        "custom keyboards",
+        "gadget",
+        "Project mirage"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T18:28:30.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Chevy built an all-American EV truck — why is nobody buying it?",
+      "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+      "article_date": "2026-07-03T16:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Tim De Chant",
+      "excerpt": "The Chevy Silverado EV is a solid first draft of an EV pickup truck. Here's what could make it better.",
+      "image_url": null,
+      "categories": [
+        "Climate",
+        "Transportation",
+        "Chevrolet",
+        "chevrolet silverado",
+        "electric vehicles",
+        "review"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T16:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware",
+      "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
+      "article_date": "2026-07-03T05:05:00.000Z",
+      "article_date_raw": null,
+      "author": "Zack Whittaker",
+      "excerpt": "A government customer of NSO Group used the company's Pegasus spyware to hack into the phone of a European politician, who at the time was serving on an EU committee tasked with investigating the spyware industry.",
+      "image_url": null,
+      "categories": [
+        "Government & Policy",
+        "Security",
+        "cybersecurity",
+        "NSO Group",
+        "Pegasus",
+        "Spyware"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T05:05:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
+      "url": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/",
+      "article_date": "2026-07-03T00:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Isabelle Johannessen",
+      "excerpt": "If you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone.",
+      "image_url": null,
+      "categories": [
+        "Startups",
+        "Startup Battlefield Australia",
+        "TechCrunch Disrupt 2026"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-03T00:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "article_date": "2026-07-02T23:38:10.000Z",
+      "article_date_raw": null,
+      "author": "Lucas Ropek",
+      "excerpt": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "ai agent",
+        "In Brief",
+        "Mark Zuckerberg",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T23:38:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Private space pilots are flying orbital missions for the US Space Force",
+      "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
+      "article_date": "2026-07-02T23:01:06.000Z",
+      "article_date_raw": null,
+      "author": "Tim Fernholz",
+      "excerpt": "True Anomaly and Rocket Lab are performing Top Gun-style satellite fly-bys for the U.S. military.",
+      "image_url": null,
+      "categories": [
+        "Space",
+        "Rocket Lab",
+        "True Anomaly",
+        "U.S. Space Force"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T23:01:06.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Thiel Capital’s Jack Selby nabs stakes in hot startups like Etched through Arizona connections",
+      "url": "https://techcrunch.com/2026/07/02/thiel-capitals-jack-selby-nabs-stakes-in-hot-startups-like-etched-through-arizona-connections/",
+      "article_date": "2026-07-02T21:57:10.000Z",
+      "article_date_raw": null,
+      "author": "Marina Temkin",
+      "excerpt": "Selby's VC firm, Copper Sky Capital, is currently raising a $300 million second fund, according to a regulatory filing.",
+      "image_url": null,
+      "categories": [
+        "Hardware",
+        "Venture",
+        "arizona",
+        "etched",
+        "fundraising",
+        "Thiel Capital",
+        "TSMC"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-02T21:57:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "IQM, Europe’s first public quantum company, admits the future of the tech is uncertain",
+      "url": "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/",
+      "article_date": "2026-07-02T20:42:48.000Z",
+      "article_date_raw": null,
+      "author": "Anna Heim",
+      "excerpt": "IQM, a full-stack quantum company out of Finland, went public on the Nasdaq today at a valuation of about $1.9 billion.",
+      "image_url": null,
+      "categories": [
+        "Hardware",
+        "Startups",
+        "Espoo",
+        "finland",
+        "IPO",
+        "IQM",
+        "NASDAQ",
+        "quantum computing"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T20:42:48.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
+      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+      "article_date": "2026-07-02T20:11:59.000Z",
+      "article_date_raw": null,
+      "author": "Julie Bort",
+      "excerpt": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "TC",
+        "IPOs",
+        "sandwiches"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T20:11:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "A warning sign about AI’s real cost, courtesy of Google and Amazon",
+      "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
+      "article_date": "2026-07-02T19:14:46.000Z",
+      "article_date_raw": null,
+      "author": "Tim De Chant",
+      "excerpt": "AI has made it a lot harder for tech companies like Amazon and Google to deliver on their net-zero pledges.",
+      "image_url": null,
+      "categories": [
+        "Climate",
+        "Amazon",
+        "carbon emissions",
+        "Google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T19:14:46.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta quietly launches vibe-coded gaming app Pocket",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "article_date": "2026-07-02T18:44:02.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "Gaming",
+        "Social",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T18:44:02.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees",
+      "url": "https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees/",
+      "article_date": "2026-07-02T18:39:14.000Z",
+      "article_date_raw": null,
+      "author": "Lauren Forristal",
+      "excerpt": "Hopper will pay $35 million to settle FTC allegations that it used deceptive “dark patterns” to hide fees and mislead travelers about the costs and benefits of services.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Federal Trade Commission",
+        "Hopper",
+        "Settlements",
+        "travel app"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T18:39:14.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Anthropic is discussing a new custom chip with Samsung",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "article_date": "2026-07-02T18:31:09.000Z",
+      "article_date_raw": null,
+      "author": "Lucas Ropek",
+      "excerpt": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "TC",
+        "AI chips",
+        "Anthropic",
+        "nvidia",
+        "OpenAI",
+        "Samsung"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T18:31:09.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Boeing-owned Wisk Aero accused of firing manager who raised safety concerns",
+      "url": "https://techcrunch.com/2026/07/02/boeing-owned-wisk-aero-accused-of-firing-manager-who-raised-safety-concerns/",
+      "article_date": "2026-07-02T17:30:04.000Z",
+      "article_date_raw": null,
+      "author": "Sean O'Kane",
+      "excerpt": "A former software manager claims Wisk rushed software testing ahead of a crucial 2025 flight test.",
+      "image_url": null,
+      "categories": [
+        "Transportation",
+        "air taxi",
+        "Boeing",
+        "Electric Planes",
+        "eVTOL",
+        "In Brief",
+        "Wisk Aero"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T17:30:04.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Melinda Gates’ venture firm backs Magnify Ventures’ $46.6M Fund II",
+      "url": "https://techcrunch.com/2026/07/02/melinda-gates-venture-firm-backs-magnify-ventures-46-6m-fund-ii/",
+      "article_date": "2026-07-02T15:26:43.000Z",
+      "article_date_raw": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "Early-stage firm Magnify Ventures has raised a $46.6 million Fund II from LPs, including Melinda French Gates’ Pivotal Ventures.",
+      "image_url": null,
+      "categories": [
+        "Venture",
+        "Care Economy",
+        "In Brief",
+        "Magnify Ventures",
+        "Melinda French Gates",
+        "Pivotal Ventures"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T15:26:43.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "article_date": "2026-07-02T15:20:51.000Z",
+      "article_date_raw": null,
+      "author": "Russell Brandom",
+      "excerpt": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "government",
+        "OpenAI",
+        "sam altman"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T15:20:51.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Popular TV-tracking app TV Time is shutting down as company focuses on AI",
+      "url": "https://techcrunch.com/2026/07/02/popular-tv-tracking-app-tv-time-is-shutting-down-as-company-focuses-on-ai/",
+      "article_date": "2026-07-02T15:14:03.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "TV Time, the popular TV-tracking app, is shutting down on July 15 as parent company Whip Media pivots toward enterprise AI products.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Media & Entertainment",
+        "Social",
+        "TC",
+        "TV Time",
+        "whip media"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T15:14:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "Lucid Motors’ CFO is out as its new CEO continues leadership shakeup",
+      "url": "https://techcrunch.com/2026/07/02/lucid-motors-cfo-is-out-as-its-new-ceo-continues-leadership-shakeup/",
+      "article_date": "2026-07-02T14:53:39.000Z",
+      "article_date_raw": null,
+      "author": "Sean O'Kane",
+      "excerpt": "The company announced a new slate of executive hires meant to help turn things around, as Gravity SUV sales are not taking off as expected.",
+      "image_url": null,
+      "categories": [
+        "Transportation",
+        "electric vehicles",
+        "EVs",
+        "Lucid Motors",
+        "people moves"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T14:53:39.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    },
+    {
+      "type": "article",
+      "title": "US government says it got hacked — again",
+      "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/",
+      "article_date": "2026-07-02T14:22:36.000Z",
+      "article_date_raw": null,
+      "author": "Zack Whittaker",
+      "excerpt": "A top Democrat on the Senate's Intelligence Committee warned that the information accessed on a Homeland Security intelligence-sharing network may risk national security.",
+      "image_url": null,
+      "categories": [
+        "Government & Policy",
+        "Security",
+        "cyberattack",
+        "cybersecurity",
+        "data breach",
+        "Homeland Security",
+        "intelligence",
+        "Trump Administration"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-02T14:22:36.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-03T21:08:37.299Z"
+    }
+  ]
+}

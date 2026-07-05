@@ -1,0 +1,19 @@
+{
+  "id": "c01620e8-5f22-4ecb-b271-da9db3247d42",
+  "niche": "tech",
+  "created_at": "2026-07-03T21:09:15.100Z",
+  "status": "pending",
+  "headline": "Dune Keypad Offers Contextual Shortcuts and AI Integration for Mac Productivity",
+  "rating": 8.2,
+  "reasoning": "This topic is highly relevant to tech, introducing a novel hardware device that enhances productivity through contextual shortcuts and AI integration. It offers significant reader value by addressing common pain points for Mac users and showcasing an innovative approach to peripheral customization.",
+  "summary": "Project Mirage has launched Dune, a compact, three-key USB-C keypad for MacBooks that provides contextual shortcuts for various applications, including meeting controls, productivity software, and developer tools, with advanced customization via Python scripting and AI-powered shortcut generation through Claude Desktop.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "The Dune keypad device can be your meeting controller and more",
+      "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+      "excerpt": "The gadget has three buttons, and it changes context based on what app you are looking at. For instance, in meeting apps and sites, it could be toggle mic, toggle video, and bring window to the front."
+    }
+  ]
+}

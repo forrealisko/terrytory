@@ -1,0 +1,19 @@
+{
+  "id": "b31f7d83-6e8c-4599-9d5b-a98e1188ac69",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:11:52.166Z",
+  "status": "pending",
+  "headline": "JetBlue's 'Blue First' Class Rollout and Economy Seat Pitch Reduction",
+  "rating": 8.8,
+  "reasoning": "This topic has high travel relevance as it directly impacts JetBlue passengers' flight experience and future booking decisions. The news is actionable for travelers planning future trips on JetBlue, especially regarding the economy seat pitch reduction, and the source is a well-regarded travel industry blog known for timely updates. While the full rollout is in 2026-2027, the announcement itself is current and provides valuable foresight.",
+  "summary": "JetBlue is introducing a new 'Blue First' class product across its non-Mint fleet, with a widespread rollout expected to begin in October 2026 and conclude by late 2027. To accommodate this, the airline will reduce economy seat pitch from 32 inches to 30 inches.",
+  "source_articles": [
+    {
+      "source_id": "onemileatatime",
+      "source_name": "One Mile at a Time",
+      "title": "JetBlue “Blue First” First Class Rolling Out Fleetwide Starting In Late 2026",
+      "url": "https://onemileatatime.com/news/jetblue-first-class/",
+      "excerpt": "JetBlue is known for its excellent Mint business class experience, though the catch is that it’s only available on select premium routes. Fortunately some time ago, JetBlue announced plans to introduce a premium product throughout the rest of its fleet, more comparable to domestic first class."
+    }
+  ]
+}

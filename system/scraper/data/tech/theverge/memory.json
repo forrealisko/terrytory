@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "created_at": "2026-07-03T21:08:37.301Z",
+  "last_scrape": "2026-07-03T21:08:42.224Z",
+  "total_scrapes": 1,
+  "seen_hashes": {
+    "5762e9515f24e939": {
+      "first_seen": "2026-07-03T21:08:42.221Z",
+      "last_seen": "2026-07-03T21:08:42.221Z",
+      "title": "Amazon updated 2023’s Fire HD 10 tablet with 4GB of RAM",
+      "url": "https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update"
+    },
+    "7746f924af8a07c8": {
+      "first_seen": "2026-07-03T21:08:42.221Z",
+      "last_seen": "2026-07-03T21:08:42.221Z",
+      "title": "While you’re watching the World Cup, the feds may be watching you",
+      "url": "https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras"
+    },
+    "1854caed4418c0ae": {
+      "first_seen": "2026-07-03T21:08:42.221Z",
+      "last_seen": "2026-07-03T21:08:42.221Z",
+      "title": "This slim camera has a transparent LCD screen for a viewfinder",
+      "url": "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen"
+    },
+    "c398ed9b9b231a0c": {
+      "first_seen": "2026-07-03T21:08:42.222Z",
+      "last_seen": "2026-07-03T21:08:42.222Z",
+      "title": "I finally got my Trump phone",
+      "url": "https://www.theverge.com/tech/961297/trump-mobile-t1-phone-first-impressions"
+    },
+    "f54787faf26f7a04": {
+      "first_seen": "2026-07-03T21:08:42.222Z",
+      "last_seen": "2026-07-03T21:08:42.222Z",
+      "title": "Hydration isn’t complicated: Just drink water",
+      "url": "https://www.theverge.com/column/960832/optimizer-hydration-electrolytes-health-heat-wave"
+    },
+    "88ecdef43c05f6e5": {
+      "first_seen": "2026-07-03T21:08:42.222Z",
+      "last_seen": "2026-07-03T21:08:42.222Z",
+      "title": "Anthropic wants to develop its own drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development"
+    },
+    "65154033d299234b": {
+      "first_seen": "2026-07-03T21:08:42.222Z",
+      "last_seen": "2026-07-03T21:08:42.222Z",
+      "title": "Jon Prosser responds to Apple lawsuit by blaming the other guy",
+      "url": "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak"
+    },
+    "2ff33d682f6b1ded": {
+      "first_seen": "2026-07-03T21:08:42.222Z",
+      "last_seen": "2026-07-03T21:08:42.222Z",
+      "title": "The Verge’s annual summer ‘in’ and ‘out’ list",
+      "url": "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list"
+    },
+    "db075e4f2d8c6c1b": {
+      "first_seen": "2026-07-03T21:08:42.222Z",
+      "last_seen": "2026-07-03T21:08:42.222Z",
+      "title": "Apple TV is hitting its stride",
+      "url": "https://www.theverge.com/entertainment/960985/apple-tv-hits-2026"
+    },
+    "22b7694194445ab2": {
+      "first_seen": "2026-07-03T21:08:42.222Z",
+      "last_seen": "2026-07-03T21:08:42.222Z",
+      "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 10
+  }
+}

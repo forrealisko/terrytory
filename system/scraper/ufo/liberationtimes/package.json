@@ -1,0 +1,15 @@
+{
+  "name": "liberationtimes-scraper",
+  "version": "1.0.0",
+  "description": "Robust headline scraper for Liberation Times with memory and deduplication",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.mjs",
+    "scrape:headless": "HEADLESS=true node scraper.mjs",
+    "history": "node history.mjs",
+    "test": "node scraper.mjs --dry-run"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}

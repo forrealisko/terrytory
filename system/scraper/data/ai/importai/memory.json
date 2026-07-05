@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "created_at": "2026-07-03T20:12:39.577Z",
+  "last_scrape": "2026-07-03T20:12:42.062Z",
+  "total_scrapes": 1,
+  "seen_hashes": {
+    "a566ddf4df08f0ad": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots"
+    },
+    "b345a91f04910570": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self"
+    },
+    "369271d4ab79ed86": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+      "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on"
+    },
+    "783d75fc8051a82a": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+      "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society"
+    },
+    "72ff200139eebd33": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult"
+    },
+    "0e3ac2503ef6368c": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 458: Reckoning with the future; and a singularity story",
+      "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the"
+    },
+    "42dbb220f4488665": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+      "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon"
+    },
+    "ff6ee12bd47de5db": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
+      "url": "https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth"
+    },
+    "9d0d8e3d8780f69e": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 455: AI systems are about to start building themselves.",
+      "url": "https://importai.substack.com/p/import-ai-455-automating-ai-research"
+    },
+    "d2f757ea8858e0cd": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
+      "url": "https://importai.substack.com/p/import-ai-454-automating-alignment"
+    },
+    "ebe82643ac57755c": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment",
+      "url": "https://importai.substack.com/p/import-ai-453-breaking-ai-agents"
+    },
+    "0f6fe98a47735aa2": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting",
+      "url": "https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar"
+    },
+    "5682b838085203f2": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 451: Political superintelligence; Google's society of minds, and a robot drummer",
+      "url": "https://importai.substack.com/p/import-ai-451-political-superintelligence"
+    },
+    "047c866f88ed4f91": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 450: China's electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks",
+      "url": "https://importai.substack.com/p/import-ai-450-chinas-electronic-warfare"
+    },
+    "c165d5334ed04aab": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text",
+      "url": "https://importai.substack.com/p/importai-449-llms-training-other"
+    },
+    "d7ca73147dc4e451": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 448: AI R&D; Bytedance's CUDA-writing agent; on-device satellite AI",
+      "url": "https://importai.substack.com/p/import-ai-448-ai-r-and-d-bytedances"
+    },
+    "d8b2c806a7b97d69": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies",
+      "url": "https://importai.substack.com/p/import-ai-447-the-agi-economy-testing"
+    },
+    "2897769d77e83086": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 446: Nuclear LLMs; China's big AI benchmark; measurement and AI policy",
+      "url": "https://importai.substack.com/p/import-ai-446-nuclear-llms-chinas"
+    },
+    "454aed058ebc12a2": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 445: Timing superintelligence; AIs solve frontier math proofs; a new ML research benchmark",
+      "url": "https://importai.substack.com/p/import-ai-445-timing-superintelligence"
+    },
+    "bad82dd22945a607": {
+      "first_seen": "2026-07-03T20:12:42.060Z",
+      "last_seen": "2026-07-03T20:12:42.060Z",
+      "title": "Import AI 444: LLM societies; Huawei makes kernels with AI; ChipBench",
+      "url": "https://importai.substack.com/p/import-ai-444-llm-societies-huawei"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 20
+  }
+}

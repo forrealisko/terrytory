@@ -1,0 +1,37 @@
+{
+  "id": "a5336b30-bba7-4564-93ef-4656d6f19d2a",
+  "headline": "The North Sea Hid a Catastrophe for 43 Million Years. We Finally Know What Hit It.",
+  "slug": "silverpit-crater-north-sea-asteroid-impact-confirmed",
+  "folder_name": "2026-07-01_silverpit-crater-north-sea-asteroid-impact-confirmed",
+  "created_at": "2026-07-01T16:10:45.534Z",
+  "shipped_at": "2026-07-01T16:20:25.635Z",
+  "seo": {
+    "meta_title": "Silverpit Crater: North Sea Asteroid Impact Confirmed",
+    "meta_description": "Scientists confirm the Silverpit Crater is a 43-million-year-old asteroid impact that triggered a tsunami taller than Big Ben. Here's what the evidence shows.",
+    "keywords": [
+      "Silverpit Crater",
+      "shocked quartz",
+      "Middle Eocene impact",
+      "ancient tsunami",
+      "Dr. Uisdean Nicholson",
+      "Nature Communications crater"
+    ]
+  },
+  "hero_image_prompt": "Photorealistic cinematic aerial view of the North Sea at dusk, dark churning grey-green water stretching to the horizon, a faint circular geological formation visible through shallow water near the surface, dramatic storm clouds backlit by orange and violet light, moody and vast, no text, editorial documentary style",
+  "generation": {
+    "model": "anthropic/claude-4.6-sonnet-20260217",
+    "prompt_tokens": 3570,
+    "completion_tokens": 1900,
+    "generation_time_ms": 41981
+  },
+  "source_articles": [
+    {
+      "source_id": "starred",
+      "source_name": "Starred",
+      "title": "A Mysterious Circular Structure Buried Under the North Sea Has Revealed New Evidence of an Ancient Cataclysmic Event",
+      "url": "https://thedebrief.org/a-mysterious-circular-structure-buried-under-the-north-sea-has-revealed-new-evidence-of-an-ancient-cataclysmic-event/"
+    }
+  ],
+  "hero_image_url": "",
+  "hero_image_alt": ""
+}

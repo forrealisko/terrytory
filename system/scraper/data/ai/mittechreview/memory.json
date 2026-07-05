@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "created_at": "2026-07-03T20:12:12.365Z",
+  "last_scrape": "2026-07-03T20:12:25.940Z",
+  "total_scrapes": 1,
+  "seen_hashes": {
+    "474f7328326cc846": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
+    },
+    "319975cb5f1ba629": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+    },
+    "9058bcd27a2443da": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "AI agents are not your “coworkers”",
+      "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/"
+    },
+    "0b5b669013148f8e": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "The $400 million machine powering the future of chipmaking",
+      "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/"
+    },
+    "df6ee14882ccbac4": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "Achieving operational excellence with AI",
+      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/"
+    },
+    "b747d8a6369bb046": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "Teleperformance",
+      "url": "https://www.tp.com/"
+    },
+    "87c282464d6eaf83": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/"
+    },
+    "bd056869a29bf635": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/"
+    },
+    "6194c5e85918ac96": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "Want to get a data center online quickly? Give it some flex.",
+      "url": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/"
+    },
+    "03dd6b7bca3abc23": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "Why do South Koreans love AI so much?",
+      "url": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/"
+    },
+    "58357669f5a0b70f": {
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "last_seen": "2026-07-03T20:12:25.939Z",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 11
+  }
+}

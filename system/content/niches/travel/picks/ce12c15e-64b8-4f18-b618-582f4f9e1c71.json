@@ -1,0 +1,19 @@
+{
+  "id": "ce12c15e-64b8-4f18-b618-582f4f9e1c71",
+  "niche": "travel",
+  "created_at": "2026-07-03T15:10:44.411Z",
+  "status": "pending",
+  "headline": "Understanding Your Rights: Flight Refunds for Cancellations and Delays in 2026",
+  "rating": 9.2,
+  "reasoning": "This topic is highly relevant to travelers, offering crucial information on how to secure refunds for canceled or significantly delayed flights, directly impacting their financial well-being and travel planning. The information is actionable, providing clear guidance on passenger rights under new 2024 legislation, and is timely given its 2026 focus. The source, The Points Guy, is a reputable travel industry publication, lending strong credibility to the content.",
+  "summary": "An article from The Points Guy details passenger rights regarding refunds for canceled or significantly delayed flights in 2026, incorporating new 2024 federal legislation that mandates automatic refunds and defines 'significant' delays.",
+  "source_articles": [
+    {
+      "source_id": "thepointsguy",
+      "source_name": "The Points Guy",
+      "title": "Getting a refund for a canceled or delayed flight: What to know in 2026",
+      "url": "https://thepointsguy.com/airline/refund-for-canceled-flight/",
+      "excerpt": "If your flight is canceled and you choose not to fly, you are entitled to a full refund."
+    }
+  ]
+}

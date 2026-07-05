@@ -1,0 +1,2804 @@
+{
+  "meta": {
+    "digest_id": "486d64d7-5aec-4762-810c-36aa8ea6e609",
+    "run_at": "2026-06-19T22:32:30.739Z",
+    "orchestrator_version": "1.0.0",
+    "sources_attempted": 3,
+    "sources_ok": 3,
+    "sources_failed": 0,
+    "total_new": 114,
+    "run_results": {
+      "theblackvault": {
+        "ok": true,
+        "elapsed": "12.2"
+      },
+      "liberationtimes": {
+        "ok": true,
+        "elapsed": "15.9"
+      },
+      "thedebrief": {
+        "ok": true,
+        "elapsed": "15.1"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Earthquake That Shifted the Entire Japanese Archipelago Reveals “Previously Unrecognized Source of Seismic Hazard”",
+      "url": "https://thedebrief.org/earthquake-that-shifted-the-entire-japanese-archipelago-reveals-previously-unrecognized-source-of-seismic-hazard/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Tohoku-Oki-earthquake-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "An earthquake shockwave bouncing around inside the Earth moved the entire Japanese archipelago by 5 to 6 millimeters.",
+      "article_date": "2026-06-19T08:23:58-04:00",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-06-19T12:23:58.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "earths core",
+        "earthquake",
+        "japan",
+        "seismic activity"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Physicists Say This Exotic Particle’s Odd Decay Could Reveal Clues to a Longstanding Mystery",
+      "url": "https://thedebrief.org/physicists-say-this-exotic-particles-odd-decay-could-reveal-clues-to-a-longstanding-mystery/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2023/10/quasiparticles-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "Physicists have revealed that the unusual decay of an “exotic” subatomic particle could offer new clues to its mysterious structure.",
+      "article_date": "2026-06-18T13:37:23-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T17:37:23.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "ds2317 meson",
+        "exotic particle",
+        "physics",
+        "quasiparticles"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Astronomers Observing a Supermassive Black Hole Just Had an Unexpected UFO Sighting",
+      "url": "https://thedebrief.org/astronomers-observing-a-supermassive-black-hole-just-had-an-unexpected-ufo-sighting/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/ultrafast-outflow-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "Scientists report the detection of one of the strongest \"UFOs\" astronomers have ever seen during observations of a supermassive black hole.",
+      "article_date": "2026-06-18T12:25:39-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T16:25:39.000Z"
+      },
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "nustar x ray telescope",
+        "supermassive black hole",
+        "ufo",
+        "ultra fast outflows",
+        "wissh13",
+        "wisshful",
+        "xmm newton space observatory"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Darkest Black Ever? New “Ultra-Black” Automotive Coating with Carbon Nanotubes Absorbs over 99% of Visible Light",
+      "url": "https://thedebrief.org/darkest-black-ever-new-ultra-black-automotive-coating-with-carbon-nanotubes-absorbs-over-99-of-visible-light/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/RESIZE-leerosario-car-4863544-360x240.jpg",
+      "author": "Christopher Plain",
+      "excerpt": "To create the darkest black, scientists invented an ultra-black carbon nanotube automotive coating that absorbs over 99% of visible light.",
+      "article_date": "2026-06-18T12:25:18-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T16:25:18.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics",
+        "tech"
+      ],
+      "tags": [
+        "automotive coating",
+        "black",
+        "carbon nanotubes",
+        "darkest black",
+        "light absorbtion",
+        "nippon paint",
+        "nipsea group",
+        "ultra black"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Material Scientists Just Created a Revolutionary New Building Material Based on a Tangled Ball of Staples",
+      "url": "https://thedebrief.org/material-scientists-just-created-a-revolutionary-new-building-material-based-on-a-tangled-ball-of-staples/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/staples-arch-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "A new material, inspired by the frustrating strength of a tangled ball of staples could be the future of flexible, adaptable design.",
+      "article_date": "2026-06-18T08:28:47-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T12:28:47.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "engineering"
+      ],
+      "tags": [
+        "material science",
+        "particle",
+        "reusable technology",
+        "university of colorado at boulder"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "featured",
+      "title": "FOIA Release Provides Glimpse Into Air Force, SpaceX Efforts to Advance Rocket Cargo Program",
+      "url": "https://www.theblackvault.com/documentarchive/foia-release-provides-glimpse-into-air-force-spacex-efforts-to-advance-rocket-cargo-program/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/06/2026-06-18_06-01-26-1024x531.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-06-18T12:28:45+00:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T12:28:45.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Holographic Breakthrough: This New Futuristic 3D Imaging System Overcomes a Longstanding Problem for Holographic Tech",
+      "url": "https://thedebrief.org/holographic-breakthrough-this-new-futuristic-3d-imaging-system-overcomes-a-longstanding-problem-for-holographic-tech/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/3D-image-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "A new 3D image projection system marks a major step toward overcoming a longstanding problem for holographic technology.",
+      "article_date": "2026-06-18T08:18:42-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T12:18:42.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "engineering",
+        "science",
+        "tech"
+      ],
+      "tags": [
+        "3d holographic displays",
+        "3d images",
+        "augmented reality",
+        "virtual reality"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Archaeologists Discover Stonehenge ‘Prototype’ Constructed 500 Years Before Britain’s Most Famous Megalithic Site",
+      "url": "https://thedebrief.org/archaeologists-discover-stonehenge-prototype-constructed-500-years-before-britains-most-famous-megalithic-site/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/RESIZE-A-reconstruction-of-summer-solstice-celebrations-Bulford-5000-years-ago-360x240.jpg",
+      "author": "Christopher Plain",
+      "excerpt": "Archaeologists have discovered a Stonehenge 'prototype' structure aligned with the solstices that is 500 years older than the famous site.",
+      "article_date": "2026-06-18T08:04:06-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T12:04:06.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "astronomical alignment",
+        "stonehenge",
+        "summer solstice",
+        "wessex archaeology",
+        "winter solstice"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "NASA’s Curiosity Uncovers New Clues to Mars’ Potential of Supporting Ancient Life",
+      "url": "https://thedebrief.org/nasas-curiosity-uncovers-new-clues-to-mars-potential-of-supporting-ancient-life/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2025/04/Curiosity-360x240.jpg",
+      "author": "Chrissy Newton",
+      "excerpt": "NASA’s Curiosity rover has made a discovery that offers promising new indications of the ancient preservation of organic chemistry on Mars.",
+      "article_date": "2026-06-18T07:57:21-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-18T11:57:21.000Z"
+      },
+      "categories": [
+        "science",
+        "space"
+      ],
+      "tags": [
+        "curiosity",
+        "curiosity rover",
+        "deep space exploration",
+        "life",
+        "mars",
+        "nasa",
+        "rocks",
+        "space",
+        "supporting life"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "NASA Just Tested a Secretive Experimental Aircraft in a “Major Milestone” for Supersonic Flight",
+      "url": "https://thedebrief.org/nasa-just-tested-a-secretive-experimental-aircraft-in-a-major-milestone-for-supersonic-flight/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/NASA-X-59-Quesst-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "An experimental aircraft just achieved a “major milestone” that NASA officials say brings the future of quiet supersonic flight closer to being a reality. The test flights involved the American space agency’s secretive X-59 aircraft, which reportedly reached speeds of...",
+      "article_date": "2026-06-17T13:53:23-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-17T17:53:23.000Z"
+      },
+      "categories": [
+        "aerospace",
+        "breaking news"
+      ],
+      "tags": [
+        "nasa",
+        "quesst mission",
+        "sonic boom",
+        "supersonic aircraft",
+        "x 59"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "An Ancient Maya City Was Lost for Centuries—This Student Accidentally Rediscovered it Hidden in Google Data",
+      "url": "https://thedebrief.org/an-ancient-maya-city-was-lost-for-centuries-this-student-accidentally-rediscovered-it-hidden-in-google-data/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Maya-Settlement-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "An ancient Maya settlement, lost to the forest for hundreds of years, was unexpectedly discovered at the bottom of an internet rabbit hole.",
+      "article_date": "2026-06-17T11:56:35-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-17T15:56:35.000Z"
+      },
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "lidar",
+        "lost city",
+        "maya",
+        "mexico"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "This Breakthrough Propulsion Technology Could One Day Carry Humans to the Stars—But There’s a Problem",
+      "url": "https://thedebrief.org/this-breakthrough-propulsion-technology-could-one-day-carry-humans-to-the-stars-but-theres-a-problem/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/solar-light-sail-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "A futuristic propulsion system may have a few hurdles to cross before it can attain the near-light-speeds many experts had hoped for.",
+      "article_date": "2026-06-17T11:42:27-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-17T15:42:27.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics",
+        "space"
+      ],
+      "tags": [
+        "future spacecraft",
+        "interstellar space travel",
+        "propulsion system",
+        "relativistic light aberration",
+        "solar light sail"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "“This is Far from an Ordinary Burial”: Archaeologists Have Made Rare Discoveries in an ‘Elite’ Siberian Grave",
+      "url": "https://thedebrief.org/this-is-far-from-an-ordinary-burial-archaeologists-have-made-rare-discoveries-in-an-elite-siberian-grave/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Sayan-Mountains-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "A burial site uncovered by archaeologists in southern Siberia has revealed a series of unusual discoveries.",
+      "article_date": "2026-06-17T09:03:18-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-17T13:03:18.000Z"
+      },
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "10th century",
+        "archaeology",
+        "eurasian steppe",
+        "grave",
+        "ritual",
+        "sayan mountains",
+        "siberian burial"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Scientists Say We Need to Prepare Astronauts for What They May Encounter Inside the Moon’s Oldest and Largest Crater",
+      "url": "https://thedebrief.org/scientists-say-we-need-to-prepare-astronauts-for-what-they-may-encounter-inside-the-moons-oldest-and-largest-crater/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/RESIZE-crop-wikiimages-moon-508756_640-360x240.jpg",
+      "author": "Christopher Plain",
+      "excerpt": "Scientists examining the Moon's oldest and largest crater have provided a \"roadmap\" for what future Artemis astronauts may encounter.",
+      "article_date": "2026-06-17T08:06:12-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-17T12:06:12.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "center for lunar origin and evolution",
+        "cloe",
+        "lunar mantle",
+        "moons largest crater",
+        "moons oldest crater",
+        "nasa",
+        "southwest research institute",
+        "spa basin",
+        "swri"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Could Alien Consciousness Be Unlike Anything We Can Imagine? Non-Human Intelligence May Be Stranger Than We Think, These Experts Say",
+      "url": "https://thedebrief.org/could-alien-consciousness-be-unlike-anything-we-can-imagine-these-experts-say-non-human-intelligence-may-be-stranger-than-we-ever-imagined/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/alien-conciousness-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "Consciousness may arise in systems far different than the biology on Earth we are used to, according to new research.",
+      "article_date": "2026-06-17T07:55:08-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-17T11:55:08.000Z"
+      },
+      "categories": [
+        "biology",
+        "breaking news",
+        "consciousness"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "consciousness",
+        "extraterrestrial life",
+        "university of california riverside"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Ancient Microbes Preserved in Rapidly Thawing Arctic Middens Are Waking Up—Could They Pose a Threat to Us Today?",
+      "url": "https://thedebrief.org/ancient-microbes-preserved-in-rapidly-thawing-arctic-middens-are-waking-up-could-they-pose-a-threat-to-us-today/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/RESIZE-GREENAND-ANCIENT-MIDDEN-Screenshot-2026-06-16-203236-360x240.jpg",
+      "author": "Christopher Plain",
+      "excerpt": "An analysis of ancient microbes frozen in rapidly thawing ancient middens spanning Greenland estimates the potential for modern-day spread.",
+      "article_date": "2026-06-17T07:39:11-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-06-17T11:39:11.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news",
+        "health",
+        "science"
+      ],
+      "tags": [
+        "ancient bacteria",
+        "ancient microbes",
+        "ancient middens",
+        "antimicrobial resistance",
+        "denmark technical university",
+        "greenland",
+        "national food institute"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "featured",
+      "title": "Department of War Cites National Security to Hide Core UAP Evaluation Details",
+      "url": "https://www.theblackvault.com/documentarchive/department-of-war-cites-national-security-to-hide-core-uap-evaluation-details/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/06/2026-06-16_11-20-44-1024x558.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-06-16T18:27:17+00:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-16T18:27:17.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Forgotten in a Museum for Two Centuries, This Weird Artifact’s Rediscovery Upends a Long-Held Belief About the Vikings",
+      "url": "https://thedebrief.org/forgotten-in-a-museum-for-two-centuries-this-weird-artifacts-rediscovery-upends-a-long-held-belief-about-the-vikings/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Flygstad-Figurine-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "A curiosity that had been locked away in a museum’s archives for more than 200 years is now revealing clues to a longstanding Viking mystery.",
+      "article_date": "2026-06-16T12:47:40-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-16T16:47:40.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Scientists Uncover New Evidence of Mysterious ‘Time-Reversal Symmetry Breaking’ in This ‘Exotic’ Kagome Metal",
+      "url": "https://thedebrief.org/scientists-uncover-new-evidence-of-mysterious-time-reversal-symmetry-breaking-in-this-exotic-kagome-metal/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/kagome-metal-360x240.jpeg",
+      "author": "Micah Hanks",
+      "excerpt": "Physicists report the discovery of new evidence for a mysterious quantum state in an unusual class of materials.",
+      "article_date": "2026-06-16T11:24:17-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-16T15:24:17.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "cesium vanadium antimonide",
+        "electrical resistance",
+        "exotic materials",
+        "high temperature superconductivity",
+        "kagome metals",
+        "matter",
+        "physics",
+        "time reversal symmetry"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "“We’ve Never Seen Anything Like This”: Discovery of a Hidden Biological Clock Reveals the “Master Key” to Growth and Development",
+      "url": "https://thedebrief.org/weve-never-seen-anything-like-this-discovery-of-a-hidden-biological-clock-reveals-the-master-key-to-growth-and-development/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/biological-clock-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "A hidden biological clock has been discovered by genetic researchers, revealing how proteins act as a timing mechanism during development.",
+      "article_date": "2026-06-16T09:54:15-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-16T13:54:15.000Z"
+      },
+      "categories": [
+        "biology",
+        "breaking news",
+        "genetics",
+        "science"
+      ],
+      "tags": [
+        "aging",
+        "biological clock",
+        "dna analysis",
+        "growth and development"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Experts Warn of Potential Covert Misuse of Fusion Reactors—Antineutrino Detectors Could Offer a Safeguard, New Research Reveals",
+      "url": "https://thedebrief.org/experts-warn-of-potential-covert-misuse-of-fusion-reactors-antineutrino-detectors-could-offer-a-safeguard-new-research-reveals/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/fusion-reaction-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "New research reveals how fusion reactors could be monitored for any potential illicit production of plutonium for nuclear weapons.",
+      "article_date": "2026-06-16T09:45:16-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-16T13:45:16.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "antineutrino detector",
+        "antineutrinos",
+        "fusion reactors",
+        "nuclear fusion",
+        "virginia tech"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "James Webb Space Telescope Reveals Two Completely Different Twilights on an Alien World",
+      "url": "https://thedebrief.org/james-webb-space-telescope-reveals-two-completely-different-twilights-on-an-alien-world/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/STScI-01EVSVCZDAF8FA65MF04Y7Z4VY-360x240.jpg",
+      "author": "Austin Burgess",
+      "excerpt": "For the first time, astronomers have distinguished between the morning and evening atmospheres of a single planet, revealing two remarkably different environments at its edges.",
+      "article_date": "2026-06-16T08:09:18-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-16T12:09:18.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "science",
+        "space"
+      ],
+      "tags": [
+        "exoplanet",
+        "gas giant",
+        "james webb",
+        "james webb space telescope",
+        "james webb telescope",
+        "jwst",
+        "wasp 121 b"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Quest for Fire: New Technique Pushes First Intentional Use of Fire to Over One Million Years Ago",
+      "url": "https://thedebrief.org/quest-for-fire-new-technique-pushes-first-intentional-use-of-fire-to-over-one-million-years-ago/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/fire-360x240.jpg",
+      "author": "Christopher Plain",
+      "excerpt": "Scientists studying the site of the oldest-known intentional use of fire have found evidence pushing that date past one million years ago.",
+      "article_date": "2026-06-16T08:07:00-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-06-16T12:07:00.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "1 million years ago",
+        "fire",
+        "homo erectus",
+        "intentional use of fire",
+        "owls",
+        "quest for fire",
+        "the hebrew university of jerusalem",
+        "university of toronto"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "A Venus Flytrap Mystery That Has Perplexed Scientists Since Darwin Has Finally Been Solved",
+      "url": "https://thedebrief.org/a-venus-flytrap-mystery-that-has-perplexed-scientists-since-darwin-has-finally-been-solved/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Venus-flytrap-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "New research is finally shedding light on one of the Venus flytrap's most curious and enduring mysteries.",
+      "article_date": "2026-06-15T12:01:29-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-15T16:01:29.000Z"
+      },
+      "categories": [
+        "biology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "biology",
+        "darwin",
+        "flora",
+        "hair trigger",
+        "insect",
+        "plant",
+        "venus flytrap"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "A Hidden Subterranean Fungal Network is Revealing the Secrets of Earth’s ‘Circulatory System’",
+      "url": "https://thedebrief.org/a-hidden-subterranean-fungal-network-is-revealing-the-secrets-of-earths-circulatory-system/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/fungal-map-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "Ancient mycorrhizal fungal networks, consisting of a billion astronomical units' worth of roots, have finally been mapped by scientists.",
+      "article_date": "2026-06-15T08:12:19-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-15T12:12:19.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "carbon",
+        "climate change",
+        "earths circulatory system",
+        "fungal network",
+        "fungi"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Black Holes Aren’t Real? Astronomers Propose Elusive Formation Mechanism for “Gravastar” Alternative That is “Easier to Accept”",
+      "url": "https://thedebrief.org/black-holes-arent-real-astronomers-propose-elusive-formation-mechanism-for-gravastar-alternative-that-is-easier-to-accept/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/RESIZE-crop-Low-Res_Gravastar_2_c_Daniel_Jampolski_and_Luciano_Rezzolla-360x240.jpg",
+      "author": "Christopher Plain",
+      "excerpt": "After 25 years of debate, scientists have proposed a mathematical model for an alternative to black holes called a gravastar.",
+      "article_date": "2026-06-15T08:06:32-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-15T12:06:32.000Z"
+      },
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "big bang",
+        "black hole",
+        "dark energy",
+        "goethe university frankfurt",
+        "gravastar",
+        "gravity",
+        "mini universe",
+        "singuarity"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "The Amaterasu Particle May Not Be a Proton at All, New Research Suggests",
+      "url": "https://thedebrief.org/the-amaterasu-particle-may-not-be-a-proton-at-all-new-research-suggests/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/geralt-rays-9350519_640-360x240.jpg",
+      "author": "Austin Burgess",
+      "excerpt": "A recent study suggests that the Amaterasu particle, along with other extremely energetic cosmic rays, may actually be atomic nuclei heavier than iron.",
+      "article_date": "2026-06-15T08:02:57-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-15T12:02:57.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics",
+        "science",
+        "space"
+      ],
+      "tags": [
+        "amaterasu",
+        "amaterasu particle",
+        "cosmic ray",
+        "cosmic rays",
+        "nucleus",
+        "proton",
+        "subatomic particle"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "This Philosopher Thinks Physics May Be Asking the Wrong Question About Space-Time",
+      "url": "https://thedebrief.org/this-philosopher-thinks-physics-may-be-asking-the-wrong-question-about-space-time/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/geralt-theory-of-relativity-3863153_640-360x240.jpg",
+      "author": "Austin Burgess",
+      "excerpt": "Einstein's equations have withstood every experimental test for more than a century; however, according to one philosopher, they have not withstood careful scrutiny of the language used to describe them.",
+      "article_date": "2026-06-15T07:57:02-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 4,
+        "parsed": "2026-06-15T11:57:02.000Z"
+      },
+      "categories": [
+        "physics",
+        "science",
+        "space"
+      ],
+      "tags": [
+        "albert einstein",
+        "block universe",
+        "einstein",
+        "eternalism",
+        "philosophy",
+        "space time",
+        "spacetime"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "The Pentagon Just Released Its Third Batch of UAP Files—What Have We Learned from the PURSUE Releases So Far?",
+      "url": "https://thedebrief.org/the-pentagon-just-released-its-third-batch-of-uap-files-what-have-we-learned-from-the-pursue-releases-so-far/",
+      "image_url": null,
+      "author": "Micah Hanks",
+      "excerpt": "What do the Pentagon's latest releases of UAP records reveal? The Debrief takes a look at what's in the new files, what's missing, and how it relates to public attitudes toward the UAP issue.",
+      "article_date": "2026-06-14T15:08:07-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-14T19:08:07.000Z"
+      },
+      "categories": [
+        "analysis",
+        "opinion",
+        "uap"
+      ],
+      "tags": [
+        "department of war",
+        "pentagon",
+        "pursue",
+        "uap",
+        "ufo"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "DNA Breakthrough: Silver Nanoparticles Cut and Join DNA Segments with Incredible Efficiency",
+      "url": "https://thedebrief.org/dna-breakthrough-silver-nanoparticles-cut-and-join-segments-with-incredible-efficiency/",
+      "image_url": null,
+      "author": "Ryan Whalen",
+      "excerpt": "A new DNA splicing method developed by a Japanese research team using silver nanoparticles offers a incredible efficiency",
+      "article_date": "2026-06-14T14:19:20-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-14T18:19:20.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "genetics",
+        "science"
+      ],
+      "tags": [
+        "dna",
+        "mrna",
+        "nanoparticles"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "From Lunar Dust to Lunar Cities:  Engineers Turn the Moon’s Harsh Surface into a Blueprint for Settlement",
+      "url": "https://thedebrief.org/from-lunar-dust-to-lunar-cities-engineers-turn-the-moons-harsh-surface-into-a-blueprint-for-settlement/",
+      "image_url": null,
+      "author": "Chrissy Newton",
+      "excerpt": "Researchers at Texas A&M University are exploring how lunar material could become a key building block for the first permanent settlements beyond Earth.",
+      "article_date": "2026-06-14T14:18:32-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 5,
+        "parsed": "2026-06-14T18:18:32.000Z"
+      },
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "aerospace",
+        "airspace safety",
+        "lunar regolith",
+        "lunar settlement",
+        "moon",
+        "moon construction",
+        "nasa lunar innovation park",
+        "obotic construction systems",
+        "space",
+        "texas am space institute",
+        "unar base development"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "This Unusual Artifact Resembling a TV Remote Could Reveal the Oldest Evidence of Numerical Calculation in Mesoamerica",
+      "url": "https://thedebrief.org/this-unusual-artifact-resembling-a-tv-remote-could-reveal-the-oldest-evidence-of-numerical-calculation-in-mesoamerica/",
+      "image_url": null,
+      "author": "Micah Hanks",
+      "excerpt": "Archaeologists have discovered an unusual artifact they say could represent the earliest known use of written numbers ever discovered in Mesoamerica.",
+      "article_date": "2026-06-13T13:38:20-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-13T17:38:20.000Z"
+      },
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "archaeology",
+        "artifact",
+        "guatemala",
+        "la blanca",
+        "mesoamerica",
+        "personhood",
+        "tab figurines"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "NASA’s James Webb Space Telescope Spots a Hidden ‘Galaxy Killer’ Lurking in the Early Universe",
+      "url": "https://thedebrief.org/nasas-james-webb-space-telescope-spots-a-hidden-galaxy-killer-lurking-in-the-early-universe/",
+      "image_url": null,
+      "author": "Ryan Whalen",
+      "excerpt": "The James Webb Space Telescope has revealed a cosmic catastrophe, as winds extinguished a star-forming galaxy in the early universe.",
+      "article_date": "2026-06-13T11:48:37-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-13T15:48:37.000Z"
+      },
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "cosmic wind",
+        "early universe",
+        "james webb space telescope",
+        "star formation"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Transformers on the Moon? Japan Reveals Details of Tiny Shape-Shifting Rover’s Historic Lunar Exploration",
+      "url": "https://thedebrief.org/transformers-on-the-moon-japan-reveals-details-of-tiny-shape-shifting-rovers-historic-autonomous-exploration-of-the-lunar-surface/",
+      "image_url": null,
+      "author": "Christopher Plain",
+      "excerpt": "Japan's space agency has revealed details from their historic SLIM mission, including an autonomous shape-shifting rover's lunar exploration.",
+      "article_date": "2026-06-13T11:22:09-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-13T15:22:09.000Z"
+      },
+      "categories": [
+        "artificial intelligence",
+        "breaking news",
+        "robotics",
+        "space"
+      ],
+      "tags": [
+        "autonomous rover",
+        "jaxa",
+        "lev 1 rover",
+        "lev 2 rover",
+        "lunar exploration",
+        "shape shifting rovers",
+        "slim",
+        "smart lander for investigating moon"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Prada and Axiom Space Unveil New Lunar Spacesuit Garment for Artemis Missions",
+      "url": "https://thedebrief.org/prada-and-axiom-space-unveil-new-lunar-spacesuit-garment-for-artemis-missions/",
+      "image_url": null,
+      "author": "Chrissy Newton",
+      "excerpt": "Astronauts selected for NASA’s Artemis missions are traveling to outer space in style, the American space agency has revealed.",
+      "article_date": "2026-06-13T11:18:50-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-13T15:18:50.000Z"
+      },
+      "categories": [
+        "aerospace",
+        "space"
+      ],
+      "tags": [
+        "3d modeled",
+        "axiom space",
+        "liquid cooling and ventilation garment",
+        "nasa artemis",
+        "prada",
+        "prada spacesuit",
+        "spacesuit",
+        "spacesuit design",
+        "spacewalk suit technology"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "“Her Brain Had Been Intentionally Removed”: An Unsettling Iron Age Burial Practice Has Been Uncovered in Scotland",
+      "url": "https://thedebrief.org/her-brain-had-been-intentionally-removed-an-unsettling-iron-age-burial-practice-has-been-uncovered-in-scotland/",
+      "image_url": null,
+      "author": "Ryan Whalen",
+      "excerpt": "Archaeologists say bones unearthed from an Iron Age burial in Scotland revealed how human remains were interred in ancient Europe.",
+      "article_date": "2026-06-13T10:26:03-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-13T14:26:03.000Z"
+      },
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "britain",
+        "burial",
+        "iron age",
+        "scotland"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "What is Time? This Scientist Built a Miniature Universe to Find Out",
+      "url": "https://thedebrief.org/what-is-time-this-scientist-built-a-miniature-universe-to-find-out/",
+      "image_url": null,
+      "author": "Ryan Whalen",
+      "excerpt": "The nature of time has long puzzled scientists, and now a researcher has constructed a mini-universe to get to the bottom of it.",
+      "article_date": "2026-06-13T10:02:16-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-13T14:02:16.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "arrow of time",
+        "miniature universe",
+        "quantum physics",
+        "time"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Archaeologists Uncover 4,000-Year-Old Evidence of a Deadly Event in Ancient Mesopotamia",
+      "url": "https://thedebrief.org/archaeologists-uncover-4000-year-old-evidence-of-a-deadly-event-in-ancient-mesopotamia/",
+      "image_url": null,
+      "author": "Austin Burgess",
+      "excerpt": "Archaeologists believe a site in present-day northern Iraq may preserve the remains of an ancient city whose fall was recorded in Mesopotamian texts.",
+      "article_date": "2026-06-13T09:56:12-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-06-13T13:56:12.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "ancient",
+        "ancient city",
+        "ancient mesopotamia",
+        "cuneiform",
+        "iraq",
+        "kurd qaburstan project",
+        "mesopotamia",
+        "siege"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "This James Webb Space Telescope Discovery Could Finally Solve the Mystery Behind “Little Red Dots”",
+      "url": "https://thedebrief.org/this-james-webb-space-telescope-discovery-could-finally-solve-the-mystery-behind-little-red-dots/",
+      "image_url": null,
+      "author": "Ryan Whalen",
+      "excerpt": "New James Webb Space Telescope imagery may hold the long-sought answers to the astronomical mystery of \"little red dots.\"",
+      "article_date": "2026-06-12T10:58:06-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-12T14:58:06.000Z"
+      },
+      "categories": [
+        "astronomy",
+        "breaking news"
+      ],
+      "tags": [
+        "black hole",
+        "early universe",
+        "james webb space telescope",
+        "little red dots"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "New SPHEREx Space Telescope Images Confirm a Major Problem That Many Astronomers Were Afraid Of",
+      "url": "https://thedebrief.org/new-spherex-space-telescope-images-confirm-a-major-problem-that-many-astronomers-were-afraid-of/",
+      "image_url": null,
+      "author": "Micah Hanks",
+      "excerpt": "Nearly 3 out of every 4 images obtained by NASA’s SPHEREx space telescope now confirm something many astronomers had been afraid of.",
+      "article_date": "2026-06-12T10:52:48-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-12T14:52:48.000Z"
+      },
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "dark sky",
+        "light pollution",
+        "nasa",
+        "satellite",
+        "space",
+        "spherex"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Art Fraudsters Beware: Science Has Found a Way to Tell a Fake Van Gogh from a Real One",
+      "url": "https://thedebrief.org/art-fraudsters-beware-science-has-found-a-way-to-tell-a-fake-van-gogh-from-a-real-one/",
+      "image_url": null,
+      "author": "Christopher Plain",
+      "excerpt": "A new forgery identification method using surface \"texture\" analysis has identified authentic artworks by van Gogh and at least one fake.",
+      "article_date": "2026-06-12T10:52:18-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-12T14:52:18.000Z"
+      },
+      "categories": [
+        "culture",
+        "tech"
+      ],
+      "tags": [
+        "art forgery",
+        "art surface texture",
+        "counterfeit art",
+        "fractal math",
+        "monet",
+        "universite polytechnique hauts de france",
+        "vincent van gogh"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "A ‘Memory Switchboard’ in the Hippocampus May Help Explain How the Brain Learns Without Overwriting Old Memories",
+      "url": "https://thedebrief.org/a-memory-switchboard-in-the-hippocampus-may-help-explain-how-the-brain-learns-without-overwriting-old-memories/",
+      "image_url": null,
+      "author": "Austin Burgess",
+      "excerpt": "New research identifies a mechanism that may explain how the brain can take in new experiences without erasing stored memeories.",
+      "article_date": "2026-06-12T10:51:19-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-12T14:51:19.000Z"
+      },
+      "categories": [
+        "artificial intelligence",
+        "neuroscience",
+        "science"
+      ],
+      "tags": [
+        "ai",
+        "artificial intelligence",
+        "hippocampus",
+        "memories",
+        "memory",
+        "mice",
+        "neurons",
+        "patterns",
+        "switchboard",
+        "the brain"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "NASA and USAF-Backed Research Reveals the Breakthrough Propulsion Technology That Could Propell Future Satellite Swarms",
+      "url": "https://thedebrief.org/nasa-and-usaf-backed-research-reveals-the-breakthrough-propulsion-technology-that-could-propell-future-satellite-swarms/",
+      "image_url": null,
+      "author": "Tim McMillan",
+      "excerpt": "A NASA and USAF-backed study demonstrates propellantless satellite formation control using magnetic forces for future spacecraft swarms.",
+      "article_date": "2026-06-12T08:21:55-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-12T12:21:55.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "defense",
+        "space"
+      ],
+      "tags": [
+        "alternative propulsion",
+        "electromagnetism",
+        "nasa",
+        "satellite constellation",
+        "u s air force"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "A Remarkable 400,000-Year-Old “Time Capsule” Unsealed in Israel Could Reshape Our Understanding of Early Human Evolution",
+      "url": "https://thedebrief.org/a-remarkable-400000-year-old-time-capsule-unsealed-in-israel-could-reshape-our-understanding-of-early-human-evolution/",
+      "image_url": null,
+      "author": "Christopher Plain",
+      "excerpt": "Archaeologists in Israel have uncovered a remarkable site \"protected from the ravages of time,\" revealing an early human presence that may extend to 400,000 years ago.",
+      "article_date": "2026-06-12T08:09:53-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-12T12:09:53.000Z"
+      },
+      "categories": [
+        "archaeology",
+        "breaking news"
+      ],
+      "tags": [
+        "acheulo yabrudian culture",
+        "anatomically modern human",
+        "ancient cave",
+        "ancient humans",
+        "human evolution",
+        "israeli antiquities authority",
+        "neanderthals",
+        "tool making",
+        "university of haifa"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "High-Dose Psilocybin Case Report Suggests Hidden Function May Persist in Advanced Alzheimer’s",
+      "url": "https://thedebrief.org/high-dose-psilocybin-case-report-suggests-hidden-function-may-persist-in-advanced-alzheimers/",
+      "image_url": null,
+      "author": "Tim McMillan",
+      "excerpt": "High-dose psilocybin case report describes temporary speech, mobility, and continence gains in a woman with advanced Alzheimer’s disease.",
+      "article_date": "2026-06-12T08:04:32-04:00",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-06-12T12:04:32.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "health",
+        "neuroscience",
+        "psychology",
+        "science"
+      ],
+      "tags": [
+        "alzheimers disease",
+        "health",
+        "neuroscience",
+        "psilocybin",
+        "psilocybin therapy"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "“Disclosure Day” in Real Life? Scientists and Mental Health Advocates Update Rules for Alien Contact as “Disclosure” Debate Grows",
+      "url": "https://thedebrief.org/disclosure-day-in-real-life-scientists-and-mental-health-advocates-update-rules-for-alien-contact-as-disclosure-debate-grows/",
+      "image_url": null,
+      "author": "Chrissy Newton",
+      "excerpt": "Scientists and public health advocates are urging for preparedness in advance of confirmation of the discovery of extraterrestrial life.",
+      "article_date": "2026-06-11T15:31:33-04:00",
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-11T19:31:33.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "culture",
+        "seti",
+        "uap"
+      ],
+      "tags": [
+        "alien",
+        "aliens",
+        "disclosure",
+        "disclosure day",
+        "extraterrestrial intelligence",
+        "iaa seti committee",
+        "mental health",
+        "seti",
+        "seti committee",
+        "steven spielberg",
+        "technosignatures",
+        "uap",
+        "ufo",
+        "unhidden foundation"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Pentagon Official Provides Update on “Hazardous Materials Incident” That Prompted Shelter-in-Place Order",
+      "url": "https://thedebrief.org/pentagon-official-provides-update-on-hazardous-materials-incident-that-prompted-shelter-in-place-order/",
+      "image_url": null,
+      "author": "Micah Hanks",
+      "excerpt": "A shelter-in-place order was issued at the Pentagon on Thursday following what was characterized as a “hazardous materials incident”.",
+      "article_date": "2026-06-11T14:26:54-04:00",
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-11T18:26:54.000Z"
+      },
+      "categories": [
+        "breaking news"
+      ],
+      "tags": [
+        "department of war",
+        "hazardous materials incident",
+        "pentagon",
+        "sean parnell",
+        "shelter in place"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "“When We Build the ARC Fusion Power Plant, It Will Work”: Company Claims Nuclear Fusion Reactor Design Will Produce More Energy Than It Consumes",
+      "url": "https://thedebrief.org/when-we-build-the-arc-fusion-power-plant-it-will-work-company-claims-nuclear-fusion-reactor-design-will-produce-more-energy-than-it-consumes/",
+      "image_url": null,
+      "author": "Christopher Plain",
+      "excerpt": "Commonwealth Fusion Systems has published a series of papers they claim will lead to the successful construction of their ARC fusion reactor.",
+      "article_date": "2026-06-11T10:24:53-04:00",
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-11T14:24:53.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "energy",
+        "engineering",
+        "physics"
+      ],
+      "tags": [
+        "arc fusion reactor",
+        "commonwealth fusion systems",
+        "cornell university",
+        "fusion energy",
+        "nuclear fusion",
+        "sparc",
+        "university of cambridge"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "New Analysis Confirms the Universe is Still Expanding, Refuting Controversial 2025 Claims and Prompting Immediate Response",
+      "url": "https://thedebrief.org/new-analysis-confirms-the-universe-is-still-expanding-refuting-controversial-2025-claims-and-prompting-immediate-response/",
+      "image_url": null,
+      "author": "Christopher Plain",
+      "excerpt": "A new paper suggests a 2025 study claiming the universe is not expanding, which refuted a previous Nobel Prize-winning discovery, is wrong.",
+      "article_date": "2026-06-11T09:55:21-04:00",
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-11T13:55:21.000Z"
+      },
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "physics",
+        "space"
+      ],
+      "tags": [
+        "cosmic expansion",
+        "dark energy",
+        "dark matter",
+        "expanding universe",
+        "galaxy mass",
+        "sagan standard",
+        "universe is expanding",
+        "university of southampton",
+        "white dwarf stars",
+        "yonsei university"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Scientists Have Just Uncovered a Thriving Ecosystem Hiding in Fog",
+      "url": "https://thedebrief.org/scientists-have-just-uncovered-a-thriving-ecosystem-hiding-in-fog/",
+      "image_url": null,
+      "author": "Ryan Whalen",
+      "excerpt": "Fog is a living ecosystem for bacteria, rather than just a sterile cloud of mist, according to Arizona State University researchers.",
+      "article_date": "2026-06-11T09:54:50-04:00",
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-11T13:54:50.000Z"
+      },
+      "categories": [
+        "biology",
+        "breaking news",
+        "environment"
+      ],
+      "tags": [
+        "bacteria",
+        "fog",
+        "formaldehyde",
+        "habitat"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "This Species Was Long Thought Extinct—Scientists Just Spotted One Alive and Well on a Caribbean Island",
+      "url": "https://thedebrief.org/this-species-was-long-thought-extinct-scientists-just-spotted-one-alive-and-well-on-a-carribean-island/",
+      "image_url": null,
+      "author": "Ryan Whalen",
+      "excerpt": "The Cozumel dwarf fox, a rare species previously known only from secondhand reports and fossil records, has been discovered alive.",
+      "article_date": "2026-06-11T09:35:11-04:00",
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-06-11T13:35:11.000Z"
+      },
+      "categories": [
+        "biology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "cozumel fox",
+        "critical endangerment",
+        "extinct species",
+        "yucatan"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "Earthquake Experts Modeled 1,000 Years of Activity in California—What They Found Now Has Scientists Concerned",
+      "url": "https://thedebrief.org/earthquake-experts-modeled-1000-years-of-activity-in-california-what-they-found-now-has-scientists-concerned/",
+      "image_url": null,
+      "author": "Micah Hanks",
+      "excerpt": "California could be due for a major earthquake in the near future, according to concerning new models based on a millennium of data.",
+      "article_date": "2026-06-10T09:31:24-04:00",
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 9,
+        "parsed": "2026-06-10T13:31:24.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "7 9 magnitude",
+        "california",
+        "earthquake",
+        "fort tejon earthquake",
+        "millenium",
+        "seismic data"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "featured",
+      "title": "The Black Vault Launches Searchable UFO Files Release Archive",
+      "url": "https://www.theblackvault.com/documentarchive/the-black-vault-launches-searchable-ufo-files-release-archive/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/05/2026-05-11_11-44-37.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-05-11T22:49:49+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 38,
+        "parsed": "2026-05-11T22:49:49.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "featured",
+      "title": "17-Year FOIA Request Ends With Total Withholding, Marking Longest Case in The Black Vault’s History",
+      "url": "https://www.theblackvault.com/documentarchive/17-year-foia-request-ends-with-total-withholding-marking-longest-case-in-the-black-vaults-history/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/05/2026-05-07_13-40-10-1024x566.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-05-07T20:42:12+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 43,
+        "parsed": "2026-05-07T20:42:12.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "featured",
+      "title": "NASA Documents Show Renewed Internal Planning on How to Announce Discovery of Extraterrestrial Life",
+      "url": "https://www.theblackvault.com/documentarchive/nasa-documents-show-renewed-internal-planning-on-how-to-announce-discovery-of-extraterrestrial-life/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/05/2026-05-01_15-14-49-1024x575.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-05-01T22:26:31+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 49,
+        "parsed": "2026-05-01T22:26:31.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "Newly Released Documents Show UAP “Space Tiger Team” Built Around Space and Transmedium Cases",
+      "url": "https://www.theblackvault.com/documentarchive/newly-released-documents-show-uap-space-tiger-team-built-around-space-and-transmedium-cases/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/05/2026-05-01_07-17-58-150x85.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-05-01T14:21:25+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 49,
+        "parsed": "2026-05-01T14:21:25.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "New Emails Reveal Pentagon Effort to Align Messaging on AATIP and Luis Elizondo",
+      "url": "https://www.theblackvault.com/documentarchive/new-emails-reveal-pentagon-effort-to-align-messaging-on-aatip-and-luis-elizondo/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/04/2026-04-27_05-47-28-150x79.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-04-27T13:06:05+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 53,
+        "parsed": "2026-04-27T13:06:05.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "Newly Released FBI File Details 1984 Washington Navy Yard Bombing Investigation",
+      "url": "https://www.theblackvault.com/documentarchive/newly-released-fbi-file-details-1984-washington-navy-yard-bombing-investigation/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/04/2026-04-14_10-30-53-150x99.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-04-14T17:16:00+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 66,
+        "parsed": "2026-04-14T17:16:00.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "NASA Partially Lifts Redactions in James Webb Briefing Records Following Appeal",
+      "url": "https://www.theblackvault.com/documentarchive/nasa-partially-lifts-redactions-in-james-webb-briefing-records-following-appeal/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/03/2026-03-30_11-29-33-150x96.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-03-30T18:34:40+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 81,
+        "parsed": "2026-03-30T18:34:40.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "FBI File Collection on J. Edgar Hoover",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-file-collection-on-j-edgar-hoover/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2021/07/unnamed-file-450x253-1.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-03-30T07:00:31+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 81,
+        "parsed": "2026-03-30T07:00:31.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "Cold War Nuclear Assessment Re-Released with Fewer Redactions After Five-Year Review",
+      "url": "https://www.theblackvault.com/documentarchive/cold-war-nuclear-assessment-re-released-with-fewer-redactions-after-five-year-review/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/03/2026-03-23_15-22-15-150x96.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-03-23T22:27:52+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 88,
+        "parsed": "2026-03-23T22:27:52.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "FCC Records Detail Internal and Public Response to Jimmy Kimmel Controversy",
+      "url": "https://www.theblackvault.com/documentarchive/fcc-records-detail-internal-and-public-response-to-jimmy-kimmel-controversy/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/03/kimmel-carr-1024x683.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-03-19T18:43:01+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 92,
+        "parsed": "2026-03-19T18:43:01.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "CIA Reprocesses Detention Program Record Under FOIA More Than a Decade After Public Disclosure",
+      "url": "https://www.theblackvault.com/documentarchive/cia-reprocesses-detention-program-record-under-foia-more-than-a-decade-after-public-disclosure/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/02/torture-150x100.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-02-10T21:13:20+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 129,
+        "parsed": "2026-02-10T21:13:20.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "From Blue Dragon to Woodstock: DOE’s Classified Human Subjects Research Revealed After 7 Year Wait",
+      "url": "https://www.theblackvault.com/documentarchive/from-blue-dragon-to-woodstock-does-classified-human-subjects-research-revealed-after-7-year-wait/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/01/DOE-150x100.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-01-23T13:39:55+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 147,
+        "parsed": "2026-01-23T13:39:55.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "FBI Files: Scientists and Medical Professionals",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-scientists-and-medical-professionals/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2015/02/bigstock-medicine-doctor-working-with-m-43167979-450x300.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-01-09T17:00:28+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 161,
+        "parsed": "2026-01-09T17:00:28.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "Department of Defense Morning News of Note – 11 March 2018",
+      "url": "https://www.theblackvault.com/documentarchive/department-of-defense-morning-news-of-note-11-march-2018/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/01/2026-01-04_07-12-39-150x92.png",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2026-01-04T15:13:46+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 166,
+        "parsed": "2026-01-04T15:13:46.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "FBI Files: Historical Figures & Groups",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-historical-figures-groups/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2015/02/1312309037115.cached-150x100.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-11-28T11:00:45+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 203,
+        "parsed": "2025-11-28T11:00:45.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "Amelia Earhart Declassified: New Government Records Released and Indexed by The Black Vault",
+      "url": "https://www.theblackvault.com/documentarchive/amelia-earhart-declassified-new-government-records-released-and-indexed-by-the-black-vault/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2025/11/AE-Header2-150x100.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-11-17T16:49:00+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 214,
+        "parsed": "2025-11-17T16:49:00.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "Las Vegas Police Release Full Report on Cybertruck Explosion — and the Federal Intervention That Followed",
+      "url": "https://www.theblackvault.com/documentarchive/las-vegas-police-release-full-report-on-cybertruck-explosion-and-the-federal-intervention-that-followed/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2025/11/ml-150x99.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-11-04T20:09:52+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 227,
+        "parsed": "2025-11-04T20:09:52.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "FBI Files: Civil Rights Era",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-civil-rights/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2015/02/vote-150x111.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-10-16T18:00:19+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 246,
+        "parsed": "2025-10-16T18:00:19.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "FBI Files: Directors, Agents and Personnel of the Central Intelligence Agency (CIA)",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-directors-agents-and-personnel-of-the-central-intelligence-agency-cia/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2018/03/2018-03-28_22-11-36-150x74.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-08-07T10:30:09+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 316,
+        "parsed": "2025-08-07T10:30:09.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "Declassified DoD Interviews Reveal Soviet Cold War Fears and Nuclear Realities",
+      "url": "https://www.theblackvault.com/documentarchive/declassified-dod-interviews-reveal-soviet-cold-war-fears-and-nuclear-realities/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2025/08/soviet-nuke-450x300.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-08-04T13:08:10+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 319,
+        "parsed": "2025-08-04T13:08:10.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "FBI Files: Journalists and their Periodicals",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-journalists/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2015/02/557104_48339473-150x113.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-08-02T22:00:06+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 321,
+        "parsed": "2025-08-02T22:00:06.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "FBI Files: The Paranormal Collection",
+      "url": "https://www.theblackvault.com/documentarchive/fbi-files-the-paranormal-collection/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2020/07/b-150x84.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-07-31T04:30:05+00:00",
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 323,
+        "parsed": "2025-07-31T04:30:05.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "DoD Releases Previously Unseen Document Detailing “NIGHT TRAIN 84” Nuclear War Exercise Scenario",
+      "url": "https://www.theblackvault.com/documentarchive/dod-releases-previously-unseen-document-detailing-night-train-84-nuclear-war-exercise-scenario/",
+      "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2025/06/nighttrain84-150x100.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": "2025-06-18T00:54:05+00:00",
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 366,
+        "parsed": "2025-06-18T00:54:05.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "Operation Northwoods",
+      "url": "https://www.theblackvault.com/documentarchive/operation-northwoods/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": "2024-10-07T05:00:56+00:00",
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 620,
+        "parsed": "2024-10-07T05:00:56.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "DoD’s Private Discussions on 2022 Afghan Screening and Extremism IG Reports",
+      "url": "https://www.theblackvault.com/documentarchive/dods-private-discussions-on-2022-afghan-screening-and-extremism-ig-reports/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": "2024-06-13T17:09:02+00:00",
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 736,
+        "parsed": "2024-06-13T17:09:02.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "tertiary",
+      "title": "The “Family Jewels” Collection (CIA)",
+      "url": "https://www.theblackvault.com/documentarchive/the-family-jewels-collection-cia/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": "2024-05-29T09:50:34+00:00",
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 751,
+        "parsed": "2024-05-29T09:50:34.000Z"
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "Closed-Door 2024 UAP Briefing: FOIA Discloses Select Media Invitees",
+      "url": "https://www.theblackvault.com/documentarchive/closed-door-2024-uap-briefing-foia-discloses-select-media-invitees/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "DoD IG Releases Final UAP Whistleblower Reprisal Report",
+      "url": "https://www.theblackvault.com/documentarchive/dod-ig-releases-final-uap-whistleblower-reprisal-report/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "Six and a Half Years Later, the DoD’s Reply to Harry Reid’s AATIP Memo Remains Missing",
+      "url": "https://www.theblackvault.com/documentarchive/six-and-a-half-years-later-the-dods-reply-to-harry-reids-aatip-memo-remains-missing/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "Pentagon Spokesperson Christopher Sherwood Emails on UFOs, UAP, and more",
+      "url": "https://www.theblackvault.com/documentarchive/pentagon-spokesperson-christopher-sherwood-emails-on-ufos-uap-and-more/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "Archive of Luis Elizondo’s “Deleted” Emails",
+      "url": "https://www.theblackvault.com/documentarchive/archive-of-luis-elizondos-deleted-emails/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "FAA Records Detail Pilot Encounter with Unidentified Object Pacing Aircraft Over Nevada",
+      "url": "https://www.theblackvault.com/documentarchive/faa-records-detail-pilot-encounter-with-unidentified-object-pacing-aircraft-over-nevada/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "FOIA Request on UAP Keywords Produces Minimal Results, Heavy Redactions, from Energy Department",
+      "url": "https://www.theblackvault.com/documentarchive/foia-request-on-uap-keywords-produces-minimal-results-heavy-redactions-from-energy-department/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "AATIP Resurfaces in 2022 TS-SCI Briefing, According to Navy FOIA Release",
+      "url": "https://www.theblackvault.com/documentarchive/aatip-resurfaces-in-2022-ts-sci-briefing-according-to-navy-foia-release/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "Despite Trump’s Call to Release UAP Files, Navy Denies Appeal for 78 Classified UAP Photographs",
+      "url": "https://www.theblackvault.com/documentarchive/despite-trumps-call-to-release-uap-files-navy-denies-appeal-for-78-classified-uap-photographs/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "theblackvault",
+      "source_name": "The Black Vault",
+      "type": "primary",
+      "title": "Pentagon Refuses to Search for ‘Immaculate Constellation’ Emails",
+      "url": "https://www.theblackvault.com/documentarchive/pentagon-refuses-to-search-for-immaculate-constellation-emails/",
+      "image_url": null,
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:33.396Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "The Architecture of Secrecy: MJ-12, Recovered Craft and the Origins of a UFO Legacy Program",
+      "url": "https://www.liberationtimes.com/home/the-architecture-of-secrecy-mj-12-recovered-craft-and-the-origins-of-a-ufo-legacy-program",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "If you believe the documents, the architecture of the greatest secret alive today can be seen being built. It begins in the late 1940s, in the shadow of World War Two.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "U.S. Government Establishes New Interagency UAP Governance Board to Coordinate Investigations and Declassification",
+      "url": "https://www.liberationtimes.com/home/us-establishes-new-interagency-uap-governance-board-to-coordinate-investigations-and-declassification",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "The U.S. government has established a new interagency body to coordinate UAP investigations, improve the collection and analysis of relevant data, and assist with the declassification of UAP-related information, according to an official from the Office of the Director of National Intelligence (ODNI).",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Disclosure Day: What Happens the Day After?",
+      "url": "https://www.liberationtimes.com/home/disclosure-day-what-happens-the-day-after",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "Steven Spielberg's new film Disclosure Day ends at the moment when the real story would begin. The world has just learned that it is not alone.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "The Two Senators Who Could Push UFO Disclosure Over the Line",
+      "url": "https://www.liberationtimes.com/home/the-two-senators-who-could-push-ufo-disclosure-over-the-line",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "On Tuesday at 1 pm, a whistleblower and four members of Congress will stand on the steps of the U.S. Capitol and ask their own government to stop hiding the truth about UFOs and non-human intelligence.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Lue Elizondo: “There’s No Going Back” on UFO Disclosure",
+      "url": "https://www.liberationtimes.com/home/lue-elizondo-theres-no-going-back-on-ufo-disclosure",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "It has been almost a decade since Lue Elizondo first emerged as one of the most prominent public faces of the modern UFO / UAP issue, following the New York Times’ 2017 reporting on AATIP, the Pentagon’s secretive Advanced Aerospace Threat Identification Program.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Trump, The Vatican And The Market Shock: Inside The Growing Disclosure Debate",
+      "url": "https://www.liberationtimes.com/home/trump-the-vatican-and-the-market-shock-inside-the-growing-disclosure-debate",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "Following recent reporting that White House and defense officials have sought advice on how to prepare the public for a possible announcement regarding UAP and non-human intelligence, Liberation Times has spoken to additional sources who believe the consequences of such a moment would extend far beyond Washington.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Meet the Investor Betting UFO Disclosure Will Move Markets",
+      "url": "https://www.liberationtimes.com/home/meet-the-investor-betting-ufo-disclosure-will-move-markets",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "Matthew Tuttle is no stranger to unconventional investments. But with the Tuttle Capital UFO Disclosure ETF – ticker symbol UFOD – the chief executive and chief investment officer of Connecticut-based Tuttle Capital Management may have made the defining bet of his career: that UFO disclosure will not just reshape politics and culture, but markets too.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "UFO Disclosure Battle Commences As Trump Administration Releases Files",
+      "url": "https://www.liberationtimes.com/home/ufo-disclosure-battle-commences-as-trump-administration-releases-files",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "President Donald Trump’s administration has done something unprecedented. It has committed itself to UFO transparency, putting its weight and authority behind a series of intriguing files, images and videos.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "The Pentagon’s UFO Office Knows They’re Real. But Can It Tell the Truth?",
+      "url": "https://www.liberationtimes.com/home/the-pentagons-ufo-office-knows-theyre-real-but-can-it-tell-the-truth",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "The official line: there are true anomalies which the head of the Pentagon’s UFO office does not understand with his physics and engineering background, and from his time in the Intelligence Community.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Late Air Force Officer Linked To Alleged Legacy UFO Program",
+      "url": "https://www.liberationtimes.com/home/late-air-force-officer-linked-to-alleged-legacy-ufo-program",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "The late U.S. Air Force intelligence officer Matthew Sullivan, who died in 2024 before he could, according to Representative Eric Burlison, testify in a federal UFO whistleblower case, is understood by Liberation Times to have been involved in an alleged legacy UFO program.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "War Department Says White House Coordinating Release of Never-Before-Seen UFO Material",
+      "url": "https://www.liberationtimes.com/home/war-department-says-white-house-coordinating-release-of-never-before-seen-ufo-material",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "A War Department official has told Liberation Times that the Pentagon’s dedicated UFO office is working with the White House and federal agencies to prepare the release of previously unseen Unidentified Anomalous Phenomena (UAP) material.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Evidence, Drones and the UFO Debate",
+      "url": "https://www.liberationtimes.com/home/evidence-drones-and-the-ufo-debate",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "The first and most immediately obvious takeaway is that European NATO states have major problems of their own in the Baltic Sea, North Sea, Black Sea, Atlantic Ocean, Arctic and English Channel, just as President Trump wants them to deploy scarce, precious naval resources to the Straits of Hormuz.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Newly Released Records Reveal Drone Incursions, Including Triangular Object With Spotlight, Above U.S. Nuclear Sites",
+      "url": "https://www.liberationtimes.com/home/newly-released-records-reveal-drone-incursions-including-triangular-object-with-spotlight-above-us-nuclear-sites",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "Liberation Times has obtained records detailing drone incidents around sensitive U.S. nuclear facilities. The documents point to a spate of activity around critical infrastructure between September 2022 and February 2023.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Director of National Intelligence UFO Inquiry Rocked by Claims of Whistleblower Smears and Intimidation",
+      "url": "https://www.liberationtimes.com/home/director-of-national-intelligence-ufo-inquiry-rocked-by-claims-of-whistleblower-smears-and-intimidation",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "An alleged Unidentified Anomalous Phenomena (UAP) investigation overseen by the Office of the Director of National Intelligence (ODNI) has come under scrutiny over claims of whistleblower intimidation, false allegations and efforts to discredit those who came forward.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "The Missing General: Neil McCasland, UFO Claims and an Unfolding Mystery",
+      "url": "https://www.liberationtimes.com/home/the-missing-general-neil-mccasland-ufo-claims-and-an-unfolding-mystery",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "Two weeks have now passed since retired U.S. Air Force General William ‘Neil’ McCasland vanished from the edge of Albuquerque, and the facts, such as they are, remain spare, cold and strangely resistant to meaning.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "An Invisible Atlantic Boundary Where UFO Reporting Changes",
+      "url": "https://www.liberationtimes.com/home/an-invisible-atlantic-boundary-where-ufo-reporting-changes",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "A passenger jet crossing the North Atlantic can move from one system for handling reports of unidentified objects to another without anything on board changing at all.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "White House-Approved Trip Allegedly Took Congressman to Maryland Base to Examine Suspected UFO Facility",
+      "url": "https://www.liberationtimes.com/home/white-house-approved-trip-allegedly-took-congressman-to-maryland-base-to-examine-suspected-ufo-facility",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "Liberation Times understands Representative Eric Burlison, a key congressional Unidentified Anomalous Phenomena advocate, visited Naval Air Station Patuxent River (Pax River) in Maryland last month on a White House-approved trip.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Obama, Trump and the New Push for UFO Disclosure",
+      "url": "https://www.liberationtimes.com/home/obama-trump-and-the-new-push-for-ufo-disclosure",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "Former President Barack Obama unleashed a storm, whether he meant to or not. When American podcast host Brian Tyler Cohen asked, “Are aliens real?”, Barack Obama gave an answer that exceeded expectations: “They’re real, but I haven’t seen them, and they’re not being kept in Area 51,” he said in the interview released on 14 February.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "New Footage Shows Mushroom-Shaped UFO Making Apparent Sudden Acceleration, Echoing CIA Director’s Warning to War Secretary",
+      "url": "https://www.liberationtimes.com/home/new-footage-shows-mushroom-shaped-ufo-making-apparent-sudden-acceleration-echoing-cia-directors-warning-to-defense-secretary",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "On a bitter Sunday morning in January 2023, as New York sat cold and dry beyond the Fox & Friends studio walls, former Director of National Intelligence John Ratcliffe said something that should have sent a chill through the American national security apparatus.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "liberationtimes",
+      "source_name": "Liberation Times",
+      "type": "article",
+      "title": "Russia, Drones, and the UFO Narrative",
+      "url": "https://www.liberationtimes.com/home/russia-drones-and-the-ufo-narrative",
+      "image_url": null,
+      "author": "Christopher Sharp",
+      "excerpt": "November to December 2024 saw some fascinating events at many strategically important Royal Air Force bases used by the Americans in the UK. They had all the ingredients for a genuinely anomalous UFO mystery: strange lights in the sky, multiple locations, repeat incidents, nuclear weapons, deployment of Special Forces, unknown actors, with the major East Anglia base cluster in a region already steeped in UFO history around airbases and nukes.",
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [],
+      "tags": [],
+      "first_seen": "2026-06-19T22:32:46.489Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "A Bizarre ‘Bullseye’ in Space Could Hold a Major Clue to Unraveling One of the Universe’s Greatest Mysteries",
+      "url": "https://thedebrief.org/a-bizarre-bullseye-in-space-could-hold-a-major-clue-to-unraveling-one-of-the-universes-greatest-mysteries/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/LEDA-1313424-Bullseye-galaxy.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "annular features",
+        "axions",
+        "bullseye galaxy",
+        "dark matter",
+        "leda 1313424",
+        "ringed galaxies"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "Could Humans Regrow Limbs? Scientists Are Closer Than Ever to Unlocking a Hidden Power of Regeneration",
+      "url": "https://thedebrief.org/could-humans-regrow-limbs-scientists-are-closer-than-ever-to-unlocking-a-hidden-power-of-regeneration/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/humans-regrow-limbs-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "genetics",
+        "science"
+      ],
+      "tags": [
+        "bmp2",
+        "fgf2",
+        "human limb regrowth",
+        "regeneration",
+        "regenerative science",
+        "salamander",
+        "texas am university"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "Inside a Martian Meteorite, These Grains of an Unexpected Gemstone Hold Clues to a Hidden Past",
+      "url": "https://thedebrief.org/inside-a-martian-meteorite-these-grains-of-an-unexpected-gemstone-hold-clues-to-a-hidden-past/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/garnet-690x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "garnet",
+        "geology",
+        "magma",
+        "mars",
+        "martian meteorite"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Diary of an Interstellar Voyage: Part One",
+      "url": "https://thedebrief.org/diary-of-an-interstellar-voyage-part-one/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2023/06/interstellar-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "features",
+        "our cosmic neighborhood"
+      ],
+      "tags": [
+        "avi loeb",
+        "galileo project",
+        "im1",
+        "interstellar"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Inside America’s UFO Cults: A Look at Manipulation and Misinformation in the UFO Counterculture",
+      "url": "https://thedebrief.org/inside-americas-ufo-cults-a-look-at-manipulation-and-misinformation-in-the-ufo-counterculture/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2024/10/UFO-Cult-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "features",
+        "psychology",
+        "uap"
+      ],
+      "tags": [
+        "corey goode",
+        "darcy weir",
+        "dark alliance documentary",
+        "david wilcock",
+        "gaia",
+        "heavens gate cult",
+        "jay widner",
+        "misinformation",
+        "uap whistleblower",
+        "ufo counterculture",
+        "ufo cults",
+        "ufo documentary filmmaking",
+        "whistleblower"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Auditory Pareidolia: The Voices in Your Head Have a Rational Explanation",
+      "url": "https://thedebrief.org/auditory-pareidolia-the-voices-in-your-head-may-have-a-rational-explanation/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2021/05/hear-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "features",
+        "opinion",
+        "science"
+      ],
+      "tags": [
+        "auditory pareidolia",
+        "brain",
+        "neuroscience",
+        "pareidolia",
+        "psychology"
+      ],
+      "first_seen": "2026-06-19T22:33:02.108Z"
+    }
+  ]
+}

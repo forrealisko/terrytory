@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "digest_id": "cad6a824-2d97-4448-aa45-dfdf512e1c00",
+    "run_at": "2026-06-27T16:24:24.611Z",
+    "orchestrator_version": "1.0.0",
+    "sources_attempted": 3,
+    "sources_ok": 3,
+    "sources_failed": 0,
+    "total_new": 10,
+    "run_results": {
+      "theblackvault": {
+        "ok": true,
+        "elapsed": "719.8"
+      },
+      "liberationtimes": {
+        "ok": true,
+        "elapsed": "8.3"
+      },
+      "thedebrief": {
+        "ok": true,
+        "elapsed": "9.8"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "2,700-Year-Old Assyrian Artifact Made from Odd Material Should Have Been “Impossible” to Craft with Ancient Tools, Archaeologists Say",
+      "url": "https://thedebrief.org/2700-year-old-assyrian-artifact-made-from-odd-material-should-have-been-impossible-to-craft-with-ancient-tools-archaeologists-say/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/artifact-360x240.jpg",
+      "author": "Micah Hanks",
+      "excerpt": "Archaeologists have unearthed an artifact they say should have been \"impossible\" to craft using techniques available to artisans in the Near East nearly 2,700 years ago.",
+      "article_date": "2026-06-26T12:06:15-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-26T16:06:15.000Z"
+      },
+      "categories": [
+        "archaeology"
+      ],
+      "tags": [
+        "ancient religion",
+        "archaeology",
+        "assyrian artifact",
+        "iron age",
+        "israel",
+        "mother of pearl"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "CERN Provides Good News on Climate Change as Nature Proves Unexpectedly Resilient",
+      "url": "https://thedebrief.org/cern-provides-good-news-on-climate-change-as-nature-proves-unexpectedly-resilient/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/climate-change-clouds-360x240.jpg",
+      "author": "Ryan Whalen",
+      "excerpt": "New climate change research conducted at CERN offers rare, hopeful news about the planet’s resilience to global warming.",
+      "article_date": "2026-06-26T08:30:45-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-26T12:30:45.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "aerosols",
+        "cern",
+        "climate change",
+        "clouds",
+        "global warming"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "A Slowly Aging Butterfly Could Help Scientists Understand Longevity",
+      "url": "https://thedebrief.org/a-slowly-aging-butterfly-could-help-scientists-understand-longevity/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/lolame-heliconius-hecale-4002758_640-360x240.jpg",
+      "author": "Austin Burgess",
+      "excerpt": "A University of Bristol-led study reports that a species of butterflies has evolved both longer lifespans and slower physical decline.",
+      "article_date": "2026-06-26T08:25:07-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-26T12:25:07.000Z"
+      },
+      "categories": [
+        "biology",
+        "breaking news",
+        "science"
+      ],
+      "tags": [
+        "aging",
+        "butterflies",
+        "butterfly",
+        "evolution",
+        "heliconius",
+        "heliconius hecale",
+        "lifespan",
+        "longevity"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "article",
+      "title": "“We Call It Weather Jiu-Jitsu”: Scientists Want to Fight Extreme Weather With Precision ‘Nudges’ Instead of Force",
+      "url": "https://thedebrief.org/we-call-it-weather-jiu-jitsu-scientists-want-to-fight-extreme-weather-with-precision-nudges-instead-of-force/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/RESIZE-naturenomad-storm-8443707-360x240.jpg",
+      "author": "Christopher Plain",
+      "excerpt": "Scientists have unveiled a method for controlling the weather with existing technology to alter the path of extreme storms before they land.",
+      "article_date": "2026-06-25T13:04:34-04:00",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-06-25T17:04:34.000Z"
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science"
+      ],
+      "tags": [
+        "arizona state university",
+        "atmospheric river",
+        "cloud seeding",
+        "droughts",
+        "extreme weather",
+        "floods",
+        "freezes",
+        "weather"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "Something is Swarming in Swirls of Green in the Black Sea—and These NASA Images Captured the Phenomenon from Orbit",
+      "url": "https://thedebrief.org/something-is-swarming-in-swirls-of-green-in-the-black-sea-and-these-nasa-images-captured-the-phenomenon-from-orbit/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Black-Sea-ISS.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "environment",
+        "science",
+        "space"
+      ],
+      "tags": [
+        "black sea",
+        "bosporous strait",
+        "coccolithophores",
+        "diatoms",
+        "iss",
+        "nasa",
+        "orbital imagery",
+        "pace",
+        "phytoplankton"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "Look What NASA’s Mars Reconnaissance Orbiter Just Spotted Lurking in the Red Planet’s Arbot Hills",
+      "url": "https://thedebrief.org/look-what-nasas-mars-reconnaissance-orbiter-just-spotted-lurking-in-the-red-planets-arbot-hills/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/Perseverance-HiRISE-Arbot-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "space"
+      ],
+      "tags": [
+        "arbot",
+        "hirise",
+        "jezero crater",
+        "mars 2020",
+        "mars perseverance rover",
+        "mars reconnaissance orbiter",
+        "nasa",
+        "red planet"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "featured",
+      "title": "Whirlpool in Spacetime Around a Black Hole Merger Provides First Detection of this General Relativity Prediction",
+      "url": "https://thedebrief.org/whirlpool-in-spacetime-around-a-black-hole-merger-provides-first-detection-of-this-general-relativity-prediction/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/06/black-hole-merger-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "astronomy",
+        "breaking news",
+        "physics"
+      ],
+      "tags": [
+        "black hole",
+        "direct wave",
+        "event horizon",
+        "frame drag",
+        "ligo"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Ex-Israeli Space Chief’s ‘Galactic Federation’ Based on Alien Conspiracy Theories",
+      "url": "https://thedebrief.org/former-israeli-space-chiefs-comments-on-galactic-federation-based-on-alien-conspiracies/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2020/12/composing-5126949_1280-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "breaking news",
+        "features",
+        "space"
+      ],
+      "tags": [
+        "aliens",
+        "galactic federation",
+        "haim eshed",
+        "ufos"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "“Ghosts” of the Early Universe Reveal Clues, and Controversies, About the Formation of Galaxies",
+      "url": "https://thedebrief.org/ghosts-of-the-early-universe-reveal-clues-and-controversies-about-the-formation-of-galaxies/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2022/01/galaxies-759x500.jpg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "astronomy",
+        "features",
+        "space"
+      ],
+      "tags": [
+        "big bang",
+        "distant galaxies",
+        "early universe",
+        "fred hoyle",
+        "galaxy",
+        "redshift"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    },
+    {
+      "source_id": "thedebrief",
+      "source_name": "The Debrief",
+      "type": "highlighted",
+      "title": "Cozy Bear — Russia’s Cyberspies Suspected In Latest Government Hacks",
+      "url": "https://thedebrief.org/cozy-bear-russias-cyberspies-suspected-in-latest-government-hacks/",
+      "image_url": "https://thedebrief.b-cdn.net/wp-content/uploads/2020/12/open-graph.jpeg",
+      "author": null,
+      "excerpt": null,
+      "article_date": null,
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "categories": [
+        "defense",
+        "features",
+        "national security"
+      ],
+      "tags": [
+        "cozy bear",
+        "cyber defense",
+        "cybersecurity",
+        "hackers",
+        "hacking",
+        "national security",
+        "russian hacking"
+      ],
+      "first_seen": "2026-06-27T16:36:33.188Z"
+    }
+  ]
+}
