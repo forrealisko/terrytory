@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:37.301Z",
-  "last_scrape": "2026-07-03T21:08:42.224Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-06T10:44:15.782Z",
+  "total_scrapes": 2,
   "seen_hashes": {
     "5762e9515f24e939": {
       "first_seen": "2026-07-03T21:08:42.221Z",
@@ -63,9 +63,69 @@
       "last_seen": "2026-07-03T21:08:42.222Z",
       "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video"
+    },
+    "62797d7741b41a29": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Some of the nation’s rich are letting AI teach their kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep"
+    },
+    "6e9b865319ebd169": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip-hop at its most daring",
+      "url": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review"
+    },
+    "2478e3dd36472f08": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Where to preorder Grand Theft Auto VI",
+      "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy"
+    },
+    "de9adfa52a186630": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence"
+    },
+    "bf64d2e7bb2c7104": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "The Sourdough Sidekick automates the boring bit of baking",
+      "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter"
+    },
+    "1b0c5e30f8663309": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "How Keurig saved — and ruined — your coffee",
+      "url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history"
+    },
+    "90fca42f63aafecd": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "Vizio accidentally made the best dumb TV on the market",
+      "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review"
+    },
+    "7ebd7ecb8128bb66": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "Xbox is a disaster",
+      "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster"
+    },
+    "6871972627480601": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+      "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies"
+    },
+    "9480aa2c77d3d161": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "White House deletes thousands of webpages about energy conservation as heatwave slams US",
+      "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion"
     }
   },
   "stats": {
-    "total_headlines_ever": 10
+    "total_headlines_ever": 20
   }
 }

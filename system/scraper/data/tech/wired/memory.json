@@ -1,126 +1,126 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:55.883Z",
-  "last_scrape": "2026-07-03T21:09:00.054Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-06T10:44:16.241Z",
+  "total_scrapes": 2,
   "seen_hashes": {
     "d6dd4632acf41d5a": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
       "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/"
     },
     "3d570a7af8596dad": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
       "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/"
     },
     "32c43587996e1188": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
       "url": "https://www.wired.com/gallery/best-bone-conduction-headphones/"
     },
     "efad2d7bf411b010": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "All Your Favorite Gadgets Are Getting Way More Expensive … Again",
       "url": "https://www.wired.com/story/we-are-in-the-knockout-round-of-price-increases-for-consumer-electronics/"
     },
     "c1cb11c8c915d060": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "7 Best Phones You Can’t Buy in the US (2026)",
       "url": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/"
     },
     "5046e892a44e6564": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "The FDA Ruled That ZYN Pouches Are Safer Than Cigarettes. That Doesn’t Mean They’re Safe",
       "url": "https://www.wired.com/story/the-fda-ruled-that-zyn-pouches-are-safer-than-cigarettes-that-doesnt-mean-theyre-safe/"
     },
     "1c8a72e5e94bb988": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI",
       "url": "https://www.wired.com/story/the-best-ultralight-backpacking-quilts/"
     },
     "ef18d4623d1aa139": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "When the Law Kills Your Electric Car Dealership",
       "url": "https://www.wired.com/story/when-the-law-kills-your-polestar-electric-car-dealership/"
     },
     "068da21c3b0cd831": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "The 11 Best TV Shows to Stream This Month (July 2026)",
       "url": "https://www.wired.com/story/the-11-best-shows-to-stream-right-now/"
     },
     "151746c52a494def": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy",
       "url": "https://www.wired.com/story/sony-erases-digital-content-from-libraries/"
     },
     "894de78e5f61bc14": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "EU Politicians Investigated Pegasus Spyware. Then It Ended Up on One of Their Phones",
       "url": "https://www.wired.com/story/eu-politicians-investigated-pegasus-spyware-then-it-ended-up-on-one-of-their-phones/"
     },
     "ec57f741883839cc": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It",
       "url": "https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/"
     },
     "16de244a9d35673c": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "How Big Is ‘Love Island USA’? More Than 10 Million People Are Already on Its App",
       "url": "https://www.wired.com/story/love-island-usa-app/"
     },
     "0df957f8934203b6": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Cries Foul",
       "url": "https://www.wired.com/story/spotify-streaming-manipulation-prediction-markets-polymarket-kalshi/"
     },
     "b6e1d000cca8d3c7": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
       "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/"
     },
     "82a959c9c5fca78f": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "The DEA Plans to Ban Opioid-Like Kratom Compound 7-OH",
       "url": "https://www.wired.com/story/the-dea-plans-to-ban-kratom-compound-7-oh-sold-as-a-gas-station-opioid/"
     },
     "9ed041d355e51b6e": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "7 Lesser-Known Google Account Settings You Should Change",
       "url": "https://www.wired.com/story/7-google-account-settings-you-should-change/"
     },
     "9ce6e19cfdf4e189": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "8 Best Travel Adapters (2026): My Top Recommendations",
       "url": "https://www.wired.com/gallery/best-travel-adapters/"
     },
     "b0b137819dd06b38": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "Bublue BuVortex V5 Pool Skimmer Review: An Impractical Cleaner",
       "url": "https://www.wired.com/review/bublue-buvortex-v5-pool-skimmer/"
     },
     "69cc730b560a788f": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-03T21:09:00.053Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
       "title": "How Trump Helped China Make America’s Cheapest EV",
       "url": "https://www.wired.com/story/how-trump-helped-china-make-slate-americas-cheapest-ev/"
     },
@@ -243,9 +243,129 @@
       "last_seen": "2026-07-03T21:09:00.053Z",
       "title": "You Can Now Sound the Alarm on AI Behaving Badly",
       "url": "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/"
+    },
+    "0373ea616f563d53": {
+      "first_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-06T10:44:16.239Z",
+      "title": "Sony Bravia 7 Mark II: Midrange but Priced High (2026)",
+      "url": "https://www.wired.com/review/sony-bravia-7-mark-ii/"
+    },
+    "e991826b3749f120": {
+      "first_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-06T10:44:16.239Z",
+      "title": "Good News! Turns Out the Earth Will Never Be Swallowed by the Sun",
+      "url": "https://www.wired.com/story/good-news-it-turns-out-the-earth-will-never-be-swallowed-by-the-sun/"
+    },
+    "ba048f5e1509fbd9": {
+      "first_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-06T10:44:16.239Z",
+      "title": "ICE’s Internal Watchdog Is Now Investigating Online Critics",
+      "url": "https://www.wired.com/story/ices-internal-watchdog-is-now-investigating-online-critics/"
+    },
+    "75dee7346c495eda": {
+      "first_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-06T10:44:16.239Z",
+      "title": "What if the Universe Isn’t as Uniform as Scientists Think?",
+      "url": "https://www.wired.com/story/what-if-the-universe-wasnt-as-uniform-as-scientists-think/"
+    },
+    "835dd105b42f26e0": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "How Palestinians Are Building a Digital Archive That Can’t Be Erased",
+      "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/"
+    },
+    "c9cc838b217ac394": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Prediction Markets Let You Bet on Whether a Wildfire Will Burn Down Your Town",
+      "url": "https://www.wired.com/story/prediction-markets-let-you-bet-wildfire/"
+    },
+    "f92cae1ce8e76035": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 40+",
+      "url": "https://www.wired.com/gallery/best-wifi-routers/"
+    },
+    "7ea94f45eb1cbd6a": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Review: TCL RM9L RGB-Mini LED (2026)",
+      "url": "https://www.wired.com/review/tcl-rm9l/"
+    },
+    "6cae3bc61108096d": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Eight Sleep Pod 5 Review: The Smartest, Nosiest Bed You Can Buy",
+      "url": "https://www.wired.com/review/eight-sleep-pod-5/"
+    },
+    "3a99238a2e002c0a": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "What Are Fish Oil Supplements Good For? Here’s Your Crash Course",
+      "url": "https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/"
+    },
+    "43bff706be8d7a81": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "There’s a Global Network of Fungi Under Your Feet. This Is the First Complete Map",
+      "url": "https://www.wired.com/story/theres-a-global-network-of-fungi-under-your-feet-this-is-the-first-complete-map/"
+    },
+    "ffddea1ce2fc0b21": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "How to Avoid Spoilers Online and in Chats",
+      "url": "https://www.wired.com/story/how-to-avoid-spoilers-online/"
+    },
+    "b9c39c2729c8825e": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Submit Your Questions: Inside The World of Online Romance Scams",
+      "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/"
+    },
+    "030d523c47cbfc4f": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers",
+      "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/"
+    },
+    "69fc151440608338": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
+      "url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/"
+    },
+    "bc22381c7f4924b2": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone",
+      "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/"
+    },
+    "04967741567a9ab0": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Security Roundup: Apple’s Hide My Email Service Fails to Hide Your Email",
+      "url": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/"
+    },
+    "9ef42fb95ddf99d6": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Food Preservatives May Increase the Risk of High Blood Pressure and Cardiovascular Disease",
+      "url": "https://www.wired.com/story/food-preservatives-may-increase-the-risk-of-high-blood-pressure-and-cardiovascular-disease/"
+    },
+    "4fd9f9a9dd74fcc9": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "The Best Fourth of July Mattress Sales on Beds We Actually Sleep On (2026)",
+      "url": "https://www.wired.com/story/best-july-fourth-mattress-deals-2026/"
+    },
+    "f37fd7d9d5003db4": {
+      "first_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-06T10:44:16.240Z",
+      "title": "Scientists Have Identified a New Fossil Species of Axolotl in Mexico",
+      "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico/"
     }
   },
   "stats": {
-    "total_headlines_ever": 40
+    "total_headlines_ever": 60
   }
 }

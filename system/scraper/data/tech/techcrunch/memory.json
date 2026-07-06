@@ -1,48 +1,48 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:47.660Z",
-  "last_scrape": "2026-07-03T21:08:51.883Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-06T10:44:16.025Z",
+  "total_scrapes": 2,
   "seen_hashes": {
     "ebebe46d142b6e7d": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
       "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
       "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
     },
     "96cdb7f1c8072448": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
       "title": "The Dune keypad device can be your meeting controller and more",
       "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/"
     },
     "d463714c5ec5563b": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
       "title": "Chevy built an all-American EV truck — why is nobody buying it?",
       "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/"
     },
     "28edf6a5839d614e": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware",
       "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/"
     },
     "58cdebc355a6acd9": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
       "url": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/"
     },
     "8aafbde5522c666a": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
       "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
     },
     "23feed7924babe93": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Private space pilots are flying orbital missions for the US Space Force",
       "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/"
     },
@@ -123,9 +123,87 @@
       "last_seen": "2026-07-03T21:08:51.882Z",
       "title": "US government says it got hacked — again",
       "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/"
+    },
+    "5382b7beae0ae25e": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"
+    },
+    "f9bcda2f30b37e47": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/"
+    },
+    "e64345228683ca83": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Uber’s European expansion plans may have hit a speed bump",
+      "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/"
+    },
+    "125b8497813507dd": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Trump memecoin investors lost $3.8 billion, analysis finds",
+      "url": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/"
+    },
+    "d1a423c649102322": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Amazon will stop accepting new customers for Mechanical Turk",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
+    },
+    "ba435bff8b0ce8f4": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "5 desk gadgets that can make your workday better",
+      "url": "https://techcrunch.com/2026/07/05/5-desk-gadgets-that-can-make-your-workday-better/"
+    },
+    "0eff700ab9efa526": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "What is Bending Spoons? The little-known AOL and Vimeo owner that’s now public",
+      "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/"
+    },
+    "b683fbfc9b266b24": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Almost 90 new unicorns have been minted so far this year — here they are",
+      "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/"
+    },
+    "8148c8e03297e7ab": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
+    },
+    "85afafbbb341e6d7": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
+    },
+    "e9f49d0f5a9d4b40": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+    },
+    "337eef6fefd0426d": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+    },
+    "3e4ac5636d69d8e6": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "The only AI glossary you’ll need this year",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
     }
   },
   "stats": {
-    "total_headlines_ever": 20
+    "total_headlines_ever": 33
   }
 }

@@ -1,42 +1,42 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:51.886Z",
-  "last_scrape": "2026-07-03T21:08:55.882Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-06T10:44:16.131Z",
+  "total_scrapes": 2,
   "seen_hashes": {
     "70ae8fcbe6ecc488": {
       "first_seen": "2026-07-03T21:08:55.880Z",
-      "last_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
       "title": "The Space Shuttle Endeavour goes on public display later this year",
       "url": "https://www.engadget.com/2207813/space-shuttle-endeavour-goes-on-public-display-later-this-year/"
     },
     "9ddc89083406860b": {
       "first_seen": "2026-07-03T21:08:55.880Z",
-      "last_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
       "title": "International Google Pixels are different than American models - here's how",
       "url": "https://www.engadget.com/2205901/how-international-google-pixel-phones-different-american/"
     },
     "00eabe4de0dcd73d": {
       "first_seen": "2026-07-03T21:08:55.880Z",
-      "last_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
       "title": "How to watch Summer Games Done Quick 2026",
       "url": "https://www.engadget.com/2207676/how-to-watch-summer-games-done-quick-2026/"
     },
     "0d596510766a1584": {
       "first_seen": "2026-07-03T21:08:55.880Z",
-      "last_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
       "title": "Amazon's Fire HD 10 tablet just got a refresh with a bit more RAM",
       "url": "https://www.engadget.com/2207669/amazon-fire-hd-10-ram-refresh/"
     },
     "b06970674b57dc25": {
       "first_seen": "2026-07-03T21:08:55.880Z",
-      "last_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
       "title": "Engadget Podcast: Who needs Valve's Steam Machine?",
       "url": "https://www.engadget.com/2207598/engadget-podcast-who-needs-valve-steam-machine/"
     },
     "1ba5a94cad7c5c47": {
       "first_seen": "2026-07-03T21:08:55.880Z",
-      "last_seen": "2026-07-03T21:08:55.880Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
       "title": "How to claim a WhatsApp username",
       "url": "https://www.engadget.com/2207358/how-to-claim-whatsapp-username/"
     },
@@ -123,9 +123,93 @@
       "last_seen": "2026-07-03T21:08:55.880Z",
       "title": "A strange attempt to revive the 3DO is already dead",
       "url": "https://www.engadget.com/2206578/3do-revival-empire-interactive/"
+    },
+    "62f4ab5fee4d003d": {
+      "first_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-06T10:44:16.130Z",
+      "title": "Alibaba gets a reprieve from US Chinese military ban",
+      "url": "https://www.engadget.com/2208232/alibaba-gets-a-reprieve-from-us-chinese-military-ban/"
+    },
+    "dca97785e1f3744a": {
+      "first_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-06T10:44:16.130Z",
+      "title": "Apple's foldable iPhone may be in short supply after it launches",
+      "url": "https://www.engadget.com/2208210/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/"
+    },
+    "a33c1b3bee39e2b6": {
+      "first_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-06T10:44:16.130Z",
+      "title": "Why 3D TVs failed and the trouble with 3D in Hollywood.",
+      "url": "https://www.engadget.com/2206391/why-3d-tvs-failed/"
+    },
+    "896c76a3fda7cc70": {
+      "first_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-06T10:44:16.130Z",
+      "title": "Sony says it will still make physical discs after 2028, as long as the game came out before then",
+      "url": "https://www.engadget.com/2208083/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/"
+    },
+    "8160ff33b9cf5b4b": {
+      "first_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-06T10:44:16.130Z",
+      "title": "What's the fastest charging speed your iPad or iPhone port can handle?",
+      "url": "https://www.engadget.com/2205909/fastest-charging-speed-ipad-iphone-port/"
+    },
+    "fdb6d34b1e3765e0": {
+      "first_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-06T10:44:16.130Z",
+      "title": "These popular smartphones are in their last year of software support",
+      "url": "https://www.engadget.com/2206707/these-popular-smartphones-are-in-their-last-year-of-software-support/"
+    },
+    "e3075f4ab786950a": {
+      "first_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-06T10:44:16.130Z",
+      "title": "A 10-year sky survey begins filming a 'cosmic movie,' cyborg cockroaches go for a dive and more science stories",
+      "url": "https://www.engadget.com/2207998/vera-c-rubin-observatory-begins-cyborg-cockroaches-nasa-clps-moon-base-missions/"
+    },
+    "c27d36810e358494": {
+      "first_seen": "2026-07-06T10:44:16.131Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
+      "title": "How your smartwatch and AI might detect early signs of illness",
+      "url": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/"
+    },
+    "3db8208585febb7e": {
+      "first_seen": "2026-07-06T10:44:16.131Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
+      "title": "Tesla expands robotaxi service to small section of Miami",
+      "url": "https://www.engadget.com/2207974/tesla-expands-robotaxi-service-to-small-section-of-miami/"
+    },
+    "754b3a775eb288db": {
+      "first_seen": "2026-07-06T10:44:16.131Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
+      "title": "NASA mission to rescue the falling Swift observatory has launched",
+      "url": "https://www.engadget.com/2207959/nasa-boost-mission-rescue-falling-swift-observatory-launched/"
+    },
+    "6859eba78a53ff0e": {
+      "first_seen": "2026-07-06T10:44:16.131Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
+      "title": "Tesla driver charged with manslaughter for Texas crash that killed a woman in her home",
+      "url": "https://www.engadget.com/2207957/tesla-driver-charged-manslaughter-texas-crash-killed-woman-in-home/"
+    },
+    "0a519464f0ebab32": {
+      "first_seen": "2026-07-06T10:44:16.131Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
+      "title": "Only these iPhone models are getting the new Siri AI this fall",
+      "url": "https://www.engadget.com/2206159/iphone-models-getting-new-siri-ai/"
+    },
+    "35dec55d442a9545": {
+      "first_seen": "2026-07-06T10:44:16.131Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
+      "title": "Router brands could be misleading you with that Wi-Fi 7 label",
+      "url": "https://www.engadget.com/2206012/router-brands-could-be-misleading-you-with-that-wi-fi-7-label/"
+    },
+    "a0066582e5747cc5": {
+      "first_seen": "2026-07-06T10:44:16.131Z",
+      "last_seen": "2026-07-06T10:44:16.131Z",
+      "title": "Midjourney wants the Hollywood studios that sued it to show the court how they use AI",
+      "url": "https://www.engadget.com/2207936/midjourney-wants-studios-that-sued-show-court-ai-use/"
     }
   },
   "stats": {
-    "total_headlines_ever": 20
+    "total_headlines_ever": 34
   }
 }

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "digest_id": "45b770ed-709f-4b73-98b4-f718e5153475",
+    "niche": "ai",
+    "run_at": "2026-07-06T10:44:08.777Z",
+    "orchestrator_version": "2.0.0",
+    "sources_attempted": 6,
+    "sources_ok": 6,
+    "sources_failed": 0,
+    "total_new": 0,
+    "run_results": {
+      "mittechreview": {
+        "ok": true,
+        "elapsed": "5.7"
+      },
+      "venturebeatai": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "arxivai": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "arxivlg": {
+        "ok": true,
+        "elapsed": "0.0"
+      },
+      "thegradient": {
+        "ok": true,
+        "elapsed": "0.4"
+      },
+      "importai": {
+        "ok": true,
+        "elapsed": "0.1"
+      }
+    }
+  },
+  "articles": []
+}
