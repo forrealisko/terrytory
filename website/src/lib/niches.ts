@@ -134,9 +134,17 @@ export function nichePaths(id: string) {
 
 export function ensureNicheDirs(id: string) {
   const p = nichePaths(id);
-  [p.content, p.picks, p.drafts, p.images, p.shipped, p.rejected, p.published, p.scraperData].forEach((d) =>
-    fs.mkdirSync(d, { recursive: true })
-  );
+  // On a read-only filesystem (Vercel serverless) mkdir throws EROFS. Reads
+  // don't need the dirs created (listJsonFiles handles missing dirs), and
+  // writes only happen in writable environments (GitHub Actions / local), so
+  // swallow per-dir failures instead of crashing the request.
+  [p.content, p.picks, p.drafts, p.images, p.shipped, p.rejected, p.published, p.scraperData].forEach((d) => {
+    try {
+      fs.mkdirSync(d, { recursive: true });
+    } catch {
+      /* read-only fs — ignore */
+    }
+  });
   return p;
 }
 
