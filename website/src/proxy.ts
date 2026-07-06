@@ -21,13 +21,25 @@ export function proxy(req: NextRequest) {
   const sub = labels.length > 1 ? labels[0] : "";
 
   const url = req.nextUrl.clone();
+  const p = url.pathname;
+
+  // ── Admin auth gate (placeholder) ──────────────────────────────────────
+  // Any admin surface (/admin path or admin subdomain) requires the tt_admin
+  // cookie; otherwise redirect to /login. The login page + its API are exempt.
+  const isAdminArea = sub === "admin" || p.startsWith("/admin");
+  const isAuthRoute = p === "/login" || p.startsWith("/api/admin/");
+  if (isAdminArea && !isAuthRoute && !req.cookies.get("tt_admin")) {
+    url.pathname = "/login";
+    url.search = "";
+    return NextResponse.redirect(url);
+  }
 
   // admin.terrytory.xyz → /admin
   if (sub === "admin") {
-    if (url.pathname.startsWith("/api/") || url.pathname.startsWith("/admin")) {
+    if (p.startsWith("/api/") || p.startsWith("/admin") || p === "/login") {
       return NextResponse.next();
     }
-    url.pathname = `/admin${url.pathname === "/" ? "" : url.pathname}`;
+    url.pathname = `/admin${p === "/" ? "" : p}`;
     return NextResponse.rewrite(url);
   }
 

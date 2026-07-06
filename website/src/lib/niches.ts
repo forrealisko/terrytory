@@ -18,16 +18,25 @@ export const NICHE_COOKIE = "niche";
 
 // ─── System root discovery ───────────────────────────────────────────────────
 function getSystemRoot(): string {
-  const currentDir = path.dirname(fileURLToPath(import.meta.url));
-  const candidates = [
-    path.resolve(currentDir, "..", "..", "..", "system"),
-    path.resolve(process.cwd(), "..", "system"),
-    path.resolve(process.cwd(), "system"),
-  ];
-  for (const c of candidates) {
-    if (fs.existsSync(path.join(c, "niches"))) return c;
+  // Walk up from both the compiled file and the cwd looking for system/niches.
+  // Fixed relative paths break on Vercel, where the function bundle nests the
+  // traced system/ folder at an unpredictable depth.
+  const starts = [path.dirname(fileURLToPath(import.meta.url)), process.cwd()];
+  for (const start of starts) {
+    let dir = start;
+    for (let i = 0; i < 10; i++) {
+      if (fs.existsSync(path.join(dir, "system", "niches"))) {
+        return path.join(dir, "system");
+      }
+      if (fs.existsSync(path.join(dir, "niches", `${DEFAULT_NICHE}.json`))) {
+        return dir;
+      }
+      const parent = path.dirname(dir);
+      if (parent === dir) break;
+      dir = parent;
+    }
   }
-  return candidates[0];
+  return path.resolve(process.cwd(), "system");
 }
 
 export const SYSTEM_ROOT = getSystemRoot();
@@ -71,8 +80,14 @@ export function listNicheIds(): string[] {
 }
 
 export function getNiche(id: string): NicheConfig {
-  const file = path.join(SYSTEM_ROOT, "niches", `${id}.json`);
-  return JSON.parse(fs.readFileSync(file, "utf-8")) as NicheConfig;
+  try {
+    const file = path.join(SYSTEM_ROOT, "niches", `${id}.json`);
+    return JSON.parse(fs.readFileSync(file, "utf-8")) as NicheConfig;
+  } catch {
+    // Never crash the whole page if a config can't be read — degrade to a
+    // disabled placeholder so the site renders (empty) instead of 500ing.
+    return { id, enabled: false, brand: { name: id, shortName: id } } as NicheConfig;
+  }
 }
 
 export function listNiches(): NicheConfig[] {

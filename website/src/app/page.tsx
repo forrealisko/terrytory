@@ -50,7 +50,7 @@ export default function Landing() {
             <h1 className="mag-lede-title">
               Journalism,
               <br />
-              <span className="i">on autopilot.</span>
+              <span className="i">done right.</span>
             </h1>
             <p className="mag-lede-sub">
               Independent publications covering the stories that matter —
