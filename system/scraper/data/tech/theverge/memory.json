@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:37.301Z",
-  "last_scrape": "2026-07-06T10:44:15.782Z",
-  "total_scrapes": 2,
+  "last_scrape": "2026-07-07T09:48:53.919Z",
+  "total_scrapes": 3,
   "seen_hashes": {
     "5762e9515f24e939": {
       "first_seen": "2026-07-03T21:08:42.221Z",
@@ -123,9 +123,69 @@
       "last_seen": "2026-07-06T10:44:15.782Z",
       "title": "White House deletes thousands of webpages about energy conservation as heatwave slams US",
       "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion"
+    },
+    "90cf464d0499a275": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "Hoto&#8217;s PixelDrive screwdriver is down to $60, matching its best price",
+      "url": "https://www.theverge.com/gadgets/961895/hoto-pixeldrive-screwdriver-deal-sale"
+    },
+    "ab6ef5799d3a62aa": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "America’s greatest idea is still under threat",
+      "url": "https://www.theverge.com/policy/961802/america-250-free-speech"
+    },
+    "d8cc1b533c8c8f88": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "Five questions for Dr. Rubin, who’s armed with a mic and a bowtie",
+      "url": "https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview"
+    },
+    "d99f47951e4733b7": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
+      "url": "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie"
+    },
+    "25eba88e53a29169": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "I spy",
+      "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy"
+    },
+    "1796e15c095cf69e": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "The DJI Osmo Pocket 3 lookalike is down to $329",
+      "url": "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale"
+    },
+    "7fab64a1e75543cf": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Inside the big business of the creator economy, with the agents making it happen",
+      "url": "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing"
+    },
+    "5125319e9d4fc654": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Nintendo will stop selling the original Switch in Europe next year",
+      "url": "https://www.theverge.com/games/961632/nintendo-switch-europe-discontinued"
+    },
+    "8cfb8034f4feaaf9": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Can Partiful keep the party going?",
+      "url": "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir"
+    },
+    "27f6fb5301acf861": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
+      "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026"
     }
   },
   "stats": {
-    "total_headlines_ever": 20
+    "total_headlines_ever": 30
   }
 }

@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:47.660Z",
-  "last_scrape": "2026-07-06T10:44:16.025Z",
-  "total_scrapes": 2,
+  "last_scrape": "2026-07-07T09:48:54.091Z",
+  "total_scrapes": 3,
   "seen_hashes": {
     "ebebe46d142b6e7d": {
       "first_seen": "2026-07-03T21:08:51.881Z",
@@ -126,31 +126,31 @@
     },
     "5382b7beae0ae25e": {
       "first_seen": "2026-07-06T10:44:16.024Z",
-      "last_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
       "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
       "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"
     },
     "f9bcda2f30b37e47": {
       "first_seen": "2026-07-06T10:44:16.024Z",
-      "last_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
       "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
       "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/"
     },
     "e64345228683ca83": {
       "first_seen": "2026-07-06T10:44:16.024Z",
-      "last_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
       "title": "Uber’s European expansion plans may have hit a speed bump",
       "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/"
     },
     "125b8497813507dd": {
       "first_seen": "2026-07-06T10:44:16.024Z",
-      "last_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
       "title": "Trump memecoin investors lost $3.8 billion, analysis finds",
       "url": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/"
     },
     "d1a423c649102322": {
       "first_seen": "2026-07-06T10:44:16.024Z",
-      "last_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
       "title": "Amazon will stop accepting new customers for Mechanical Turk",
       "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
     },
@@ -201,9 +201,99 @@
       "last_seen": "2026-07-06T10:44:16.024Z",
       "title": "The only AI glossary you’ll need this year",
       "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+    },
+    "8e62fb1cf1617ed7": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/"
+    },
+    "74b206184cde0f75": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Netflix invented binge-watching. Now it may have outgrown it.",
+      "url": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it/"
+    },
+    "ce297b0dfa3ddd52": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/"
+    },
+    "1e8e07f37467128a": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/"
+    },
+    "394931127984d96d": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
+    },
+    "960c1e075caea8a5": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/"
+    },
+    "a5c7910fdd939ccb": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+    },
+    "e6de4bb9c0610a5c": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all",
+      "url": "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/"
+    },
+    "553315ec957ffb15": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/"
+    },
+    "765bb00ed506c3fc": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
+      "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/"
+    },
+    "432c3ecf1f6e1a7c": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/"
+    },
+    "d021bea7ae741168": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/"
+    },
+    "c72223e0874e6eaa": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Canadian spy agency says it hacked drug traffickers, extremists, and a ransomware gang last year",
+      "url": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/"
+    },
+    "cf1d492ac75a6fac": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "How to reserve and change your WhatsApp username",
+      "url": "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/"
+    },
+    "9cde332f81ea52ac": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/"
     }
   },
   "stats": {
-    "total_headlines_ever": 33
+    "total_headlines_ever": 48
   }
 }

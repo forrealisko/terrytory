@@ -1,18 +1,18 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:55.883Z",
-  "last_scrape": "2026-07-06T10:44:16.241Z",
-  "total_scrapes": 2,
+  "last_scrape": "2026-07-07T09:48:54.361Z",
+  "total_scrapes": 3,
   "seen_hashes": {
     "d6dd4632acf41d5a": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
       "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/"
     },
     "3d570a7af8596dad": {
       "first_seen": "2026-07-03T21:09:00.053Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
       "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/"
     },
@@ -246,126 +246,234 @@
     },
     "0373ea616f563d53": {
       "first_seen": "2026-07-06T10:44:16.239Z",
-      "last_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Sony Bravia 7 Mark II: Midrange but Priced High (2026)",
       "url": "https://www.wired.com/review/sony-bravia-7-mark-ii/"
     },
     "e991826b3749f120": {
       "first_seen": "2026-07-06T10:44:16.239Z",
-      "last_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Good News! Turns Out the Earth Will Never Be Swallowed by the Sun",
       "url": "https://www.wired.com/story/good-news-it-turns-out-the-earth-will-never-be-swallowed-by-the-sun/"
     },
     "ba048f5e1509fbd9": {
       "first_seen": "2026-07-06T10:44:16.239Z",
-      "last_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "ICE’s Internal Watchdog Is Now Investigating Online Critics",
       "url": "https://www.wired.com/story/ices-internal-watchdog-is-now-investigating-online-critics/"
     },
     "75dee7346c495eda": {
       "first_seen": "2026-07-06T10:44:16.239Z",
-      "last_seen": "2026-07-06T10:44:16.239Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "What if the Universe Isn’t as Uniform as Scientists Think?",
       "url": "https://www.wired.com/story/what-if-the-universe-wasnt-as-uniform-as-scientists-think/"
     },
     "835dd105b42f26e0": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "How Palestinians Are Building a Digital Archive That Can’t Be Erased",
       "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/"
     },
     "c9cc838b217ac394": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Prediction Markets Let You Bet on Whether a Wildfire Will Burn Down Your Town",
       "url": "https://www.wired.com/story/prediction-markets-let-you-bet-wildfire/"
     },
     "f92cae1ce8e76035": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 40+",
       "url": "https://www.wired.com/gallery/best-wifi-routers/"
     },
     "7ea94f45eb1cbd6a": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Review: TCL RM9L RGB-Mini LED (2026)",
       "url": "https://www.wired.com/review/tcl-rm9l/"
     },
     "6cae3bc61108096d": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Eight Sleep Pod 5 Review: The Smartest, Nosiest Bed You Can Buy",
       "url": "https://www.wired.com/review/eight-sleep-pod-5/"
     },
     "3a99238a2e002c0a": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "What Are Fish Oil Supplements Good For? Here’s Your Crash Course",
       "url": "https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/"
     },
     "43bff706be8d7a81": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "There’s a Global Network of Fungi Under Your Feet. This Is the First Complete Map",
       "url": "https://www.wired.com/story/theres-a-global-network-of-fungi-under-your-feet-this-is-the-first-complete-map/"
     },
     "ffddea1ce2fc0b21": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "How to Avoid Spoilers Online and in Chats",
       "url": "https://www.wired.com/story/how-to-avoid-spoilers-online/"
     },
     "b9c39c2729c8825e": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Submit Your Questions: Inside The World of Online Romance Scams",
       "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/"
     },
     "030d523c47cbfc4f": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers",
       "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/"
     },
     "69fc151440608338": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
       "url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/"
     },
     "bc22381c7f4924b2": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone",
       "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/"
     },
     "04967741567a9ab0": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Security Roundup: Apple’s Hide My Email Service Fails to Hide Your Email",
       "url": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/"
     },
     "9ef42fb95ddf99d6": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Food Preservatives May Increase the Risk of High Blood Pressure and Cardiovascular Disease",
       "url": "https://www.wired.com/story/food-preservatives-may-increase-the-risk-of-high-blood-pressure-and-cardiovascular-disease/"
     },
     "4fd9f9a9dd74fcc9": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "The Best Fourth of July Mattress Sales on Beds We Actually Sleep On (2026)",
       "url": "https://www.wired.com/story/best-july-fourth-mattress-deals-2026/"
     },
     "f37fd7d9d5003db4": {
       "first_seen": "2026-07-06T10:44:16.240Z",
-      "last_seen": "2026-07-06T10:44:16.240Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
       "title": "Scientists Have Identified a New Fossil Species of Axolotl in Mexico",
       "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico/"
+    },
+    "87bb8218f92139d1": {
+      "first_seen": "2026-07-07T09:48:54.360Z",
+      "last_seen": "2026-07-07T09:48:54.360Z",
+      "title": "Instacart Promo Code: $15 Off | July 2026",
+      "url": "https://www.wired.com/story/instacart-promo/code/"
+    },
+    "07e8433e7b4aa731": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Office Depot Coupons: Save With Promo Codes in July 2026",
+      "url": "https://www.wired.com/story/office-depot-promo-codes/"
+    },
+    "db6796163ee6a42c": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Loop Earplugs Discount Codes: 40% Off",
+      "url": "https://www.wired.com/story/loop-earplugs-discount-code/"
+    },
+    "9f88f830bb4c6f08": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "20% Off Sephora Promo Code | July 2026",
+      "url": "https://www.wired.com/story/sephora-promo-code/"
+    },
+    "1f716ebab0323c35": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Nomad Goods Promo Codes: Get 25% Off in July 2026",
+      "url": "https://www.wired.com/story/nomad-discount-code/"
+    },
+    "8f96893936b19367": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Mattress Firm Coupons: Save up to $600",
+      "url": "https://www.wired.com/story/mattress-firm-coupon/"
+    },
+    "b07cb156867ba215": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Expedia Coupons: 75% Off",
+      "url": "https://www.wired.com/story/expedia-coupon/"
+    },
+    "28a858a149fbf853": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts",
+      "url": "https://www.wired.com/story/lovehoney-discount-code/"
+    },
+    "b74c35eb6acb404c": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Bartesian Discount Codes: 35% Off",
+      "url": "https://www.wired.com/story/bartesian-discount-code/"
+    },
+    "e3134f05ee80a321": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Target Promo Code: $50 Off | July 2026",
+      "url": "https://www.wired.com/story/target-promo-code/"
+    },
+    "2a858b7ac9ac427e": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Pura Promo Codes: $20 Off July 2026",
+      "url": "https://www.wired.com/story/pura-promo-code/"
+    },
+    "686a4c1947bb03b6": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Herman Miller Promo Codes: 40% Off July 2026",
+      "url": "https://www.wired.com/story/herman-miller-promo-code/"
+    },
+    "d041a392db3a5c54": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Maytag Promo Codes: 15% Off Appliances",
+      "url": "https://www.wired.com/story/maytag-promo-code/"
+    },
+    "931a2ea893adf427": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Starz Promo Codes: $5 Off for July 2026",
+      "url": "https://www.wired.com/story/starz-promo-code/"
+    },
+    "0c5f61fa6d4b2ff3": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "15% Off Adidas Promo Code | July 2026",
+      "url": "https://www.wired.com/story/adidas-promo-code/"
+    },
+    "ae6baec6f321bec9": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "The Science Behind Why Soccer Players at the 2026 World Cup Are Cutting Their Socks",
+      "url": "https://www.wired.com/story/the-science-behind-why-soccer-players-at-the-2026-world-cup-are-cutting-their-socks/"
+    },
+    "20516f2d067d654b": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "Bentley Torcal EV: Price, Specs, Availability",
+      "url": "https://www.wired.com/story/bentley-reveals-its-first-electric-car-amid-the-wreckage-of-the-luxury-ev-market/"
+    },
+    "68195f887132ca02": {
+      "first_seen": "2026-07-07T09:48:54.361Z",
+      "last_seen": "2026-07-07T09:48:54.361Z",
+      "title": "9 Best Keyboards (2025), Tested and Reviewed",
+      "url": "https://www.wired.com/gallery/best-keyboards/"
     }
   },
   "stats": {
-    "total_headlines_ever": 60
+    "total_headlines_ever": 78
   }
 }

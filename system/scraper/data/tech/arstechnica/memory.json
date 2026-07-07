@@ -1,24 +1,24 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:42.225Z",
-  "last_scrape": "2026-07-06T10:44:15.883Z",
-  "total_scrapes": 2,
+  "last_scrape": "2026-07-07T09:48:54.037Z",
+  "total_scrapes": 3,
   "seen_hashes": {
     "8148750f2162d86b": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
       "url": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/"
     },
     "d1bf8ec8f2b0687b": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Inside the Luddite festival harnessing Gen Z’s rage against Big Tech",
       "url": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/"
     },
     "6c4d2c950d156271": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Despite the darkness, I still see signs of hope in America",
       "url": "https://arstechnica.com/culture/2026/07/at-250-years-there-are-still-reasons-for-hope-in-america/"
     },
@@ -126,36 +126,108 @@
     },
     "31ff357700db0d3c": {
       "first_seen": "2026-07-06T10:44:15.882Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Chemical accidents rise as Trump administration proposes weakening safety rules",
       "url": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/"
     },
     "46340a543fff616a": {
       "first_seen": "2026-07-06T10:44:15.882Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "The missing 500 million: Cosmic bombardment melted Earth's first crust",
       "url": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/"
     },
     "48e4de73720baf9c": {
       "first_seen": "2026-07-06T10:44:15.882Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Review: Supergirl is not the disaster its low box office suggests",
       "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/"
     },
     "43a9bd8ba4f2b798": {
       "first_seen": "2026-07-06T10:44:15.882Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "When the ability to smell goes away",
       "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/"
     },
     "a5f84a9e0c503989": {
       "first_seen": "2026-07-06T10:44:15.882Z",
-      "last_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "A martian rock has lots of carbon on it, and it's not clear why",
       "url": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/"
+    },
+    "c695b5c8a9eebb6b": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/"
+    },
+    "5e57876a1021613f": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Kremlin suspected of flying drones over Europe using Russian shadow fleet",
+      "url": "https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/"
+    },
+    "345d1c715e66ea7d": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "What is the oldest American object ever launched into space?",
+      "url": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/"
+    },
+    "163b469824376567": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "NRC is (sort of) getting rid of \"as low as reasonably achievable\" standard",
+      "url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs/"
+    },
+    "4b68f802ff23dc57": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
+      "url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/"
+    },
+    "a9597067b214d8b3": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
+      "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/"
+    },
+    "419629315972a832": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
+      "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/"
+    },
+    "7eed07e8e258d9c6": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "F1 in Britain: Automated software to blame for crushing expectations",
+      "url": "https://arstechnica.com/cars/2026/07/f1-in-britain-automated-software-to-blame-for-crushing-expectations/"
+    },
+    "c4ef5a06e3ee3079": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "There were not one, but two asteroid encounters this weekend",
+      "url": "https://arstechnica.com/space/2026/07/there-were-not-one-but-two-asteroid-encounters-this-weekend/"
+    },
+    "a7a1ae6ee93e26fe": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
+      "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/"
+    },
+    "066e0570818c0206": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Bentley teases its first EV, the Torcal",
+      "url": "https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/"
+    },
+    "d0ff3178deb0a509": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "The Czinger 21C might be the wildest car we drive all year",
+      "url": "https://arstechnica.com/cars/2026/07/the-czinger-21c-might-be-the-wildest-car-we-drive-all-year/"
     }
   },
   "stats": {
-    "total_headlines_ever": 25
+    "total_headlines_ever": 37
   }
 }

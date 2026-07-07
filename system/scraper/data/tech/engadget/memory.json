@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:51.886Z",
-  "last_scrape": "2026-07-06T10:44:16.131Z",
-  "total_scrapes": 2,
+  "last_scrape": "2026-07-07T09:48:54.176Z",
+  "total_scrapes": 3,
   "seen_hashes": {
     "70ae8fcbe6ecc488": {
       "first_seen": "2026-07-03T21:08:55.880Z",
@@ -126,37 +126,37 @@
     },
     "62f4ab5fee4d003d": {
       "first_seen": "2026-07-06T10:44:16.130Z",
-      "last_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
       "title": "Alibaba gets a reprieve from US Chinese military ban",
       "url": "https://www.engadget.com/2208232/alibaba-gets-a-reprieve-from-us-chinese-military-ban/"
     },
     "dca97785e1f3744a": {
       "first_seen": "2026-07-06T10:44:16.130Z",
-      "last_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
       "title": "Apple's foldable iPhone may be in short supply after it launches",
       "url": "https://www.engadget.com/2208210/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/"
     },
     "a33c1b3bee39e2b6": {
       "first_seen": "2026-07-06T10:44:16.130Z",
-      "last_seen": "2026-07-06T10:44:16.130Z",
-      "title": "Why 3D TVs failed and the trouble with 3D in Hollywood.",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Why 3D TVs failed and the trouble with 3D in Hollywood",
       "url": "https://www.engadget.com/2206391/why-3d-tvs-failed/"
     },
     "896c76a3fda7cc70": {
       "first_seen": "2026-07-06T10:44:16.130Z",
-      "last_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
       "title": "Sony says it will still make physical discs after 2028, as long as the game came out before then",
       "url": "https://www.engadget.com/2208083/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/"
     },
     "8160ff33b9cf5b4b": {
       "first_seen": "2026-07-06T10:44:16.130Z",
-      "last_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
       "title": "What's the fastest charging speed your iPad or iPhone port can handle?",
       "url": "https://www.engadget.com/2205909/fastest-charging-speed-ipad-iphone-port/"
     },
     "fdb6d34b1e3765e0": {
       "first_seen": "2026-07-06T10:44:16.130Z",
-      "last_seen": "2026-07-06T10:44:16.130Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
       "title": "These popular smartphones are in their last year of software support",
       "url": "https://www.engadget.com/2206707/these-popular-smartphones-are-in-their-last-year-of-software-support/"
     },
@@ -207,9 +207,93 @@
       "last_seen": "2026-07-06T10:44:16.131Z",
       "title": "Midjourney wants the Hollywood studios that sued it to show the court how they use AI",
       "url": "https://www.engadget.com/2207936/midjourney-wants-studios-that-sued-show-court-ai-use/"
+    },
+    "56f8b8b46ba597e1": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Meta is facing $1.4 trillion in state lawsuits over social media addiction",
+      "url": "https://www.engadget.com/2209332/meta-is-facing-1-4-trillion-in-state-lawsuits-over-social-media-addiction/"
+    },
+    "3e06ba9e56e07bab": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "xAI is now officially known as SpaceXAI",
+      "url": "https://www.engadget.com/2209300/xai-now-officially-spacexai/"
+    },
+    "a30df6c4cc38210d": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Google will now count all Android backup data toward your storage cap",
+      "url": "https://www.engadget.com/2209189/google-will-now-count-all-android-backup-data-toward-your-storage-cap/"
+    },
+    "a5171ff18f713486": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Google now uses your uploaded search media to train AI",
+      "url": "https://www.engadget.com/2208978/google-now-uses-your-uploaded-search-media-to-train-ai/"
+    },
+    "24a8a2941923bfba": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Why are people ditching wireless earbuds, and are wired headphones really making a comeback?",
+      "url": "https://www.engadget.com/2207185/wired-iems-vs-wireless-earbuds/"
+    },
+    "5101ba9cb9a338a2": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Microsoft's layoffs extend beyond Xbox",
+      "url": "https://www.engadget.com/2208855/microsoft-layoffs-extend-beyond-xbox/"
+    },
+    "9229c851b568174e": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "AI golem Tilly Norwood is reportedly 'starring' in a feature-length movie",
+      "url": "https://www.engadget.com/2208729/ai-golem-tilly-norwood-is-reportedly-starring-in-a-feature-length-movie/"
+    },
+    "75e5ff93018fc9d7": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Reddit to combat AI with more AI",
+      "url": "https://www.engadget.com/2208616/reddit-to-combat-ai-with-more-ai/"
+    },
+    "846579de3aed9c88": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "A USB-C port isn't a guarantee of high speeds: here's why",
+      "url": "https://www.engadget.com/2207881/usb-c-port-cable-types-explained/"
+    },
+    "49542a8c5e1e5930": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Nintendo will stop selling the Switch 1 in Europe in 2027",
+      "url": "https://www.engadget.com/2208587/nintendo-will-stop-selling-the-switch-1-in-europe-in-2027/"
+    },
+    "4dd948c2e761a43f": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Xbox confirms plans to cut 3,200 jobs over the next year",
+      "url": "https://www.engadget.com/2208480/xbox-confirms-plans-to-lay-off-3200-workers-over-the-next-year/"
+    },
+    "5d347af1c0a20d5a": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "USB4 cables: When and why it's worth paying more",
+      "url": "https://www.engadget.com/2207394/usb4-cables-when-why-pay-more/"
+    },
+    "75424a4ada3d680c": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Bentley teases the Torcal, its first electric vehicle",
+      "url": "https://www.engadget.com/2208295/bentley-teases-the-torcal-its-first-electric-vehicle/"
+    },
+    "23e75432e82af067": {
+      "first_seen": "2026-07-07T09:48:54.175Z",
+      "last_seen": "2026-07-07T09:48:54.175Z",
+      "title": "Comcast buys the UK's biggest commercial broadcaster, ITV",
+      "url": "https://www.engadget.com/2208279/comcast-buys-the-uks-biggest-commercial-broadcaster-itv/"
     }
   },
   "stats": {
-    "total_headlines_ever": 34
+    "total_headlines_ever": 48
   }
 }

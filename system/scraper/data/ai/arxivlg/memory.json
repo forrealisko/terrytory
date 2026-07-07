@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:32.291Z",
-  "last_scrape": "2026-07-06T10:44:15.065Z",
-  "total_scrapes": 2,
+  "last_scrape": "2026-07-07T09:48:52.717Z",
+  "total_scrapes": 3,
   "seen_hashes": {
     "583b0a84214a66ee": {
       "first_seen": "2026-07-03T20:12:33.979Z",
@@ -1641,9 +1641,249 @@
       "last_seen": "2026-07-03T20:12:33.981Z",
       "title": "Theoria: Rewrite-Acceptability Verification over Informal Reasoning States",
       "url": "https://arxiv.org/abs/2607.01223"
+    },
+    "4cba3e0d68d8796f": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Auditing the Audit: Five Failure Modes in Benchmark-Validity Audits",
+      "url": "https://arxiv.org/abs/2607.02586"
+    },
+    "c05cce984bd8d043": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Evaluating Time Series Foundation Models for Electricity Price Forecasting: Contamination Risk, Distributional Shifts, and Covariate Dependence",
+      "url": "https://arxiv.org/abs/2607.02623"
+    },
+    "cb2c8402a34fb6a4": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "QuantFlow: A Federated Mamba-Based Post-Transformer Foundation Model for Time-Series Forecasting",
+      "url": "https://arxiv.org/abs/2607.02632"
+    },
+    "19409006a66338a5": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "GRAFT: Grafted Reference Audio for Fine-grained Pronunciation in Zero-shot Text-to-Speech",
+      "url": "https://arxiv.org/abs/2607.02633"
+    },
+    "ee23387ecf9dd151": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Federated Learning for Object Detection: Enabling Collaborative Drone Learning Without Centralizing Data",
+      "url": "https://arxiv.org/abs/2607.02636"
+    },
+    "630c65d63180b1d3": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Post-Generation Curation of Synthetic Images via Homogeneous-Heterogeneous Splitting",
+      "url": "https://arxiv.org/abs/2607.02637"
+    },
+    "30d53c897ed3133c": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "A Granularity-Aware EEG Feature Framework for Psychopathology Dimension Prediction",
+      "url": "https://arxiv.org/abs/2607.02670"
+    },
+    "52d5ffa3dc02a0b4": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "LiNO: Lifting based multiresolution neural operator",
+      "url": "https://arxiv.org/abs/2607.02715"
+    },
+    "d4d5687f8799ec36": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Weighted Conformal Prediction for Lab-to-Track Thermal Transfer in EV Motorsport Powertrains",
+      "url": "https://arxiv.org/abs/2607.02722"
+    },
+    "94d9c211aa38a09b": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Out-of-Distribution Generalization of Risk Aversion in Language Models",
+      "url": "https://arxiv.org/abs/2607.02755"
+    },
+    "02e3e66f329e5d5b": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Safe Inference-Time Alignment via Lagrangian Reward Augmentation",
+      "url": "https://arxiv.org/abs/2607.02781"
+    },
+    "779a7c61e10ace63": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Induction Heads Interpolate N-Grams",
+      "url": "https://arxiv.org/abs/2607.02800"
+    },
+    "e71f1463a506e0b1": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Training Hybrid Block Diffusion Language Models with Partial Bidirectionality",
+      "url": "https://arxiv.org/abs/2607.02805"
+    },
+    "235e78e9d0462091": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
+      "url": "https://arxiv.org/abs/2607.02829"
+    },
+    "379dc5680f77d95e": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "On the Design Space of Discrete Diffusion Online Adaptation for Molecular Optimization",
+      "url": "https://arxiv.org/abs/2607.02834"
+    },
+    "a8af27b04df55a26": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data",
+      "url": "https://arxiv.org/abs/2607.02850"
+    },
+    "5f7f725144eaff6d": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Trading Confidence: Comprehensive Uncertainty Estimation in Algorithmic Trading",
+      "url": "https://arxiv.org/abs/2607.02864"
+    },
+    "81f04d25d61707a7": {
+      "first_seen": "2026-07-07T09:48:52.716Z",
+      "last_seen": "2026-07-07T09:48:52.716Z",
+      "title": "Reward Granularity in RLVR: Comparing Process and Outcome Reward Structures for Mathematical Reasoning in Small Language Models",
+      "url": "https://arxiv.org/abs/2607.02869"
+    },
+    "1c691ff91f2f3427": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Poisson-Gamma Modeling of Inter-Relational Dependencies in Dynamic Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2607.02872"
+    },
+    "646bf4daf3ff3bd6": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Dynamic Regret for Non-Stationary Linear Bandits via Misspecification Reductions",
+      "url": "https://arxiv.org/abs/2607.02891"
+    },
+    "b35bc1ff77946148": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Variable Bit-width Quantization: Learning Per-Group Precision for \"Bigger-but-Smaller\" Language Models",
+      "url": "https://arxiv.org/abs/2607.02893"
+    },
+    "26c0ab05e7642c63": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Bootstrap Flow-Map Tree Sampling Enables Online Feedback Driven Search",
+      "url": "https://arxiv.org/abs/2607.02915"
+    },
+    "21b7bfe928abfb71": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "CoFEND: A Cross-Modal Fusion End-to-End Network for Cold-Start Drug-Drug Interaction Prediction",
+      "url": "https://arxiv.org/abs/2607.02928"
+    },
+    "cc59e53733bb465b": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "In-span learning: adapting reduced-order models using their own predictions",
+      "url": "https://arxiv.org/abs/2607.02937"
+    },
+    "b03d99e81c821aa7": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Missingness as Signal: Channel-Independent Spectrogram Learning for Clinical Time Series Prediction",
+      "url": "https://arxiv.org/abs/2607.02938"
+    },
+    "c7a9699dbce34083": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "A Precedent-Guided Co-Scientist for Side-Effect-Aware Drug Redesign",
+      "url": "https://arxiv.org/abs/2607.02944"
+    },
+    "bde63d2357f9ea10": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Individual Parameters in Weight-Sparse Transformers Appear Interpretable",
+      "url": "https://arxiv.org/abs/2607.02964"
+    },
+    "7c08d1de13679af1": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Rank-Order N-of-M Codes for Sparse Distributed Memory: Disentangling Representation and Learning Effects in Noise Robustness Against Contemporary Neuromorphic Architectures",
+      "url": "https://arxiv.org/abs/2607.02967"
+    },
+    "102553ae8a8681e2": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "MABLE: Masked Autoencoding with Bi-Lipschitz Decoding for Embeddings and Graph Metric Learning",
+      "url": "https://arxiv.org/abs/2607.02990"
+    },
+    "a0c7e98e32e61343": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Transfer Learning in High-dimensional Ising Models",
+      "url": "https://arxiv.org/abs/2607.03005"
+    },
+    "10b76a6f8778b025": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Back to Basics: Improving Molecular Understanding in LLMs via SMILES-Graph Translation",
+      "url": "https://arxiv.org/abs/2607.03007"
+    },
+    "437ab4ba35e85ae3": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Do ECG Foundation Models Transfer to Rare Cardiac Diseases? Evidence from Brugada Syndrome Detection",
+      "url": "https://arxiv.org/abs/2607.03009"
+    },
+    "bf1e717075743bc0": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Can Model Merging Improve Aggregation in DiLoCo?",
+      "url": "https://arxiv.org/abs/2607.03011"
+    },
+    "2e9f4c713a0b3484": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Out-of-distribution Neural Inference in Dynamical Ising Models",
+      "url": "https://arxiv.org/abs/2607.03039"
+    },
+    "d79d73139069d3b7": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "OmniFocus: Query-Guided Modality-Balanced Token Compression for Omni-Modal Large Language Models",
+      "url": "https://arxiv.org/abs/2607.03050"
+    },
+    "781abc8a95c49c5e": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "SHiPPO: Recurrent Memory with Transported Polynomial Projections",
+      "url": "https://arxiv.org/abs/2607.03055"
+    },
+    "6599c0604e15af18": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "LACE-SVD: Loss-Aware SVD with Cumulative Error Correction for LLM Compression",
+      "url": "https://arxiv.org/abs/2607.03057"
+    },
+    "91dac4e74832d509": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Spectral Rewiring for Exploration, Purification, and Model Merging",
+      "url": "https://arxiv.org/abs/2607.03065"
+    },
+    "1482f60babfba38c": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "Robustness Meets Uncertainty: Evidential Adversarial Training for Robust Selective Classification",
+      "url": "https://arxiv.org/abs/2607.03075"
+    },
+    "67e525cb540f0242": {
+      "first_seen": "2026-07-07T09:48:52.717Z",
+      "last_seen": "2026-07-07T09:48:52.717Z",
+      "title": "STELLA: Efficient Sensor-to-LLM Translation for On-Device Human Activity Recognition",
+      "url": "https://arxiv.org/abs/2607.03089"
     }
   },
   "stats": {
-    "total_headlines_ever": 273
+    "total_headlines_ever": 313
   }
 }
