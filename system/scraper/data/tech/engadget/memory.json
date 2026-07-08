@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:51.886Z",
-  "last_scrape": "2026-07-07T09:48:54.176Z",
-  "total_scrapes": 3,
+  "last_scrape": "2026-07-08T08:34:45.302Z",
+  "total_scrapes": 4,
   "seen_hashes": {
     "70ae8fcbe6ecc488": {
       "first_seen": "2026-07-03T21:08:55.880Z",
@@ -291,9 +291,129 @@
       "last_seen": "2026-07-07T09:48:54.175Z",
       "title": "Comcast buys the UK's biggest commercial broadcaster, ITV",
       "url": "https://www.engadget.com/2208279/comcast-buys-the-uks-biggest-commercial-broadcaster-itv/"
+    },
+    "d11b75b12b353d9d": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Meta says it will disable the camera on its glasses if you tamper with the recording LED",
+      "url": "https://www.engadget.com/2210283/meta-disable-camera-glasses-tamper-with-recording-led/"
+    },
+    "beb6782124c07ad3": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Meta built an AI detection tool to ID images and video created with its new models",
+      "url": "https://www.engadget.com/2210223/meta-built-an-ai-detection-tool-to-id-images-and-video-created-with-its-new-models/"
+    },
+    "a46cab4115d039d7": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "The next Samsung Galaxy Unpacked launch is happening on July 22",
+      "url": "https://www.engadget.com/2209773/the-next-samsung-galaxy-unpacked-launch-is-happening-on-july-22/"
+    },
+    "127bcf0d2cd23caa": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "NASA transfers ownership of Maryland woodland to the US Fish and Wildlife Service",
+      "url": "https://www.engadget.com/2210180/nasa-transfers-ownership-of-maryland-woodland-to-the-us-fish-and-wildlife-service/"
+    },
+    "5a693467ee3aa912": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Meta's new Muse Image model accepts Instagram accounts as a prompt",
+      "url": "https://www.engadget.com/2210087/meta-s-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/"
+    },
+    "3f1a7ad854349ee4": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Hasbro and Scooby Doo team up for one of the goofiest Transformers yet",
+      "url": "https://www.engadget.com/2209980/hasbro-and-scooby-doo-team-up-for-one-of-the-goofiest-transformers-yet/"
+    },
+    "d741cb77403e92bd": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Doom developer id Software is reportedly losing half its staff",
+      "url": "https://www.engadget.com/2209928/doom-developer-id-software-is-reportedly-losing-half-its-staff/"
+    },
+    "7120d723b7fb1621": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "The FCC wants to make easier for ISPs to hide junk fees",
+      "url": "https://www.engadget.com/2209914/the-fcc-wants-to-make-easier-for-isps-to-hide-junk-fees/"
+    },
+    "c66a64a4a9780831": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Here's what the CE mark means on your electronics",
+      "url": "https://www.engadget.com/2209022/what-ce-marking-means-on-electronics/"
+    },
+    "239f627567e3cff6": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "A bug in Discord's safety systems incorrectly banned accounts since May",
+      "url": "https://www.engadget.com/2209819/a-bug-in-discords-safety-systems-incorrectly-banned-accounts-since-may/"
+    },
+    "ee75faf2c1c40492": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "iRobot made a non-robot floor cleaner",
+      "url": "https://www.engadget.com/2209802/irobot-made-a-non-robot-floor-cleaner/"
+    },
+    "c36a42b4e6357740": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Google's next Pixel event is on August 12",
+      "url": "https://www.engadget.com/2209791/googles-next-pixel-event-is-on-august-12/"
+    },
+    "e90ae53abe56e8aa": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "The X app for iOS now has a built-in video editor",
+      "url": "https://www.engadget.com/2209749/the-x-app-for-ios-now-has-a-built-in-video-editor/"
+    },
+    "a7c6ba91aed3d311": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Avatar Aang: The Last Airbender finally has a trailer and a July 25 release date",
+      "url": "https://www.engadget.com/2209710/avatar-aang-the-last-airbender-finally-has-a-trailer-and-a-july-25-release-date/"
+    },
+    "fae939ba49707e0f": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Now you can direct Anthropic's Claude Cowork AI from your phone",
+      "url": "https://www.engadget.com/2209495/now-you-can-direct-anthropic-claude-cowork-ai-from-your-phone/"
+    },
+    "f45bca50c79b1f3a": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Here's what all of those Android status bar icons mean",
+      "url": "https://www.engadget.com/2208629/what-android-status-bar-icons-mean/"
+    },
+    "bb98879fc6b75aef": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "How to protect your tech from lightning strikes",
+      "url": "https://www.engadget.com/2208395/how-to-protect-your-tech-from-lightning-strikes/"
+    },
+    "54a512a046836abf": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Orbitals is a nostalgic hit of split-screen platforming, puzzles and '90s anime",
+      "url": "https://www.engadget.com/2206831/orbitals-is-a-nostalgic-hit-of-split-screen-platforming-puzzles-and-90s-anime/"
+    },
+    "150770283d7f557c": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "NASA celebrates James Webb's fourth anniversary with the most detailed image of Centaurus A yet",
+      "url": "https://www.engadget.com/2209381/nasa-james-webb-fourth-anniversary-detailed-image-centaurus-a/"
+    },
+    "7172a05b10af3924": {
+      "first_seen": "2026-07-08T08:34:45.301Z",
+      "last_seen": "2026-07-08T08:34:45.301Z",
+      "title": "Marshall's Acton IV and Stanmore IV speakers come with customizable buttons",
+      "url": "https://www.engadget.com/2209353/marshall-acton-iv-stanmore-iv-speakers/"
     }
   },
   "stats": {
-    "total_headlines_ever": 48
+    "total_headlines_ever": 68
   }
 }

@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:32.291Z",
-  "last_scrape": "2026-07-07T09:48:52.717Z",
-  "total_scrapes": 3,
+  "last_scrape": "2026-07-08T08:34:43.312Z",
+  "total_scrapes": 4,
   "seen_hashes": {
     "583b0a84214a66ee": {
       "first_seen": "2026-07-03T20:12:33.979Z",
@@ -1881,9 +1881,249 @@
       "last_seen": "2026-07-07T09:48:52.717Z",
       "title": "STELLA: Efficient Sensor-to-LLM Translation for On-Device Human Activity Recognition",
       "url": "https://arxiv.org/abs/2607.03089"
+    },
+    "eaeded4231bf30f5": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Statistically Meaningful Geometry and Gauge Symmetry Breaking: A Geometric Foundation for Scientific Discovery and Intelligence Emergence",
+      "url": "https://arxiv.org/abs/2607.05436"
+    },
+    "dddf45d6131f453c": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Design-CP: Context Parallelism for Design of Protein Nanoparticles",
+      "url": "https://arxiv.org/abs/2607.05439"
+    },
+    "38b14220a12eebf2": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Geometry-Aware Infrastructure-Anchored Denoiser for UWB Sensing and Work-Zone Reconstruction",
+      "url": "https://arxiv.org/abs/2607.05449"
+    },
+    "161bd5bdf453e61e": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "The Granularity Paradox: How Temporal Disaggregation Inflates In-Sample Fit and Compounds Out-of-Sample Error",
+      "url": "https://arxiv.org/abs/2607.05450"
+    },
+    "b856737f39c54d9f": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Exogenous Dropout: A Simple, Strong Baseline for Corruption-Robust Time Series Forecasting with Covariates",
+      "url": "https://arxiv.org/abs/2607.05452"
+    },
+    "ae21eca6742d633c": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Empirical Minimal-Realisation Compression of Deep Neural Networks via Controllability-Observability Tests",
+      "url": "https://arxiv.org/abs/2607.05457"
+    },
+    "a323091eaadc1ab6": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Learning to Control LLM Agent Harnesses with Offline Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.05458"
+    },
+    "d9108e9929505512": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "AdaStop: Cost-Aware Early Stopping for DNN Test Selection",
+      "url": "https://arxiv.org/abs/2607.05461"
+    },
+    "97ac4009c643e2e4": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Learnable Weighting of Intra-Attribute Distances for Categorical Data Clustering with Nominal and Ordinal Attributes",
+      "url": "https://arxiv.org/abs/2607.05464"
+    },
+    "1e6c4e85586731ef": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Breaking Structural Isolation: Scalable Graph Clustering via Community-Aware Sampling and Structural Entropy",
+      "url": "https://arxiv.org/abs/2607.05469"
+    },
+    "995159c4f5b09f5b": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Parameter-Free Encoders Remain Viable for RDB Foundation Models",
+      "url": "https://arxiv.org/abs/2607.05476"
+    },
+    "607dd0eb2382af92": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "InvWeaver: Deductive Feedback for Invariant Synthesis in Interacting-Loop Programs",
+      "url": "https://arxiv.org/abs/2607.05478"
+    },
+    "cca3636d7df895de": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "PatchOptic for Shared-State LLM Workflows with Projected Views and Verified Structured Updates",
+      "url": "https://arxiv.org/abs/2607.05483"
+    },
+    "3e80a0370116457e": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "$\\mathbf{\\lambda}$-VAE: Variance Equalization for Posterior Collapse",
+      "url": "https://arxiv.org/abs/2607.05531"
+    },
+    "be28897b960fef7b": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Self-Review Reinforcement Learning (SRRL) with Cross-Episode Memory and Policy Distillation",
+      "url": "https://arxiv.org/abs/2607.05541"
+    },
+    "17c47e284292dcce": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Federated Physics-Grounded Reinforcement Learning for Distributed Stability Control in Smart Grids",
+      "url": "https://arxiv.org/abs/2607.05553"
+    },
+    "96fb170e965d8271": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "url": "https://arxiv.org/abs/2607.05559"
+    },
+    "726d7b691b3cca1e": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "SafeImpute: Reliable Clinical Data Imputation via Conformal Selection",
+      "url": "https://arxiv.org/abs/2607.05613"
+    },
+    "542ffb8bebb0cee0": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "A Coin Flip Per Token: Bernoulli Sparse Steering of Large Language Models",
+      "url": "https://arxiv.org/abs/2607.05615"
+    },
+    "4b6f82a40fadb587": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Safe Bayesian Optimization with Counterfactual Policies",
+      "url": "https://arxiv.org/abs/2607.05620"
+    },
+    "89be00e33c22af7b": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Intuitionistic Fuzzy Graph Embedded Random Vector Functional Link with Multiview Learning",
+      "url": "https://arxiv.org/abs/2607.05635"
+    },
+    "801de676e9570663": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Domain-Adaptive Climate Downscaling Under Temporal Distribution Shift",
+      "url": "https://arxiv.org/abs/2607.05645"
+    },
+    "a066317df7ff2b73": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Orthogonal Dendritic Intrinsic Networks: An Architecture for Significance-Ordered, Orthogonal Latent Spaces",
+      "url": "https://arxiv.org/abs/2607.05653"
+    },
+    "d16b10fd2d7fcc75": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Deep Reinforcement Learning for Dynamic Battery Management of Autonomous Order Pickers",
+      "url": "https://arxiv.org/abs/2607.05683"
+    },
+    "0664e05c53d98ba6": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "LLM-Driven Neural Network Generation with Same-Family Architecture Guidance: Disentangling Transfer and Adaptation",
+      "url": "https://arxiv.org/abs/2607.05704"
+    },
+    "a1a96315e6838dfb": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models",
+      "url": "https://arxiv.org/abs/2607.05711"
+    },
+    "22983c51d736fcba": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Low-Overhead Error-Corrected QCNNs Using Bivariate Bicycle Codes",
+      "url": "https://arxiv.org/abs/2607.05724"
+    },
+    "7bd2502d1c6b5228": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Multimodal Molecular Representation Learning with Graph Neural Networks, Deep & Cross Networks, and SMILES Embeddings",
+      "url": "https://arxiv.org/abs/2607.05736"
+    },
+    "388f9123ef078355": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Two Sides of the Same Coin: Learning the Backdoor to Remove the Backdoor",
+      "url": "https://arxiv.org/abs/2607.05748"
+    },
+    "326062f9b219c9f0": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Heckman-Corrected Epistemic Uncertainty: Selection on Unobservables Defeats Importance Weighting",
+      "url": "https://arxiv.org/abs/2607.05806"
+    },
+    "3635d018b15e8c4d": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Level-Crossing Density as a Mesh-Free High-Frequency Auxiliary Loss for Implicit Neural Representations",
+      "url": "https://arxiv.org/abs/2607.05815"
+    },
+    "4fb7c4ea17764eed": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Decision-Focused Scenario Generation and Selection for Efficient and Robust Grid Dispatch",
+      "url": "https://arxiv.org/abs/2607.05830"
+    },
+    "9a2f76e9ba7eeace": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "AbICL: In-Context Learning for Antigen-Specific Antibody Affinity Ranking",
+      "url": "https://arxiv.org/abs/2607.05846"
+    },
+    "0633585cbc5e3a9a": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Unsupervised Anomaly Detection of Information Operations Users via Behavioral and Language Patterns",
+      "url": "https://arxiv.org/abs/2607.05855"
+    },
+    "ef3c47ea40f860d8": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Strategic Bargaining in Multi-Buyer Markets: Reinforcement Learning from Verifiable Rewards for LLM Negotiations",
+      "url": "https://arxiv.org/abs/2607.05863"
+    },
+    "3996515a175e8d1a": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Differentially Private Natural Gradient Descent",
+      "url": "https://arxiv.org/abs/2607.05866"
+    },
+    "427097c0ce5f1047": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "No Subspace to Track: Non-Identifiability and Optimizer State in Low-Rank Training",
+      "url": "https://arxiv.org/abs/2607.05872"
+    },
+    "0cf9e50988f58609": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "Auditing of Unlearning Algorithms",
+      "url": "https://arxiv.org/abs/2607.05898"
+    },
+    "da3948a51602c87a": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "K-ABENA: K-Adaptive Backpropagation with Error-based N-exclusion Algorithm : (Compensated Loss-Based Sample Exclusion with Unbiased Gradient Estimation)",
+      "url": "https://arxiv.org/abs/2607.05903"
+    },
+    "af53530ee31d645b": {
+      "first_seen": "2026-07-08T08:34:43.311Z",
+      "last_seen": "2026-07-08T08:34:43.311Z",
+      "title": "More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free LLM Judges",
+      "url": "https://arxiv.org/abs/2607.05904"
     }
   },
   "stats": {
-    "total_headlines_ever": 313
+    "total_headlines_ever": 353
   }
 }

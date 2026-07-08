@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:47.660Z",
-  "last_scrape": "2026-07-07T09:48:54.091Z",
-  "total_scrapes": 3,
+  "last_scrape": "2026-07-08T08:34:45.080Z",
+  "total_scrapes": 4,
   "seen_hashes": {
     "ebebe46d142b6e7d": {
       "first_seen": "2026-07-03T21:08:51.881Z",
@@ -204,13 +204,13 @@
     },
     "8e62fb1cf1617ed7": {
       "first_seen": "2026-07-07T09:48:54.090Z",
-      "last_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
       "title": "The first American autonomous ground vehicles are fighting in Ukraine",
       "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/"
     },
     "74b206184cde0f75": {
       "first_seen": "2026-07-07T09:48:54.090Z",
-      "last_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
       "title": "Netflix invented binge-watching. Now it may have outgrown it.",
       "url": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it/"
     },
@@ -291,9 +291,117 @@
       "last_seen": "2026-07-07T09:48:54.090Z",
       "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
       "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/"
+    },
+    "c6520adc872d1aa7": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"
+    },
+    "dbf8259066547c8e": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+    },
+    "1d9638971ee48e61": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Final extension: Startup Battlefield Australia applications now close July 20",
+      "url": "https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/"
+    },
+    "0433a25f95c5b0f5": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/"
+    },
+    "d8d8ef485f43990e": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"
+    },
+    "566599dd56a09c23": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
+    },
+    "1456e1678db7593b": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
+    },
+    "9060011c94ba8375": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Google’s Pixel event is set for August 12",
+      "url": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/"
+    },
+    "f2d26e3460e5a6d6": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Figma acquires team behind a vibe-coding app",
+      "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/"
+    },
+    "39633613ae46b7b0": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others",
+      "url": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/"
+    },
+    "96e9d1c24f89784a": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Hacked, leaked, and held for ransom: The worst breaches of 2026 so far",
+      "url": "https://techcrunch.com/2026/07/07/the-worst-hacks-and-breaches-of-2026-so-far/"
+    },
+    "ae9e772be9004928": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Claude Cowork expands to mobile and web",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+    },
+    "d6a05f100607b346": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "X adds a video editor to encourage creators to post original content, not stolen reposts",
+      "url": "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts/"
+    },
+    "35156bfed52494fc": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "VC firm Chemistry is raising $500M for its second fund",
+      "url": "https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund/"
+    },
+    "9ec121b03e3fabc8": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
+    },
+    "0d22ebbb8874d52d": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "This startup pits dealerships against each other to bid on your used car",
+      "url": "https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/"
+    },
+    "8ab9ca5aabefc182": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Hacktivists call out Trump by hacking and defacing US Army websites",
+      "url": "https://techcrunch.com/2026/07/07/hacktivists-call-out-trump-by-hacking-and-defacing-us-army-websites/"
+    },
+    "90a74ce7768b0f24": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
     }
   },
   "stats": {
-    "total_headlines_ever": 48
+    "total_headlines_ever": 66
   }
 }

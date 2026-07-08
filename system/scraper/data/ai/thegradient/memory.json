@@ -1,96 +1,96 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:33.985Z",
-  "last_scrape": "2026-07-07T09:48:53.477Z",
-  "total_scrapes": 3,
+  "last_scrape": "2026-07-08T08:34:43.897Z",
+  "total_scrapes": 4,
   "seen_hashes": {
     "efaf5ee8c09d3313": {
       "first_seen": "2026-07-03T20:12:39.573Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
       "url": "https://thegradient.pub/virtue-ethics-ai-alignment/"
     },
     "567dc623bcdd748b": {
       "first_seen": "2026-07-03T20:12:39.573Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "AGI Is Not Multimodal",
       "url": "https://thegradient.pub/agi-is-not-multimodal/"
     },
     "3a0e8e62fbd26189": {
       "first_seen": "2026-07-03T20:12:39.573Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
       "url": "https://thegradient.pub/shape-symmetry-structure/"
     },
     "461ff55fb6fb9780": {
       "first_seen": "2026-07-03T20:12:39.573Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "What's Missing From LLM Chatbots: A Sense of Purpose",
       "url": "https://thegradient.pub/dialog/"
     },
     "95d0413dbcf94769": {
       "first_seen": "2026-07-03T20:12:39.573Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "We Need Positive Visions for AI Grounded in Wellbeing",
       "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/"
     },
     "75bbee7a62b9cf4f": {
       "first_seen": "2026-07-03T20:12:39.573Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Financial Market Applications of LLMs",
       "url": "https://thegradient.pub/financial-market-applications-of-llms/"
     },
     "a4dd4988f3ce0282": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "A Brief Overview of Gender Bias in AI",
       "url": "https://thegradient.pub/gender-bias-in-ai/"
     },
     "daa498c1d7560dcc": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Mamba Explained",
       "url": "https://thegradient.pub/mamba-explained/"
     },
     "feb310be2f012758": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Car-GPT: Could LLMs finally make self-driving cars happen?",
       "url": "https://thegradient.pub/car-gpt/"
     },
     "dcce611af67f2fa5": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Do text embeddings perfectly encode text?",
       "url": "https://thegradient.pub/text-embedding-inversion/"
     },
     "a1d3311fa92c73b3": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Why Doesn’t My Model Work?",
       "url": "https://thegradient.pub/why-doesnt-my-model-work/"
     },
     "14c5fa72c5a0d3e5": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Deep learning for single-cell sequencing: a microscope to see the diversity of cells",
       "url": "https://thegradient.pub/deep-learning-for-single-cell-sequencing-a-microscope-to-uncover-the-rich-diversity-of-individual-cells/"
     },
     "4aca7b3d2f1c7119": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Salmon in the Loop",
       "url": "https://thegradient.pub/salmon-in-the-loop/"
     },
     "4cb1ae8aa63b40ba": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "Neural algorithmic reasoning",
       "url": "https://thegradient.pub/neural-algorithmic-reasoning/"
     },
     "4064ac67f1655922": {
       "first_seen": "2026-07-03T20:12:39.574Z",
-      "last_seen": "2026-07-07T09:48:53.477Z",
+      "last_seen": "2026-07-08T08:34:43.896Z",
       "title": "The Artificiality of Alignment",
       "url": "https://thegradient.pub/the-artificiality-of-alignment/"
     }

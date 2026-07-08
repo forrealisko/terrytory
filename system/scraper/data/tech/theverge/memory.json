@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:37.301Z",
-  "last_scrape": "2026-07-07T09:48:53.919Z",
-  "total_scrapes": 3,
+  "last_scrape": "2026-07-08T08:34:44.439Z",
+  "total_scrapes": 4,
   "seen_hashes": {
     "5762e9515f24e939": {
       "first_seen": "2026-07-03T21:08:42.221Z",
@@ -183,9 +183,69 @@
       "last_seen": "2026-07-07T09:48:53.918Z",
       "title": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
       "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026"
+    },
+    "7f31c83314d6df20": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Samsung will launch its new wide foldable on July 22nd",
+      "url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july"
+    },
+    "3f32262a31b3c2f3": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
+      "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update"
+    },
+    "718442ff55c6dbca": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Of course viewers are giving up on Netflix shows",
+      "url": "https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok"
+    },
+    "2671f7ae2b26e9d4": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
+      "url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming"
+    },
+    "779fe69a19a664e4": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+      "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram"
+    },
+    "4f08881e09acc780": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "X says top accounts steal videos from other users as it announces new video tools",
+      "url": "https://www.theverge.com/tech/962415/x-video-editor-recycled-content"
+    },
+    "17056632a5d8fe93": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "The ‘G-Wagen of golf carts’ could be the ideal second car",
+      "url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs"
+    },
+    "b5eb4a05d05aa88e": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "ABC tells the government to get out of its newsrooms",
+      "url": "https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech"
+    },
+    "9e6282f436819adf": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web"
+    },
+    "dd8c00d8c2cb2c4f": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "Google announces Pixel 11 launch event in August",
+      "url": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event"
     }
   },
   "stats": {
-    "total_headlines_ever": 30
+    "total_headlines_ever": 40
   }
 }

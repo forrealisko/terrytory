@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:31.261Z",
-  "last_scrape": "2026-07-07T09:48:52.419Z",
-  "total_scrapes": 3,
+  "last_scrape": "2026-07-08T08:34:43.059Z",
+  "total_scrapes": 4,
   "seen_hashes": {
     "e2b5fdb85ea009e0": {
       "first_seen": "2026-07-03T20:12:32.285Z",
@@ -2361,9 +2361,249 @@
       "last_seen": "2026-07-07T09:48:52.419Z",
       "title": "PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents",
       "url": "https://arxiv.org/abs/2607.04089"
+    },
+    "aecb7273a9a3460b": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
+      "url": "https://arxiv.org/abs/2607.05456"
+    },
+    "6638b2ac668bc8b1": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physical IoT Systems and Beyond",
+      "url": "https://arxiv.org/abs/2607.05563"
+    },
+    "30475ea70768f32f": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming",
+      "url": "https://arxiv.org/abs/2607.05571"
+    },
+    "4e5007bbb2b1b2ed": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Foundation Models for Automatic CAD Generation",
+      "url": "https://arxiv.org/abs/2607.05573"
+    },
+    "40377f61307f884d": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
+      "url": "https://arxiv.org/abs/2607.05577"
+    },
+    "feed0d40c9ddb3b9": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents",
+      "url": "https://arxiv.org/abs/2607.05682"
+    },
+    "c66b576577dd6870": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents",
+      "url": "https://arxiv.org/abs/2607.05690"
+    },
+    "17a9ddeb56fced8a": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Akashic: A Low-Overhead LLM Inference Service with MemAttention",
+      "url": "https://arxiv.org/abs/2607.05708"
+    },
+    "381945b53f2a2cff": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation",
+      "url": "https://arxiv.org/abs/2607.05750"
+    },
+    "09d3443ebb2d30c1": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Synthetic Consumer Insight Generation with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.05761"
+    },
+    "6f39e6a0d0a72dfe": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Beyond Static Evaluation: Building Simulation Environments for Scalable Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.05773"
+    },
+    "3c6fd9e0fb92bb8a": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2607.05775"
+    },
+    "71a48b2daba9e7a2": {
+      "first_seen": "2026-07-08T08:34:43.058Z",
+      "last_seen": "2026-07-08T08:34:43.058Z",
+      "title": "Controlling Tool Use with Heading-Specific Activation Steering",
+      "url": "https://arxiv.org/abs/2607.05790"
+    },
+    "3c313fd496ee376a": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space",
+      "url": "https://arxiv.org/abs/2607.05794"
+    },
+    "6d5d7f7ec402dcad": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
+      "url": "https://arxiv.org/abs/2607.05804"
+    },
+    "e4bbf2a74065f31f": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Onnes: A Physics-Grounded Multi-Agent LLM Simulator for Cryogenic Fault Diagnosis in Quantum Computing Infrastructure",
+      "url": "https://arxiv.org/abs/2607.05805"
+    },
+    "5714a438c5e446aa": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.05844"
+    },
+    "00954f61a2702b11": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking",
+      "url": "https://arxiv.org/abs/2607.05901"
+    },
+    "834ef31330231d84": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation",
+      "url": "https://arxiv.org/abs/2607.05915"
+    },
+    "ff8a29d0d6b918f6": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "SearchEyes: Towards Frontier Multimodal Deep Search Intelligence via Search World Simulation",
+      "url": "https://arxiv.org/abs/2607.05943"
+    },
+    "05310178af51646b": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Integrating knowledge graphs and multilingual scholarly corpora for domain-adaptive LLMs in SSH",
+      "url": "https://arxiv.org/abs/2607.05956"
+    },
+    "86c3749fc67fd840": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Auto-DSM Under the Lens: A Black-Box Evaluation Framework for LLM-Based DSM Generation",
+      "url": "https://arxiv.org/abs/2607.05985"
+    },
+    "873826d92bd625c9": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "AgoraSim: A Hybrid Agent-Based Modeling Framework",
+      "url": "https://arxiv.org/abs/2607.05999"
+    },
+    "c94e07ad590ffb19": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Information Limits and Attractor Dynamics in Economies of Frontier LLM Agents: A Pre-Registered Test",
+      "url": "https://arxiv.org/abs/2607.06001"
+    },
+    "370574b6af1cd56e": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2607.06008"
+    },
+    "e0e19fd111f57bf6": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Reward-Density Heuristic for Dynamic Multi-Vehicle Routing: Performance and Computational Efficiency",
+      "url": "https://arxiv.org/abs/2607.06066"
+    },
+    "0317c5b0de69dfac": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "When do prophets profit in prediction markets?",
+      "url": "https://arxiv.org/abs/2607.06166"
+    },
+    "399f329d5bd47a0a": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "A toy framework for single and multi-agent human-AI curiosity ecosystems",
+      "url": "https://arxiv.org/abs/2607.06214"
+    },
+    "806b0adcad9a1f2a": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Information Gain-based Rollout Policy Optimization: An Adaptive Tree-Structured Rollout Approach for Multi-Turn LLM Agents",
+      "url": "https://arxiv.org/abs/2607.06223"
+    },
+    "f2eb8208bc5940e9": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Demonstrating TOFFEE: A Learned System for Synthesizing Data Agent Trajectories at Scale",
+      "url": "https://arxiv.org/abs/2607.06233"
+    },
+    "fce8e29fad32c922": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "From Application-Layer Simulation to Native Meta-Architecture: Structural Tension as an Endogenous Driver for Heterogeneous AI Evolution",
+      "url": "https://arxiv.org/abs/2607.06269"
+    },
+    "8ca3f94fc75e1f11": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Task Decomposition-Guided Reranking for Adaptive Agent Skill Retrieval",
+      "url": "https://arxiv.org/abs/2607.06283"
+    },
+    "a9ae238338106a98": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "DT-Guard: Intent-Driven Reasoning-Active Training for Reasoning-Free LLM Safety Guardrail",
+      "url": "https://arxiv.org/abs/2607.06326"
+    },
+    "eba2c26ada8acb0b": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
+      "url": "https://arxiv.org/abs/2607.06328"
+    },
+    "bab02fe2104aec22": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "TopoBrick: Agentic Topology Sampling of Exogenous Variables for Zero-Shot Building IoT Forecasting",
+      "url": "https://arxiv.org/abs/2607.06349"
+    },
+    "07caa2c7f2eddf1b": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "A Definition and Roadmap for World Models",
+      "url": "https://arxiv.org/abs/2607.06401"
+    },
+    "e363911e98bf10cc": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "ExplAIner: A Declarative Query Language for Explaining Classification Models",
+      "url": "https://arxiv.org/abs/2607.06407"
+    },
+    "3547ec3bfd5000b7": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Finding H. pylori in the Fine Print: Evidence-Linked Multi-Agent Case Finding from Gastric Biopsy Reports",
+      "url": "https://arxiv.org/abs/2607.06435"
+    },
+    "a83dd33f6051a331": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
+      "url": "https://arxiv.org/abs/2607.06447"
+    },
+    "722065f7cdd94807": {
+      "first_seen": "2026-07-08T08:34:43.059Z",
+      "last_seen": "2026-07-08T08:34:43.059Z",
+      "title": "A Physics-Informed Neural Network Framework for Elastodynamic Wave Propagation in Bimaterial Systems",
+      "url": "https://arxiv.org/abs/2607.06479"
     }
   },
   "stats": {
-    "total_headlines_ever": 393
+    "total_headlines_ever": 433
   }
 }
