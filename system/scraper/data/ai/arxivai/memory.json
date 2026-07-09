@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:31.261Z",
-  "last_scrape": "2026-07-03T20:12:32.290Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-07T19:53:41.334Z",
+  "total_scrapes": 2,
   "seen_hashes": {
     "e2b5fdb85ea009e0": {
       "first_seen": "2026-07-03T20:12:32.285Z",
@@ -2121,9 +2121,249 @@
       "last_seen": "2026-07-03T20:12:32.286Z",
       "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
       "url": "https://arxiv.org/abs/2607.01083"
+    },
+    "c997f0d5e72786c6": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "url": "https://arxiv.org/abs/2607.02542"
+    },
+    "8fc06adefed7d5ee": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Internal Pluralism and the Limits of Pairwise Comparisons",
+      "url": "https://arxiv.org/abs/2607.02672"
+    },
+    "19c7cd5c4fe4af3c": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
+      "url": "https://arxiv.org/abs/2607.02686"
+    },
+    "ab9480bccdca044f": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Automated Data Readiness for Scientific AI",
+      "url": "https://arxiv.org/abs/2607.02771"
+    },
+    "1803ced8938a326e": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
+      "url": "https://arxiv.org/abs/2607.02807"
+    },
+    "7187164f48497237": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Object-Centric Environment Modeling for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2607.02846"
+    },
+    "944beb6130011f20": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.02879"
+    },
+    "d66708a2b3e6f386": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02914"
+    },
+    "2ef25e21540ea3f2": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "url": "https://arxiv.org/abs/2607.02931"
+    },
+    "892898817e9a6285": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "A Sliding-Window-Based Reinforcement Learning for Dynamic Assembly Flow Shop Scheduling with Multi-Product Delivery",
+      "url": "https://arxiv.org/abs/2607.02941"
+    },
+    "f2853f8bc2fd2069": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Evaluating Generative Agents with Actions Grounded in Socially Distributed Task Environments using Incognita",
+      "url": "https://arxiv.org/abs/2607.02975"
+    },
+    "51d5eee71e443127": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Reinforcement Learning for Evidence-Seeking Diagnostic Reasoning with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02983"
+    },
+    "1a7c9d3f005e2055": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents",
+      "url": "https://arxiv.org/abs/2607.03015"
+    },
+    "496bc534a7ec5669": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Human-Centric Reflective Architecture for Human-AI Collaborative Decision-Making",
+      "url": "https://arxiv.org/abs/2607.03025"
+    },
+    "16c474634b9eb547": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Silicon Sampling via Cross-Survey Transfer",
+      "url": "https://arxiv.org/abs/2607.03091"
+    },
+    "26f0d76bfefb7a6a": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "APeB: Benchmarking Personalization Ability of Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2607.03162"
+    },
+    "a90b9ba696671330": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Organizational Memory for Agentic Business Process Execution",
+      "url": "https://arxiv.org/abs/2607.03228"
+    },
+    "26a32f8ea04de772": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Embodied Operators and Benchmarking: Toward Reusable and Deployable Embodied Intelligence Systems",
+      "url": "https://arxiv.org/abs/2607.03283"
+    },
+    "81fdc42e969bc408": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Reflective Dialogue or Prompt Refinement? Effects of Tutor Scaffolding on Students' Independent LLM Use for Programming",
+      "url": "https://arxiv.org/abs/2607.03303"
+    },
+    "db2a6fa3731ade80": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "When Aggregate Alignment Misleads: Auditing Policy Repair Without Per-State Expert Actions",
+      "url": "https://arxiv.org/abs/2607.03386"
+    },
+    "e9c6aeb3bc788b74": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "From Mobile Data to Business Insights: An End-to-End Analytics Framework for Large-Scale Urban Mobility Analysis and Decision Support",
+      "url": "https://arxiv.org/abs/2607.03394"
+    },
+    "317bff03e8f8b97a": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Efficient bias mitigation in T2I diffusion models using Concept Graphs",
+      "url": "https://arxiv.org/abs/2607.03397"
+    },
+    "2ef0cd9e731670bb": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Personalized Causal Recourse: A Human-In-The-Loop Approach",
+      "url": "https://arxiv.org/abs/2607.03425"
+    },
+    "76bb1d808ed17e01": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Demonstrating Generalization Failures via Mixtures of Conditional Policies",
+      "url": "https://arxiv.org/abs/2607.03478"
+    },
+    "67604420f75806a5": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "MentalThink: Shaping Thoughts in Mental SVG World",
+      "url": "https://arxiv.org/abs/2607.03530"
+    },
+    "e057a4d4192dfede": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Applying Answer Set Programming with Fuzzy Membership Functions: a Case Study",
+      "url": "https://arxiv.org/abs/2607.03550"
+    },
+    "a06ff6527ba79cc8": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "How to Avoid Debate: Scalable AI Safety via Doubly-Efficient Interactive Proofs",
+      "url": "https://arxiv.org/abs/2607.03561"
+    },
+    "bfe6b6402a9317d7": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "The Role of Rigor in Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2607.03634"
+    },
+    "b6ab0eb249968be3": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Robust Feasible Route Construction through Collaborative Partition Optimization",
+      "url": "https://arxiv.org/abs/2607.03694"
+    },
+    "89b3b49a40767918": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry",
+      "url": "https://arxiv.org/abs/2607.03702"
+    },
+    "29b7affa5668e08e": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Explainable Reinforcement Learning for Adaptive Traffic Signal Control",
+      "url": "https://arxiv.org/abs/2607.03703"
+    },
+    "6aaee4906fcb9fce": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Can Conversational Temporal Dynamics Improve Depression Detection in Dyads? A Preliminary Investigation in Multi-Modality Perspectives",
+      "url": "https://arxiv.org/abs/2607.03744"
+    },
+    "8fc39a955d6546dc": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Bridging Interleaved Multi-Modal Reasoning as a Unified Decision Process",
+      "url": "https://arxiv.org/abs/2607.03748"
+    },
+    "6c634f90aea9aa7c": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Folding, Reasoning, and Scaling with Open-source Drug Discovery Engine",
+      "url": "https://arxiv.org/abs/2607.03787"
+    },
+    "543aed36573a9b1b": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Evaluating LLM Uncertainty in Long-Form Generation Using Deterministic Ground Truth",
+      "url": "https://arxiv.org/abs/2607.03870"
+    },
+    "fd45f0e479342f15": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+      "url": "https://arxiv.org/abs/2607.03935"
+    },
+    "ee6172f08fc5e89a": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Online Linear Programming for Multi-Objective Routing in LLM Serving",
+      "url": "https://arxiv.org/abs/2607.03948"
+    },
+    "a0365475a6d67877": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "Explainable AI for Screening Abuse-Related Trauma in Bangladeshi Children: A Training-Free Multimodal Framework Evaluated on Noise-Aware Synthetic Data",
+      "url": "https://arxiv.org/abs/2607.04010"
+    },
+    "068aad3252c25ff6": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "What is Left for Us? Second Scholarship Against the Degradation of Research by AI",
+      "url": "https://arxiv.org/abs/2607.04049"
+    },
+    "aa8346e889a49a0f": {
+      "first_seen": "2026-07-07T19:53:41.332Z",
+      "last_seen": "2026-07-07T19:53:41.332Z",
+      "title": "PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents",
+      "url": "https://arxiv.org/abs/2607.04089"
     }
   },
   "stats": {
-    "total_headlines_ever": 353
+    "total_headlines_ever": 393
   }
 }

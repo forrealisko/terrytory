@@ -1,4 +1,4 @@
-name: Daily Scrape + Digest
+name: Daily Scrape
 
 on:
   schedule:
@@ -25,8 +25,6 @@ jobs:
       BRIGHTDATA_PORT: ${{ secrets.BRIGHTDATA_PORT }}
       BRIGHTDATA_USER: ${{ secrets.BRIGHTDATA_USER }}
       BRIGHTDATA_PASS: ${{ secrets.BRIGHTDATA_PASS }}
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       HEADLESS: "true"
     steps:
       - uses: actions/checkout@v4
@@ -45,7 +43,7 @@ jobs:
         working-directory: system/content
         run: npm ci
 
-      - name: Scrape all niches + send digest
+      - name: Scrape all niches
         run: node system/scrape-all.mjs
 
       - name: Commit new headlines & picks

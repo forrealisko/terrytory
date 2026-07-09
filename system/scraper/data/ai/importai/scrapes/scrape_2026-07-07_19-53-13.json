@@ -28,9 +28,7 @@
         "parsed": "2026-07-06T12:31:05.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-07T19:53:13.742Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-07T19:53:13.742Z"
     },
     {
       "type": "article",
@@ -49,9 +47,7 @@
         "parsed": "2026-06-29T13:03:27.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -70,9 +66,7 @@
         "parsed": "2026-06-22T12:31:45.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -91,9 +85,7 @@
         "parsed": "2026-06-15T11:30:53.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -112,9 +104,7 @@
         "parsed": "2026-06-08T12:31:32.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -133,9 +123,7 @@
         "parsed": "2026-06-01T13:31:56.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -154,9 +142,7 @@
         "parsed": "2026-05-26T12:32:03.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -175,9 +161,7 @@
         "parsed": "2026-05-18T13:31:17.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -196,9 +180,7 @@
         "parsed": "2026-05-11T12:46:12.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -217,9 +199,7 @@
         "parsed": "2026-05-04T12:32:09.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -238,9 +218,7 @@
         "parsed": "2026-04-20T12:30:19.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -259,9 +237,7 @@
         "parsed": "2026-04-13T10:02:22.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -280,9 +256,7 @@
         "parsed": "2026-04-06T12:31:31.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -301,9 +275,7 @@
         "parsed": "2026-03-30T12:28:13.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -322,9 +294,7 @@
         "parsed": "2026-03-23T12:31:45.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -343,9 +313,7 @@
         "parsed": "2026-03-16T12:30:50.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -364,9 +332,7 @@
         "parsed": "2026-03-09T12:45:54.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -385,9 +351,7 @@
         "parsed": "2026-03-02T13:45:27.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -406,9 +370,7 @@
         "parsed": "2026-02-23T13:31:18.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     },
     {
       "type": "article",
@@ -427,9 +389,7 @@
         "parsed": "2026-02-16T14:01:19.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:42.060Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-07T19:54:34.045Z"
+      "first_seen": "2026-07-03T20:12:42.060Z"
     }
   ]
 }

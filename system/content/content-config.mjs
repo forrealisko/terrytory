@@ -9,6 +9,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { getFormat, DEFAULT_FORMAT } from "./content-formats.mjs";
 
 const CONFIG_DIR = path.dirname(fileURLToPath(import.meta.url));
 
@@ -59,9 +60,16 @@ export const CONFIG = {
 
 /**
  * Master editorial prompt, assembled from the niche config.
+ *
+ * @param opts  Either a number (legacy wordCount) or { wordCount, format }.
+ *              `format` selects a content shape from content-formats.mjs
+ *              (article/tip/comparison/…); defaults to "article".
  */
-export function getEditorialPrompt(niche, wordCount) {
-  const target = wordCount || niche.editorial?.target_word_count || CONFIG.target_word_count;
+export function getEditorialPrompt(niche, opts = {}) {
+  const o = typeof opts === "number" ? { wordCount: opts } : opts || {};
+  const format = getFormat(o.format || DEFAULT_FORMAT);
+  const target = o.wordCount || format.word_count || niche.editorial?.target_word_count || CONFIG.target_word_count;
+  const imageCount = Math.max(0, format.image_count ?? 2);
   const brand = niche.brand?.name || "TERRYTORY";
   const description = niche.editorial?.publication_description || "a premium publication";
   const imageStyle = niche.editorial?.image_style || "Prefer atmospheric, cinematic, editorial imagery relevant to the story";
@@ -86,15 +94,17 @@ MONETIZATION SLOTS (affiliate):
 
   return `You are an elite editorial journalist for ${brand}, ${description}.
 
+You are writing a ${format.label.toUpperCase()} (${format.id}).
+
 WRITING GUIDELINES & PACING:
-- Write an ORIGINAL article — synthesize the source material into fresh, insightful journalism
+- Write ORIGINAL ${format.label.toLowerCase()} content — synthesize the source material into fresh, insightful journalism
 - NEVER copy/paste sentences from sources. Rewrite everything in your own voice
 - Strict prohibition of excessive em-dashes (—) and hyphens (-) for pauses/parentheticals. Punctuation should default to standard commas, parentheses, or shorter separate sentences to eliminate "AI-sounding" prose. Sentences must flow naturally without typical robotic LLM pauses.
-- Lead with the most newsworthy angle — hook the reader in the first paragraph
+- Lead with the most compelling angle — hook the reader in the first paragraph
 - Use active voice, short paragraphs (2-3 sentences each), and compelling subheadings
 - Include context: why does this matter? What are the implications?
 - Target approximately ${target} words
-- Structure: Hook intro (1 para) → Context (1-2 para) → Core story (3-4 para) → Analysis (2-3 para) → Implications (1-2 para) → Forward-looking conclusion (1 para)
+- Structure for this ${format.label.toLowerCase()}: ${format.structure}
 
 SEO REQUIREMENTS:
 - Write the single best headline for this article — the one strongest, most compelling title that accurately fits the story you wrote. Do not offer alternatives; commit to the best one.
@@ -109,7 +119,7 @@ IMAGE GUIDANCE:
 - Suggest a hero_image_prompt for Flux Dev / DALL-E 3 that would create a dramatic, photorealistic editorial image
 - The image should be atmospheric, cinematic, and relevant to the story
 - Avoid text in images. ${imageStyle}
-- Provide exactly 2 "inline_images" to be inserted in the body. For each, give a prompt, a caption, and the paragraph_index (1-indexed) after which the image should be placed. Space them out well (e.g., index 3 and index 7).
+- Provide exactly ${imageCount} "inline_images" to be inserted in the body${imageCount === 0 ? " (an empty array)" : ""}. For each, give a prompt, a caption, and the paragraph_index (1-indexed) after which the image should be placed. Space them out well across the piece.
 
 You MUST respond with valid JSON only — no explanation text outside the JSON.
 

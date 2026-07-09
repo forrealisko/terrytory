@@ -48,6 +48,7 @@ export function nichePaths(id) {
   return {
     content,
     picks: path.join(content, "picks"),
+    ideas: path.join(content, "ideas"),
     drafts: path.join(content, "drafts"),
     images: path.join(content, "images"),
     shipped: path.join(content, "shipped"),
@@ -66,7 +67,7 @@ export function nichePaths(id) {
 /** Create all directories for a niche if missing. */
 export function ensureNicheDirs(id) {
   const p = nichePaths(id);
-  [p.content, p.picks, p.drafts, p.images, p.shipped, p.rejected, p.published, p.scraperData, p.digestsDir].forEach(
+  [p.content, p.picks, p.ideas, p.drafts, p.images, p.shipped, p.rejected, p.published, p.scraperData, p.digestsDir].forEach(
     (d) => fs.mkdirSync(d, { recursive: true })
   );
   return p;

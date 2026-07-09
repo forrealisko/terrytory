@@ -11,10 +11,9 @@ system/                 Backend pipeline (Node, no framework)
   niches/*.json         Per-niche config: brand, sources, voice, rating rules
   scraper/engine/       Generic HTML (Playwright) + RSS scraper
   content/              Rank → rate → research → write → images pipeline
-  notify/telegram.mjs   Telegram notifier
-  scrape-all.mjs        One-shot: scrape every niche + Telegram digest
+  scrape-all.mjs        One-shot: scrape every niche → picks
 website/                Next.js app
-  src/app/(dashboard)/  Private admin (scraper, pipeline, editor, analytics)
+  src/app/admin/        Private admin (scraper, Editorial Desk, editor, analytics)
   src/app/site/[niche]/ Public magazine (off-white editorial theme)
   src/proxy.ts          <niche>.terrytory.xyz → /site/<niche>
 ```
@@ -33,7 +32,8 @@ and Vercel just set env vars.
 
 1. Push this repo to GitHub.
 2. Import to Vercel, **Root Directory = `website`**.
-3. Set env vars: `OPENROUTER_API_KEY`, `FAL_KEY` (+ proxy/telegram as needed).
+3. Set env vars: `OPENROUTER_API_KEY`, `FAL_KEY`, `SESSION_SECRET`, `ADMIN_USERS`
+   (+ proxy vars as needed).
 4. Point a wildcard DNS record `*.terrytory.xyz` at Vercel; add the domains.
 
 Content is read from `../system` at runtime — `next.config.ts` bundles it via
@@ -42,7 +42,8 @@ Content is read from `../system` at runtime — `next.config.ts` bundles it via
 ## Automation
 
 `.github/workflows/scrape.yml` runs daily (GitHub Actions, free): scrapes all
-niches, rates them, commits new headlines/picks, and sends a top-picks digest
-to Telegram. Requires repo secrets mirroring the env vars above.
+niches, rates them, and commits new headlines/picks. Picks surface in the
+Editorial Desk (`/admin/chat`) — no external notifier. Requires repo secrets
+mirroring the env vars above.
 
 Generation stays human-in-the-loop: you pick a story, it's written, you review.

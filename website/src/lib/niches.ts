@@ -116,6 +116,7 @@ export function nichePaths(id: string) {
   return {
     content,
     picks: path.join(content, "picks"),
+    ideas: path.join(content, "ideas"),
     drafts: path.join(content, "drafts"),
     images: path.join(content, "images"),
     shipped: path.join(content, "shipped"),
@@ -138,7 +139,7 @@ export function ensureNicheDirs(id: string) {
   // don't need the dirs created (listJsonFiles handles missing dirs), and
   // writes only happen in writable environments (GitHub Actions / local), so
   // swallow per-dir failures instead of crashing the request.
-  [p.content, p.picks, p.drafts, p.images, p.shipped, p.rejected, p.published, p.scraperData].forEach((d) => {
+  [p.content, p.picks, p.ideas, p.drafts, p.images, p.shipped, p.rejected, p.published, p.scraperData].forEach((d) => {
     try {
       fs.mkdirSync(d, { recursive: true });
     } catch {
@@ -153,6 +154,7 @@ export const SCRIPTS = {
   scrape: path.join(SYSTEM_ROOT, "scraper", "engine", "scrape.mjs"),
   rate: path.join(SYSTEM_ROOT, "content", "rate-scrapes.mjs"),
   writePicked: path.join(SYSTEM_ROOT, "content", "write-picked.mjs"),
+  creativeDirector: path.join(SYSTEM_ROOT, "content", "creative-director.mjs"),
   cycle: path.join(SYSTEM_ROOT, "content", "run-automated-cycle.mjs"),
   contentDir: path.join(SYSTEM_ROOT, "content"),
   schedulerStatus: path.join(SYSTEM_ROOT, "content", "scheduler-status.json"),

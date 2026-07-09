@@ -16,6 +16,24 @@ const NAV_ITEMS = [
     ),
   },
   {
+    href: "/admin/studio",
+    label: "STUDIO",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
+        <path d="M12 2l2.4 6.9H22l-6 4.5 2.3 7-6.3-4.6L5.7 20l2.3-7-6-4.5h7.6z" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    href: "/admin/chat",
+    label: "DESK",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
     href: "/admin/content",
     label: "CREATE",
     icon: (
@@ -182,6 +200,27 @@ export function Sidebar() {
           <div className="sidebar-status-dot" />
           <span>Scrapers active</span>
         </div>
+        <button
+          type="button"
+          onClick={async () => {
+            await fetch("/api/admin/logout", { method: "POST" }).catch(() => {});
+            window.location.href = "/login";
+          }}
+          style={{
+            marginTop: 10,
+            width: "100%",
+            padding: "7px 10px",
+            fontSize: 12,
+            fontWeight: 500,
+            color: "var(--text-muted)",
+            background: "transparent",
+            border: "1px solid var(--border-subtle)",
+            borderRadius: 8,
+            cursor: "pointer",
+          }}
+        >
+          Sign out
+        </button>
       </div>
     </aside>
   );

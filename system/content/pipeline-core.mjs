@@ -119,16 +119,17 @@ export async function performResearch(ctx, headline, sourceArticles, apiKey) {
 }
 
 // ─── Writer ──────────────────────────────────────────────────────────────────
-export async function writeArticleDraft(ctx, pick, researchReport, styleGuide, apiKey, modelOverride) {
+export async function writeArticleDraft(ctx, pick, researchReport, styleGuide, apiKey, modelOverride, format) {
   const model = modelOverride || CONFIG.model;
-  ctx.log("info", `  [Writer] Generating draft via ${model}...`);
+  ctx.log("info", `  [Writer] Generating ${format || "article"} draft via ${model}...`);
 
   const sourceContext = pick.source_articles
     .map((s, i) => `[Source ${i + 1}] Title: "${s.title}" (URL: ${s.url})\nExcerpt: ${s.excerpt || "N/A"}`)
     .join("\n\n");
 
   const brand = ctx.niche.brand?.name || "TERRYTORY";
-  const prompt = `${getEditorialPrompt(ctx.niche)}
+  const angleNote = pick.angle ? `\n\nEDITORIAL ANGLE (the specific take to write toward):\n${pick.angle}\n` : "";
+  const prompt = `${getEditorialPrompt(ctx.niche, { format })}${angleNote}
 
 ──────────────────────────────
 WRITING STYLE GUIDELINES (Use these past articles to copy the tone, vocabulary, formatting, and style):
@@ -231,19 +232,22 @@ export function insertInlineImages(bodyMarkdown, inlineImages, draftId) {
   return paragraphs.join("\n\n");
 }
 
-// ─── Full pick → draft flow (research + write + images + save) ──────────────
-export async function generateDraftFromPick(ctx, pick, apiKey, { modelOverride = null, withImages = true } = {}) {
-  const researchReport = await performResearch(ctx, pick.headline, pick.source_articles, apiKey);
+// ─── Core: spec → draft (research + write + images + save) ──────────────────
+// `spec` is a pick-like object: { id, headline, source_articles, angle? }.
+// Format-aware and side-effect-free (does NOT touch pick files) so both the
+// pick flow and the Creative Director's ideas can share it.
+export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, withImages = true, format = "article" } = {}) {
+  const researchReport = await performResearch(ctx, spec.headline, spec.source_articles, apiKey);
   ctx.log("info", `  Research complete (${researchReport.length} chars)`);
 
   const styleGuide = getFewShotExamples(ctx);
-  const draftContent = await writeArticleDraft(ctx, pick, researchReport, styleGuide, apiKey, modelOverride);
+  const draftContent = await writeArticleDraft(ctx, spec, researchReport, styleGuide, apiKey, modelOverride, format);
   // AI now commits to a single best headline; keep backward-compat with older `headline_options`.
   const finalHeadline =
-    draftContent.headline || draftContent.headline_options?.[0] || pick.headline;
-  ctx.log("info", `  ✓ Article generated: "${finalHeadline}"`);
+    draftContent.headline || draftContent.headline_options?.[0] || spec.headline;
+  ctx.log("info", `  ✓ ${format} generated: "${finalHeadline}"`);
 
-  const draftId = pick.id;
+  const draftId = spec.id;
 
   if (withImages && draftContent.inline_images?.length) {
     ctx.log("info", `  Generating ${draftContent.inline_images.length} inline image(s)...`);
@@ -262,11 +266,12 @@ export async function generateDraftFromPick(ctx, pick, apiKey, { modelOverride =
     niche: ctx.niche.id,
     created_at: new Date().toISOString(),
     status: "draft",
-    source_articles: pick.source_articles,
+    format,
+    source_articles: spec.source_articles,
     headline: finalHeadline,
     headline_options: [finalHeadline],
     selected_headline: finalHeadline,
-    slug: draftContent.slug || pick.id,
+    slug: draftContent.slug || spec.id,
     body_markdown: draftContent.body_markdown || "",
     excerpt: draftContent.excerpt || "",
     seo: draftContent.seo || { meta_title: "", meta_description: "", keywords: [] },
@@ -277,6 +282,12 @@ export async function generateDraftFromPick(ctx, pick, apiKey, { modelOverride =
 
   fs.writeFileSync(path.join(ctx.paths.drafts, `${draftId}.json`), JSON.stringify(draftData, null, 2));
   ctx.log("info", `  ✓ Draft saved: ${draftId}.json`);
+  return draftData;
+}
+
+// ─── Full pick → draft flow (draft + mark pick + archive stars) ─────────────
+export async function generateDraftFromPick(ctx, pick, apiKey, { modelOverride = null, withImages = true } = {}) {
+  const draftData = await generateDraft(ctx, pick, apiKey, { modelOverride, withImages, format: pick.format || "article" });
 
   // Mark pick as picked
   const pickPath = path.join(ctx.paths.picks, `${pick.id}.json`);
