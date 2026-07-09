@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:51.886Z",
-  "last_scrape": "2026-07-08T08:34:45.302Z",
-  "total_scrapes": 4,
+  "last_scrape": "2026-07-09T09:46:30.059Z",
+  "total_scrapes": 5,
   "seen_hashes": {
     "70ae8fcbe6ecc488": {
       "first_seen": "2026-07-03T21:08:55.880Z",
@@ -411,9 +411,129 @@
       "last_seen": "2026-07-08T08:34:45.301Z",
       "title": "Marshall's Acton IV and Stanmore IV speakers come with customizable buttons",
       "url": "https://www.engadget.com/2209353/marshall-acton-iv-stanmore-iv-speakers/"
+    },
+    "08c971469b34316f": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "NHTSA calls out autonomous cars for interfering with first responders",
+      "url": "https://www.engadget.com/2211209/nhtsa-calls-out-autonomous-cars-interfering-first-responders/"
+    },
+    "b2ef4ef80955f054": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Volkswagen is employing 100 sheep at a solar farm in Poland",
+      "url": "https://www.engadget.com/2211107/volkswagen-is-employing-100-sheep-at-a-solar-farm-in-poland/"
+    },
+    "a81733fae79175f5": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Elon Musk says X will DM you about posts that receive a Community Note",
+      "url": "https://www.engadget.com/2211065/elon-musk-says-x-will-dm-you-about-posts-that-receive-a-community-note/"
+    },
+    "145a4a6a179dfc8e": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Judge approves $1.5 million SEC-Musk settlement over Twitter investment",
+      "url": "https://www.engadget.com/2211052/judge-approves-1-5-million-sec-musk-settlement-over-twitter-investment/"
+    },
+    "543c3a9dee7003ff": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Microsoft reportedly cancels Avowed sequel as Obsidian focuses on a Fallout game",
+      "url": "https://www.engadget.com/2210958/microsoft-reportedly-cancels-avowed-sequel-as-obsidian-focuses-on-a-fallout-game/"
+    },
+    "d83704fd042106d7": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "FTC reaches settlement that brings right-to-repair to John Deere farm equipment",
+      "url": "https://www.engadget.com/2210939/ftc-reaches-settlement-that-brings-right-to-repair-to-john-deere-farm-equipment/"
+    },
+    "cdac91374e3f4c36": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "PC shipments just fell for the first time in two years, thanks to the memory shortage",
+      "url": "https://www.engadget.com/2210856/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage/"
+    },
+    "39820f31e7f9a7f1": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Valve Steam Machine review: This would've been perfect five years ago",
+      "url": "https://www.engadget.com/2210832/valve-steam-machine-review/"
+    },
+    "ef48652202a08f9a": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Apple's Widow's Bay has the most Emmy noms of any new show this year",
+      "url": "https://www.engadget.com/2210827/apple-tv-widows-bay-has-the-most-emmy-noms-of-any-new-show-this-year/"
+    },
+    "a2cc8706e0848a76": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Roku is the most popular streaming TV, but lacking more than you think",
+      "url": "https://www.engadget.com/2209478/roku-most-popular-streaming-tv-study/"
+    },
+    "adcabb3e44fc2d9d": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Waymo will soon go fully autonomous in four more cities",
+      "url": "https://www.engadget.com/2210677/waymo-will-soon-go-fully-autonomous-in-four-more-cities/"
+    },
+    "53382d39ada5ca68": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Google announces new 'Video Remix' feature its for AI subscribers",
+      "url": "https://www.engadget.com/2210417/google-announces-new-video-remix-feature-for-ai-subscribers/"
+    },
+    "71be7ac2dcb85ec9": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "ChatGPT's new voice mode will slow down if you tell it to",
+      "url": "https://www.engadget.com/2210651/chatgpt-new-voice-mode-will-slow-down-if-you-tell-it-to/"
+    },
+    "482a5c69a6b4cb43": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Amazon is reportedly working on a more powerful agentic Alexa assistant",
+      "url": "https://www.engadget.com/2210614/amazon-is-reportedly-working-on-a-more-powerful-agentic-alexa-assistant/"
+    },
+    "3ddef8adcb74f85a": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Official renders for Samsung's Galaxy Z Flip 8, Watch 9, Watch 2 Ultra and Z Fold 8 leak",
+      "url": "https://www.engadget.com/2210595/samsuing-z-flip-8-watch-9-watch-2-ultra-z-fold-8-render-leak/"
+    },
+    "5cea735d3d6c8bca": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Nintendo will shut down Mario Kart Tour on September 30",
+      "url": "https://www.engadget.com/2210493/nintendo-will-shut-down-mario-kart-tour-september-30/"
+    },
+    "360e2416f468a778": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Apple pledges to buy $30 billion of Broadcom's US-made chips",
+      "url": "https://www.engadget.com/2210449/apple-pledges-to-buy-30-billion-of-broadcom-us-made-chips/"
+    },
+    "5b2635c1a68b06dc": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "The best Roku feature for night owls you probably aren't using",
+      "url": "https://www.engadget.com/2209408/best-roku-feature-for-night-owls/"
+    },
+    "75c6a1bdfbfd2067": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "Fi Ultra pet tracker uses T-Mobile's Starlink satellite service for coverage",
+      "url": "https://www.engadget.com/2210360/fi-ultra-pet-tracker-t-mobile-starlink/"
+    },
+    "1f9fac55ff351a42": {
+      "first_seen": "2026-07-09T09:46:30.059Z",
+      "last_seen": "2026-07-09T09:46:30.059Z",
+      "title": "DuckDuckGo Browser can now block video ads, including YouTube's",
+      "url": "https://www.engadget.com/2209932/duckduckgo-browser-can-now-block-video-ads-including-youtubes/"
     }
   },
   "stats": {
-    "total_headlines_ever": 68
+    "total_headlines_ever": 88
   }
 }

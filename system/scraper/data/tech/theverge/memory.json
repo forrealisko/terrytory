@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:37.301Z",
-  "last_scrape": "2026-07-08T08:34:44.439Z",
-  "total_scrapes": 4,
+  "last_scrape": "2026-07-09T09:46:29.749Z",
+  "total_scrapes": 5,
   "seen_hashes": {
     "5762e9515f24e939": {
       "first_seen": "2026-07-03T21:08:42.221Z",
@@ -243,9 +243,69 @@
       "last_seen": "2026-07-08T08:34:44.439Z",
       "title": "Google announces Pixel 11 launch event in August",
       "url": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event"
+    },
+    "0956ebd23de8c68a": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Meta is reportedly working on smart glasses that would be recording all the time",
+      "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai"
+    },
+    "04a5e44920640d0a": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+      "url": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder"
+    },
+    "69b0ae6eeab5b540": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+      "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs"
+    },
+    "9f67f83fa82e4f0c": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+      "url": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty"
+    },
+    "7a227d92620a13fd": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
+      "url": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review"
+    },
+    "2cfbd42bde636101": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "If Microsoft sold off Xbox, who would even buy it?",
+      "url": "https://www.theverge.com/games/962837/microsoft-xbox-spin-off-sell-divest-layoffs-asha-sharma"
+    },
+    "ce4f7eef06a4e8d8": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Twelve South’s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40",
+      "url": "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale"
+    },
+    "1787c2acbf8b3f96": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "ChatGPT’s upgraded voice mode is better at shutting up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live"
+    },
+    "14048d96a0612bae": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "This jumping $800 robot camera dog filled me with joy",
+      "url": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview"
+    },
+    "5321e7c6721ff5a6": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "The whole Pixel line could get more expensive this year",
+      "url": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase"
     }
   },
   "stats": {
-    "total_headlines_ever": 40
+    "total_headlines_ever": 50
   }
 }

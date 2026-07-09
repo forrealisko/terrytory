@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:55.883Z",
-  "last_scrape": "2026-07-08T08:34:45.460Z",
-  "total_scrapes": 4,
+  "last_scrape": "2026-07-09T09:46:30.136Z",
+  "total_scrapes": 5,
   "seen_hashes": {
     "d6dd4632acf41d5a": {
       "first_seen": "2026-07-03T21:09:00.053Z",
@@ -474,19 +474,19 @@
     },
     "07c09cd5cda0b681": {
       "first_seen": "2026-07-08T08:34:45.458Z",
-      "last_seen": "2026-07-08T08:34:45.458Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
       "title": "Valvoline Coupons and Promo Codes for July 2026",
       "url": "https://www.wired.com/story/valvoline-coupons/"
     },
     "9f3a5aacb8ed030a": {
       "first_seen": "2026-07-08T08:34:45.458Z",
-      "last_seen": "2026-07-08T08:34:45.458Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
       "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
       "url": "https://www.wired.com/story/lowes-promo-code/"
     },
     "da28a39de85f7d37": {
       "first_seen": "2026-07-08T08:34:45.458Z",
-      "last_seen": "2026-07-08T08:34:45.458Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
       "title": "Columbia Promo Codes: 15% Off | July 2026",
       "url": "https://www.wired.com/story/columbia-promo-code/"
     },
@@ -627,9 +627,231 @@
       "last_seen": "2026-07-08T08:34:45.459Z",
       "title": "British Space Startup Launches Longevity Lab Into Orbit",
       "url": "https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit/"
+    },
+    "d5c8c9ccdf322d27": {
+      "first_seen": "2026-07-09T09:46:30.134Z",
+      "last_seen": "2026-07-09T09:46:30.134Z",
+      "title": "Federal Investigators Say Certain DOGE Records Were Deleted",
+      "url": "https://www.wired.com/story/federal-investigators-say-certain-doge-records-were-deleted/"
+    },
+    "4b8df6cb8d71c24d": {
+      "first_seen": "2026-07-09T09:46:30.134Z",
+      "last_seen": "2026-07-09T09:46:30.134Z",
+      "title": "The Best Food Dehydrators for Self-Sufficient Kitchens (2026)",
+      "url": "https://www.wired.com/story/best-food-dehydrators-for-stocking-a-smarter-pantry/"
+    },
+    "8d82144ac1ded1aa": {
+      "first_seen": "2026-07-09T09:46:30.134Z",
+      "last_seen": "2026-07-09T09:46:30.134Z",
+      "title": "Why Do Some Soccer Players Cut the Heels Off Their Cleats?",
+      "url": "https://www.wired.com/story/why-do-some-soccer-players-cut-the-heels-off-their-cleats/"
+    },
+    "e2bc2f5771e08ded": {
+      "first_seen": "2026-07-09T09:46:30.134Z",
+      "last_seen": "2026-07-09T09:46:30.134Z",
+      "title": "The 4 Best Home Air Conditioners to Buy Right Now",
+      "url": "https://www.wired.com/story/the-best-at-home-air-con-units-to-buy-right-now/"
+    },
+    "efb58f951b64586a": {
+      "first_seen": "2026-07-09T09:46:30.134Z",
+      "last_seen": "2026-07-09T09:46:30.134Z",
+      "title": "Is an Air-Conditioning Revolution Coming to Europe?",
+      "url": "https://www.wired.com/story/is-an-air-conditioning-revolution-coming-to-europe/"
+    },
+    "ca5f301da00ec350": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "The $28 Million Mistake That Inspired Estonia's AI “Fuckup Finder”",
+      "url": "https://www.wired.com/story/the-28-million-dollar-mistake-that-inspired-estonias-ai-fuckup-finder/"
+    },
+    "28835bc4238149cf": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Google Workspace Promo Codes: 14% Off for July",
+      "url": "https://www.wired.com/story/google-workspace-promo-code/"
+    },
+    "0c3a94b23b2b5729": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Corsair Discount Code: Up to 50% Off for July 2026",
+      "url": "https://www.wired.com/story/corsair-coupon/"
+    },
+    "5616570a9ed52158": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Layla Sleep Coupon: Save Up to $600 in July 2026",
+      "url": "https://www.wired.com/story/layla-sleep-coupon/"
+    },
+    "c4e65c85ac77ade9": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "The Motley Fool Promo Code: $200 Off on Stock Advisor July 2026",
+      "url": "https://www.wired.com/story/the-motley-fool-promo-code/"
+    },
+    "c980043f6d5088c8": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Hoka Coupon Codes: 30% Off in July 2026",
+      "url": "https://www.wired.com/story/hoka-coupon-code/"
+    },
+    "c620ea4c1c506bc3": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Breville Promo Code: $700 Off | July 2026",
+      "url": "https://www.wired.com/story/breville-promo-code/"
+    },
+    "c6bd0a3cce213214": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Vivid Seats Promo Codes and Deals: Get 10% Off",
+      "url": "https://www.wired.com/story/vivid-seats-promo-code/"
+    },
+    "2941b5950358c902": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Castlery Promo Codes: 15% Off for July 2026",
+      "url": "https://www.wired.com/story/castlery-promo-code/"
+    },
+    "79b1675511f0a294": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Jabra Promo Codes: 30% Off  Headphones, Headsets & More",
+      "url": "https://www.wired.com/story/jabra-promo-codes-coupons/"
+    },
+    "ed182b05dd4b932b": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Visible Promo Codes and Coupons for July 2026",
+      "url": "https://www.wired.com/story/visible-promo-code/"
+    },
+    "4e6343a6a3aeb930": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Skullcandy Discount Code: 30% Off | July 2026",
+      "url": "https://www.wired.com/story/skullcandy-discount-code/"
+    },
+    "2a45b84ba816aa9c": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Acer Promo Codes: 40% Off",
+      "url": "https://www.wired.com/story/acer-promo-code/"
+    },
+    "15914be4cad336c2": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Babbel Promo Code: Up to 65% Off in July 2026",
+      "url": "https://www.wired.com/story/babbel-promo-code/"
+    },
+    "20b50acb22bf9416": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Newegg Promo Codes and Coupons for July 2026",
+      "url": "https://www.wired.com/story/newegg-promo-code/"
+    },
+    "75b21658c354fede": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "HP Coupon Codes and Deals July 2026",
+      "url": "https://www.wired.com/story/hp-coupon-code/"
+    },
+    "7ba5866b483793c9": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "One of Meta’s Offices Was Briefly Overtaken by a Rogue Squirrel",
+      "url": "https://www.wired.com/story/one-of-metas-offices-was-briefly-overtaken-by-a-rogue-squirrel/"
+    },
+    "d9867fa8033499e7": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Messi and Ronaldo Are Building Tech Portfolios. Mo Salah Is Playing a Different Game",
+      "url": "https://www.wired.com/story/messi-ronaldo-tech-portfolios-salah-playing-a-different-game/"
+    },
+    "bda44538b7db17fb": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "The FTC Settlement With John Deere Is a Huge Win for the Right-to-Repair Movement",
+      "url": "https://www.wired.com/story/the-ftc-settlement-with-john-deere-is-a-huge-win-for-the-right-to-repair-movement/"
+    },
+    "b0a4dbdf833042a8": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "I Built a Self-Improving AI, and So Can You",
+      "url": "https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/"
+    },
+    "317e4ab40c8d9cf3": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Peter Thiel’s Husband Sued a Flight Attendant Who Says He Assaulted Her on a Private Jet",
+      "url": "https://www.wired.com/story/peter-thiels-husband-sued-a-flight-attendant-who-says-he-assaulted-her-on-a-private-jet/"
+    },
+    "1e8bb76252130f0f": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Dimming the Sun Would Help Lower the Risks of El Niño",
+      "url": "https://www.wired.com/story/dimming-the-sun-would-lower-risks-of-el-nino/"
+    },
+    "9c108f862961b745": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Republicans Gleefully Celebrate Midterms Chaos in Maine",
+      "url": "https://www.wired.com/story/republicans-gleefully-celebrate-midterms-chaos-in-maine/"
+    },
+    "e50e96731df53aeb": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "The Foam Era Has Changed Pickleball—Here Are the Top 2 Pickleball Paddles Right Now",
+      "url": "https://www.wired.com/story/the-best-pickleball-paddles-in-2026/"
+    },
+    "c0b9babc0d8cb752": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "The Best MagSafe Power Banks for iPhone and Android, Plus Ones to Avoid",
+      "url": "https://www.wired.com/gallery/best-magsafe-power-banks/"
+    },
+    "16ad0cc995019805": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "9 Best Portable Power Stations (2026), Tested for Capacity and Size",
+      "url": "https://www.wired.com/gallery/best-portable-power-stations/"
+    },
+    "7a48bfeb264f100e": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "LG Micro RGB Evo Review: Brilliant, Bright, Not Budget-Friendly",
+      "url": "https://www.wired.com/review/lg-micro-rgb-evo/"
+    },
+    "d83a1a79f4b06a1f": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Pickup Artist Mystery Has an AI Girlfriend",
+      "url": "https://www.wired.com/story/pickup-artist-mystery-has-an-ai-girlfriend/"
+    },
+    "01bf537bc9b6a130": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "OnlyFans Models Are Accidentally Making Hacked Government Websites Disappear",
+      "url": "https://www.wired.com/story/onlyfans-creators-dmca-hacked-government-websites/"
+    },
+    "4b8bc5f5bdd21a4c": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "What Happens if China Hacks the US Water Supply? I Went to a Secret War Game to Find Out",
+      "url": "https://www.wired.com/story/what-happens-if-china-hacks-the-us-water-supply-war-game-volt-typhoon/"
+    },
+    "c9606891f0262308": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster",
+      "url": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/"
+    },
+    "233ca949aba78e42": {
+      "first_seen": "2026-07-09T09:46:30.135Z",
+      "last_seen": "2026-07-09T09:46:30.135Z",
+      "title": "Free Waymo Rides in California? You Can Thank a Regulatory Quirk",
+      "url": "https://www.wired.com/story/a-california-regulatory-quirk-means-free-waymo-rides/"
     }
   },
   "stats": {
-    "total_headlines_ever": 104
+    "total_headlines_ever": 141
   }
 }

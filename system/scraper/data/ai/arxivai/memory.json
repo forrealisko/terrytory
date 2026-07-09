@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:31.261Z",
-  "last_scrape": "2026-07-08T08:34:43.059Z",
-  "total_scrapes": 4,
+  "last_scrape": "2026-07-09T09:46:28.117Z",
+  "total_scrapes": 5,
   "seen_hashes": {
     "e2b5fdb85ea009e0": {
       "first_seen": "2026-07-03T20:12:32.285Z",
@@ -2601,9 +2601,249 @@
       "last_seen": "2026-07-08T08:34:43.059Z",
       "title": "A Physics-Informed Neural Network Framework for Elastodynamic Wave Propagation in Bimaterial Systems",
       "url": "https://arxiv.org/abs/2607.06479"
+    },
+    "08e820bcd6acda0c": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
+      "url": "https://arxiv.org/abs/2607.06624"
+    },
+    "9da6a070134c64be": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
+      "url": "https://arxiv.org/abs/2607.06720"
+    },
+    "bbc17e01a6cb04cf": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "LLM-powered reasoning in agent-based modeling",
+      "url": "https://arxiv.org/abs/2607.06757"
+    },
+    "8985f6d8863485f6": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "QANTIS: Hardware-Calibrated Sequential POMDP Belief Updates on IBM Heron",
+      "url": "https://arxiv.org/abs/2607.06760"
+    },
+    "de3d819146889f85": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1",
+      "url": "https://arxiv.org/abs/2607.06764"
+    },
+    "9d7344aa843abdef": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics",
+      "url": "https://arxiv.org/abs/2607.06820"
+    },
+    "be93a25e16bea082": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
+      "url": "https://arxiv.org/abs/2607.06906"
+    },
+    "89f635e3da8d4fe1": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Grounding Spatial Relations in a Compact World Model: Instruction Leakage and a Goal-Free Dynamics Fix",
+      "url": "https://arxiv.org/abs/2607.06925"
+    },
+    "42e947b30c282d17": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Large Behavior Model: A Promptable Digital Twin of the Retail Customer",
+      "url": "https://arxiv.org/abs/2607.06993"
+    },
+    "42971fe73df3a505": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Learning social norms enhances compatibility in dynamic human-AI coordination",
+      "url": "https://arxiv.org/abs/2607.07021"
+    },
+    "91632ceaac05d3ac": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Measuring Intelligence Beyond Human Scale",
+      "url": "https://arxiv.org/abs/2607.07040"
+    },
+    "8cec8c4b2f1e136e": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Operational Reframing and Approval-Framed Delegation in Multi-Agent LLM Safety",
+      "url": "https://arxiv.org/abs/2607.07097"
+    },
+    "9744013e04c5dc35": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Does AI Understand Imaging? A Systematic Benchmark of Agentic AI for Computational Imaging Tasks",
+      "url": "https://arxiv.org/abs/2607.07189"
+    },
+    "1f70f940cb82e466": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Reasoning Consistency Scanning: A Framework for Auditing Chain-of-Thought Validity in AI Safety Evaluations",
+      "url": "https://arxiv.org/abs/2607.07229"
+    },
+    "e54e6a3b4652d41c": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "From Atomic Actions to Standard Operating Procedures: Iterative Tool Optimization for Self-Evolving LLM Agents",
+      "url": "https://arxiv.org/abs/2607.07321"
+    },
+    "60188e6bd7072540": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Physics-Audited Agentic Discovery in Scientific Machine Learning",
+      "url": "https://arxiv.org/abs/2607.07379"
+    },
+    "1475ed106ab7845e": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "MIRA-Math: A Benchmark for Minimal Information Requesting and Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2607.07391"
+    },
+    "7af10ec3f0f4f054": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Agentic Data Environments",
+      "url": "https://arxiv.org/abs/2607.07397"
+    },
+    "2f07c262f5c62cc6": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2607.07405"
+    },
+    "9c8e506bbea5118b": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "InductWave: Inductive Multi-Hop Logical Query Answering on Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2607.07422"
+    },
+    "e4ab95167fbd624a": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2607.07436"
+    },
+    "e9c1c57f8862a836": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis",
+      "url": "https://arxiv.org/abs/2607.07467"
+    },
+    "f7ce347141654bfe": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Search, Fail, Recover: A Training Framework for Correction-Aware Reasoning",
+      "url": "https://arxiv.org/abs/2607.07492"
+    },
+    "04f7763a30a3e1e9": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Do LLM-Generated Skills Make Better AI Data Scientists? A Component Ablation Across Data-Science Workflows",
+      "url": "https://arxiv.org/abs/2607.07504"
+    },
+    "16741aced4482bae": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "RL Post-Training Builds Compositional Reasoning Strategies",
+      "url": "https://arxiv.org/abs/2607.07646"
+    },
+    "44738311e4a3a2a1": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+      "url": "https://arxiv.org/abs/2607.07663"
+    },
+    "ab860bcd4a4a5a47": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents",
+      "url": "https://arxiv.org/abs/2607.07676"
+    },
+    "40c14cc89792352f": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+      "url": "https://arxiv.org/abs/2607.07695"
+    },
+    "c80f457e65862baa": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Can Reinforcement Learning Efficiently Discover Price Manipulation?",
+      "url": "https://arxiv.org/abs/2607.06121"
+    },
+    "f549e82b399172cb": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "LipSSD: Lipschitz-Constrained Single-Shot Detection for Adversarially Robust Object Detection",
+      "url": "https://arxiv.org/abs/2607.06592"
+    },
+    "8fe1ab41c191179f": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2607.06595"
+    },
+    "13c4e581ce6e4bfe": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Non-contact, Real-time, Heart-rate Measurement using Image Processing with Commodity Cameras and AI Agents",
+      "url": "https://arxiv.org/abs/2607.06598"
+    },
+    "ac7c0437715fe154": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "MiLSD: A Micro Line-Segment Detector for Resource-Constrained Devices",
+      "url": "https://arxiv.org/abs/2607.06600"
+    },
+    "7b55362f2888bf30": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "TriRoute: Unified Learned Routing for Joint Adaptive Attention, Experts, and KV-Cache Allocation",
+      "url": "https://arxiv.org/abs/2607.06601"
+    },
+    "514d8eb3f9d0b3c5": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Do Counterfactually Fair Image Classifiers Satisfy Group Fairness? -- A Theoretical and Empirical Study",
+      "url": "https://arxiv.org/abs/2607.06603"
+    },
+    "baaa49d36eada852": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "NEST: Tackling Dataset-Level Distribution Shifts via Regime-Oriented Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2607.06607"
+    },
+    "4db217171ea4d786": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Security and Privacy in Agentic AI: Grand Challenges and Future Directions",
+      "url": "https://arxiv.org/abs/2607.06608"
+    },
+    "81c20241c1d3b265": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "D2PO: Optimizing Diffusion Samplers via Dynamic Preference",
+      "url": "https://arxiv.org/abs/2607.06609"
+    },
+    "e67e598f3fe04661": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Deep Reinforcement Learning for Reliability Based Bi-Objective Portfolio Optimization",
+      "url": "https://arxiv.org/abs/2607.06610"
+    },
+    "c7cdde7d9083683c": {
+      "first_seen": "2026-07-09T09:46:28.116Z",
+      "last_seen": "2026-07-09T09:46:28.116Z",
+      "title": "Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts",
+      "url": "https://arxiv.org/abs/2607.06611"
     }
   },
   "stats": {
-    "total_headlines_ever": 433
+    "total_headlines_ever": 473
   }
 }

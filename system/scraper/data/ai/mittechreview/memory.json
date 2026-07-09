@@ -1,30 +1,30 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:12.365Z",
-  "last_scrape": "2026-07-08T08:34:42.472Z",
-  "total_scrapes": 4,
+  "last_scrape": "2026-07-09T09:46:27.745Z",
+  "total_scrapes": 5,
   "seen_hashes": {
     "474f7328326cc846": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.471Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
       "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
     },
     "319975cb5f1ba629": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.471Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "Claude Science is Anthropic’s newest flagship product",
       "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     "9058bcd27a2443da": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.471Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "AI agents are not your “coworkers”",
       "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/"
     },
     "0b5b669013148f8e": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.472Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "The $400 million machine powering the future of chipmaking",
       "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/"
     },
@@ -42,25 +42,25 @@
     },
     "87c282464d6eaf83": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.472Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "Three things to watch amid Anthropic’s latest feud with the government",
       "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/"
     },
     "bd056869a29bf635": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.472Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
       "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/"
     },
     "6194c5e85918ac96": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.472Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "Want to get a data center online quickly? Give it some flex.",
       "url": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/"
     },
     "03dd6b7bca3abc23": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-08T08:34:42.472Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "Why do South Koreans love AI so much?",
       "url": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/"
     },
@@ -72,19 +72,19 @@
     },
     "656d0246c92afc74": {
       "first_seen": "2026-07-07T09:48:51.718Z",
-      "last_seen": "2026-07-08T08:34:42.471Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "Your family’s $300 stake in OpenAI",
       "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
     },
     "65f527a36efca151": {
       "first_seen": "2026-07-08T08:34:42.472Z",
-      "last_seen": "2026-07-08T08:34:42.472Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "The foundational elements of AI architecture that IT leaders need to scale",
       "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/"
     },
     "e6a6865cf15a9c11": {
       "first_seen": "2026-07-08T08:34:42.472Z",
-      "last_seen": "2026-07-08T08:34:42.472Z",
+      "last_seen": "2026-07-09T09:46:27.744Z",
       "title": "Elastic",
       "url": "https://www.elastic.co/"
     }

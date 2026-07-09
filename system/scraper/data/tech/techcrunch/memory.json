@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:47.660Z",
-  "last_scrape": "2026-07-08T08:34:45.080Z",
-  "total_scrapes": 4,
+  "last_scrape": "2026-07-09T09:46:29.935Z",
+  "total_scrapes": 5,
   "seen_hashes": {
     "ebebe46d142b6e7d": {
       "first_seen": "2026-07-03T21:08:51.881Z",
@@ -399,9 +399,129 @@
       "last_seen": "2026-07-08T08:34:45.079Z",
       "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
       "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+    },
+    "5e9bf575d1da2e5e": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Truecaller clashes with India’s telecom regulator over anti-spam rules",
+      "url": "https://techcrunch.com/2026/07/08/truecaller-clashes-with-indias-telecom-regulator-over-anti-spam-rules/"
+    },
+    "31a5b94bad3995a0": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
+      "url": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/"
+    },
+    "f5f511f5967481fe": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Lovable reportedly in talks to double its valuation to $13.2B",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
+    },
+    "4ebc8e97b3e67a65": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Feds demand autonomous vehicle companies stop interfering with first responders",
+      "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/"
+    },
+    "fc75b9bd5d033a7b": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/"
+    },
+    "92ef10198812f2a0": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing",
+      "url": "https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/"
+    },
+    "9c13a3fabc13d1bd": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Autonomous drone delivery startup Manna plots major US expansion",
+      "url": "https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/"
+    },
+    "f2a88ed8a71182b8": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"
+    },
+    "38ca11c2e361e833": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "‘Slow-cial’ app Roost forces you to slow down to the speed of a carrier pigeon",
+      "url": "https://techcrunch.com/2026/07/08/slow-cial-app-roost-forces-you-to-slow-down-to-the-speed-of-a-carrier-pigeon/"
+    },
+    "87e79a974906b32d": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/"
+    },
+    "5277b2e0e8ff7f5c": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Elon Musk says X will send DMs when posts you’ve engaged with are corrected",
+      "url": "https://techcrunch.com/2026/07/08/elon-musk-says-x-will-send-dms-when-posts-youve-engaged-with-are-corrected/"
+    },
+    "015c731d24313bf0": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Google Photos adds a new AI ‘Video Remix’ tool",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/"
+    },
+    "759ff1091019e13d": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Why this CEO thinks video games make better training data than the internet",
+      "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/"
+    },
+    "8bd74d1938d9a441": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+      "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/"
+    },
+    "96335c8a120479cd": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "OpenAI releases new voice models for more natural live conversations",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
+    },
+    "2cb65c0bf73e2cfc": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Crypto VC firm Paradigm raises $1.2B to invest in ‘technical frontier’ startups",
+      "url": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/"
+    },
+    "afe2544836558c64": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
+    },
+    "80e14f39248983d5": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Another massive data breach exposed millions of driver’s license numbers",
+      "url": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/"
+    },
+    "4fcd6c1ed6e99f3b": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "These AI startups are growing  revenue at faster and faster rates",
+      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"
+    },
+    "be8fb97ed0e56427": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Solo GP Ashley Smith announces second $25M fund to back startups in AI, security and more",
+      "url": "https://techcrunch.com/2026/07/08/solo-gp-ashley-smith-announces-25m-close-of-second-fund/"
     }
   },
   "stats": {
-    "total_headlines_ever": 66
+    "total_headlines_ever": 86
   }
 }

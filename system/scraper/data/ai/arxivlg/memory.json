@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:32.291Z",
-  "last_scrape": "2026-07-08T08:34:43.312Z",
-  "total_scrapes": 4,
+  "last_scrape": "2026-07-09T09:46:28.282Z",
+  "total_scrapes": 5,
   "seen_hashes": {
     "583b0a84214a66ee": {
       "first_seen": "2026-07-03T20:12:33.979Z",
@@ -2121,9 +2121,249 @@
       "last_seen": "2026-07-08T08:34:43.311Z",
       "title": "More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free LLM Judges",
       "url": "https://arxiv.org/abs/2607.05904"
+    },
+    "7b55362f2888bf30": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "TriRoute: Unified Learned Routing for Joint Adaptive Attention, Experts, and KV-Cache Allocation",
+      "url": "https://arxiv.org/abs/2607.06601"
+    },
+    "9f55b348c65abd90": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "A Quiet Failure in Calibrated Virtual Screening: Marginal Conformal Prediction Under-Covers the Minority Class, and a Class-Conditional Fix Recovers It",
+      "url": "https://arxiv.org/abs/2607.06605"
+    },
+    "baaa49d36eada852": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "NEST: Tackling Dataset-Level Distribution Shifts via Regime-Oriented Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2607.06607"
+    },
+    "81c20241c1d3b265": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "D2PO: Optimizing Diffusion Samplers via Dynamic Preference",
+      "url": "https://arxiv.org/abs/2607.06609"
+    },
+    "e67e598f3fe04661": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Deep Reinforcement Learning for Reliability Based Bi-Objective Portfolio Optimization",
+      "url": "https://arxiv.org/abs/2607.06610"
+    },
+    "dec84c5c96cd4f35": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "STAGformer: A Spatio-temporal Agent Graph Transformer for Micro Mobility Demand Forecasting",
+      "url": "https://arxiv.org/abs/2607.06614"
+    },
+    "d21fc9521b1611b4": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "WHERE to Generate Matters: Budget-Aware Synthetic Augmentation for Label Skewed Federated Learning",
+      "url": "https://arxiv.org/abs/2607.06616"
+    },
+    "4e1dc706090bc498": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Inertia-1: An Open Exploration of Wearable Motion Foundation Models",
+      "url": "https://arxiv.org/abs/2607.06617"
+    },
+    "658bab5087fb9c59": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Fingerprint, Not Blueprint: How Positional Schemes Set the Default Spectral Algebra of Attention",
+      "url": "https://arxiv.org/abs/2607.06621"
+    },
+    "4658cdf362e266c0": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "LLM-Guided Task-Semantic Field Factorization for Industrial Process Forecasting",
+      "url": "https://arxiv.org/abs/2607.06623"
+    },
+    "ef186a3e50c1fd25": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Open-Ended Scenario Reasoning for Specialist Model Adaptation",
+      "url": "https://arxiv.org/abs/2607.06625"
+    },
+    "4d8bc13ff54bfb6d": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Reward Valuation in Vision Language Models: Causal Mechanisms Underlying Anhedonia",
+      "url": "https://arxiv.org/abs/2607.06626"
+    },
+    "5ad2061697b99650": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Cross-Trajectory Chimera Interventions Reveal Dissociable Roles of Weight Magnitude and Direction in Grokking",
+      "url": "https://arxiv.org/abs/2607.06628"
+    },
+    "70e046b8de8d7b3b": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "STST-JEPA: Shallow-Target Spatio-Temporal Joint Embedding Prediction Architecture For EEG Self-Supervised Learning",
+      "url": "https://arxiv.org/abs/2607.06629"
+    },
+    "ada9bb20d0007ef5": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "When Certificates Fail: A Unified Safety Framework for Embedded Neural Interface Models",
+      "url": "https://arxiv.org/abs/2607.06630"
+    },
+    "a6b328f27ddc4bdc": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Does Demand Response Increase Vulnerability to Cyber Attacks by Adversarial Data Modifications?",
+      "url": "https://arxiv.org/abs/2607.06632"
+    },
+    "4dbbfa01d44affb4": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "When Do Geometric Algebra Layers Beat Scalarization? A Controlled Study on SO(3)-Equivariant Vector Laws",
+      "url": "https://arxiv.org/abs/2607.06634"
+    },
+    "c22214f7866a745b": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Optimized Instance Alteration for Explaining and Assessing Robustness of Classifiers",
+      "url": "https://arxiv.org/abs/2607.06637"
+    },
+    "21d80bdd6a5b902d": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "UASPL: Uncertainty-Aware Self-Paced Learning with Evidential Neural Networks",
+      "url": "https://arxiv.org/abs/2607.06638"
+    },
+    "bd933ef17726fd6b": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "At-Grok Is Not Converged:A Measurement-Validity Audit for Grokking Representation Metrics",
+      "url": "https://arxiv.org/abs/2607.06639"
+    },
+    "04dc4644fd35dca4": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?",
+      "url": "https://arxiv.org/abs/2607.06640"
+    },
+    "2b906ef86894e81f": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "The Approximation Ratio for the Risk of Myopic Bayesian Active Learning for Linear Regression",
+      "url": "https://arxiv.org/abs/2607.06642"
+    },
+    "5239ea350a6e6389": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Diffusion enabled Optimal Transport distances for graph matching",
+      "url": "https://arxiv.org/abs/2607.06646"
+    },
+    "1f39fcb1211d647b": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Final Checkpoints Are Not Enough: Analyzing Latent Reasoning Faithfulness Along Training Trajectories",
+      "url": "https://arxiv.org/abs/2607.06648"
+    },
+    "18e629f8195e8099": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Entropy-Guided Tensor Compression for Multimodal Federated Learning on Edge Devices",
+      "url": "https://arxiv.org/abs/2607.06651"
+    },
+    "f8b79d4b3afdab13": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "From Jumps to Signatures: a Generative Method for Temporal Point Processes",
+      "url": "https://arxiv.org/abs/2607.06652"
+    },
+    "fb961c6509cd3474": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Dual Attention Heads for Personalized Federated Learning in ECG Classification",
+      "url": "https://arxiv.org/abs/2607.06653"
+    },
+    "05386ddf409a7c58": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Robust Human-AI Complementarity under Uncertainty",
+      "url": "https://arxiv.org/abs/2607.06656"
+    },
+    "a540294c0249b5b4": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Trees from Marginals: Autoregressive drafting with factorized priors",
+      "url": "https://arxiv.org/abs/2607.06763"
+    },
+    "d9fb2a62414a1f0d": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Efficient Long-Horizon Learning for Learned Optimization",
+      "url": "https://arxiv.org/abs/2607.06772"
+    },
+    "78e367cf6309c1b4": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Efficient Bayesian Deep Ensembles via Analytic Predictive Inference",
+      "url": "https://arxiv.org/abs/2607.06776"
+    },
+    "e193647c2c4bab12": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "On Explicit Super-Expressive Approximation for Neural Networks",
+      "url": "https://arxiv.org/abs/2607.06781"
+    },
+    "cbff61834432506d": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Enhancing deep learning models for time series classification via knowledge distillation",
+      "url": "https://arxiv.org/abs/2607.06796"
+    },
+    "4b77ff29adf0cdc7": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "What Predicts Correctness in Text-to-SQL? A Selective-Prediction Study",
+      "url": "https://arxiv.org/abs/2607.06799"
+    },
+    "37300ed3f571596f": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Generative Diffusion Models of Stochastic Graph Signals",
+      "url": "https://arxiv.org/abs/2607.06833"
+    },
+    "b18a78a7769843d0": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "LEMUR 2: Unlocking Neural Network Diversity for AI",
+      "url": "https://arxiv.org/abs/2607.06839"
+    },
+    "846be04fcc819f4c": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "A Gold-Standard Study of What Makes a Lightweight Game-Playing Agent Strong",
+      "url": "https://arxiv.org/abs/2607.06854"
+    },
+    "039e031413a028bf": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Geometric Self-Distillation for Reasoning Generalization",
+      "url": "https://arxiv.org/abs/2607.06855"
+    },
+    "fb2d0bf7b136ec47": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Best-Arm Identification with Generative Proxy",
+      "url": "https://arxiv.org/abs/2607.06879"
+    },
+    "15b16aa0652e1324": {
+      "first_seen": "2026-07-09T09:46:28.281Z",
+      "last_seen": "2026-07-09T09:46:28.281Z",
+      "title": "Converge to Surprise: Evolutionary Self-supervised Image Clustering",
+      "url": "https://arxiv.org/abs/2607.06887"
     }
   },
   "stats": {
-    "total_headlines_ever": 353
+    "total_headlines_ever": 393
   }
 }
