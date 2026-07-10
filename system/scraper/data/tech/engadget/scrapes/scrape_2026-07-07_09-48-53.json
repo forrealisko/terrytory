@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "scrape_id": "7e6ed5be-024a-4f0b-8005-b2972a5a96e8",
+    "scraped_at": "2026-07-07T09:48:53.833Z",
+    "source_url": "https://www.engadget.com/rss.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 14,
+    "previously_seen": 6
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Meta is facing $1.4 trillion in state lawsuits over social media addiction",
+      "url": "https://www.engadget.com/2209332/meta-is-facing-1-4-trillion-in-state-lawsuits-over-social-media-addiction/",
+      "article_date": "2026-07-07T08:49:12.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Meta is facing a massive lawsuit from four US states over the addictive designs of its platforms.",
+      "image_url": "https://www.engadget.com/img/gallery/meta-is-facing-1-4-trillion-in-state-lawsuits-over-social-media-addiction/l-intro-1783414009.jpg",
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T08:49:12.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "xAI is now officially known as SpaceXAI",
+      "url": "https://www.engadget.com/2209300/xai-now-officially-spacexai/",
+      "article_date": "2026-07-07T05:44:38.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The xAI account on X has announced its official rebranding to SpaceXAI, five months after it merged with SpaceX.",
+      "image_url": "https://www.engadget.com/img/gallery/xai-is-now-officially-known-as-spacexai/l-intro-1783403019.jpg",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:44:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Google will now count all Android backup data toward your storage cap",
+      "url": "https://www.engadget.com/2209189/google-will-now-count-all-android-backup-data-toward-your-storage-cap/",
+      "article_date": "2026-07-06T22:09:56.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Fortunately, it shouldn't take too much extra space.",
+      "image_url": "https://www.engadget.com/img/gallery/google-will-now-count-all-android-backup-data-toward-your-storage-cap/l-intro-1783375302.jpg",
+      "categories": [
+        "Smartphones",
+        "Google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T22:09:56.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Google now uses your uploaded search media to train AI",
+      "url": "https://www.engadget.com/2208978/google-now-uses-your-uploaded-search-media-to-train-ai/",
+      "article_date": "2026-07-06T19:13:52.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A few simple adjustments to your settings will opt you out of Google's latest AI-training method.",
+      "image_url": "https://www.engadget.com/img/gallery/google-now-uses-your-uploaded-media-to-train-ai-so-heres-how-to-fix-that/l-intro-1783364935.jpg",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:13:52.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Why are people ditching wireless earbuds, and are wired headphones really making a comeback?",
+      "url": "https://www.engadget.com/2207185/wired-iems-vs-wireless-earbuds/",
+      "article_date": "2026-07-06T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Everything old is new again.",
+      "image_url": "https://www.engadget.com/img/gallery/why-are-people-ditching-wireless-earbuds-and-are-wired-headphones-really-making-a-comeback/l-intro-1783010048.jpg",
+      "categories": [
+        "Entertainment",
+        "Accessories"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Microsoft's layoffs extend beyond Xbox",
+      "url": "https://www.engadget.com/2208855/microsoft-layoffs-extend-beyond-xbox/",
+      "article_date": "2026-07-06T17:50:59.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Microsoft is cutting an additional 3,200 jobs beyond those in the gaming division.",
+      "image_url": "https://www.engadget.com/img/gallery/microsofts-layoffs-extend-beyond-xbox/l-intro-1783360140.jpg",
+      "categories": [
+        "Xbox",
+        "Microsoft"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:50:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "AI golem Tilly Norwood is reportedly 'starring' in a feature-length movie",
+      "url": "https://www.engadget.com/2208729/ai-golem-tilly-norwood-is-reportedly-starring-in-a-feature-length-movie/",
+      "article_date": "2026-07-06T16:28:38.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Get excited for a feature film starring an AI character that doesn't exist in any real way.",
+      "image_url": "https://www.engadget.com/img/gallery/ai-golem-tilly-norwood-is-reportedly-starring-in-a-feature-length-movie/l-intro-1783355190.jpg",
+      "categories": [
+        "Entertainment",
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:28:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Reddit to combat AI with more AI",
+      "url": "https://www.engadget.com/2208616/reddit-to-combat-ai-with-more-ai/",
+      "article_date": "2026-07-06T15:32:39.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Reddit to combat AI with more AI",
+      "image_url": "https://www.engadget.com/img/gallery/reddit-to-combat-ai-with-more-ai/l-intro-1783351885.jpg",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:32:39.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "A USB-C port isn't a guarantee of high speeds: here's why",
+      "url": "https://www.engadget.com/2207881/usb-c-port-cable-types-explained/",
+      "article_date": "2026-07-06T15:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "USB-C promised simplicity, but has turned into a mystery box of different specs.",
+      "image_url": "https://www.engadget.com/img/gallery/a-usb-c-port-isnt-a-guarantee-of-high-speeds-heres-why/l-intro-1783119283.jpg",
+      "categories": [
+        "Accessories"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Nintendo will stop selling the Switch 1 in Europe in 2027",
+      "url": "https://www.engadget.com/2208587/nintendo-will-stop-selling-the-switch-1-in-europe-in-2027/",
+      "article_date": "2026-07-06T15:17:30.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "To comply with battery regulations, Nintendo will stop selling the Switch 1 in Europe next year.",
+      "image_url": "https://www.engadget.com/img/gallery/nintendo-will-stop-selling-the-switch-1-in-europe-in-2027/l-intro-1783350980.jpg",
+      "categories": [
+        "Nintendo"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:17:30.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Xbox confirms plans to cut 3,200 jobs over the next year",
+      "url": "https://www.engadget.com/2208480/xbox-confirms-plans-to-lay-off-3200-workers-over-the-next-year/",
+      "article_date": "2026-07-06T14:15:47.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Xbox will lay off 3,200 workers as part of mass restructuring.",
+      "image_url": "https://www.engadget.com/img/gallery/xbox-confirms-plans-to-lay-off-3200-workers-over-the-next-year/l-intro-1783361693.jpg",
+      "categories": [
+        "Xbox"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:15:47.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "USB4 cables: When and why it's worth paying more",
+      "url": "https://www.engadget.com/2207394/usb4-cables-when-why-pay-more/",
+      "article_date": "2026-07-06T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "They're for more than just fast charging.",
+      "image_url": "https://www.engadget.com/img/gallery/usb4-cables-when-and-why-its-worth-paying-more/l-intro-1783029640.jpg",
+      "categories": [
+        "Accessories"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Bentley teases the Torcal, its first electric vehicle",
+      "url": "https://www.engadget.com/2208295/bentley-teases-the-torcal-its-first-electric-vehicle/",
+      "article_date": "2026-07-06T12:46:30.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Bentley has confirmed that it will finally add an electric car to its exclusive lineup.",
+      "image_url": "https://www.engadget.com/img/gallery/bentley-teases-the-torcal-its-first-electric-vehicle/l-intro-1783341898.jpg",
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T12:46:30.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Comcast buys the UK's biggest commercial broadcaster, ITV",
+      "url": "https://www.engadget.com/2208279/comcast-buys-the-uks-biggest-commercial-broadcaster-itv/",
+      "article_date": "2026-07-06T12:21:23.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Comcast subsidiary Sky plans to buy the UK's biggest broadcaster, ITV.",
+      "image_url": "https://www.engadget.com/img/gallery/comcast-to-buy-the-uks-biggest-commercial-broadcaster-itv/l-intro-1783340450.jpg",
+      "categories": [
+        "Entertainment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T12:21:23.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Alibaba gets a reprieve from US Chinese military ban",
+      "url": "https://www.engadget.com/2208232/alibaba-gets-a-reprieve-from-us-chinese-military-ban/",
+      "article_date": "2026-07-06T10:09:41.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A judge has ruled that the Pentagon must give Alibaba a reprieve over its placement on a Chinese military list.",
+      "image_url": "https://www.engadget.com/img/gallery/alibaba-gets-a-reprieve-from-us-chinese-military-ban/l-intro-1783331939.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:09:41.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.130Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple's foldable iPhone may be in short supply after it launches",
+      "url": "https://www.engadget.com/2208210/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/",
+      "article_date": "2026-07-06T08:11:10.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Many people who want Apple's rumored folding iPhone 'Ultra' may not be able to get it at first",
+      "image_url": "https://www.engadget.com/img/gallery/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/l-intro-1783326180.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-06T08:11:10.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.130Z"
+    },
+    {
+      "type": "article",
+      "title": "Why 3D TVs failed and the trouble with 3D in Hollywood",
+      "url": "https://www.engadget.com/2206391/why-3d-tvs-failed/",
+      "article_date": "2026-07-05T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "They were annoying to use and bad 3D movies didn't help.",
+      "image_url": "https://www.engadget.com/img/gallery/why-3d-tvs-failed/l-intro-1782937722.jpg",
+      "categories": [
+        "TV & Movies"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T18:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.130Z"
+    },
+    {
+      "type": "article",
+      "title": "Sony says it will still make physical discs after 2028, as long as the game came out before then",
+      "url": "https://www.engadget.com/2208083/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/",
+      "article_date": "2026-07-05T17:27:08.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Anything released after 2028 will still be digital-only.",
+      "image_url": "https://www.engadget.com/img/gallery/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/l-intro-1783272503.jpg",
+      "categories": [
+        "PlayStation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T17:27:08.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.130Z"
+    },
+    {
+      "type": "article",
+      "title": "What's the fastest charging speed your iPad or iPhone port can handle?",
+      "url": "https://www.engadget.com/2205909/fastest-charging-speed-ipad-iphone-port/",
+      "article_date": "2026-07-05T15:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Here's how to find out whether you're charging your Apple mobile devices at top speed.",
+      "image_url": "https://www.engadget.com/img/gallery/whats-the-fastest-charging-speed-your-ipad-or-iphone-port-can-handle/l-intro-1782916818.jpg",
+      "categories": [
+        "Smartphones",
+        "Tablets"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T15:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.130Z"
+    },
+    {
+      "type": "article",
+      "title": "These popular smartphones are in their last year of software support",
+      "url": "https://www.engadget.com/2206707/these-popular-smartphones-are-in-their-last-year-of-software-support/",
+      "article_date": "2026-07-05T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "It's good to know how long your phone will get updates before you purchase.",
+      "image_url": "https://www.engadget.com/img/gallery/these-popular-smartphones-are-in-their-last-year-of-software-support/l-intro-1783000290.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T13:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.130Z"
+    }
+  ]
+}

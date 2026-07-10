@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "scrape_id": "cc15a89b-1717-4d24-9b5c-0b16010d2876",
+    "scraped_at": "2026-07-07T09:48:53.833Z",
+    "source_url": "https://techcrunch.com/feed/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 15,
+    "previously_seen": 5
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "article_date": "2026-07-07T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Tim Fernholz",
+      "excerpt": "Forterra has deployed more than 100",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Robotics",
+        "Exclusive",
+        "Forterra"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Netflix invented binge-watching. Now it may have outgrown it.",
+      "url": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it/",
+      "article_date": "2026-07-07T00:47:33.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "A new report suggests Netflix viewers aren’t sticking around for Season 2. The bigger issue may be that binge-watching itself is no longer the advantage it once was.",
+      "image_url": null,
+      "categories": [
+        "Media & Entertainment",
+        "Netflix",
+        "streaming",
+        "tv"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T00:47:33.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "article_date": "2026-07-06T23:56:14.000Z",
+      "article_date_raw": null,
+      "author": "Connie Loizos",
+      "excerpt": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Security",
+        "sysdig"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T23:56:14.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "article_date": "2026-07-06T23:21:03.000Z",
+      "article_date_raw": null,
+      "author": "Julie Bort",
+      "excerpt": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Hardware",
+        "memory",
+        "RAM",
+        "SK Hynix"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T23:21:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "article_date": "2026-07-06T19:49:10.000Z",
+      "article_date_raw": null,
+      "author": "Russell Brandom",
+      "excerpt": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Guillermo Rauch",
+        "Vercel"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:49:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "article_date": "2026-07-06T19:01:59.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "iOS 27",
+        "siri",
+        "siri ai"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:01:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "article_date": "2026-07-06T18:35:00.000Z",
+      "article_date_raw": null,
+      "author": "Rebecca Bellan, Connie Loizos",
+      "excerpt": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "TC",
+        "Layoffs"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T18:35:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all",
+      "url": "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/",
+      "article_date": "2026-07-06T18:12:01.000Z",
+      "article_date_raw": null,
+      "author": "Julie Bort",
+      "excerpt": "Bookship.org seemed to delay this anticipated partnership again, but tells TechCrunch that it has settled business terms and is working on integration.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Gadgets",
+        "bookshop.org",
+        "ebooks",
+        "ereaders",
+        "Kobo",
+        "kobo ereader",
+        "Rakuten"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T18:12:01.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "article_date": "2026-07-06T17:04:58.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Google",
+        "Google Search",
+        "psa"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:04:58.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
+      "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
+      "article_date": "2026-07-06T16:21:03.000Z",
+      "article_date_raw": null,
+      "author": "Jagmeet Singh",
+      "excerpt": "Apple has started a phased rollout of card payments for Apple Account purchases in India after adapting to the country's payments framework.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Commerce",
+        "Apple",
+        "Apple Account",
+        "apple app store"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:21:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "article_date": "2026-07-06T15:32:43.000Z",
+      "article_date_raw": null,
+      "author": "Rebecca Bellan",
+      "excerpt": "Microsoft cut around 4,800 roles, or 2.1% of its global workforce, on Monday — the latest in a series of layoffs that’s stoking fears of AI replacing jobs. The layoffs will hit Xbox and commercial sales the hardest.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Microsoft",
+        "tech layoffs",
+        "xbox"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:32:43.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "article_date": "2026-07-06T15:22:08.000Z",
+      "article_date_raw": null,
+      "author": "Amanda Silberling",
+      "excerpt": "In the AI era, platforms have no choice but to fight fire with fire to cull spam.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Social",
+        "In Brief",
+        "Reddit"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:22:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Canadian spy agency says it hacked drug traffickers, extremists, and a ransomware gang last year",
+      "url": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
+      "article_date": "2026-07-06T14:43:59.000Z",
+      "article_date_raw": null,
+      "author": "Zack Whittaker",
+      "excerpt": "The hacking operations disclosed in a Canadian spy agency's annual report underscores some pressing national security threats facing the country and its top allies.",
+      "image_url": null,
+      "categories": [
+        "Security",
+        "Canada",
+        "cyberattack",
+        "cybersecurity",
+        "ransomware"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:43:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "How to reserve and change your WhatsApp username",
+      "url": "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/",
+      "article_date": "2026-07-06T14:15:30.000Z",
+      "article_date_raw": null,
+      "author": "Ivan Mehta",
+      "excerpt": "WhatsApp now lets users reserve usernames ahead of the feature’s full rollout, making it possible to connect without sharing a phone number once usernames go live.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Social",
+        "Meta",
+        "username",
+        "WhatsApp"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:15:30.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "article_date": "2026-07-06T13:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Anna Heim",
+      "excerpt": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Startups",
+        "f/ai",
+        "Roxanne Varza",
+        "Station F",
+        "Xavier Niel"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T13:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "article_date": "2026-07-06T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Kate Park",
+      "excerpt": "Even Realities, an ex-Apple team building camera-free smart glasses, raised $150 million from Meituan and Tencent at a $1 billion valuation.",
+      "image_url": null,
+      "categories": [
+        "Hardware",
+        "Startups",
+        "Even Realities",
+        "Meituan",
+        "meta glasses",
+        "SMART Glasses",
+        "Tencent",
+        "wearables"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-06T09:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.024Z"
+    },
+    {
+      "type": "article",
+      "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+      "article_date": "2026-07-06T06:05:29.000Z",
+      "article_date_raw": null,
+      "author": "Connie Loizos",
+      "excerpt": "While other humanoid startups chase sky-high valuations, Agility Robotics is betting its future on execution — and a SPAC.",
+      "image_url": null,
+      "categories": [
+        "Robotics",
+        "agility robotics",
+        "humanoid robotics",
+        "Peggy Johnson",
+        "SPAC"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-06T06:05:29.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.024Z"
+    },
+    {
+      "type": "article",
+      "title": "Uber’s European expansion plans may have hit a speed bump",
+      "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/",
+      "article_date": "2026-07-05T21:35:17.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "Back in February, Uber announced ambitious plans to launch in seven new European markets in 2026 — but now five of those launches are reportedly on hold.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Commerce",
+        "Startups",
+        "Delivery Hero",
+        "In Brief",
+        "Uber"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T21:35:17.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.024Z"
+    },
+    {
+      "type": "article",
+      "title": "Trump memecoin investors lost $3.8 billion, analysis finds",
+      "url": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/",
+      "article_date": "2026-07-05T20:29:05.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "Nearly 1 million people have lost a total of $3.8 billion after buying President Donald Trump’s $TRUMP memecoin, while Trump made $636 million.",
+      "image_url": null,
+      "categories": [
+        "Crypto",
+        "Government & Policy",
+        "$trump",
+        "Donald Trump",
+        "In Brief",
+        "memecoins"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T20:29:05.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.024Z"
+    },
+    {
+      "type": "article",
+      "title": "Amazon will stop accepting new customers for Mechanical Turk",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "article_date": "2026-07-05T17:43:36.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "These may be the last days of Amazon’s Mechanical Turk.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Commerce",
+        "Amazon",
+        "Amazon Web Services",
+        "mechanical turk"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T17:43:36.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:16.024Z"
+    }
+  ]
+}

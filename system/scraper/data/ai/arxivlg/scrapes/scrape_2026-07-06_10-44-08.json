@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "scrape_id": "3766df0c-33c3-48d4-9ba3-31e40a6dc86b",
+    "scraped_at": "2026-07-06T10:44:08.777Z",
+    "source_url": "http://export.arxiv.org/rss/cs.LG",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 0,
+    "new_headlines": 0,
+    "previously_seen": 0
+  },
+  "headlines": []
+}

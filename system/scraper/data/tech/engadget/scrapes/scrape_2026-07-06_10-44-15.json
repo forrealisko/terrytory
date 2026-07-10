@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "scrape_id": "ae9fc970-20f1-4aa9-98e1-3bef452a506c",
+    "scraped_at": "2026-07-06T10:44:15.689Z",
+    "source_url": "https://www.engadget.com/rss.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 14,
+    "previously_seen": 6
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Alibaba gets a reprieve from US Chinese military ban",
+      "url": "https://www.engadget.com/2208232/alibaba-gets-a-reprieve-from-us-chinese-military-ban/",
+      "article_date": "2026-07-06T10:09:41.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A judge has ruled that the Pentagon must give Alibaba a reprieve over its placement on a Chinese military list.",
+      "image_url": "https://www.engadget.com/img/gallery/alibaba-gets-a-reprieve-from-us-chinese-military-ban/l-intro-1783331939.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:09:41.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple's foldable iPhone may be in short supply after it launches",
+      "url": "https://www.engadget.com/2208210/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/",
+      "article_date": "2026-07-06T08:11:10.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Many people who want Apple's rumored folding iPhone 'Ultra' may not be able to get it at first",
+      "image_url": "https://www.engadget.com/img/gallery/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/l-intro-1783326180.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T08:11:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Why 3D TVs failed and the trouble with 3D in Hollywood.",
+      "url": "https://www.engadget.com/2206391/why-3d-tvs-failed/",
+      "article_date": "2026-07-05T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "They were annoying to use and bad 3D movies didn't help.",
+      "image_url": "https://www.engadget.com/img/gallery/why-3d-tvs-failed/l-intro-1782937722.jpg",
+      "categories": [
+        "TV & Movies"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Sony says it will still make physical discs after 2028, as long as the game came out before then",
+      "url": "https://www.engadget.com/2208083/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/",
+      "article_date": "2026-07-05T17:27:08.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Anything released after 2028 will still be digital-only.",
+      "image_url": "https://www.engadget.com/img/gallery/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/l-intro-1783272503.jpg",
+      "categories": [
+        "PlayStation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T17:27:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "What's the fastest charging speed your iPad or iPhone port can handle?",
+      "url": "https://www.engadget.com/2205909/fastest-charging-speed-ipad-iphone-port/",
+      "article_date": "2026-07-05T15:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Here's how to find out whether you're charging your Apple mobile devices at top speed.",
+      "image_url": "https://www.engadget.com/img/gallery/whats-the-fastest-charging-speed-your-ipad-or-iphone-port-can-handle/l-intro-1782916818.jpg",
+      "categories": [
+        "Smartphones",
+        "Tablets"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T15:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "These popular smartphones are in their last year of software support",
+      "url": "https://www.engadget.com/2206707/these-popular-smartphones-are-in-their-last-year-of-software-support/",
+      "article_date": "2026-07-05T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "It's good to know how long your phone will get updates before you purchase.",
+      "image_url": "https://www.engadget.com/img/gallery/these-popular-smartphones-are-in-their-last-year-of-software-support/l-intro-1783000290.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "A 10-year sky survey begins filming a 'cosmic movie,' cyborg cockroaches go for a dive and more science stories",
+      "url": "https://www.engadget.com/2207998/vera-c-rubin-observatory-begins-cyborg-cockroaches-nasa-clps-moon-base-missions/",
+      "article_date": "2026-07-04T19:45:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "This week's science news.",
+      "image_url": "https://www.engadget.com/img/gallery/a-10-year-sky-survey-begins-filming-a-cosmic-movie-cyborg-cockroaches-go-for-a-dive-and-more-science-stories/l-intro-1783193642.jpg",
+      "categories": [
+        "Science"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T19:45:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "How your smartwatch and AI might detect early signs of illness",
+      "url": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/",
+      "article_date": "2026-07-04T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Wearables are best at noticing breaks from your body's usual patterns. Those outliers can hint that something warrants further investigation with your doctor.",
+      "image_url": "https://www.engadget.com/img/gallery/how-your-smartwatch-and-ai-can-detect-early-signs-of-illness/l-intro-1782925052.jpg",
+      "categories": [
+        "Wearables"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Tesla expands robotaxi service to small section of Miami",
+      "url": "https://www.engadget.com/2207974/tesla-expands-robotaxi-service-to-small-section-of-miami/",
+      "article_date": "2026-07-04T17:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The company's robotaxi roadmap mentions future expansions to Orlando and Tampa.",
+      "image_url": "https://www.engadget.com/img/gallery/tesla-expands-robotaxi-service-to-small-section-of-miami/l-intro-1783184696.jpg",
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T17:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "NASA mission to rescue the falling Swift observatory has launched",
+      "url": "https://www.engadget.com/2207959/nasa-boost-mission-rescue-falling-swift-observatory-launched/",
+      "article_date": "2026-07-04T16:00:37.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "NASA has made contact with LINK, the robotic spacecraft made for the Swift Boost mission.",
+      "image_url": "https://www.engadget.com/img/gallery/nasa-mission-to-rescue-the-falling-swift-observatory-has-launched/l-intro-1783180769.jpg",
+      "categories": [
+        "Space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T16:00:37.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Tesla driver charged with manslaughter for Texas crash that killed a woman in her home",
+      "url": "https://www.engadget.com/2207957/tesla-driver-charged-manslaughter-texas-crash-killed-woman-in-home/",
+      "article_date": "2026-07-04T15:47:31.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The incident is also being investigated by the National Highway Traffic Safety Administration.",
+      "image_url": "https://www.engadget.com/img/gallery/tesla-driver-charged-with-manslaughter-for-texas-crash-that-killed-a-woman-in-her-home/l-intro-1783179817.jpg",
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T15:47:31.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Only these iPhone models are getting the new Siri AI this fall",
+      "url": "https://www.engadget.com/2206159/iphone-models-getting-new-siri-ai/",
+      "article_date": "2026-07-04T15:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Some Apple devices are about to get much more intelligent, while others are getting left behind.",
+      "image_url": "https://www.engadget.com/img/gallery/only-these-iphone-models-are-getting-the-new-siri-ai-this-fall/l-intro-1782923551.jpg",
+      "categories": [
+        "Smartphones",
+        "Tablets",
+        "Apple"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T15:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Router brands could be misleading you with that Wi-Fi 7 label",
+      "url": "https://www.engadget.com/2206012/router-brands-could-be-misleading-you-with-that-wi-fi-7-label/",
+      "article_date": "2026-07-04T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Wi-Fi standards remain as confusing as ever.",
+      "image_url": "https://www.engadget.com/img/gallery/router-brands-could-be-misleading-you-with-that-wi-fi-7-label/l-intro-1782921555.jpg",
+      "categories": [
+        "Computing"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Midjourney wants the Hollywood studios that sued it to show the court how they use AI",
+      "url": "https://www.engadget.com/2207936/midjourney-wants-studios-that-sued-show-court-ai-use/",
+      "article_date": "2026-07-04T11:33:18.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Midjourney is asking the court to get Disney, Warner Bros. and Universal to submit information on their AI use.",
+      "image_url": "https://www.engadget.com/img/gallery/midjourney-wants-the-studios-that-sued-it-to-show-the-court-how-they-use-ai/l-intro-1783164583.jpg",
+      "categories": [
+        "Entertainment",
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:33:18.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "The Space Shuttle Endeavour goes on public display later this year",
+      "url": "https://www.engadget.com/2207813/space-shuttle-endeavour-goes-on-public-display-later-this-year/",
+      "article_date": "2026-07-03T19:41:47.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The spacecraft has been in LA since 2012, but now it's moving to a new permanent home at the California Science Center.",
+      "image_url": "https://www.engadget.com/img/gallery/the-space-shuttle-endeavour-goes-on-public-display-later-this-year/l-intro-1783107534.jpg",
+      "categories": [
+        "Space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T19:41:47.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:55.880Z"
+    },
+    {
+      "type": "article",
+      "title": "International Google Pixels are different than American models - here's how",
+      "url": "https://www.engadget.com/2205901/how-international-google-pixel-phones-different-american/",
+      "article_date": "2026-07-03T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "In case you were wondering in which country you should buy a Pixel phone, you world traveler you.",
+      "image_url": "https://www.engadget.com/img/gallery/international-google-pixels-are-different-than-american-models-heres-how/l-intro-1782917013.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T18:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:55.880Z"
+    },
+    {
+      "type": "article",
+      "title": "How to watch Summer Games Done Quick 2026",
+      "url": "https://www.engadget.com/2207676/how-to-watch-summer-games-done-quick-2026/",
+      "article_date": "2026-07-03T16:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The latest week-long speedrunning marathon starts on July 5.",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-watch-summer-games-done-quick-2026/l-intro-1783093497.jpg",
+      "categories": [
+        "Gaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T16:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:55.880Z"
+    },
+    {
+      "type": "article",
+      "title": "Amazon's Fire HD 10 tablet just got a refresh with a bit more RAM",
+      "url": "https://www.engadget.com/2207669/amazon-fire-hd-10-ram-refresh/",
+      "article_date": "2026-07-03T15:40:03.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A RAM upgrade? In this memory economy?!",
+      "image_url": "https://www.engadget.com/img/gallery/amazons-fire-hd-10-tablet-just-got-a-refresh-with-a-bit-more-ram/l-intro-1783093073.jpg",
+      "categories": [
+        "Tablets"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T15:40:03.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:55.880Z"
+    },
+    {
+      "type": "article",
+      "title": "Engadget Podcast: Who needs Valve's Steam Machine?",
+      "url": "https://www.engadget.com/2207598/engadget-podcast-who-needs-valve-steam-machine/",
+      "article_date": "2026-07-03T13:35:55.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "This week on the Engadget Podcast, we've got our first impressions of Valve's pricey Steam Machine, and we chat about Sony dumping PlayStation discs in 2028.",
+      "image_url": "https://www.engadget.com/img/gallery/engadget-podcast-who-needs-valves-steam-machine/l-intro-1783085552.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T13:35:55.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:55.880Z"
+    },
+    {
+      "type": "article",
+      "title": "How to claim a WhatsApp username",
+      "url": "https://www.engadget.com/2207358/how-to-claim-whatsapp-username/",
+      "article_date": "2026-07-03T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Get ready to navigate a free-for-all of social media handles.",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-claim-a-whatsapp-username/l-intro-1783026777.jpg",
+      "categories": [
+        "Apps",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T13:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:55.880Z"
+    }
+  ]
+}

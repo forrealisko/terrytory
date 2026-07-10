@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "scrape_id": "bc76844c-3976-4eed-97a7-15203317320e",
+    "scraped_at": "2026-07-09T09:46:29.602Z",
+    "source_url": "https://www.engadget.com/rss.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "NHTSA calls out autonomous cars for interfering with first responders",
+      "url": "https://www.engadget.com/2211209/nhtsa-calls-out-autonomous-cars-interfering-first-responders/",
+      "article_date": "2026-07-09T08:30:39.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The NHTSA says it identified a 'pattern of driverless AVs' interfering with first responders. It's now demanding a solution from AV makers.",
+      "image_url": "https://www.engadget.com/img/gallery/nhtsa-calls-out-autonomous-cars-for-interfering-with-first-responders/l-intro-1783585672.jpg",
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T08:30:39.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Volkswagen is employing 100 sheep at a solar farm in Poland",
+      "url": "https://www.engadget.com/2211107/volkswagen-is-employing-100-sheep-at-a-solar-farm-in-poland/",
+      "article_date": "2026-07-08T23:22:18.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "It's more of a baa-ter arrangement.",
+      "image_url": "https://www.engadget.com/img/gallery/volkswagen-brings-100-sheep-to-its-poland-solar-farm/l-intro-1783551980.jpg",
+      "categories": [
+        "Science"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T23:22:18.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Elon Musk says X will DM you about posts that receive a Community Note",
+      "url": "https://www.engadget.com/2211065/elon-musk-says-x-will-dm-you-about-posts-that-receive-a-community-note/",
+      "article_date": "2026-07-08T21:50:36.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The social platform wants its crowd-sourced corrections to be harder to ignore.",
+      "image_url": "https://www.engadget.com/img/gallery/elon-musk-says-x-will-dm-you-about-posts-that-receive-a-community-note/l-intro-1783547354.jpg",
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T21:50:36.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Judge approves $1.5 million SEC-Musk settlement over Twitter investment",
+      "url": "https://www.engadget.com/2211052/judge-approves-1-5-million-sec-musk-settlement-over-twitter-investment/",
+      "article_date": "2026-07-08T21:34:59.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The opinion says whether it's fair is 'for our citizenry to decide at the ballot box.'",
+      "image_url": "https://www.engadget.com/img/gallery/judge-approves-1-5-million-sec-musk-settlement-over-twitter-investment/l-intro-1783546081.jpg",
+      "categories": [
+        "Big Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T21:34:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Microsoft reportedly cancels Avowed sequel as Obsidian focuses on a Fallout game",
+      "url": "https://www.engadget.com/2210958/microsoft-reportedly-cancels-avowed-sequel-as-obsidian-focuses-on-a-fallout-game/",
+      "article_date": "2026-07-08T20:18:23.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The Fallout: New Vegas developer has not escaped Microsoft's Xbox layoffs unscathed.",
+      "image_url": "https://www.engadget.com/img/gallery/microsoft-reportedly-cancels-avowed-sequel-as-obsidian-focuses-on-a-fallout-game/l-intro-1783541838.jpg",
+      "categories": [
+        "Xbox"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T20:18:23.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "FTC reaches settlement that brings right-to-repair to John Deere farm equipment",
+      "url": "https://www.engadget.com/2210939/ftc-reaches-settlement-that-brings-right-to-repair-to-john-deere-farm-equipment/",
+      "article_date": "2026-07-08T20:06:11.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The FTC sued the famed green tractor company last year.",
+      "image_url": "https://www.engadget.com/img/gallery/ftc-reaches-settlement-that-brings-right-to-repair-to-john-deere-farm-equipment/l-intro-1783541023.jpg",
+      "categories": [
+        "Big Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T20:06:11.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "PC shipments just fell for the first time in two years, thanks to the memory shortage",
+      "url": "https://www.engadget.com/2210856/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage/",
+      "article_date": "2026-07-08T19:01:59.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "PC shipments are falling, but revenue for manufacturers is still rising.",
+      "image_url": "https://www.engadget.com/img/gallery/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage/l-intro-1783537188.jpg",
+      "categories": [
+        "Computing"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:01:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Valve Steam Machine review: This would've been perfect five years ago",
+      "url": "https://www.engadget.com/2210832/valve-steam-machine-review/",
+      "article_date": "2026-07-08T19:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The Steam Machine isn't worth the price that Valve is asking.",
+      "image_url": "https://www.engadget.com/img/gallery/valve-steam-machine-review-this-wouldve-been-perfect-five-years-ago/l-intro-1783535904.jpg",
+      "categories": [
+        "Gaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple's Widow's Bay has the most Emmy noms of any new show this year",
+      "url": "https://www.engadget.com/2210827/apple-tv-widows-bay-has-the-most-emmy-noms-of-any-new-show-this-year/",
+      "article_date": "2026-07-08T18:44:28.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The horror-comedy series Widow's Bay earned 19 Emmy nominations for its first season.",
+      "image_url": "https://www.engadget.com/img/gallery/apples-widows-bay-has-the-most-emmy-noms-of-any-new-show-this-year/l-intro-1783536190.jpg",
+      "categories": [
+        "TV & Movies"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T18:44:28.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Roku is the most popular streaming TV, but lacking more than you think",
+      "url": "https://www.engadget.com/2209478/roku-most-popular-streaming-tv-study/",
+      "article_date": "2026-07-08T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The company's streaming devices aren't quite keeping up with competitors in several important categories.",
+      "image_url": "https://www.engadget.com/img/gallery/roku-is-the-most-popular-streaming-tv-but-lacking-more-than-you-think/l-intro-1783431631.jpg",
+      "categories": [
+        "Amazon",
+        "Google",
+        "Samsung",
+        "Streaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Waymo will soon go fully autonomous in four more cities",
+      "url": "https://www.engadget.com/2210677/waymo-will-soon-go-fully-autonomous-in-four-more-cities/",
+      "article_date": "2026-07-08T17:13:26.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Waymo will ditch human supervisors in San Diego, Las Vegas, Tampa and Denver.",
+      "image_url": "https://www.engadget.com/img/gallery/waymo-will-soon-go-fully-autonomous-in-four-more-cities/l-intro-1783529672.jpg",
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:13:26.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Google announces new 'Video Remix' feature its for AI subscribers",
+      "url": "https://www.engadget.com/2210417/google-announces-new-video-remix-feature-for-ai-subscribers/",
+      "article_date": "2026-07-08T17:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "It allows you to reimagine videos stored in Google Photos using Gemini Omni.",
+      "image_url": "https://www.engadget.com/img/gallery/google-announces-new-video-remix-feature-its-for-ai-subscribers/l-intro-1783516961.jpg",
+      "categories": [
+        "Google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "ChatGPT's new voice mode will slow down if you tell it to",
+      "url": "https://www.engadget.com/2210651/chatgpt-new-voice-mode-will-slow-down-if-you-tell-it-to/",
+      "article_date": "2026-07-08T17:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "OpenAI's new voice mode for ChatGPT will acknowledge you as you speak, and slow down if you ask it to.",
+      "image_url": "https://www.engadget.com/img/gallery/chatgpts-new-voice-mode-will-slow-down-if-you-tell-it-to/l-intro-1783529796.jpg",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Amazon is reportedly working on a more powerful agentic Alexa assistant",
+      "url": "https://www.engadget.com/2210614/amazon-is-reportedly-working-on-a-more-powerful-agentic-alexa-assistant/",
+      "article_date": "2026-07-08T16:33:31.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Amazon is working on a project codenamed 'Moonraker' that would enable the AI assistant to handle multi-step tasks more effectively.",
+      "image_url": "https://www.engadget.com/img/gallery/amazon-is-reportedly-working-on-a-more-powerful-agentic-alexa-assistant/l-intro-1783528237.jpg",
+      "categories": [
+        "Amazon"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T16:33:31.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Official renders for Samsung's Galaxy Z Flip 8, Watch 9, Watch 2 Ultra and Z Fold 8 leak",
+      "url": "https://www.engadget.com/2210595/samsuing-z-flip-8-watch-9-watch-2-ultra-z-fold-8-render-leak/",
+      "article_date": "2026-07-08T16:12:59.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Renders of multiple new Samsung devices have arrived a few weeks before the company's next Unpacked event.",
+      "image_url": "https://www.engadget.com/img/gallery/official-renders-for-samsungs-galaxy-z-flip-8-watch-9-watch-2-ultra-and-z-fold-8-leak/l-intro-1783527075.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T16:12:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Nintendo will shut down Mario Kart Tour on September 30",
+      "url": "https://www.engadget.com/2210493/nintendo-will-shut-down-mario-kart-tour-september-30/",
+      "article_date": "2026-07-08T14:34:39.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The company doesn't plan to release an offline version.",
+      "image_url": "https://www.engadget.com/img/gallery/nintendo-will-shut-down-mario-kart-tour-on-september-30/l-intro-1783521110.jpg",
+      "categories": [
+        "Nintendo"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T14:34:39.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple pledges to buy $30 billion of Broadcom's US-made chips",
+      "url": "https://www.engadget.com/2210449/apple-pledges-to-buy-30-billion-of-broadcom-us-made-chips/",
+      "article_date": "2026-07-08T13:51:08.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Apple's program to invest in US manufacturing sees it spend $30 billion on Broadcom chips.",
+      "image_url": "https://www.engadget.com/img/gallery/apple-pledges-to-buy-30-billion-of-broadcoms-us-made-chips/l-intro-1783518419.jpg",
+      "categories": [
+        "Computing",
+        "Apple"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T13:51:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "The best Roku feature for night owls you probably aren't using",
+      "url": "https://www.engadget.com/2209408/best-roku-feature-for-night-owls/",
+      "article_date": "2026-07-08T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "If you indulge in late-night binge-watching on your Roku, Fire Stick or Google TV, you're going to want to enable this feature.",
+      "image_url": "https://www.engadget.com/img/gallery/the-best-roku-feature-for-night-owls-you-probably-arent-using/l-intro-1783428228.jpg",
+      "categories": [
+        "TV & Movies",
+        "Streaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Fi Ultra pet tracker uses T-Mobile's Starlink satellite service for coverage",
+      "url": "https://www.engadget.com/2210360/fi-ultra-pet-tracker-t-mobile-starlink/",
+      "article_date": "2026-07-08T13:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Fi's latest dog tracker uses Starlink satellites for rural areas.",
+      "image_url": "https://www.engadget.com/img/gallery/fi-ultra-pet-tracker-uses-t-mobiles-starlink-satellite-service-for-coverage/l-intro-1783511600.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T13:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "DuckDuckGo Browser can now block video ads, including YouTube's",
+      "url": "https://www.engadget.com/2209932/duckduckgo-browser-can-now-block-video-ads-including-youtubes/",
+      "article_date": "2026-07-08T12:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "DuckDuckGo will now block video ads by default in its browser.",
+      "image_url": "https://www.engadget.com/img/gallery/duckduckgo-can-now-block-video-ads-including-youtubes/l-intro-1783451214.jpg",
+      "categories": [
+        "Computing"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T12:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    }
+  ]
+}

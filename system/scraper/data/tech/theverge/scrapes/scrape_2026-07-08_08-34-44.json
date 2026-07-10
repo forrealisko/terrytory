@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "scrape_id": "d8c98bdd-a922-4502-94e0-46cb8d7169dd",
+    "scraped_at": "2026-07-08T08:34:44.310Z",
+    "source_url": "https://www.theverge.com/rss/index.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 10,
+    "new_headlines": 10,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Samsung will launch its new wide foldable on July 22nd",
+      "url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
+      "article_date": "2026-07-08T08:13:52.000Z",
+      "article_date_raw": null,
+      "author": "Dominic Preston",
+      "excerpt": "Samsung has announced that its next Galaxy Unpacked launch event will be held on July 22nd, with the tagline: \"A new shape unfolds.\" It's long been rumored that Samsung is about to expand its foldable phone line to a third format, with a shorter and wider version of its big book-style foldables, to match Huawei's […]",
+      "image_url": null,
+      "categories": [
+        "Foldable Phones",
+        "Gadgets",
+        "Mobile",
+        "News",
+        "Phones",
+        "Samsung",
+        "Tech",
+        "Wearable"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T08:13:52.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
+      "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update",
+      "article_date": "2026-07-07T23:55:19.000Z",
+      "article_date_raw": null,
+      "author": "Victoria Song",
+      "excerpt": "Amid public backlash over its smart glasses, Meta announced that it will be updating its glasses with a new feature that will disable the camera when it detects that someone has tampered with or destroyed the glasses' privacy LED light. The update is meant to address modders who have taken actions such as physically drilling […]",
+      "image_url": null,
+      "categories": [
+        "Gadgets",
+        "Meta",
+        "News",
+        "Tech",
+        "Wearable"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T23:55:19.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Of course viewers are giving up on Netflix shows",
+      "url": "https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok",
+      "article_date": "2026-07-07T21:58:39.000Z",
+      "article_date_raw": null,
+      "author": "Charles Pulliam-Moore",
+      "excerpt": "Even though Netflix is the world's most popular paid streaming service, the company has been struggling to keep viewers watching its series after their first seasons. Beef - the streamer's anthology about people locked in feuds - lost 70 percent of its viewership when it returned earlier this year. There seems to be some confusion […]",
+      "image_url": null,
+      "categories": [
+        "Entertainment",
+        "TV Shows"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:58:39.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
+      "url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming",
+      "article_date": "2026-07-07T21:37:19.000Z",
+      "article_date_raw": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "Starting on August 3rd, Netflix's streaming library will include video content from dozens of digital media brands including BuzzFeed, Condé Nast, Hearst Magazines, People Inc, and Tastemade. As reported earlier by TechCrunch, the deal includes a mix of licensed past videos and new ongoing series that would have typically been published on YouTube or other […]",
+      "image_url": null,
+      "categories": [
+        "Entertainment",
+        "Netflix",
+        "News",
+        "Streaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:37:19.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+      "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+      "article_date": "2026-07-07T20:41:03.000Z",
+      "article_date_raw": null,
+      "author": "Emma Roth",
+      "excerpt": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's part of the growing Muse family of AI […]",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "Instagram",
+        "Meta",
+        "News",
+        "Social Media",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T20:41:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "X says top accounts steal videos from other users as it announces new video tools",
+      "url": "https://www.theverge.com/tech/962415/x-video-editor-recycled-content",
+      "article_date": "2026-07-07T18:28:08.000Z",
+      "article_date_raw": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "Nikita Bier, X's head of product, said in a post on Monday that \"[m]any videos from top accounts are simply stolen from other users, sometimes 5 years after they originally went viral,\" while noting that videos on the platform \"make up close to half the impressions on X.\" According to Bier, X is launching a […]",
+      "image_url": null,
+      "categories": [
+        "Creators",
+        "News",
+        "Social Media",
+        "Tech",
+        "Twitter - X"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:28:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "The ‘G-Wagen of golf carts’ could be the ideal second car",
+      "url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
+      "article_date": "2026-07-08T06:15:28.000Z",
+      "article_date_raw": null,
+      "author": "Andrew J. Hawkins",
+      "excerpt": "While the auto industry wrings its hands over the electric vehicle market, sweating details like aerodynamic efficiency and range anxiety, a new EV startup based in Lisbon, Portugal, is zagging in a different direction. Amble's new electric buggy won't impress anyone with its 0-60 time or its self-driving features (it has none). Instead, it takes […]",
+      "image_url": null,
+      "categories": [
+        "Electric Cars",
+        "Report",
+        "Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T06:15:28.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "ABC tells the government to get out of its newsrooms",
+      "url": "https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech",
+      "article_date": "2026-07-07T17:47:38.000Z",
+      "article_date_raw": null,
+      "author": "Emma Roth",
+      "excerpt": "ABC is firing back at the Federal Communications Commission after the agency opened an investigation into The View's airtime of political candidates. In a letter to the FCC on Tuesday, ABC argues that the agency's actions pose a risk to editorial independence by targeting programs \"perceived as unfriendly to the current administration,\" as reported earlier […]",
+      "image_url": null,
+      "categories": [
+        "Entertainment",
+        "News",
+        "Policy",
+        "Politics",
+        "Speech",
+        "TV Shows"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:47:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "article_date": "2026-07-07T17:47:03.000Z",
+      "article_date_raw": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for macOS and Windows, […]",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Anthropic",
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:47:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Google announces Pixel 11 launch event in August",
+      "url": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event",
+      "article_date": "2026-07-07T17:49:13.000Z",
+      "article_date_raw": null,
+      "author": "Jay Peters",
+      "excerpt": "Google is hosting its next Made by Google launch event for Pixel hardware on August 12th in New York City, according to an invitation sent by Google to The Verge. Unusually, the event is taking place in the evening: It'll kick off at 6PM ET that day. The email also includes a brief animation teasing […]",
+      "image_url": null,
+      "categories": [
+        "Google",
+        "Google Pixel",
+        "News",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:49:13.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    }
+  ]
+}

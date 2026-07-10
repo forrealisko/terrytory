@@ -1,0 +1,1650 @@
+{
+  "meta": {
+    "digest_id": "ea1b780f-a7a8-4a2c-8690-0578b33d3d6a",
+    "niche": "tech",
+    "run_at": "2026-07-07T09:48:53.833Z",
+    "orchestrator_version": "2.0.0",
+    "sources_attempted": 5,
+    "sources_ok": 5,
+    "sources_failed": 0,
+    "total_new": 69,
+    "run_results": {
+      "theverge": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "arstechnica": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "techcrunch": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "engadget": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "wired": {
+        "ok": true,
+        "elapsed": "0.2"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "image_url": null,
+      "author": "Tim Fernholz",
+      "excerpt": "Forterra has deployed more than 100",
+      "article_date": "2026-07-07T09:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T09:00:00.000Z"
+      },
+      "categories": [
+        "AI",
+        "Robotics",
+        "Exclusive",
+        "Forterra"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Meta is facing $1.4 trillion in state lawsuits over social media addiction",
+      "url": "https://www.engadget.com/2209332/meta-is-facing-1-4-trillion-in-state-lawsuits-over-social-media-addiction/",
+      "image_url": "https://www.engadget.com/img/gallery/meta-is-facing-1-4-trillion-in-state-lawsuits-over-social-media-addiction/l-intro-1783414009.jpg",
+      "author": null,
+      "excerpt": "Meta is facing a massive lawsuit from four US states over the addictive designs of its platforms.",
+      "article_date": "2026-07-07T08:49:12.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T08:49:12.000Z"
+      },
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "America’s greatest idea is still under threat",
+      "url": "https://www.theverge.com/policy/961802/america-250-free-speech",
+      "image_url": null,
+      "author": "TC. Sottek",
+      "excerpt": "The United States of America recently turned 250 years old. What a spectacle! The fireworks were amazing, and millions of proud people celebrated across the nation - even around the world. France lit up the Eiffel Tower; Japan had fireworks. French fighter jets flew above New York City with trails of red, white, and blue […]",
+      "article_date": "2026-07-07T07:52:25.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T07:52:25.000Z"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "xAI is now officially known as SpaceXAI",
+      "url": "https://www.engadget.com/2209300/xai-now-officially-spacexai/",
+      "image_url": "https://www.engadget.com/img/gallery/xai-is-now-officially-known-as-spacexai/l-intro-1783403019.jpg",
+      "author": null,
+      "excerpt": "The xAI account on X has announced its official rebranding to SpaceXAI, five months after it merged with SpaceX.",
+      "article_date": "2026-07-07T05:44:38.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:44:38.000Z"
+      },
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Instacart Promo Code: $15 Off | July 2026",
+      "url": "https://www.wired.com/story/instacart-promo/code/",
+      "image_url": "https://media.wired.com/photos/67b63b9079f27a355461c964/master/pass/WIRED-Coupons-R2_2.png",
+      "author": "Molly Higgins",
+      "excerpt": "Find the best Instacart promo code for massive savings in July 2026.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Office Depot Coupons: Save With Promo Codes in July 2026",
+      "url": "https://www.wired.com/story/office-depot-promo-codes/",
+      "image_url": "https://media.wired.com/photos/66ea077039cb65abef27cd6f/master/pass/WIRED-Coupons-9.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "From furniture and ink to professional printing services, use an Office Depot discount code to maximize your savings on every workspace essential.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Loop Earplugs Discount Codes: 40% Off",
+      "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
+      "image_url": "https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png",
+      "author": "Louryn Strampe",
+      "excerpt": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "20% Off Sephora Promo Code | July 2026",
+      "url": "https://www.wired.com/story/sephora-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea07715f7a3326e9fe7ca3/master/pass/WIRED-Coupons-5.jpg",
+      "author": "Louryn Strampe",
+      "excerpt": "Earn more points on skincare purchases when you use our Sephora coupon.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Nomad Goods Promo Codes: Get 25% Off in July 2026",
+      "url": "https://www.wired.com/story/nomad-discount-code/",
+      "image_url": "https://media.wired.com/photos/66ea077283cd4f2fbb17d478/master/pass/WIRED-Coupons-2.jpg",
+      "author": "Brenda Stolyar",
+      "excerpt": "Save up to 25% on Nomad Goods accessories such as Nomad phone cases, Nomad wallets, and more this July.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Mattress Firm Coupons: Save up to $600",
+      "url": "https://www.wired.com/story/mattress-firm-coupon/",
+      "image_url": "https://media.wired.com/photos/67b63b9283a9f95e0ab9b215/master/pass/WIRED-Coupons-R2_3.png",
+      "author": "Julia Forbes",
+      "excerpt": "Use a Mattress Firm promo code to save on top mattresses, score a free adjustable base, and unlock up to $300 in instant credits.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Expedia Coupons: 75% Off",
+      "url": "https://www.wired.com/story/expedia-coupon/",
+      "image_url": "https://media.wired.com/photos/66ea07733dd51041d9bb38c6/master/pass/WIRED-Coupons-1.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "Book your next getaway with Expedia and get up to 75% off your stay, with or without a promo code.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts",
+      "url": "https://www.wired.com/story/lovehoney-discount-code/",
+      "image_url": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7b/master/pass/WIRED-Coupons-R2_6.png",
+      "author": "Amanda Chatel",
+      "excerpt": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ play.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Bartesian Discount Codes: 35% Off",
+      "url": "https://www.wired.com/story/bartesian-discount-code/",
+      "image_url": "https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png",
+      "author": "Matthew Korfhage",
+      "excerpt": "Upgrade your home bar with the latest Bartesian coupon codes and discounts. Save on the Professional Cocktail Maker, enjoy subscription discounts, and get free shipping on your favorite capsules.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Target Promo Code: $50 Off | July 2026",
+      "url": "https://www.wired.com/story/target-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea077283cd4f2fbb17d478/master/pass/WIRED-Coupons-2.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Pura Promo Codes: $20 Off July 2026",
+      "url": "https://www.wired.com/story/pura-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea076fca863bb4c1028b64/master/pass/WIRED-Coupons-11.jpg",
+      "author": "Louryn Strampe",
+      "excerpt": "Enhance your home's ambiance for less with active Pura promo codes. Find savings on smart diffusers, exclusive scents, and subscribe & save offers.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Herman Miller Promo Codes: 40% Off July 2026",
+      "url": "https://www.wired.com/story/herman-miller-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg",
+      "author": "Nena Farrell",
+      "excerpt": "Whether you’re looking for a Herman Miller promo code or discounts in their sale, here is how to save on the world's best ergonomic office furniture in July 2026.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Maytag Promo Codes: 15% Off Appliances",
+      "url": "https://www.wired.com/story/maytag-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png",
+      "author": "Matthew Korfhage",
+      "excerpt": "Upgrade your home for less with these verified Maytag discount codes, military savings, and limited-time closeout offers on washers, dryers, and more.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Starz Promo Codes: $5 Off for July 2026",
+      "url": "https://www.wired.com/story/starz-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b969468ebbf8f0cbc7d/master/pass/WIRED-Coupons-R2_5.png",
+      "author": "Molly Higgins",
+      "excerpt": "Ready to stream award-winning series, hit movies, and exclusive originals? Our comprehensive guide helps you find every active Starz coupon, free trial, and discount code to save big on your subscription this July 2026.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "15% Off Adidas Promo Code | July 2026",
+      "url": "https://www.wired.com/story/adidas-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
+      "article_date": "2026-07-07T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Netflix invented binge-watching. Now it may have outgrown it.",
+      "url": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it/",
+      "image_url": null,
+      "author": "Sarah Perez",
+      "excerpt": "A new report suggests Netflix viewers aren’t sticking around for Season 2. The bigger issue may be that binge-watching itself is no longer the advantage it once was.",
+      "article_date": "2026-07-07T00:47:33.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T00:47:33.000Z"
+      },
+      "categories": [
+        "Media & Entertainment",
+        "Netflix",
+        "streaming",
+        "tv"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "image_url": null,
+      "author": "Connie Loizos",
+      "excerpt": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
+      "article_date": "2026-07-06T23:56:14.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T23:56:14.000Z"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "sysdig"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "image_url": null,
+      "author": "Julie Bort",
+      "excerpt": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+      "article_date": "2026-07-06T23:21:03.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T23:21:03.000Z"
+      },
+      "categories": [
+        "AI",
+        "Hardware",
+        "memory",
+        "RAM",
+        "SK Hynix"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Google will now count all Android backup data toward your storage cap",
+      "url": "https://www.engadget.com/2209189/google-will-now-count-all-android-backup-data-toward-your-storage-cap/",
+      "image_url": "https://www.engadget.com/img/gallery/google-will-now-count-all-android-backup-data-toward-your-storage-cap/l-intro-1783375302.jpg",
+      "author": null,
+      "excerpt": "Fortunately, it shouldn't take too much extra space.",
+      "article_date": "2026-07-06T22:09:56.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T22:09:56.000Z"
+      },
+      "categories": [
+        "Smartphones",
+        "Google"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/online-bill-1152x648-1783369462.jpg",
+      "author": "Jon Brodkin",
+      "excerpt": "FCC to let ISPs stop listing all passthrough fees, give single \"up to\" price.",
+      "article_date": "2026-07-06T21:13:37.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T21:13:37.000Z"
+      },
+      "categories": [
+        "Policy",
+        "FCC",
+        "ISPs"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
+      "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026",
+      "image_url": null,
+      "author": "Tom Warren",
+      "excerpt": "Microsoft is laying off 4,800 employees today, and more than 30 percent of the job losses are in the company's Xbox division. The significant gaming cuts will affect nearly every part of Xbox and also involve four game studios being spun off to be run independently from Microsoft. Today's layoffs, which are being described as […]",
+      "article_date": "2026-07-06T21:00:47.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T21:00:47.000Z"
+      },
+      "categories": [
+        "Gaming",
+        "Microsoft",
+        "News",
+        "Tech",
+        "Xbox"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Kremlin suspected of flying drones over Europe using Russian shadow fleet",
+      "url": "https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238288864-1152x648.jpg",
+      "author": "Jeremy Hsu",
+      "excerpt": "Drone intruders that possibly flew from Russian ships showed Europe isn’t ready.",
+      "article_date": "2026-07-06T20:52:42.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T20:52:42.000Z"
+      },
+      "categories": [
+        "Tech",
+        "aerial surveillance",
+        "drones",
+        "military drones",
+        "russia",
+        "Russian shadow fleet"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Hoto&#8217;s PixelDrive screwdriver is down to $60, matching its best price",
+      "url": "https://www.theverge.com/gadgets/961895/hoto-pixeldrive-screwdriver-deal-sale",
+      "image_url": null,
+      "author": "Sheena Vasani",
+      "excerpt": "If your Prime Day purchases included a new desk, TV stand, bookshelf, or other furniture you still haven’t assembled, Hoto’s PixelDrive cordless screwdriver can help speed up the process. It’s currently on sale for $59.99 ($20 off) at Amazon, matching its best price to date. From tightening loose screws on furniture to repairing electronics, the […]",
+      "article_date": "2026-07-06T20:24:28.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T20:24:28.000Z"
+      },
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Tech",
+        "Verge Shopping"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "I spy",
+      "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+      "image_url": null,
+      "author": "Victoria Song",
+      "excerpt": "I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses. But after binge-watching two seasons of Netflix's A Man on the Inside, this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart glasses as they stand today. In a nutshell, Ted Danson […]",
+      "article_date": "2026-07-06T20:02:22.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T20:02:22.000Z"
+      },
+      "categories": [
+        "AI",
+        "Column",
+        "Gadgets",
+        "Meta",
+        "Privacy",
+        "Tech",
+        "Wearable"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "What is the oldest American object ever launched into space?",
+      "url": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-070326a-lg-1152x648.jpg",
+      "author": "Robert Pearlman",
+      "excerpt": "From a Revolutionary War flag to the Statue of Liberty...",
+      "article_date": "2026-07-06T19:57:56.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:57:56.000Z"
+      },
+      "categories": [
+        "Space",
+        "250 years",
+        "America",
+        "America 250",
+        "Americana",
+        "Declaration of Independence",
+        "golden spike",
+        "Manual of Parliamentary Practice"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "image_url": null,
+      "author": "Russell Brandom",
+      "excerpt": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
+      "article_date": "2026-07-06T19:49:10.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:49:10.000Z"
+      },
+      "categories": [
+        "AI",
+        "Guillermo Rauch",
+        "Vercel"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Google now uses your uploaded search media to train AI",
+      "url": "https://www.engadget.com/2208978/google-now-uses-your-uploaded-search-media-to-train-ai/",
+      "image_url": "https://www.engadget.com/img/gallery/google-now-uses-your-uploaded-media-to-train-ai-so-heres-how-to-fix-that/l-intro-1783364935.jpg",
+      "author": null,
+      "excerpt": "A few simple adjustments to your settings will opt you out of Google's latest AI-training method.",
+      "article_date": "2026-07-06T19:13:52.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:13:52.000Z"
+      },
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "image_url": null,
+      "author": "Sarah Perez",
+      "excerpt": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
+      "article_date": "2026-07-06T19:01:59.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:01:59.000Z"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "iOS 27",
+        "siri",
+        "siri ai"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "image_url": null,
+      "author": "Rebecca Bellan, Connie Loizos",
+      "excerpt": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "article_date": "2026-07-06T18:35:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T18:35:00.000Z"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Layoffs"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Why are people ditching wireless earbuds, and are wired headphones really making a comeback?",
+      "url": "https://www.engadget.com/2207185/wired-iems-vs-wireless-earbuds/",
+      "image_url": "https://www.engadget.com/img/gallery/why-are-people-ditching-wireless-earbuds-and-are-wired-headphones-really-making-a-comeback/l-intro-1783010048.jpg",
+      "author": null,
+      "excerpt": "Everything old is new again.",
+      "article_date": "2026-07-06T18:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T18:30:00.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "Accessories"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all",
+      "url": "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/",
+      "image_url": null,
+      "author": "Julie Bort",
+      "excerpt": "Bookship.org seemed to delay this anticipated partnership again, but tells TechCrunch that it has settled business terms and is working on integration.",
+      "article_date": "2026-07-06T18:12:01.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T18:12:01.000Z"
+      },
+      "categories": [
+        "Apps",
+        "Gadgets",
+        "bookshop.org",
+        "ebooks",
+        "ereaders",
+        "Kobo",
+        "kobo ereader",
+        "Rakuten"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Microsoft's layoffs extend beyond Xbox",
+      "url": "https://www.engadget.com/2208855/microsoft-layoffs-extend-beyond-xbox/",
+      "image_url": "https://www.engadget.com/img/gallery/microsofts-layoffs-extend-beyond-xbox/l-intro-1783360140.jpg",
+      "author": null,
+      "excerpt": "Microsoft is cutting an additional 3,200 jobs beyond those in the gaming division.",
+      "article_date": "2026-07-06T17:50:59.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:50:59.000Z"
+      },
+      "categories": [
+        "Xbox",
+        "Microsoft"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "NRC is (sort of) getting rid of \"as low as reasonably achievable\" standard",
+      "url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2283985401-1024x648.jpg",
+      "author": "John Timmer",
+      "excerpt": "Its issues with current nuclear safety standards are termed semantic, not physical.",
+      "article_date": "2026-07-06T17:48:45.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:48:45.000Z"
+      },
+      "categories": [
+        "Policy",
+        "Science",
+        "ALARA",
+        "DNA damage",
+        "DNA repair",
+        "Exposure",
+        "Health",
+        "LNT"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Five questions for Dr. Rubin, who’s armed with a mic and a bowtie",
+      "url": "https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview",
+      "image_url": null,
+      "author": "TC. Sottek",
+      "excerpt": "Bullshit is cheap but truth is expensive. Anyone with half a brain cell can post wild misinformation that goes mega viral, which wastes the time and expertise of highly trained people who feel an obligation to inform others of the truth. Today I want you to meet one of those highly-trained people, Dr. Zachary Rubin, […]",
+      "article_date": "2026-07-06T17:17:07.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:17:07.000Z"
+      },
+      "categories": [
+        "Health",
+        "Science"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
+      "url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pegasus-Image-2-resized-1000x648.jpg",
+      "author": "Stephen Clark",
+      "excerpt": "It will take several weeks for the Link spacecraft to rendezvous with NASA's Swift observatory.",
+      "article_date": "2026-07-06T17:14:09.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:14:09.000Z"
+      },
+      "categories": [
+        "Science",
+        "Space",
+        "air launch",
+        "Commercial space",
+        "katalyst space",
+        "kwajalein atoll",
+        "launch",
+        "NASA"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "image_url": null,
+      "author": "Sarah Perez",
+      "excerpt": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
+      "article_date": "2026-07-06T17:04:58.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:04:58.000Z"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Google Search",
+        "psa"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
+      "url": "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie",
+      "image_url": null,
+      "author": "Jay Peters",
+      "excerpt": "Microsoft is spinning off four of its Xbox game studios - Compulsion Games, Double Fine Productions, Ninja Theory, and Undead Labs - as part of the restructuring announced today. However, two that are going independent, Double Fine and Compulsion, will get to keep their franchises and games catalogs, according to Xbox CEO Asha Sharma. \"Compulsion […]",
+      "article_date": "2026-07-06T16:49:42.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:49:42.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "Gaming",
+        "News",
+        "Xbox"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
+      "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277613277-1024x648.jpg",
+      "author": "Ashley Belanger",
+      "excerpt": "Anthropic accused of spying on users; engineer says “experiment” is over.",
+      "article_date": "2026-07-06T16:44:18.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:44:18.000Z"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "AI privacy",
+        "Anthropic",
+        "Artificial Intelligence",
+        "china",
+        "Claude",
+        "Claude Code"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "AI golem Tilly Norwood is reportedly 'starring' in a feature-length movie",
+      "url": "https://www.engadget.com/2208729/ai-golem-tilly-norwood-is-reportedly-starring-in-a-feature-length-movie/",
+      "image_url": "https://www.engadget.com/img/gallery/ai-golem-tilly-norwood-is-reportedly-starring-in-a-feature-length-movie/l-intro-1783355190.jpg",
+      "author": null,
+      "excerpt": "Get excited for a feature film starring an AI character that doesn't exist in any real way.",
+      "article_date": "2026-07-06T16:28:38.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:28:38.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "AI"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
+      "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
+      "image_url": null,
+      "author": "Jagmeet Singh",
+      "excerpt": "Apple has started a phased rollout of card payments for Apple Account purchases in India after adapting to the country's payments framework.",
+      "article_date": "2026-07-06T16:21:03.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:21:03.000Z"
+      },
+      "categories": [
+        "Apps",
+        "Commerce",
+        "Apple",
+        "Apple Account",
+        "apple app store"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
+      "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/02/xbox-dominoes-1152x648.jpg",
+      "author": "Kyle Orland",
+      "excerpt": "Move affects ~20% of the gaming division, which will refocus on its biggest franchises.",
+      "article_date": "2026-07-06T16:01:54.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:01:54.000Z"
+      },
+      "categories": [
+        "Gaming",
+        "arkane",
+        "compulsion games",
+        "Double Fine",
+        "layoffs",
+        "microsoft",
+        "XBox"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "F1 in Britain: Automated software to blame for crushing expectations",
+      "url": "https://arstechnica.com/cars/2026/07/f1-in-britain-automated-software-to-blame-for-crushing-expectations/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2284281371-1152x648.jpg",
+      "author": "Jonathan M. Gitlin",
+      "excerpt": "Sometimes races finish behind a safety car, but it's not always satisfying.",
+      "article_date": "2026-07-06T15:45:55.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:45:55.000Z"
+      },
+      "categories": [
+        "Cars",
+        "Formula 1"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "image_url": null,
+      "author": "Rebecca Bellan",
+      "excerpt": "Microsoft cut around 4,800 roles, or 2.1% of its global workforce, on Monday — the latest in a series of layoffs that’s stoking fears of AI replacing jobs. The layoffs will hit Xbox and commercial sales the hardest.",
+      "article_date": "2026-07-06T15:32:43.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:32:43.000Z"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Microsoft",
+        "tech layoffs",
+        "xbox"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Reddit to combat AI with more AI",
+      "url": "https://www.engadget.com/2208616/reddit-to-combat-ai-with-more-ai/",
+      "image_url": "https://www.engadget.com/img/gallery/reddit-to-combat-ai-with-more-ai/l-intro-1783351885.jpg",
+      "author": null,
+      "excerpt": "Reddit to combat AI with more AI",
+      "article_date": "2026-07-06T15:32:39.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:32:39.000Z"
+      },
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "A USB-C port isn't a guarantee of high speeds: here's why",
+      "url": "https://www.engadget.com/2207881/usb-c-port-cable-types-explained/",
+      "image_url": "https://www.engadget.com/img/gallery/a-usb-c-port-isnt-a-guarantee-of-high-speeds-heres-why/l-intro-1783119283.jpg",
+      "author": null,
+      "excerpt": "USB-C promised simplicity, but has turned into a mystery box of different specs.",
+      "article_date": "2026-07-06T15:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:30:00.000Z"
+      },
+      "categories": [
+        "Accessories"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "image_url": null,
+      "author": "Amanda Silberling",
+      "excerpt": "In the AI era, platforms have no choice but to fight fire with fire to cull spam.",
+      "article_date": "2026-07-06T15:22:08.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:22:08.000Z"
+      },
+      "categories": [
+        "AI",
+        "Social",
+        "In Brief",
+        "Reddit"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Nintendo will stop selling the Switch 1 in Europe in 2027",
+      "url": "https://www.engadget.com/2208587/nintendo-will-stop-selling-the-switch-1-in-europe-in-2027/",
+      "image_url": "https://www.engadget.com/img/gallery/nintendo-will-stop-selling-the-switch-1-in-europe-in-2027/l-intro-1783350980.jpg",
+      "author": null,
+      "excerpt": "To comply with battery regulations, Nintendo will stop selling the Switch 1 in Europe next year.",
+      "article_date": "2026-07-06T15:17:30.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:17:30.000Z"
+      },
+      "categories": [
+        "Nintendo"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "There were not one, but two asteroid encounters this weekend",
+      "url": "https://arstechnica.com/space/2026/07/there-were-not-one-but-two-asteroid-encounters-this-weekend/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/20260706-3-01-1152x648.png",
+      "author": "Eric Berger",
+      "excerpt": "The Torifune asteroid turns out to be shaped like a peanut.",
+      "article_date": "2026-07-06T15:15:30.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:15:30.000Z"
+      },
+      "categories": [
+        "Space",
+        "asteroid",
+        "china",
+        "cnsa",
+        "flyby",
+        "Japan",
+        "JAXA",
+        "space"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "The DJI Osmo Pocket 3 lookalike is down to $329",
+      "url": "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale",
+      "image_url": null,
+      "author": "Cameron Faulkner",
+      "excerpt": "Initially, I was going to tell you about a good deal happening on the DJI Osmo Pocket 3, which is down from the $500 it’s sold at most of the year to $378 at multiple retailers. But there’s a better deal happening on a nearly identical portable camera, the Xtra Muse, which is $329 (roughly […]",
+      "article_date": "2026-07-06T15:09:18.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:09:18.000Z"
+      },
+      "categories": [
+        "Cameras",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Inside the big business of the creator economy, with the agents making it happen",
+      "url": "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing",
+      "image_url": null,
+      "author": "Nilay Patel",
+      "excerpt": "We’ve got another special episode of Decoder today, recorded at the Cannes Lions advertising festival in the South of France. I’m talking with Ali Berman and Raina Penchansky, who run the Creators division at United Talent Agency. UTA is an enormous talent agency. Half the people you’ve ever heard speak or perform or who show […]",
+      "article_date": "2026-07-06T14:59:24.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:59:24.000Z"
+      },
+      "categories": [
+        "Creators",
+        "Decoder",
+        "Podcasts",
+        "Tech"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "The Science Behind Why Soccer Players at the 2026 World Cup Are Cutting Their Socks",
+      "url": "https://www.wired.com/story/the-science-behind-why-soccer-players-at-the-2026-world-cup-are-cutting-their-socks/",
+      "image_url": "https://media.wired.com/photos/6a4bb2899a04d6f37d84ef36/master/pass/GettyImages-2166320719.jpg",
+      "author": "Jorge Garay",
+      "excerpt": "Holes in socks have become a curious sight at this year’s World Cup. The reasons why are a weird mix of biomechanics, perception, and player habits.",
+      "article_date": "2026-07-06T14:50:52.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:50:52.000Z"
+      },
+      "categories": [
+        "Science"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Canadian spy agency says it hacked drug traffickers, extremists, and a ransomware gang last year",
+      "url": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
+      "image_url": null,
+      "author": "Zack Whittaker",
+      "excerpt": "The hacking operations disclosed in a Canadian spy agency's annual report underscores some pressing national security threats facing the country and its top allies.",
+      "article_date": "2026-07-06T14:43:59.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:43:59.000Z"
+      },
+      "categories": [
+        "Security",
+        "Canada",
+        "cyberattack",
+        "cybersecurity",
+        "ransomware"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
+      "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ftcms_90ad2b22-0222-4d93-ab0a-6c1af73b39fc-1-1152x648.jpeg",
+      "author": "Martin Arnold",
+      "excerpt": "FCA official makes case for greater powers for watchdog as millions use technology for personal finance decisions.",
+      "article_date": "2026-07-06T14:17:42.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:17:42.000Z"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "AI regulation",
+        "EU",
+        "regulation",
+        "syndication"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Nintendo will stop selling the original Switch in Europe next year",
+      "url": "https://www.theverge.com/games/961632/nintendo-switch-europe-discontinued",
+      "image_url": null,
+      "author": "Andrew Webster",
+      "excerpt": "Nintendo is making a new version of the Switch 2 with a replaceable battery in Europe - but its predecessor has a very different future. As part of an updated FAQ about revisions to Nintendo hardware in Europe, the company confirmed that it will stop selling all iterations of the original Switch on the continent […]",
+      "article_date": "2026-07-06T14:15:48.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:15:48.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "Gaming",
+        "News",
+        "Nintendo"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Xbox confirms plans to cut 3,200 jobs over the next year",
+      "url": "https://www.engadget.com/2208480/xbox-confirms-plans-to-lay-off-3200-workers-over-the-next-year/",
+      "image_url": "https://www.engadget.com/img/gallery/xbox-confirms-plans-to-lay-off-3200-workers-over-the-next-year/l-intro-1783361693.jpg",
+      "author": null,
+      "excerpt": "Xbox will lay off 3,200 workers as part of mass restructuring.",
+      "article_date": "2026-07-06T14:15:47.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:15:47.000Z"
+      },
+      "categories": [
+        "Xbox"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "How to reserve and change your WhatsApp username",
+      "url": "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/",
+      "image_url": null,
+      "author": "Ivan Mehta",
+      "excerpt": "WhatsApp now lets users reserve usernames ahead of the feature’s full rollout, making it possible to connect without sharing a phone number once usernames go live.",
+      "article_date": "2026-07-06T14:15:30.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:15:30.000Z"
+      },
+      "categories": [
+        "Apps",
+        "Social",
+        "Meta",
+        "username",
+        "WhatsApp"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "USB4 cables: When and why it's worth paying more",
+      "url": "https://www.engadget.com/2207394/usb4-cables-when-why-pay-more/",
+      "image_url": "https://www.engadget.com/img/gallery/usb4-cables-when-and-why-its-worth-paying-more/l-intro-1783029640.jpg",
+      "author": null,
+      "excerpt": "They're for more than just fast charging.",
+      "article_date": "2026-07-06T13:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T13:30:00.000Z"
+      },
+      "categories": [
+        "Accessories"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "image_url": null,
+      "author": "Anna Heim",
+      "excerpt": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+      "article_date": "2026-07-06T13:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T13:00:00.000Z"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "f/ai",
+        "Roxanne Varza",
+        "Station F",
+        "Xavier Niel"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Bentley teases the Torcal, its first electric vehicle",
+      "url": "https://www.engadget.com/2208295/bentley-teases-the-torcal-its-first-electric-vehicle/",
+      "image_url": "https://www.engadget.com/img/gallery/bentley-teases-the-torcal-its-first-electric-vehicle/l-intro-1783341898.jpg",
+      "author": null,
+      "excerpt": "Bentley has confirmed that it will finally add an electric car to its exclusive lineup.",
+      "article_date": "2026-07-06T12:46:30.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T12:46:30.000Z"
+      },
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Comcast buys the UK's biggest commercial broadcaster, ITV",
+      "url": "https://www.engadget.com/2208279/comcast-buys-the-uks-biggest-commercial-broadcaster-itv/",
+      "image_url": "https://www.engadget.com/img/gallery/comcast-to-buy-the-uks-biggest-commercial-broadcaster-itv/l-intro-1783340450.jpg",
+      "author": null,
+      "excerpt": "Comcast subsidiary Sky plans to buy the UK's biggest broadcaster, ITV.",
+      "article_date": "2026-07-06T12:21:23.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T12:21:23.000Z"
+      },
+      "categories": [
+        "Entertainment"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Bentley teases its first EV, the Torcal",
+      "url": "https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Bentley-Torcal-1152x648.jpg",
+      "author": "Jonathan M. Gitlin",
+      "excerpt": "The new model will be officially unveiled in late September.",
+      "article_date": "2026-07-06T11:30:38.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T11:30:38.000Z"
+      },
+      "categories": [
+        "Cars",
+        "bentley",
+        "EV"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Bentley Torcal EV: Price, Specs, Availability",
+      "url": "https://www.wired.com/story/bentley-reveals-its-first-electric-car-amid-the-wreckage-of-the-luxury-ev-market/",
+      "image_url": "https://media.wired.com/photos/6a4680acadcc41d8f6434aee/master/pass/Bentley%20Torcal.jpg",
+      "author": "Jeremy White",
+      "excerpt": "The 300-mile Torcal arrives in September, but considering what’s come before with Ferrari, Porsche, and Mercedes, has the company timed its EV entry right?",
+      "article_date": "2026-07-06T11:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T11:30:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "The Czinger 21C might be the wildest car we drive all year",
+      "url": "https://arstechnica.com/cars/2026/07/the-czinger-21c-might-be-the-wildest-car-we-drive-all-year/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/DSC_8270-1-1152x648.jpg",
+      "author": "Bradley Iger",
+      "excerpt": "This hybrid V8 has organic-looking 3D-printed components and shatters lap records.",
+      "article_date": "2026-07-06T11:00:14.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T11:00:14.000Z"
+      },
+      "categories": [
+        "Cars",
+        "Features",
+        "car review",
+        "Czinger",
+        "Hypercar"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "9 Best Keyboards (2025), Tested and Reviewed",
+      "url": "https://www.wired.com/gallery/best-keyboards/",
+      "image_url": "https://media.wired.com/photos/68a91b1c8930cbd96bd0da81/master/pass/The%20Best%20Keyboards%20for%20Work%20and%20Play.png",
+      "author": "Henri Robbins",
+      "excerpt": "Whether you’re looking to boost your productivity or your Fortnite stats, these are the top keyboards for the job.",
+      "article_date": "2026-07-06T11:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T11:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Gaming",
+        "Gear / Products / Home Office"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Can Partiful keep the party going?",
+      "url": "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir",
+      "image_url": null,
+      "author": "Mia Sato",
+      "excerpt": "One hundred dollars will buy you 8 pounds of glitter; 10 Domino's pizzas; 406 miniature disco balls from Temu; or 100 cans of Coors Light. For a friend's birthday party one year, Ayla D'Silva spent $100 on sour candy and made a \"sour candy salad.\" Even sweeter was that she didn't have to foot the […]",
+      "article_date": "2026-07-06T03:48:17.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-06T03:48:17.000Z"
+      },
+      "categories": [
+        "Business",
+        "Creators",
+        "Culture",
+        "Entertainment",
+        "Internet Culture",
+        "Report",
+        "Tech"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    }
+  ]
+}

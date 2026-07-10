@@ -1,0 +1,2122 @@
+{
+  "meta": {
+    "digest_id": "dd767fd6-4fb9-4539-b1a7-96eaecd78d8e",
+    "niche": "tech",
+    "run_at": "2026-07-08T08:34:44.310Z",
+    "orchestrator_version": "2.0.0",
+    "sources_attempted": 5,
+    "sources_ok": 5,
+    "sources_failed": 0,
+    "total_new": 89,
+    "run_results": {
+      "theverge": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "arstechnica": {
+        "ok": true,
+        "elapsed": "0.6"
+      },
+      "techcrunch": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "engadget": {
+        "ok": true,
+        "elapsed": "0.2"
+      },
+      "wired": {
+        "ok": true,
+        "elapsed": "0.2"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Samsung will launch its new wide foldable on July 22nd",
+      "url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
+      "image_url": null,
+      "author": "Dominic Preston",
+      "excerpt": "Samsung has announced that its next Galaxy Unpacked launch event will be held on July 22nd, with the tagline: \"A new shape unfolds.\" It's long been rumored that Samsung is about to expand its foldable phone line to a third format, with a shorter and wider version of its big book-style foldables, to match Huawei's […]",
+      "article_date": "2026-07-08T08:13:52.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T08:13:52.000Z"
+      },
+      "categories": [
+        "Foldable Phones",
+        "Gadgets",
+        "Mobile",
+        "News",
+        "Phones",
+        "Samsung",
+        "Tech",
+        "Wearable"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "image_url": null,
+      "author": "Anna Heim",
+      "excerpt": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "article_date": "2026-07-08T08:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T08:00:00.000Z"
+      },
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Startups",
+        "AI inference",
+        "Exclusive",
+        "ZML"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "image_url": null,
+      "author": "Kate Park",
+      "excerpt": "AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.",
+      "article_date": "2026-07-08T07:16:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T07:16:00.000Z"
+      },
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Intel",
+        "Funding",
+        "startup",
+        "SambaNova",
+        "SambaNova Systems",
+        "AI chip"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/rogue-ai-agent-1152x648.jpg",
+      "author": "Dan Goodin",
+      "excerpt": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+      "article_date": "2026-07-08T07:00:51.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T07:00:51.000Z"
+      },
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Security",
+        "hallucinations",
+        "LLMs",
+        "typosquatting"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Meta says it will disable the camera on its glasses if you tamper with the recording LED",
+      "url": "https://www.engadget.com/2210283/meta-disable-camera-glasses-tamper-with-recording-led/",
+      "image_url": "https://www.engadget.com/img/gallery/meta-says-it-will-disable-the-camera-on-its-glasses-if-you-tamper-with-the-recording-led/l-intro-1783492948.jpg",
+      "author": null,
+      "excerpt": "Meta answers people's privacy concerns about its smart glasses in an FAQ.",
+      "article_date": "2026-07-08T06:44:17.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T06:44:17.000Z"
+      },
+      "categories": [
+        "AI",
+        "Wearables"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "The ‘G-Wagen of golf carts’ could be the ideal second car",
+      "url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs",
+      "image_url": null,
+      "author": "Andrew J. Hawkins",
+      "excerpt": "While the auto industry wrings its hands over the electric vehicle market, sweating details like aerodynamic efficiency and range anxiety, a new EV startup based in Lisbon, Portugal, is zagging in a different direction. Amble's new electric buggy won't impress anyone with its 0-60 time or its self-driving features (it has none). Instead, it takes […]",
+      "article_date": "2026-07-08T06:15:28.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T06:15:28.000Z"
+      },
+      "categories": [
+        "Electric Cars",
+        "Report",
+        "Transportation"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Valvoline Coupons and Promo Codes for July 2026",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "image_url": "https://media.wired.com/photos/67b63b93a01a8e23b64ce24a/master/pass/WIRED-Coupons-R2_4.png",
+      "author": "Kat Merck",
+      "excerpt": "We've gathered all the top Valvoline coupons and promo codes for July 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
+      "url": "https://www.wired.com/story/lowes-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png",
+      "author": "Matthew Korfhage",
+      "excerpt": "Find the latest Lowe’s promo codes and offers, including up to $300 off select major appliances and $5 off $50 with sign-up, here at WIRED.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Columbia Promo Codes: 15% Off | July 2026",
+      "url": "https://www.wired.com/story/columbia-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b9c2c751893c256c1e8/master/pass/WIRED-Coupons-R2_13.png",
+      "author": "Boutayna Chokrane",
+      "excerpt": "Explore current Columbia deals on jackets, outdoor gear, and apparel. Find active Columbia promo codes, student discounts, and free shipping offers to save on your next adventure.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "20% Off Brooks Promo Code | July 2026",
+      "url": "https://www.wired.com/story/brooks-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
+      "author": "Adrienne So",
+      "excerpt": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "We-Vibe Discount Codes and Deals: Up to 60% Off",
+      "url": "https://www.wired.com/story/we-vibe-discount-code/",
+      "image_url": "https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png",
+      "author": "Amanda Chatel",
+      "excerpt": "Save on We-Vibe, including app-controlled bestsellers and popular gift sets designed for couples, connection, and shared pleasure.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Vimeo Promo Codes and Discounts: Up to 40% Off This July 2026",
+      "url": "https://www.wired.com/story/vimeo-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b985c0507c1bb18ab66/master/pass/WIRED-Coupons-R2_14.png",
+      "author": "Louryn Strampe",
+      "excerpt": "Enjoy 25% off a membership, 40% off, plus an additional 10% off annual plans, and more deals to save at Vimeo.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "TurboTax Full Service Coupons This July",
+      "url": "https://www.wired.com/story/turbotax-coupon/",
+      "image_url": "https://media.wired.com/photos/66ea076fca863bb4c1028b64/master/pass/WIRED-Coupons-11.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "Tax season doesn’t have to be stressful. Score 10% off full service expert on federal tax filings and more exclusive TurboTax discount codes on WIRED.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Best Buy Discount Codes: Up to 60% Off",
+      "url": "https://www.wired.com/story/best-buy-discount-code/",
+      "image_url": "https://media.wired.com/photos/67b63b972c751893c256c1e6/master/pass/WIRED-Coupons-R2_16.png",
+      "author": "Ryan Waniata",
+      "excerpt": "Find the latest Best Buy promo codes and offers, including 10% back in rewards for new cardmembers and free 2-day shipping with My Best Buy Plus, here at WIRED.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Groupon Promo Codes: 60% Off in July 2026",
+      "url": "https://www.wired.com/story/groupon-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea07715f7a3326e9fe7ca3/master/pass/WIRED-Coupons-5.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "Unlock up to 60% off, 40% off packages, and 20% off with top Groupon coupon codes. Explore coupons to save extra on travel getaways, holiday gifts, spa days, and event tickets.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "H&R Block Coupon: 25% Off DIY + Tax Pro Assist",
+      "url": "https://www.wired.com/story/hr-block-coupon/",
+      "image_url": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "Save over 25% when you opt for H&R Block’s free online offering, plus a tax pro review.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
+      "url": "https://www.wired.com/story/legalzoom-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b9b7d355db73b38e0c2/master/pass/WIRED-Coupons-R2_11.png",
+      "author": "Parker Hall",
+      "excerpt": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "KitchenAid Promo Codes: Save Up to 20%",
+      "url": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
+      "image_url": "https://media.wired.com/photos/66ea076ea6cbbaa16c12af30/master/pass/WIRED-Coupons-12.jpg",
+      "author": "Molly Higgins",
+      "excerpt": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 20% off countertop appliances.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Litter-Robot Promo Codes: Up to $150 Off",
+      "url": "https://www.wired.com/story/litter-robot-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png",
+      "author": "Molly Higgins",
+      "excerpt": "Get the latest Litter-Robot Discounts on Litter-Robot self-cleaning litter boxes, accessories, and more.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Tuft & Needle Promo Codes: 30% Off | July 2026",
+      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
+      "image_url": "https://media.wired.com/photos/67b63b93a01a8e23b64ce24a/master/pass/WIRED-Coupons-R2_4.png",
+      "author": "Nena Farrell",
+      "excerpt": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
+      "article_date": "2026-07-08T05:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T05:00:00.000Z"
+      },
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
+      "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update",
+      "image_url": null,
+      "author": "Victoria Song",
+      "excerpt": "Amid public backlash over its smart glasses, Meta announced that it will be updating its glasses with a new feature that will disable the camera when it detects that someone has tampered with or destroyed the glasses' privacy LED light. The update is meant to address modders who have taken actions such as physically drilling […]",
+      "article_date": "2026-07-07T23:55:19.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T23:55:19.000Z"
+      },
+      "categories": [
+        "Gadgets",
+        "Meta",
+        "News",
+        "Tech",
+        "Wearable"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Meta built an AI detection tool to ID images and video created with its new models",
+      "url": "https://www.engadget.com/2210223/meta-built-an-ai-detection-tool-to-id-images-and-video-created-with-its-new-models/",
+      "image_url": "https://www.engadget.com/img/gallery/meta-built-an-ai-detection-tool-to-id-images-and-video-created-with-its-new-models/l-intro-1783466213.jpg",
+      "author": null,
+      "excerpt": "Meta's new AI detector has rate limits for some reason.",
+      "article_date": "2026-07-07T23:23:52.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T23:23:52.000Z"
+      },
+      "categories": [
+        "AI",
+        "Meta"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "The next Samsung Galaxy Unpacked launch is happening on July 22",
+      "url": "https://www.engadget.com/2209773/the-next-samsung-galaxy-unpacked-launch-is-happening-on-july-22/",
+      "image_url": "https://www.engadget.com/img/gallery/the-next-samsung-galaxy-unpacked-launch-is-happening-on-july-22/l-intro-1783444881.jpg",
+      "author": null,
+      "excerpt": "The next Samsung Galaxy Unpacked launch is happening on July 22.",
+      "article_date": "2026-07-07T23:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T23:00:00.000Z"
+      },
+      "categories": [
+        "Samsung"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Final extension: Startup Battlefield Australia applications now close July 20",
+      "url": "https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/",
+      "image_url": null,
+      "author": "Isabelle Johannessen",
+      "excerpt": "If you're building something ambitious, this is a fast track to the people who can move your startup forward.",
+      "article_date": "2026-07-07T22:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T22:30:00.000Z"
+      },
+      "categories": [
+        "Startups",
+        "Startup Battlefield",
+        "Startup Battlefield Australia"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
+      "url": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/7827_lores-700x648.jpg",
+      "author": "Beth Mole",
+      "excerpt": "Cases have risen quickly as officials are working to identify a common source.",
+      "article_date": "2026-07-07T22:29:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T22:29:00.000Z"
+      },
+      "categories": [
+        "Health",
+        "cyclospora",
+        "cyclosporiasis",
+        "Michigan",
+        "outbreak"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "image_url": null,
+      "author": "Lucas Ropek",
+      "excerpt": "The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.",
+      "article_date": "2026-07-07T22:18:10.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T22:18:10.000Z"
+      },
+      "categories": [
+        "AI",
+        "Meta",
+        "Meta Superintelligence",
+        "Muse Image"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out",
+      "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
+      "image_url": "https://media.wired.com/photos/6a4d6e8fe06236b4d104fe30/master/pass/Meta-Lets-Anyone-Use-Your-Instagram-Photos-in-AI-Images-Gear-2268477073.jpg",
+      "author": "Reece Rogers",
+      "excerpt": "As part of Meta’s Muse Image model rollout, Instagram users with public accounts need to opt out to block AI generations of their content.",
+      "article_date": "2026-07-07T21:59:29.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:59:29.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "NASA transfers ownership of Maryland woodland to the US Fish and Wildlife Service",
+      "url": "https://www.engadget.com/2210180/nasa-transfers-ownership-of-maryland-woodland-to-the-us-fish-and-wildlife-service/",
+      "image_url": "https://www.engadget.com/img/gallery/nasa-transfers-ownership-of-maryland-woodland-to-the-us-fish-and-wildlife-service/l-intro-1783460804.jpg",
+      "author": null,
+      "excerpt": "A rare 2026 story of good news for the planet.",
+      "article_date": "2026-07-07T21:58:47.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:58:47.000Z"
+      },
+      "categories": [
+        "Science"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Of course viewers are giving up on Netflix shows",
+      "url": "https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok",
+      "image_url": null,
+      "author": "Charles Pulliam-Moore",
+      "excerpt": "Even though Netflix is the world's most popular paid streaming service, the company has been struggling to keep viewers watching its series after their first seasons. Beef - the streamer's anthology about people locked in feuds - lost 70 percent of its viewership when it returned earlier this year. There seems to be some confusion […]",
+      "article_date": "2026-07-07T21:58:39.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:58:39.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "TV Shows"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
+      "url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming",
+      "image_url": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "Starting on August 3rd, Netflix's streaming library will include video content from dozens of digital media brands including BuzzFeed, Condé Nast, Hearst Magazines, People Inc, and Tastemade. As reported earlier by TechCrunch, the deal includes a mix of licensed past videos and new ongoing series that would have typically been published on YouTube or other […]",
+      "article_date": "2026-07-07T21:37:19.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:37:19.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "Netflix",
+        "News",
+        "Streaming"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "OpenAI’s Chief Futurist Is Leaving the Company",
+      "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
+      "image_url": "https://media.wired.com/photos/6a431773890f52402e5ab8b7/master/pass/Joshua-Achiam-Leaving-OpenAI-Business-2274413917.jpg",
+      "author": "Maxwell Zeff",
+      "excerpt": "Joshua Achiam spent nearly nine years at OpenAI researching AI safety and made a memorable appearance in the Musk v. Altman trial.",
+      "article_date": "2026-07-07T21:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:30:00.000Z"
+      },
+      "categories": [
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Data centers’ energy demand threatens Trump’s “Made in America” plan",
+      "url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Electric-Arc-Furnace-1152x648.jpg",
+      "author": "Jeremy Hsu",
+      "excerpt": "Squeeze on Rust Belt electricity bills threatens Trump’s manufacturing plan.",
+      "article_date": "2026-07-07T21:03:07.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:03:07.000Z"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "ai data centers",
+        "big tech",
+        "data centers",
+        "Donald Trump",
+        "electricity demand",
+        "electricity grid"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Meta's new Muse Image model accepts Instagram accounts as a prompt",
+      "url": "https://www.engadget.com/2210087/meta-s-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/",
+      "image_url": "https://www.engadget.com/img/gallery/metas-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/l-intro-1783457258.jpg",
+      "author": null,
+      "excerpt": "The new AI model is also powering effects in Stories and image generation in WhatsApp.",
+      "article_date": "2026-07-07T20:49:10.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T20:49:10.000Z"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Meta"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+      "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+      "image_url": null,
+      "author": "Emma Roth",
+      "excerpt": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's part of the growing Muse family of AI […]",
+      "article_date": "2026-07-07T20:41:03.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T20:41:03.000Z"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Instagram",
+        "Meta",
+        "News",
+        "Social Media",
+        "Tech"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Surprisingly large number of people may have marker for tick-linked meat allergy",
+      "url": "https://arstechnica.com/health/2026/07/surprisingly-large-number-of-people-may-have-marker-for-tick-linked-meat-allergy/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2267590795-1152x648.jpg",
+      "author": "Beth Mole",
+      "excerpt": "There's still a slew of questions about why some people develop alpha-gal syndrome.",
+      "article_date": "2026-07-07T20:32:39.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T20:32:39.000Z"
+      },
+      "categories": [
+        "Health",
+        "allergy",
+        "alpha-gal",
+        "Alpha-Gal Syndrome",
+        "antibody",
+        "IgE",
+        "lone star tick",
+        "Meat"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "SCOTUS lets Texas enforce app store law that Big Tech calls \"censorship regime\"",
+      "url": "https://arstechnica.com/tech-policy/2026/07/supreme-court-lets-texas-enforce-age-verification-law-on-app-stores/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/texas-flag-1152x648.jpg",
+      "author": "Jon Brodkin",
+      "excerpt": "Texas win at 5th Circuit left in place as attempts to overturn age law continue.",
+      "article_date": "2026-07-07T20:18:24.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T20:18:24.000Z"
+      },
+      "categories": [
+        "Policy",
+        "Supreme Court",
+        "texas"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "image_url": null,
+      "author": "Russell Brandom",
+      "excerpt": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+      "article_date": "2026-07-07T20:04:32.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T20:04:32.000Z"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Anthropic",
+        "Decagon"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "image_url": null,
+      "author": "Lucas Ropek",
+      "excerpt": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending.",
+      "article_date": "2026-07-07T19:58:20.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:58:20.000Z"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "In Brief",
+        "Microsoft",
+        "OpenAI",
+        "tokens"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Bethesda, id Software reportedly hit hard by Microsoft layoffs",
+      "url": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/keen-1152x524.jpg",
+      "author": "Kyle Orland",
+      "excerpt": "As much as 50 percent of some teams affected by reductions, and more could be coming.",
+      "article_date": "2026-07-07T19:52:59.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:52:59.000Z"
+      },
+      "categories": [
+        "Gaming",
+        "bethesda",
+        "Doom",
+        "id Software",
+        "layoffs",
+        "microsoft",
+        "romero"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Hasbro and Scooby Doo team up for one of the goofiest Transformers yet",
+      "url": "https://www.engadget.com/2209980/hasbro-and-scooby-doo-team-up-for-one-of-the-goofiest-transformers-yet/",
+      "image_url": "https://www.engadget.com/img/gallery/hasbro-and-scooby-doo-teamed-up-for-one-of-the-goofiest-transformers-yet/l-intro-1783452596.jpg",
+      "author": null,
+      "excerpt": "Hasbro and Scooby Doo team up for one of the goofiest Transformers yet.",
+      "article_date": "2026-07-07T19:31:52.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:31:52.000Z"
+      },
+      "categories": [
+        "Entertainment"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "image_url": null,
+      "author": "Lauren Forristal",
+      "excerpt": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem.",
+      "article_date": "2026-07-07T19:28:38.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:28:38.000Z"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "discord"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
+      "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pixel-11-event-1152x648.jpg",
+      "author": "Ryan Whitwam",
+      "excerpt": "Google's new phones could feature glowing LEDs and higher price tags.",
+      "article_date": "2026-07-07T19:08:34.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:08:34.000Z"
+      },
+      "categories": [
+        "Google",
+        "Tech",
+        "android",
+        "google",
+        "pixel 11",
+        "pixel watch 5",
+        "smartphones"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Doom developer id Software is reportedly losing half its staff",
+      "url": "https://www.engadget.com/2209928/doom-developer-id-software-is-reportedly-losing-half-its-staff/",
+      "image_url": "https://www.engadget.com/img/gallery/doom-developer-id-software-is-reportedly-losing-half-its-staff/l-intro-1783450945.jpg",
+      "author": null,
+      "excerpt": "Amid shakeups at Xbox, Doom developer id Software is reportedly losing half its staff.",
+      "article_date": "2026-07-07T19:04:21.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:04:21.000Z"
+      },
+      "categories": [
+        "Gaming"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "The FCC wants to make easier for ISPs to hide junk fees",
+      "url": "https://www.engadget.com/2209914/the-fcc-wants-to-make-easier-for-isps-to-hide-junk-fees/",
+      "image_url": "https://www.engadget.com/img/gallery/the-fcc-wants-to-make-easier-for-isps-to-hide-junk-fees/l-intro-1783450287.jpg",
+      "author": null,
+      "excerpt": "The FCC is set to defang rules around ISP junk fee reporting.",
+      "article_date": "2026-07-07T18:52:46.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:52:46.000Z"
+      },
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Google’s Pixel event is set for August 12",
+      "url": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/",
+      "image_url": null,
+      "author": "Lauren Forristal",
+      "excerpt": "Google's upcoming event in August will introduce new Pixel devices.",
+      "article_date": "2026-07-07T18:38:29.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:38:29.000Z"
+      },
+      "categories": [
+        "Gadgets",
+        "Hardware",
+        "Google",
+        "Google Pixel",
+        "In Brief"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Figma acquires team behind a vibe-coding app",
+      "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
+      "image_url": null,
+      "author": "Ivan Mehta",
+      "excerpt": "The Y Combinator-backed company started a vibe-coding platform and later built an agent-creation product.",
+      "article_date": "2026-07-07T18:37:01.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:37:01.000Z"
+      },
+      "categories": [
+        "Apps",
+        "Figma",
+        "In Brief",
+        "vibe coding"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Here's what the CE mark means on your electronics",
+      "url": "https://www.engadget.com/2209022/what-ce-marking-means-on-electronics/",
+      "image_url": "https://www.engadget.com/img/gallery/heres-what-the-ce-mark-means-on-your-electronics/l-intro-1783367635.jpg",
+      "author": null,
+      "excerpt": "Know when and why the CE mark appear on a label.",
+      "article_date": "2026-07-07T18:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:30:00.000Z"
+      },
+      "categories": [
+        "Big Tech"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "The Weather Channel increases streaming subscription prices by up to $20",
+      "url": "https://arstechnica.com/gadgets/2026/07/the-weather-channels-streaming-app-gets-a-67-percent-price-hike/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2164684199-1152x648-1783447853.jpg",
+      "author": "Scharon Harding",
+      "excerpt": "Livestreaming the channel through its app now starts at $5 per month.",
+      "article_date": "2026-07-07T18:29:24.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:29:24.000Z"
+      },
+      "categories": [
+        "Tech",
+        "streaming",
+        "The Weather Channel",
+        "Weather"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "X says top accounts steal videos from other users as it announces new video tools",
+      "url": "https://www.theverge.com/tech/962415/x-video-editor-recycled-content",
+      "image_url": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "Nikita Bier, X's head of product, said in a post on Monday that \"[m]any videos from top accounts are simply stolen from other users, sometimes 5 years after they originally went viral,\" while noting that videos on the platform \"make up close to half the impressions on X.\" According to Bier, X is launching a […]",
+      "article_date": "2026-07-07T18:28:08.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:28:08.000Z"
+      },
+      "categories": [
+        "Creators",
+        "News",
+        "Social Media",
+        "Tech",
+        "Twitter - X"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "The Nintendo Switch's days are numbered—but what is that number?",
+      "url": "https://arstechnica.com/gaming/2026/07/the-nintendo-switchs-days-are-numbered-but-what-is-that-number/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/nintendo-switch-1152x648-1776887603.jpg",
+      "author": "Kyle Orland",
+      "excerpt": "Ars analysis suggests the 9-year-old console could keep selling for years.",
+      "article_date": "2026-07-07T18:16:29.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:16:29.000Z"
+      },
+      "categories": [
+        "Gaming",
+        "hardware",
+        "marketing",
+        "Nintendo",
+        "sales",
+        "Switch",
+        "switch 2"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Mysterious Compound Detected on Pluto and Titan",
+      "url": "https://www.wired.com/story/mysterious-compound-detected-on-pluto-and-titan/",
+      "image_url": "https://media.wired.com/photos/6a4d000d4cf7b85a60294910/master/pass/648792438",
+      "author": "Jorge Garay",
+      "excerpt": "Something on Pluto and one of Saturn’s moons, Titan, absorbs light in a way unexplained by anything in spectroscopic databases.",
+      "article_date": "2026-07-07T18:03:40.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:03:40.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Space"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "A bug in Discord's safety systems incorrectly banned accounts since May",
+      "url": "https://www.engadget.com/2209819/a-bug-in-discords-safety-systems-incorrectly-banned-accounts-since-may/",
+      "image_url": "https://www.engadget.com/img/gallery/a-bug-in-discords-safety-systems-incorrectly-banned-accounts-since-may/l-intro-1783446617.jpg",
+      "author": null,
+      "excerpt": "A bug may have led to around 8,200 erroneous bans on Discord.",
+      "article_date": "2026-07-07T18:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:00:00.000Z"
+      },
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Google announces Pixel 11 launch event in August",
+      "url": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event",
+      "image_url": null,
+      "author": "Jay Peters",
+      "excerpt": "Google is hosting its next Made by Google launch event for Pixel hardware on August 12th in New York City, according to an invitation sent by Google to The Verge. Unusually, the event is taking place in the evening: It'll kick off at 6PM ET that day. The email also includes a brief animation teasing […]",
+      "article_date": "2026-07-07T17:49:13.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:49:13.000Z"
+      },
+      "categories": [
+        "Google",
+        "Google Pixel",
+        "News",
+        "Tech"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "ABC tells the government to get out of its newsrooms",
+      "url": "https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech",
+      "image_url": null,
+      "author": "Emma Roth",
+      "excerpt": "ABC is firing back at the Federal Communications Commission after the agency opened an investigation into The View's airtime of political candidates. In a letter to the FCC on Tuesday, ABC argues that the agency's actions pose a risk to editorial independence by targeting programs \"perceived as unfriendly to the current administration,\" as reported earlier […]",
+      "article_date": "2026-07-07T17:47:38.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:47:38.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "News",
+        "Policy",
+        "Politics",
+        "Speech",
+        "TV Shows"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "image_url": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for macOS and Windows, […]",
+      "article_date": "2026-07-07T17:47:03.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:47:03.000Z"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "iRobot made a non-robot floor cleaner",
+      "url": "https://www.engadget.com/2209802/irobot-made-a-non-robot-floor-cleaner/",
+      "image_url": "https://www.engadget.com/img/gallery/irobot-made-a-non-robot-floor-cleaner/l-intro-1783445680.jpg",
+      "author": null,
+      "excerpt": "iRobot's new floor cleaner isn't a robot at all.",
+      "article_date": "2026-07-07T17:45:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:45:00.000Z"
+      },
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Google's next Pixel event is on August 12",
+      "url": "https://www.engadget.com/2209791/googles-next-pixel-event-is-on-august-12/",
+      "image_url": "https://www.engadget.com/img/gallery/googles-next-pixel-event-is-on-august-12/l-intro-1783445437.jpg",
+      "author": null,
+      "excerpt": "Google's next Pixel event will be August 12 at 6pm ET.",
+      "article_date": "2026-07-07T17:32:15.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:32:15.000Z"
+      },
+      "categories": [
+        "Google"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others",
+      "url": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/",
+      "image_url": null,
+      "author": "Sarah Perez",
+      "excerpt": "Netflix is bringing 2- to 20-minute videos to its platform through new partnerships with digital publishers, including Rolling Stone and Variety.",
+      "article_date": "2026-07-07T17:24:35.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:24:35.000Z"
+      },
+      "categories": [
+        "Media & Entertainment",
+        "media",
+        "Netflix",
+        "publisher",
+        "streaming"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "The X app for iOS now has a built-in video editor",
+      "url": "https://www.engadget.com/2209749/the-x-app-for-ios-now-has-a-built-in-video-editor/",
+      "image_url": "https://www.engadget.com/img/gallery/the-x-app-for-ios-now-has-a-built-in-video-editor/l-intro-1783443932.jpg",
+      "author": null,
+      "excerpt": "X now has a built-in video editor on iOS.",
+      "article_date": "2026-07-07T17:06:38.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:06:38.000Z"
+      },
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "This race car is made from plant fibers, volcanoes, ... and seawater?",
+      "url": "https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/3O0A6846-1152x648.jpg",
+      "author": "Jonathan M. Gitlin",
+      "excerpt": "The T70S can be eligible for racing events or built to be road-legal.",
+      "article_date": "2026-07-07T16:45:18.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:45:18.000Z"
+      },
+      "categories": [
+        "Cars",
+        "Lola Cars",
+        "sustainable manufacturing"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Hacked, leaked, and held for ransom: The worst breaches of 2026 so far",
+      "url": "https://techcrunch.com/2026/07/07/the-worst-hacks-and-breaches-of-2026-so-far/",
+      "image_url": null,
+      "author": "Zack Whittaker",
+      "excerpt": "From a massive DOGE data breach and the hacking of critical energy and water systems to the hack of an FBI surveillance system, here are the most damaging security incidents and data breaches of 2026.",
+      "article_date": "2026-07-07T16:45:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:45:00.000Z"
+      },
+      "categories": [
+        "Security",
+        "cyberattack",
+        "cybersecurity",
+        "data breach",
+        "hacks"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Avatar Aang: The Last Airbender finally has a trailer and a July 25 release date",
+      "url": "https://www.engadget.com/2209710/avatar-aang-the-last-airbender-finally-has-a-trailer-and-a-july-25-release-date/",
+      "image_url": "https://www.engadget.com/img/gallery/avatar-aang-the-last-airbender-finally-has-a-trailer-and-a-july-25-release-date/l-intro-1783442456.jpg",
+      "author": null,
+      "excerpt": "If you want to (legally) watch Avatar Aang: The Last Airbender, it finally has a trailer and a July 25 release date.",
+      "article_date": "2026-07-07T16:42:47.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:42:47.000Z"
+      },
+      "categories": [
+        "TV & Movies"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Claude Cowork expands to mobile and web",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "image_url": null,
+      "author": "Rebecca Bellan",
+      "excerpt": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed.",
+      "article_date": "2026-07-07T16:27:18.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:27:18.000Z"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "claude cowork",
+        "coding agent"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
+      "url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2195894561-1152x648.jpg",
+      "author": "Samuel Axon",
+      "excerpt": "It's early, but the plan is to reduce dependency on Nvidia and Huawei.",
+      "article_date": "2026-07-07T16:14:53.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:14:53.000Z"
+      },
+      "categories": [
+        "AI",
+        "china",
+        "data centers",
+        "deepseek",
+        "Huawei",
+        "inference",
+        "NVIDIA",
+        "openai"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Now you can direct Anthropic's Claude Cowork AI from your phone",
+      "url": "https://www.engadget.com/2209495/now-you-can-direct-anthropic-claude-cowork-ai-from-your-phone/",
+      "image_url": "https://www.engadget.com/img/gallery/now-you-can-direct-anthropics-claude-cowork-ai-from-your-phone/l-intro-1783433017.jpg",
+      "author": null,
+      "excerpt": "Max subscribers get first access to Claude's new Cowork tool for your phone.",
+      "article_date": "2026-07-07T16:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:00:00.000Z"
+      },
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone",
+      "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
+      "image_url": "https://media.wired.com/photos/6a4c0a029897ae33b7e202dc/master/pass/Cowork-Web-Mobile-Press-No-Logo-1920x1080.png",
+      "author": "Reece Rogers",
+      "excerpt": "Claude Cowork now keeps working on tasks even after you close your laptop. It’s part of a larger push toward smartphone-controlled agents.",
+      "article_date": "2026-07-07T16:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Apps"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Dragonflies maneuver like fighter pilots",
+      "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/dragonfly1-1152x648.jpg",
+      "author": "Jennifer Ouellette",
+      "excerpt": "Male dragonflies' dramatic aerial combat maneuvers emerge from relatively simple vision-based rules.",
+      "article_date": "2026-07-07T15:54:18.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T15:54:18.000Z"
+      },
+      "categories": [
+        "Science",
+        "aerodynamics",
+        "animal behavior",
+        "Biology",
+        "dragonflies"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Here's what all of those Android status bar icons mean",
+      "url": "https://www.engadget.com/2208629/what-android-status-bar-icons-mean/",
+      "image_url": "https://www.engadget.com/img/gallery/heres-what-all-of-those-android-status-bar-icons-mean/l-intro-1783352469.jpg",
+      "author": null,
+      "excerpt": "There's a lot of info packed in the top area of an Android phone's screen",
+      "article_date": "2026-07-07T15:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T15:30:00.000Z"
+      },
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "X adds a video editor to encourage creators to post original content, not stolen reposts",
+      "url": "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts/",
+      "image_url": null,
+      "author": "Sarah Perez",
+      "excerpt": "X is rolling out a new video editor and recorder for iOS with multilingual captions, green-screen effects, and other editing tools.",
+      "article_date": "2026-07-07T15:19:33.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T15:19:33.000Z"
+      },
+      "categories": [
+        "Apps",
+        "Media & Entertainment",
+        "Social",
+        "Creators",
+        "social media",
+        "X"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "VC firm Chemistry is raising $500M for its second fund",
+      "url": "https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund/",
+      "image_url": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "Chemistry Ventures, the VC firm launched by Bessemer, Index Ventures, and Andreessen Horowitz alums, is raising $500M for its second fund.",
+      "article_date": "2026-07-07T15:02:02.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T15:02:02.000Z"
+      },
+      "categories": [
+        "Venture",
+        "a16z",
+        "bessemer",
+        "chemistry",
+        "In Brief",
+        "index",
+        "VC"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+      "image_url": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "AI law startup Norm has raised a $120 million Series C round led by Khosla Ventures, valuing the startup at $1.2 billion.",
+      "article_date": "2026-07-07T14:35:42.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T14:35:42.000Z"
+      },
+      "categories": [
+        "Fundraising",
+        "Startups",
+        "Venture",
+        "In Brief",
+        "Khosla Ventures",
+        "Legal AI",
+        "legal tech",
+        "Norm"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "This startup pits dealerships against each other to bid on your used car",
+      "url": "https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/",
+      "image_url": null,
+      "author": "Sean O'Kane",
+      "excerpt": "Bidbus, which lets dealerships bid on used cars, has raised $15 million in a Series A round that was led by early-stage mobility fund Ibex Investors.",
+      "article_date": "2026-07-07T14:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T14:00:00.000Z"
+      },
+      "categories": [
+        "Fundraising",
+        "Startups",
+        "Transportation",
+        "bidbus",
+        "carvana",
+        "Exclusive",
+        "Ibex Investors",
+        "used car ecommerce platform"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "How to protect your tech from lightning strikes",
+      "url": "https://www.engadget.com/2208395/how-to-protect-your-tech-from-lightning-strikes/",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-protect-your-tech-from-lightning-strikes/l-intro-1783344750.jpg",
+      "author": null,
+      "excerpt": "Doing a little work ahead of time will help keep your gadgets from being fried in an electrical storm.",
+      "article_date": "2026-07-07T13:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T13:30:00.000Z"
+      },
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "New virus catalog reveals which pathogens pose the greatest threat",
+      "url": "https://arstechnica.com/health/2026/07/new-virus-catalog-reveals-which-pathogens-pose-the-greatest-threat/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1230363263-1152x648.jpg",
+      "author": "Mark Woolhouse",
+      "excerpt": "The data can help predict what a future pandemic virus might look like.",
+      "article_date": "2026-07-07T13:15:49.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T13:15:49.000Z"
+      },
+      "categories": [
+        "Health",
+        "ebola",
+        "SARS-CoV-2",
+        "syndication"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Hacktivists call out Trump by hacking and defacing US Army websites",
+      "url": "https://techcrunch.com/2026/07/07/hacktivists-call-out-trump-by-hacking-and-defacing-us-army-websites/",
+      "image_url": null,
+      "author": "Zack Whittaker",
+      "excerpt": "The U.S. Army has fixed two of its websites that were hacked to display messages calling President Trump a \"pedophile\" and a \"thief.\"",
+      "article_date": "2026-07-07T13:10:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T13:10:00.000Z"
+      },
+      "categories": [
+        "Security",
+        "cyberattack",
+        "cybersecurity",
+        "hacktivist",
+        "us government"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Orbitals is a nostalgic hit of split-screen platforming, puzzles and '90s anime",
+      "url": "https://www.engadget.com/2206831/orbitals-is-a-nostalgic-hit-of-split-screen-platforming-puzzles-and-90s-anime/",
+      "image_url": "https://www.engadget.com/img/gallery/orbitals-is-a-nostalgic-hit-of-split-screen-platforming-puzzles-and-90s-anime/l-intro-1783006251.jpg",
+      "author": null,
+      "excerpt": "It feels like childhood.",
+      "article_date": "2026-07-07T13:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T13:00:00.000Z"
+      },
+      "categories": [
+        "Nintendo"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "These New Smart Glasses From Solos Come With a Privacy Shield for the Cameras",
+      "url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras/",
+      "image_url": "https://media.wired.com/photos/6a4bd7c758fe114a7a5cba2a/master/pass/Solos-Smart-Glasses-Gear-10.jpg",
+      "author": "Boone Ashworth",
+      "excerpt": "You can clip a cover over the cameras, which could be a double-edged sword.",
+      "article_date": "2026-07-07T13:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T13:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "NASA celebrates James Webb's fourth anniversary with the most detailed image of Centaurus A yet",
+      "url": "https://www.engadget.com/2209381/nasa-james-webb-fourth-anniversary-detailed-image-centaurus-a/",
+      "image_url": "https://www.engadget.com/img/gallery/nasa-celebrates-james-webbs-fourth-anniversary-with-the-most-detailed-image-of-centaurus-a-yet/l-intro-1783425515.jpg",
+      "author": null,
+      "excerpt": "NASA has released the most detailed images of the Centaurus A galaxy we've ever seen, captured by the James Webb telescope.",
+      "article_date": "2026-07-07T12:01:43.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T12:01:43.000Z"
+      },
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+      "image_url": null,
+      "author": "Julie Bort",
+      "excerpt": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
+      "article_date": "2026-07-07T12:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T12:00:00.000Z"
+      },
+      "categories": [
+        "Startups",
+        "Security",
+        "AI",
+        "acrew capital",
+        "AI scams",
+        "fraud detection",
+        "Savi"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Marshall's Acton IV and Stanmore IV speakers come with customizable buttons",
+      "url": "https://www.engadget.com/2209353/marshall-acton-iv-stanmore-iv-speakers/",
+      "image_url": "https://www.engadget.com/img/gallery/marshalls-acton-iv-and-stanmore-iv-speakers-come-with-customizable-m-buttons/l-intro-1783418572.jpg",
+      "author": null,
+      "excerpt": "Marshall has launched its next-generation vintage-inspired Acton and Stanmore speakers.",
+      "article_date": "2026-07-07T12:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T12:00:00.000Z"
+      },
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "The Best iPhone 17 Cases (2026): Our Picks After Testing 100+",
+      "url": "https://www.wired.com/gallery/best-iphone-17-cases-and-accessories/",
+      "image_url": "https://media.wired.com/photos/68ce2fd1550f612a902e2a42/master/pass/iPhone%2017%20Cases%20Hero%20Image%20SOURCE%20Julian%20Chokkattu.jpg",
+      "author": "Julian Chokkattu, Louryn Strampe",
+      "excerpt": "Protect your expensive iPhone 17, iPhone Air, iPhone Pro, or iPhone 17e with our favorite cases and screen protectors.",
+      "article_date": "2026-07-07T11:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T11:30:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Phones"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner",
+      "url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/55370181785_141924edbe_4k-1152x648.jpg",
+      "author": "Stephen Clark",
+      "excerpt": "Amazon says it has enough satellites in orbit to begin initial broadband service at mid-latitudes later this year.",
+      "article_date": "2026-07-07T11:15:15.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T11:15:15.000Z"
+      },
+      "categories": [
+        "Space",
+        "Amazon",
+        "amazon leo",
+        "atlas v",
+        "launch",
+        "megaconstellation",
+        "united launch alliance"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Hisense UR9 RGB MiniLED: An Affordable TV in Its Class",
+      "url": "https://www.wired.com/review/hisense-ur9-rgb-miniled/",
+      "image_url": "https://media.wired.com/photos/6a4bdfbb6a49ac9393dae91c/master/pass/Review--Hisense-UR9-RGB-MiniLED.jpg",
+      "author": "John Brandon",
+      "excerpt": "The brand’s UR9 competes with similar offerings from higher-end brands like Samsung and LG.",
+      "article_date": "2026-07-07T11:01:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T11:01:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Televisions"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "How AI could enable autonomous robot workers in workplaces—and maybe homes",
+      "url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Agility_Digit_06-1152x648.jpg",
+      "author": "Jeremy Hsu",
+      "excerpt": "Top robotics researchers and founders explain how robot autonomy is evolving.",
+      "article_date": "2026-07-07T11:00:18.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T11:00:18.000Z"
+      },
+      "categories": [
+        "AI",
+        "Features",
+        "Agility Robotics",
+        "boston dynamics",
+        "domestic robots",
+        "Industrial robots",
+        "physical AI",
+        "Physical Intelligence"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Best Indoor Garden Systems: I've Been Testing All Year (2026)",
+      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
+      "image_url": "https://media.wired.com/photos/688061d68203c2103d95c470/master/pass/We%20Tried%205%20of%20the%20Most%20Popular%20Indoor%20Gardening%20Systems.png",
+      "author": "Kat Merck",
+      "excerpt": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
+      "article_date": "2026-07-07T10:31:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T10:31:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Pete Holmes Is Not Reading Your Email",
+      "url": "https://www.wired.com/story/pete-holmes-user-behavior/",
+      "image_url": "https://media.wired.com/photos/6a4c392002bd100f6dc9d608/master/pass/pete_holmes_final_social.jpg",
+      "author": "Elana Klein",
+      "excerpt": "“You can make a living, you can have a life, and leave 55,000 emails unread with a big fuck off.”",
+      "article_date": "2026-07-07T10:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T10:00:00.000Z"
+      },
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Erling Haaland Is Everywhere at the World Cup. Most of It Is AI",
+      "url": "https://www.wired.com/story/erling-haaland-is-everywhere-at-the-world-cup-most-of-it-is-ai/",
+      "image_url": "https://media.wired.com/photos/6a4c65ccbde112482e13fc49/master/pass/Erling-Haaland_Culture_World-Cup.jpg",
+      "author": "Megan Tomos",
+      "excerpt": "Norwegian striker Erling Haaland isn’t just a footballer anymore. He’s become an internet character perpetuated by fans and AI.",
+      "article_date": "2026-07-07T10:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T10:00:00.000Z"
+      },
+      "categories": [
+        "Culture"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "People Used to Control Machines. They Don’t Anymore",
+      "url": "https://www.wired.com/story/loss-of-physical-world-book-excerpt-the-small-stuff-ian-bogost/",
+      "image_url": "https://media.wired.com/photos/6a441cbc08adce464121affa/master/pass/BookExceprt_People%20Used%20to%20Control%20Machines%20They%20Don%E2%80%99t%20Anymore_v2.jpg",
+      "author": "Ian Bogost",
+      "excerpt": "In a world regulated by devices, humanity has become disconnected from the physical world—from stick-shift cars to postcards.",
+      "article_date": "2026-07-07T10:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T10:00:00.000Z"
+      },
+      "categories": [
+        "The Big Story"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "British Space Startup Launches Longevity Lab Into Orbit",
+      "url": "https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit/",
+      "image_url": "https://media.wired.com/photos/6a4bec4884127a1d3953c8af/master/pass/Precision_assembly%20(credit_%20Tumbleweed%20Microgravity).png",
+      "author": "Isabella Ward",
+      "excerpt": "The lab will beam back data to train AI models to predict how proteins behind age-related diseases like Alzheimer’s and certain cancers behave.",
+      "article_date": "2026-07-07T09:57:12.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T09:57:12.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Space"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    }
+  ]
+}

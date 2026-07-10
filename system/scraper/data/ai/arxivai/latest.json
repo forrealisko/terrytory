@@ -5,7 +5,7 @@
     "source_url": "http://export.arxiv.org/rss/cs.AI",
     "source_type": "rss",
     "scraper_version": "2.0.0",
-    "proxy": "brightdata-residential",
+    "proxy": "direct",
     "total_headlines": 40,
     "new_headlines": 40,
     "previously_seen": 0
@@ -256,7 +256,7 @@
       "image_url": null,
       "categories": [
         "cs.AI",
-        "cs.CL"
+        "cs.LG"
       ],
       "tags": [],
       "date_analysis": {

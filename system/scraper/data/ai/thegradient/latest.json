@@ -5,7 +5,7 @@
     "source_url": "https://thegradient.pub/rss/",
     "source_type": "rss",
     "scraper_version": "2.0.0",
-    "proxy": "brightdata-residential",
+    "proxy": "direct",
     "total_headlines": 15,
     "new_headlines": 0,
     "previously_seen": 15

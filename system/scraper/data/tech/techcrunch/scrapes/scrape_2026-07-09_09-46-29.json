@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "scrape_id": "61f870ef-e608-4003-9a87-c0f3233cf9d4",
+    "scraped_at": "2026-07-09T09:46:29.602Z",
+    "source_url": "https://techcrunch.com/feed/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Truecaller clashes with India’s telecom regulator over anti-spam rules",
+      "url": "https://techcrunch.com/2026/07/08/truecaller-clashes-with-indias-telecom-regulator-over-anti-spam-rules/",
+      "article_date": "2026-07-09T02:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Jagmeet Singh",
+      "excerpt": "The caller ID company says users are increasingly ignoring and blocking calls from India's dedicated business number series.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Government & Policy",
+        "Truecaller",
+        "MeitY",
+        "TRAI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T02:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
+      "url": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/",
+      "article_date": "2026-07-08T23:11:42.000Z",
+      "article_date_raw": null,
+      "author": "Lucas Ropek",
+      "excerpt": "The saga of Musk's tussle with the SEC over how he disclosed his growing stake in Twitter (now X) has come to an end.",
+      "image_url": null,
+      "categories": [
+        "Government & Policy",
+        "Elon Musk",
+        "In Brief",
+        "SEC",
+        "Trump",
+        "Twitter"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T23:11:42.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Lovable reportedly in talks to double its valuation to $13.2B",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+      "article_date": "2026-07-08T22:41:33.000Z",
+      "article_date_raw": null,
+      "author": "Marina Temkin",
+      "excerpt": "The $300 million round is expected to be led by Menlo Ventures, Sifted reported.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Startups",
+        "In Brief",
+        "Lovable",
+        "menlo ventures",
+        "vibe coding"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T22:41:33.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Feds demand autonomous vehicle companies stop interfering with first responders",
+      "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
+      "article_date": "2026-07-08T21:49:33.000Z",
+      "article_date_raw": null,
+      "author": "Kirsten Korosec",
+      "excerpt": "The National Highway Traffic Safety Administration said emergency scenes are not \"edge cases.\"",
+      "image_url": null,
+      "categories": [
+        "Transportation",
+        "autonomous vehicles",
+        "avride",
+        "nhtsa",
+        "robotaxis",
+        "Waymo"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T21:49:33.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "article_date": "2026-07-08T20:37:03.000Z",
+      "article_date_raw": null,
+      "author": "Russell Brandom",
+      "excerpt": "Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "deepfakes",
+        "In Brief",
+        "synthid"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T20:37:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing",
+      "url": "https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/",
+      "article_date": "2026-07-08T20:29:50.000Z",
+      "article_date_raw": null,
+      "author": "Anna Heim",
+      "excerpt": "Like its U.S. counterpart, the European Chips Act aims to foster the semiconductor industry — in part thanks to state subsidies. One of the beneficiaries is QuantumDiamonds, a German startup that applies a novel approach to inspecting chips.",
+      "image_url": null,
+      "categories": [
+        "Startups",
+        "chip manufacturing",
+        "European Chips Act",
+        "Exclusive",
+        "quantum sensing",
+        "quantumdiamonds",
+        "Technical University of Munich"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T20:29:50.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Autonomous drone delivery startup Manna plots major US expansion",
+      "url": "https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/",
+      "article_date": "2026-07-08T20:06:54.000Z",
+      "article_date_raw": null,
+      "author": "Kirsten Korosec",
+      "excerpt": "Manna is launching a U.S. operations and manufacturing facility in Tulsa, Oklahoma, that will eventually employ 1,000 people.",
+      "image_url": null,
+      "categories": [
+        "Transportation",
+        "autonmous drones",
+        "drones",
+        "manna aero"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T20:06:54.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "article_date": "2026-07-08T19:30:16.000Z",
+      "article_date_raw": null,
+      "author": "Lucas Ropek",
+      "excerpt": "Elon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "ChatGPT",
+        "Elon Musk",
+        "Grok",
+        "OpenAI",
+        "spacexai"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:30:16.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "‘Slow-cial’ app Roost forces you to slow down to the speed of a carrier pigeon",
+      "url": "https://techcrunch.com/2026/07/08/slow-cial-app-roost-forces-you-to-slow-down-to-the-speed-of-a-carrier-pigeon/",
+      "article_date": "2026-07-08T19:22:11.000Z",
+      "article_date_raw": null,
+      "author": "Amanda Silberling",
+      "excerpt": "This developer didn't expect his side project to grow to 300,000 users, but people love Roost because it's an alternative to an always-on, fast-paced online culture.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Social",
+        "Roost"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:22:11.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "article_date": "2026-07-08T19:19:15.000Z",
+      "article_date_raw": null,
+      "author": "Rebecca Bellan",
+      "excerpt": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Robotics",
+        "Equity",
+        "general intuition",
+        "pim de witte"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:19:15.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Elon Musk says X will send DMs when posts you’ve engaged with are corrected",
+      "url": "https://techcrunch.com/2026/07/08/elon-musk-says-x-will-send-dms-when-posts-youve-engaged-with-are-corrected/",
+      "article_date": "2026-07-08T18:46:20.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "X plans to send users direct messages when posts they’ve liked, replied to, or reposted receive Community Notes, an update aimed at addressing criticism that the platform’s crowdsourced fact-checking system often arrives too late to curb misinformation.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Social",
+        "community notes",
+        "fact checking",
+        "social media",
+        "X"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T18:46:20.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Google Photos adds a new AI ‘Video Remix’ tool",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "article_date": "2026-07-08T18:30:08.000Z",
+      "article_date_raw": null,
+      "author": "Aisha Malik",
+      "excerpt": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "Google",
+        "Google Photos"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T18:30:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Why this CEO thinks video games make better training data than the internet",
+      "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+      "article_date": "2026-07-08T17:47:55.000Z",
+      "article_date_raw": null,
+      "author": "Theresa Loconsolo",
+      "excerpt": "When it comes to achieving artificial general intelligence (AGI), large language models just don’t have what it takes. Models like ChatGPT and Claude are great at text, but they’re less skilled at understanding how things actually move through space and time — an essential skill for producing intelligence that generalizes. That gap, it turns out, might be filled by gaming data. That’s the bet behi…",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Startups",
+        "AI Funding",
+        "general intuition",
+        "physical ai",
+        "Pim DeWit",
+        "robotics",
+        "Video Game Data"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:47:55.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+      "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+      "article_date": "2026-07-08T17:11:18.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "Meta is adding a new safeguard to stop people from secretly recording others with its AI glasses. But the update comes as the company continues to expand how much personal data its AI products collect and use.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "Gadgets",
+        "Media & Entertainment",
+        "Social",
+        "TC",
+        "Meta",
+        "meta ai"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:11:18.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "OpenAI releases new voice models for more natural live conversations",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "article_date": "2026-07-08T17:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Ivan Mehta",
+      "excerpt": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "ChatGPT",
+        "voice model"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Crypto VC firm Paradigm raises $1.2B to invest in ‘technical frontier’ startups",
+      "url": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/",
+      "article_date": "2026-07-08T16:29:35.000Z",
+      "article_date_raw": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "For Paradigm, the technical frontier will stretch beyond its cryptocurrency investment roots. This fund is expected to expand its investment focus to include robotics and AI.",
+      "image_url": null,
+      "categories": [
+        "Venture",
+        "crypto",
+        "In Brief",
+        "Paradigm"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T16:29:35.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "article_date": "2026-07-08T16:22:38.000Z",
+      "article_date_raw": null,
+      "author": "Marina Temkin",
+      "excerpt": "Founded in 2024, Prime Intellect’s goal is to give organizations capabilities to train their own agentic systems without relying on frontier AI labs.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Startups",
+        "ai sovereignty",
+        "Prime Intellect",
+        "radical ventures",
+        "reinforcement learning"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T16:22:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Another massive data breach exposed millions of driver’s license numbers",
+      "url": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/",
+      "article_date": "2026-07-08T16:14:49.000Z",
+      "article_date_raw": null,
+      "author": "Zack Whittaker",
+      "excerpt": "The cyberattack targeting a U.S. insurance giant is the largest known breach of driver's license numbers so far in 2026.",
+      "image_url": null,
+      "categories": [
+        "Security",
+        "Transportation",
+        "cybersecurity",
+        "data breach",
+        "driver's license",
+        "insurance"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T16:14:49.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "These AI startups are growing  revenue at faster and faster rates",
+      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "article_date": "2026-07-08T15:41:06.000Z",
+      "article_date_raw": null,
+      "author": "Marina Temkin",
+      "excerpt": "There are a lot of fast-growing AI startups, but some are growing even faster, they say.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Startups",
+        "Anthropic",
+        "Clio",
+        "evergreen",
+        "Glean",
+        "Gusto",
+        "Mercor"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T15:41:06.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Solo GP Ashley Smith announces second $25M fund to back startups in AI, security and more",
+      "url": "https://techcrunch.com/2026/07/08/solo-gp-ashley-smith-announces-25m-close-of-second-fund/",
+      "article_date": "2026-07-08T15:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "Vermilion Cliffs Ventures announced Wednesday the close of a $25 million Fund II.",
+      "image_url": null,
+      "categories": [
+        "Venture",
+        "ai infrastructure",
+        "In Brief"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T15:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    }
+  ]
+}

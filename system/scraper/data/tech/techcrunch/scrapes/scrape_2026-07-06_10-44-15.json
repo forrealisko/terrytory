@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "scrape_id": "10668aa4-7517-403f-9e00-8c971889a2ed",
+    "scraped_at": "2026-07-06T10:44:15.689Z",
+    "source_url": "https://techcrunch.com/feed/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 13,
+    "previously_seen": 7
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "article_date": "2026-07-06T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Kate Park",
+      "excerpt": "Even Realities, an ex-Apple team building camera-free smart glasses, raised $150M from Meituan and Tencent at a $1B valuation.",
+      "image_url": null,
+      "categories": [
+        "Startups",
+        "Hardware",
+        "SMART Glasses",
+        "meta glasses",
+        "Even Realities"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+      "article_date": "2026-07-06T06:05:29.000Z",
+      "article_date_raw": null,
+      "author": "Connie Loizos",
+      "excerpt": "While other humanoid startups chase sky-high valuations, Agility Robotics is betting its future on execution — and a SPAC.",
+      "image_url": null,
+      "categories": [
+        "Robotics",
+        "agility robotics",
+        "Peggy Johnson",
+        "SPAC"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T06:05:29.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Uber’s European expansion plans may have hit a speed bump",
+      "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/",
+      "article_date": "2026-07-05T21:35:17.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "Back in February, Uber announced ambitious plans to launch in seven new European markets in 2026 — but now five of those launches are reportedly on hold.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Commerce",
+        "Startups",
+        "Uber",
+        "Delivery Hero"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T21:35:17.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Trump memecoin investors lost $3.8 billion, analysis finds",
+      "url": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/",
+      "article_date": "2026-07-05T20:29:05.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "Nearly 1 million people have lost a total of $3.8 billion after buying President Donald Trump’s $TRUMP memecoin, while Trump made $636 million.",
+      "image_url": null,
+      "categories": [
+        "Crypto",
+        "Government & Policy",
+        "$trump",
+        "Donald Trump",
+        "memecoins"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T20:29:05.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Amazon will stop accepting new customers for Mechanical Turk",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "article_date": "2026-07-05T17:43:36.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "These may be the last days of Amazon’s Mechanical Turk.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Amazon",
+        "Amazon Web Services",
+        "mechanical turk"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T17:43:36.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "5 desk gadgets that can make your workday better",
+      "url": "https://techcrunch.com/2026/07/05/5-desk-gadgets-that-can-make-your-workday-better/",
+      "article_date": "2026-07-05T15:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Aisha Malik",
+      "excerpt": "The right desk gadgets can help you reduce clutter, stay focused, and add a little extra convenience to your day.",
+      "image_url": null,
+      "categories": [
+        "Hardware",
+        "Gadgets",
+        "hardware",
+        "evergreens",
+        "evergeen"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T15:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "What is Bending Spoons? The little-known AOL and Vimeo owner that’s now public",
+      "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/",
+      "article_date": "2026-07-05T13:33:32.000Z",
+      "article_date_raw": null,
+      "author": "Anna Heim",
+      "excerpt": "Bending Spoons remains largely unknown, even as its portfolio of products has served more than a billion people.",
+      "image_url": null,
+      "categories": [
+        "Venture",
+        "AOL",
+        "Bending Spoons",
+        "evergreens",
+        "Mergers and Acquisitions"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T13:33:32.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Almost 90 new unicorns have been minted so far this year — here they are",
+      "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "article_date": "2026-07-05T12:47:39.000Z",
+      "article_date_raw": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "With AI igniting an investor frenzy, more startups are achieving unicorn status every month.",
+      "image_url": null,
+      "categories": [
+        "Startups",
+        "Venture",
+        "unicorns"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T12:47:39.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "article_date": "2026-07-04T20:55:25.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "gemini",
+        "Google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T20:55:25.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "article_date": "2026-07-04T18:00:05.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "Disney",
+        "MidJourney",
+        "Universal",
+        "Warner Bros"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T18:00:05.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "article_date": "2026-07-04T16:32:08.000Z",
+      "article_date_raw": null,
+      "author": "Anthony Ha",
+      "excerpt": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Security",
+        "alibaba",
+        "claude code"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T16:32:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "article_date": "2026-07-04T15:51:32.000Z",
+      "article_date_raw": null,
+      "author": "Anna Heim",
+      "excerpt": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Startups",
+        "evergreens",
+        "mistral",
+        "Mistral AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T15:51:32.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "The only AI glossary you’ll need this year",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "article_date": "2026-07-03T21:20:00.000Z",
+      "article_date_raw": null,
+      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
+      "excerpt": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "artificial intelligence",
+        "evergreens",
+        "Glossary"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T21:20:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "article_date": "2026-07-03T18:43:00.000Z",
+      "article_date_raw": null,
+      "author": "Lauren Forristal",
+      "excerpt": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "Startups",
+        "Browser",
+        "evergreens",
+        "search engines",
+        "web browser"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T18:43:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:51.881Z"
+    },
+    {
+      "type": "article",
+      "title": "The Dune keypad device can be your meeting controller and more",
+      "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+      "article_date": "2026-07-03T18:28:30.000Z",
+      "article_date_raw": null,
+      "author": "Ivan Mehta",
+      "excerpt": "The gadget has three buttons, and it changes context based on what app you are looking at. For instance, in meeting apps and sites, it could be toggle mic, toggle video, and bring window to the front.",
+      "image_url": null,
+      "categories": [
+        "Gadgets",
+        "Claude",
+        "custom keyboards",
+        "gadget",
+        "Project mirage"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T18:28:30.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:51.881Z"
+    },
+    {
+      "type": "article",
+      "title": "Chevy built an all-American EV truck — why is nobody buying it?",
+      "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+      "article_date": "2026-07-03T16:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Tim De Chant",
+      "excerpt": "The Chevy Silverado EV is a solid first draft of an EV pickup truck. Here's what could make it better.",
+      "image_url": null,
+      "categories": [
+        "Climate",
+        "Transportation",
+        "Chevrolet",
+        "chevrolet silverado",
+        "electric vehicles",
+        "review"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T16:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:51.881Z"
+    },
+    {
+      "type": "article",
+      "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware",
+      "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
+      "article_date": "2026-07-03T05:05:00.000Z",
+      "article_date_raw": null,
+      "author": "Zack Whittaker",
+      "excerpt": "A government customer of NSO Group used the company's Pegasus spyware to hack into the phone of a European politician, who at the time was serving on an EU committee tasked with investigating the spyware industry.",
+      "image_url": null,
+      "categories": [
+        "Government & Policy",
+        "Security",
+        "cybersecurity",
+        "NSO Group",
+        "Pegasus",
+        "Spyware"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T05:05:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:51.881Z"
+    },
+    {
+      "type": "article",
+      "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
+      "url": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/",
+      "article_date": "2026-07-03T00:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Isabelle Johannessen",
+      "excerpt": "If you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone.",
+      "image_url": null,
+      "categories": [
+        "Startups",
+        "Startup Battlefield Australia",
+        "TechCrunch Disrupt 2026"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T00:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:51.881Z"
+    },
+    {
+      "type": "article",
+      "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "article_date": "2026-07-02T23:38:10.000Z",
+      "article_date_raw": null,
+      "author": "Lucas Ropek",
+      "excerpt": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "ai agent",
+        "In Brief",
+        "Mark Zuckerberg",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T23:38:10.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:51.881Z"
+    },
+    {
+      "type": "article",
+      "title": "Private space pilots are flying orbital missions for the US Space Force",
+      "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
+      "article_date": "2026-07-02T23:01:06.000Z",
+      "article_date_raw": null,
+      "author": "Tim Fernholz",
+      "excerpt": "True Anomaly and Rocket Lab are performing Top Gun-style satellite fly-bys for the U.S. military.",
+      "image_url": null,
+      "categories": [
+        "Space",
+        "Rocket Lab",
+        "True Anomaly",
+        "U.S. Space Force"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T23:01:06.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:51.881Z"
+    }
+  ]
+}

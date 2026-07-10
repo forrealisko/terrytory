@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "scrape_id": "7b0a2928-c898-4d4e-b983-912a969ed989",
+    "scraped_at": "2026-07-08T08:34:44.310Z",
+    "source_url": "https://www.engadget.com/rss.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Meta says it will disable the camera on its glasses if you tamper with the recording LED",
+      "url": "https://www.engadget.com/2210283/meta-disable-camera-glasses-tamper-with-recording-led/",
+      "article_date": "2026-07-08T06:44:17.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Meta answers people's privacy concerns about its smart glasses in an FAQ.",
+      "image_url": "https://www.engadget.com/img/gallery/meta-says-it-will-disable-the-camera-on-its-glasses-if-you-tamper-with-the-recording-led/l-intro-1783492948.jpg",
+      "categories": [
+        "AI",
+        "Wearables"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T06:44:17.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta built an AI detection tool to ID images and video created with its new models",
+      "url": "https://www.engadget.com/2210223/meta-built-an-ai-detection-tool-to-id-images-and-video-created-with-its-new-models/",
+      "article_date": "2026-07-07T23:23:52.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Meta's new AI detector has rate limits for some reason.",
+      "image_url": "https://www.engadget.com/img/gallery/meta-built-an-ai-detection-tool-to-id-images-and-video-created-with-its-new-models/l-intro-1783466213.jpg",
+      "categories": [
+        "AI",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T23:23:52.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "The next Samsung Galaxy Unpacked launch is happening on July 22",
+      "url": "https://www.engadget.com/2209773/the-next-samsung-galaxy-unpacked-launch-is-happening-on-july-22/",
+      "article_date": "2026-07-07T23:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The next Samsung Galaxy Unpacked launch is happening on July 22.",
+      "image_url": "https://www.engadget.com/img/gallery/the-next-samsung-galaxy-unpacked-launch-is-happening-on-july-22/l-intro-1783444881.jpg",
+      "categories": [
+        "Samsung"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T23:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "NASA transfers ownership of Maryland woodland to the US Fish and Wildlife Service",
+      "url": "https://www.engadget.com/2210180/nasa-transfers-ownership-of-maryland-woodland-to-the-us-fish-and-wildlife-service/",
+      "article_date": "2026-07-07T21:58:47.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A rare 2026 story of good news for the planet.",
+      "image_url": "https://www.engadget.com/img/gallery/nasa-transfers-ownership-of-maryland-woodland-to-the-us-fish-and-wildlife-service/l-intro-1783460804.jpg",
+      "categories": [
+        "Science"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T21:58:47.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta's new Muse Image model accepts Instagram accounts as a prompt",
+      "url": "https://www.engadget.com/2210087/meta-s-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/",
+      "article_date": "2026-07-07T20:49:10.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The new AI model is also powering effects in Stories and image generation in WhatsApp.",
+      "image_url": "https://www.engadget.com/img/gallery/metas-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/l-intro-1783457258.jpg",
+      "categories": [
+        "AI",
+        "Apps",
+        "Meta"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T20:49:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Hasbro and Scooby Doo team up for one of the goofiest Transformers yet",
+      "url": "https://www.engadget.com/2209980/hasbro-and-scooby-doo-team-up-for-one-of-the-goofiest-transformers-yet/",
+      "article_date": "2026-07-07T19:31:52.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Hasbro and Scooby Doo team up for one of the goofiest Transformers yet.",
+      "image_url": "https://www.engadget.com/img/gallery/hasbro-and-scooby-doo-teamed-up-for-one-of-the-goofiest-transformers-yet/l-intro-1783452596.jpg",
+      "categories": [
+        "Entertainment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:31:52.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Doom developer id Software is reportedly losing half its staff",
+      "url": "https://www.engadget.com/2209928/doom-developer-id-software-is-reportedly-losing-half-its-staff/",
+      "article_date": "2026-07-07T19:04:21.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Amid shakeups at Xbox, Doom developer id Software is reportedly losing half its staff.",
+      "image_url": "https://www.engadget.com/img/gallery/doom-developer-id-software-is-reportedly-losing-half-its-staff/l-intro-1783450945.jpg",
+      "categories": [
+        "Gaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T19:04:21.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "The FCC wants to make easier for ISPs to hide junk fees",
+      "url": "https://www.engadget.com/2209914/the-fcc-wants-to-make-easier-for-isps-to-hide-junk-fees/",
+      "article_date": "2026-07-07T18:52:46.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The FCC is set to defang rules around ISP junk fee reporting.",
+      "image_url": "https://www.engadget.com/img/gallery/the-fcc-wants-to-make-easier-for-isps-to-hide-junk-fees/l-intro-1783450287.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:52:46.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Here's what the CE mark means on your electronics",
+      "url": "https://www.engadget.com/2209022/what-ce-marking-means-on-electronics/",
+      "article_date": "2026-07-07T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Know when and why the CE mark appear on a label.",
+      "image_url": "https://www.engadget.com/img/gallery/heres-what-the-ce-mark-means-on-your-electronics/l-intro-1783367635.jpg",
+      "categories": [
+        "Big Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "A bug in Discord's safety systems incorrectly banned accounts since May",
+      "url": "https://www.engadget.com/2209819/a-bug-in-discords-safety-systems-incorrectly-banned-accounts-since-may/",
+      "article_date": "2026-07-07T18:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "A bug may have led to around 8,200 erroneous bans on Discord.",
+      "image_url": "https://www.engadget.com/img/gallery/a-bug-in-discords-safety-systems-incorrectly-banned-accounts-since-may/l-intro-1783446617.jpg",
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T18:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "iRobot made a non-robot floor cleaner",
+      "url": "https://www.engadget.com/2209802/irobot-made-a-non-robot-floor-cleaner/",
+      "article_date": "2026-07-07T17:45:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "iRobot's new floor cleaner isn't a robot at all.",
+      "image_url": "https://www.engadget.com/img/gallery/irobot-made-a-non-robot-floor-cleaner/l-intro-1783445680.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:45:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Google's next Pixel event is on August 12",
+      "url": "https://www.engadget.com/2209791/googles-next-pixel-event-is-on-august-12/",
+      "article_date": "2026-07-07T17:32:15.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Google's next Pixel event will be August 12 at 6pm ET.",
+      "image_url": "https://www.engadget.com/img/gallery/googles-next-pixel-event-is-on-august-12/l-intro-1783445437.jpg",
+      "categories": [
+        "Google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:32:15.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "The X app for iOS now has a built-in video editor",
+      "url": "https://www.engadget.com/2209749/the-x-app-for-ios-now-has-a-built-in-video-editor/",
+      "article_date": "2026-07-07T17:06:38.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "X now has a built-in video editor on iOS.",
+      "image_url": "https://www.engadget.com/img/gallery/the-x-app-for-ios-now-has-a-built-in-video-editor/l-intro-1783443932.jpg",
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T17:06:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Avatar Aang: The Last Airbender finally has a trailer and a July 25 release date",
+      "url": "https://www.engadget.com/2209710/avatar-aang-the-last-airbender-finally-has-a-trailer-and-a-july-25-release-date/",
+      "article_date": "2026-07-07T16:42:47.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "If you want to (legally) watch Avatar Aang: The Last Airbender, it finally has a trailer and a July 25 release date.",
+      "image_url": "https://www.engadget.com/img/gallery/avatar-aang-the-last-airbender-finally-has-a-trailer-and-a-july-25-release-date/l-intro-1783442456.jpg",
+      "categories": [
+        "TV & Movies"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:42:47.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Now you can direct Anthropic's Claude Cowork AI from your phone",
+      "url": "https://www.engadget.com/2209495/now-you-can-direct-anthropic-claude-cowork-ai-from-your-phone/",
+      "article_date": "2026-07-07T16:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Max subscribers get first access to Claude's new Cowork tool for your phone.",
+      "image_url": "https://www.engadget.com/img/gallery/now-you-can-direct-anthropics-claude-cowork-ai-from-your-phone/l-intro-1783433017.jpg",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T16:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Here's what all of those Android status bar icons mean",
+      "url": "https://www.engadget.com/2208629/what-android-status-bar-icons-mean/",
+      "article_date": "2026-07-07T15:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "There's a lot of info packed in the top area of an Android phone's screen",
+      "image_url": "https://www.engadget.com/img/gallery/heres-what-all-of-those-android-status-bar-icons-mean/l-intro-1783352469.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T15:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "How to protect your tech from lightning strikes",
+      "url": "https://www.engadget.com/2208395/how-to-protect-your-tech-from-lightning-strikes/",
+      "article_date": "2026-07-07T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Doing a little work ahead of time will help keep your gadgets from being fried in an electrical storm.",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-protect-your-tech-from-lightning-strikes/l-intro-1783344750.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Orbitals is a nostalgic hit of split-screen platforming, puzzles and '90s anime",
+      "url": "https://www.engadget.com/2206831/orbitals-is-a-nostalgic-hit-of-split-screen-platforming-puzzles-and-90s-anime/",
+      "article_date": "2026-07-07T13:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "It feels like childhood.",
+      "image_url": "https://www.engadget.com/img/gallery/orbitals-is-a-nostalgic-hit-of-split-screen-platforming-puzzles-and-90s-anime/l-intro-1783006251.jpg",
+      "categories": [
+        "Nintendo"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T13:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "NASA celebrates James Webb's fourth anniversary with the most detailed image of Centaurus A yet",
+      "url": "https://www.engadget.com/2209381/nasa-james-webb-fourth-anniversary-detailed-image-centaurus-a/",
+      "article_date": "2026-07-07T12:01:43.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "NASA has released the most detailed images of the Centaurus A galaxy we've ever seen, captured by the James Webb telescope.",
+      "image_url": "https://www.engadget.com/img/gallery/nasa-celebrates-james-webbs-fourth-anniversary-with-the-most-detailed-image-of-centaurus-a-yet/l-intro-1783425515.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T12:01:43.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    },
+    {
+      "type": "article",
+      "title": "Marshall's Acton IV and Stanmore IV speakers come with customizable buttons",
+      "url": "https://www.engadget.com/2209353/marshall-acton-iv-stanmore-iv-speakers/",
+      "article_date": "2026-07-07T12:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Marshall has launched its next-generation vintage-inspired Acton and Stanmore speakers.",
+      "image_url": "https://www.engadget.com/img/gallery/marshalls-acton-iv-and-stanmore-iv-speakers-come-with-customizable-m-buttons/l-intro-1783418572.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-07T12:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-08T08:34:44.310Z"
+    }
+  ]
+}

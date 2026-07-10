@@ -1,96 +1,96 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:42.225Z",
-  "last_scrape": "2026-07-03T21:08:47.658Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-10T09:41:23.856Z",
+  "total_scrapes": 6,
   "seen_hashes": {
     "8148750f2162d86b": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
       "url": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/"
     },
     "d1bf8ec8f2b0687b": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Inside the Luddite festival harnessing Gen Z’s rage against Big Tech",
       "url": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/"
     },
     "6c4d2c950d156271": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
       "title": "Despite the darkness, I still see signs of hope in America",
       "url": "https://arstechnica.com/culture/2026/07/at-250-years-there-are-still-reasons-for-hope-in-america/"
     },
     "5da8f1162c788f14": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Visiting the stars (and planets, and telescopes) in VR",
       "url": "https://arstechnica.com/culture/2026/07/smithsonian-starstruck-vr-exhibit-lets-you-stroll-through-the-stars/"
     },
     "9d53d088349184ec": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Wing Commander IV and the FMV future that never quite was",
       "url": "https://arstechnica.com/gaming/2026/07/wing-commander-iv-and-the-fmv-future-that-never-quite-was/"
     },
     "f6cc881ad8ab449a": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Newly discovered PamStealer isn't your typical macOS malware",
       "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/"
     },
     "70fd872f7ed14c11": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "FAA proposal: Supersonic airliners can fly over US cities if they’re quiet",
       "url": "https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/"
     },
     "aa6e2cb43a2e3e46": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Ars Live recap: When are the big rockets NASA desperately needs going to be ready?",
       "url": "https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/"
     },
     "a88a648e8ba7f77c": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Plex debuts 5-year membership pass for $250",
       "url": "https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/"
     },
     "b3c7820657e463b1": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Africa CDC confirms Marburg case in Uganda as Ebola outbreak rages",
       "url": "https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/"
     },
     "b5e4b17a089aab00": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Artificial cell manages a few rounds of cell division",
       "url": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/"
     },
     "128372d60894e6db": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Google loses long-running appeal of record EU fine, will have to cough up $4.7 billion",
       "url": "https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/"
     },
     "337c84fd8d4a608c": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
       "url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/"
     },
     "885528f553bf26c8": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Musk’s X poses “serious risk to Americans’ privacy,” advocates warn FTC",
       "url": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/"
     },
     "da18e3e9f29d8a85": {
       "first_seen": "2026-07-03T21:08:47.657Z",
-      "last_seen": "2026-07-03T21:08:47.657Z",
+      "last_seen": "2026-07-06T10:44:15.882Z",
       "title": "Tesla sales increase by 25% in Q2 2026",
       "url": "https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/"
     },
@@ -123,9 +123,363 @@
       "last_seen": "2026-07-03T21:08:47.657Z",
       "title": "NASA chief praises progress Blue Origin is making after launch failure",
       "url": "https://arstechnica.com/space/2026/07/nasa-chief-praises-progress-blue-origin-is-making-after-launch-failure/"
+    },
+    "31ff357700db0d3c": {
+      "first_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Chemical accidents rise as Trump administration proposes weakening safety rules",
+      "url": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/"
+    },
+    "46340a543fff616a": {
+      "first_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "The missing 500 million: Cosmic bombardment melted Earth's first crust",
+      "url": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/"
+    },
+    "48e4de73720baf9c": {
+      "first_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Review: Supergirl is not the disaster its low box office suggests",
+      "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/"
+    },
+    "43a9bd8ba4f2b798": {
+      "first_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "When the ability to smell goes away",
+      "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/"
+    },
+    "a5f84a9e0c503989": {
+      "first_seen": "2026-07-06T10:44:15.882Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "A martian rock has lots of carbon on it, and it's not clear why",
+      "url": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/"
+    },
+    "c695b5c8a9eebb6b": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-08T08:34:44.997Z",
+      "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/"
+    },
+    "5e57876a1021613f": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-08T08:34:44.997Z",
+      "title": "Kremlin suspected of flying drones over Europe using Russian shadow fleet",
+      "url": "https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/"
+    },
+    "345d1c715e66ea7d": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-08T08:34:44.997Z",
+      "title": "What is the oldest American object ever launched into space?",
+      "url": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/"
+    },
+    "163b469824376567": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-08T08:34:44.997Z",
+      "title": "NRC is (sort of) getting rid of \"as low as reasonably achievable\" standard",
+      "url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs/"
+    },
+    "4b68f802ff23dc57": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-08T08:34:44.997Z",
+      "title": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
+      "url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/"
+    },
+    "a9597067b214d8b3": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
+      "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/"
+    },
+    "419629315972a832": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
+      "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/"
+    },
+    "7eed07e8e258d9c6": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "F1 in Britain: Automated software to blame for crushing expectations",
+      "url": "https://arstechnica.com/cars/2026/07/f1-in-britain-automated-software-to-blame-for-crushing-expectations/"
+    },
+    "c4ef5a06e3ee3079": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "There were not one, but two asteroid encounters this weekend",
+      "url": "https://arstechnica.com/space/2026/07/there-were-not-one-but-two-asteroid-encounters-this-weekend/"
+    },
+    "a7a1ae6ee93e26fe": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
+      "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/"
+    },
+    "066e0570818c0206": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "Bentley teases its first EV, the Torcal",
+      "url": "https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/"
+    },
+    "d0ff3178deb0a509": {
+      "first_seen": "2026-07-07T09:48:54.036Z",
+      "last_seen": "2026-07-07T09:48:54.036Z",
+      "title": "The Czinger 21C might be the wildest car we drive all year",
+      "url": "https://arstechnica.com/cars/2026/07/the-czinger-21c-might-be-the-wildest-car-we-drive-all-year/"
+    },
+    "e5525d910e9c2c4f": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+    },
+    "972bfc1806c43ced": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
+      "url": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/"
+    },
+    "e5d35e50d7bbce00": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Data centers’ energy demand threatens Trump’s “Made in America” plan",
+      "url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/"
+    },
+    "98de22163fbf6f82": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Surprisingly large number of people may have marker for tick-linked meat allergy",
+      "url": "https://arstechnica.com/health/2026/07/surprisingly-large-number-of-people-may-have-marker-for-tick-linked-meat-allergy/"
+    },
+    "dafa3d51b1a1656a": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "SCOTUS lets Texas enforce app store law that Big Tech calls \"censorship regime\"",
+      "url": "https://arstechnica.com/tech-policy/2026/07/supreme-court-lets-texas-enforce-age-verification-law-on-app-stores/"
+    },
+    "588ba72898c20bb5": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Bethesda, id Software reportedly hit hard by Microsoft layoffs",
+      "url": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/"
+    },
+    "6b210248b00f2e2c": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
+      "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/"
+    },
+    "7b5a04a98e6e5deb": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-08T08:34:44.996Z",
+      "title": "The Weather Channel increases streaming subscription prices by up to $20",
+      "url": "https://arstechnica.com/gadgets/2026/07/the-weather-channels-streaming-app-gets-a-67-percent-price-hike/"
+    },
+    "b352ef8b8a7c3158": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-08T08:34:44.996Z",
+      "title": "The Nintendo Switch's days are numbered—but what is that number?",
+      "url": "https://arstechnica.com/gaming/2026/07/the-nintendo-switchs-days-are-numbered-but-what-is-that-number/"
+    },
+    "607f5c05b0a483bf": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-08T08:34:44.996Z",
+      "title": "This race car is made from plant fibers, volcanoes, ... and seawater?",
+      "url": "https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/"
+    },
+    "0baa408c4427c5b5": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-08T08:34:44.996Z",
+      "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
+      "url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/"
+    },
+    "7e6e3152c45cc553": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-08T08:34:44.996Z",
+      "title": "Dragonflies maneuver like fighter pilots",
+      "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/"
+    },
+    "6d3cf1841c4b3c55": {
+      "first_seen": "2026-07-08T08:34:44.996Z",
+      "last_seen": "2026-07-08T08:34:44.996Z",
+      "title": "New virus catalog reveals which pathogens pose the greatest threat",
+      "url": "https://arstechnica.com/health/2026/07/new-virus-catalog-reveals-which-pathogens-pose-the-greatest-threat/"
+    },
+    "9a2e61be6d437e12": {
+      "first_seen": "2026-07-08T08:34:44.997Z",
+      "last_seen": "2026-07-08T08:34:44.997Z",
+      "title": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner",
+      "url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/"
+    },
+    "91540574703a76e3": {
+      "first_seen": "2026-07-08T08:34:44.997Z",
+      "last_seen": "2026-07-08T08:34:44.997Z",
+      "title": "How AI could enable autonomous robot workers in workplaces—and maybe homes",
+      "url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/"
+    },
+    "c47c4c24fc478f33": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
+      "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/"
+    },
+    "47a8b29856e6213b": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
+      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/"
+    },
+    "ce32b0bcd3c18583": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
+      "url": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/"
+    },
+    "a004d3c55b9fc9c7": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/"
+    },
+    "5e229a1d2c992500": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
+      "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/"
+    },
+    "1ca4f4b9bbce9ba8": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "TikTok users don't have as much agency over their FYPs as they think",
+      "url": "https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps/"
+    },
+    "9364e5e9c1700387": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers",
+      "url": "https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/"
+    },
+    "4042dae0d6ee30c7": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Miami-based City Labs achieves a first for commercial nuclear power in space",
+      "url": "https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/"
+    },
+    "3d6e846281ffa14f": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind",
+      "url": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/"
+    },
+    "d5691d677f72bf51": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Two teens learn the hard way not to do toy gun drive-bys from a Waymo",
+      "url": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/"
+    },
+    "01dcfd3dd50413e3": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Ocean rift zone saw spreading happen in a sudden burst",
+      "url": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread/"
+    },
+    "1b239cfa513eaa98": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
+      "url": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/"
+    },
+    "431ccde2ad2eb008": {
+      "first_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-09T09:46:29.856Z",
+      "title": "Blue Origin, for the first time, is expected to raise private capital",
+      "url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/"
+    },
+    "b2ae95c8752f9d9e": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Flores Hobbits' eating habits offer clues about their evolutionary past",
+      "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/"
+    },
+    "51ab620a3ec8d569": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Michigan's explosive outbreak of diarrheal parasite jumps to over 1,200 cases",
+      "url": "https://arstechnica.com/health/2026/07/michigans-explosive-outbreak-of-diarrheal-parasite-jumps-to-over-1200-cases/"
+    },
+    "0b004c607323ac80": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "OpenAI wants its new tool to do your work for you and with you",
+      "url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/"
+    },
+    "9ba5511d8dded97a": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
+      "url": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/"
+    },
+    "c6d6e0db00fca93c": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
+      "url": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/"
+    },
+    "50e8e53ce776a67f": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs",
+      "url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/"
+    },
+    "0cb8d8bf91aadc9f": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Judge doesn't like Elon Musk settlement with SEC, but says court can't block it",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/"
+    },
+    "bb427a24a1bd5592": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+    },
+    "7f90c9d7297ad3cd": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Surprised doctors find 10-inch worm in man's groin during elective surgery",
+      "url": "https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/"
+    },
+    "8a08b12fe17df65f": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Conspiracies and regrets abound in Dune: Part Three trailer",
+      "url": "https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/"
+    },
+    "1d4bb0b4733a7469": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Ruf debuts new flat-eight engine at Goodwood",
+      "url": "https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/"
+    },
+    "df9421e3650fe041": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Free Waymo rides in California? You can thank a regulatory quirk.",
+      "url": "https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/"
+    },
+    "dbcfa475f7a264aa": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "The newest entrant in the military’s launch competition isn't actually a launch company",
+      "url": "https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/"
+    },
+    "698c7bf11fc97452": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Payloads used to dictate the terms of launch. That's finally changing.",
+      "url": "https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/"
     }
   },
   "stats": {
-    "total_headlines_ever": 20
+    "total_headlines_ever": 79
   }
 }

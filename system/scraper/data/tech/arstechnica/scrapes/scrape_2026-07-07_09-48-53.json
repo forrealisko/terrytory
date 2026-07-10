@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "scrape_id": "82c67efc-96c9-408b-aadb-be446ab7c78b",
+    "scraped_at": "2026-07-07T09:48:53.833Z",
+    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 12,
+    "previously_seen": 8
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/",
+      "article_date": "2026-07-06T21:13:37.000Z",
+      "article_date_raw": null,
+      "author": "Jon Brodkin",
+      "excerpt": "FCC to let ISPs stop listing all passthrough fees, give single \"up to\" price.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/online-bill-1152x648-1783369462.jpg",
+      "categories": [
+        "Policy",
+        "FCC",
+        "ISPs"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T21:13:37.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Kremlin suspected of flying drones over Europe using Russian shadow fleet",
+      "url": "https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/",
+      "article_date": "2026-07-06T20:52:42.000Z",
+      "article_date_raw": null,
+      "author": "Jeremy Hsu",
+      "excerpt": "Drone intruders that possibly flew from Russian ships showed Europe isn’t ready.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238288864-1152x648.jpg",
+      "categories": [
+        "Tech",
+        "aerial surveillance",
+        "drones",
+        "military drones",
+        "russia",
+        "Russian shadow fleet"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T20:52:42.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "What is the oldest American object ever launched into space?",
+      "url": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/",
+      "article_date": "2026-07-06T19:57:56.000Z",
+      "article_date_raw": null,
+      "author": "Robert Pearlman",
+      "excerpt": "From a Revolutionary War flag to the Statue of Liberty...",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-070326a-lg-1152x648.jpg",
+      "categories": [
+        "Space",
+        "250 years",
+        "America",
+        "America 250",
+        "Americana",
+        "Declaration of Independence",
+        "golden spike",
+        "Manual of Parliamentary Practice"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T19:57:56.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "NRC is (sort of) getting rid of \"as low as reasonably achievable\" standard",
+      "url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs/",
+      "article_date": "2026-07-06T17:48:45.000Z",
+      "article_date_raw": null,
+      "author": "John Timmer",
+      "excerpt": "Its issues with current nuclear safety standards are termed semantic, not physical.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2283985401-1024x648.jpg",
+      "categories": [
+        "Policy",
+        "Science",
+        "ALARA",
+        "DNA damage",
+        "DNA repair",
+        "Exposure",
+        "Health",
+        "LNT"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:48:45.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
+      "url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/",
+      "article_date": "2026-07-06T17:14:09.000Z",
+      "article_date_raw": null,
+      "author": "Stephen Clark",
+      "excerpt": "It will take several weeks for the Link spacecraft to rendezvous with NASA's Swift observatory.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pegasus-Image-2-resized-1000x648.jpg",
+      "categories": [
+        "Science",
+        "Space",
+        "air launch",
+        "Commercial space",
+        "katalyst space",
+        "kwajalein atoll",
+        "launch",
+        "NASA"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T17:14:09.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
+      "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+      "article_date": "2026-07-06T16:44:18.000Z",
+      "article_date_raw": null,
+      "author": "Ashley Belanger",
+      "excerpt": "Anthropic accused of spying on users; engineer says “experiment” is over.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277613277-1024x648.jpg",
+      "categories": [
+        "AI",
+        "Policy",
+        "AI privacy",
+        "Anthropic",
+        "Artificial Intelligence",
+        "china",
+        "Claude",
+        "Claude Code"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:44:18.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
+      "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/",
+      "article_date": "2026-07-06T16:01:54.000Z",
+      "article_date_raw": null,
+      "author": "Kyle Orland",
+      "excerpt": "Move affects ~20% of the gaming division, which will refocus on its biggest franchises.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/02/xbox-dominoes-1152x648.jpg",
+      "categories": [
+        "Gaming",
+        "arkane",
+        "compulsion games",
+        "Double Fine",
+        "layoffs",
+        "microsoft",
+        "XBox"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T16:01:54.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "F1 in Britain: Automated software to blame for crushing expectations",
+      "url": "https://arstechnica.com/cars/2026/07/f1-in-britain-automated-software-to-blame-for-crushing-expectations/",
+      "article_date": "2026-07-06T15:45:55.000Z",
+      "article_date_raw": null,
+      "author": "Jonathan M. Gitlin",
+      "excerpt": "Sometimes races finish behind a safety car, but it's not always satisfying.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2284281371-1152x648.jpg",
+      "categories": [
+        "Cars",
+        "Formula 1"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:45:55.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "There were not one, but two asteroid encounters this weekend",
+      "url": "https://arstechnica.com/space/2026/07/there-were-not-one-but-two-asteroid-encounters-this-weekend/",
+      "article_date": "2026-07-06T15:15:30.000Z",
+      "article_date_raw": null,
+      "author": "Eric Berger",
+      "excerpt": "The Torifune asteroid turns out to be shaped like a peanut.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/20260706-3-01-1152x648.png",
+      "categories": [
+        "Space",
+        "asteroid",
+        "china",
+        "cnsa",
+        "flyby",
+        "Japan",
+        "JAXA",
+        "space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T15:15:30.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
+      "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
+      "article_date": "2026-07-06T14:17:42.000Z",
+      "article_date_raw": null,
+      "author": "Martin Arnold",
+      "excerpt": "FCA official makes case for greater powers for watchdog as millions use technology for personal finance decisions.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ftcms_90ad2b22-0222-4d93-ab0a-6c1af73b39fc-1-1152x648.jpeg",
+      "categories": [
+        "AI",
+        "Policy",
+        "AI regulation",
+        "EU",
+        "regulation",
+        "syndication"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T14:17:42.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Bentley teases its first EV, the Torcal",
+      "url": "https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/",
+      "article_date": "2026-07-06T11:30:38.000Z",
+      "article_date_raw": null,
+      "author": "Jonathan M. Gitlin",
+      "excerpt": "The new model will be officially unveiled in late September.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Bentley-Torcal-1152x648.jpg",
+      "categories": [
+        "Cars",
+        "bentley",
+        "EV"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T11:30:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "The Czinger 21C might be the wildest car we drive all year",
+      "url": "https://arstechnica.com/cars/2026/07/the-czinger-21c-might-be-the-wildest-car-we-drive-all-year/",
+      "article_date": "2026-07-06T11:00:14.000Z",
+      "article_date_raw": null,
+      "author": "Bradley Iger",
+      "excerpt": "This hybrid V8 has organic-looking 3D-printed components and shatters lap records.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/DSC_8270-1-1152x648.jpg",
+      "categories": [
+        "Cars",
+        "Features",
+        "car review",
+        "Czinger",
+        "Hypercar"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T11:00:14.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-07T09:48:53.833Z"
+    },
+    {
+      "type": "article",
+      "title": "Chemical accidents rise as Trump administration proposes weakening safety rules",
+      "url": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/",
+      "article_date": "2026-07-05T11:05:22.000Z",
+      "article_date_raw": null,
+      "author": "Liza Gross, Inside Climate News",
+      "excerpt": "Chemicals from accidents that injured or killed people increased by nearly 50 percent in recent years.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238555391-1152x648.jpg",
+      "categories": [
+        "Policy",
+        "Science",
+        "hazardous chemicals",
+        "safety rules",
+        "syndication",
+        "toxic chemicals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T11:05:22.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:15.882Z"
+    },
+    {
+      "type": "article",
+      "title": "The missing 500 million: Cosmic bombardment melted Earth's first crust",
+      "url": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/",
+      "article_date": "2026-07-05T10:55:02.000Z",
+      "article_date_raw": null,
+      "author": "Jacek Krywko",
+      "excerpt": "The heat of the Hadean may have come from impacts as well as the interior.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1.jpeg",
+      "categories": [
+        "Science",
+        "astronomy",
+        "Earth science",
+        "impacts",
+        "meteorites",
+        "plate tectonics"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T10:55:02.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:15.882Z"
+    },
+    {
+      "type": "article",
+      "title": "Review: Supergirl is not the disaster its low box office suggests",
+      "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+      "article_date": "2026-07-04T16:49:14.000Z",
+      "article_date_raw": null,
+      "author": "Jennifer Ouellette",
+      "excerpt": "It’s a pretty good movie, but it needed to be a great movie to thrive in an oversaturated superhero market.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/supergirl1-1152x648.jpg",
+      "categories": [
+        "Culture",
+        "DCU",
+        "entertainment",
+        "film reviews",
+        "reviews",
+        "Supergirl",
+        "Warner Bros."
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T16:49:14.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:15.882Z"
+    },
+    {
+      "type": "article",
+      "title": "When the ability to smell goes away",
+      "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+      "article_date": "2026-07-04T11:04:31.000Z",
+      "article_date_raw": null,
+      "author": "Victoria Clayton, Knowable Magazine",
+      "excerpt": "Disturbances in this critical sense are often linked to problems with brain health.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1302713332-1152x648.jpg",
+      "categories": [
+        "Science",
+        "loss of smell",
+        "olfaction",
+        "smell",
+        "syndication"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T11:04:31.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:15.882Z"
+    },
+    {
+      "type": "article",
+      "title": "A martian rock has lots of carbon on it, and it's not clear why",
+      "url": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
+      "article_date": "2026-07-04T11:00:41.000Z",
+      "article_date_raw": null,
+      "author": "Jacek Krywko",
+      "excerpt": "Biology could explain the find, but there are other potential explanations.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1152x648.png",
+      "categories": [
+        "Science",
+        "carbon",
+        "chemistry",
+        "Mars",
+        "origin of life",
+        "planetary science"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T11:00:41.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-06T10:44:15.882Z"
+    },
+    {
+      "type": "article",
+      "title": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
+      "url": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/",
+      "article_date": "2026-07-03T13:55:35.000Z",
+      "article_date_raw": null,
+      "author": "Stephen Clark",
+      "excerpt": "NASA awarded Rocket Lab deals for three dedicated launches using the company's Electron rocket.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/HMLfHqEbUAA-kFk-1152x648.jpg",
+      "categories": [
+        "Science",
+        "Space",
+        "atlas v",
+        "blue origin",
+        "falcon 9",
+        "isar aerospace",
+        "new glenn",
+        "Northrop Grumman"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T13:55:35.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:47.657Z"
+    },
+    {
+      "type": "article",
+      "title": "Inside the Luddite festival harnessing Gen Z’s rage against Big Tech",
+      "url": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "article_date": "2026-07-03T12:00:36.000Z",
+      "article_date_raw": null,
+      "author": "Vittoria Elliott, WIRED.com",
+      "excerpt": "New York City’s Summer of Ludd festival is teaching people how to live offline.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1176751554-1152x648.jpg",
+      "categories": [
+        "Culture",
+        "anti technology",
+        "festival",
+        "Luddite",
+        "new york",
+        "syndication"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T12:00:36.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:47.657Z"
+    },
+    {
+      "type": "article",
+      "title": "Despite the darkness, I still see signs of hope in America",
+      "url": "https://arstechnica.com/culture/2026/07/at-250-years-there-are-still-reasons-for-hope-in-america/",
+      "article_date": "2026-07-03T11:30:22.000Z",
+      "article_date_raw": null,
+      "author": "Eric Berger",
+      "excerpt": "It's difficult to pinpoint the moment in my life where America started to lose the plot.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/eric-berger-looking-at-america-1152x648.jpg",
+      "categories": [
+        "Culture",
+        "Features",
+        "250th anniversary",
+        "America",
+        "culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T11:30:22.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:08:47.657Z"
+    }
+  ]
+}

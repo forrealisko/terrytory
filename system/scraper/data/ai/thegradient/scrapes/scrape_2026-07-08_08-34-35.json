@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "scrape_id": "0f0b25f8-af8e-4fc8-bf76-a7ef9251c816",
+    "scraped_at": "2026-07-08T08:34:35.519Z",
+    "source_url": "https://thegradient.pub/rss/",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 15,
+    "new_headlines": 0,
+    "previously_seen": 15
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+      "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+      "article_date": "2026-02-18T23:25:52.000Z",
+      "article_date_raw": null,
+      "author": "Peli Grietzer",
+      "excerpt": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices[1]: networks of actions, action-dispositions, action-evaluation criteria,",
+      "image_url": "https://thegradient.pub/content/images/2026/02/ramelli-featured.jpg",
+      "categories": [
+        "Ethics",
+        "Human factors",
+        "Impacts"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_year",
+        "age_days": 139,
+        "parsed": "2026-02-18T23:25:52.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.573Z"
+    },
+    {
+      "type": "article",
+      "title": "AGI Is Not Multimodal",
+      "url": "https://thegradient.pub/agi-is-not-multimodal/",
+      "article_date": "2025-06-04T14:00:29.000Z",
+      "article_date_raw": null,
+      "author": "Benjamin A. Spiegel",
+      "excerpt": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry WinogradThe recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+      "image_url": "https://thegradient.pub/content/images/2025/06/Gradient_Article_Art3-downscaled.png",
+      "categories": [
+        "Perspectives",
+        "Trends"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 398,
+        "parsed": "2025-06-04T14:00:29.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.573Z"
+    },
+    {
+      "type": "article",
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "url": "https://thegradient.pub/shape-symmetry-structure/",
+      "article_date": "2024-11-16T16:46:15.000Z",
+      "article_date_raw": null,
+      "author": "Henry Kvinge",
+      "excerpt": "What is the Role of Mathematics in Modern Machine Learning?The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+      "image_url": "https://thegradient.pub/content/images/2024/11/DALL-E-2024-11-15-15.40.52---Create-an-abstract-image-that-illustrates-how-ReLU-based-neural-networks-shatter-input-space-into-numerous-polygonal-regions--each-behaving-like-a-lin.webp",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 598,
+        "parsed": "2024-11-16T16:46:15.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.573Z"
+    },
+    {
+      "type": "article",
+      "title": "What's Missing From LLM Chatbots: A Sense of Purpose",
+      "url": "https://thegradient.pub/dialog/",
+      "article_date": "2024-09-09T17:28:48.000Z",
+      "article_date_raw": null,
+      "author": "Kenneth Li",
+      "excerpt": "LLM-based chatbots’ capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more and more saturated, is user experience increasing in proportion to these scores? If we envision a future",
+      "image_url": "https://thegradient.pub/content/images/2024/09/cropped.jpeg",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 666,
+        "parsed": "2024-09-09T17:28:48.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.573Z"
+    },
+    {
+      "type": "article",
+      "title": "We Need Positive Visions for AI Grounded in Wellbeing",
+      "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
+      "article_date": "2024-08-03T17:00:43.000Z",
+      "article_date_raw": null,
+      "author": "Joel Lehman",
+      "excerpt": "IntroductionImagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won’t this technology almost certainly transform society — and hasn’t AI’s impact on us so far been",
+      "image_url": "https://thegradient.pub/content/images/2024/07/wellbeing_ai_cover_image.webp",
+      "categories": [
+        "Perspectives",
+        "Ethics",
+        "Impacts"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 703,
+        "parsed": "2024-08-03T17:00:43.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.573Z"
+    },
+    {
+      "type": "article",
+      "title": "Financial Market Applications of LLMs",
+      "url": "https://thegradient.pub/financial-market-applications-of-llms/",
+      "article_date": "2024-04-20T17:57:39.000Z",
+      "article_date_raw": null,
+      "author": "Richard Dewey",
+      "excerpt": "The AI revolution drove frenzied investment in both private and public companies and captured the public’s imagination in 2023. Transformational consumer products like ChatGPT are powered by Large Language Models (LLMs) that excel at modeling sequences of tokens that represent words or parts of words [2]. Amazingly, structural",
+      "image_url": "https://thegradient.pub/content/images/2024/04/shutterstock_2448136839.jpg",
+      "categories": [
+        "LLM",
+        "Overviews"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 808,
+        "parsed": "2024-04-20T17:57:39.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.573Z"
+    },
+    {
+      "type": "article",
+      "title": "A Brief Overview of Gender Bias in AI",
+      "url": "https://thegradient.pub/gender-bias-in-ai/",
+      "article_date": "2024-04-08T15:54:53.000Z",
+      "article_date_raw": null,
+      "author": "Yennie Jun",
+      "excerpt": "A brief overview and discussion on gender bias in AI",
+      "image_url": "https://thegradient.pub/content/images/2024/04/gender_gradient_header.jpeg",
+      "categories": [
+        "Ethics",
+        "Overviews"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 820,
+        "parsed": "2024-04-08T15:54:53.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "Mamba Explained",
+      "url": "https://thegradient.pub/mamba-explained/",
+      "article_date": "2024-03-28T01:24:43.000Z",
+      "article_date_raw": null,
+      "author": "Kola Ayonrinde",
+      "excerpt": "Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences.",
+      "image_url": "https://images.unsplash.com/photo-1598348341635-33a3f4205d32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTcxMTM0NTEwM3ww&ixlib=rb-4.0.3&q=80&w=2000",
+      "categories": [
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Overviews"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 832,
+        "parsed": "2024-03-28T01:24:43.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "Car-GPT: Could LLMs finally make self-driving cars happen?",
+      "url": "https://thegradient.pub/car-gpt/",
+      "article_date": "2024-03-08T16:55:18.000Z",
+      "article_date_raw": null,
+      "author": "Jérémy Cohen",
+      "excerpt": "Exploring the utility of large language models in autonomous driving: Can they be trusted for self-driving cars, and what are the key challenges?",
+      "image_url": "https://thegradient.pub/content/images/2024/03/car-gpt.jpg",
+      "categories": [
+        "LLM",
+        "Perspectives"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 851,
+        "parsed": "2024-03-08T16:55:18.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "Do text embeddings perfectly encode text?",
+      "url": "https://thegradient.pub/text-embedding-inversion/",
+      "article_date": "2024-03-05T20:15:58.000Z",
+      "article_date_raw": null,
+      "author": "Jack Morris",
+      "excerpt": "'Vec2text' can serve as a solution for accurately reverting embeddings back into text, thus highlighting the urgent need for revisiting security protocols around embedded data.",
+      "image_url": "https://thegradient.pub/content/images/2024/03/main-1.png",
+      "categories": [
+        "Interpretability",
+        "LLM",
+        "NLP"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 854,
+        "parsed": "2024-03-05T20:15:58.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "Why Doesn’t My Model Work?",
+      "url": "https://thegradient.pub/why-doesnt-my-model-work/",
+      "article_date": "2024-02-24T18:41:54.000Z",
+      "article_date_raw": null,
+      "author": "Michael Lones",
+      "excerpt": "Have you ever trained a model you thought was good, but then it failed miserably when applied to real world data? If so, you’re in good company.",
+      "image_url": "https://thegradient.pub/content/images/2024/02/shutterstock_2097995584.png",
+      "categories": [
+        "Machine Learning",
+        "Overviews"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 864,
+        "parsed": "2024-02-24T18:41:54.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "Deep learning for single-cell sequencing: a microscope to see the diversity of cells",
+      "url": "https://thegradient.pub/deep-learning-for-single-cell-sequencing-a-microscope-to-uncover-the-rich-diversity-of-individual-cells/",
+      "article_date": "2024-01-13T18:12:44.000Z",
+      "article_date_raw": null,
+      "author": "Fatima Zahra El Hajji",
+      "excerpt": "On the the pivotal role that Deep Learning has played as a key enabler for advancing single-cell sequencing technologies.",
+      "image_url": "https://thegradient.pub/content/images/2024/01/image4.jpg",
+      "categories": [
+        "Overviews",
+        "Science"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 906,
+        "parsed": "2024-01-13T18:12:44.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "Salmon in the Loop",
+      "url": "https://thegradient.pub/salmon-in-the-loop/",
+      "article_date": "2023-12-16T17:00:36.000Z",
+      "article_date_raw": null,
+      "author": "Kevin McCraney",
+      "excerpt": "On fish counting – a complex sociotechnical problem in a field that is going through the process of digital transformation.",
+      "image_url": "https://thegradient.pub/content/images/2023/08/DALL-E-2023-08-21-18.52.00---frothing-waves-in-the-middle-of-the-spillway-of-a-hydroelectric-dam--shown-by-a-bridge-across-a-river-with-many-arches--with-a-fish-jumping-downstream.png",
+      "categories": [
+        "Machine Learning",
+        "Overviews"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 934,
+        "parsed": "2023-12-16T17:00:36.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "Neural algorithmic reasoning",
+      "url": "https://thegradient.pub/neural-algorithmic-reasoning/",
+      "article_date": "2023-10-14T15:30:15.000Z",
+      "article_date_raw": null,
+      "author": "Petar Veličković",
+      "excerpt": "In this article, we will talk about classical computation: the kind of computation typically found in an undergraduate Computer Science course on Algorithms and Data Structures [1]. Think shortest path-finding, sorting, clever ways to break problems down into simpler problems, incredible ways to organise data for efficient retrieval and updates.",
+      "image_url": "https://thegradient.pub/content/images/2023/09/profile.png",
+      "categories": [
+        "Machine Learning",
+        "Overviews"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 997,
+        "parsed": "2023-10-14T15:30:15.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    },
+    {
+      "type": "article",
+      "title": "The Artificiality of Alignment",
+      "url": "https://thegradient.pub/the-artificiality-of-alignment/",
+      "article_date": "2023-10-07T16:00:15.000Z",
+      "article_date_raw": null,
+      "author": "Jessica Dai",
+      "excerpt": "This essay first appeared in Reboot. Credulous, breathless coverage of “AI existential risk” (abbreviated “x-risk”) has reached the mainstream. Who could have foreseen that the smallcaps onomatopoeia “ꜰᴏᴏᴍ” — both evocative of and directly derived from children’s cartoons —",
+      "image_url": "https://thegradient.pub/content/images/2023/09/alignment.png",
+      "categories": [
+        "Ethics",
+        "Impacts",
+        "Perspectives"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "older",
+        "age_days": 1004,
+        "parsed": "2023-10-07T16:00:15.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:39.574Z"
+    }
+  ]
+}

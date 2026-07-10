@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:37.301Z",
-  "last_scrape": "2026-07-03T21:08:42.224Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-10T09:41:23.686Z",
+  "total_scrapes": 6,
   "seen_hashes": {
     "5762e9515f24e939": {
       "first_seen": "2026-07-03T21:08:42.221Z",
@@ -63,9 +63,309 @@
       "last_seen": "2026-07-03T21:08:42.222Z",
       "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video"
+    },
+    "62797d7741b41a29": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Some of the nation’s rich are letting AI teach their kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep"
+    },
+    "6e9b865319ebd169": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip-hop at its most daring",
+      "url": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review"
+    },
+    "2478e3dd36472f08": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Where to preorder Grand Theft Auto VI",
+      "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy"
+    },
+    "de9adfa52a186630": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence"
+    },
+    "bf64d2e7bb2c7104": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "The Sourdough Sidekick automates the boring bit of baking",
+      "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter"
+    },
+    "1b0c5e30f8663309": {
+      "first_seen": "2026-07-06T10:44:15.781Z",
+      "last_seen": "2026-07-06T10:44:15.781Z",
+      "title": "How Keurig saved — and ruined — your coffee",
+      "url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history"
+    },
+    "90fca42f63aafecd": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "Vizio accidentally made the best dumb TV on the market",
+      "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review"
+    },
+    "7ebd7ecb8128bb66": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "Xbox is a disaster",
+      "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster"
+    },
+    "6871972627480601": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+      "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies"
+    },
+    "9480aa2c77d3d161": {
+      "first_seen": "2026-07-06T10:44:15.782Z",
+      "last_seen": "2026-07-06T10:44:15.782Z",
+      "title": "White House deletes thousands of webpages about energy conservation as heatwave slams US",
+      "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion"
+    },
+    "90cf464d0499a275": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "Hoto&#8217;s PixelDrive screwdriver is down to $60, matching its best price",
+      "url": "https://www.theverge.com/gadgets/961895/hoto-pixeldrive-screwdriver-deal-sale"
+    },
+    "ab6ef5799d3a62aa": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "America’s greatest idea is still under threat",
+      "url": "https://www.theverge.com/policy/961802/america-250-free-speech"
+    },
+    "d8cc1b533c8c8f88": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "Five questions for Dr. Rubin, who’s armed with a mic and a bowtie",
+      "url": "https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview"
+    },
+    "d99f47951e4733b7": {
+      "first_seen": "2026-07-07T09:48:53.917Z",
+      "last_seen": "2026-07-07T09:48:53.917Z",
+      "title": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
+      "url": "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie"
+    },
+    "25eba88e53a29169": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "I spy",
+      "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy"
+    },
+    "1796e15c095cf69e": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "The DJI Osmo Pocket 3 lookalike is down to $329",
+      "url": "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale"
+    },
+    "7fab64a1e75543cf": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Inside the big business of the creator economy, with the agents making it happen",
+      "url": "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing"
+    },
+    "5125319e9d4fc654": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Nintendo will stop selling the original Switch in Europe next year",
+      "url": "https://www.theverge.com/games/961632/nintendo-switch-europe-discontinued"
+    },
+    "8cfb8034f4feaaf9": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Can Partiful keep the party going?",
+      "url": "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir"
+    },
+    "27f6fb5301acf861": {
+      "first_seen": "2026-07-07T09:48:53.918Z",
+      "last_seen": "2026-07-07T09:48:53.918Z",
+      "title": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
+      "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026"
+    },
+    "7f31c83314d6df20": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Samsung will launch its new wide foldable on July 22nd",
+      "url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july"
+    },
+    "3f32262a31b3c2f3": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
+      "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update"
+    },
+    "718442ff55c6dbca": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Of course viewers are giving up on Netflix shows",
+      "url": "https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok"
+    },
+    "2671f7ae2b26e9d4": {
+      "first_seen": "2026-07-08T08:34:44.438Z",
+      "last_seen": "2026-07-08T08:34:44.438Z",
+      "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
+      "url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming"
+    },
+    "779fe69a19a664e4": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+      "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram"
+    },
+    "4f08881e09acc780": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "X says top accounts steal videos from other users as it announces new video tools",
+      "url": "https://www.theverge.com/tech/962415/x-video-editor-recycled-content"
+    },
+    "17056632a5d8fe93": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "The ‘G-Wagen of golf carts’ could be the ideal second car",
+      "url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs"
+    },
+    "b5eb4a05d05aa88e": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "ABC tells the government to get out of its newsrooms",
+      "url": "https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech"
+    },
+    "9e6282f436819adf": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web"
+    },
+    "dd8c00d8c2cb2c4f": {
+      "first_seen": "2026-07-08T08:34:44.439Z",
+      "last_seen": "2026-07-08T08:34:44.439Z",
+      "title": "Google announces Pixel 11 launch event in August",
+      "url": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event"
+    },
+    "0956ebd23de8c68a": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Meta is reportedly working on smart glasses that would be recording all the time",
+      "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai"
+    },
+    "04a5e44920640d0a": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+      "url": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder"
+    },
+    "69b0ae6eeab5b540": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+      "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs"
+    },
+    "9f67f83fa82e4f0c": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+      "url": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty"
+    },
+    "7a227d92620a13fd": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
+      "url": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review"
+    },
+    "2cfbd42bde636101": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "If Microsoft sold off Xbox, who would even buy it?",
+      "url": "https://www.theverge.com/games/962837/microsoft-xbox-spin-off-sell-divest-layoffs-asha-sharma"
+    },
+    "ce4f7eef06a4e8d8": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "Twelve South’s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40",
+      "url": "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale"
+    },
+    "1787c2acbf8b3f96": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "ChatGPT’s upgraded voice mode is better at shutting up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live"
+    },
+    "14048d96a0612bae": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "This jumping $800 robot camera dog filled me with joy",
+      "url": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview"
+    },
+    "5321e7c6721ff5a6": {
+      "first_seen": "2026-07-09T09:46:29.748Z",
+      "last_seen": "2026-07-09T09:46:29.748Z",
+      "title": "The whole Pixel line could get more expensive this year",
+      "url": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase"
+    },
+    "5a913592dd449ea0": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Microsoft’s carbon emissions went up 25 percent last year",
+      "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026"
+    },
+    "8a65c5f7682e80e3": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
+    },
+    "32d37e1d3e16b337": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Netflix reportedly considers adding always-on channels",
+      "url": "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles"
+    },
+    "c5fb8971261eb082": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "The ChatGPT browser is already dead",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset"
+    },
+    "5ad81aa56b9ec76a": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "The floatable, powerful Soundcore Boom 2 speaker is over half off",
+      "url": "https://www.theverge.com/gadgets/963537/anker-soundcore-boom-2-bluetooth-speaker-deal-sale"
+    },
+    "e6b8352aa8d6a36a": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Google will now tell you if an ad was made with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label"
+    },
+    "93d8ad2357cdb74f": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Google&#8217;s Nest Thermostat has hit its best price of the year",
+      "url": "https://www.theverge.com/gadgets/963475/google-nest-thermostat-deal-sale"
+    },
+    "430f86c0084d2fbe": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Microsoft’s patch Tuesdays are about to get bigger",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates"
+    },
+    "9cf9c4c94b41cfdc": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
+    },
+    "05b97b5a53e6e193": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Schlage’s Sense Pro unlocks the door so I don’t have to",
+      "url": "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock"
     }
   },
   "stats": {
-    "total_headlines_ever": 10
+    "total_headlines_ever": 60
   }
 }

@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "scrape_id": "55d87e3d-ba5a-46c9-bb15-e91d22a175bf",
+    "scraped_at": "2026-07-10T09:41:12.254Z",
+    "source_url": "https://importai.substack.com/feed",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 0,
+    "new_headlines": 0,
+    "previously_seen": 0
+  },
+  "headlines": []
+}

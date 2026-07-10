@@ -1,0 +1,892 @@
+{
+  "meta": {
+    "scrape_id": "3c564022-fbfe-4e0e-9eb6-9eaab7cc06cc",
+    "scraped_at": "2026-07-09T09:46:20.122Z",
+    "source_url": "http://export.arxiv.org/rss/cs.LG",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 40,
+    "new_headlines": 40,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "TriRoute: Unified Learned Routing for Joint Adaptive Attention, Experts, and KV-Cache Allocation",
+      "url": "https://arxiv.org/abs/2607.06601",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Andrii Balashov, Olena Ponomarova",
+      "excerpt": "arXiv:2607.06601v1 Announce Type: new Abstract: Conditional computation can decouple language model quality from per-token inference cost, yet leading techniques act on a single axis in isolation: Mixture-of-Experts (MoE) sparsifies the FFN, Mixture-of-Depths (MoD) skips whole transformer blocks, and KV-cache quantization compresses attention memory. We argue these three decisions (attention resol…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "A Quiet Failure in Calibrated Virtual Screening: Marginal Conformal Prediction Under-Covers the Minority Class, and a Class-Conditional Fix Recovers It",
+      "url": "https://arxiv.org/abs/2607.06605",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Muhammadjon Tursunbadalov (School of Science and Technology, Champions College Prep, United States), Mustafojon Tursunbadalov (School of Science and Technology, Champions College Prep, United States)",
+      "excerpt": "arXiv:2607.06605v1 Announce Type: new Abstract: Conformal prediction is being adopted in drug discovery to put an honest number on model reliability: pick an error rate alpha, and the method returns prediction sets containing the true label with probability at least 1 - alpha. We show this guarantee can be dangerous on imbalanced datasets. Across four datasets, standard (marginal) conformal predic…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "NEST: Tackling Dataset-Level Distribution Shifts via Regime-Oriented Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2607.06607",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Lanhao Li, Bingshu Xie, Lijun Sun, Xin Xue, Haoyi Zhou, Jianxin Li",
+      "excerpt": "arXiv:2607.06607v1 Announce Type: new Abstract: Accurate long-term forecasting in complex systems is frequently compromised by dataset-level distribution shifts, where diverse underlying behavioral modes and evolving system states drive the dynamic multivariate time-series. While existing methods predominantly focus on local temporal shifts, they fail to explicitly model the global structural chal…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "D2PO: Optimizing Diffusion Samplers via Dynamic Preference",
+      "url": "https://arxiv.org/abs/2607.06609",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Jinkyu Kim, Jinyoung Choi, Bohyung Han",
+      "excerpt": "arXiv:2607.06609v1 Announce Type: new Abstract: We propose D2PO (Dynamic Direct Preference Optimization), a principled framework for optimizing diffusion sampling policies with respect to timestep schedules and classifier-free guidance (CFG) weights. Our work is motivated by a fundamental limitation of existing student-teacher regression frameworks; low-NFE student samplers are trained to mimic hi…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Deep Reinforcement Learning for Reliability Based Bi-Objective Portfolio Optimization",
+      "url": "https://arxiv.org/abs/2607.06610",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Sounaq Das, Tanmay Sen, Raghu Nandan Sengupta, Aditya Gupta",
+      "excerpt": "arXiv:2607.06610v1 Announce Type: new Abstract: Portfolio optimization under uncertainty is inherently a multi-objective decision problem involving complex interactions among return, risk, market dynamics, and practical investment constraints. Existing reliability based portfolio optimization approaches primarily rely on static optimization frameworks and often fail to capture sequential decision …",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.OC"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "STAGformer: A Spatio-temporal Agent Graph Transformer for Micro Mobility Demand Forecasting",
+      "url": "https://arxiv.org/abs/2607.06614",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Ye Zihao",
+      "excerpt": "arXiv:2607.06614v1 Announce Type: new Abstract: Accurate station-level demand forecasting is essential for the efficient operation of bike-sharing systems, yet it remains challenging due to complex spatio-temporal dependencies and the large scale of urban networks. This paper presents STAGformer, a Spatio-Temporal Agent Graph Transformer that achieves efficient global modeling with linear computat…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "WHERE to Generate Matters: Budget-Aware Synthetic Augmentation for Label Skewed Federated Learning",
+      "url": "https://arxiv.org/abs/2607.06616",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Sangwoo Lee, Sunghwan Park, Jaewoo Lee",
+      "excerpt": "arXiv:2607.06616v1 Announce Type: new Abstract: Label skew in federated learning (FL) causes client drift and degrades global accuracy. Synthetic data augmentation can reduce this imbalance; however, full class balancing requires substantial computation cost. We propose FedEAS, a policy that assigns each client an entropy-adaptive per-class generation budget computed from its local label distribut…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Inertia-1: An Open Exploration of Wearable Motion Foundation Models",
+      "url": "https://arxiv.org/abs/2607.06617",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Zongzhe Xu, Aakarsh Anand, Sarah Jiang, Chuntung Zhuang, Zitao Shuai, Sriram Sankararaman, Yuzhe Yang",
+      "excerpt": "arXiv:2607.06617v1 Announce Type: new Abstract: Wearable motion sensing provides a continuous and scalable window into human behavior and health, making it a natural fit for foundation models, yet its pretraining and scaling principles remain poorly understood. Prior work studies isolated design choices, such as sensor placement or sampling frequency, often under fixed settings and narrow downstre…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Fingerprint, Not Blueprint: How Positional Schemes Set the Default Spectral Algebra of Attention",
+      "url": "https://arxiv.org/abs/2607.06621",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Li Hengyu (Institute for Solid State Physics, The University of Tokyo)",
+      "excerpt": "arXiv:2607.06621v1 Announce Type: new Abstract: The pre-softmax score of an attention head is a bilinear form $score(i,j) = x_i^T M x_j$ in a learned operator $M = W_q^T W_k$. Because M is generally non-symmetric, hence non-normal, it has a complex eigenspectrum and non-orthogonal eigenvectors, the regime where non-Hermitian and random-matrix tools apply. We ask what this spectrum encodes, at thre…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cond-mat.dis-nn"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "LLM-Guided Task-Semantic Field Factorization for Industrial Process Forecasting",
+      "url": "https://arxiv.org/abs/2607.06623",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Youcheng Zong, Runda Jia, Mingxuan Ren, Dakuo He",
+      "excerpt": "arXiv:2607.06623v1 Announce Type: new Abstract: Process industries rely on time-series forecasting and soft sensing to estimate quality variables that are hard to measure online. Labeled data are scarce, operating regimes change frequently, and retraining models or rebuilding alignment pipelines for each scenario is costly. Such settings often provide variable tables and process documents that rec…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.SY",
+        "eess.SY"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Open-Ended Scenario Reasoning for Specialist Model Adaptation",
+      "url": "https://arxiv.org/abs/2607.06625",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Youcheng Zong, Runda Jia, Ranmeng Lin, Mingxuan Ren, Dakuo He",
+      "excerpt": "arXiv:2607.06625v1 Announce Type: new Abstract: Process industries have accumulated validated specialist models, yet sensor drift, feedstock variation, and regime switching cause these models to degrade systematically in new scenarios. Collecting new labeled data and retraining is costly, while continuing with the original model incurs persistent bias. Existing adaptation methods require modifying…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.SY",
+        "eess.SY"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Reward Valuation in Vision Language Models: Causal Mechanisms Underlying Anhedonia",
+      "url": "https://arxiv.org/abs/2607.06626",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Melika Honarmand, Samin Mahdipour Aghabagher, Martin Schrimpf",
+      "excerpt": "arXiv:2607.06626v1 Announce Type: new Abstract: Recent Vision-Language Models capture increasingly complex aspects of human cognition. Here we ask whether this alignment extends to reward valuation, which we assess in a mechanistic framework built on clinical tests that were developed to evaluate anhedonia and motivational deficits in major depressive disorder. In the brain, anhedonia is frequentl…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Cross-Trajectory Chimera Interventions Reveal Dissociable Roles of Weight Magnitude and Direction in Grokking",
+      "url": "https://arxiv.org/abs/2607.06628",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Truong Xuan Khanh",
+      "excerpt": "arXiv:2607.06628v1 Announce Type: new Abstract: Which properties of a partially trained network are causally portable to a different, independently trained network? Single-trajectory interventions show necessity within one run, not portability across runs. We introduce cross-trajectory chimera interventions: given two runs from different seeds, we split each weight vector into a norm and a unit di…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "STST-JEPA: Shallow-Target Spatio-Temporal Joint Embedding Prediction Architecture For EEG Self-Supervised Learning",
+      "url": "https://arxiv.org/abs/2607.06629",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Roy Segal, Yoni Svechinsky, Tomer Fekete",
+      "excerpt": "arXiv:2607.06629v1 Announce Type: new Abstract: Brain age -- the age inferred from a physiological recording -- is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric burden, and EEG is an attractive substrate for it because it is cheap, portable, and temporally rich. Yet EEG brain-age models must contend with cross-site montage heterogeneity, small lab…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "When Certificates Fail: A Unified Safety Framework for Embedded Neural Interface Models",
+      "url": "https://arxiv.org/abs/2607.06630",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Jasmeet Singh Bindra",
+      "excerpt": "arXiv:2607.06630v1 Announce Type: new Abstract: Formal robustness certificates for embedded neural-interface models can pass while task accuracy collapses: at perturbation budget e=0.25, EEGNet classification accuracy drops by 25.7% under projected-gradient attack while the Lipschitz-style certificate remains valid for all 9 tested subjects. We argue that this gap between mathematical certificatio…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Does Demand Response Increase Vulnerability to Cyber Attacks by Adversarial Data Modifications?",
+      "url": "https://arxiv.org/abs/2607.06632",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Clemens Kortmann, Eike Cramer",
+      "excerpt": "arXiv:2607.06632v1 Announce Type: new Abstract: Adversarial attacks are crafted data manipulations that aim to deteriorate the outcomes of prediction or decision-making algorithms. In the energy systems literature, adversarial attacks have been studied with a focus on problems regarding the electricity grid. Such problems include forecasting and grid state estimation, where adversarial attacks are…",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "When Do Geometric Algebra Layers Beat Scalarization? A Controlled Study on SO(3)-Equivariant Vector Laws",
+      "url": "https://arxiv.org/abs/2607.06634",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Fabien Polly",
+      "excerpt": "arXiv:2607.06634v1 Announce Type: new Abstract: Compact networks built from Clifford algebra Cl(3,0) primitives are exactly SO(3)-equivariant and learn synthetic 3D vector laws from few samples. We ask whether the geometric algebra structure itself contributes anything beyond exact equivariance. We compare against a minimal scalarization baseline: invariant dot products fed to a small MLP that out…",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Optimized Instance Alteration for Explaining and Assessing Robustness of Classifiers",
+      "url": "https://arxiv.org/abs/2607.06637",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Evgenii Kuriabov, David Miller, Jia Li",
+      "excerpt": "arXiv:2607.06637v1 Announce Type: new Abstract: In this work, we propose a unified approach for diagnosing misclassification and assessing the robustness of black-box classifiers. Central to our method is an optimization framework that modifies an instance so that the classifier predicts a specified target label, while ensuring that the modification remains easily explainable. The objective functi…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "stat.ME"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "UASPL: Uncertainty-Aware Self-Paced Learning with Evidential Neural Networks",
+      "url": "https://arxiv.org/abs/2607.06638",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Yifan Zhang, Yuxin Hu, Zhuobin Hao, Xiaozhuan Gao, Lipeng Pan",
+      "excerpt": "arXiv:2607.06638v1 Announce Type: new Abstract: Self-paced learning (SPL) is an effective learning paradigm that simulates the human learning process by progressing from easy to difficult samples based on the value of the loss function during the learning process. It has shown great potential in improving model performance and training efficiency. However, the prediction results of samples with sm…",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "At-Grok Is Not Converged:A Measurement-Validity Audit for Grokking Representation Metrics",
+      "url": "https://arxiv.org/abs/2607.06639",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Truong Xuan Khanh",
+      "excerpt": "arXiv:2607.06639v1 Announce Type: new Abstract: On modular arithmetic, a network's embedding keeps compressing for tens of thousands of steps after it has already generalized. Reading effective rank at the grokking transition overstates the converged value by 3-5x on an MLP, and by 1.3-1.5x on a transformer trained to convergence; on the MLP it also erases which cells compress at all. Compression …",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?",
+      "url": "https://arxiv.org/abs/2607.06640",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Donna Vakalis",
+      "excerpt": "arXiv:2607.06640v1 Announce Type: new Abstract: A learned world model is usually judged by how faithfully it reconstructs its observations or predicts reward, as though quality were something the model simply has or lacks. But what a task actually needs from a model is narrower: the few predictive coordinates its queries depend on, which we call the closure. We show that how much of that closure a…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "The Approximation Ratio for the Risk of Myopic Bayesian Active Learning for Linear Regression",
+      "url": "https://arxiv.org/abs/2607.06642",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Stephen Mussmann",
+      "excerpt": "arXiv:2607.06642v1 Announce Type: new Abstract: Active learning studies the fundamental question: what data should we choose to observe? The greedy algorithm in optimal experiment design is a common heuristic and also equivalent to myopic Bayesian active learning for linear regression, the common framework where long-term planning is replaced with the one-step optimal choice. In this work, we prov…",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Diffusion enabled Optimal Transport distances for graph matching",
+      "url": "https://arxiv.org/abs/2607.06646",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Iman Seyedi, Francesco Archetti",
+      "excerpt": "arXiv:2607.06646v1 Announce Type: new Abstract: This paper introduces Diffusion Semi-Relaxed Fused Gromov-Wasserstein (DsrFGW), a novel method for graph comparison that unifies node features and structural connectivity through optimal transport. While traditional Gromov-Wasserstein and semi-relaxed variants (srGW, srFGW) capture graph structure, they often struggle with sparse, noisy, or partially…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Final Checkpoints Are Not Enough: Analyzing Latent Reasoning Faithfulness Along Training Trajectories",
+      "url": "https://arxiv.org/abs/2607.06648",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Hengyu Jin, Shu Yang, Di Wang",
+      "excerpt": "arXiv:2607.06648v1 Announce Type: new Abstract: Latent reasoning methods perform multi-step inference entirely in the model's continuous hidden states, promising more compact and efficient reasoning. However, these opaque hidden states raise a question of faithfulness: whether these latent reasoning steps causally drive the final answer. Prior work investigates this question at converged checkpoin…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Entropy-Guided Tensor Compression for Multimodal Federated Learning on Edge Devices",
+      "url": "https://arxiv.org/abs/2607.06651",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Quoc Bao Phan, Tuy Tan Nguyen",
+      "excerpt": "arXiv:2607.06651v1 Announce Type: new Abstract: Federated learning (FL) over mobile and edge devices increasingly involves multimodal models in which clients differ in both sensing capability and computational capacity. Existing update compression schemes typically apply uniform policies across layers and devices, without accounting for modality-specific differences in spectral structure and compr…",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "From Jumps to Signatures: a Generative Method for Temporal Point Processes",
+      "url": "https://arxiv.org/abs/2607.06652",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Niels Cariou-Kotlarek, Vasileios Lampos",
+      "excerpt": "arXiv:2607.06652v1 Announce Type: new Abstract: Rough path signatures are a universal feature map for continuous paths and, via the expected signature, characterise path distributions. These guarantees do not directly extend to cadlag paths of Temporal Point Processes (TPPs), limiting the use of signature methods for event sequences. Furthermore, neural TPP models, including recent generative appr…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Dual Attention Heads for Personalized Federated Learning in ECG Classification",
+      "url": "https://arxiv.org/abs/2607.06653",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Kien Le, Joseph Lindley, Quoc Bao Phan, Tuy Tan Nguyen",
+      "excerpt": "arXiv:2607.06653v1 Announce Type: new Abstract: Federated learning (FL) enables collaborative model training across institutions without sharing sensitive patient data. However, the inherent heterogeneity of electrocardiogram (ECG) data across healthcare providers presents significant technical challenges for robust classification. We propose FedDualAtt, a personalized federated learning approach …",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Robust Human-AI Complementarity under Uncertainty",
+      "url": "https://arxiv.org/abs/2607.06656",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Yewon Byun, Bryan Wilder",
+      "excerpt": "arXiv:2607.06656v1 Announce Type: new Abstract: Machine learning models are often intended to augment rather than replace human decision makers, by providing information that is complementary to human judgement. Yet, in practice, human decision makers routinely fail to realize such complementary gains, even when models provide useful signal. In this work, we study how asymmetric information about …",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Trees from Marginals: Autoregressive drafting with factorized priors",
+      "url": "https://arxiv.org/abs/2607.06763",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Yuma Oda, Ryan Mathieu, Roman Knyazhitskiy, Artur Chakhvadze",
+      "excerpt": "arXiv:2607.06763v1 Announce Type: new Abstract: Speculative decoding greatly increases the interactivity of autoregressive language models by trading off computation for extra tokens generated in a single forward pass. Factorized draft models are especially efficient because they predict future-token marginals in parallel, but their independence assumption causes acceptance rates to degrade sharpl…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Efficient Long-Horizon Learning for Learned Optimization",
+      "url": "https://arxiv.org/abs/2607.06772",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Xiaolong Huang, Benjamin Th\\'erien, James Harrison, Eugene Belilovsky",
+      "excerpt": "arXiv:2607.06772v1 Announce Type: new Abstract: Learned optimization aims to improve upon hand-designed optimizers (e.g., Adam and Muon) by meta-learning small neural network optimizers over a distribution of tasks. While recent work has greatly advanced the architectural design and inductive biases of learned optimizers (LOs), current meta-training approaches still suffer from two main difficulti…",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Efficient Bayesian Deep Ensembles via Analytic Predictive Inference",
+      "url": "https://arxiv.org/abs/2607.06776",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Sina Aghaee Dabaghan Fard, Marie Maros, Jaesung Lee",
+      "excerpt": "arXiv:2607.06776v1 Announce Type: new Abstract: We introduce an efficient Bayesian deep ensemble method for predictive regression designed to enhance interpretability while maintaining competitive predictive performance and computational efficiency. Our method combines the statistical rigor of Bayesian inference with the scalability of deep ensembles, providing calibrated uncertainty estimates tha…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "stat.ME"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "On Explicit Super-Expressive Approximation for Neural Networks",
+      "url": "https://arxiv.org/abs/2607.06781",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Feng-Lei Fan, Ze-Yu Li, Chen-Yu Wang, Jian-Jun Wang",
+      "excerpt": "arXiv:2607.06781v1 Announce Type: new Abstract: In this work, we investigate the fixed-architecture neural network approximation with explicit parameter bounds and elementary activations. While prior work demonstrated super-expressive approximation using fixed-size networks, they lack quantitative and non-asymptotic characterizations of parameter magnitude with respect to the approximation error. …",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Enhancing deep learning models for time series classification via knowledge distillation",
+      "url": "https://arxiv.org/abs/2607.06796",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Javidan Abdullayev, Maxime Devanne, Jonathan Weber, Germain Forestier",
+      "excerpt": "arXiv:2607.06796v1 Announce Type: new Abstract: Deep learning has achieved remarkable success in various domains including time series analysis, computer vision and natural language processing. However, high computational and memory demands of state-of-the-art architectures pose challenges for deployment in resource-limited environments. Knowledge Distillation (KD) addresses this by transferring k…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "What Predicts Correctness in Text-to-SQL? A Selective-Prediction Study",
+      "url": "https://arxiv.org/abs/2607.06799",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Robert Richardson",
+      "excerpt": "arXiv:2607.06799v1 Announce Type: new Abstract: Evaluating uncertainty in AI-generated SQL queries requires estimating whether a query is correct, where correct means it executes to the same result as a human-written reference. We study which signals predict correctness on hard multi-table text-to-SQL, using AUROC to measure how well each ranks correct queries above incorrect ones. On BIRD and Spi…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Generative Diffusion Models of Stochastic Graph Signals",
+      "url": "https://arxiv.org/abs/2607.06833",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Yi\\u{g}it Berkay Uslu, Samar Hadou, Sergio Rozada, Shirin Saeedi Bidokhti, Alejandro Ribeiro",
+      "excerpt": "arXiv:2607.06833v1 Announce Type: new Abstract: Sampling stochastic signals supported on a graph underlies many graph machine learning tasks, including recommender systems, forecasting in financial markets, and wireless network optimization. In these settings, the target signals are realizations of unknown conditional distributions. However, prevailing approaches rely mostly on intricate, applicat…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "LEMUR 2: Unlocking Neural Network Diversity for AI",
+      "url": "https://arxiv.org/abs/2607.06839",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Tolgay Atinc Uzun, Waleed Khalid, Saif U Din, Sai Revanth Mulukuledu, Akashdeep Singh, Chandini Vysyaraju, Raghuvir Duvvuri, Avi Goyal, Yashkumar Rajeshbhai Lukhi, Muhammad A. Hussain, Krunal Jesani, Usha Shrestha, Yash Mittal, Roman Kochnev, Pritam Kadam, Mohsin Ikram, Harsh R. Moradiya, Alice Arslanian, Dmitry Ignatov, Radu Timofte",
+      "excerpt": "arXiv:2607.06839v1 Announce Type: new Abstract: Existing NAS benchmarks (e.g., NAS-Bench, NATS-Bench) cover only narrow, task-specific regions of the architectural design space and lack cross-domain or deployment-aware evaluation. LEMUR 2 introduces a large-scale, extensible framework unifying generative, evaluative, and deployment pipelines to unlock neural-network diversity. It comprises over 14…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "A Gold-Standard Study of What Makes a Lightweight Game-Playing Agent Strong",
+      "url": "https://arxiv.org/abs/2607.06854",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Nima Kelidari, Mohammadsaeed Haghi, Mahdi Salmani",
+      "excerpt": "arXiv:2607.06854v1 Announce Type: new Abstract: Reinforcement learning agents for imperfect-information card games are only as strong as the opponents they train against, and they are hard to grade, since they beat a random opponent over 99 percent of the time and only tie copies of themselves. So we build a strong, fixed, rule-based expert for Gin Rummy and use it only as a yardstick, never for t…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.GT"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Geometric Self-Distillation for Reasoning Generalization",
+      "url": "https://arxiv.org/abs/2607.06855",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Josip Juki\\'c, Ivan Titov",
+      "excerpt": "arXiv:2607.06855v1 Announce Type: new Abstract: On-policy distillation is a practical post-training recipe for large language models, supplying dense teacher supervision on the student's own trajectories. In privileged-context self-distillation, teacher and student are the same model conditioned on the same prefix, but the teacher also sees a hint or the full solution trace. This makes supervision…",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Best-Arm Identification with Generative Proxy",
+      "url": "https://arxiv.org/abs/2607.06879",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Tianyi Ma, Hanzhang Qin, Ruihao Zhu, Jierui Zuo",
+      "excerpt": "arXiv:2607.06879v1 Announce Type: new Abstract: Best-arm identification is a canonical model for data-driven decision-making, but in many applications each reward observation is costly. Motivated by the growing availability of cheap predictions from machine learning and large language models, we study fixed-confidence best-arm identification in which each costly reward pull is paired with a cheap …",
+      "image_url": null,
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    },
+    {
+      "type": "article",
+      "title": "Converge to Surprise: Evolutionary Self-supervised Image Clustering",
+      "url": "https://arxiv.org/abs/2607.06887",
+      "article_date": "2026-07-09T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Canlin Zhang, Xiuwen Liu",
+      "excerpt": "arXiv:2607.06887v1 Announce Type: new Abstract: Most self-supervised image clustering models, actually almost all deep learning approaches, are based on gradient descent: In order to calculate the loss, every optimization step requires a clearly defined target, whether a contrastive split, a masked patch or entity, an EMA-teacher output, a pseudo-label, or a differentiable information-theoretic fu…",
+      "image_url": null,
+      "categories": [
+        "cs.LG"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-09T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:20.122Z"
+    }
+  ]
+}

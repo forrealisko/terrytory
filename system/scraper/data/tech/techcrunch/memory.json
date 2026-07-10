@@ -1,48 +1,48 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:47.660Z",
-  "last_scrape": "2026-07-03T21:08:51.883Z",
-  "total_scrapes": 1,
+  "last_scrape": "2026-07-10T09:41:24.005Z",
+  "total_scrapes": 6,
   "seen_hashes": {
     "ebebe46d142b6e7d": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
       "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
       "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
     },
     "96cdb7f1c8072448": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
       "title": "The Dune keypad device can be your meeting controller and more",
       "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/"
     },
     "d463714c5ec5563b": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
       "title": "Chevy built an all-American EV truck — why is nobody buying it?",
       "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/"
     },
     "28edf6a5839d614e": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware",
       "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/"
     },
     "58cdebc355a6acd9": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
       "url": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/"
     },
     "8aafbde5522c666a": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
       "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
     },
     "23feed7924babe93": {
       "first_seen": "2026-07-03T21:08:51.881Z",
-      "last_seen": "2026-07-03T21:08:51.881Z",
+      "last_seen": "2026-07-06T10:44:16.025Z",
       "title": "Private space pilots are flying orbital missions for the US Space Force",
       "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/"
     },
@@ -123,9 +123,525 @@
       "last_seen": "2026-07-03T21:08:51.882Z",
       "title": "US government says it got hacked — again",
       "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/"
+    },
+    "5382b7beae0ae25e": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"
+    },
+    "f9bcda2f30b37e47": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/"
+    },
+    "e64345228683ca83": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Uber’s European expansion plans may have hit a speed bump",
+      "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/"
+    },
+    "125b8497813507dd": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Trump memecoin investors lost $3.8 billion, analysis finds",
+      "url": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/"
+    },
+    "d1a423c649102322": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Amazon will stop accepting new customers for Mechanical Turk",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
+    },
+    "ba435bff8b0ce8f4": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "5 desk gadgets that can make your workday better",
+      "url": "https://techcrunch.com/2026/07/05/5-desk-gadgets-that-can-make-your-workday-better/"
+    },
+    "0eff700ab9efa526": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "What is Bending Spoons? The little-known AOL and Vimeo owner that’s now public",
+      "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/"
+    },
+    "b683fbfc9b266b24": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Almost 90 new unicorns have been minted so far this year — here they are",
+      "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/"
+    },
+    "8148c8e03297e7ab": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
+    },
+    "85afafbbb341e6d7": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
+    },
+    "e9f49d0f5a9d4b40": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+    },
+    "337eef6fefd0426d": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+    },
+    "3e4ac5636d69d8e6": {
+      "first_seen": "2026-07-06T10:44:16.024Z",
+      "last_seen": "2026-07-06T10:44:16.024Z",
+      "title": "The only AI glossary you’ll need this year",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+    },
+    "8e62fb1cf1617ed7": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/"
+    },
+    "74b206184cde0f75": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Netflix invented binge-watching. Now it may have outgrown it.",
+      "url": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it/"
+    },
+    "ce297b0dfa3ddd52": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/"
+    },
+    "1e8e07f37467128a": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/"
+    },
+    "394931127984d96d": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
+    },
+    "960c1e075caea8a5": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/"
+    },
+    "a5c7910fdd939ccb": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+    },
+    "e6de4bb9c0610a5c": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all",
+      "url": "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/"
+    },
+    "553315ec957ffb15": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/"
+    },
+    "765bb00ed506c3fc": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
+      "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/"
+    },
+    "432c3ecf1f6e1a7c": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/"
+    },
+    "d021bea7ae741168": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/"
+    },
+    "c72223e0874e6eaa": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Canadian spy agency says it hacked drug traffickers, extremists, and a ransomware gang last year",
+      "url": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/"
+    },
+    "cf1d492ac75a6fac": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "How to reserve and change your WhatsApp username",
+      "url": "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/"
+    },
+    "9cde332f81ea52ac": {
+      "first_seen": "2026-07-07T09:48:54.090Z",
+      "last_seen": "2026-07-07T09:48:54.090Z",
+      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/"
+    },
+    "c6520adc872d1aa7": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"
+    },
+    "dbf8259066547c8e": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+    },
+    "1d9638971ee48e61": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Final extension: Startup Battlefield Australia applications now close July 20",
+      "url": "https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/"
+    },
+    "0433a25f95c5b0f5": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/"
+    },
+    "d8d8ef485f43990e": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"
+    },
+    "566599dd56a09c23": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
+    },
+    "1456e1678db7593b": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
+    },
+    "9060011c94ba8375": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Google’s Pixel event is set for August 12",
+      "url": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/"
+    },
+    "f2d26e3460e5a6d6": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Figma acquires team behind a vibe-coding app",
+      "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/"
+    },
+    "39633613ae46b7b0": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others",
+      "url": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/"
+    },
+    "96e9d1c24f89784a": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Hacked, leaked, and held for ransom: The worst breaches of 2026 so far",
+      "url": "https://techcrunch.com/2026/07/07/the-worst-hacks-and-breaches-of-2026-so-far/"
+    },
+    "ae9e772be9004928": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Claude Cowork expands to mobile and web",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+    },
+    "d6a05f100607b346": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "X adds a video editor to encourage creators to post original content, not stolen reposts",
+      "url": "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts/"
+    },
+    "35156bfed52494fc": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "VC firm Chemistry is raising $500M for its second fund",
+      "url": "https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund/"
+    },
+    "9ec121b03e3fabc8": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
+    },
+    "0d22ebbb8874d52d": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "This startup pits dealerships against each other to bid on your used car",
+      "url": "https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/"
+    },
+    "8ab9ca5aabefc182": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Hacktivists call out Trump by hacking and defacing US Army websites",
+      "url": "https://techcrunch.com/2026/07/07/hacktivists-call-out-trump-by-hacking-and-defacing-us-army-websites/"
+    },
+    "90a74ce7768b0f24": {
+      "first_seen": "2026-07-08T08:34:45.079Z",
+      "last_seen": "2026-07-08T08:34:45.079Z",
+      "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+    },
+    "5e9bf575d1da2e5e": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Truecaller clashes with India’s telecom regulator over anti-spam rules",
+      "url": "https://techcrunch.com/2026/07/08/truecaller-clashes-with-indias-telecom-regulator-over-anti-spam-rules/"
+    },
+    "31a5b94bad3995a0": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
+      "url": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/"
+    },
+    "f5f511f5967481fe": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Lovable reportedly in talks to double its valuation to $13.2B",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
+    },
+    "4ebc8e97b3e67a65": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Feds demand autonomous vehicle companies stop interfering with first responders",
+      "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/"
+    },
+    "fc75b9bd5d033a7b": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/"
+    },
+    "92ef10198812f2a0": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing",
+      "url": "https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/"
+    },
+    "9c13a3fabc13d1bd": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Autonomous drone delivery startup Manna plots major US expansion",
+      "url": "https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/"
+    },
+    "f2a88ed8a71182b8": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"
+    },
+    "38ca11c2e361e833": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "‘Slow-cial’ app Roost forces you to slow down to the speed of a carrier pigeon",
+      "url": "https://techcrunch.com/2026/07/08/slow-cial-app-roost-forces-you-to-slow-down-to-the-speed-of-a-carrier-pigeon/"
+    },
+    "87e79a974906b32d": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/"
+    },
+    "5277b2e0e8ff7f5c": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Elon Musk says X will send DMs when posts you’ve engaged with are corrected",
+      "url": "https://techcrunch.com/2026/07/08/elon-musk-says-x-will-send-dms-when-posts-youve-engaged-with-are-corrected/"
+    },
+    "015c731d24313bf0": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Google Photos adds a new AI ‘Video Remix’ tool",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/"
+    },
+    "759ff1091019e13d": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Why this CEO thinks video games make better training data than the internet",
+      "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/"
+    },
+    "8bd74d1938d9a441": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+      "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/"
+    },
+    "96335c8a120479cd": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "OpenAI releases new voice models for more natural live conversations",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
+    },
+    "2cb65c0bf73e2cfc": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Crypto VC firm Paradigm raises $1.2B to invest in ‘technical frontier’ startups",
+      "url": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/"
+    },
+    "afe2544836558c64": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
+    },
+    "80e14f39248983d5": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Another massive data breach exposed millions of driver’s license numbers",
+      "url": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/"
+    },
+    "4fcd6c1ed6e99f3b": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "These AI startups are growing  revenue at faster and faster rates",
+      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"
+    },
+    "be8fb97ed0e56427": {
+      "first_seen": "2026-07-09T09:46:29.934Z",
+      "last_seen": "2026-07-09T09:46:29.934Z",
+      "title": "Solo GP Ashley Smith announces second $25M fund to back startups in AI, security and more",
+      "url": "https://techcrunch.com/2026/07/08/solo-gp-ashley-smith-announces-25m-close-of-second-fund/"
+    },
+    "6522cd61326a0066": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "After Apple, India’s smartphone manufacturing boom enters new phase with Vivo JV",
+      "url": "https://techcrunch.com/2026/07/09/after-apple-indias-smartphone-manufacturing-boom-enters-new-phase-with-vivo-jv/"
+    },
+    "5390181be54fda4b": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
+    },
+    "f0ae191e1a4982dc": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Don’t want to invest in Elon Musk? Two new ETFs explicitly exclude him",
+      "url": "https://techcrunch.com/2026/07/09/dont-want-to-invest-in-elon-musk-two-new-etfs-explicitly-exclude-him/"
+    },
+    "cf980a9dfc71c2ae": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Fidji Simo steps down from OpenAI’s no. 2 role",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/"
+    },
+    "40c4cf9177d51c76": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
+    },
+    "8f28981d61e4d323": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "An AI agent startup just let its agent run its $100M fundraise",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
+    },
+    "12becd26729c5f17": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/"
+    },
+    "77b374bee427f6f4": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/"
+    },
+    "de6be066eb87e6a4": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Can AI answer the $3 trillion question?",
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/"
+    },
+    "9683c84e437bc211": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/"
+    },
+    "1b43a2296ff8a4b2": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Charles Hudson shares the common mistakes he’s seen after investing in 500+ startups",
+      "url": "https://techcrunch.com/2026/07/09/charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups/"
+    },
+    "fb09c8d68fa6d6c1": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/"
+    },
+    "c89f03f19a0eb76f": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Slate Auto teams up with Crayola to color its EV truck",
+      "url": "https://techcrunch.com/2026/07/09/slate-auto-teams-up-with-crayola-to-color-its-ev-truck/"
+    },
+    "23ba9922c2b944f7": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "FanDuel sent a video from star athlete Bryce Harper to a customer with a gambling problem",
+      "url": "https://techcrunch.com/2026/07/09/fanduel-sent-a-video-from-star-athlete-bryce-harper-to-a-customer-with-a-gambling-problem/"
+    },
+    "d992aa1384f3dd6b": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Mercor is in talks for a $20B valuation",
+      "url": "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/"
+    },
+    "45abde51242c88e9": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Google will now disclose which ads are made with AI",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/"
+    },
+    "1c41e753863c0f0c": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
+    },
+    "437c5d4ba0b1e702": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
+      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/"
+    },
+    "73e5ca389ac8c3fb": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
+      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/"
+    },
+    "5e747e3cd7b68a92": {
+      "first_seen": "2026-07-10T09:41:24.004Z",
+      "last_seen": "2026-07-10T09:41:24.004Z",
+      "title": "Meta’s new AI chips will begin production in September",
+      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/"
     }
   },
   "stats": {
-    "total_headlines_ever": 20
+    "total_headlines_ever": 106
   }
 }

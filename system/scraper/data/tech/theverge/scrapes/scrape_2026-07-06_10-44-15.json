@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "scrape_id": "775dc757-ea56-402e-9a3f-a9104ebbe880",
+    "scraped_at": "2026-07-06T10:44:15.689Z",
+    "source_url": "https://www.theverge.com/rss/index.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 10,
+    "new_headlines": 10,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Some of the nation’s rich are letting AI teach their kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "article_date": "2026-07-06T09:26:00.000Z",
+      "article_date_raw": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha […]",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "News",
+        "Policy"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:26:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip-hop at its most daring",
+      "url": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review",
+      "article_date": "2026-07-06T09:39:06.000Z",
+      "article_date_raw": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "There was a period in the early aughts when Definitive Jux (nee: Def Jux) seemed like it was going to be the future of hip-hop. While the label featured plenty of experimental, boundary-pushing, and politically minded acts, Lif stood out as the most \"conscious rapper\" in the traditional sense. It was clear though, that label […]",
+      "image_url": null,
+      "categories": [
+        "Column",
+        "Entertainment",
+        "Music",
+        "Music Review"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:39:06.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Where to preorder Grand Theft Auto VI",
+      "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy",
+      "article_date": "2026-07-02T20:41:14.000Z",
+      "article_date_raw": null,
+      "author": "Brad Bourque",
+      "excerpt": "Rockstar's long-awaited Grand Theft Auto VI is launching November 19th, 2026 for PlayStation 5 and Xbox Series S/X consoles. The game will be available digitally at launch, with physical cases containing codes, not discs, so your options for preordering are straightforward. The preloading phase for the game begins on November 12th, which should give you […]",
+      "image_url": null,
+      "categories": [
+        "Gadgets",
+        "Gaming",
+        "PlayStation",
+        "Verge Shopping",
+        "Xbox"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T20:41:14.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "article_date": "2026-07-06T09:43:17.000Z",
+      "article_date_raw": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to […]",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:43:17.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "The Sourdough Sidekick automates the boring bit of baking",
+      "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
+      "article_date": "2026-07-04T03:05:59.000Z",
+      "article_date_raw": null,
+      "author": "Dominic Preston",
+      "excerpt": "Baking sourdough bread is inherently old-fashioned, relying on natural fermentation and wild yeast instead of the simple, predictable commercial stuff. So it might sound anathema to bring a gadget into the mix. The trick to the Sourdough Sidekick - backed and branded by King Arthur flour - is that it promises to automate the boring […]",
+      "image_url": null,
+      "categories": [
+        "Reviews",
+        "Smart Home",
+        "Smart Home Reviews",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T03:05:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "How Keurig saved — and ruined — your coffee",
+      "url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
+      "article_date": "2026-07-06T09:58:07.000Z",
+      "article_date_raw": null,
+      "author": "David Pierce",
+      "excerpt": "Before Keurig, the coffee in your office was almost certainly terrible. Old, burned, made by someone who would rather poorly eyeball than properly measure. Just altogether gross. After Keurig? You could make your own coffee, a cup at a time, exactly when you needed it. The single-cup brewer was an elegant solution to an extremely […]",
+      "image_url": null,
+      "categories": [
+        "Gadgets",
+        "Podcasts",
+        "Smart Home",
+        "Tech",
+        "Version History"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:58:07.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Vizio accidentally made the best dumb TV on the market",
+      "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
+      "article_date": "2026-07-02T22:37:05.000Z",
+      "article_date_raw": null,
+      "author": "John.Higgins",
+      "excerpt": "When I first started testing Vizio's 65-inch Mini LED Quantum TV, I thought the big story was that Vizio was back and that it had a quantum-dot TV for under $398 - the cheapest on the market. Vizio's been pretty quiet since it was acquired by Walmart in 2024, so putting out a TV with […]",
+      "image_url": null,
+      "categories": [
+        "Gadgets",
+        "Reviews",
+        "Tech",
+        "TVs"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T22:37:05.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Xbox is a disaster",
+      "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
+      "article_date": "2026-07-02T13:52:42.000Z",
+      "article_date_raw": null,
+      "author": "Andrew Webster",
+      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the bleak state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Microsoft closed out Summer […]",
+      "image_url": null,
+      "categories": [
+        "Column",
+        "Entertainment",
+        "Gaming",
+        "Microsoft",
+        "Tech",
+        "The Stepback",
+        "Xbox"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T13:52:42.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+      "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+      "article_date": "2026-07-06T10:08:18.000Z",
+      "article_date_raw": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space Technologies. The company's Link spacecraft launched Friday with the goal of intercepting […]",
+      "image_url": null,
+      "categories": [
+        "News",
+        "Science",
+        "Space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:08:18.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "White House deletes thousands of webpages about energy conservation as heatwave slams US",
+      "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+      "article_date": "2026-07-06T10:12:22.000Z",
+      "article_date_raw": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "The US Department of Energy reportedly deleted about 6,000 pages related to energy conservation as a historic heatwave tears across the country. The deletion was suspiciously timed, following Republican outrage over Mayor Zohran Mamdani asking New Yorkers to help reduce strain on the grid by setting their AC to 78 degrees. Republicans like Ted Cruz […]",
+      "image_url": null,
+      "categories": [
+        "News",
+        "Policy",
+        "Politics",
+        "Science"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:12:22.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    }
+  ]
+}

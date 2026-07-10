@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "scrape_id": "885daf8a-9173-42df-aeb3-91bbd76ba34f",
+    "scraped_at": "2026-07-09T09:46:29.602Z",
+    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 13,
+    "previously_seen": 7
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
+      "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+      "article_date": "2026-07-08T21:42:44.000Z",
+      "article_date_raw": null,
+      "author": "Nate Anderson",
+      "excerpt": "AI cheating leads to \"a failed society,\" professor says.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261090247-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Culture",
+        "cheating",
+        "higher ed",
+        "Ivy League"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T21:42:44.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
+      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
+      "article_date": "2026-07-08T19:56:37.000Z",
+      "article_date_raw": null,
+      "author": "Ashley Belanger",
+      "excerpt": "More young girls sue X over Grok CSAM; X accused of shielding child predators.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261524889-1024x648.jpg",
+      "categories": [
+        "AI",
+        "Policy",
+        "ai csam",
+        "child sex abuse materials",
+        "Elon Musk",
+        "generative ai",
+        "grok",
+        "grok csam"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:56:37.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
+      "url": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/",
+      "article_date": "2026-07-08T19:14:02.000Z",
+      "article_date_raw": null,
+      "author": "Jon Brodkin",
+      "excerpt": "Kalshi tried to ignore gambling laws on its prediction market, NY governor says.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-1152x648-1783536871.jpg",
+      "categories": [
+        "Policy",
+        "Kalshi",
+        "new york",
+        "prediction markets"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:14:02.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
+      "article_date": "2026-07-08T19:01:19.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "Both vulnerabilities allow untrusted users to gain root privileges.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "exploits",
+        "Linux",
+        "local privilege escalation",
+        "vulnerabilities"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T19:01:19.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
+      "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/",
+      "article_date": "2026-07-08T18:10:16.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding",
+      "excerpt": "But the devices could \"easily be reflashed.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238063763-1152x648-1783530792.jpg",
+      "categories": [
+        "Biz & IT",
+        "Policy",
+        "Tech",
+        "australia",
+        "Cisco",
+        "e-waste",
+        "samknows"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T18:10:16.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "TikTok users don't have as much agency over their FYPs as they think",
+      "url": "https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps/",
+      "article_date": "2026-07-08T18:00:49.000Z",
+      "article_date_raw": null,
+      "author": "Jennifer Ouellette",
+      "excerpt": "The \"not interested\" feature is your friend, but users must intentionally and constantly curate their FYPs",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/04/getty-tiktok-1152x648.jpg",
+      "categories": [
+        "Science",
+        "Tech",
+        "social media",
+        "social psychology"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T18:00:49.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers",
+      "url": "https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/",
+      "article_date": "2026-07-08T17:44:54.000Z",
+      "article_date_raw": null,
+      "author": "Jeremy Hsu",
+      "excerpt": "US military drone losses in Iran war spur Pentagon call for cheap replacements.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Reaper-drone-1152x648.jpg",
+      "categories": [
+        "Tech",
+        "donald trump iran war",
+        "drones",
+        "Iran",
+        "lethal drones",
+        "military drones",
+        "MQ-9A Reaper",
+        "Strait of Hormuz"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:44:54.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Miami-based City Labs achieves a first for commercial nuclear power in space",
+      "url": "https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/",
+      "article_date": "2026-07-08T17:26:44.000Z",
+      "article_date_raw": null,
+      "author": "Stephen Clark",
+      "excerpt": "\"The BOHR mission serves as a pathfinder for future nuclear-powered spacecraft.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/BOHR_Assembly_Finished-539x648.jpg",
+      "categories": [
+        "Science",
+        "Space",
+        "city labs",
+        "Commercial space",
+        "cubesat",
+        "falcon 9",
+        "launch",
+        "nuclear power"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T17:26:44.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind",
+      "url": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/",
+      "article_date": "2026-07-08T16:39:48.000Z",
+      "article_date_raw": null,
+      "author": "Ryan Whitwam",
+      "excerpt": "Android Bench is evolving, and developers can help guide that process.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/Android-statue-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Google",
+        "AI benchmarks",
+        "android",
+        "Artificial Intelligence",
+        "developers",
+        "google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T16:39:48.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Two teens learn the hard way not to do toy gun drive-bys from a Waymo",
+      "url": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/",
+      "article_date": "2026-07-08T15:40:44.000Z",
+      "article_date_raw": null,
+      "author": "Jonathan M. Gitlin",
+      "excerpt": "The robotaxi stopped, called 911, and waited for the San Mateo Police to show up.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/waymo-orbeez-1152x648.jpg",
+      "categories": [
+        "Cars",
+        "robotaxi",
+        "waymo"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T15:40:44.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Ocean rift zone saw spreading happen in a sudden burst",
+      "url": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread/",
+      "article_date": "2026-07-08T15:09:38.000Z",
+      "article_date_raw": null,
+      "author": "John Timmer",
+      "excerpt": "The crust expands at mid-ocean rifts. But how?",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1316974926-1152x648.jpg",
+      "categories": [
+        "Science",
+        "Earth science",
+        "geology",
+        "mid ocean ridges",
+        "plate tectonics",
+        "rifting"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T15:09:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
+      "url": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/",
+      "article_date": "2026-07-08T13:26:10.000Z",
+      "article_date_raw": null,
+      "author": "Camilla Hodgson in London",
+      "excerpt": "Miners backed by Trump admin sell to Japan, South Korea despite push to develop domestic supply chain.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270755803-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Science",
+        "Energy Fuels",
+        "MP Materials",
+        "Phoenix Tailings",
+        "rare earths"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T13:26:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Blue Origin, for the first time, is expected to raise private capital",
+      "url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+      "article_date": "2026-07-08T12:47:35.000Z",
+      "article_date_raw": null,
+      "author": "Eric Berger",
+      "excerpt": "The company is raising $10 billion, leading to a valuation of $130 billion.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2021/02/GettyImages-520716332-1152x648.jpg",
+      "categories": [
+        "Space",
+        "blue origin",
+        "Jeff Bezos",
+        "space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-08T12:47:35.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-09T09:46:29.602Z"
+    },
+    {
+      "type": "article",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "article_date": "2026-07-08T07:00:51.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/rogue-ai-agent-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Features",
+        "Security",
+        "hallucinations",
+        "LLMs",
+        "typosquatting"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-08T07:00:51.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:44.996Z"
+    },
+    {
+      "type": "article",
+      "title": "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
+      "url": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/",
+      "article_date": "2026-07-07T22:29:00.000Z",
+      "article_date_raw": null,
+      "author": "Beth Mole",
+      "excerpt": "Cases have risen quickly as officials are working to identify a common source.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/7827_lores-700x648.jpg",
+      "categories": [
+        "Health",
+        "cyclospora",
+        "cyclosporiasis",
+        "Michigan",
+        "outbreak"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-07T22:29:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:44.996Z"
+    },
+    {
+      "type": "article",
+      "title": "Data centers’ energy demand threatens Trump’s “Made in America” plan",
+      "url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
+      "article_date": "2026-07-07T21:03:07.000Z",
+      "article_date_raw": null,
+      "author": "Jeremy Hsu",
+      "excerpt": "Squeeze on Rust Belt electricity bills threatens Trump’s manufacturing plan.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Electric-Arc-Furnace-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Policy",
+        "ai data centers",
+        "big tech",
+        "data centers",
+        "Donald Trump",
+        "electricity demand",
+        "electricity grid"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-07T21:03:07.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:44.996Z"
+    },
+    {
+      "type": "article",
+      "title": "Surprisingly large number of people may have marker for tick-linked meat allergy",
+      "url": "https://arstechnica.com/health/2026/07/surprisingly-large-number-of-people-may-have-marker-for-tick-linked-meat-allergy/",
+      "article_date": "2026-07-07T20:32:39.000Z",
+      "article_date_raw": null,
+      "author": "Beth Mole",
+      "excerpt": "There's still a slew of questions about why some people develop alpha-gal syndrome.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2267590795-1152x648.jpg",
+      "categories": [
+        "Health",
+        "allergy",
+        "alpha-gal",
+        "Alpha-Gal Syndrome",
+        "antibody",
+        "IgE",
+        "lone star tick",
+        "Meat"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-07T20:32:39.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:44.996Z"
+    },
+    {
+      "type": "article",
+      "title": "SCOTUS lets Texas enforce app store law that Big Tech calls \"censorship regime\"",
+      "url": "https://arstechnica.com/tech-policy/2026/07/supreme-court-lets-texas-enforce-age-verification-law-on-app-stores/",
+      "article_date": "2026-07-07T20:18:24.000Z",
+      "article_date_raw": null,
+      "author": "Jon Brodkin",
+      "excerpt": "Texas win at 5th Circuit left in place as attempts to overturn age law continue.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/texas-flag-1152x648.jpg",
+      "categories": [
+        "Policy",
+        "Supreme Court",
+        "texas"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-07T20:18:24.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:44.996Z"
+    },
+    {
+      "type": "article",
+      "title": "Bethesda, id Software reportedly hit hard by Microsoft layoffs",
+      "url": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
+      "article_date": "2026-07-07T19:52:59.000Z",
+      "article_date_raw": null,
+      "author": "Kyle Orland",
+      "excerpt": "As much as 50 percent of some teams affected by reductions, and more could be coming.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/keen-1152x524.jpg",
+      "categories": [
+        "Gaming",
+        "bethesda",
+        "Doom",
+        "id Software",
+        "layoffs",
+        "microsoft",
+        "romero"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-07T19:52:59.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:44.996Z"
+    },
+    {
+      "type": "article",
+      "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
+      "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+      "article_date": "2026-07-07T19:08:34.000Z",
+      "article_date_raw": null,
+      "author": "Ryan Whitwam",
+      "excerpt": "Google's new phones could feature glowing LEDs and higher price tags.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pixel-11-event-1152x648.jpg",
+      "categories": [
+        "Google",
+        "Tech",
+        "android",
+        "google",
+        "pixel 11",
+        "pixel watch 5",
+        "smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-07T19:08:34.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:44.996Z"
+    }
+  ]
+}

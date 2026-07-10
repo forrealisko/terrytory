@@ -1,0 +1,1478 @@
+{
+  "meta": {
+    "digest_id": "65cce7ff-a54b-440f-b6e0-c9d148d8d234",
+    "niche": "tech",
+    "run_at": "2026-07-06T10:44:15.689Z",
+    "orchestrator_version": "2.0.0",
+    "sources_attempted": 5,
+    "sources_ok": 5,
+    "sources_failed": 0,
+    "total_new": 62,
+    "run_results": {
+      "theverge": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "arstechnica": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "techcrunch": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "engadget": {
+        "ok": true,
+        "elapsed": "0.1"
+      },
+      "wired": {
+        "ok": true,
+        "elapsed": "0.1"
+      }
+    }
+  },
+  "articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Sony Bravia 7 Mark II: Midrange but Priced High (2026)",
+      "url": "https://www.wired.com/review/sony-bravia-7-mark-ii/",
+      "image_url": "https://media.wired.com/photos/6a473d862194c5deed8a476d/master/pass/Review--Sony-Bravia-7-Mark-II.jpg",
+      "author": "John Brandon",
+      "excerpt": "This midrange mini RGB LED television has a high-end price but doesn’t match the brightness and contrast of more advanced models.",
+      "article_date": "2026-07-06T10:31:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:31:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Televisions"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Good News! Turns Out the Earth Will Never Be Swallowed by the Sun",
+      "url": "https://www.wired.com/story/good-news-it-turns-out-the-earth-will-never-be-swallowed-by-the-sun/",
+      "image_url": "https://media.wired.com/photos/6a456710bc6a7b7d7a89d017/master/pass/1220609813",
+      "author": "Simone Valesini",
+      "excerpt": "A new study suggests that when our star becomes unstable in 5 billion years or so, Earth may avoid being engulfed by its fiery demise.",
+      "article_date": "2026-07-06T10:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:30:00.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Space"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "White House deletes thousands of webpages about energy conservation as heatwave slams US",
+      "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+      "image_url": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "The US Department of Energy reportedly deleted about 6,000 pages related to energy conservation as a historic heatwave tears across the country. The deletion was suspiciously timed, following Republican outrage over Mayor Zohran Mamdani asking New Yorkers to help reduce strain on the grid by setting their AC to 78 degrees. Republicans like Ted Cruz […]",
+      "article_date": "2026-07-06T10:12:22.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:12:22.000Z"
+      },
+      "categories": [
+        "News",
+        "Policy",
+        "Politics",
+        "Science"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Alibaba gets a reprieve from US Chinese military ban",
+      "url": "https://www.engadget.com/2208232/alibaba-gets-a-reprieve-from-us-chinese-military-ban/",
+      "image_url": "https://www.engadget.com/img/gallery/alibaba-gets-a-reprieve-from-us-chinese-military-ban/l-intro-1783331939.jpg",
+      "author": null,
+      "excerpt": "A judge has ruled that the Pentagon must give Alibaba a reprieve over its placement on a Chinese military list.",
+      "article_date": "2026-07-06T10:09:41.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:09:41.000Z"
+      },
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+      "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+      "image_url": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space Technologies. The company's Link spacecraft launched Friday with the goal of intercepting […]",
+      "article_date": "2026-07-06T10:08:18.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:08:18.000Z"
+      },
+      "categories": [
+        "News",
+        "Science",
+        "Space"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "ICE’s Internal Watchdog Is Now Investigating Online Critics",
+      "url": "https://www.wired.com/story/ices-internal-watchdog-is-now-investigating-online-critics/",
+      "image_url": "https://media.wired.com/photos/6a4685ebdae48c15b88cf0e2/master/pass/070226-ice-internal-watchdog-online%20critics.jpg",
+      "author": "Maddy Varner",
+      "excerpt": "The Office of Professional Responsibility has opened more than 100 cases over what ICE officials call “incidents of doxing and threats” against ICE employees.",
+      "article_date": "2026-07-06T10:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:00:00.000Z"
+      },
+      "categories": [
+        "Security"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "How Keurig saved — and ruined — your coffee",
+      "url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
+      "image_url": null,
+      "author": "David Pierce",
+      "excerpt": "Before Keurig, the coffee in your office was almost certainly terrible. Old, burned, made by someone who would rather poorly eyeball than properly measure. Just altogether gross. After Keurig? You could make your own coffee, a cup at a time, exactly when you needed it. The single-cup brewer was an elegant solution to an extremely […]",
+      "article_date": "2026-07-06T09:58:07.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:58:07.000Z"
+      },
+      "categories": [
+        "Gadgets",
+        "Podcasts",
+        "Smart Home",
+        "Tech",
+        "Version History"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "image_url": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to […]",
+      "article_date": "2026-07-06T09:43:17.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:43:17.000Z"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip-hop at its most daring",
+      "url": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review",
+      "image_url": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "There was a period in the early aughts when Definitive Jux (nee: Def Jux) seemed like it was going to be the future of hip-hop. While the label featured plenty of experimental, boundary-pushing, and politically minded acts, Lif stood out as the most \"conscious rapper\" in the traditional sense. It was clear though, that label […]",
+      "article_date": "2026-07-06T09:39:06.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:39:06.000Z"
+      },
+      "categories": [
+        "Column",
+        "Entertainment",
+        "Music",
+        "Music Review"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "What if the Universe Isn’t as Uniform as Scientists Think?",
+      "url": "https://www.wired.com/story/what-if-the-universe-wasnt-as-uniform-as-scientists-think/",
+      "image_url": "https://media.wired.com/photos/6a456905f3e5961ebd730c4b/master/pass/DESI-Y3P-Datapoints-Flat-Still-blue_small.png",
+      "author": "Jorge Garay",
+      "excerpt": "A study based on 47 million galaxies found that the cosmic web retains patterns on enormous scales, which could force a reevaluation of a pillar of cosmology.",
+      "article_date": "2026-07-06T09:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:30:00.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Space"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Some of the nation’s rich are letting AI teach their kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "image_url": null,
+      "author": "Terrence O’Brien",
+      "excerpt": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha […]",
+      "article_date": "2026-07-06T09:26:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:26:00.000Z"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Policy"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "image_url": null,
+      "author": "Kate Park",
+      "excerpt": "Even Realities, an ex-Apple team building camera-free smart glasses, raised $150M from Meituan and Tencent at a $1B valuation.",
+      "article_date": "2026-07-06T09:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:00:00.000Z"
+      },
+      "categories": [
+        "Startups",
+        "Hardware",
+        "SMART Glasses",
+        "meta glasses",
+        "Even Realities"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "How Palestinians Are Building a Digital Archive That Can’t Be Erased",
+      "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/",
+      "image_url": "https://media.wired.com/photos/6a457277f3e5961ebd730c51/master/pass/Palestine_lead.jpg",
+      "author": "Tamara Davison",
+      "excerpt": "Distributed backups, cyber resilience, and a half-million records are preserving Palestinian history beyond any single building or border.",
+      "article_date": "2026-07-06T09:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:00:00.000Z"
+      },
+      "categories": [
+        "Culture",
+        "Culture / Culture News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Apple's foldable iPhone may be in short supply after it launches",
+      "url": "https://www.engadget.com/2208210/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/",
+      "image_url": "https://www.engadget.com/img/gallery/apple-foldable-iphone-may-be-in-short-supply-after-it-launches/l-intro-1783326180.jpg",
+      "author": null,
+      "excerpt": "Many people who want Apple's rumored folding iPhone 'Ultra' may not be able to get it at first",
+      "article_date": "2026-07-06T08:11:10.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T08:11:10.000Z"
+      },
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+      "image_url": null,
+      "author": "Connie Loizos",
+      "excerpt": "While other humanoid startups chase sky-high valuations, Agility Robotics is betting its future on execution — and a SPAC.",
+      "article_date": "2026-07-06T06:05:29.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T06:05:29.000Z"
+      },
+      "categories": [
+        "Robotics",
+        "agility robotics",
+        "Peggy Johnson",
+        "SPAC"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Uber’s European expansion plans may have hit a speed bump",
+      "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/",
+      "image_url": null,
+      "author": "Anthony Ha",
+      "excerpt": "Back in February, Uber announced ambitious plans to launch in seven new European markets in 2026 — but now five of those launches are reportedly on hold.",
+      "article_date": "2026-07-05T21:35:17.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T21:35:17.000Z"
+      },
+      "categories": [
+        "Apps",
+        "Commerce",
+        "Startups",
+        "Uber",
+        "Delivery Hero"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Trump memecoin investors lost $3.8 billion, analysis finds",
+      "url": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/",
+      "image_url": null,
+      "author": "Anthony Ha",
+      "excerpt": "Nearly 1 million people have lost a total of $3.8 billion after buying President Donald Trump’s $TRUMP memecoin, while Trump made $636 million.",
+      "article_date": "2026-07-05T20:29:05.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T20:29:05.000Z"
+      },
+      "categories": [
+        "Crypto",
+        "Government & Policy",
+        "$trump",
+        "Donald Trump",
+        "memecoins"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Why 3D TVs failed and the trouble with 3D in Hollywood.",
+      "url": "https://www.engadget.com/2206391/why-3d-tvs-failed/",
+      "image_url": "https://www.engadget.com/img/gallery/why-3d-tvs-failed/l-intro-1782937722.jpg",
+      "author": null,
+      "excerpt": "They were annoying to use and bad 3D movies didn't help.",
+      "article_date": "2026-07-05T18:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T18:30:00.000Z"
+      },
+      "categories": [
+        "TV & Movies"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Amazon will stop accepting new customers for Mechanical Turk",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "image_url": null,
+      "author": "Anthony Ha",
+      "excerpt": "These may be the last days of Amazon’s Mechanical Turk.",
+      "article_date": "2026-07-05T17:43:36.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T17:43:36.000Z"
+      },
+      "categories": [
+        "AI",
+        "Amazon",
+        "Amazon Web Services",
+        "mechanical turk"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Sony says it will still make physical discs after 2028, as long as the game came out before then",
+      "url": "https://www.engadget.com/2208083/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/",
+      "image_url": "https://www.engadget.com/img/gallery/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/l-intro-1783272503.jpg",
+      "author": null,
+      "excerpt": "Anything released after 2028 will still be digital-only.",
+      "article_date": "2026-07-05T17:27:08.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T17:27:08.000Z"
+      },
+      "categories": [
+        "PlayStation"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "What's the fastest charging speed your iPad or iPhone port can handle?",
+      "url": "https://www.engadget.com/2205909/fastest-charging-speed-ipad-iphone-port/",
+      "image_url": "https://www.engadget.com/img/gallery/whats-the-fastest-charging-speed-your-ipad-or-iphone-port-can-handle/l-intro-1782916818.jpg",
+      "author": null,
+      "excerpt": "Here's how to find out whether you're charging your Apple mobile devices at top speed.",
+      "article_date": "2026-07-05T15:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T15:30:00.000Z"
+      },
+      "categories": [
+        "Smartphones",
+        "Tablets"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "5 desk gadgets that can make your workday better",
+      "url": "https://techcrunch.com/2026/07/05/5-desk-gadgets-that-can-make-your-workday-better/",
+      "image_url": null,
+      "author": "Aisha Malik",
+      "excerpt": "The right desk gadgets can help you reduce clutter, stay focused, and add a little extra convenience to your day.",
+      "article_date": "2026-07-05T15:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T15:00:00.000Z"
+      },
+      "categories": [
+        "Hardware",
+        "Gadgets",
+        "hardware",
+        "evergreens",
+        "evergeen"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "What is Bending Spoons? The little-known AOL and Vimeo owner that’s now public",
+      "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/",
+      "image_url": null,
+      "author": "Anna Heim",
+      "excerpt": "Bending Spoons remains largely unknown, even as its portfolio of products has served more than a billion people.",
+      "article_date": "2026-07-05T13:33:32.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T13:33:32.000Z"
+      },
+      "categories": [
+        "Venture",
+        "AOL",
+        "Bending Spoons",
+        "evergreens",
+        "Mergers and Acquisitions"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "These popular smartphones are in their last year of software support",
+      "url": "https://www.engadget.com/2206707/these-popular-smartphones-are-in-their-last-year-of-software-support/",
+      "image_url": "https://www.engadget.com/img/gallery/these-popular-smartphones-are-in-their-last-year-of-software-support/l-intro-1783000290.jpg",
+      "author": null,
+      "excerpt": "It's good to know how long your phone will get updates before you purchase.",
+      "article_date": "2026-07-05T13:30:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T13:30:00.000Z"
+      },
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Almost 90 new unicorns have been minted so far this year — here they are",
+      "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "image_url": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "With AI igniting an investor frenzy, more startups are achieving unicorn status every month.",
+      "article_date": "2026-07-05T12:47:39.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T12:47:39.000Z"
+      },
+      "categories": [
+        "Startups",
+        "Venture",
+        "unicorns"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Chemical accidents rise as Trump administration proposes weakening safety rules",
+      "url": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238555391-1152x648.jpg",
+      "author": "Liza Gross, Inside Climate News",
+      "excerpt": "Chemicals from accidents that injured or killed people increased by nearly 50 percent in recent years.",
+      "article_date": "2026-07-05T11:05:22.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T11:05:22.000Z"
+      },
+      "categories": [
+        "Policy",
+        "Science",
+        "hazardous chemicals",
+        "safety rules",
+        "syndication",
+        "toxic chemicals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Prediction Markets Let You Bet on Whether a Wildfire Will Burn Down Your Town",
+      "url": "https://www.wired.com/story/prediction-markets-let-you-bet-wildfire/",
+      "image_url": "https://media.wired.com/photos/6a46b606a501cf42d472ee9a/master/pass/S062626-fire-prediction-3.jpg",
+      "author": "Kylie Mohr",
+      "excerpt": "Wildfire survivors call fire-prediction markets “morally reprehensible” and worry they could increase the risk of arson.",
+      "article_date": "2026-07-05T11:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T11:00:00.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 40+",
+      "url": "https://www.wired.com/gallery/best-wifi-routers/",
+      "image_url": "https://media.wired.com/photos/686729e7c3e228b35983727d/master/pass/Best%20Wifi%20Routers.png",
+      "author": "Simon Hill",
+      "excerpt": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
+      "article_date": "2026-07-05T11:00:00.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T11:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Products / Computers",
+        "Gear / Products / Smart Home"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "The missing 500 million: Cosmic bombardment melted Earth's first crust",
+      "url": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1.jpeg",
+      "author": "Jacek Krywko",
+      "excerpt": "The heat of the Hadean may have come from impacts as well as the interior.",
+      "article_date": "2026-07-05T10:55:02.000Z",
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T10:55:02.000Z"
+      },
+      "categories": [
+        "Science",
+        "astronomy",
+        "Earth science",
+        "impacts",
+        "meteorites",
+        "plate tectonics"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Review: TCL RM9L RGB-Mini LED (2026)",
+      "url": "https://www.wired.com/review/tcl-rm9l/",
+      "image_url": "https://media.wired.com/photos/6a47e564859a99ea1a378dc1/master/pass/Review--TCL-RM9L-RGB-Mini-LED-Smart-TV.jpg",
+      "author": "John Brandon",
+      "excerpt": "This massive 85-inch model is highly customizable but jaw-droppingly expensive.",
+      "article_date": "2026-07-05T10:34:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T10:34:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Eight Sleep Pod 5 Review: The Smartest, Nosiest Bed You Can Buy",
+      "url": "https://www.wired.com/review/eight-sleep-pod-5/",
+      "image_url": "https://media.wired.com/photos/6a47e7e93d5c75c63167831f/master/pass/Eight-Sleep-Pod-5-Hub-%5Bcourtesy-of-Eight-Sleep%5D.jpg",
+      "author": "Boutayna Chokrane",
+      "excerpt": "Eight Sleep’s Pod 5 is great at its job, but its job is also watching you sleep.",
+      "article_date": "2026-07-05T10:08:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T10:08:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Sleep",
+        "Gear / Products / Health and Fitness",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "What Are Fish Oil Supplements Good For? Here’s Your Crash Course",
+      "url": "https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/",
+      "image_url": "https://media.wired.com/photos/6a4567dcdab2390d974287b5/master/pass/1056929056",
+      "author": "Ritsuko Kawai",
+      "excerpt": "A large-scale clinical trial has shown that even long-term consumption of DHA—an omega-3 fatty acid found in abundance in oily fish—may not lead to improvements in cognitive function.",
+      "article_date": "2026-07-05T10:00:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T10:00:00.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "There’s a Global Network of Fungi Under Your Feet. This Is the First Complete Map",
+      "url": "https://www.wired.com/story/theres-a-global-network-of-fungi-under-your-feet-this-is-the-first-complete-map/",
+      "image_url": "https://media.wired.com/photos/6a456749ca2139b68f2de7ec/master/pass/large-ui-01%20(1).png",
+      "author": "Marta Musso",
+      "excerpt": "A new study has succeeded in mapping, on a global scale, the fungal network that supports plant life and helps regulate our planet’s climate.",
+      "article_date": "2026-07-05T09:30:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T09:30:00.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "How to Avoid Spoilers Online and in Chats",
+      "url": "https://www.wired.com/story/how-to-avoid-spoilers-online/",
+      "image_url": "https://media.wired.com/photos/6a46ada73c9fff77056af3b9/master/pass/Gear_HowToAvoidSpoilersOnline_v6.jpg",
+      "author": "David Nield",
+      "excerpt": "You can minimize the risk of films and shows being spoiled for you by muting comments, conversations, and keywords on various platforms.",
+      "article_date": "2026-07-05T09:00:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T09:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / How To and Advice"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "image_url": null,
+      "author": "Anthony Ha",
+      "excerpt": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "article_date": "2026-07-04T20:55:25.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T20:55:25.000Z"
+      },
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "gemini",
+        "Google"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "A 10-year sky survey begins filming a 'cosmic movie,' cyborg cockroaches go for a dive and more science stories",
+      "url": "https://www.engadget.com/2207998/vera-c-rubin-observatory-begins-cyborg-cockroaches-nasa-clps-moon-base-missions/",
+      "image_url": "https://www.engadget.com/img/gallery/a-10-year-sky-survey-begins-filming-a-cosmic-movie-cyborg-cockroaches-go-for-a-dive-and-more-science-stories/l-intro-1783193642.jpg",
+      "author": null,
+      "excerpt": "This week's science news.",
+      "article_date": "2026-07-04T19:45:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T19:45:00.000Z"
+      },
+      "categories": [
+        "Science"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "How your smartwatch and AI might detect early signs of illness",
+      "url": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/",
+      "image_url": "https://www.engadget.com/img/gallery/how-your-smartwatch-and-ai-can-detect-early-signs-of-illness/l-intro-1782925052.jpg",
+      "author": null,
+      "excerpt": "Wearables are best at noticing breaks from your body's usual patterns. Those outliers can hint that something warrants further investigation with your doctor.",
+      "article_date": "2026-07-04T18:30:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T18:30:00.000Z"
+      },
+      "categories": [
+        "Wearables"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "image_url": null,
+      "author": "Anthony Ha",
+      "excerpt": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "article_date": "2026-07-04T18:00:05.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T18:00:05.000Z"
+      },
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "Disney",
+        "MidJourney",
+        "Universal",
+        "Warner Bros"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Tesla expands robotaxi service to small section of Miami",
+      "url": "https://www.engadget.com/2207974/tesla-expands-robotaxi-service-to-small-section-of-miami/",
+      "image_url": "https://www.engadget.com/img/gallery/tesla-expands-robotaxi-service-to-small-section-of-miami/l-intro-1783184696.jpg",
+      "author": null,
+      "excerpt": "The company's robotaxi roadmap mentions future expansions to Orlando and Tampa.",
+      "article_date": "2026-07-04T17:30:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T17:30:00.000Z"
+      },
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "Review: Supergirl is not the disaster its low box office suggests",
+      "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/supergirl1-1152x648.jpg",
+      "author": "Jennifer Ouellette",
+      "excerpt": "It’s a pretty good movie, but it needed to be a great movie to thrive in an oversaturated superhero market.",
+      "article_date": "2026-07-04T16:49:14.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T16:49:14.000Z"
+      },
+      "categories": [
+        "Culture",
+        "DCU",
+        "entertainment",
+        "film reviews",
+        "reviews",
+        "Supergirl",
+        "Warner Bros."
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "image_url": null,
+      "author": "Anthony Ha",
+      "excerpt": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "article_date": "2026-07-04T16:32:08.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T16:32:08.000Z"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "alibaba",
+        "claude code"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "NASA mission to rescue the falling Swift observatory has launched",
+      "url": "https://www.engadget.com/2207959/nasa-boost-mission-rescue-falling-swift-observatory-launched/",
+      "image_url": "https://www.engadget.com/img/gallery/nasa-mission-to-rescue-the-falling-swift-observatory-has-launched/l-intro-1783180769.jpg",
+      "author": null,
+      "excerpt": "NASA has made contact with LINK, the robotic spacecraft made for the Swift Boost mission.",
+      "article_date": "2026-07-04T16:00:37.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T16:00:37.000Z"
+      },
+      "categories": [
+        "Space"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Submit Your Questions: Inside The World of Online Romance Scams",
+      "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
+      "image_url": "https://media.wired.com/photos/6a46ad6eddd659cd42168382/master/pass/Livestream%20Top%20Art%20-%20Yahoo%20Boys.jpg",
+      "author": "Kate Knibbs, Carlos Barragán",
+      "excerpt": "The Yahoo Boys author Carlos Barragán will join Kate Knibbs to answer your questions about Nigeria's romance scammers.",
+      "article_date": "2026-07-04T16:00:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T16:00:00.000Z"
+      },
+      "categories": [
+        "Culture",
+        "Culture / Books"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "image_url": null,
+      "author": "Anna Heim",
+      "excerpt": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "article_date": "2026-07-04T15:51:32.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T15:51:32.000Z"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "evergreens",
+        "mistral",
+        "Mistral AI"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Tesla driver charged with manslaughter for Texas crash that killed a woman in her home",
+      "url": "https://www.engadget.com/2207957/tesla-driver-charged-manslaughter-texas-crash-killed-woman-in-home/",
+      "image_url": "https://www.engadget.com/img/gallery/tesla-driver-charged-with-manslaughter-for-texas-crash-that-killed-a-woman-in-her-home/l-intro-1783179817.jpg",
+      "author": null,
+      "excerpt": "The incident is also being investigated by the National Highway Traffic Safety Administration.",
+      "article_date": "2026-07-04T15:47:31.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T15:47:31.000Z"
+      },
+      "categories": [
+        "EVs and Transportation"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Only these iPhone models are getting the new Siri AI this fall",
+      "url": "https://www.engadget.com/2206159/iphone-models-getting-new-siri-ai/",
+      "image_url": "https://www.engadget.com/img/gallery/only-these-iphone-models-are-getting-the-new-siri-ai-this-fall/l-intro-1782923551.jpg",
+      "author": null,
+      "excerpt": "Some Apple devices are about to get much more intelligent, while others are getting left behind.",
+      "article_date": "2026-07-04T15:30:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T15:30:00.000Z"
+      },
+      "categories": [
+        "Smartphones",
+        "Tablets",
+        "Apple"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Router brands could be misleading you with that Wi-Fi 7 label",
+      "url": "https://www.engadget.com/2206012/router-brands-could-be-misleading-you-with-that-wi-fi-7-label/",
+      "image_url": "https://www.engadget.com/img/gallery/router-brands-could-be-misleading-you-with-that-wi-fi-7-label/l-intro-1782921555.jpg",
+      "author": null,
+      "excerpt": "Wi-Fi standards remain as confusing as ever.",
+      "article_date": "2026-07-04T13:30:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T13:30:00.000Z"
+      },
+      "categories": [
+        "Computing"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "type": "article",
+      "title": "Midjourney wants the Hollywood studios that sued it to show the court how they use AI",
+      "url": "https://www.engadget.com/2207936/midjourney-wants-studios-that-sued-show-court-ai-use/",
+      "image_url": "https://www.engadget.com/img/gallery/midjourney-wants-the-studios-that-sued-it-to-show-the-court-how-they-use-ai/l-intro-1783164583.jpg",
+      "author": null,
+      "excerpt": "Midjourney is asking the court to get Disney, Warner Bros. and Universal to submit information on their AI use.",
+      "article_date": "2026-07-04T11:33:18.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:33:18.000Z"
+      },
+      "categories": [
+        "Entertainment",
+        "AI"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers",
+      "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
+      "image_url": "https://media.wired.com/photos/685ab0fbecbfc34a8f85ebcc/master/pass/MagSafe%20Chargers%20Reviewer%20Collage_Source_Amazon.png",
+      "author": "Simon Hill",
+      "excerpt": "Top up your Qi2 Android phone or MagSafe iPhone with a magnetic wireless charging stand, pad, car charger, or power bank.",
+      "article_date": "2026-07-04T11:30:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:30:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Products / Phones",
+        "Gear / Products / Accessories",
+        "Gear / Buying Guides"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "When the ability to smell goes away",
+      "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1302713332-1152x648.jpg",
+      "author": "Victoria Clayton, Knowable Magazine",
+      "excerpt": "Disturbances in this critical sense are often linked to problems with brain health.",
+      "article_date": "2026-07-04T11:04:31.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:04:31.000Z"
+      },
+      "categories": [
+        "Science",
+        "loss of smell",
+        "olfaction",
+        "smell",
+        "syndication"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "type": "article",
+      "title": "A martian rock has lots of carbon on it, and it's not clear why",
+      "url": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1152x648.png",
+      "author": "Jacek Krywko",
+      "excerpt": "Biology could explain the find, but there are other potential explanations.",
+      "article_date": "2026-07-04T11:00:41.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:00:41.000Z"
+      },
+      "categories": [
+        "Science",
+        "carbon",
+        "chemistry",
+        "Mars",
+        "origin of life",
+        "planetary science"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
+      "url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
+      "image_url": "https://media.wired.com/photos/6a453f6f8f445966503e6c40/master/pass/GettyImages-458097145.jpg",
+      "author": "David Nield",
+      "excerpt": "Explore decades of incredible images and videos of stars, planets, moons, and galaxies—most of which are free to use and share.",
+      "article_date": "2026-07-04T11:00:00.000Z",
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:00:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / How To and Advice"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone",
+      "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+      "image_url": "https://media.wired.com/photos/6a464811cdac8962d86f5c0f/master/pass/070226_iPhone-Dum-Phone-GIF.gif",
+      "author": "Jeremy White",
+      "excerpt": "Apple built a tool for people with cognitive disabilities, but I accidentally discovered it’s also the best kids’ phone setup no one is talking about—not even Apple.",
+      "article_date": "2026-07-04T10:30:00.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T10:30:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / How To and Advice",
+        "Gear / Products / Phones"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Security Roundup: Apple’s Hide My Email Service Fails to Hide Your Email",
+      "url": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/",
+      "image_url": "https://media.wired.com/photos/6a459c14043fba997ea26852/master/pass/security_roudnup_GettyImages-1157988186.jpg",
+      "author": "Matt Burgess, Lily Hay Newman",
+      "excerpt": "Plus: Alleged Scattered Spider hacking member extradited, dozens of license plate reader errors, and Indian officials are concerned about WhatsApp’s username rollout.",
+      "article_date": "2026-07-04T10:30:00.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T10:30:00.000Z"
+      },
+      "categories": [
+        "Security",
+        "Security / Privacy",
+        "Security / Security News"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Food Preservatives May Increase the Risk of High Blood Pressure and Cardiovascular Disease",
+      "url": "https://www.wired.com/story/food-preservatives-may-increase-the-risk-of-high-blood-pressure-and-cardiovascular-disease/",
+      "image_url": "https://media.wired.com/photos/6a4570f1dae48c15b88ce83f/master/pass/2269394826",
+      "author": "Ritsuko Kawai",
+      "excerpt": "Aa large-scale study demonstrates that preservatives widely used in everyday processed foods may exacerbate common health risks.",
+      "article_date": "2026-07-04T09:30:00.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T09:30:00.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "The Best Fourth of July Mattress Sales on Beds We Actually Sleep On (2026)",
+      "url": "https://www.wired.com/story/best-july-fourth-mattress-deals-2026/",
+      "image_url": "https://media.wired.com/photos/6a469972cb22d2a872419b3a/master/pass/The-Best-Fourth-of-July-Mattress-Deals,-According-to-WIRED-Testers-(2026).jpg",
+      "author": "Nicole Kinning",
+      "excerpt": "From cooling hybrids to organic latex beds, these are the mattresses WIRED reviewers actually sleep on and recommend.",
+      "article_date": "2026-07-04T09:08:00.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T09:08:00.000Z"
+      },
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "type": "article",
+      "title": "Scientists Have Identified a New Fossil Species of Axolotl in Mexico",
+      "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico/",
+      "image_url": "https://media.wired.com/photos/6a456825f7e1e70ee2698ec3/master/pass/ajolote%20nueva%20especie%20M%C3%A9xico%202235919867.jpg",
+      "author": "Fernanda González",
+      "excerpt": "Ambystoma quetzalcoatli is the first fossil salamander to be formally identified in Mexico, revealing that axolotls have inhabited the country for millions of years.",
+      "article_date": "2026-07-04T09:00:00.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T09:00:00.000Z"
+      },
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "The Sourdough Sidekick automates the boring bit of baking",
+      "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
+      "image_url": null,
+      "author": "Dominic Preston",
+      "excerpt": "Baking sourdough bread is inherently old-fashioned, relying on natural fermentation and wild yeast instead of the simple, predictable commercial stuff. So it might sound anathema to bring a gadget into the mix. The trick to the Sourdough Sidekick - backed and branded by King Arthur flour - is that it promises to automate the boring […]",
+      "article_date": "2026-07-04T03:05:59.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T03:05:59.000Z"
+      },
+      "categories": [
+        "Reviews",
+        "Smart Home",
+        "Smart Home Reviews",
+        "Tech"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "type": "article",
+      "title": "The only AI glossary you’ll need this year",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "image_url": null,
+      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
+      "excerpt": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "article_date": "2026-07-03T21:20:00.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T21:20:00.000Z"
+      },
+      "categories": [
+        "AI",
+        "artificial intelligence",
+        "evergreens",
+        "Glossary"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Vizio accidentally made the best dumb TV on the market",
+      "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
+      "image_url": null,
+      "author": "John.Higgins",
+      "excerpt": "When I first started testing Vizio's 65-inch Mini LED Quantum TV, I thought the big story was that Vizio was back and that it had a quantum-dot TV for under $398 - the cheapest on the market. Vizio's been pretty quiet since it was acquired by Walmart in 2024, so putting out a TV with […]",
+      "article_date": "2026-07-02T22:37:05.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T22:37:05.000Z"
+      },
+      "categories": [
+        "Gadgets",
+        "Reviews",
+        "Tech",
+        "TVs"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Where to preorder Grand Theft Auto VI",
+      "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy",
+      "image_url": null,
+      "author": "Brad Bourque",
+      "excerpt": "Rockstar's long-awaited Grand Theft Auto VI is launching November 19th, 2026 for PlayStation 5 and Xbox Series S/X consoles. The game will be available digitally at launch, with physical cases containing codes, not discs, so your options for preordering are straightforward. The preloading phase for the game begins on November 12th, which should give you […]",
+      "article_date": "2026-07-02T20:41:14.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T20:41:14.000Z"
+      },
+      "categories": [
+        "Gadgets",
+        "Gaming",
+        "PlayStation",
+        "Verge Shopping",
+        "Xbox"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "type": "article",
+      "title": "Xbox is a disaster",
+      "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
+      "image_url": null,
+      "author": "Andrew Webster",
+      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the bleak state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Microsoft closed out Summer […]",
+      "article_date": "2026-07-02T13:52:42.000Z",
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T13:52:42.000Z"
+      },
+      "categories": [
+        "Column",
+        "Entertainment",
+        "Gaming",
+        "Microsoft",
+        "Tech",
+        "The Stepback",
+        "Xbox"
+      ],
+      "tags": [],
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    }
+  ]
+}

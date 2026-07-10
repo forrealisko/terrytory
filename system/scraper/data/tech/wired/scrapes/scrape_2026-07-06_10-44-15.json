@@ -1,0 +1,912 @@
+{
+  "meta": {
+    "scrape_id": "ed2d6df4-90f4-44cb-8c89-85532dc27928",
+    "scraped_at": "2026-07-06T10:44:15.689Z",
+    "source_url": "https://www.wired.com/feed/rss",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 40,
+    "new_headlines": 20,
+    "previously_seen": 20
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Sony Bravia 7 Mark II: Midrange but Priced High (2026)",
+      "url": "https://www.wired.com/review/sony-bravia-7-mark-ii/",
+      "article_date": "2026-07-06T10:31:00.000Z",
+      "article_date_raw": null,
+      "author": "John Brandon",
+      "excerpt": "This midrange mini RGB LED television has a high-end price but doesn’t match the brightness and contrast of more advanced models.",
+      "image_url": "https://media.wired.com/photos/6a473d862194c5deed8a476d/master/pass/Review--Sony-Bravia-7-Mark-II.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Televisions"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:31:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Good News! Turns Out the Earth Will Never Be Swallowed by the Sun",
+      "url": "https://www.wired.com/story/good-news-it-turns-out-the-earth-will-never-be-swallowed-by-the-sun/",
+      "article_date": "2026-07-06T10:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Simone Valesini",
+      "excerpt": "A new study suggests that when our star becomes unstable in 5 billion years or so, Earth may avoid being engulfed by its fiery demise.",
+      "image_url": "https://media.wired.com/photos/6a456710bc6a7b7d7a89d017/master/pass/1220609813",
+      "categories": [
+        "Science",
+        "Science / Space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "ICE’s Internal Watchdog Is Now Investigating Online Critics",
+      "url": "https://www.wired.com/story/ices-internal-watchdog-is-now-investigating-online-critics/",
+      "article_date": "2026-07-06T10:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Maddy Varner",
+      "excerpt": "The Office of Professional Responsibility has opened more than 100 cases over what ICE officials call “incidents of doxing and threats” against ICE employees.",
+      "image_url": "https://media.wired.com/photos/6a4685ebdae48c15b88cf0e2/master/pass/070226-ice-internal-watchdog-online%20critics.jpg",
+      "categories": [
+        "Security"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T10:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "What if the Universe Isn’t as Uniform as Scientists Think?",
+      "url": "https://www.wired.com/story/what-if-the-universe-wasnt-as-uniform-as-scientists-think/",
+      "article_date": "2026-07-06T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Jorge Garay",
+      "excerpt": "A study based on 47 million galaxies found that the cosmic web retains patterns on enormous scales, which could force a reevaluation of a pillar of cosmology.",
+      "image_url": "https://media.wired.com/photos/6a456905f3e5961ebd730c4b/master/pass/DESI-Y3P-Datapoints-Flat-Still-blue_small.png",
+      "categories": [
+        "Science",
+        "Science / Space"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "How Palestinians Are Building a Digital Archive That Can’t Be Erased",
+      "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/",
+      "article_date": "2026-07-06T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Tamara Davison",
+      "excerpt": "Distributed backups, cyber resilience, and a half-million records are preserving Palestinian history beyond any single building or border.",
+      "image_url": "https://media.wired.com/photos/6a457277f3e5961ebd730c51/master/pass/Palestine_lead.jpg",
+      "categories": [
+        "Culture",
+        "Culture / Culture News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-06T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Prediction Markets Let You Bet on Whether a Wildfire Will Burn Down Your Town",
+      "url": "https://www.wired.com/story/prediction-markets-let-you-bet-wildfire/",
+      "article_date": "2026-07-05T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Kylie Mohr",
+      "excerpt": "Wildfire survivors call fire-prediction markets “morally reprehensible” and worry they could increase the risk of arson.",
+      "image_url": "https://media.wired.com/photos/6a46b606a501cf42d472ee9a/master/pass/S062626-fire-prediction-3.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 40+",
+      "url": "https://www.wired.com/gallery/best-wifi-routers/",
+      "article_date": "2026-07-05T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Simon Hill",
+      "excerpt": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
+      "image_url": "https://media.wired.com/photos/686729e7c3e228b35983727d/master/pass/Best%20Wifi%20Routers.png",
+      "categories": [
+        "Gear",
+        "Gear / Products / Computers",
+        "Gear / Products / Smart Home"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-05T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Review: TCL RM9L RGB-Mini LED (2026)",
+      "url": "https://www.wired.com/review/tcl-rm9l/",
+      "article_date": "2026-07-05T10:34:00.000Z",
+      "article_date_raw": null,
+      "author": "John Brandon",
+      "excerpt": "This massive 85-inch model is highly customizable but jaw-droppingly expensive.",
+      "image_url": "https://media.wired.com/photos/6a47e564859a99ea1a378dc1/master/pass/Review--TCL-RM9L-RGB-Mini-LED-Smart-TV.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T10:34:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Eight Sleep Pod 5 Review: The Smartest, Nosiest Bed You Can Buy",
+      "url": "https://www.wired.com/review/eight-sleep-pod-5/",
+      "article_date": "2026-07-05T10:08:00.000Z",
+      "article_date_raw": null,
+      "author": "Boutayna Chokrane",
+      "excerpt": "Eight Sleep’s Pod 5 is great at its job, but its job is also watching you sleep.",
+      "image_url": "https://media.wired.com/photos/6a47e7e93d5c75c63167831f/master/pass/Eight-Sleep-Pod-5-Hub-%5Bcourtesy-of-Eight-Sleep%5D.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Sleep",
+        "Gear / Products / Health and Fitness",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T10:08:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "What Are Fish Oil Supplements Good For? Here’s Your Crash Course",
+      "url": "https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/",
+      "article_date": "2026-07-05T10:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Ritsuko Kawai",
+      "excerpt": "A large-scale clinical trial has shown that even long-term consumption of DHA—an omega-3 fatty acid found in abundance in oily fish—may not lead to improvements in cognitive function.",
+      "image_url": "https://media.wired.com/photos/6a4567dcdab2390d974287b5/master/pass/1056929056",
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T10:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "There’s a Global Network of Fungi Under Your Feet. This Is the First Complete Map",
+      "url": "https://www.wired.com/story/theres-a-global-network-of-fungi-under-your-feet-this-is-the-first-complete-map/",
+      "article_date": "2026-07-05T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Marta Musso",
+      "excerpt": "A new study has succeeded in mapping, on a global scale, the fungal network that supports plant life and helps regulate our planet’s climate.",
+      "image_url": "https://media.wired.com/photos/6a456749ca2139b68f2de7ec/master/pass/large-ui-01%20(1).png",
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T09:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "How to Avoid Spoilers Online and in Chats",
+      "url": "https://www.wired.com/story/how-to-avoid-spoilers-online/",
+      "article_date": "2026-07-05T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "David Nield",
+      "excerpt": "You can minimize the risk of films and shows being spoiled for you by muting comments, conversations, and keywords on various platforms.",
+      "image_url": "https://media.wired.com/photos/6a46ada73c9fff77056af3b9/master/pass/Gear_HowToAvoidSpoilersOnline_v6.jpg",
+      "categories": [
+        "Gear",
+        "Gear / How To and Advice"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-05T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Submit Your Questions: Inside The World of Online Romance Scams",
+      "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
+      "article_date": "2026-07-04T16:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Kate Knibbs, Carlos Barragán",
+      "excerpt": "The Yahoo Boys author Carlos Barragán will join Kate Knibbs to answer your questions about Nigeria's romance scammers.",
+      "image_url": "https://media.wired.com/photos/6a46ad6eddd659cd42168382/master/pass/Livestream%20Top%20Art%20-%20Yahoo%20Boys.jpg",
+      "categories": [
+        "Culture",
+        "Culture / Books"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T16:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers",
+      "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
+      "article_date": "2026-07-04T11:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Simon Hill",
+      "excerpt": "Top up your Qi2 Android phone or MagSafe iPhone with a magnetic wireless charging stand, pad, car charger, or power bank.",
+      "image_url": "https://media.wired.com/photos/685ab0fbecbfc34a8f85ebcc/master/pass/MagSafe%20Chargers%20Reviewer%20Collage_Source_Amazon.png",
+      "categories": [
+        "Gear",
+        "Gear / Products / Phones",
+        "Gear / Products / Accessories",
+        "Gear / Buying Guides"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
+      "url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
+      "article_date": "2026-07-04T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "David Nield",
+      "excerpt": "Explore decades of incredible images and videos of stars, planets, moons, and galaxies—most of which are free to use and share.",
+      "image_url": "https://media.wired.com/photos/6a453f6f8f445966503e6c40/master/pass/GettyImages-458097145.jpg",
+      "categories": [
+        "Gear",
+        "Gear / How To and Advice"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-04T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "This Buried Apple Feature Turns an iPhone Into the Perfect Kids’ Dumb Phone",
+      "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+      "article_date": "2026-07-04T10:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Jeremy White",
+      "excerpt": "Apple built a tool for people with cognitive disabilities, but I accidentally discovered it’s also the best kids’ phone setup no one is talking about—not even Apple.",
+      "image_url": "https://media.wired.com/photos/6a464811cdac8962d86f5c0f/master/pass/070226_iPhone-Dum-Phone-GIF.gif",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / How To and Advice",
+        "Gear / Products / Phones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T10:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Security Roundup: Apple’s Hide My Email Service Fails to Hide Your Email",
+      "url": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/",
+      "article_date": "2026-07-04T10:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Matt Burgess, Lily Hay Newman",
+      "excerpt": "Plus: Alleged Scattered Spider hacking member extradited, dozens of license plate reader errors, and Indian officials are concerned about WhatsApp’s username rollout.",
+      "image_url": "https://media.wired.com/photos/6a459c14043fba997ea26852/master/pass/security_roudnup_GettyImages-1157988186.jpg",
+      "categories": [
+        "Security",
+        "Security / Privacy",
+        "Security / Security News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T10:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Food Preservatives May Increase the Risk of High Blood Pressure and Cardiovascular Disease",
+      "url": "https://www.wired.com/story/food-preservatives-may-increase-the-risk-of-high-blood-pressure-and-cardiovascular-disease/",
+      "article_date": "2026-07-04T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Ritsuko Kawai",
+      "excerpt": "Aa large-scale study demonstrates that preservatives widely used in everyday processed foods may exacerbate common health risks.",
+      "image_url": "https://media.wired.com/photos/6a4570f1dae48c15b88ce83f/master/pass/2269394826",
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T09:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "The Best Fourth of July Mattress Sales on Beds We Actually Sleep On (2026)",
+      "url": "https://www.wired.com/story/best-july-fourth-mattress-deals-2026/",
+      "article_date": "2026-07-04T09:08:00.000Z",
+      "article_date_raw": null,
+      "author": "Nicole Kinning",
+      "excerpt": "From cooling hybrids to organic latex beds, these are the mattresses WIRED reviewers actually sleep on and recommend.",
+      "image_url": "https://media.wired.com/photos/6a469972cb22d2a872419b3a/master/pass/The-Best-Fourth-of-July-Mattress-Deals,-According-to-WIRED-Testers-(2026).jpg",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T09:08:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "Scientists Have Identified a New Fossil Species of Axolotl in Mexico",
+      "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico/",
+      "article_date": "2026-07-04T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Fernanda González",
+      "excerpt": "Ambystoma quetzalcoatli is the first fossil salamander to be formally identified in Mexico, revealing that axolotls have inhabited the country for millions of years.",
+      "image_url": "https://media.wired.com/photos/6a456825f7e1e70ee2698ec3/master/pass/ajolote%20nueva%20especie%20M%C3%A9xico%202235919867.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-04T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-06T10:44:15.689Z"
+    },
+    {
+      "type": "article",
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+      "article_date": "2026-07-03T18:13:15.000Z",
+      "article_date_raw": null,
+      "author": "Molly Taft",
+      "excerpt": "The companies’ Fourth of July plans include celebrating new reactor designs coming online. But there’s still a long way to go before they deliver energy at a meaningful scale.",
+      "image_url": "https://media.wired.com/photos/6a4458adca4ecb6c5b11ffa9/master/pass/Nuclear-Startups-Hit-Big-Milestone-Science.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T18:13:15.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
+      "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
+      "article_date": "2026-07-03T16:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Joel Khalili",
+      "excerpt": "During negotiations on Wednesday, employees voiced frustrations with what they consider an unwillingness among executives to engage meaningfully with the prospect of unionization.",
+      "image_url": "https://media.wired.com/photos/6a47cb0ef78eee0a42c7fd67/master/pass/GettyImages-2273112054.jpg",
+      "categories": [
+        "Business",
+        "Business / Big Tech",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T16:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
+      "url": "https://www.wired.com/gallery/best-bone-conduction-headphones/",
+      "article_date": "2026-07-03T11:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Michael Sawh",
+      "excerpt": "Everyone needs a safe way to listen to music on outdoor runs. We’ve found the bone conduction headphones to grab on your way out the door.",
+      "image_url": "https://media.wired.com/photos/6966abea428592e866cf6614/master/pass/The%20Best%20Bone%20Conduction%20Headphones.png",
+      "categories": [
+        "Gear / Buying Guides",
+        "Gear",
+        "Gear / Products / Audio"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T11:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "All Your Favorite Gadgets Are Getting Way More Expensive … Again",
+      "url": "https://www.wired.com/story/we-are-in-the-knockout-round-of-price-increases-for-consumer-electronics/",
+      "article_date": "2026-07-03T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Boone Ashworth",
+      "excerpt": "Thanks to the AI-driven chip shortage, prices for phones, computers, and consoles are sky-high—and still climbing.",
+      "image_url": "https://media.wired.com/photos/6a459359c28e761b85a7ec73/master/pass/gear_product_price_GettyImages-2281531744.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-03T11:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "7 Best Phones You Can’t Buy in the US (2026)",
+      "url": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/",
+      "article_date": "2026-07-03T10:31:00.000Z",
+      "article_date_raw": null,
+      "author": "Simon Hill",
+      "excerpt": "Avoid phone FOMO with our favorite smartphones that aren’t officially sold stateside but are available in markets like the UK and Europe.",
+      "image_url": "https://media.wired.com/photos/69bdf168d86dbf7bd47a3b44/master/pass/Best%20Non%20US%20Phones%20Update%202%20SOURCE%20Simon%20Hill.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Phones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T10:31:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "The FDA Ruled That ZYN Pouches Are Safer Than Cigarettes. That Doesn’t Mean They’re Safe",
+      "url": "https://www.wired.com/story/the-fda-ruled-that-zyn-pouches-are-safer-than-cigarettes-that-doesnt-mean-theyre-safe/",
+      "article_date": "2026-07-03T10:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Megan Tomos",
+      "excerpt": "ZYN nicotine pouches, the FDA found, can be advertised as a less-harmful option for adult smokers. But quitting all tobacco and nicotine products remains the best idea.",
+      "image_url": "https://media.wired.com/photos/6a456015f7e1e70ee2698ad5/master/pass/Zyn_Lead.jpg",
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T10:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI",
+      "url": "https://www.wired.com/story/the-best-ultralight-backpacking-quilts/",
+      "article_date": "2026-07-03T10:06:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "Lighten your pack this summer—skip the sleeping bag and carry one of our favorite ultralight backpacking quilts instead.",
+      "image_url": "https://media.wired.com/photos/6a4706d127890b0c3ffffb66/master/pass/The-Best-Ultralight-Backpacking-Quilts-for-Ounce-Counting-Cubicle-Refugees.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Outdoor"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T10:06:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "When the Law Kills Your Electric Car Dealership",
+      "url": "https://www.wired.com/story/when-the-law-kills-your-polestar-electric-car-dealership/",
+      "article_date": "2026-07-03T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Aarian Marshall",
+      "excerpt": "Dealers who invested in Polestar won’t be able to sell in the US next year after the federal government denied an authorization that would have allowed the company to avoid a Chinese tech ban.",
+      "image_url": "https://media.wired.com/photos/6a4544d1c28e761b85a7de2d/master/pass/What-Will-Polestar-Do-Now-Gear-1405480870.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T09:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "The 11 Best TV Shows to Stream This Month (July 2026)",
+      "url": "https://www.wired.com/story/the-11-best-shows-to-stream-right-now/",
+      "article_date": "2026-07-03T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Jennifer M. Wood",
+      "excerpt": "House of the Dragon, Adventure Time: Side Quests, and The Man Will Burn are just a few of the TV shows you should be watching right now.",
+      "image_url": "https://media.wired.com/photos/6a440581ba8a42527760db43/master/pass/Show-Guide-emma-d-arcy_2-Culture.jpg",
+      "categories": [
+        "Culture",
+        "Culture / TV"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T09:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy",
+      "url": "https://www.wired.com/story/sony-erases-digital-content-from-libraries/",
+      "article_date": "2026-07-03T08:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding, Ars Technica",
+      "excerpt": "In September, some PlayStation customers will no longer be able to access some purchased movies and shows. It underscores the fact that digital purchases are really more like long-term rentals.",
+      "image_url": "https://media.wired.com/photos/6a441f68bc1db6ab64698aad/master/pass/GettyImages-2272756692.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T08:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "EU Politicians Investigated Pegasus Spyware. Then It Ended Up on One of Their Phones",
+      "url": "https://www.wired.com/story/eu-politicians-investigated-pegasus-spyware-then-it-ended-up-on-one-of-their-phones/",
+      "article_date": "2026-07-03T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Lily Hay Newman, Matt Burgess",
+      "excerpt": "“It is a direct attack on the rule of law,” says one European Parliament member of the new findings from Citizen Lab.",
+      "image_url": "https://media.wired.com/photos/6a4666ebcb22d2a8724199f2/master/pass/GettyImages-128087200.jpg",
+      "categories": [
+        "Security",
+        "Security / Cyberattacks and Hacks"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T05:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It",
+      "url": "https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/",
+      "article_date": "2026-07-03T00:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Miles Klee",
+      "excerpt": "The satirical site is fighting to officially take over Infowars. In the meantime, CEO Ben Collins says the new show will mock “how fucking stupid” conspiratorial brain rot has become.",
+      "image_url": "https://media.wired.com/photos/6a46d189d3a3e66a651b0e66/master/pass/IMG_0190.png",
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-03T00:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "How Big Is ‘Love Island USA’? More Than 10 Million People Are Already on Its App",
+      "url": "https://www.wired.com/story/love-island-usa-app/",
+      "article_date": "2026-07-02T20:47:27.000Z",
+      "article_date_raw": null,
+      "author": "Reece Rogers",
+      "excerpt": "“We have more people voting on the ‘Love Island USA’ app than we do in many political elections taking place across the country,” says the show's executive producer.",
+      "image_url": "https://media.wired.com/photos/6a46af1af78eee0a42c7f75f/master/pass/GettyImages-2282580741.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T20:47:27.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Cries Foul",
+      "url": "https://www.wired.com/story/spotify-streaming-manipulation-prediction-markets-polymarket-kalshi/",
+      "article_date": "2026-07-02T18:30:59.000Z",
+      "article_date_raw": null,
+      "author": "Kate Knibbs",
+      "excerpt": "One of Kalshi’s most prominent traders tells WIRED he’s swearing off Spotify-related markets until the issue is resolved.",
+      "image_url": "https://media.wired.com/photos/6a467843a501cf42d472ee3c/master/pass/GettyImages-2277135438.jpg",
+      "categories": [
+        "Business"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T18:30:59.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
+      "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+      "article_date": "2026-07-02T18:01:20.000Z",
+      "article_date_raw": null,
+      "author": "Maxwell Zeff",
+      "excerpt": "Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.",
+      "image_url": "https://media.wired.com/photos/6a45a0b0f1efb2d48b192c77/master/pass/Model-Behavior-Cursor-Will-Keep-Using-Anthropic-OpenAI-Models-After-SpaceX-Deal-Business.jpg",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T18:01:20.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "The DEA Plans to Ban Opioid-Like Kratom Compound 7-OH",
+      "url": "https://www.wired.com/story/the-dea-plans-to-ban-kratom-compound-7-oh-sold-as-a-gas-station-opioid/",
+      "article_date": "2026-07-02T16:21:40.000Z",
+      "article_date_raw": null,
+      "author": "Manisha Krishnan",
+      "excerpt": "The federal agency says it will temporarily schedule the drug, which has been called “gas station heroin,” as a controlled substance—a boon for MAHA and the mainstream kratom industry.",
+      "image_url": "https://media.wired.com/photos/6a4665ffbc6a7b7d7a89d98f/master/pass/070226_Kratom.jpg",
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T16:21:40.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "7 Lesser-Known Google Account Settings You Should Change",
+      "url": "https://www.wired.com/story/7-google-account-settings-you-should-change/",
+      "article_date": "2026-07-02T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": "David Nield",
+      "excerpt": "Adjust your options for things like account recovery, ad personalization, and which parts of your Google profile are shared publicly.",
+      "image_url": "https://media.wired.com/photos/6a43de2b329ca5a09d2b7803/master/pass/Gear_7%20Lesser-Known%20Google%20Account%20Settings%20You%20Should%20Change_v3.jpg",
+      "categories": [
+        "Gear",
+        "Gear / How To and Advice"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T13:30:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "8 Best Travel Adapters (2026): My Top Recommendations",
+      "url": "https://www.wired.com/gallery/best-travel-adapters/",
+      "article_date": "2026-07-02T11:31:00.000Z",
+      "article_date_raw": null,
+      "author": "Simon Hill",
+      "excerpt": "When going abroad, the right plugs are essential to keep your gadgets charged. These are my favorite travel adapters and chargers.",
+      "image_url": "https://media.wired.com/photos/69f5039cd2f33f723151e0ca/master/pass/The-Best-Travel-Adapters.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Accessories"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T11:31:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "Bublue BuVortex V5 Pool Skimmer Review: An Impractical Cleaner",
+      "url": "https://www.wired.com/review/bublue-buvortex-v5-pool-skimmer/",
+      "article_date": "2026-07-02T11:04:00.000Z",
+      "article_date_raw": null,
+      "author": "Christopher Null",
+      "excerpt": "The Bublue BuVortex V5 ditches conventional skimming for a vortex-powered design that’s fascinating to watch, even if it’s severely impractical.",
+      "image_url": "https://media.wired.com/photos/6a45f4c0043fba997ea268a9/master/pass/Review--Bublue-BuVortex-V5-Pool-Skimmer.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T11:04:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    },
+    {
+      "type": "article",
+      "title": "How Trump Helped China Make America’s Cheapest EV",
+      "url": "https://www.wired.com/story/how-trump-helped-china-make-slate-americas-cheapest-ev/",
+      "article_date": "2026-07-02T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Aarian Marshall",
+      "excerpt": "Slate is the latest automaker to transition to lower-cost batteries perfected in China, driven in part by the repeal of EV tax credits that required materials to be sourced domestically.",
+      "image_url": "https://media.wired.com/photos/6a3ae9474f9749be536e0518/master/pass/GettyImages-2253542353.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment",
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-02T11:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T21:09:00.053Z"
+    }
+  ]
+}

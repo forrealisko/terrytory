@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "scrape_id": "4bc644b9-1b77-4eb6-9768-8e8cc77915e7",
+    "scraped_at": "2026-07-06T10:44:08.777Z",
+    "source_url": "http://export.arxiv.org/rss/cs.AI",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 0,
+    "new_headlines": 0,
+    "previously_seen": 0
+  },
+  "headlines": []
+}
