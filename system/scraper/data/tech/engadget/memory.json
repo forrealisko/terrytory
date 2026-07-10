@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:51.886Z",
-  "last_scrape": "2026-07-09T09:46:30.059Z",
-  "total_scrapes": 5,
+  "last_scrape": "2026-07-10T09:41:24.110Z",
+  "total_scrapes": 6,
   "seen_hashes": {
     "70ae8fcbe6ecc488": {
       "first_seen": "2026-07-03T21:08:55.880Z",
@@ -531,9 +531,129 @@
       "last_seen": "2026-07-09T09:46:30.059Z",
       "title": "DuckDuckGo Browser can now block video ads, including YouTube's",
       "url": "https://www.engadget.com/2209932/duckduckgo-browser-can-now-block-video-ads-including-youtubes/"
+    },
+    "1e2532e32b5227ae": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "NVIDIA decided now is the time to announce 'GeForce Trading Cards'",
+      "url": "https://www.engadget.com/2212119/nvidia-geforce-trading-cards/"
+    },
+    "e588000c100e9d45": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Days after announcing mass layoffs, Xbox CEO Asha Sharma tapped to advise the Federal Reserve on jobs",
+      "url": "https://www.engadget.com/2211983/days-after-laying-off-3-200-xbox-ceo-asha-sharma-tapped-to-advise-the-federal-reserve-on-jobs/"
+    },
+    "c6e55dbf419d4da4": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Playdate is helping Big Ben ring on time",
+      "url": "https://www.engadget.com/2211936/playdate-is-helping-big-ben-ring-on-time/"
+    },
+    "e323f30dac113459": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Retroid Pocket 5 and Flip 2 are getting a spec bump, but will cost $10 more after July 14",
+      "url": "https://www.engadget.com/2211909/retroid-pocket-5-and-flip-2-are-getting-a-spec-bump-but-will-cost-10-more-after-july-14/"
+    },
+    "425eb6ec4576b2c5": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Guy who took photo of Jupiter with a Game Boy Camera and giant telescope publishes DIY tutorial",
+      "url": "https://www.engadget.com/2211886/guy-who-took-photo-of-jupiter-with-a-game-boy-camera-and-giant-telescope-publishes-diy-tutorial/"
+    },
+    "cbd3412b5a4089ef": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "OpenAI releases a new ChatGPT tool for all things work related",
+      "url": "https://www.engadget.com/2211869/openai-releases-chatgpt-work-tool-macos-windows-web-plans/"
+    },
+    "9a0c0e316f7ee92e": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "AI-generated ads on Google will hopefully get disclosures soon",
+      "url": "https://www.engadget.com/2211839/ai-generated-ads-google-get-disclosures-soon/"
+    },
+    "57bb781761f9f9ec": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Aviation pioneer and space-travel record breaker Wally Funk dies at 87",
+      "url": "https://www.engadget.com/2211828/aviation-pioneer-space-travel-record-breaker-wally-funk-dies/"
+    },
+    "8d87d7c7fda7ed43": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Sony launches $120 in-ear monitors for pros",
+      "url": "https://www.engadget.com/2211768/sony-launches-ier-m500-iem-earphones-for-pros/"
+    },
+    "73474b0f825db703": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "The PocketMage is an E Ink digital assistant that's absolutely obsessed with wizards",
+      "url": "https://www.engadget.com/2211733/pocketmage-e-ink-digital-assistant-that-absolutely-obsessed-with-wizards/"
+    },
+    "7be590f9c179feec": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "iPhone Ultra rumors: The most credible leaks, price and expected release date",
+      "url": "https://www.engadget.com/2211037/iphone-ultra-roundup-leaks-price-release-date/"
+    },
+    "450848fa19ec1796": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "You can snap up a Lego Hubble set before the real one burns up in the atmosphere",
+      "url": "https://www.engadget.com/2211411/you-can-snap-up-a-lego-hubble-set-before-the-real-one-burns-up-in-the-atmosphere/"
+    },
+    "26d2a6a93f7e517a": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Sony's RX10 V superzoom finally arrives with a new design and 4K 120p video",
+      "url": "https://www.engadget.com/2211219/sony-rx10-v-superzoom/"
+    },
+    "f121327384a953d2": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "New York is the first US state to ban smart glasses in all its courthouses",
+      "url": "https://www.engadget.com/2211151/new-york-first-us-state-ban-smart-glasses-all-courthouses/"
+    },
+    "227b0e1b2c97db90": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Claude's new Reflect dashboard wants to help you log off of Claude",
+      "url": "https://www.engadget.com/2211304/claude-reflect-dashboard-wants-to-help-you-log-off/"
+    },
+    "b529e8d2cc01df8c": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Here's how to block Meta from using your Instagram pictures for its AI",
+      "url": "https://www.engadget.com/2211315/heres-how-to-block-meta-from-using-your-instagram-pictures-for-its-ai/"
+    },
+    "0ec5c8a4e3ec1b48": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "Alienware 34 QD-OLED review: An ultrawide showcase for Samsung's latest display tech",
+      "url": "https://www.engadget.com/2210970/alienware-34-qd-oled-aw3426dw-review/"
+    },
+    "ba0b6325ef2ac9af": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "I quite fancy a Slate EV in a Crayola crayon color",
+      "url": "https://www.engadget.com/2207579/slate-ev-crayola-color-wraps/"
+    },
+    "ed926ff57c8d8192": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "SpaceXAI launches Grok 4.5, its first built with Cursor's help",
+      "url": "https://www.engadget.com/2211260/spacex-ai-grok-4-5-cursor/"
+    },
+    "545fb0d706c639a7": {
+      "first_seen": "2026-07-10T09:41:24.109Z",
+      "last_seen": "2026-07-10T09:41:24.109Z",
+      "title": "The BBC and Channel 4 are in talks to merge streaming services... yet again",
+      "url": "https://www.engadget.com/2211235/bbc-channel-4-uk-streaming-service/"
     }
   },
   "stats": {
-    "total_headlines_ever": 88
+    "total_headlines_ever": 108
   }
 }

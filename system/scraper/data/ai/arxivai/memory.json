@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:31.261Z",
-  "last_scrape": "2026-07-09T09:46:28.117Z",
-  "total_scrapes": 5,
+  "last_scrape": "2026-07-10T09:41:22.442Z",
+  "total_scrapes": 6,
   "seen_hashes": {
     "e2b5fdb85ea009e0": {
       "first_seen": "2026-07-03T20:12:32.285Z",
@@ -2841,9 +2841,249 @@
       "last_seen": "2026-07-09T09:46:28.116Z",
       "title": "Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts",
       "url": "https://arxiv.org/abs/2607.06611"
+    },
+    "bb805b098fda17ee": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Context Graphs for Proactive Enterprise Agents",
+      "url": "https://arxiv.org/abs/2607.07721"
+    },
+    "dc404ea6dad175cc": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "AI-integrated models for assessing agricultural resilience",
+      "url": "https://arxiv.org/abs/2607.07759"
+    },
+    "a3c336c85b325b49": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
+      "url": "https://arxiv.org/abs/2607.07760"
+    },
+    "e38ea9a7b8acaaee": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+      "url": "https://arxiv.org/abs/2607.07761"
+    },
+    "e0eaaa235049b5f4": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
+      "url": "https://arxiv.org/abs/2607.07766"
+    },
+    "ddda8671d0d13884": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Idiobionics: The Unification of Privacy and Intelligent Robotic Prostheses",
+      "url": "https://arxiv.org/abs/2607.07775"
+    },
+    "c0d2b9d91b618ee7": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Infinity-Parser2 Technical Report",
+      "url": "https://arxiv.org/abs/2607.07836"
+    },
+    "cc7fc81ca4384c81": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "VectorizationLLM: Smart Vectorization Based AI Assistant",
+      "url": "https://arxiv.org/abs/2607.07846"
+    },
+    "f1f7a0887ae53f2d": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "A Graph Neural Network Model for Real-Time Gesture Recognition Based on sEMG Signals",
+      "url": "https://arxiv.org/abs/2607.07850"
+    },
+    "55f2cb833d13faca": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
+      "url": "https://arxiv.org/abs/2607.07858"
+    },
+    "fcac9eaf7081d410": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning",
+      "url": "https://arxiv.org/abs/2607.07859"
+    },
+    "afb0ab65829f7d02": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Nigeria Machinery: A Low-Resource Industrial Dataset with a Domain-Grounded Reasoning Layer",
+      "url": "https://arxiv.org/abs/2607.07883"
+    },
+    "671c33c0b44b68ab": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Persona Cartography: Charting Language Model Personality Traits in Weight Space",
+      "url": "https://arxiv.org/abs/2607.07916"
+    },
+    "5b5d24500bf30dd3": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Evaluating the Effect of Frame Rate in Sequence-Based Classification of Autism-Related Self-Stimulatory Hand Idiosyncrasies",
+      "url": "https://arxiv.org/abs/2607.07957"
+    },
+    "a4309e46c70c48fa": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Agentic Neural Architecture Search",
+      "url": "https://arxiv.org/abs/2607.07984"
+    },
+    "3591ef48d2b53702": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Concretized Proposition Prompting Resolves Composition-Knowledge Dichotomy in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.08018"
+    },
+    "122f27083e9f8063": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents",
+      "url": "https://arxiv.org/abs/2607.08028"
+    },
+    "f9144707b872081e": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "A safety-oriented hypothetico-deductive framework for AI-assisted differential diagnosis",
+      "url": "https://arxiv.org/abs/2607.08038"
+    },
+    "30e1d6c047642be5": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "When LLMs Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement as Confidence Signals",
+      "url": "https://arxiv.org/abs/2607.08065"
+    },
+    "f0e01c752d5e5166": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Persuasion Attacks Can Decrease Effectiveness of CoT Monitoring",
+      "url": "https://arxiv.org/abs/2607.08066"
+    },
+    "dcf556403a45bba8": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "PARA-PV: Physics-Aware Retrieval-Augmented PV Prediction Based on Frozen Foundation Model and Distribution Shift Correction",
+      "url": "https://arxiv.org/abs/2607.08079"
+    },
+    "b169c31dd3f7267c": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "url": "https://arxiv.org/abs/2607.08093"
+    },
+    "2c773700b428efdf": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Answer Set Programming Energised! End-to-End Neurosymbolic Reasoning and Learning with ASP and Energy Based Models",
+      "url": "https://arxiv.org/abs/2607.08136"
+    },
+    "b4bcffeddc3db068": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Overthinking: Amplifying Reasoning Weights to Extract Learned Secrets",
+      "url": "https://arxiv.org/abs/2607.08173"
+    },
+    "4fdc03a6dee250f2": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "ASMR: Agentic Schema Generation for Ship Maintenance Report Writing",
+      "url": "https://arxiv.org/abs/2607.08177"
+    },
+    "53dbfb7f4d6310b1": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "A First-Principles Theory of Slow Thinking and Active Perception",
+      "url": "https://arxiv.org/abs/2607.08196"
+    },
+    "74a62a723c349652": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction",
+      "url": "https://arxiv.org/abs/2607.08233"
+    },
+    "2575e77a1970d2f7": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "AutoPersonas: A Multi-Timescale Loop Engine for Open-Ended Persona Evolution",
+      "url": "https://arxiv.org/abs/2607.08252"
+    },
+    "f6529fe241b04a34": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding Student Beyond Imitation",
+      "url": "https://arxiv.org/abs/2607.08255"
+    },
+    "03dc5273a96e781f": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "MentalHospital: A Virtual Environment for Evaluating Psychiatric Clinical Encounters",
+      "url": "https://arxiv.org/abs/2607.08257"
+    },
+    "d7f8691699b84be1": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Different Teachers, Different Capabilities: Sub-1B On-Device Distillation for Structured Text Enrichment",
+      "url": "https://arxiv.org/abs/2607.08268"
+    },
+    "a4359d1e66e44c9c": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "PolyUQuest: Verifiable Structure-Aware Web RAG over Heterogeneous Graphs",
+      "url": "https://arxiv.org/abs/2607.08269"
+    },
+    "2f33425a83276d29": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Understanding Axes of Difficulty For Long Context Tasks Via PredicateLongBench",
+      "url": "https://arxiv.org/abs/2607.08284"
+    },
+    "1509de41c6ba1ecc": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Psychological Competence as a Missing Dimension in AI Evaluation",
+      "url": "https://arxiv.org/abs/2607.08285"
+    },
+    "c604253b6c1389db": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis",
+      "url": "https://arxiv.org/abs/2607.08316"
+    },
+    "d38444e3e0d2f680": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models",
+      "url": "https://arxiv.org/abs/2607.08317"
+    },
+    "14a0ced4af3c97ec": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "MobiDiff: Semantic-Aware Multi-Channel Discrete Diffusion for Human Mobility Data Generation",
+      "url": "https://arxiv.org/abs/2607.08357"
+    },
+    "35fe70a82a586232": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "FedOPAL: One-Shot Federated Learning via Analytic Visual Prompt Tuning",
+      "url": "https://arxiv.org/abs/2607.08368"
+    },
+    "44cfc826c5b7abd8": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "url": "https://arxiv.org/abs/2607.08393"
+    },
+    "82c3fc4cac5de445": {
+      "first_seen": "2026-07-10T09:41:22.441Z",
+      "last_seen": "2026-07-10T09:41:22.441Z",
+      "title": "Game Theory Driven Multi-Agent Framework Mitigates Language Model Hallucination",
+      "url": "https://arxiv.org/abs/2607.08403"
     }
   },
   "stats": {
-    "total_headlines_ever": 473
+    "total_headlines_ever": 513
   }
 }

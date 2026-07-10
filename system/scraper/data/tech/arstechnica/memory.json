@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:42.225Z",
-  "last_scrape": "2026-07-09T09:46:29.857Z",
-  "total_scrapes": 5,
+  "last_scrape": "2026-07-10T09:41:23.856Z",
+  "total_scrapes": 6,
   "seen_hashes": {
     "8148750f2162d86b": {
       "first_seen": "2026-07-03T21:08:47.657Z",
@@ -318,37 +318,37 @@
     },
     "c47c4c24fc478f33": {
       "first_seen": "2026-07-09T09:46:29.856Z",
-      "last_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
       "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
       "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/"
     },
     "47a8b29856e6213b": {
       "first_seen": "2026-07-09T09:46:29.856Z",
-      "last_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
       "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
       "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/"
     },
     "ce32b0bcd3c18583": {
       "first_seen": "2026-07-09T09:46:29.856Z",
-      "last_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
       "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
       "url": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/"
     },
     "a004d3c55b9fc9c7": {
       "first_seen": "2026-07-09T09:46:29.856Z",
-      "last_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
       "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
       "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/"
     },
     "5e229a1d2c992500": {
       "first_seen": "2026-07-09T09:46:29.856Z",
-      "last_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
       "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
       "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/"
     },
     "1ca4f4b9bbce9ba8": {
       "first_seen": "2026-07-09T09:46:29.856Z",
-      "last_seen": "2026-07-09T09:46:29.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
       "title": "TikTok users don't have as much agency over their FYPs as they think",
       "url": "https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps/"
     },
@@ -393,9 +393,93 @@
       "last_seen": "2026-07-09T09:46:29.856Z",
       "title": "Blue Origin, for the first time, is expected to raise private capital",
       "url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/"
+    },
+    "b2ae95c8752f9d9e": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Flores Hobbits' eating habits offer clues about their evolutionary past",
+      "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/"
+    },
+    "51ab620a3ec8d569": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Michigan's explosive outbreak of diarrheal parasite jumps to over 1,200 cases",
+      "url": "https://arstechnica.com/health/2026/07/michigans-explosive-outbreak-of-diarrheal-parasite-jumps-to-over-1200-cases/"
+    },
+    "0b004c607323ac80": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "OpenAI wants its new tool to do your work for you and with you",
+      "url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/"
+    },
+    "9ba5511d8dded97a": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
+      "url": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/"
+    },
+    "c6d6e0db00fca93c": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
+      "url": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/"
+    },
+    "50e8e53ce776a67f": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs",
+      "url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/"
+    },
+    "0cb8d8bf91aadc9f": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Judge doesn't like Elon Musk settlement with SEC, but says court can't block it",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/"
+    },
+    "bb427a24a1bd5592": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+    },
+    "7f90c9d7297ad3cd": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Surprised doctors find 10-inch worm in man's groin during elective surgery",
+      "url": "https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/"
+    },
+    "8a08b12fe17df65f": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Conspiracies and regrets abound in Dune: Part Three trailer",
+      "url": "https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/"
+    },
+    "1d4bb0b4733a7469": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Ruf debuts new flat-eight engine at Goodwood",
+      "url": "https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/"
+    },
+    "df9421e3650fe041": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Free Waymo rides in California? You can thank a regulatory quirk.",
+      "url": "https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/"
+    },
+    "dbcfa475f7a264aa": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "The newest entrant in the military’s launch competition isn't actually a launch company",
+      "url": "https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/"
+    },
+    "698c7bf11fc97452": {
+      "first_seen": "2026-07-10T09:41:23.856Z",
+      "last_seen": "2026-07-10T09:41:23.856Z",
+      "title": "Payloads used to dictate the terms of launch. That's finally changing.",
+      "url": "https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/"
     }
   },
   "stats": {
-    "total_headlines_ever": 65
+    "total_headlines_ever": 79
   }
 }

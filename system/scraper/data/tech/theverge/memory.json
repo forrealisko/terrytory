@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:37.301Z",
-  "last_scrape": "2026-07-09T09:46:29.749Z",
-  "total_scrapes": 5,
+  "last_scrape": "2026-07-10T09:41:23.686Z",
+  "total_scrapes": 6,
   "seen_hashes": {
     "5762e9515f24e939": {
       "first_seen": "2026-07-03T21:08:42.221Z",
@@ -303,9 +303,69 @@
       "last_seen": "2026-07-09T09:46:29.748Z",
       "title": "The whole Pixel line could get more expensive this year",
       "url": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase"
+    },
+    "5a913592dd449ea0": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Microsoft’s carbon emissions went up 25 percent last year",
+      "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026"
+    },
+    "8a65c5f7682e80e3": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
+    },
+    "32d37e1d3e16b337": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Netflix reportedly considers adding always-on channels",
+      "url": "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles"
+    },
+    "c5fb8971261eb082": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "The ChatGPT browser is already dead",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset"
+    },
+    "5ad81aa56b9ec76a": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "The floatable, powerful Soundcore Boom 2 speaker is over half off",
+      "url": "https://www.theverge.com/gadgets/963537/anker-soundcore-boom-2-bluetooth-speaker-deal-sale"
+    },
+    "e6b8352aa8d6a36a": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Google will now tell you if an ad was made with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label"
+    },
+    "93d8ad2357cdb74f": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Google&#8217;s Nest Thermostat has hit its best price of the year",
+      "url": "https://www.theverge.com/gadgets/963475/google-nest-thermostat-deal-sale"
+    },
+    "430f86c0084d2fbe": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Microsoft’s patch Tuesdays are about to get bigger",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates"
+    },
+    "9cf9c4c94b41cfdc": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
+    },
+    "05b97b5a53e6e193": {
+      "first_seen": "2026-07-10T09:41:23.685Z",
+      "last_seen": "2026-07-10T09:41:23.685Z",
+      "title": "Schlage’s Sense Pro unlocks the door so I don’t have to",
+      "url": "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock"
     }
   },
   "stats": {
-    "total_headlines_ever": 50
+    "total_headlines_ever": 60
   }
 }
