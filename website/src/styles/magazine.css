@@ -614,6 +614,55 @@ body:has(.mag) {
   font-style: italic;
 }
 
+/* Author bio card */
+.mag-author-card {
+  max-width: 680px;
+  margin: clamp(36px, 5vw, 60px) auto 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--line-strong);
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.mag-author-avatar {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--paper);
+  background: var(--accent);
+  letter-spacing: 0.02em;
+}
+.mag-author-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.mag-author-name {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.mag-author-title {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+}
+.mag-author-bio {
+  margin: 8px 0 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
 /* Sources + related */
 .mag-endmatter {
   max-width: 680px;

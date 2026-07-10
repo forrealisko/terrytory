@@ -1,0 +1,19 @@
+{
+  "id": "659b1e1e-4dcd-42c0-bc79-6a93c9337b94",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:47.794Z",
+  "status": "pending",
+  "headline": "New AI Safety Research Proposes 'Doubly-Efficient Interactive Proofs' to Bypass Debate Limitations",
+  "rating": 8.8,
+  "reasoning": "This paper presents a significant theoretical advancement in AI safety, moving beyond the limitations of 'debate' models for verification. Its focus on single-prover interactive proofs for oracle-aided computations is novel and addresses a critical, scalable challenge in aligning powerful AI. The research is from a credible academic source (arXiv) and delves into technical solutions for a fundamental AI problem.",
+  "summary": "Researchers introduce 'doubly-efficient single-prover interactive proofs' as a new method for scalable AI safety verification, offering an alternative to the 'debate' model, especially for computations with external oracle access.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "How to Avoid Debate: Scalable AI Safety via Doubly-Efficient Interactive Proofs",
+      "url": "https://arxiv.org/abs/2607.03561",
+      "excerpt": "arXiv:2607.03561v1 Announce Type: new Abstract: As AI models continue to develop powerful capabilities, it becomes critical that we are able to verify that their output is aligned with our intentions. A recent line of work focuses on verification via debate, a model of interactive proofs where two competing powerful provers, or AI models, debate each other to convince a weak verifier, or a human, …"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "9dddc121-f1af-4db2-a42a-7d5ca60f25e1",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:56:23.777Z",
+  "status": "pending",
+  "headline": "PLACEMEM: A Compute-Aware Memory Plane for Lifelong AI Agents",
+  "rating": 8.8,
+  "reasoning": "This paper introduces a novel systems-level approach to memory management for lifelong AI agents, addressing critical issues beyond just larger context windows. Its focus on versioned, correction-aware 'capsules' and a vLLM-first prototype demonstrates significant technical depth and practical implications for building more robust and efficient AI systems. The research is highly relevant to AI, offers a meaningful development in agent architecture, and comes from a credible academic source (arXiv).",
+  "summary": "Researchers propose PLACEMEM, a new memory architecture for lifelong AI agents that uses 'versioned capsules' to manage semantics, provenance, and validity, aiming to improve efficiency and correctness in persistent agent memory. The system includes a vLLM-first prototype with an OpenAI-compatible routing sidecar and a benchmark harness.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents",
+      "url": "https://arxiv.org/abs/2607.04089",
+      "excerpt": "arXiv:2607.04089v1 Announce Type: new Abstract: Lifelong agents need more than larger context windows and better retrieval. They need memories that can persist, evolve, and be corrected without forcing the serving stack to recompute the same history on every turn or silently reuse stale runtime state. We present PLACEMEM as a systems position on lifelong-agent memory, instantiated by an executable…"
+    }
+  ]
+}

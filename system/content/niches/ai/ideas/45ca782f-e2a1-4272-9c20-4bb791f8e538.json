@@ -1,0 +1,43 @@
+{
+  "id": "45ca782f-e2a1-4272-9c20-4bb791f8e538",
+  "niche": "ai",
+  "batch_id": "8a66f2ed-4839-4c7f-8118-984bd92318e6",
+  "created_at": "2026-07-10T10:05:58.635Z",
+  "status": "proposed",
+  "format": "roundup",
+  "title": "ArXiv AI Research Digest: Embodied Agents, Lifelong Memory, and Better Benchmarks",
+  "angle": "A quick rundown of three key ArXiv papers covering unified multimodal foundation models for embodied AI (iFLYTEK-Embodied-Omni), compute-aware memory for lifelong agents (PLACEMEM), and new benchmarks for LLM uncertainty (SALT), highlighting their immediate relevance for builders.",
+  "audience": "builders, researchers",
+  "rationale": "These stories, while individually significant, collectively represent critical advancements in foundational AI capabilities that builders need to be aware of, making a roundup the perfect format.",
+  "priority": 4,
+  "source_pick_ids": [
+    "2792e9cc-da67-43b3-8284-99a6d5c23797",
+    "9dddc121-f1af-4db2-a42a-7d5ca60f25e1",
+    "d52c719b-5f1a-4c3b-b254-3ecc7e30001b"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "url": "https://arxiv.org/abs/2607.02542",
+      "excerpt": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, video-based world modeling, or action generation, while cascaded pipelines that first synthesize futur…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents",
+      "url": "https://arxiv.org/abs/2607.04089",
+      "excerpt": "arXiv:2607.04089v1 Announce Type: new Abstract: Lifelong agents need more than larger context windows and better retrieval. They need memories that can persist, evolve, and be corrected without forcing the serving stack to recompute the same history on every turn or silently reuse stale runtime state. We present PLACEMEM as a systems position on lifelong-agent memory, instantiated by an executable…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Evaluating LLM Uncertainty in Long-Form Generation Using Deterministic Ground Truth",
+      "url": "https://arxiv.org/abs/2607.03870",
+      "excerpt": "arXiv:2607.03870v1 Announce Type: new Abstract: As LLMs generate increasingly long outputs, effective uncertainty estimation must identify errors at fine-grained levels rather than discard entire responses. While such methods exist, evaluating uncertainty at any resolution (token to an entire generation) is challenging and highly sensitive to label imperfections, making zero-noise benchmarks essen…"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

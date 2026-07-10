@@ -1,0 +1,19 @@
+{
+  "id": "1e37ce28-444d-4e8f-97a3-e341b989869d",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:17.170Z",
+  "status": "pending",
+  "headline": "New Benchmark APeB Addresses LLM Agent Personalization Challenges",
+  "rating": 8.2,
+  "reasoning": "This paper introduces a novel benchmark (APeB) specifically designed to evaluate the personalization abilities of LLM agents, addressing a critical gap in current evaluation methods. It highlights a significant challenge (handling underspecified queries and diverse histories) and proposes a solution direction, making it highly relevant and credible research from a recognized academic source.",
+  "summary": "Researchers have introduced APeB, a new benchmark for evaluating the personalization capabilities of large language model agents, particularly their ability to infer user intent from underspecified queries and complex interaction histories. The study found current LLMs struggle with early-stage personalization but showed improvement with a history-aware query-refinement pipeline.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "APeB: Benchmarking Personalization Ability of Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2607.03162",
+      "excerpt": "arXiv:2607.03162v1 Announce Type: new Abstract: LLM-powered agents struggle with personalization when users issue raw, underspecified queries. In this setting, agents must infer latent intent, extract preferences from noisy interaction histories, and select among competing alternatives. Existing benchmarks rarely test this capability, as they often rely on user-refined queries or simplified histor…"
+    }
+  ]
+}

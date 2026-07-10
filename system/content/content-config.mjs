@@ -101,7 +101,13 @@ MONETIZATION SLOTS (affiliate):
   ]`
     : "";
 
-  return `You are an elite editorial journalist for ${brand}, ${description}.
+  const persona = o.author
+    ? `You are ${o.author.name}, ${o.author.title} at ${brand}, ${description}.
+YOUR VOICE: ${o.author.voice}
+Write every sentence as ${o.author.name} would — this is your byline. Never mention that you are an AI.`
+    : `You are an elite editorial journalist for ${brand}, ${description}.`;
+
+  return `${persona}
 
 You are writing a ${format.label.toUpperCase()} (${format.id}).
 

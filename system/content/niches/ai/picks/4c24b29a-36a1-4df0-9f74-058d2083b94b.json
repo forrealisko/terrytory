@@ -1,0 +1,19 @@
+{
+  "id": "4c24b29a-36a1-4df0-9f74-058d2083b94b",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:54:54.337Z",
+  "status": "pending",
+  "headline": "MedCalc-Pro: New Benchmark and LLM Agent Framework for Complex Medical Calculations",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its direct AI relevance in advancing LLM capabilities for a critical real-world application (medical calculations). The introduction of a new, more challenging benchmark (MedCalc-Pro) and a generalizable agent framework addresses significant limitations in current LLM performance in complex clinical scenarios, indicating strong novelty and significance. The research comes from an arXiv paper, lending it technical credibility.",
+  "summary": "Researchers have introduced MedCalc-Pro, a new benchmark with 2,268 real-world clinical cases for evaluating LLMs in complex medical calculations, and proposed an agent framework that significantly improves performance in multi-tool and nested-tool scenarios.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.02879",
+      "excerpt": "arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified in the query. However, real clinical scenarios often require multiple calculators for joint evaluation, nested-scale ca…"
+    }
+  ]
+}

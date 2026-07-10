@@ -1,0 +1,19 @@
+{
+  "id": "8f4fd713-d943-487b-8d03-3f5ad88185e4",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:41.749Z",
+  "status": "pending",
+  "headline": "MentalThink: MLLMs Gain 'Mental Imagery' with SVG-Based Visual Reasoning",
+  "rating": 8.8,
+  "reasoning": "This paper introduces a novel visual-symbolic reasoning paradigm for Multimodal LLMs, enabling them to perform 'mental' visualization using SVG. The approach of generating, rendering, and interpreting SVG for multi-turn reasoning is a significant technical advancement in MLLM capabilities, moving beyond simple image generation to structured, verifiable visual workspaces. The strong performance on spatial understanding benchmarks from a credible research institution (arXiv) indicates a meaningful breakthrough.",
+  "summary": "Researchers introduce MentalThink, a new paradigm that equips Multimodal LLMs with 'mental' visualization capabilities by using SVG code as an intermediate visual representation for multi-turn reasoning, achieving superior performance on spatial understanding benchmarks.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "MentalThink: Shaping Thoughts in Mental SVG World",
+      "url": "https://arxiv.org/abs/2607.03530",
+      "excerpt": "arXiv:2607.03530v1 Announce Type: new Abstract: We introduce MentalThink, a visual-symbolic reasoning paradigm that equips Multimodal LLMs (MLLMs) with an executable mechanism for \"mental\" visualization. The core of MentalThink is a think-with-SVG pipeline, where the model learns to generate, render, and interpret scalable vector graphics (SVG) code as an intermediate visual representation for mul…"
+    }
+  ]
+}

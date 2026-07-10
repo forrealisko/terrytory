@@ -1,0 +1,42 @@
+{
+  "id": "49e7d713-0a15-4995-821d-f350ddc83a60",
+  "niche": "ai",
+  "batch_id": "035caac3-693f-41e4-bf14-12fc457b68c1",
+  "created_at": "2026-07-10T06:43:15.095Z",
+  "status": "banked",
+  "format": "roundup",
+  "title": "Agent Agenda: Your Daily Digest of AI Agent Breakthroughs in 5 Key Areas",
+  "angle": "From self-feedback LLM agents reducing costs to multi-agent systems optimizing code and AI trading prediction markets, this roundup distills the latest advancements in autonomous AI, highlighting what's next for intelligent agents.",
+  "rationale": "Stories 5, 14, and 15 represent distinct but related advancements in AI agents, making a roundup the best way to cover them efficiently.",
+  "priority": 3,
+  "source_pick_ids": [
+    "280a5627-e5ad-4a4a-a956-d0766cc459de",
+    "e700cf63-3b2a-4931-b4ee-0f6041aebec2",
+    "e7e1a8b4-c2c8-4eaf-94d3-db363268b946"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry",
+      "url": "https://arxiv.org/abs/2607.03702",
+      "excerpt": "arXiv:2607.03702v1 Announce Type: new Abstract: Large language model (LLM) agents have shown strong decision-making capabilities in long-horizon interactive tasks, yet they still struggle to effectively leverage failed trajectories: full retries incur high interaction costs, while experience retrieval tends to dilute critical experience signals. To address this, we propose PivoARL, a self-feedback…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
+      "url": "https://arxiv.org/abs/2607.02807",
+      "excerpt": "arXiv:2607.02807v1 Announce Type: new Abstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend to converge onto a single high-level approach, then proceed with low-level edits while missing other superior approaches to the problem. We hypothesize two harness-level design choices contribute to this behavior: accumu…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents",
+      "url": "https://arxiv.org/abs/2607.03015",
+      "excerpt": "arXiv:2607.03015v1 Announce Type: new Abstract: Forecasting future events has attracted growing attention as a testbed for general-purpose AI. A natural way to ground this evaluation is let the models trade in the prediction markets. Trading, however, requires more than forecasting. Moreover, recent benchmarks report a substantial gap between calibrated probability scores and the trading results. …"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

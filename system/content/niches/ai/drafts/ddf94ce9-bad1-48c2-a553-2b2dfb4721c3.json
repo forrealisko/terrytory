@@ -1,0 +1,67 @@
+{
+  "id": "ddf94ce9-bad1-48c2-a553-2b2dfb4721c3",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:23:33.780Z",
+  "status": "draft",
+  "format": "opinion",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "url": "https://arxiv.org/abs/2607.02931",
+      "excerpt": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification of published research has become both harder and more important. As manual replication is slow and expensive, a growing line of work uses coding agents to automate parts of the process. Existing efforts are largely packa…"
+    }
+  ],
+  "headline": "VERITAS Scores 88.9% on Replication. The Science Crisis It's Trying to Fix Scores Much Worse.",
+  "headline_options": [
+    "VERITAS Scores 88.9% on Replication. The Science Crisis It's Trying to Fix Scores Much Worse."
+  ],
+  "selected_headline": "VERITAS Scores 88.9% on Replication. The Science Crisis It's Trying to Fix Scores Much Worse.",
+  "slug": "veritas-ai-replication-framework-science-reproducibility-crisis",
+  "body_markdown": "## The Wrong Problem, Solved Brilliantly\n\nOn July 10, 2026, a paper dropped on arXiv that should have made every researcher uncomfortable, though probably not for the reason its authors intended. **VERITAS**, described as the first end-to-end, domain-agnostic **scientific replication framework** built around CLI coding agents, hit **88.9% on the CORE-Bench scorer**, blowing past the previous strongest leaderboard agent at 77.8%. That is a genuine technical achievement. It is also a little like building a world-class ambulance service for a city that refuses to fix its roads. The replication crisis in science is not primarily an automation problem. It is an incentives problem. And no benchmark score changes that.\n\nVERITAS is impressive engineering. But the conversation it has sparked is more important than the tool itself.\n\n## What VERITAS Actually Does Well\n\nTo be fair to the researchers behind arXiv:2607.02931, the framework addresses a real and immediate pain point. Manual replication of scientific experiments is slow, expensive, and increasingly impractical as publication volumes accelerate. **VERITAS** automates the process using CLI coding agents that can work across domains, not just within a narrow slice of computational biology or a single ML benchmark category. That domain-agnostic scope is the meaningful technical differentiator here.\n\nThe 11-point gap over the next best agent on CORE-Bench is not noise. It reflects a genuinely more robust approach to parsing experiment environments, reconstructing dependencies, and executing replication pipelines without human hand-holding at every step. For institutional reviewers, journal editors, and funding bodies that need to verify published results at scale, a tool that clears 88.9% accuracy is operationally useful in ways its predecessors simply were not.\n\nThe problem is what VERITAS cannot touch: the roughly **85% of AI studies that never share their code in the first place**. That figure comes from the 2020 State of AI report, authored by investors Nathan Benaich and Ian Hogarth, and it has not meaningfully improved since. You cannot replicate what was never disclosed.\n\n![VERITAS automates replication with impressive accuracy. But the framework can only work on the fraction of science that chose to be transparent in the first place.](/api/content/images/inline-ddf94ce9-bad1-48c2-a553-2b2dfb4721c3-0.webp)\n\n## The Deeper Rot That No Agent Can Fix\n\nThe **replication crisis** predates machine learning entirely. Psychology, medicine, and economics have been wrestling with it for decades. In drug development, only around 11% of new trial results hold up under independent replication. The causes are structural: publication bias rewards positive results, career incentives punish null findings, and journals have historically had little appetite for the unglamorous work of verification.\n\nAI research has inherited all of those pathologies and added new ones. The specific failure modes in ML reproducibility are well documented. Incomplete disclosure of training details, missing dataset preprocessing steps, unreported random seeds, vague hardware configurations, and quietly tuned hyperparameters all conspire to make published results effectively irreproducible even when researchers are acting in good faith. When they are not acting in good faith, the situation is considerably worse.\n\nVERITAS can automate the replication attempt once the inputs exist. It cannot conjure those inputs from researchers who chose not to share them, from labs like OpenAI, Anthropic, Google DeepMind, Meta, and Mistral, where proprietary constraints routinely limit code and data access. The framework is a powerful tool for the subset of science that is already transparent. That subset is not large enough.\n\n![A cinematic split-screen visualization: on the left, a glowing AI agent terminal running automated replication pipelines with cascading green code on dark screens; on the right, a crumbling paper archive with scattered unreadable documents, symbolizing the systemic gap between automation capability and actual scientific transparency.](inline_veritas_split_screen.webp)\n\n## The Incentive Architecture Is the Product\n\nHere is the uncomfortable argument that VERITAS, through no fault of its own, risks obscuring. If the scientific community deploys increasingly capable replication agents and treats automation as the primary solution to reproducibility, it creates a perverse dynamic. Researchers who do share their code get scrutinized by powerful automated systems. Researchers who do not share their code remain effectively immune. The tool optimizes for the cooperative case while the adversarial case, the one that actually drives the crisis, goes unaddressed.\n\nWhat would actually move the needle? **Mandatory code and data deposition** as a condition of publication, enforced by journals with real consequences rather than aspirational guidelines. **Structured replication metadata** shipped alongside every paper as a first-class artifact, not an afterthought. Funding bodies like the NIH and NSF making reproducibility documentation a graded criterion for grant renewal, not a checkbox. Some of this is already being discussed in policy circles, but the pace is glacial relative to the rate at which unreproducible results accumulate in the literature.\n\nThe robot scientist Eve, which reproduced results from gene expression papers back in 2022, demonstrated that automated replication is technically achievable. VERITAS in 2026 demonstrates it is now scalable and domain-general. Neither development has yet been paired with the institutional mandate that would make the underlying data available to replicate in the first place.\n\n## The Steelman: Automation Creates Accountability Pressure\n\nThe strongest counterargument to this critique is that tools like VERITAS actually do create systemic pressure for transparency, even without a regulatory mandate. When replication is cheap and fast, the cost of being caught with an irreproducible result rises. Journals that adopt VERITAS as part of peer review create a de facto disclosure requirement: submit code or face automated failure at the gate. Funding agencies that run VERITAS on published outputs from their grantees gain leverage they did not previously have. The tool, in this reading, is not a band-aid but a forcing function.\n\nThat argument has real merit. Friction reduction in replication does shift the equilibrium. If running a replication check drops from six months of a postdoc's time to an automated overnight job, more checks will happen, and more failures will surface. That visibility has value.\n\nBut the forcing function only works if institutions actually deploy it with teeth. A 88.9% accurate replication agent sitting unused on arXiv does nothing. The history of reproducibility initiatives in science is littered with technically sound proposals that never achieved adoption because the incentive structure never changed. VERITAS needs institutional adoption with enforcement authority, not just a strong benchmark score, to become the lever its creators clearly intend it to be.\n\n## Fix the Incentives, Then Deploy the Tool\n\nVERITAS is the right tool arriving at the right moment with an impressive scorecard. The researchers behind arXiv:2607.02931 have done genuinely useful work, and the 11-point improvement over the previous CORE-Bench leader is a meaningful technical contribution to a real problem. None of that is in dispute.\n\nWhat is in dispute is the framing. **Scientific reproducibility** will not be solved by making replication faster. It will be solved by making non-disclosure costly. The two interventions are not equivalent, and conflating them risks letting institutions off the hook. Deploy VERITAS inside a reformed incentive architecture and it becomes transformative. Deploy it as a substitute for that reform and it becomes a sophisticated way of confirming that the 15% of studies that already share their code are internally consistent, while the other 85% continue operating without consequence.\n\nThe ambulance is excellent. Build better roads.",
+  "excerpt": "VERITAS hits 88.9% on CORE-Bench and outperforms every replication agent on the leaderboard. It still can't fix the 85% of AI studies that never share code.",
+  "seo": {
+    "meta_title": "VERITAS AI Replication Tool Misses the Real Crisis",
+    "meta_description": "VERITAS scores 88.9% on CORE-Bench. But when 85% of AI studies never share code, automating replication is the wrong solution to the right problem.",
+    "keywords": [
+      "scientific replication crisis",
+      "VERITAS replication framework",
+      "CORE-Bench benchmark",
+      "AI reproducibility",
+      "scientific transparency",
+      "replication automation",
+      "ML reproducibility"
+    ]
+  },
+  "hero_image_prompt": "Photorealistic editorial image of a lone researcher at a sleek workstation in a darkened laboratory, surrounded by glowing server racks and cascading terminal code on multiple monitors, while in the background towering shelves of physical research binders and paper archives slowly dissolve into digital static, cinematic blue and amber lighting, atmospheric depth of field, no text or logos",
+  "visual_suggestions": [
+    {
+      "kind": "chart",
+      "description": "CORE-Bench leaderboard comparison chart showing VERITAS at 88.9% versus the previous strongest agent at 77.8%, ideally sourced from the arXiv paper figures or the CORE-Bench official leaderboard page",
+      "placement": "After the 'What VERITAS Actually Does Well' section, to visually anchor the benchmark claims"
+    },
+    {
+      "kind": "screenshot",
+      "description": "Screenshot of the VERITAS arXiv paper abstract page (arxiv.org/abs/2607.02931) showing the paper title, authors, and submission date of July 10, 2026",
+      "placement": "Near the opening section as a source reference visual"
+    },
+    {
+      "kind": "chart",
+      "description": "Infographic or data visualization showing the 15% code-sharing statistic from the State of AI 2020 report by Nathan Benaich and Ian Hogarth, ideally the original chart or a recreated bar graphic",
+      "placement": "After the 'The Deeper Rot That No Agent Can Fix' section to visually reinforce the systemic disclosure failure"
+    },
+    {
+      "kind": "diagram",
+      "description": "Architecture diagram from the VERITAS paper showing the CLI coding agent pipeline and domain-agnostic replication workflow, sourced directly from arXiv:2607.02931",
+      "placement": "Within or immediately after the 'What VERITAS Actually Does Well' section"
+    }
+  ],
+  "affiliate_slots": [],
+  "generation": {
+    "model": "anthropic/claude-4.6-sonnet-20260217",
+    "prompt_tokens": 6802,
+    "completion_tokens": 2585,
+    "generation_time_ms": 57275
+  }
+}

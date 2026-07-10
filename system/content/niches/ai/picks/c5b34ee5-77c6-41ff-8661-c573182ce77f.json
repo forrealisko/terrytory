@@ -1,0 +1,26 @@
+{
+  "id": "c5b34ee5-77c6-41ff-8661-c573182ce77f",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:54:57.012Z",
+  "status": "pending",
+  "headline": "Advancements in LLM Safety Alignment and Medical Diagnostic Reasoning with Reinforcement Learning",
+  "rating": 8.8,
+  "reasoning": "Both articles present significant AI research breakthroughs in critical areas: LLM safety alignment (moving beyond simple refusal) and applying LLMs to complex, iterative medical diagnostic reasoning. The use of Reinforcement Learning in both contexts, along with empirical results demonstrating superior performance, indicates high technical credibility and novelty. These are not mere incremental updates but address fundamental challenges in LLM deployment and utility.",
+  "summary": "Two new arXiv papers introduce 'Oyster-II,' an RL-based framework for constructive LLM safety alignment, and an RL-VR approach for LLMs to perform iterative, evidence-seeking medical diagnostic reasoning, both showing significant performance improvements.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02914",
+      "excerpt": "arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strategies mitigate harmful content generation but systematically fail to serve legitimate user needs, ofte…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Reinforcement Learning for Evidence-Seeking Diagnostic Reasoning with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02983",
+      "excerpt": "arXiv:2607.02983v1 Announce Type: new Abstract: Recent reasoning-centric Large Language Models (LLMs) have made significant strides, yet they predominantly operate on a passive-inference pattern that assumes complete information. In contrast, real-world clinical intelligence is inherently an iterative investigative process requiring strategic evidence acquisition. To bridge this gap, we formalize …"
+    }
+  ]
+}

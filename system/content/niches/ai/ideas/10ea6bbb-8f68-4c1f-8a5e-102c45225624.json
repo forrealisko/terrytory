@@ -1,0 +1,43 @@
+{
+  "id": "10ea6bbb-8f68-4c1f-8a5e-102c45225624",
+  "niche": "ai",
+  "batch_id": "a6e850f3-57f4-4a17-90ef-facac5d404cf",
+  "created_at": "2026-07-10T06:35:11.725Z",
+  "status": "created",
+  "format": "comparison",
+  "title": "Self-Improving AI Agents Compared: PivoARL vs HASE vs PLACEMEM",
+  "angle": "Three new frameworks all promise agents that get better on their own, but they bet on different mechanisms — self-feedback, co-evolution, and persistent memory. Here is how they actually differ and which problem each one solves.",
+  "rationale": "Multiple agent-autonomy papers dropped together; a comparison cuts through the noise for builders choosing an approach.",
+  "priority": 1,
+  "source_pick_ids": [
+    "280a5627",
+    "bca73e7d",
+    "9dddc121"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry",
+      "url": "https://arxiv.org/abs/2607.03702",
+      "excerpt": "arXiv:2607.03702v1 Announce Type: new Abstract: Large language model (LLM) agents have shown strong decision-making capabilities in long-horizon interactive tasks, yet they still struggle to effectively leverage failed trajectories: full retries incur high interaction costs, while experience retrieval tends to dilute critical experience signals. To address this, we propose PivoARL, a self-feedback…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+      "url": "https://arxiv.org/abs/2607.03935",
+      "excerpt": "arXiv:2607.03935v1 Announce Type: new Abstract: Self-evolving frameworks usually optimize task solutions while treating the surrounding harness as fixed. We introduce Harness-Aware Self-Evolving (HASE), an agentic reinforcement-learning framework in which a single model can generate task solutions or edit selected harness components in a multi-turn action space. HASE enables a single Qwen3-8B mode…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents",
+      "url": "https://arxiv.org/abs/2607.04089",
+      "excerpt": "arXiv:2607.04089v1 Announce Type: new Abstract: Lifelong agents need more than larger context windows and better retrieval. They need memories that can persist, evolve, and be corrected without forcing the serving stack to recompute the same history on every turn or silently reuse stale runtime state. We present PLACEMEM as a systems position on lifelong-agent memory, instantiated by an executable…"
+    }
+  ],
+  "draft_id": "10ea6bbb-8f68-4c1f-8a5e-102c45225624",
+  "planner_model": "manual",
+  "created_draft_at": "2026-07-10T06:36:33.909Z"
+}

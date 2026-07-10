@@ -1,0 +1,19 @@
+{
+  "id": "f426c08b-2589-4e4d-bbd4-91662f9b13a4",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:33.146Z",
+  "status": "pending",
+  "headline": "New Method CO-ALIGN Reduces Bias in Text-to-Image Diffusion Models by 30%",
+  "rating": 8.8,
+  "reasoning": "This paper presents a significant advancement in AI safety and fairness, specifically addressing a critical issue in text-to-image diffusion models. The proposed CO-ALIGN method shows substantial quantitative improvements (30% fairness, 88% reduction in incoherent outputs) over existing techniques, indicating a meaningful breakthrough from a credible source (arXiv).",
+  "summary": "Researchers introduced CO-ALIGN, a novel concept-graph alignment approach to efficiently mitigate harmful biases in Text-to-Image diffusion models, achieving a 30% improvement in fairness and significantly reducing semantically incoherent outputs.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Efficient bias mitigation in T2I diffusion models using Concept Graphs",
+      "url": "https://arxiv.org/abs/2607.03397",
+      "excerpt": "arXiv:2607.03397v1 Announce Type: new Abstract: Text-to-Image diffusion models often propagate harmful bias inherited from the training data. Existing bias mitigation techniques typically intervene only at the text encoder or provide inference-time guidance, often leading to generations that collapse into semantically incoherent outputs. To address these limitations, we introduce CO-ALIGN (Concept…"
+    }
+  ]
+}

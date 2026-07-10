@@ -1,0 +1,19 @@
+{
+  "id": "280a5627-e5ad-4a4a-a956-d0766cc459de",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:55.843Z",
+  "status": "pending",
+  "headline": "PivoARL: Enhancing LLM Agent Efficiency with Pivotal-Aware Self-Feedback Retry",
+  "rating": 8.8,
+  "reasoning": "This paper presents a novel and technically sound approach to improve LLM agent performance in long-horizon tasks by efficiently handling failed trajectories. The proposed PivoARL framework addresses a significant challenge in agent reinforcement learning, offering substantial performance gains and interaction cost reductions, making it a meaningful development from a credible research institution (arXiv).",
+  "summary": "Researchers introduce PivoARL, a self-feedback retry framework for LLM agents that identifies pivotal erroneous turns and performs local retries, significantly improving performance and reducing interaction costs in complex tasks.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry",
+      "url": "https://arxiv.org/abs/2607.03702",
+      "excerpt": "arXiv:2607.03702v1 Announce Type: new Abstract: Large language model (LLM) agents have shown strong decision-making capabilities in long-horizon interactive tasks, yet they still struggle to effectively leverage failed trajectories: full retries incur high interaction costs, while experience retrieval tends to dilute critical experience signals. To address this, we propose PivoARL, a self-feedback…"
+    }
+  ]
+}

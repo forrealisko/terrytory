@@ -1,0 +1,19 @@
+{
+  "id": "b90b9b4f-4fd0-4675-a68e-e64b1a02a7fa",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:56:27.008Z",
+  "status": "pending",
+  "headline": "AI Advances in GPU Kernel Optimization, Online Task Automation, and Multi-Hour Computer Use",
+  "rating": 9.2,
+  "reasoning": "This article presents multiple significant AI advancements across different domains. The Fable AI's ability to write highly optimized GPU kernels demonstrates a breakthrough in AI's capacity for self-improvement and fundamental R&D tasks. The substantial increase in AI's success rate on the Remote Labor Index and the introduction of OSWORLD 2.0, a benchmark for multi-hour, complex computer tasks, highlight rapid progress in AI's practical applicability and economic impact, moving beyond hype to concrete, measurable improvements.",
+  "summary": "Fable AI achieved an 18.71X speedup in GPU kernel writing, while AI systems significantly improved their success rate on online freelance projects (Remote Labor Index) from 2.5% to 16.1%. Additionally, OSWORLD 2.0 was released, a new benchmark for evaluating AI's ability to perform multi-hour, complex computer-based tasks.",
+  "source_articles": [
+    {
+      "source_id": "importai",
+      "source_name": "Import AI",
+      "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+      "excerpt": "Is this the beginning of a new world?"
+    }
+  ]
+}

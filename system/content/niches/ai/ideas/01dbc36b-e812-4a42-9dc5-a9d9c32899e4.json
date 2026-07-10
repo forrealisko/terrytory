@@ -1,0 +1,26 @@
+{
+  "id": "01dbc36b-e812-4a42-9dc5-a9d9c32899e4",
+  "niche": "ai",
+  "batch_id": "cfa11150-9302-46f6-aeb8-87cd4db04cfb",
+  "created_at": "2026-07-09T21:07:35.101Z",
+  "status": "banked",
+  "format": "explainer",
+  "title": "OpenDDE Unpacked: Decoding the 'All-Atom Biomolecular Foundation Model' for Drug Discovery",
+  "angle": "Break down what an 'all-atom biomolecular foundation model' means for drug discovery, how OpenDDE's architecture facilitates scalable AI-driven co-folding, and its practical implications for accelerating pharmaceutical R&D.",
+  "rationale": "The release of OpenDDE is significant but dense, requiring an explanation for builders and businesses to grasp its potential and integrate it into their strategies.",
+  "priority": 2,
+  "source_pick_ids": [
+    "c61d9457-3a32-418e-8952-4ab139cbcae5"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Folding, Reasoning, and Scaling with Open-source Drug Discovery Engine",
+      "url": "https://arxiv.org/abs/2607.03787",
+      "excerpt": "arXiv:2607.03787v1 Announce Type: new Abstract: Accurately modeling biomolecular interactions is a central bottleneck in biology and therapeutic discovery. Here, we introduce Open Drug Discovery Engine (OpenDDE), an open-source, all-atom biomolecular foundation model that uses co-folding as the entry point to a scalable AI-driven drug discovery engine. Rather than treating structure prediction as …"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

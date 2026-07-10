@@ -1,0 +1,28 @@
+{
+  "id": "ddf94ce9-bad1-48c2-a553-2b2dfb4721c3",
+  "niche": "ai",
+  "batch_id": "8a66f2ed-4839-4c7f-8118-984bd92318e6",
+  "created_at": "2026-07-10T10:05:58.635Z",
+  "status": "created",
+  "format": "opinion",
+  "title": "AI's Replication Crisis Solution: VERITAS Is Good, But We're Missing the Point",
+  "angle": "While VERITAS offers an impressive AI-powered framework for automating scientific replication, we argue that the real challenge isn't just replication, but incentivizing transparent, reproducible science from the outset. VERITAS is a band-aid on a deeper systemic issue.",
+  "audience": "researchers, tech-curious, businesses",
+  "rationale": "This story presents a strong opportunity for a nuanced take on the broader implications of AI in scientific research, moving beyond the technical achievement to the ethical and systemic challenges.",
+  "priority": 3,
+  "source_pick_ids": [
+    "0394909a-8919-4509-aaf0-55aad772bacf"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "url": "https://arxiv.org/abs/2607.02931",
+      "excerpt": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification of published research has become both harder and more important. As manual replication is slow and expensive, a growing line of work uses coding agents to automate parts of the process. Existing efforts are largely packa…"
+    }
+  ],
+  "draft_id": "ddf94ce9-bad1-48c2-a553-2b2dfb4721c3",
+  "planner_model": "google/gemini-2.5-flash",
+  "created_draft_at": "2026-07-10T10:23:33.782Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "0acc123e-4dd8-4a6c-8619-be839cd58b4d",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:19.938Z",
+  "status": "pending",
+  "headline": "Organizational Memory for LLM Agents: Scaling Business Process Automation",
+  "rating": 8.2,
+  "reasoning": "This paper directly addresses a critical challenge in applying LLM-based agents to enterprise business processes: managing organization-specific knowledge at scale. It proposes a novel 'organizational memory' concept and architecture, moving beyond individual prompts or retrieval setups. The research is from credible academic authors and published on arXiv, indicating technical depth and relevance to AI's practical application in business.",
+  "summary": "Researchers propose an 'organizational memory' architecture for LLM-based agents to overcome knowledge fragmentation and scalability issues in automating complex business processes, demonstrating its effectiveness in a procurement scenario.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Organizational Memory for Agentic Business Process Execution",
+      "url": "https://arxiv.org/abs/2607.03228",
+      "excerpt": "arXiv:2607.03228v1 Announce Type: new Abstract: LLM-based agents offer new opportunities for automating business process execution beyond the limits of rule-based systems. However, general-purpose LLMs lack the organization-specific knowledge required for reliable execution, which is typically fragmented across human-oriented artifacts such as policies, process models, and standard operating proce…"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "2e4278f2-2b67-430e-8603-76ca632ac51b",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:56:04.267Z",
+  "status": "pending",
+  "headline": "BRAID: Unifying Multi-Modal Reasoning with Reinforcement Learning",
+  "rating": 8.5,
+  "reasoning": "This paper presents a novel and significant advancement in multi-modal AI, specifically addressing a known limitation in applying RL to interleaved text-image generation. The unified MDP framework and vision-thinking guidance are technically sound and offer a clear path to improving multi-modal reasoning, coming from a credible research outlet (arXiv).",
+  "summary": "Researchers introduce BRAID, a framework that unifies multi-turn text-image reasoning as a single Markov Decision Process, enabling joint optimization of textual and visual generation via a principled reinforcement learning objective.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Bridging Interleaved Multi-Modal Reasoning as a Unified Decision Process",
+      "url": "https://arxiv.org/abs/2607.03748",
+      "excerpt": "arXiv:2607.03748v1 Announce Type: new Abstract: Unified multi-modal models (UMMs) have shown promising interleaved text-image reasoning capabilities, yet effectively optimizing such multi-turn generation via reinforcement learning (RL) remains an open challenge. Existing approaches apply RL exclusively to text steps, relegating image generation to supervised surrogates, preventing policy gradients…"
+    }
+  ]
+}

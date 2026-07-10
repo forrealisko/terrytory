@@ -9,6 +9,7 @@ import path from "node:path";
 import { loadNiche, ensureNicheDirs } from "../lib/niches.mjs";
 import { loadEnv, getOpenRouterKey } from "../lib/env.mjs";
 import { CONFIG, getEditorialPrompt, getResearchPrompt } from "./content-config.mjs";
+import { authorForFormat, authorByline } from "./authors.mjs";
 
 loadEnv();
 
@@ -119,9 +120,9 @@ export async function performResearch(ctx, headline, sourceArticles, apiKey) {
 }
 
 // ─── Writer ──────────────────────────────────────────────────────────────────
-export async function writeArticleDraft(ctx, pick, researchReport, styleGuide, apiKey, modelOverride, format) {
+export async function writeArticleDraft(ctx, pick, researchReport, styleGuide, apiKey, modelOverride, format, author) {
   const model = modelOverride || CONFIG.model;
-  ctx.log("info", `  [Writer] Generating ${format || "article"} draft via ${model}...`);
+  ctx.log("info", `  [Writer] Generating ${format || "article"} draft via ${model}${author ? ` as ${author.name}` : ""}...`);
 
   const sourceContext = pick.source_articles
     .map((s, i) => `[Source ${i + 1}] Title: "${s.title}" (URL: ${s.url})\nExcerpt: ${s.excerpt || "N/A"}`)
@@ -129,7 +130,7 @@ export async function writeArticleDraft(ctx, pick, researchReport, styleGuide, a
 
   const brand = ctx.niche.brand?.name || "TERRYTORY";
   const angleNote = pick.angle ? `\n\nEDITORIAL ANGLE (the specific take to write toward):\n${pick.angle}\n` : "";
-  const prompt = `${getEditorialPrompt(ctx.niche, { format })}${angleNote}
+  const prompt = `${getEditorialPrompt(ctx.niche, { format, author })}${angleNote}
 
 ──────────────────────────────
 WRITING STYLE GUIDELINES (Use these past articles to copy the tone, vocabulary, formatting, and style):
@@ -237,11 +238,12 @@ export function insertInlineImages(bodyMarkdown, inlineImages, draftId) {
 // Format-aware and side-effect-free (does NOT touch pick files) so both the
 // pick flow and the Creative Director's ideas can share it.
 export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, withImages = true, format = "article" } = {}) {
+  const author = authorForFormat(ctx.niche.id, format);
   const researchReport = await performResearch(ctx, spec.headline, spec.source_articles, apiKey);
   ctx.log("info", `  Research complete (${researchReport.length} chars)`);
 
   const styleGuide = getFewShotExamples(ctx);
-  const draftContent = await writeArticleDraft(ctx, spec, researchReport, styleGuide, apiKey, modelOverride, format);
+  const draftContent = await writeArticleDraft(ctx, spec, researchReport, styleGuide, apiKey, modelOverride, format, author);
   // AI now commits to a single best headline; keep backward-compat with older `headline_options`.
   const finalHeadline =
     draftContent.headline || draftContent.headline_options?.[0] || spec.headline;
@@ -267,6 +269,7 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
     created_at: new Date().toISOString(),
     status: "draft",
     format,
+    author: authorByline(author),
     source_articles: spec.source_articles,
     headline: finalHeadline,
     headline_options: [finalHeadline],

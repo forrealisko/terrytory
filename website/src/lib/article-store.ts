@@ -45,11 +45,20 @@ export interface AffiliateSlot {
   label?: string;
 }
 
+export interface Author {
+  id: string;
+  name: string;
+  title: string;
+  bio: string;
+}
+
 export interface ArticleDraft {
   id: string;
   niche?: string;
   created_at: string;
   status: "draft" | "published" | "rejected" | "generating";
+  format?: string;
+  author?: Author;
 
   source_articles: SourceReference[];
 

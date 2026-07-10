@@ -1,0 +1,57 @@
+{
+  "id": "98d6d565-2578-470a-86a4-b7f594b65c6e",
+  "niche": "ai",
+  "batch_id": "035caac3-693f-41e4-bf14-12fc457b68c1",
+  "created_at": "2026-07-10T06:43:15.095Z",
+  "status": "banked",
+  "format": "listicle",
+  "title": "6 Ways AI is Revolutionizing Scientific Discovery (Beyond Just Data Analysis)",
+  "angle": "This listicle spotlights how AI is moving beyond traditional data processing to actively automate research replication, accelerate drug discovery, and enhance medical calculations, presenting a holistic view of AI's transformative role in science.",
+  "rationale": "Stories 2, 3, 6, and 12 showcase various impactful applications of AI in scientific research, which lends itself well to a structured list.",
+  "priority": 4,
+  "source_pick_ids": [
+    "c61d9457-3a32-418e-8952-4ab139cbcae5",
+    "0394909a-8919-4509-aaf0-55aad772bacf",
+    "4c24b29a-36a1-4df0-9f74-058d2083b94b",
+    "c5b34ee5-77c6-41ff-8661-c573182ce77f"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Folding, Reasoning, and Scaling with Open-source Drug Discovery Engine",
+      "url": "https://arxiv.org/abs/2607.03787",
+      "excerpt": "arXiv:2607.03787v1 Announce Type: new Abstract: Accurately modeling biomolecular interactions is a central bottleneck in biology and therapeutic discovery. Here, we introduce Open Drug Discovery Engine (OpenDDE), an open-source, all-atom biomolecular foundation model that uses co-folding as the entry point to a scalable AI-driven drug discovery engine. Rather than treating structure prediction as …"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "url": "https://arxiv.org/abs/2607.02931",
+      "excerpt": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification of published research has become both harder and more important. As manual replication is slow and expensive, a growing line of work uses coding agents to automate parts of the process. Existing efforts are largely packa…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.02879",
+      "excerpt": "arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified in the query. However, real clinical scenarios often require multiple calculators for joint evaluation, nested-scale ca…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02914",
+      "excerpt": "arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strategies mitigate harmful content generation but systematically fail to serve legitimate user needs, ofte…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Reinforcement Learning for Evidence-Seeking Diagnostic Reasoning with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02983",
+      "excerpt": "arXiv:2607.02983v1 Announce Type: new Abstract: Recent reasoning-centric Large Language Models (LLMs) have made significant strides, yet they predominantly operate on a passive-inference pattern that assumes complete information. In contrast, real-world clinical intelligence is inherently an iterative investigative process requiring strategic evidence acquisition. To bridge this gap, we formalize …"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

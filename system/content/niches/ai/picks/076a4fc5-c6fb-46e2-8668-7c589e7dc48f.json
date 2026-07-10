@@ -1,0 +1,19 @@
+{
+  "id": "076a4fc5-c6fb-46e2-8668-7c589e7dc48f",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:13.589Z",
+  "status": "pending",
+  "headline": "LLMs as Survey Respondents: Cross-Survey Transfer Reveals Nuances in 'Silicon Sampling'",
+  "rating": 8.2,
+  "reasoning": "This paper presents a rigorous evaluation framework for 'silicon sampling' using LLMs, directly addressing a critical area of AI application and its limitations. The findings on accuracy, construct predictability, and the nuanced nature of variance collapse and safety alignment are significant for researchers and builders working with LLMs for social science or market research. The methodology and results are technically credible, coming from an arXiv paper with detailed findings.",
+  "summary": "Researchers propose 'cross-survey transfer' to evaluate LLMs as survey respondents, finding that LLMs achieve significant accuracy in predicting answers to unseen questions and revealing nuanced insights into common LLM limitations like variance collapse and safety alignment.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Silicon Sampling via Cross-Survey Transfer",
+      "url": "https://arxiv.org/abs/2607.03091",
+      "excerpt": "arXiv:2607.03091v1 Announce Type: new Abstract: Silicon sampling-using large language models (LLMs) to simulate human survey respondents-has emerged as a promising approach for augmenting traditional survey research. However, most evaluations rely on distributional comparisons rather than individual-level prediction, which risks conflating pattern matching with coherent respondent-level prediction…"
+    }
+  ]
+}

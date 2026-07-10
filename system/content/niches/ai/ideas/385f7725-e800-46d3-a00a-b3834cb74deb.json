@@ -1,0 +1,66 @@
+{
+  "id": "385f7725-e800-46d3-a00a-b3834cb74deb",
+  "niche": "ai",
+  "batch_id": "cfa11150-9302-46f6-aeb8-87cd4db04cfb",
+  "created_at": "2026-07-09T21:07:35.101Z",
+  "status": "chosen",
+  "format": "roundup",
+  "title": "Agent Agenda: Key Advances in AI Autonomy, Efficiency, and Intelligence",
+  "angle": "A concise overview of the latest breakthroughs in AI agents, including self-feedback for LLMs (PivoARL), multimodal foundation models (iFLYTEK-Embodied-Omni), and multi-agent coordination (SwarmResearch), highlighting how these developments push AI towards greater autonomy and sophisticated problem-solving.",
+  "rationale": "Several stories today revolve around agentic AI, making a roundup the perfect format to connect these related but distinct advancements for readers interested in the cutting edge of AI autonomy.",
+  "priority": 3,
+  "source_pick_ids": [
+    "2792e9cc-da67-43b3-8284-99a6d5c23797",
+    "280a5627-e5ad-4a4a-a956-d0766cc459de",
+    "bca73e7d-a119-4e0b-8613-6b5b1411edae",
+    "c5b34ee5-77c6-41ff-8661-c573182ce77f",
+    "e700cf63-3b2a-4931-b4ee-0f6041aebec2"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "url": "https://arxiv.org/abs/2607.02542",
+      "excerpt": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, video-based world modeling, or action generation, while cascaded pipelines that first synthesize futur…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry",
+      "url": "https://arxiv.org/abs/2607.03702",
+      "excerpt": "arXiv:2607.03702v1 Announce Type: new Abstract: Large language model (LLM) agents have shown strong decision-making capabilities in long-horizon interactive tasks, yet they still struggle to effectively leverage failed trajectories: full retries incur high interaction costs, while experience retrieval tends to dilute critical experience signals. To address this, we propose PivoARL, a self-feedback…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+      "url": "https://arxiv.org/abs/2607.03935",
+      "excerpt": "arXiv:2607.03935v1 Announce Type: new Abstract: Self-evolving frameworks usually optimize task solutions while treating the surrounding harness as fixed. We introduce Harness-Aware Self-Evolving (HASE), an agentic reinforcement-learning framework in which a single model can generate task solutions or edit selected harness components in a multi-turn action space. HASE enables a single Qwen3-8B mode…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02914",
+      "excerpt": "arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strategies mitigate harmful content generation but systematically fail to serve legitimate user needs, ofte…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Reinforcement Learning for Evidence-Seeking Diagnostic Reasoning with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02983",
+      "excerpt": "arXiv:2607.02983v1 Announce Type: new Abstract: Recent reasoning-centric Large Language Models (LLMs) have made significant strides, yet they predominantly operate on a passive-inference pattern that assumes complete information. In contrast, real-world clinical intelligence is inherently an iterative investigative process requiring strategic evidence acquisition. To bridge this gap, we formalize …"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
+      "url": "https://arxiv.org/abs/2607.02807",
+      "excerpt": "arXiv:2607.02807v1 Announce Type: new Abstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend to converge onto a single high-level approach, then proceed with low-level edits while missing other superior approaches to the problem. We hypothesize two harness-level design choices contribute to this behavior: accumu…"
+    }
+  ],
+  "draft_id": "385f7725-e800-46d3-a00a-b3834cb74deb",
+  "planner_model": "google/gemini-2.5-flash",
+  "created_draft_at": "2026-07-09T21:09:28.135Z"
+}

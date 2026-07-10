@@ -1,0 +1,59 @@
+{
+  "id": "8af4a536-f626-4231-80fa-bc616dda03c7",
+  "niche": "ai",
+  "batch_id": "9df844f5-520e-4fc8-ad98-5f6b35024e37",
+  "created_at": "2026-07-09T21:25:29.022Z",
+  "status": "created",
+  "format": "roundup",
+  "title": "Agent Agenda: 5 Breakthroughs Improving LLM Performance, Reliability, and Lifelong Learning",
+  "angle": "A quick digest of the latest advancements in LLM agent frameworks, including self-feedback for efficiency (PivoARL), multimodal embodiment (iFLYTEK), and compute-aware memory for lifelong agents (PLACEMEM), and how they collectively push the boundaries of AI autonomy.",
+  "rationale": "Several stories detail distinct, yet related, advancements in AI agent capabilities, making a roundup the best way to cover them efficiently.",
+  "priority": 3,
+  "source_pick_ids": [
+    "2792e9cc-da67-43b3-8284-99a6d5c23797",
+    "280a5627-e5ad-4a4a-a956-d0766cc459de",
+    "9dddc121-f1af-4db2-a42a-7d5ca60f25e1",
+    "bca73e7d-a119-4e0b-8613-6b5b1411edae",
+    "e700cf63-3b2a-4931-b4ee-0f6041aebec2"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "url": "https://arxiv.org/abs/2607.02542",
+      "excerpt": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, video-based world modeling, or action generation, while cascaded pipelines that first synthesize futur…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry",
+      "url": "https://arxiv.org/abs/2607.03702",
+      "excerpt": "arXiv:2607.03702v1 Announce Type: new Abstract: Large language model (LLM) agents have shown strong decision-making capabilities in long-horizon interactive tasks, yet they still struggle to effectively leverage failed trajectories: full retries incur high interaction costs, while experience retrieval tends to dilute critical experience signals. To address this, we propose PivoARL, a self-feedback…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents",
+      "url": "https://arxiv.org/abs/2607.04089",
+      "excerpt": "arXiv:2607.04089v1 Announce Type: new Abstract: Lifelong agents need more than larger context windows and better retrieval. They need memories that can persist, evolve, and be corrected without forcing the serving stack to recompute the same history on every turn or silently reuse stale runtime state. We present PLACEMEM as a systems position on lifelong-agent memory, instantiated by an executable…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+      "url": "https://arxiv.org/abs/2607.03935",
+      "excerpt": "arXiv:2607.03935v1 Announce Type: new Abstract: Self-evolving frameworks usually optimize task solutions while treating the surrounding harness as fixed. We introduce Harness-Aware Self-Evolving (HASE), an agentic reinforcement-learning framework in which a single model can generate task solutions or edit selected harness components in a multi-turn action space. HASE enables a single Qwen3-8B mode…"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
+      "url": "https://arxiv.org/abs/2607.02807",
+      "excerpt": "arXiv:2607.02807v1 Announce Type: new Abstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend to converge onto a single high-level approach, then proceed with low-level edits while missing other superior approaches to the problem. We hypothesize two harness-level design choices contribute to this behavior: accumu…"
+    }
+  ],
+  "draft_id": "8af4a536-f626-4231-80fa-bc616dda03c7",
+  "planner_model": "google/gemini-2.5-flash",
+  "created_draft_at": "2026-07-09T21:26:37.728Z"
+}

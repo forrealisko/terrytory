@@ -61,7 +61,13 @@ export default async function MagazineArticle({ params }: PageProps) {
           <h1 className="mag-article-title">{headline}</h1>
           {article.excerpt && <p className="mag-article-standfirst">{article.excerpt}</p>}
           <div className="mag-article-byline">
-            <span>{brand.name} Editorial</span>
+            <span>{article.author ? `By ${article.author.name}` : `${brand.name} Editorial`}</span>
+            {article.author?.title && (
+              <>
+                <span className="dot" />
+                <span>{article.author.title}</span>
+              </>
+            )}
             <span className="dot" />
             <time>{formatDate(article.published_at || article.created_at)}</time>
             <span className="dot" />
@@ -84,6 +90,19 @@ export default async function MagazineArticle({ params }: PageProps) {
           className="mag-article-body"
           dangerouslySetInnerHTML={{ __html: bodyHtml }}
         />
+
+        {article.author && (
+          <div className="mag-author-card">
+            <div className="mag-author-avatar" aria-hidden>
+              {article.author.name.split(" ").filter(Boolean).slice(-2).map((w) => w[0]).join("")}
+            </div>
+            <div className="mag-author-meta">
+              <span className="mag-author-name">{article.author.name}</span>
+              <span className="mag-author-title">{article.author.title}, {brand.name}</span>
+              <p className="mag-author-bio">{article.author.bio}</p>
+            </div>
+          </div>
+        )}
 
         {article.source_articles && article.source_articles.length > 0 && (
           <div className="mag-endmatter">

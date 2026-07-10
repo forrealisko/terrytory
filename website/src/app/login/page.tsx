@@ -57,7 +57,7 @@ export default function LoginPage() {
           {busy ? "Signing in…" : "Sign in"}
         </button>
 
-        <p style={styles.hint}>Placeholder — username: admin · password: password</p>
+        <p style={styles.hint}>Private. Invite-only — no public registration.</p>
       </form>
     </div>
   );

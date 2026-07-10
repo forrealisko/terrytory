@@ -1,0 +1,19 @@
+{
+  "id": "c82c3347-e399-4898-bfb6-34e78427cb58",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:54:45.868Z",
+  "status": "pending",
+  "headline": "REDI Framework Automates Scientific Data Preparation for AI, Tackling Bottlenecks",
+  "rating": 8.5,
+  "reasoning": "This paper introduces REDI, an open-source framework directly addressing a critical bottleneck in scientific AI: data readiness. Its focus on automation, reproducibility, and agent-native deployment for large-scale scientific datasets across diverse domains (climate, proteomics, materials science, nuclear fusion) demonstrates high AI relevance and significant practical impact. The arXiv publication from multiple researchers, including those from leadership computing facilities, lends strong technical credibility.",
+  "summary": "Researchers have developed REDI, an open-source framework designed to automate the transformation, assessment, and deployment of large-scale scientific datasets, making them AI-ready. Evaluated across multiple scientific domains, REDI significantly streamlines data preparation, turning a major bottleneck into a reproducible and reusable process.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Automated Data Readiness for Scientific AI",
+      "url": "https://arxiv.org/abs/2607.02771",
+      "excerpt": "arXiv:2607.02771v1 Announce Type: new Abstract: Leadership computing facilities steward large-scale scientific datasets that routinely require substantial transformation before serving as AI training data. However, no existing framework fully unifies automated transformation, readiness assessment, provenance tracking, and agent-native deployment. We present REDI, an open-source framework that addr…"
+    }
+  ]
+}

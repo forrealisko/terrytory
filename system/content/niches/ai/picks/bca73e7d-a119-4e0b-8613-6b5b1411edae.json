@@ -1,0 +1,19 @@
+{
+  "id": "bca73e7d-a119-4e0b-8613-6b5b1411edae",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:56:12.674Z",
+  "status": "pending",
+  "headline": "HASE Framework Enables Self-Evolving AI to Co-Optimize Models and Environments",
+  "rating": 8.8,
+  "reasoning": "This paper introduces a novel reinforcement learning framework, HASE, that allows a single AI model to not only generate task solutions but also edit its own 'harness' or environment. This represents a significant step towards more autonomous and adaptive AI systems, moving beyond fixed environments. The results, showing a smaller Qwen3-8B model matching or outperforming larger models and repairing evaluation components, demonstrate strong technical credibility and novelty.",
+  "summary": "Researchers have developed Harness-Aware Self-Evolving (HASE), an agentic reinforcement learning framework where a single AI model can co-evolve its weights, the surrounding harness, and task solutions, leading to improved performance and adaptability.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+      "url": "https://arxiv.org/abs/2607.03935",
+      "excerpt": "arXiv:2607.03935v1 Announce Type: new Abstract: Self-evolving frameworks usually optimize task solutions while treating the surrounding harness as fixed. We introduce Harness-Aware Self-Evolving (HASE), an agentic reinforcement-learning framework in which a single model can generate task solutions or edit selected harness components in a multi-turn action space. HASE enables a single Qwen3-8B mode…"
+    }
+  ]
+}

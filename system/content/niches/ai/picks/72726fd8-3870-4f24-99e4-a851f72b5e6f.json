@@ -1,0 +1,19 @@
+{
+  "id": "72726fd8-3870-4f24-99e4-a851f72b5e6f",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:56:15.478Z",
+  "status": "pending",
+  "headline": "Online Linear Programming Optimizes LLM Serving Routing for Performance",
+  "rating": 8.8,
+  "reasoning": "This paper presents a novel, science-based approach to a critical problem in LLM serving: efficient request routing. Its focus on multi-objective optimization using online linear programming directly addresses performance bottlenecks (latency, throughput, tail performance) in a technically rigorous manner, moving beyond heuristics. The research is from credible authors and published on arXiv, indicating strong technical credibility and relevance to AI infrastructure.",
+  "summary": "Researchers propose an online linear programming framework for multi-objective routing in large language model serving, demonstrating substantial improvements in latency, throughput, and tail performance over standard heuristic-based methods.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Online Linear Programming for Multi-Objective Routing in LLM Serving",
+      "url": "https://arxiv.org/abs/2607.03948",
+      "excerpt": "arXiv:2607.03948v1 Announce Type: new Abstract: We study the online routing problem in large language model serving, where requests arrive sequentially and must be dispatched to parallel decode workers under tight batch-size and KV-cache constraints. Unlike widely used routing heuristics that are not tied to explicit service-level objectives (SLOs) and offer limited control over latency-throughput…"
+    }
+  ]
+}

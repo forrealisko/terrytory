@@ -1,0 +1,19 @@
+{
+  "id": "1719adba-1b4d-4398-a5f7-fe88fc94f5d3",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:54:42.784Z",
+  "status": "pending",
+  "headline": "Uncertainty-Gated LLM Assistance Boosts RL Agents in Partial Observability",
+  "rating": 8.2,
+  "reasoning": "This paper presents a significant advancement in integrating LLM guidance into reinforcement learning under partial observability, a challenging area. The 'ASK+' method demonstrates substantial performance gains by providing trajectory-aware context, addressing a key limitation of previous approaches. The finding that prompt design can outweigh model scale (2B outperforming 4B) is particularly novel and impactful for builders.",
+  "summary": "Researchers introduced 'ASK+', a method that significantly improves the performance of reinforcement learning agents operating under partial observability by providing small language models (SLMs) with trajectory-aware context, enabling more effective and accurate guidance.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
+      "url": "https://arxiv.org/abs/2607.02686",
+      "excerpt": "arXiv:2607.02686v1 Announce Type: new Abstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural candidates for guidance from small language models (SLMs) that carry broad reasoning priors. Yet integrating SLM guidance into this setting has proven difficult: across all test environments, vanilla uncertainty-gated approaches…"
+    }
+  ]
+}

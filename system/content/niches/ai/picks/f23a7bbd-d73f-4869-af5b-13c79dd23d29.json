@@ -1,0 +1,19 @@
+{
+  "id": "f23a7bbd-d73f-4869-af5b-13c79dd23d29",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:56:18.101Z",
+  "status": "pending",
+  "headline": "Explainable AI Framework Developed for Child Trauma Screening in Low-Resource Settings",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its direct AI relevance, focusing on an explainable, multimodal framework for a critical social issue. Its novelty lies in addressing a significant gap in low-resource settings with a training-free approach and synthetic data evaluation, demonstrating strong technical credibility from an arXiv paper.",
+  "summary": "Researchers developed ShishuRaksha AI, a training-free, multimodal, explainable AI framework to screen for abuse-related trauma in Bangladeshi children, evaluated using noise-aware synthetic data due to ethical constraints.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Explainable AI for Screening Abuse-Related Trauma in Bangladeshi Children: A Training-Free Multimodal Framework Evaluated on Noise-Aware Synthetic Data",
+      "url": "https://arxiv.org/abs/2607.04010",
+      "excerpt": "arXiv:2607.04010v1 Announce Type: new Abstract: Bangladesh has an estimated 1.17 mental-health professionals per 100,000 population and only six child psychiatrists nationwide. No Bengali-language, culturally adapted tool exists for early screening of abuse-related psychological trauma in children. We present ShishuRaksha AI, a decision-support (not diagnostic) framework that fuses four screening …"
+    }
+  ]
+}

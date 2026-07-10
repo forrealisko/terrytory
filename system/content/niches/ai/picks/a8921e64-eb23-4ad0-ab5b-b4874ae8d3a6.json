@@ -1,0 +1,19 @@
+{
+  "id": "a8921e64-eb23-4ad0-ab5b-b4874ae8d3a6",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:22.437Z",
+  "status": "pending",
+  "headline": "Embodied Operators: A New Framework for Reusable Embodied AI Systems",
+  "rating": 8.5,
+  "reasoning": "This paper introduces a novel and well-defined concept of 'embodied operators' for building more modular, reusable, and deployable embodied AI systems. It addresses a significant challenge in the field by proposing a taxonomy and benchmarking framework, moving beyond end-to-end policy models towards more structured and verifiable components. The technical depth and focus on practical deployment and reusability make it a highly relevant and significant development in AI research.",
+  "summary": "Researchers propose 'embodied operators' as reusable functional modules for embodied intelligence systems, defining a taxonomy and a multi-dimensional benchmarking framework to improve deployability and reusability in robotics and AI.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Embodied Operators and Benchmarking: Toward Reusable and Deployable Embodied Intelligence Systems",
+      "url": "https://arxiv.org/abs/2607.03283",
+      "excerpt": "arXiv:2607.03283v1 Announce Type: new Abstract: Embodied intelligence systems require not only end-to-end policy models, but also reusable functional modules that transform multimodal observations, robot states, human demonstrations, and task contexts into structured representations, decisions, trajectories, control references, and system services. This work defines these modules as embodied opera…"
+    }
+  ]
+}

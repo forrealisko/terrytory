@@ -10,12 +10,12 @@
  * so each magazine serves its own images.
  */
 import { NextResponse, type NextRequest } from "next/server";
+import { verifySessionToken } from "@/lib/session";
 
-// Edge runtime can't read the niche configs from disk — keep this list in
-// sync with system/niches/*.json ids.
+// Keep this list in sync with system/niches/*.json ids.
 const NICHE_SUBDOMAINS = new Set(["ai", "tech", "travel", "ufo"]);
 
-export function proxy(req: NextRequest) {
+export async function proxy(req: NextRequest) {
   const host = (req.headers.get("host") || "").split(":")[0];
   const labels = host.split(".");
   const sub = labels.length > 1 ? labels[0] : "";
@@ -23,15 +23,20 @@ export function proxy(req: NextRequest) {
   const url = req.nextUrl.clone();
   const p = url.pathname;
 
-  // ── Admin auth gate (placeholder) ──────────────────────────────────────
-  // Any admin surface (/admin path or admin subdomain) requires the tt_admin
-  // cookie; otherwise redirect to /login. The login page + its API are exempt.
+  // ── Admin auth gate ────────────────────────────────────────────────────
+  // Any admin surface (/admin path or admin subdomain) requires a *valid*
+  // signed session cookie; otherwise redirect to /login. The login page + its
+  // API are exempt. Verifying the signature (not just presence) is what stops a
+  // forged `tt_admin` cookie from granting access.
   const isAdminArea = sub === "admin" || p.startsWith("/admin");
   const isAuthRoute = p === "/login" || p.startsWith("/api/admin/");
-  if (isAdminArea && !isAuthRoute && !req.cookies.get("tt_admin")) {
-    url.pathname = "/login";
-    url.search = "";
-    return NextResponse.redirect(url);
+  if (isAdminArea && !isAuthRoute) {
+    const session = await verifySessionToken(req.cookies.get("tt_admin")?.value);
+    if (!session) {
+      url.pathname = "/login";
+      url.search = "";
+      return NextResponse.redirect(url);
+    }
   }
 
   // admin.terrytory.xyz → /admin

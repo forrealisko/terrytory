@@ -1,0 +1,19 @@
+{
+  "id": "e7e1a8b4-c2c8-4eaf-94d3-db363268b946",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:07.653Z",
+  "status": "pending",
+  "headline": "Raven-Agent: AI Breakthrough in Prediction Market Trading with Positive Returns",
+  "rating": 8.8,
+  "reasoning": "This paper presents a novel AI agent, Raven-Agent, specifically designed for prediction markets, moving beyond mere forecasting to actual profitable trading. Its reported positive returns and risk-adjusted returns in a controlled replay are significant, indicating a genuine advancement in AI's ability to interact with complex financial systems. The research comes from a credible academic source (arXiv) and includes code release, bolstering its technical credibility.",
+  "summary": "Researchers have developed Raven-Agent, an autonomous AI trading agent for prediction markets, which achieved positive returns and risk-adjusted returns in a controlled replay, addressing the gap between forecasting and profitable trading.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents",
+      "url": "https://arxiv.org/abs/2607.03015",
+      "excerpt": "arXiv:2607.03015v1 Announce Type: new Abstract: Forecasting future events has attracted growing attention as a testbed for general-purpose AI. A natural way to ground this evaluation is let the models trade in the prediction markets. Trading, however, requires more than forecasting. Moreover, recent benchmarks report a substantial gap between calibrated probability scores and the trading results. …"
+    }
+  ]
+}

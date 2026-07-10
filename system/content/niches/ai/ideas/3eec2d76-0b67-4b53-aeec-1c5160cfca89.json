@@ -1,0 +1,26 @@
+{
+  "id": "3eec2d76-0b67-4b53-aeec-1c5160cfca89",
+  "niche": "ai",
+  "batch_id": "9df844f5-520e-4fc8-ad98-5f6b35024e37",
+  "created_at": "2026-07-09T21:25:29.022Z",
+  "status": "banked",
+  "format": "article",
+  "title": "Beyond the Lab: How AI's Newfound 'Agency' Is Tackling Real-World Complexity",
+  "angle": "Explore the implications of AI systems achieving significant speedups in GPU optimization, a 16% success rate on online freelance projects, and benchmarks for multi-hour complex tasks, signaling a shift from narrow AI to genuinely capable agents.",
+  "rationale": "This story highlights a critical advancement in AI autonomy and capability across multiple domains, making it the most significant development to analyze in depth.",
+  "priority": 1,
+  "source_pick_ids": [
+    "b90b9b4f-4fd0-4675-a68e-e64b1a02a7fa"
+  ],
+  "source_articles": [
+    {
+      "source_id": "importai",
+      "source_name": "Import AI",
+      "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+      "excerpt": "Is this the beginning of a new world?"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

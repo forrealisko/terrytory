@@ -1,0 +1,19 @@
+{
+  "id": "2792e9cc-da67-43b3-8284-99a6d5c23797",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:54:36.470Z",
+  "status": "pending",
+  "headline": "iFLYTEK-Embodied-Omni: A Unified Multimodal Foundation Model for Embodied AI",
+  "rating": 8.8,
+  "reasoning": "This paper presents a significant advancement in embodied AI by proposing a unified multimodal foundation model that integrates vision, language, and action. The 'brain-cerebellum collaboration' architecture and the comprehensive training strategy using diverse datasets represent a novel approach to overcoming limitations of cascaded pipelines. The research comes from a credible institution (iFLYTEK) and addresses a core challenge in general-purpose embodied agents, making it highly relevant and impactful for the AI community.",
+  "summary": "iFLYTEK-Embodied-Omni is a new unified multimodal foundation model designed for general-purpose embodied agents, jointly modeling vision, language, and action through a 'brain-cerebellum collaboration' architecture to improve instruction understanding, world modeling, and precise action generation.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "url": "https://arxiv.org/abs/2607.02542",
+      "excerpt": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, video-based world modeling, or action generation, while cascaded pipelines that first synthesize futur…"
+    }
+  ]
+}

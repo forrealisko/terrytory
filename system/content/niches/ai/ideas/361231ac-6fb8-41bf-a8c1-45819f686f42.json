@@ -1,0 +1,26 @@
+{
+  "id": "361231ac-6fb8-41bf-a8c1-45819f686f42",
+  "niche": "ai",
+  "batch_id": "cfa11150-9302-46f6-aeb8-87cd4db04cfb",
+  "created_at": "2026-07-09T21:07:35.101Z",
+  "status": "banked",
+  "format": "article",
+  "title": "Beyond the Lab: How AI's Newfound 'Stamina' and Skill Could Remake the Workforce",
+  "angle": "Explore the implications of AI systems achieving multi-hour task completion and significantly improved success rates in online freelancing for job markets and business operations, moving beyond simple task automation to complex project execution.",
+  "rationale": "This story combines two highly impactful developments (AI's multi-hour reliability and freelance success) into a single, forward-looking analysis that will resonate with a broad audience of builders and businesses.",
+  "priority": 1,
+  "source_pick_ids": [
+    "b90b9b4f-4fd0-4675-a68e-e64b1a02a7fa"
+  ],
+  "source_articles": [
+    {
+      "source_id": "importai",
+      "source_name": "Import AI",
+      "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+      "excerpt": "Is this the beginning of a new world?"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "115c7c7b-ad45-4ab8-8659-15749da68dd0",
+  "niche": "ai",
+  "batch_id": "035caac3-693f-41e4-bf14-12fc457b68c1",
+  "created_at": "2026-07-10T06:43:15.095Z",
+  "status": "banked",
+  "format": "article",
+  "title": "The GPU Speedup You Didn't See Coming: Fable AI's 18.71x Leap and the New Frontier of AI Productivity",
+  "angle": "This article dives into Fable AI's unprecedented GPU kernel optimization and the broader implications of AI taking on complex, multi-hour computer tasks, revealing how these advancements will reshape developer workflows and enterprise automation.",
+  "rationale": "Story 1 is the day's highest-rated and most immediately impactful development for builders and businesses, deserving in-depth analysis.",
+  "priority": 1,
+  "source_pick_ids": [
+    "b90b9b4f-4fd0-4675-a68e-e64b1a02a7fa"
+  ],
+  "source_articles": [
+    {
+      "source_id": "importai",
+      "source_name": "Import AI",
+      "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+      "excerpt": "Is this the beginning of a new world?"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

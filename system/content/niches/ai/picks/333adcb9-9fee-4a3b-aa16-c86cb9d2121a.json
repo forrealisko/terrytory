@@ -1,0 +1,19 @@
+{
+  "id": "333adcb9-9fee-4a3b-aa16-c86cb9d2121a",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:50.659Z",
+  "status": "pending",
+  "headline": "Rigor in AI: A Framework for Maturing the Field Beyond 'Alchemical' Experimentation",
+  "rating": 8.5,
+  "reasoning": "This paper offers a highly relevant and significant contribution to the AI field by systematically analyzing the need for rigor in its development. It moves beyond hype to address fundamental conceptual, epistemic, and operational challenges, providing a credible framework from a reputable source (arXiv). This is crucial for the long-term health and reliability of AI as a science and technology.",
+  "summary": "A new paper proposes a three-part framework (conceptual, epistemic, and operational rigor) to systematically analyze AI's development, explaining its rapid advances and persistent uncertainties, and outlining challenges to transforming it into a mature science.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "The Role of Rigor in Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2607.03634",
+      "excerpt": "arXiv:2607.03634v1 Announce Type: new Abstract: Artificial intelligence (AI) has achieved extraordinary capabilities despite lacking many of the conceptual and scientific foundations associated with mature disciplines. Unlike traditional sciences, where reliable technology typically emerges from theoretical understanding, modern AI has progressed largely through performance-driven iteration and \"a…"
+    }
+  ]
+}

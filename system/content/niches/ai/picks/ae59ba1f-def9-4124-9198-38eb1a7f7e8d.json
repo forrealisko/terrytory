@@ -1,0 +1,19 @@
+{
+  "id": "ae59ba1f-def9-4124-9198-38eb1a7f7e8d",
+  "niche": "ai",
+  "created_at": "2026-07-07T19:55:35.913Z",
+  "status": "pending",
+  "headline": "Personalized Causal Recourse: Human-in-the-Loop for Fairer AI Decisions",
+  "rating": 8.2,
+  "reasoning": "This paper presents a novel approach to algorithmic recourse, moving beyond static counterfactuals to a human-in-the-loop system that iteratively learns a user's causal structure. This directly addresses a critical AI ethics and fairness challenge, offering a significant improvement over existing methods. The research comes from a credible academic source (arXiv) and tackles a complex problem with a technically sound, albeit simulated, evaluation.",
+  "summary": "Researchers propose a human-in-the-loop framework for personalized causal recourse, allowing AI systems to provide tailored recommendations by iteratively learning a user's causal model through feedback, aiming for more plausible and cost-effective interventions.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Personalized Causal Recourse: A Human-In-The-Loop Approach",
+      "url": "https://arxiv.org/abs/2607.03425",
+      "excerpt": "arXiv:2607.03425v1 Announce Type: new Abstract: Algorithmic recourse addresses the challenge of providing tailored recommendations to users affected by unfavorable machine learning decisions, in potentially high-stakes scenarios. Traditional approaches to recourse often rely on the closest counterfactual explanations or assume a priori knowledge of a user's causal structure, resulting in intervent…"
+    }
+  ]
+}
