@@ -76,6 +76,7 @@ interface NicheInfo {
 export function Sidebar() {
   const pathname = usePathname();
   const [draftCount, setDraftCount] = useState<number | null>(null);
+  const [slateCount, setSlateCount] = useState<number | null>(null);
   const [niches, setNiches] = useState<NicheInfo[]>([]);
   const [activeNiche, setActiveNiche] = useState<string>("ai");
 
@@ -107,10 +108,28 @@ export function Sidebar() {
         // silently ignore
       }
     }
+    async function fetchSlate() {
+      try {
+        const res = await fetch("/api/content/ideas");
+        if (res.ok) {
+          const data = await res.json();
+          const proposed = (data.slate ?? []).filter(
+            (i: { status: string }) => i.status === "proposed"
+          ).length;
+          setSlateCount(proposed);
+        }
+      } catch {
+        // silently ignore
+      }
+    }
     fetchCount();
+    fetchSlate();
 
     // Poll occasionally (every 30 seconds)
-    const interval = setInterval(fetchCount, 30000);
+    const interval = setInterval(() => {
+      fetchCount();
+      fetchSlate();
+    }, 30000);
     return () => clearInterval(interval);
   }, []);
 
@@ -189,6 +208,25 @@ export function Sidebar() {
                 }}
               >
                 {draftCount}
+              </span>
+            )}
+            {item.href === "/admin/studio" && slateCount !== null && slateCount > 0 && (
+              <span
+                title={`${slateCount} idea${slateCount === 1 ? "" : "s"} waiting in today's slate`}
+                style={{
+                  background: "#8b5cf6",
+                  color: "#0b0c0f",
+                  fontSize: 10,
+                  fontWeight: 700,
+                  padding: "2px 6px",
+                  borderRadius: 10,
+                  minWidth: 16,
+                  textAlign: "center",
+                  lineHeight: 1,
+                  marginLeft: "auto",
+                }}
+              >
+                {slateCount}
               </span>
             )}
           </Link>
