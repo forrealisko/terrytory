@@ -1,5 +1,10 @@
 {
-  "active": {},
+  "active": {
+    "https://arxiv.org/abs/2607.02879": {
+      "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+      "starred_at": "2026-07-10T10:51:35.281Z"
+    }
+  },
   "processed": {
     "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/": {
       "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",

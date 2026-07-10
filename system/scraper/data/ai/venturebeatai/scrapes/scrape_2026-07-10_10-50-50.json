@@ -33,9 +33,7 @@
         "parsed": "2026-05-19T17:45:00.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 35,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:31.259Z"
     },
     {
       "type": "article",
@@ -57,9 +55,7 @@
         "parsed": "2026-01-22T14:00:00.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 80,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:31.259Z"
     },
     {
       "type": "article",
@@ -81,9 +77,7 @@
         "parsed": "2026-01-19T14:00:00.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 82,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:31.259Z"
     },
     {
       "type": "article",
@@ -105,9 +99,7 @@
         "parsed": "2026-01-16T14:01:00.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 78,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:31.259Z"
     },
     {
       "type": "article",
@@ -130,9 +122,7 @@
         "parsed": "2026-01-13T13:00:00.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:31.259Z"
     },
     {
       "type": "article",
@@ -155,9 +145,7 @@
         "parsed": "2026-01-12T11:30:00.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 92,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:31.259Z"
     },
     {
       "type": "article",
@@ -179,9 +167,7 @@
         "parsed": "2026-01-07T20:00:00.000Z"
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 75,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:31.259Z"
     }
   ]
 }

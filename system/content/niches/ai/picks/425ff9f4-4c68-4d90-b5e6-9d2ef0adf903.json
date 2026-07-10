@@ -1,0 +1,19 @@
+{
+  "id": "425ff9f4-4c68-4d90-b5e6-9d2ef0adf903",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:48.959Z",
+  "status": "pending",
+  "headline": "AI Teachers Collaborate to Build Verifiable Curriculum, Improving Student Coding Beyond Imitation",
+  "rating": 8.8,
+  "reasoning": "This paper presents novel research in AI education and model improvement, moving beyond simple imitation learning. The use of multiple frontier models and a verifiable, execution-based judge for curriculum generation is a significant technical advancement with clear implications for AI training methodologies. The findings challenge conventional SFT approaches and propose a more effective RLVR environment.",
+  "summary": "Researchers developed a 'compete-then-collaborate' framework where frontier AI models (Claude, Codex-GPT, Grok, Gemini) generate a verifiable coding curriculum. This approach, using reinforcement learning with verifiable rewards (RLVR), significantly improved a student model's performance on complex coding problems, outperforming traditional imitation learning.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding Student Beyond Imitation",
+      "url": "https://arxiv.org/abs/2607.08255",
+      "excerpt": "arXiv:2607.08255v1 Announce Type: new Abstract: Large language models increasingly serve as teachers generating training data for smaller students. Prior multi-teacher knowledge distillation methods merge outputs without determining which frontier model teaches best, often relying on an LLM judge biased toward its own outputs. We introduce a compete-then-collaborate framework where four frontier A…"
+    }
+  ]
+}

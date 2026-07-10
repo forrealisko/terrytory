@@ -1,0 +1,27 @@
+{
+  "id": "0d49ca6a-5d98-41ae-8220-37a6dd2c8018",
+  "niche": "ai",
+  "batch_id": "a9968dd2-c531-4704-a96d-8f0c80e56716",
+  "created_at": "2026-07-10T10:53:39.712Z",
+  "status": "proposed",
+  "format": "explainer",
+  "title": "Beyond RAG: Understanding 'Context Graphs' & Why Proactive AI Agents Need Them Now",
+  "angle": "This explainer decodes 'Context Graphs' – a novel data structure that moves AI agents past reactive information retrieval, empowering them to proactively surface insights and anticipate user needs in complex enterprise environments.",
+  "audience": "builders, businesses, tech-curious",
+  "rationale": "As RAG hits its limits, builders need to understand the next evolution of intelligent information access for agents, making 'Context Graphs' a timely and critical concept.",
+  "priority": 3,
+  "source_pick_ids": [
+    "2a3d2298-4a76-4b6f-906f-04b69a97f57c"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Context Graphs for Proactive Enterprise Agents",
+      "url": "https://arxiv.org/abs/2607.07721",
+      "excerpt": "arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains require proactive agents: systems that surface relevant, actionable information to workers before they a…"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

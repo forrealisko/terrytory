@@ -1,0 +1,35 @@
+{
+  "id": "4560be25-8327-4b26-b597-dd16fd40e674",
+  "niche": "ai",
+  "batch_id": "a9968dd2-c531-4704-a96d-8f0c80e56716",
+  "created_at": "2026-07-10T10:53:39.712Z",
+  "status": "proposed",
+  "format": "article",
+  "title": "The AI Agent Revolution Is Here: How Multi-Hour Tasks & Self-Correction Are Redefining Autonomy",
+  "angle": "This article dives deep into the new benchmarks and frameworks pushing AI agents beyond single-shot tasks, exploring how they're learning to perform complex, multi-hour computer operations and self-correct their errors for unprecedented autonomy.",
+  "audience": "builders, businesses, researchers",
+  "rationale": "The confluence of multi-hour task benchmarks and advanced self-correction mechanisms marks a pivotal moment for AI agents, offering tangible paths to more robust, real-world applications.",
+  "priority": 1,
+  "source_pick_ids": [
+    "b90b9b4f-4fd0-4675-a68e-e64b1a02a7fa",
+    "280a5627-e5ad-4a4a-a956-d0766cc459de"
+  ],
+  "source_articles": [
+    {
+      "source_id": "importai",
+      "source_name": "Import AI",
+      "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+      "excerpt": "Is this the beginning of a new world?"
+    },
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry",
+      "url": "https://arxiv.org/abs/2607.03702",
+      "excerpt": "arXiv:2607.03702v1 Announce Type: new Abstract: Large language model (LLM) agents have shown strong decision-making capabilities in long-horizon interactive tasks, yet they still struggle to effectively leverage failed trajectories: full retries incur high interaction costs, while experience retrieval tends to dilute critical experience signals. To address this, we propose PivoARL, a self-feedback…"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

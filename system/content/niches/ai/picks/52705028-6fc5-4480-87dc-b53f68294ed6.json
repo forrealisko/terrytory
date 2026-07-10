@@ -1,0 +1,19 @@
+{
+  "id": "52705028-6fc5-4480-87dc-b53f68294ed6",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:34.378Z",
+  "status": "pending",
+  "headline": "Neurosymbolic AI Advances with ASP and Energy-Based Models for End-to-End Reasoning",
+  "rating": 8.2,
+  "reasoning": "This paper presents a significant advancement in neurosymbolic AI, combining Answer Set Programming (ASP) with Energy-Based Models for end-to-end reasoning and learning. This addresses a critical area in AI research, offering a novel methodology for integrating symbolic knowledge with continuous latent spaces, which is highly relevant and technically credible from an arXiv paper. The application to VQA and multi-object tracking benchmarks suggests practical significance beyond theoretical exploration.",
+  "summary": "Researchers have developed a new neurosymbolic reasoning and learning methodology that integrates Answer Set Programming (ASP) with energy-based models, enabling end-to-end optimization and robust training for dynamic domains like visual question-answering and multi-object tracking.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Answer Set Programming Energised! End-to-End Neurosymbolic Reasoning and Learning with ASP and Energy Based Models",
+      "url": "https://arxiv.org/abs/2607.08136",
+      "excerpt": "arXiv:2607.08136v1 Announce Type: new Abstract: We present a general neurosymbolic reasoning and learning methodology based on a modular integration of answer set programming with an energy based model substrate. Key contributions are: (1) supporting joint optimisation in the continuous latent space through explicit ASP-based declarative semantics fully incorporating background knowledge, constrai…"
+    }
+  ]
+}

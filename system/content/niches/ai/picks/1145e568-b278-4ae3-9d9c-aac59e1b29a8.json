@@ -1,0 +1,19 @@
+{
+  "id": "1145e568-b278-4ae3-9d9c-aac59e1b29a8",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:09.534Z",
+  "status": "pending",
+  "headline": "AI Models Achieve Near-Perfect Accuracy in Detecting Autism-Related Self-Stimulatory Behaviors from Video",
+  "rating": 8.2,
+  "reasoning": "This research is highly relevant to AI, specifically in computer vision and machine learning for medical applications. It presents significant advancements in automated behavioral screening for ASD, demonstrating substantial improvements over prior baselines with high accuracy. The work is from a credible source (arXiv, presented at AMIA Informatics Summit) and provides concrete guidance for practitioners, indicating strong technical credibility and practical implications.",
+  "summary": "Researchers developed LSTM and GRU models that achieved up to 98.75% accuracy in classifying autism-related self-stimulatory hand idiosyncrasies from video, significantly outperforming previous CNN baselines. The study also identified optimal frame rates and data augmentation strategies for small behavioral datasets.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Evaluating the Effect of Frame Rate in Sequence-Based Classification of Autism-Related Self-Stimulatory Hand Idiosyncrasies",
+      "url": "https://arxiv.org/abs/2607.07957",
+      "excerpt": "arXiv:2607.07957v1 Announce Type: new Abstract: Autism spectrum disorder (ASD) affects over 75 million individuals worldwide, yet scalable computational methods for remote behavioral screening remain limited. This study addresses two complementary challenges in automated detection of autism-related self-stimulatory behaviors from video: (1) identifying the optimal sequence-based neural network arc…"
+    }
+  ]
+}

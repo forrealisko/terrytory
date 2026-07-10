@@ -1,0 +1,19 @@
+{
+  "id": "55ceb97d-7da7-4c9b-b005-c97c90b5aa37",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:54.442Z",
+  "status": "pending",
+  "headline": "On-Device LLM Distillation: Reasoning Teachers Outperform Scale for Structured Text Enrichment",
+  "rating": 8.2,
+  "reasoning": "This paper presents a highly relevant AI topic focusing on practical on-device LLM deployment through distillation. Its novelty lies in dissecting the impact of different 'teacher' models on student capabilities, moving beyond simple scale. The research is credible, coming from arXiv, and offers concrete performance metrics and insights into the trade-offs for real-world applications.",
+  "summary": "Researchers distilled an 8B reasoning teacher model into a 0.6B on-device student for structured text enrichment, finding that the reasoning capability of the teacher, rather than just its scale, was crucial for transferring summary quality, significantly outperforming non-distillation baselines.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Different Teachers, Different Capabilities: Sub-1B On-Device Distillation for Structured Text Enrichment",
+      "url": "https://arxiv.org/abs/2607.08268",
+      "excerpt": "arXiv:2607.08268v1 Announce Type: new Abstract: High-volume structured extraction pays a large model's latency on every item, so distilling the task into a small on-device model is attractive: comparable output at a fraction of the time and cost. We measure what that distillation actually delivers, per sub-task. Each news article is mapped to one JSON object with a short summary and five categoric…"
+    }
+  ]
+}

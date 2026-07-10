@@ -1,0 +1,27 @@
+{
+  "id": "a15beab4-5b20-4056-a89b-f2e7814119c8",
+  "niche": "ai",
+  "batch_id": "a9968dd2-c531-4704-a96d-8f0c80e56716",
+  "created_at": "2026-07-10T10:53:39.712Z",
+  "status": "proposed",
+  "format": "article",
+  "title": "Your LLM's 'Persona' Is a Feature, Not a Bug: Why Persona Cartography Changes Everything for Control & Safety",
+  "angle": "Forget generic alignment — 'Persona Cartography' reveals how direct control over LLM personality traits, from conscientiousness to emotional stability, is the real game-changer for deploying safer, more predictable, and more effective AI, especially in sensitive applications.",
+  "audience": "builders, businesses, researchers",
+  "rationale": "This isn't just about 'making LLMs nicer'; it's about engineering specific, predictable behaviors, which is a critical, overlooked aspect of AI deployment and safety.",
+  "priority": 2,
+  "source_pick_ids": [
+    "f5641b15-ac80-41b2-87af-ca2867edb812"
+  ],
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Persona Cartography: Charting Language Model Personality Traits in Weight Space",
+      "url": "https://arxiv.org/abs/2607.07916",
+      "excerpt": "arXiv:2607.07916v1 Announce Type: new Abstract: Large language models exhibit recurring behavioural patterns -- personas -- that shape generalisation and safety, but we lack reliable tools for decomposing, measuring, and controlling them. Our central insight is to treat personas as positions in a space of behavioural traits, using the OCEAN framework to describe model personas in terms of Openness…"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

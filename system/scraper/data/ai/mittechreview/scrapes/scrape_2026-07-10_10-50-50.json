@@ -28,9 +28,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-10T09:41:21.933Z",
-      "interest_score": 87,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-10T09:41:21.933Z"
     },
     {
       "type": "article",
@@ -49,9 +47,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-07T09:48:51.718Z",
-      "interest_score": 42,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-07T09:48:51.718Z"
     },
     {
       "type": "article",
@@ -70,9 +66,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 85,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z"
     },
     {
       "type": "article",
@@ -91,9 +85,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 75,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z"
     },
     {
       "type": "article",
@@ -112,9 +104,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-08T08:34:42.472Z",
-      "interest_score": 60,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-08T08:34:42.472Z"
     },
     {
       "type": "article",
@@ -133,9 +123,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-08T08:34:42.472Z",
-      "interest_score": 10,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-08T08:34:42.472Z"
     },
     {
       "type": "article",
@@ -154,9 +142,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 70,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z"
     },
     {
       "type": "article",
@@ -175,9 +161,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 55,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z"
     },
     {
       "type": "article",
@@ -196,9 +180,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 65,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z"
     },
     {
       "type": "article",
@@ -217,9 +199,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 88,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z"
     },
     {
       "type": "article",
@@ -238,9 +218,7 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 40,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z"
     }
   ]
 }

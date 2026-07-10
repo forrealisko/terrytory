@@ -1,0 +1,19 @@
+{
+  "id": "73eee583-35fb-4936-aaf4-54f0999182af",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:53:07.728Z",
+  "status": "pending",
+  "headline": "Blind-Spots-Bench: A New Benchmark to Uncover Multimodal AI Weaknesses",
+  "rating": 8.8,
+  "reasoning": "This paper introduces a novel and significant benchmark specifically designed to identify 'blind spots' in multimodal AI models, addressing a critical gap in current evaluation methods. Its focus on challenging tasks that are simple for humans but difficult for AI, coupled with a robust evaluation pipeline and analysis of frontier models, provides high technical credibility and direct relevance to AI research and development.",
+  "summary": "Researchers have developed 'Blind-Spots-Bench,' a new benchmark to evaluate and expose specific weaknesses in multimodal AI models that perform well on existing benchmarks but fail on human-trivial tasks. The benchmark reveals performance gaps between open-source and closed-source models and highlights areas where all current models struggle.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models",
+      "url": "https://arxiv.org/abs/2607.08317",
+      "excerpt": "arXiv:2607.08317v1 Announce Type: new Abstract: Modern AI models achieve strong performance on many established benchmarks, yet they still fail on tasks that humans find almost trivial, such as manipulating a string or drawing a dog with five legs. These examples suggest that existing benchmarks may under-measure persistent blind spots in current systems. We introduce $\\texttt{blind-spots-bench}$,…"
+    }
+  ]
+}

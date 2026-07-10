@@ -1,0 +1,19 @@
+{
+  "id": "8528868a-ff69-4f45-b11f-5eec6d906891",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:27.926Z",
+  "status": "pending",
+  "headline": "Physics-Aware Retrieval-Augmented AI for Enhanced Solar Power Forecasting",
+  "rating": 8.2,
+  "reasoning": "This paper presents a novel AI framework (PARA-PV) for photovoltaic power forecasting, directly addressing a critical application of AI in renewable energy. Its use of a frozen foundation model, retrieval augmentation, and physics-aware corrections demonstrates significant technical depth and potential for real-world impact, moving beyond incremental improvements in a vital domain.",
+  "summary": "Researchers introduce PARA-PV, a Physics-Aware Retrieval-Augmented framework that combines historical data retrieval, a frozen Chronos foundation model, and distribution shift correction to improve the accuracy of photovoltaic power forecasting.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "PARA-PV: Physics-Aware Retrieval-Augmented PV Prediction Based on Frozen Foundation Model and Distribution Shift Correction",
+      "url": "https://arxiv.org/abs/2607.08079",
+      "excerpt": "arXiv:2607.08079v1 Announce Type: new Abstract: Accurate photovoltaic (PV) power forecasting is essential for reliable grid dispatch and renewable energy integration, yet it remains challenging because PV generation is jointly shaped by weather variability, day-night transitions, regime-dependent dynamics, and strict physical constraints. We propose PARA-PV, a Physics-Aware Retrieval-Augmented fra…"
+    }
+  ]
+}

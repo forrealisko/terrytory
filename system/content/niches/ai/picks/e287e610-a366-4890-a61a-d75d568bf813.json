@@ -1,0 +1,19 @@
+{
+  "id": "e287e610-a366-4890-a61a-d75d568bf813",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:51.874Z",
+  "status": "pending",
+  "headline": "MentalHospital: A Virtual Environment for Evaluating Psychiatric Clinical Encounters with LLMs",
+  "rating": 8.8,
+  "reasoning": "This paper presents a novel and highly relevant AI application in a critical domain: psychiatric care. The creation of a virtual environment (MentalHospital) and specialized evaluators (MentalEval) for benchmarking LLMs in complex clinical encounters is a significant technical breakthrough. The use of real EHR data for standardized patients and expert clinician validation lends strong technical credibility, moving beyond theoretical discussions to practical evaluation.",
+  "summary": "Researchers introduced MentalHospital, a virtual environment for evaluating LLM performance in psychiatric clinical encounters using skill-augmented standardized patients derived from 1,193 EHR cases, and MentalEval, a suite of domain-specific evaluators, finding that even the strongest LLMs significantly trail human clinicians.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "MentalHospital: A Virtual Environment for Evaluating Psychiatric Clinical Encounters",
+      "url": "https://arxiv.org/abs/2607.08257",
+      "excerpt": "arXiv:2607.08257v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong performance on isolated psychiatric tasks, including dialogue, diagnosis, and treatment planning, yet existing benchmarks rarely simulate complete psychiatric clinical encounters. We introduce $\\textbf{MentalHospital}$, a virtual evaluation environment for LLM-based psychiatric clinical encounters. Menta…"
+    }
+  ]
+}

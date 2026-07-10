@@ -1,0 +1,19 @@
+{
+  "id": "a11ae905-7ea8-4d01-a221-6dcb5b64b60c",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:59.408Z",
+  "status": "pending",
+  "headline": "PredicateLongBench: A New Benchmark to Stress-Test LLM Long-Context Reasoning",
+  "rating": 8.2,
+  "reasoning": "This paper introduces a novel benchmark, PredicateLongBench, specifically designed to systematically evaluate the long-context reasoning capabilities of LLMs beyond existing saturated or less robust methods. Its focus on identifying and exploring multiple axes of difficulty for long-context understanding makes it highly relevant to AI research and offers significant technical credibility from an arXiv submission, addressing a critical limitation in current LLM evaluation.",
+  "summary": "Researchers have proposed PredicateLongBench, a new benchmark to systematically test the long-context reasoning abilities of large language models by scaling task difficulty along various axes, finding that current frontier models struggle with these challenges.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Understanding Axes of Difficulty For Long Context Tasks Via PredicateLongBench",
+      "url": "https://arxiv.org/abs/2607.08284",
+      "excerpt": "arXiv:2607.08284v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated rapidly improving long-context capabilities, prompting a wave of benchmarks designed to evaluate them. However, existing long-context evaluations - from Needle-in-a-Haystack (NIAH) tests to more recent multi-hop reasoning and summarization tasks - predominantly measure average-case performance, and many …"
+    }
+  ]
+}

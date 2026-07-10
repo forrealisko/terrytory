@@ -1,0 +1,19 @@
+{
+  "id": "69804105-f438-4fd0-8ee1-882f6790b1db",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:31.593Z",
+  "status": "pending",
+  "headline": "CausalDS: A New Benchmark for Causal Reasoning in Data-Science Agents",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its direct relevance to AI, specifically in benchmarking advanced LLM capabilities for data science. The introduction of a novel benchmark, CausalDS, addresses a significant gap in evaluating causal reasoning, tool use, and uncertainty quantification in agentic AI, making it a meaningful and credible development from a research perspective.",
+  "summary": "Researchers introduce CausalDS, a new benchmark designed to evaluate the causal reasoning, tool use, and data science capabilities of large language models acting as data-science agents, using synthetic data and natural language stories.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "url": "https://arxiv.org/abs/2607.08093",
+      "excerpt": "arXiv:2607.08093v1 Announce Type: new Abstract: Large language models (LLMs) increasingly act as integrated data-science agents, combining abstract reasoning with advanced tool use. Yet the relevant benchmark landscape largely divides into symbolic causal reasoning benchmarks without realistic data analysis or data analysis benchmarks without a principled causal data-generating structure. Furtherm…"
+    }
+  ]
+}

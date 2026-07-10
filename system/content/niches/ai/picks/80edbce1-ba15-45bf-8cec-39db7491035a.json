@@ -1,0 +1,19 @@
+{
+  "id": "80edbce1-ba15-45bf-8cec-39db7491035a",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:53:13.182Z",
+  "status": "pending",
+  "headline": "FedOPAL: One-Shot Federated Learning with Visual Prompt Tuning for Edge AI",
+  "rating": 8.5,
+  "reasoning": "This paper presents a novel approach to one-shot federated learning, addressing critical challenges in edge AI like communication bandwidth and computational costs. Its focus on visual prompt tuning to correct feature distribution in non-IID data environments is a significant technical advancement with clear practical implications for large model deployment. The research is from a credible source (arXiv) and tackles a relevant, complex AI problem.",
+  "summary": "Researchers propose FedOPAL, a new framework for one-shot federated learning that uses analytic visual prompt tuning to efficiently aggregate models on edge devices, overcoming communication bottlenecks and non-IID data challenges without high server-side costs.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "FedOPAL: One-Shot Federated Learning via Analytic Visual Prompt Tuning",
+      "url": "https://arxiv.org/abs/2607.08368",
+      "excerpt": "arXiv:2607.08368v1 Announce Type: new Abstract: With the widespread deployment of basic models in edge intelligence, communication bandwidth has become a core bottleneck restricting the scalability of federated learning. Although one-shot federated learning alleviates this problem by minimizing communication rounds, existing iterative fine-tuning or knowledge distillation methods still face challe…"
+    }
+  ]
+}

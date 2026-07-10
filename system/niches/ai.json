@@ -10,16 +10,16 @@
     "hero_subtitle": "Model releases, research breakthroughs, and industry moves — and what they actually mean for builders and businesses."
   },
   "editorial": {
-    "publication_description": "a sharp, technically-literate AI intelligence publication covering model releases, research breakthroughs, industry moves, and what they actually mean for builders and businesses",
-    "voice": "ai-industry-analyst",
+    "publication_description": "an accessible, consumer-friendly publication covering the latest AI tools, practical applications, and major industry news, focused on what matters to everyday users and beginners.",
+    "voice": "friendly-tech-explainer",
     "target_word_count": 1100,
     "rating_criteria": [
-      "AI Relevance (1-10): Is this genuinely about AI/ML — model releases, research, tooling, industry moves, policy, or safety? (Not generic tech or crypto.)",
-      "Novelty & Significance (1-10): Is this a real breakthrough, major release, or meaningful development? (Or is it hype, a rehash, or a thin press release?)",
-      "Technical Credibility (1-10): Is it from a credible lab, researcher, or outlet — with substance over speculation?"
+      "Mainstream Appeal (1-10): Is this story interesting and understandable to a general audience, beginners, or everyday consumers? (Favor consumer apps, new products, and practical tools over dry academic research.)",
+      "Practical Value (1-10): Does this tell the reader how a new tool or update affects them directly? (e.g., new Anthropic tools, cool startup apps).",
+      "Clarity & Buzz (1-10): Is the topic trending, highly readable, and free of dense academic jargon?"
     ],
-    "research_focus": "breaking AI/ML development — model or product launches, benchmark results, research findings, funding and industry moves, and the key labs and researchers involved (OpenAI, Anthropic, Google DeepMind, Meta, Mistral, and academia)",
-    "image_style": "Prefer: sleek data-center hardware, abstract neural-network and circuit visualizations, humanoid robotics, glowing server racks, futuristic UI screens, researchers at workstations. Avoid literal text, logos, or watermarks."
+    "research_focus": "consumer AI products, practical tools, interesting startup launches, exciting updates from major players (OpenAI, Anthropic, Google), and relatable use-cases. Avoid complex research papers, benchmarks, and dense technical deep-dives.",
+    "image_style": "Prefer: friendly, approachable technology in everyday use, clean and bright aesthetics, user-interfaces on laptops or phones, human-centric interactions with AI. Avoid overly dark or abstract technical imagery."
   },
   "monetization": {
     "mode": "none",
@@ -52,27 +52,6 @@
       "color": "#38bdf8",
       "type": "rss",
       "url": "https://venturebeat.com/category/ai/feed/"
-    },
-    {
-      "id": "arxivai",
-      "name": "ArXiv cs.AI",
-      "color": "#f43f5e",
-      "type": "rss",
-      "url": "http://export.arxiv.org/rss/cs.AI"
-    },
-    {
-      "id": "arxivlg",
-      "name": "ArXiv cs.LG",
-      "color": "#22c55e",
-      "type": "rss",
-      "url": "http://export.arxiv.org/rss/cs.LG"
-    },
-    {
-      "id": "thegradient",
-      "name": "The Gradient",
-      "color": "#eab308",
-      "type": "rss",
-      "url": "https://thegradient.pub/rss/"
     },
     {
       "id": "importai",

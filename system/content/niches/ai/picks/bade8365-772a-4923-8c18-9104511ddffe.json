@@ -1,0 +1,19 @@
+{
+  "id": "bade8365-772a-4923-8c18-9104511ddffe",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:56.797Z",
+  "status": "pending",
+  "headline": "PolyUQuest: Verifiable Structure-Aware Web RAG Over Heterogeneous Graphs",
+  "rating": 8.8,
+  "reasoning": "This paper presents a significant advancement in RAG systems by incorporating web page structure and semantic signals through heterogeneous graphs, addressing a key limitation of existing approaches. The focus on verifiability and the detailed evaluation against current RAG systems, along with the planned deployment, indicate strong technical credibility and practical significance. It's a novel approach to improving RAG performance and trustworthiness.",
+  "summary": "Researchers introduce PolyUQuest, a novel RAG framework that leverages heterogeneous graphs to capture structural and semantic information from web pages, enabling verifiable and more accurate answers compared to existing RAG systems. It's being prepared for deployment as a student-facing QA service at PolyU.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "PolyUQuest: Verifiable Structure-Aware Web RAG over Heterogeneous Graphs",
+      "url": "https://arxiv.org/abs/2607.08269",
+      "excerpt": "arXiv:2607.08269v1 Announce Type: new Abstract: Existing retrieval-augmented generation (RAG) systems treat web pages as flat text, losing the structural and semantic signals encoded in HTML. We present PolyUQuest, a verifiable, structure-aware web RAG framework built on a heterogeneous graph that unifies hyperlink topology between pages, DOM hierarchy within pages, and entity-relation knowledge a…"
+    }
+  ]
+}

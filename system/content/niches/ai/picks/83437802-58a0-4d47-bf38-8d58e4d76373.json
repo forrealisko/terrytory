@@ -1,0 +1,19 @@
+{
+  "id": "83437802-58a0-4d47-bf38-8d58e4d76373",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:46.253Z",
+  "status": "pending",
+  "headline": "AutoPersonas: New Engine for Open-Ended AI Persona Evolution Tackles 'Self-Locking' Behavior",
+  "rating": 8.8,
+  "reasoning": "This paper presents a novel approach to a critical problem in long-term AI persona agents: preventing repetitive, 'self-locking' behavior while maintaining identity. The research is highly relevant to AI, offers a significant technical breakthrough with empirical evidence from simulations, and comes from a credible academic source (arXiv). The detailed methodology and extensive supplementary data bolster its technical credibility.",
+  "summary": "Researchers introduce AutoPersonas, a multi-timescale loop engine designed to enable open-ended persona evolution in AI agents, addressing the issue of agents becoming stuck in repetitive behavioral patterns while preserving their core identity. The system separates environmental occurrences, observations, and persona state to allow for divergent future-facing material and evidence-governed absorption.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "AutoPersonas: A Multi-Timescale Loop Engine for Open-Ended Persona Evolution",
+      "url": "https://arxiv.org/abs/2607.08252",
+      "excerpt": "arXiv:2607.08252v1 Announce Type: new Abstract: Long-term persona agents must remain identifiable while adapting to new events, relationships, evidence, and social conditions. We identify self-locking as a runtime failure mode in continuing persona-life loops: locally plausible events keep appearing while the generated life collapses toward familiar environments, weak relationships, suspended deci…"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "a4c8015c-5a74-494d-9de9-226a770f034e",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:51:54.645Z",
+  "status": "pending",
+  "headline": "Graph Neural Networks Achieve 99% Accuracy in Real-Time Gesture Recognition via sEMG",
+  "rating": 8.2,
+  "reasoning": "This paper presents a significant AI breakthrough in real-time gesture recognition using GNNs on sEMG signals, achieving state-of-the-art accuracy (99%) and low latency (48ms). The research is from a credible source (arXiv) and directly addresses a practical application for advanced prostheses and AR, making it highly relevant and technically sound.",
+  "summary": "Researchers developed a novel graph neural network model for real-time hand gesture recognition using sEMG signals, achieving 99% classification accuracy and a 48ms processing time, outperforming existing methods.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "A Graph Neural Network Model for Real-Time Gesture Recognition Based on sEMG Signals",
+      "url": "https://arxiv.org/abs/2607.07850",
+      "excerpt": "arXiv:2607.07850v1 Announce Type: new Abstract: For seemless control of advanced hand prostheses and augmented reality, accurate and immediate hand gestures recognition is essential. Surface electromyography (sEMG) signals obtained from the forearm are commonly employed for this purpose. In this paper, we present a novel approach for sEMG representation that utilizes graph networks which contain i…"
+    }
+  ]
+}

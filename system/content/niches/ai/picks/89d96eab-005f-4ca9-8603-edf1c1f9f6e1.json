@@ -1,0 +1,19 @@
+{
+  "id": "89d96eab-005f-4ca9-8603-edf1c1f9f6e1",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:22.274Z",
+  "status": "pending",
+  "headline": "LLM Self-Consistency: A Flawed Metric for Accuracy, New Research Reveals",
+  "rating": 8.8,
+  "reasoning": "This research directly addresses a critical assumption in current AI evaluation practices (LLM-as-judge), demonstrating that consistency does not reliably indicate correctness. Its findings have significant implications for how AI systems are developed and deployed, offering a nuanced perspective on a widely used metric. The study is robust, large-scale, and from a credible source (arXiv), making it highly relevant and technically sound.",
+  "summary": "New research challenges the assumption that LLM self-consistency or cross-model agreement reliably indicates correctness, finding it to be an unreliable and regime-dependent proxy for accuracy, especially for frontier models which exhibit over-confidence.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "When LLMs Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement as Confidence Signals",
+      "url": "https://arxiv.org/abs/2607.08065",
+      "excerpt": "arXiv:2607.08065v1 Announce Type: new Abstract: LLM-as-judge (Zheng et al., 2023) is increasingly the default for evaluating AI systems in enterprise pipelines, often scaled to ensembles (Verga et al., 2024) or \"mixture-of-experts\" (Shazeer et al., 2017) panels of judges. These systems share a key assumption: that consistency -- agreement among judges, or among a model's own samples -- indicates c…"
+    }
+  ]
+}

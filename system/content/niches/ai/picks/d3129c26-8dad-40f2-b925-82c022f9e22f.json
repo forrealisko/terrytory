@@ -1,0 +1,19 @@
+{
+  "id": "d3129c26-8dad-40f2-b925-82c022f9e22f",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:52:14.777Z",
+  "status": "pending",
+  "headline": "New Prompting Method 'CPP' Aims to Resolve LLM Composition-Knowledge Dichotomy",
+  "rating": 8.2,
+  "reasoning": "This paper introduces a novel prompting framework, Concretized Proposition Prompting (CPP), directly addressing a significant challenge in LLMs: balancing compositional reasoning with factual knowledge. The research is from arXiv, indicating a credible academic source, and the proposed solution shows promising results across different benchmarks, suggesting a meaningful advancement in LLM capabilities rather than mere hype.",
+  "summary": "Researchers propose Concretized Proposition Prompting (CPP), a new framework designed to improve Large Language Models' ability to balance compositional reasoning and factual knowledge, showing significant performance gains in medical and mathematical benchmarks.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Concretized Proposition Prompting Resolves Composition-Knowledge Dichotomy in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.08018",
+      "excerpt": "arXiv:2607.08018v1 Announce Type: new Abstract: LLMs often struggle to balance compositionality with knowledgeability, a challenge we define as Composition-Knowledge Dichotomy. To address this, we propose Concretized Proposition Prompting (CPP), a framework that explicitly concretizes propositions relevant to questions. The results demonstrate that CPP significantly enhances reasoning performance,…"
+    }
+  ]
+}

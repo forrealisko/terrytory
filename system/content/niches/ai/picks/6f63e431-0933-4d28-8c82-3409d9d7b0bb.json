@@ -1,0 +1,19 @@
+{
+  "id": "6f63e431-0933-4d28-8c82-3409d9d7b0bb",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:51:41.089Z",
+  "status": "pending",
+  "headline": "Medical LLMs: Bridging Clinical Needs and AI Capabilities with New Benchmarks",
+  "rating": 8.8,
+  "reasoning": "This paper offers high AI relevance by focusing on LLMs in a critical application area (healthcare). Its novelty and significance are strong due to the introduction of a dual-view approach, a five-level competency scheme, and a new benchmark dataset for medical reasoning, providing concrete progress beyond mere speculation. The technical credibility is high, coming from a peer-reviewed arXiv paper with multiple authors and detailed methodology.",
+  "summary": "A new survey paper introduces a framework and benchmark for evaluating large language models in medical reasoning, connecting clinical practice with computational methods and assessing 18 state-of-the-art models.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+      "url": "https://arxiv.org/abs/2607.07761",
+      "excerpt": "arXiv:2607.07761v1 Announce Type: new Abstract: Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care. This survey examines recent progress in medical LLMs, focusing on reasoning applications and requirements. We present a dual-view approach that connects clinical practice with computational methods. On the cli…"
+    }
+  ]
+}

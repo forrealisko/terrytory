@@ -1,0 +1,19 @@
+{
+  "id": "7f74d4a5-a13d-442d-80cd-93aa984f1645",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:51:57.511Z",
+  "status": "pending",
+  "headline": "Agentic AI and RAG Architectures Show Promise in Actuarial Underwriting",
+  "rating": 8.2,
+  "reasoning": "This paper directly addresses a significant application of advanced AI (agentic systems, RAG) in a complex, regulated industry (actuarial science). The research is novel in its comparative analysis of different AI architectures for straight-through underwriting and comes from a credible source (arXiv). It offers concrete insights into how these models can meet industry-specific needs like transparency and auditability.",
+  "summary": "A new arXiv paper explores how agentic AI and Retrieval-Augmented Generation (RAG) models can enhance straight-through underwriting in actuarial practice, demonstrating superior performance of multi-agent 'Agentic RAG' systems over single-LLM and naive RAG baselines in complex scenarios.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
+      "url": "https://arxiv.org/abs/2607.07858",
+      "excerpt": "arXiv:2607.07858v1 Announce Type: new Abstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated decision workflows. Actuaries now face a design space that ranges from traditional rule-based automation to large language models (LLMs), retrieval-augmented gen…"
+    }
+  ]
+}

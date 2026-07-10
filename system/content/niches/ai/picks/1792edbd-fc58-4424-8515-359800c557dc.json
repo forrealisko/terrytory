@@ -1,0 +1,19 @@
+{
+  "id": "1792edbd-fc58-4424-8515-359800c557dc",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:53:15.947Z",
+  "status": "pending",
+  "headline": "Unpacking the 'Knowing-Using Gap': Why LLMs Memorize But Don't Generalize",
+  "rating": 8.8,
+  "reasoning": "This paper directly addresses a critical, well-known limitation in LLM fine-tuning: the 'Knowing-Using Gap.' Its mechanistic approach to understanding why memorized knowledge fails to generalize, using novel techniques like self-patching, offers significant research value. The proposed diagnostic finding and heuristic strategy to recover generalization headroom are practical and impactful for builders.",
+  "summary": "New research from arXiv introduces the 'Knowing-Using Gap' to describe why LLMs memorize new facts but struggle to apply them to reasoning tasks. The study uses 'self-patching' to mechanistically understand this failure, attributing it to knowledge-circuit misalignment, and proposes a heuristic strategy to improve generalization.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "url": "https://arxiv.org/abs/2607.08393",
+      "excerpt": "arXiv:2607.08393v1 Announce Type: new Abstract: Fine-tuning LLMs to inject new knowledge faces a critical challenge: LLMs can quickly memorize new facts, yet fail to use them for downstream reasoning tasks. We formalize this failure as the \\textit{\\textbf{Knowing--Using Gap}}, characterized by an accuracy gap and a temporal lag between memorization and generalization. To understand this phenomenon…"
+    }
+  ]
+}

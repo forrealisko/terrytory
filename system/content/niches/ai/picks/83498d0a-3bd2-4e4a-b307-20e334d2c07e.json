@@ -1,0 +1,19 @@
+{
+  "id": "83498d0a-3bd2-4e4a-b307-20e334d2c07e",
+  "niche": "ai",
+  "created_at": "2026-07-10T10:53:18.816Z",
+  "status": "pending",
+  "headline": "Game Theory & Multi-Agent Systems Tackle LLM Hallucinations in Scientific Domains",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its direct relevance to a critical AI challenge (LLM hallucination) and its novel approach using game theory and multi-agent systems. The research comes from a credible source (arXiv) and presents a tangible solution with measurable improvements in a specialized domain, indicating significant technical credibility and potential impact.",
+  "summary": "Researchers developed G-Frame, a multi-agent framework using game theory to mitigate hallucinations in lightweight LLMs for scientific domains. Their 7B model, OmniChem, achieved performance parity with GPT-4o mini and a 79.46% reduction in hallucinations on chemistry benchmarks.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Game Theory Driven Multi-Agent Framework Mitigates Language Model Hallucination",
+      "url": "https://arxiv.org/abs/2607.08403",
+      "excerpt": "arXiv:2607.08403v1 Announce Type: new Abstract: The application of lightweight Large Language Models in rule-based scientific domains remains severely limited by their tendency to mimic linguistic patterns rather than reproduce axiomatic reasoning, causing frequent hallucinations. Here, we show that G-Frame, an adaptive multi-agent framework integrating Bayesian and team game principles, establish…"
+    }
+  ]
+}
