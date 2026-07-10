@@ -4,22 +4,23 @@
   "brand": {
     "name": "TERRYTORY AI",
     "shortName": "AI",
-    "tagline": "Artificial Intelligence, Decoded",
+    "tagline": "AI news you'll actually read",
     "accent": "#a855f7",
     "hero_title": "AI, Decoded.\nSignal Over Hype.",
-    "hero_subtitle": "Model releases, research breakthroughs, and industry moves — and what they actually mean for builders and businesses."
+    "hero_subtitle": "The tools, the drama, the breakthroughs — explained for real people, not PhDs."
   },
   "editorial": {
-    "publication_description": "an accessible, consumer-friendly publication covering the latest AI tools, practical applications, and major industry news, focused on what matters to everyday users and beginners.",
+    "publication_description": "a punchy, consumer-first AI publication that explains what's happening in artificial intelligence in plain language. We cover new tools you can try today, jaw-dropping demos, industry drama, cost comparisons, and practical tips. Our audience is curious beginners, creators, and professionals who want to stay ahead without wading through jargon. We publish a diverse mix of formats: listicles, head-to-head comparisons, quick actionable tips, hot takes, explainers, and deep articles.",
     "voice": "friendly-tech-explainer",
     "target_word_count": 1100,
     "rating_criteria": [
-      "Mainstream Appeal (1-10): Is this story interesting and understandable to a general audience, beginners, or everyday consumers? (Favor consumer apps, new products, and practical tools over dry academic research.)",
-      "Practical Value (1-10): Does this tell the reader how a new tool or update affects them directly? (e.g., new Anthropic tools, cool startup apps).",
-      "Clarity & Buzz (1-10): Is the topic trending, highly readable, and free of dense academic jargon?"
+      "Clickability & Viral Potential (1-10): Would a curious, non-technical person actually click this headline on social media or HackerNews? Does it provoke curiosity, surprise, or a strong opinion? Headlines about free alternatives to expensive tools, jaw-dropping demos, controversial takes, and 'wait, you can do THAT?' moments score highest.",
+      "Mainstream Appeal (1-10): Is this understandable and interesting to a general audience, beginners, or everyday consumers? Stories about products people can actually use (ChatGPT, Claude, Midjourney, new apps) score way higher than academic papers or benchmark tables. Favor drama, money, and 'how does this affect ME?' angles.",
+      "Practical Value (1-10): Does this story help the reader DO something — try a new tool, save money, learn a technique, make a decision between two products? Actionable content always wins over abstract theory.",
+      "Format Diversity Bonus (1-10): Could this story work as a comparison ('X vs Y'), a listicle ('5 ways to...'), a quick tip, or a hot take — not just a standard news article? Stories that naturally lend themselves to engaging formats score higher."
     ],
-    "research_focus": "consumer AI products, practical tools, interesting startup launches, exciting updates from major players (OpenAI, Anthropic, Google), and relatable use-cases. Avoid complex research papers, benchmarks, and dense technical deep-dives.",
-    "image_style": "Prefer: friendly, approachable technology in everyday use, clean and bright aesthetics, user-interfaces on laptops or phones, human-centric interactions with AI. Avoid overly dark or abstract technical imagery."
+    "research_focus": "consumer AI products and tools people can use today, dramatic industry moves (fundraising, acquisitions, CEO drama), cost breakdowns and free alternatives, product comparisons, practical tips and workflows, viral demos, and accessible explanations of why a breakthrough matters to non-experts. Actively avoid: raw research papers, benchmark comparisons, mathematical notation, model architecture details.",
+    "image_style": "Prefer: friendly, approachable technology in everyday use, clean and bright aesthetics, user-interfaces on laptops or phones, human-centric interactions with AI, split-screen comparisons for versus content. Avoid overly dark or abstract technical imagery."
   },
   "monetization": {
     "mode": "none",
@@ -59,6 +60,20 @@
       "color": "#f97316",
       "type": "rss",
       "url": "https://importai.substack.com/feed"
+    },
+    {
+      "id": "thevergeai",
+      "name": "The Verge AI",
+      "color": "#e11d48",
+      "type": "rss",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "id": "aaboringdystopia",
+      "name": "Ars Technica AI",
+      "color": "#f59e0b",
+      "type": "rss",
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
     }
   ]
 }

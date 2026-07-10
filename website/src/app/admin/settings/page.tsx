@@ -1,17 +1,26 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import Link from "next/link";
+import { useState, useEffect, useCallback } from "react";
 
+/* ── Types ───────────────────────────────────────────────────────── */
 interface Role {
   key: string;
   label: string;
   model: string;
   note: string;
 }
+interface TierDef {
+  label: string;
+  blurb: string;
+  writer: string;
+  rating: string;
+  research: string;
+  image: string;
+}
 interface ConfigResp {
   spend_tier: string;
   roles: Role[];
+  tiers: Record<string, TierDef>;
 }
 interface NicheResp {
   id: string;
@@ -29,6 +38,14 @@ interface Status {
   proxy_port?: string | null;
 }
 
+/* ── Tier visuals ────────────────────────────────────────────────── */
+const TIER_META: Record<string, { icon: string; color: string; glow: string }> = {
+  low:    { icon: "⚡", color: "#60a5fa", glow: "rgba(96,165,250,0.15)" },
+  medium: { icon: "⚖️", color: "#a78bfa", glow: "rgba(167,139,250,0.15)" },
+  best:   { icon: "🔥", color: "#f59e0b", glow: "rgba(245,158,11,0.15)" },
+};
+
+/* ── Helpers ──────────────────────────────────────────────────────── */
 function StatusRow({ ok, label, detail }: { ok: boolean; label: string; detail: string }) {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 13, color: ok ? "var(--accent-brand)" : "var(--text-muted)" }}>
@@ -49,16 +66,46 @@ function StatusRow({ ok, label, detail }: { ok: boolean; label: string; detail: 
   );
 }
 
+function modelShort(m: string) {
+  // "anthropic/claude-opus-4.8" → "claude-opus-4.8"
+  return m.includes("/") ? m.split("/")[1] : m;
+}
+
+/* ── Page ─────────────────────────────────────────────────────────── */
 export default function SettingsPage() {
   const [config, setConfig] = useState<ConfigResp | null>(null);
   const [niches, setNiches] = useState<NicheResp[]>([]);
   const [status, setStatus] = useState<Status>({});
+  const [switching, setSwitching] = useState(false);
+
+  const loadConfig = useCallback(() => {
+    fetch("/api/config").then((r) => r.json()).then(setConfig).catch(() => {});
+  }, []);
 
   useEffect(() => {
-    fetch("/api/config").then((r) => r.json()).then(setConfig).catch(() => {});
+    loadConfig();
     fetch("/api/niches").then((r) => r.json()).then((d) => setNiches(d.niches || [])).catch(() => {});
     fetch("/api/settings/status").then((r) => r.json()).then(setStatus).catch(() => {});
-  }, []);
+  }, [loadConfig]);
+
+  async function handleTierChange(tierKey: string) {
+    if (switching || tierKey === config?.spend_tier) return;
+    setSwitching(true);
+    try {
+      const res = await fetch("/api/config", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ spend_tier: tierKey }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setConfig(data);
+      }
+    } catch { /* swallow */ }
+    setSwitching(false);
+  }
+
+  const tierKeys = config ? Object.keys(config.tiers) : [];
 
   return (
     <>
@@ -72,31 +119,65 @@ export default function SettingsPage() {
       </header>
 
       <div className="main-body" style={{ maxWidth: 760 }}>
-        {/* ── AI Models ── */}
+        {/* ── Spend Tier Selector ── */}
         <div className="settings-section">
-          <h3>AI models</h3>
-          <p>
-            The pipeline picks models by <strong>spending tier</strong>. Change the tier on the{" "}
-            <Link href="/admin/analytics" style={{ color: "var(--accent-brand)" }}>Analytics</Link> page — these update automatically.
-          </p>
+          <h3>AI spending tier</h3>
+          <p>Choose which models run across the entire pipeline. Changes take effect immediately.</p>
 
-          <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "6px 0 16px" }}>
-            <span style={{ fontSize: 12, color: "var(--text-muted)" }}>Active tier:</span>
-            <span
-              style={{
-                fontSize: 12,
-                fontWeight: 700,
-                textTransform: "capitalize",
-                padding: "3px 10px",
-                borderRadius: 20,
-                color: "#00e676",
-                background: "rgba(0,230,118,0.1)",
-                border: "1px solid rgba(0,230,118,0.25)",
-              }}
-            >
-              {config?.spend_tier ?? "—"}
-            </span>
+          <div style={{ display: "grid", gridTemplateColumns: `repeat(${tierKeys.length}, 1fr)`, gap: 12, margin: "16px 0" }}>
+            {tierKeys.map((key) => {
+              const tier = config!.tiers[key];
+              const meta = TIER_META[key] || TIER_META.medium;
+              const active = config?.spend_tier === key;
+              return (
+                <button
+                  key={key}
+                  onClick={() => handleTierChange(key)}
+                  disabled={switching}
+                  style={{
+                    position: "relative",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    gap: 6,
+                    padding: "16px 18px",
+                    background: active ? meta.glow : "var(--bg-primary)",
+                    border: active ? `2px solid ${meta.color}` : "1px solid var(--border-subtle)",
+                    borderRadius: 12,
+                    cursor: switching ? "wait" : "pointer",
+                    transition: "all 0.2s ease",
+                    textAlign: "left",
+                    color: "inherit",
+                    fontFamily: "inherit",
+                  }}
+                >
+                  {active && (
+                    <span style={{
+                      position: "absolute",
+                      top: 10,
+                      right: 12,
+                      fontSize: 10,
+                      fontWeight: 700,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.05em",
+                      color: meta.color,
+                    }}>
+                      Active
+                    </span>
+                  )}
+                  <span style={{ fontSize: 22 }}>{meta.icon}</span>
+                  <span style={{ fontSize: 15, fontWeight: 700, textTransform: "capitalize" }}>{tier.label || key}</span>
+                  <span style={{ fontSize: 11, color: "var(--text-muted)", lineHeight: 1.4 }}>{tier.blurb}</span>
+                </button>
+              );
+            })}
           </div>
+        </div>
+
+        {/* ── Active Models ── */}
+        <div className="settings-section">
+          <h3>Active models</h3>
+          <p>These are resolved from the <strong>{config?.spend_tier ?? "—"}</strong> tier and used by every pipeline step.</p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
             {(config?.roles ?? []).map((r) => (
@@ -116,7 +197,7 @@ export default function SettingsPage() {
                   <div style={{ fontSize: 13, fontWeight: 600 }}>{r.label}</div>
                   <div style={{ fontSize: 11, color: "var(--text-muted)" }}>{r.note}</div>
                 </div>
-                <code style={{ fontSize: 12, color: "var(--accent-brand)", fontFamily: "var(--font-mono)" }}>{r.model}</code>
+                <code style={{ fontSize: 12, color: "var(--accent-brand)", fontFamily: "var(--font-mono)" }}>{modelShort(r.model)}</code>
               </div>
             ))}
           </div>
