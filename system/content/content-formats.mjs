@@ -77,6 +77,17 @@ export const FORMATS = {
     structure:
       "Intro that promises the payoff → a numbered list (## per item) where each item has a claim + 2-3 sentences of substance → a synthesis close that ties them together.",
   },
+  opinion: {
+    id: "opinion",
+    label: "Hot Take",
+    emoji: "🔥",
+    planner_hint:
+      "A sharp, opinionated argument that stakes out a clear position on a debate ('X is overhyped', 'Y quietly changes everything', 'is Z worth it?'). Use when a story invites a strong, defensible take — never for straight news.",
+    word_count: 800,
+    image_count: 1,
+    structure:
+      "Open with the provocative thesis stated plainly → the strongest case for it (2-3 ## sections, each backed by real evidence) → steelman the best counterargument, then rebut it → a confident, memorable closing line. Opinionated and fun, but grounded in facts — an argument, not a rant.",
+  },
 };
 
 export const FORMAT_IDS = Object.keys(FORMATS);

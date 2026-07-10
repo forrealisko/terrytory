@@ -30,6 +30,7 @@ export interface Idea {
   format: string;
   title: string;
   angle: string;
+  audience?: string;
   rationale: string;
   priority: number;
   source_pick_ids: string[];

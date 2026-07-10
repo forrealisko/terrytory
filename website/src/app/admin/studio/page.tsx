@@ -14,6 +14,7 @@ interface Idea {
   format: string;
   title: string;
   angle: string;
+  audience?: string;
   rationale: string;
   priority: number;
   source_articles: IdeaSource[];
@@ -27,6 +28,7 @@ const FORMAT_META: Record<string, { emoji: string; label: string }> = {
   explainer: { emoji: "🧭", label: "Explainer" },
   roundup: { emoji: "🗞️", label: "Roundup" },
   listicle: { emoji: "🔢", label: "List" },
+  opinion: { emoji: "🔥", label: "Hot Take" },
 };
 const fmt = (id: string) => FORMAT_META[id] || { emoji: "✦", label: id };
 
@@ -245,6 +247,7 @@ function IdeaCard({
       <h4 className="studio-title">{idea.title}</h4>
       {idea.angle && <p className="studio-angle">{idea.angle}</p>}
       {idea.rationale && <p className="studio-why">Why now: {idea.rationale}</p>}
+      {idea.audience && <span className="studio-audience">For {idea.audience}</span>}
 
       {idea.source_articles?.[0]?.url && (
         <a className="studio-src" href={idea.source_articles[0].url} target="_blank" rel="noopener noreferrer">

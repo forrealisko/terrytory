@@ -94,10 +94,21 @@ ${formatsMenu()}
 TODAY'S RATED STORIES (your raw material):
 ${stories}
 
+WHAT MAKES AN IDEA WORTH RUNNING (optimize for engagement, not just importance):
+- A clear "so what for me" hook — a money, productivity, career, or "build this today" angle beats a neutral recap.
+- A real debate or tension — "is X overhyped?", "worth it or not?", "who actually wins?". Take a side when the story earns one (that's the Hot Take format).
+- Timeliness — why this matters THIS week, not in general.
+- A concrete payoff the reader walks away with (a decision, a mental model, a thing to try).
+
+TONE & AUDIENCE:
+- Sharp, fun, confident. Not boring, not clickbait. Willing to be a little controversial when the evidence backs it.
+- Written for tech-savvy builders and operators, not 50-year-old academics.
+- Every idea names its target audience (builders / businesses / researchers / tech-curious).
+
 INSTRUCTIONS:
 - ${countRule}
 - Each scenario must be a genuinely compelling, distinct piece a reader would click. No overlap between scenarios.
-- Pick the FORMAT that best serves each idea. Prefer variety across the slate.
+- Pick the FORMAT that best serves each idea. Prefer variety across the slate, and use the Hot Take format when a story invites a strong position.
 - Ground each scenario in one or more of the stories above (reference them by number).
 - Give each a sharp, specific ANGLE — the exact take that makes it worth reading, not a generic summary.
 - Rank them: scenario 1 is your strongest recommendation for today.
@@ -109,7 +120,8 @@ Respond with valid JSON ONLY (no markdown, no commentary):
       "format": "one of: ${FORMAT_IDS.join(", ")}",
       "title": "the working headline for this piece",
       "angle": "the specific editorial take / what makes it worth reading (1-2 sentences)",
-      "rationale": "why this is a strong choice for TODAY (1 sentence)",
+      "audience": "who this is for (e.g. builders, businesses, researchers, tech-curious)",
+      "rationale": "why this is a strong choice for TODAY — the engagement hook (1 sentence)",
       "source_indexes": [1]
     }
   ]
@@ -201,6 +213,7 @@ async function plan(ctx) {
       format,
       title: s.title || "Untitled idea",
       angle: s.angle || "",
+      audience: s.audience || "",
       rationale: s.rationale || "",
       priority: rank + 1,
       source_pick_ids: refPicks.map((p) => p.id),
