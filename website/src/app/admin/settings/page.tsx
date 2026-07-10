@@ -40,9 +40,9 @@ interface Status {
 
 /* ── Tier visuals ────────────────────────────────────────────────── */
 const TIER_META: Record<string, { icon: string; color: string; glow: string }> = {
-  low:    { icon: "⚡", color: "#60a5fa", glow: "rgba(96,165,250,0.15)" },
+  low: { icon: "⚡", color: "#60a5fa", glow: "rgba(96,165,250,0.15)" },
   medium: { icon: "⚖️", color: "#a78bfa", glow: "rgba(167,139,250,0.15)" },
-  best:   { icon: "🔥", color: "#f59e0b", glow: "rgba(245,158,11,0.15)" },
+  best: { icon: "🔥", color: "#f59e0b", glow: "rgba(245,158,11,0.15)" },
 };
 
 /* ── Helpers ──────────────────────────────────────────────────────── */
@@ -79,13 +79,13 @@ export default function SettingsPage() {
   const [switching, setSwitching] = useState(false);
 
   const loadConfig = useCallback(() => {
-    fetch("/api/config").then((r) => r.json()).then(setConfig).catch(() => {});
+    fetch("/api/config").then((r) => r.json()).then(setConfig).catch(() => { });
   }, []);
 
   useEffect(() => {
     loadConfig();
-    fetch("/api/niches").then((r) => r.json()).then((d) => setNiches(d.niches || [])).catch(() => {});
-    fetch("/api/settings/status").then((r) => r.json()).then(setStatus).catch(() => {});
+    fetch("/api/niches").then((r) => r.json()).then((d) => setNiches(d.niches || [])).catch(() => { });
+    fetch("/api/settings/status").then((r) => r.json()).then(setStatus).catch(() => { });
   }, [loadConfig]);
 
   async function handleTierChange(tierKey: string) {

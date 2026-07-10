@@ -4,21 +4,22 @@
   "brand": {
     "name": "TERRYTORY Tech",
     "shortName": "TECH",
-    "tagline": "Technology, Unpacked",
+    "tagline": "Tech news you'll actually read",
     "accent": "#f97316",
     "hero_title": "Technology,\nUnpacked.",
-    "hero_subtitle": "Gadgets, software, hardware, science, and the companies shaping what comes next — explained with clarity, not hype."
+    "hero_subtitle": "Gadgets, platforms, code, and startups — explained for curious people who love smart tech."
   },
   "editorial": {
-    "publication_description": "a smart, accessible technology publication covering consumer gadgets, software, hardware, startups, and science — explaining what's new and why it matters",
+    "publication_description": "a punchy, consumer-first technology publication covering gadgets, consumer software, web apps, tech giant drama, startups, and applied science in plain, engaging language. We make tech interesting and relevant to everyday users, builders, and enthusiasts. We publish a diverse mix of formats: listicles, head-to-head comparisons, quick actionable tips, hot takes, explainers, and deep articles.",
     "voice": "tech-journalist",
     "target_word_count": 1100,
     "rating_criteria": [
-      "Tech Relevance (1-10): Is this genuinely about technology — devices, software, hardware, platforms, startups, or applied science? (Not pure AI research, which has its own niche.)",
-      "Novelty & Newsworthiness (1-10): Is this a launch, breakthrough, major update, or meaningful shift? (Or is it a rehash or thin press release?)",
-      "Reader Value (1-10): Would a curious, tech-literate reader find this genuinely useful, interesting, or important?"
+      "Clickability & Viral Potential (1-10): Would a curious tech enthusiast click this headline on social media, HackerNews, or Reddit? Does it provoke interest, surprise, or debate? Headlines about free alternatives, cool product launches, tech giant drama, and clever tech tricks score highest.",
+      "Mainstream Appeal (1-10): Is this understandable and interesting to a general tech audience or everyday consumers? Favor consumer tech (Apple, Google, cool apps, gadgets, platforms) over dry corporate enterprise earnings or niche industrial tech.",
+      "Practical Value (1-10): Does this tell the reader how a new tool, gadget, or update affects them directly? Does it help them choose a product, save money, or learn a new trick?",
+      "Format Diversity Bonus (1-10): Could this story work as a comparison ('X vs Y'), a listicle ('5 tools to...'), a quick tip, or a hot take — not just a standard news article? Stories that naturally lend themselves to engaging formats score higher."
     ],
-    "research_focus": "breaking technology development — product launches, hardware and software releases, platform changes, startup and industry moves, and the science behind them",
+    "research_focus": "breaking technology developments — product and app launches, software releases, gadget reviews and comparisons, platform changes, tech giant drama, startup moves, and relatable science. Actively avoid: dry enterprise business filings, corporate press releases, dense academic engineering details.",
     "image_style": "Prefer: sleek product photography, gadgets and devices on clean backdrops, circuit boards and hardware close-ups, modern workspaces, futuristic concept imagery. Avoid literal text, logos, or watermarks."
   },
   "monetization": {
