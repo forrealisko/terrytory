@@ -177,8 +177,8 @@ async function plan(ctx) {
   const countArg = parseInt(arg("--count") || "", 10);
   const count = Number.isFinite(countArg) ? Math.max(1, Math.min(5, countArg)) : null;
 
-  // Daily/autonomous runs clear the previous slate into the bank first.
-  if (process.argv.includes("--daily")) bankStaleProposed(ctx);
+  // Clear the previous slate into the bank first so we don't accumulate stale unchosen ideas.
+  bankStaleProposed(ctx);
 
   const picks = readPendingPicks(paths).slice(0, 15);
   if (!picks.length) {

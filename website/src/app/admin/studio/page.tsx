@@ -38,7 +38,15 @@ export default function StudioPage() {
   const [slate, setSlate] = useState<Idea[]>([]);
   const [banked, setBanked] = useState<Idea[]>([]);
   const [niche, setNiche] = useState<string>("ai");
-  const [count, setCount] = useState<(typeof COUNTS)[number]>("auto");
+  const [count, setCount] = useState<(typeof COUNTS)[number]>(() => {
+    if (typeof window !== "undefined") {
+      const saved = localStorage.getItem("studio_count");
+      if (saved && ["auto", "2", "3", "4", "5"].includes(saved)) {
+        return saved as (typeof COUNTS)[number];
+      }
+    }
+    return "auto";
+  });
   const [planning, setPlanning] = useState(false);
   const [creatingId, setCreatingId] = useState<string | null>(null);
   const [busyId, setBusyId] = useState<string | null>(null);
@@ -58,6 +66,11 @@ export default function StudioPage() {
   useEffect(() => {
     loadIdeas();
   }, [loadIdeas]);
+
+  const changeCount = (c: (typeof COUNTS)[number]) => {
+    setCount(c);
+    localStorage.setItem("studio_count", c);
+  };
 
   useEffect(() => {
     if (logRef.current) logRef.current.scrollTop = logRef.current.scrollHeight;
@@ -135,7 +148,7 @@ export default function StudioPage() {
               <button
                 key={c}
                 className={`studio-count-opt ${count === c ? "active" : ""}`}
-                onClick={() => setCount(c)}
+                onClick={() => changeCount(c)}
                 disabled={busy}
               >
                 {c === "auto" ? "Auto" : c}
