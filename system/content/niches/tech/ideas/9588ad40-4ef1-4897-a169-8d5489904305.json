@@ -1,0 +1,36 @@
+{
+  "id": "9588ad40-4ef1-4897-a169-8d5489904305",
+  "niche": "tech",
+  "batch_id": "04391f92-2fbf-4806-87ab-d6fed0efb839",
+  "created_at": "2026-07-10T11:13:37.826Z",
+  "status": "created",
+  "format": "opinion",
+  "title": "Your Game Collection Is About to Vanish. Here's Why Sony's All-Digital Future Is a Disaster.",
+  "angle": "We're arguing that Sony's move away from physical media isn't just an inconvenience, it's a fundamental attack on consumer ownership and game preservation that sets a dangerous precedent for all digital media.",
+  "audience": "tech-curious, gamers",
+  "rationale": "This story taps into a passionate debate with a clear 'so what for me' angle, leveraging a top-rated story to drive high engagement and comments.",
+  "priority": 1,
+  "source_pick_ids": [
+    "75e64707-9a8a-4d62-8b50-b66c13053ddf",
+    "b49a47dd-0b92-434d-899c-9d28cd04c0ed"
+  ],
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "PlayStation just struck a hammer blow to game preservation",
+      "url": "https://www.engadget.com/2207297/playstation-just-struck-a-hammer-blow-to-game-preservation/",
+      "excerpt": "Killing game discs is an anti-consumer move that only benefits Sony."
+    },
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Engadget Podcast: Who needs Valve's Steam Machine?",
+      "url": "https://www.engadget.com/2207598/engadget-podcast-who-needs-valve-steam-machine/",
+      "excerpt": "This week on the Engadget Podcast, we've got our first impressions of Valve's pricey Steam Machine, and we chat about Sony dumping PlayStation discs in 2028."
+    }
+  ],
+  "draft_id": "9588ad40-4ef1-4897-a169-8d5489904305",
+  "planner_model": "google/gemini-2.5-pro",
+  "created_draft_at": "2026-07-10T11:14:24.908Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "9659f99b-4160-4d03-bac7-141846e779bc",
+  "niche": "tech",
+  "batch_id": "04391f92-2fbf-4806-87ab-d6fed0efb839",
+  "created_at": "2026-07-10T11:13:37.826Z",
+  "status": "proposed",
+  "format": "comparison",
+  "title": "Browser Wars 2026: We Pitted 5 New AI-Powered Contenders Against Chrome",
+  "angle": "Forget the old speed tests. We're evaluating the new wave of browsers on the features that matter now: AI integration, real privacy protections, and unique workflows to see if any are actually worth the switch.",
+  "audience": "builders, tech-curious, productivity enthusiasts",
+  "rationale": "This piece provides immediate, actionable value by helping readers navigate a confusing but important software category that's changing rapidly.",
+  "priority": 2,
+  "source_pick_ids": [
+    "988acc7a-dc50-43d5-b429-1520364426e7"
+  ],
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "excerpt": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

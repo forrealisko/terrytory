@@ -132,16 +132,15 @@ SEO REQUIREMENTS:
 - First paragraph MUST contain the primary keyword
 - Use bold (**text**) for key terms and findings
 ${affiliateSection}
-IMAGE GUIDANCE:
-- Suggest a hero_image_prompt for Flux Dev / DALL-E 3 that would create a dramatic, photorealistic editorial image
-- The image should be atmospheric, cinematic, and relevant to the story
-- Avoid text in images. ${imageStyle}
-- Provide exactly ${imageCount} "inline_images" to be inserted in the body${imageCount === 0 ? " (an empty array)" : ""}. For each, give a prompt, a caption, and the paragraph_index (1-indexed) after which the image should be placed. Space them out well across the piece.
-
-REAL VISUALS TO SOURCE (human-in-the-loop checklist):
-- Beyond the AI-generated imagery, list 2-4 REAL visuals a human editor should find and drop in — the assets AI can't fabricate credibly: official product logos, real UI screenshots, benchmark charts, or architecture diagrams.
-- For each, add an entry to "visual_suggestions": { "kind": "logo|screenshot|chart|diagram|photo", "description": "<exactly what to find or make>", "placement": "<where in the piece it belongs>" }.
-- Suggest only visuals that genuinely strengthen the piece. These are recommendations for the editor, not generated here.
+IMAGE BRIEFS (editor-sourced, NOT AI-generated):
+- Do NOT generate images. Instead, suggest ${imageCount + 1}-${imageCount + 2} specific images that a human editor should find, download, create, or photograph.
+- For each image, provide a detailed aesthetic description so the editor knows EXACTLY what to look for. Think like a photo editor briefing a photographer.
+  - Good: "Close-up of a PlayStation 5 Pro console in white, sitting on a clean wooden desk, warm interior lighting, shallow depth of field, editorial aesthetic"
+  - Good: "Split-screen comparison: ChatGPT interface on the left vs Claude interface on the right, both showing code generation, dark mode, clean screenshot"
+  - Bad: "An image of AI" (too vague)
+- Include the hero image as the first suggestion.
+- For each, add an entry to "visual_suggestions" with: { "kind": "hero|photo|screenshot|comparison|diagram|logo", "description": "<detailed visual brief — be specific about subject, angle, lighting, mood>", "placement": "<where in the piece it belongs, e.g. 'hero image' or 'after the comparison table'>" }.
+- Suggest only visuals that genuinely strengthen the piece. The editor will find/create these and upload them.
 
 You MUST respond with valid JSON only — no explanation text outside the JSON.
 
@@ -156,12 +155,8 @@ OUTPUT FORMAT:
     "meta_description": "Under 155 chars that compels clicks",
     "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"]
   },
-  "hero_image_prompt": "Photorealistic editorial image of...",
-  "inline_images": [
-    { "prompt": "Flux Dev prompt...", "caption": "Image caption...", "paragraph_index": 3 },
-    { "prompt": "Flux Dev prompt...", "caption": "Image caption...", "paragraph_index": 7 }
-  ],
   "visual_suggestions": [
+    { "kind": "hero", "description": "Detailed visual brief for the hero image...", "placement": "hero image" },
     { "kind": "screenshot", "description": "The product's demo UI from the launch post", "placement": "after the 'What it does' section" }
   ]${affiliateJson}
 }`;

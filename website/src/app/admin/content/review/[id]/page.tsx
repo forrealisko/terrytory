@@ -528,22 +528,47 @@ export default function ReviewPage() {
           )}
 
           {draft.visual_suggestions && draft.visual_suggestions.length > 0 && (
-            <div className="visual-checklist">
-              <div className="visual-checklist-head">
-                🎨 Visuals to source
-                <span>AI suggests these real assets — find them, then hit “Insert image” above</span>
+            <div className="visual-checklist" style={{ marginTop: 16, border: "1px solid rgba(168,85,247,0.25)", background: "rgba(168,85,247,0.04)" }}>
+              <div className="visual-checklist-head" style={{ borderBottom: "1px solid rgba(168,85,247,0.15)", paddingBottom: 10, marginBottom: 10 }}>
+                📸 Image briefs — find or create these
+                <span>The AI suggests these images. Download, edit to ratio, then hit &quot;Insert image&quot; above to place them.</span>
               </div>
-              <ul>
+              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                 {draft.visual_suggestions.map((v, i) => (
-                  <li key={i}>
-                    <span className={`vc-kind vc-${v.kind}`}>{v.kind}</span>
-                    <span className="vc-desc">
-                      {v.description}
-                      {v.placement ? <em> — {v.placement}</em> : null}
-                    </span>
-                  </li>
+                  <div
+                    key={i}
+                    style={{
+                      display: "flex",
+                      alignItems: "flex-start",
+                      gap: 10,
+                      padding: "10px 12px",
+                      background: "var(--bg-primary)",
+                      borderRadius: 8,
+                      border: "1px solid var(--border-subtle)",
+                    }}
+                  >
+                    <input type="checkbox" style={{ marginTop: 4 }} />
+                    <span className={`vc-kind vc-${v.kind}`} style={{ flexShrink: 0, marginTop: 2 }}>{v.kind}</span>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ fontSize: 13, lineHeight: 1.5, color: "var(--text-primary)" }}>{v.description}</div>
+                      {v.placement && (
+                        <div style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 4 }}>📍 {v.placement}</div>
+                      )}
+                    </div>
+                    <button
+                      className="btn btn-secondary"
+                      style={{ flexShrink: 0, fontSize: 11, padding: "4px 8px" }}
+                      onClick={() => {
+                        navigator.clipboard.writeText(v.description);
+                        showToast("Brief copied ✓");
+                      }}
+                      title="Copy this brief to clipboard (paste into an image search or AI image tool)"
+                    >
+                      📋 Copy
+                    </button>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           )}
         </section>

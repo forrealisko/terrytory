@@ -251,17 +251,8 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
 
   const draftId = spec.id;
 
-  if (withImages && draftContent.inline_images?.length) {
-    ctx.log("info", `  Generating ${draftContent.inline_images.length} inline image(s)...`);
-    for (let i = 0; i < draftContent.inline_images.length; i++) {
-      try {
-        await generateAndSaveImage(ctx, draftContent.inline_images[i].prompt, `inline-${draftId}-${i}.webp`);
-      } catch (e) {
-        ctx.log("error", `  ✗ Inline image ${i + 1} failed: ${e.message}`);
-      }
-    }
-    draftContent.body_markdown = insertInlineImages(draftContent.body_markdown, draftContent.inline_images, draftId);
-  }
+  // Image generation disabled — images are editor-sourced via visual_suggestions.
+  // The editor uploads real images through the Review UI's "Insert image" button.
 
   const draftData = {
     id: draftId,

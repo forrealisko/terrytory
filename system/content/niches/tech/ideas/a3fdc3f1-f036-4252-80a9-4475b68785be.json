@@ -1,0 +1,27 @@
+{
+  "id": "a3fdc3f1-f036-4252-80a9-4475b68785be",
+  "niche": "tech",
+  "batch_id": "04391f92-2fbf-4806-87ab-d6fed0efb839",
+  "created_at": "2026-07-10T11:13:37.826Z",
+  "status": "proposed",
+  "format": "article",
+  "title": "Chevy Built a Near-Perfect EV Truck. So Why Is Nobody Buying It?",
+  "angle": "The Silverado EV has incredible tech and rave reviews, but sales are dead in the water. We investigate the disconnect between engineering prowess and market reality, exploring price anxiety, charging myths, and brand perception.",
+  "audience": "businesses, tech-curious, auto enthusiasts",
+  "rationale": "This is a compelling business mystery that unpacks a major tech transition, offering a deeper analysis than the headline numbers suggest.",
+  "priority": 3,
+  "source_pick_ids": [
+    "a018a562-8c5b-42d2-802e-edd7f9377e7b"
+  ],
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Chevy built an all-American EV truck — why is nobody buying it?",
+      "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+      "excerpt": "The Chevy Silverado EV is a solid first draft of an EV pickup truck. Here's what could make it better."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}
