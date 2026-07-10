@@ -16,6 +16,7 @@ import { enabledNiches, nichePaths } from "./lib/niches.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ENGINE = path.join(__dirname, "scraper", "engine", "scrape.mjs");
+const DIRECTOR = path.join(__dirname, "content", "creative-director.mjs");
 
 function readPendingPicks(id) {
   const dir = nichePaths(id).picks;
@@ -59,6 +60,17 @@ async function main() {
       const src = p.source_articles?.[0]?.source_name || "";
       console.log(`  ${i + 1}. [${p.rating ?? "?"}/10] ${p.headline}${src ? ` · ${src}` : ""}`);
     });
+  }
+
+  // 3. Creative Director proposes each niche's daily slate (2-5 ideas) from the
+  //    fresh picks. --daily banks any un-picked ideas from the previous slate so
+  //    the new day starts clean. This is the autonomous heart: every morning a
+  //    curated slate is waiting in the Studio without anyone clicking Generate.
+  for (const niche of niches) {
+    if (!readPendingPicks(niche.id).length) continue;
+    console.log(`\n[scrape-all] ▶ planning ${niche.id} slate…`);
+    const r = spawnSync("node", [DIRECTOR, "plan", "--niche", niche.id, "--daily"], { stdio: "inherit" });
+    if (r.status !== 0) console.warn(`[scrape-all] ⚠ ${niche.id} planning exited ${r.status}`);
   }
 }
 

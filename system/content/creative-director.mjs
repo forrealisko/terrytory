@@ -138,12 +138,35 @@ async function callPlanner(prompt, apiKey) {
   return { content: data.choices?.[0]?.message?.content || "", model: data.model || CONFIG.rating_model };
 }
 
+// Bank any leftover "proposed" ideas from earlier slates so a fresh daily run
+// starts clean — yesterday's un-picked ideas move to the reuse bank rather than
+// piling up in today's slate. (Created drafts are left untouched.)
+function bankStaleProposed({ paths, log }) {
+  if (!fs.existsSync(paths.ideas)) return;
+  let n = 0;
+  for (const f of fs.readdirSync(paths.ideas).filter((x) => x.endsWith(".json"))) {
+    const p = path.join(paths.ideas, f);
+    try {
+      const idea = JSON.parse(fs.readFileSync(p, "utf8"));
+      if (idea.status === "proposed") {
+        idea.status = "banked";
+        fs.writeFileSync(p, JSON.stringify(idea, null, 2));
+        n++;
+      }
+    } catch {}
+  }
+  if (n) log("info", `[Creative Director] Banked ${n} stale proposed idea(s) from prior slates.`);
+}
+
 // ─── PLAN: propose today's slate ─────────────────────────────────────────────
 async function plan(ctx) {
   const { paths, niche, log } = ctx;
   const apiKey = getApiKey();
   const countArg = parseInt(arg("--count") || "", 10);
   const count = Number.isFinite(countArg) ? Math.max(1, Math.min(5, countArg)) : null;
+
+  // Daily/autonomous runs clear the previous slate into the bank first.
+  if (process.argv.includes("--daily")) bankStaleProposed(ctx);
 
   const picks = readPendingPicks(paths).slice(0, 15);
   if (!picks.length) {

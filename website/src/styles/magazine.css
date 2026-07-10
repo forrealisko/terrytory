@@ -500,12 +500,87 @@ body:has(.mag) {
   line-height: 1.4;
   color: var(--ink);
 }
-.mag-article-body ul {
+.mag-article-body ul,
+.mag-article-body ol {
   margin: 0 0 1.4em;
   padding-left: 1.3em;
 }
+.mag-article-body ol {
+  list-style: none;
+  counter-reset: mag-ol;
+  padding-left: 0;
+}
+.mag-article-body ol > li {
+  counter-increment: mag-ol;
+  position: relative;
+  padding-left: 2.6em;
+  margin-bottom: 0.9em;
+}
+.mag-article-body ol > li::before {
+  content: counter(mag-ol);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  width: 1.7em;
+  height: 1.7em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--display);
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--paper);
+  background: var(--accent);
+  border-radius: 50%;
+}
 .mag-article-body li {
   margin-bottom: 0.5em;
+}
+
+/* Comparison tables — the "at a glance" feel */
+.mag-table-wrap {
+  margin: 1.9em 0;
+  overflow-x: auto;
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  border-radius: 8px;
+}
+.mag-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.97rem;
+  line-height: 1.5;
+}
+.mag-table th,
+.mag-table td {
+  padding: 13px 18px;
+  text-align: left;
+  vertical-align: top;
+}
+.mag-table thead th {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  background: var(--paper-2);
+  border-bottom: 1.5px solid color-mix(in srgb, var(--ink) 18%, transparent);
+}
+.mag-table tbody td {
+  color: var(--ink-soft);
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 8%, transparent);
+}
+.mag-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.mag-table tbody td:first-child {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* FAQ — the answer sits quietly under an emphasised question */
+.mag-article-body h2#faq,
+.mag-article-body h2:is([id^="frequently"]) {
+  margin-top: 2.2em;
 }
 .mag-article-body .inline-code {
   font-family: var(--font-geist-mono), monospace;

@@ -16,6 +16,7 @@ export const FORMATS = {
       "A full news article or analysis of a single significant development. Use for the day's biggest, most newsworthy story that deserves depth.",
     word_count: 1100,
     image_count: 2,
+    faq: true,
     structure:
       "Hook intro (1 para) → Context (1-2 para) → Core story (3-4 para) → Analysis (2-3 para) → Implications (1-2 para) → Forward-looking conclusion. Use ## subheads every 150-200 words.",
   },
@@ -38,6 +39,7 @@ export const FORMATS = {
       "A head-to-head of two (or more) tools, models, or approaches. Use when the day's stories involve competing options readers must choose between.",
     word_count: 850,
     image_count: 1,
+    faq: true,
     structure:
       "Intro framing the choice → a Markdown comparison table of the contenders across 4-6 dimensions → a short section per contender (strengths/weaknesses) → a clear 'who should pick which' verdict.",
   },
@@ -49,6 +51,7 @@ export const FORMATS = {
       "A 'what is / how does it work' piece that decodes a concept, technique, or term that's suddenly relevant. Use when a story assumes knowledge readers may lack.",
     word_count: 950,
     image_count: 2,
+    faq: true,
     structure:
       "Plain-language definition up top → why it's in the news → how it actually works (2-3 ## sections, analogies welcome) → where it matters / who's using it → what to watch next.",
   },

@@ -75,6 +75,15 @@ export function getEditorialPrompt(niche, opts = {}) {
   const imageStyle = niche.editorial?.image_style || "Prefer atmospheric, cinematic, editorial imagery relevant to the story";
   const affiliate = niche.monetization?.mode === "affiliate";
 
+  const faqSection = format.faq
+    ? `
+FAQ SECTION (required for this format):
+- End the body with a "## Frequently Asked Questions" heading.
+- Provide 3-4 real questions a reader would actually search for, each as a "### " subheading phrased as the question.
+- Answer each in 2-4 tight, authoritative sentences. Answers must add new specifics, not repeat the body verbatim.
+`
+    : "";
+
   const affiliateSection = affiliate
     ? `
 MONETIZATION SLOTS (affiliate):
@@ -103,8 +112,10 @@ WRITING GUIDELINES & PACING:
 - Lead with the most compelling angle — hook the reader in the first paragraph
 - Use active voice, short paragraphs (2-3 sentences each), and compelling subheadings
 - Include context: why does this matter? What are the implications?
+- DEPTH & AUTHORITY: ground claims in specifics from the research — name the labs, people, models, benchmarks, dates, and numbers. Prefer one concrete fact over three vague statements. Write like an expert who has actually followed this story, not a summarizer.
 - Target approximately ${target} words
 - Structure for this ${format.label.toLowerCase()}: ${format.structure}
+${faqSection}
 
 SEO REQUIREMENTS:
 - Write the single best headline for this article — the one strongest, most compelling title that accurately fits the story you wrote. Do not offer alternatives; commit to the best one.
