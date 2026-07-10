@@ -28,6 +28,7 @@ interface Draft {
   hero_image_url?: string;
   hero_image_alt?: string;
   hero_image_prompt?: string;
+  visual_suggestions?: { kind: string; description: string; placement?: string }[];
   generation: {
     model: string;
     prompt_tokens: number;
@@ -133,6 +134,40 @@ export default function ReviewPage() {
   const [regenerateModel, setRegenerateModel] = useState<string>("anthropic/claude-sonnet-4.6");
   const [isRegenerating, setIsRegenerating] = useState(false);
   const pollIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const bodyRef = useRef<HTMLTextAreaElement | null>(null);
+  const imageInputRef = useRef<HTMLInputElement | null>(null);
+  const [uploadingImage, setUploadingImage] = useState(false);
+
+  // Upload a real image (logo/screenshot/diagram) and insert it into the body
+  // markdown at the cursor. Opens the editor first if it's in preview mode.
+  async function handleImageUpload(file: File) {
+    setUploadingImage(true);
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      fd.append("articleId", draftId);
+      const res = await fetch("/api/content/upload-image", { method: "POST", body: fd });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Upload failed");
+
+      const caption = file.name.replace(/\.[a-z0-9]+$/i, "").replace(/[-_]/g, " ");
+      const snippet = `\n\n![${caption}](${data.url})\n\n`;
+
+      setShowEditor(true);
+      const ta = bodyRef.current;
+      if (ta && typeof ta.selectionStart === "number") {
+        const pos = ta.selectionStart;
+        setBody((b) => b.slice(0, pos) + snippet + b.slice(pos));
+      } else {
+        setBody((b) => b + snippet);
+      }
+      setToast("Image inserted — adjust the caption in the markdown");
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
+      setUploadingImage(false);
+    }
+  }
 
   const fetchDraft = useCallback(async (isPolling = false) => {
     if (!isPolling) setLoading(true);
@@ -444,17 +479,40 @@ export default function ReviewPage() {
               </svg>
               Article Body
             </h3>
-            <button
-              className="btn btn-secondary"
-              onClick={() => setShowEditor(!showEditor)}
-              style={{ fontSize: 12 }}
-            >
-              {showEditor ? "Preview" : "Edit Markdown"}
-            </button>
+            <div style={{ display: "flex", gap: 8 }}>
+              <input
+                ref={imageInputRef}
+                type="file"
+                accept="image/png,image/jpeg,image/webp,image/gif,image/svg+xml"
+                style={{ display: "none" }}
+                onChange={(e) => {
+                  const f = e.target.files?.[0];
+                  if (f) handleImageUpload(f);
+                  e.target.value = "";
+                }}
+              />
+              <button
+                className="btn btn-secondary"
+                onClick={() => imageInputRef.current?.click()}
+                disabled={uploadingImage}
+                style={{ fontSize: 12 }}
+                title="Upload a real logo, screenshot or diagram and insert it into the body"
+              >
+                {uploadingImage ? "Uploading…" : "🖼 Insert image"}
+              </button>
+              <button
+                className="btn btn-secondary"
+                onClick={() => setShowEditor(!showEditor)}
+                style={{ fontSize: 12 }}
+              >
+                {showEditor ? "Preview" : "Edit Markdown"}
+              </button>
+            </div>
           </div>
 
           {showEditor ? (
             <textarea
+              ref={bodyRef}
               className="review-body-editor"
               value={body}
               onChange={(e) => setBody(e.target.value)}
@@ -467,6 +525,26 @@ export default function ReviewPage() {
                 __html: `<h1 class="md-h1">${finalHeadline.replace(/</g, "&lt;")}</h1>${renderMarkdown(body)}`,
               }}
             />
+          )}
+
+          {draft.visual_suggestions && draft.visual_suggestions.length > 0 && (
+            <div className="visual-checklist">
+              <div className="visual-checklist-head">
+                🎨 Visuals to source
+                <span>AI suggests these real assets — find them, then hit “Insert image” above</span>
+              </div>
+              <ul>
+                {draft.visual_suggestions.map((v, i) => (
+                  <li key={i}>
+                    <span className={`vc-kind vc-${v.kind}`}>{v.kind}</span>
+                    <span className="vc-desc">
+                      {v.description}
+                      {v.placement ? <em> — {v.placement}</em> : null}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </section>
 

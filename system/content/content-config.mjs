@@ -132,6 +132,11 @@ IMAGE GUIDANCE:
 - Avoid text in images. ${imageStyle}
 - Provide exactly ${imageCount} "inline_images" to be inserted in the body${imageCount === 0 ? " (an empty array)" : ""}. For each, give a prompt, a caption, and the paragraph_index (1-indexed) after which the image should be placed. Space them out well across the piece.
 
+REAL VISUALS TO SOURCE (human-in-the-loop checklist):
+- Beyond the AI-generated imagery, list 2-4 REAL visuals a human editor should find and drop in — the assets AI can't fabricate credibly: official product logos, real UI screenshots, benchmark charts, or architecture diagrams.
+- For each, add an entry to "visual_suggestions": { "kind": "logo|screenshot|chart|diagram|photo", "description": "<exactly what to find or make>", "placement": "<where in the piece it belongs>" }.
+- Suggest only visuals that genuinely strengthen the piece. These are recommendations for the editor, not generated here.
+
 You MUST respond with valid JSON only — no explanation text outside the JSON.
 
 OUTPUT FORMAT:
@@ -149,6 +154,9 @@ OUTPUT FORMAT:
   "inline_images": [
     { "prompt": "Flux Dev prompt...", "caption": "Image caption...", "paragraph_index": 3 },
     { "prompt": "Flux Dev prompt...", "caption": "Image caption...", "paragraph_index": 7 }
+  ],
+  "visual_suggestions": [
+    { "kind": "screenshot", "description": "The product's demo UI from the launch post", "placement": "after the 'What it does' section" }
   ]${affiliateJson}
 }`;
 }

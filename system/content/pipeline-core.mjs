@@ -276,6 +276,7 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
     excerpt: draftContent.excerpt || "",
     seo: draftContent.seo || { meta_title: "", meta_description: "", keywords: [] },
     hero_image_prompt: draftContent.hero_image_prompt || null,
+    visual_suggestions: draftContent.visual_suggestions || [],
     affiliate_slots: draftContent.affiliate_slots || [],
     generation: draftContent.generation,
   };
