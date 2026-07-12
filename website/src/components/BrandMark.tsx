@@ -3,11 +3,11 @@
 /**
  * TERRYTORY brand mark — the connected double-R monogram.
  * Two R glyphs fused across a shared central spine (right half a clean R,
- * left half its mirror). Rendered in brand green with a soft glow and a
+ * left half its mirror). Rendered in brand blue with a soft glow and a
  * deterministic graffiti-style spray of overspray dots hugging the strokes.
  */
 
-const GREEN = "#00e676";
+const BRAND = "#4f8dfd";
 
 // Small seeded PRNG so the spray pattern is stable across renders.
 function mulberry32(seed: number) {
@@ -59,7 +59,7 @@ const SPRAY = (() => {
 
 function Strokes({ w = 24, opacity = 1, filter }: { w?: number; opacity?: number; filter?: string }) {
   return (
-    <g fill="none" stroke={GREEN} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" opacity={opacity} filter={filter}>
+    <g fill="none" stroke={BRAND} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" opacity={opacity} filter={filter}>
       <path d="M0,-70 L0,70" />
       <path d="M0,-70 A 36 36 0 0 1 0,2" />
       <path d="M0,2 L74,70" />
@@ -90,7 +90,7 @@ export function BrandMark({ size = 38 }: { size?: number }) {
       <Strokes w={30} opacity={0.4} filter="url(#mk-glow)" />
       <g filter="url(#mk-soft)">
         {SPRAY.map((d, i) => (
-          <circle key={i} cx={d.x} cy={d.y} r={d.r} fill={GREEN} opacity={d.o} />
+          <circle key={i} cx={d.x} cy={d.y} r={d.r} fill={BRAND} opacity={d.o} />
         ))}
       </g>
       <Strokes w={24} />

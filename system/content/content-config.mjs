@@ -119,6 +119,7 @@ WRITING GUIDELINES & PACING:
 - Use active voice, short paragraphs (2-3 sentences each), and compelling subheadings
 - Include context: why does this matter? What are the implications?
 - DEPTH & AUTHORITY: ground claims in specifics from the research — name the labs, people, models, benchmarks, dates, and numbers. Prefer one concrete fact over three vague statements. Write like an expert who has actually followed this story, not a summarizer.
+- ENTITY LINKS: the first time you name a well-known company, product, lab, or organization (e.g. SpaceX, OpenAI, NVIDIA, Anthropic, Hugging Face), turn that mention into a Markdown link to its official homepage: [SpaceX](https://www.spacex.com). Only link entities whose official URL you are confident about — if unsure, leave it as plain text rather than guessing. Link each entity at most once (the first mention), don't link generic terms, and never invent URLs or link to article/news pages.
 - Target approximately ${target} words
 - Structure for this ${format.label.toLowerCase()}: ${format.structure}
 ${faqSection}
@@ -139,7 +140,9 @@ IMAGE BRIEFS (editor-sourced, NOT AI-generated):
   - Good: "Split-screen comparison: ChatGPT interface on the left vs Claude interface on the right, both showing code generation, dark mode, clean screenshot"
   - Bad: "An image of AI" (too vague)
 - Include the hero image as the first suggestion.
-- For each, add an entry to "visual_suggestions" with: { "kind": "hero|photo|screenshot|comparison|diagram|logo", "description": "<detailed visual brief — be specific about subject, angle, lighting, mood>", "placement": "<where in the piece it belongs, e.g. 'hero image' or 'after the comparison table'>" }.
+- Number the images IMG1, IMG2, IMG3… in the order they appear in the piece.
+- For each, add an entry to "visual_suggestions" with: { "id": "IMG1", "kind": "hero|photo|screenshot|comparison|diagram|logo", "description": "<detailed visual brief — be specific about subject, angle, lighting, mood>", "placement": "<where in the piece it belongs, e.g. 'hero image' or 'after the comparison table'>" }.
+- CRITICAL — inline placement tokens: for every NON-hero image, drop a placeholder token on its own line in "body_markdown" at the EXACT spot it belongs, in this exact form: [IMAGE #IMG2: short description]. Use the same id as the matching visual_suggestions entry. Do NOT place a token for the hero image (it sits at the top automatically). This lets the editor drop the real asset straight into the right slot.
 - Suggest only visuals that genuinely strengthen the piece. The editor will find/create these and upload them.
 
 You MUST respond with valid JSON only — no explanation text outside the JSON.
@@ -156,8 +159,8 @@ OUTPUT FORMAT:
     "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"]
   },
   "visual_suggestions": [
-    { "kind": "hero", "description": "Detailed visual brief for the hero image...", "placement": "hero image" },
-    { "kind": "screenshot", "description": "The product's demo UI from the launch post", "placement": "after the 'What it does' section" }
+    { "id": "IMG1", "kind": "hero", "description": "Detailed visual brief for the hero image...", "placement": "hero image" },
+    { "id": "IMG2", "kind": "screenshot", "description": "The product's demo UI from the launch post", "placement": "after the 'What it does' section" }
   ]${affiliateJson}
 }`;
 }

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 interface Headline {
   type: string;
@@ -84,13 +83,31 @@ function getRelativeDisplay(dateStr: string | null | undefined): string {
   return formatDate(dateStr);
 }
 
-type TimeFilter = "all" | "7d" | "48h";
+type TimeFilter = "all" | "24h" | "48h" | "72h" | "5d";
+type ScoreFilter = "all" | "90-100" | "80-90" | "60-80" | "40-60" | "rest";
+
+const TIME_FILTERS: { id: TimeFilter; label: string; maxHours: number }[] = [
+  { id: "all", label: "All", maxHours: Infinity },
+  { id: "24h", label: "24h", maxHours: 24 },
+  { id: "48h", label: "48h", maxHours: 48 },
+  { id: "72h", label: "72h", maxHours: 72 },
+  { id: "5d", label: "5 days", maxHours: 120 },
+];
+
+const SCORE_FILTERS: { id: ScoreFilter; label: string; min: number; max: number }[] = [
+  { id: "all", label: "All", min: -Infinity, max: Infinity },
+  { id: "90-100", label: "90–100", min: 90, max: Infinity },
+  { id: "80-90", label: "80–90", min: 80, max: 90 },
+  { id: "60-80", label: "60–80", min: 60, max: 80 },
+  { id: "40-60", label: "40–60", min: 40, max: 60 },
+  { id: "rest", label: "Rest", min: -Infinity, max: 40 },
+];
 
 export default function DashboardPage() {
   const [data, setData] = useState<ScrapeResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [activeFilter, setActiveFilter] = useState<string>("all");
+  const [activeScoreFilter, setActiveScoreFilter] = useState<ScoreFilter>("all");
   const [activeTimeFilter, setActiveTimeFilter] = useState<TimeFilter>("all");
   const [starredUrls, setStarredUrls] = useState<Set<string>>(new Set());
 
@@ -252,94 +269,27 @@ export default function DashboardPage() {
   // ── Combined filtering: source × time ────────────────────────────────────
   const filteredHeadlines =
     data?.headlines?.filter((h) => {
-      // Source filter
-      const matchesSource =
-        activeFilter === "all" || h._source_id === activeFilter;
-      if (!matchesSource) return false;
+      // Score filter — interest_score is 0–100 (may be absent → treated as "rest")
+      const scoreDef = SCORE_FILTERS.find((s) => s.id === activeScoreFilter);
+      if (scoreDef && activeScoreFilter !== "all") {
+        const score = typeof h.interest_score === "number" ? h.interest_score : -1;
+        // Upper bound exclusive so buckets don't overlap (e.g. exactly 80 lands in 80–90)
+        if (!(score >= scoreDef.min && score < scoreDef.max)) return false;
+      }
 
       // Time filter — use first_seen as the primary timestamp, fall back to article_date
       const compareDate = h.first_seen || h.article_date;
       const ageHours = getHourDifference(compareDate);
+      const timeDef = TIME_FILTERS.find((t) => t.id === activeTimeFilter);
+      if (timeDef && ageHours > timeDef.maxHours) return false;
 
-      if (activeTimeFilter === "48h") {
-        return ageHours <= 48;
-      }
-      if (activeTimeFilter === "7d") {
-        return ageHours <= 168; // 7 days × 24 hours
-      }
       return true;
     }) ?? [];
 
   return (
     <>
-      {/* Header */}
-      <header className="main-header">
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <h2>Scrapes &amp; Feed</h2>
-          <span style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 2 }}>
-            Monitor automated scrape operations and view raw feeds.
-          </span>
-        </div>
-        <div className="main-header-actions" style={{ gap: 12 }}>
-          <button
-            className="btn btn-primary"
-            onClick={handleScrapeAndGenerate}
-            disabled={scraping}
-            style={{ opacity: scraping ? 0.6 : 1 }}
-          >
-            {scraping ? (
-              <>
-                <span className="loading-spinner" />
-                Scraping...
-              </>
-            ) : (
-              <>
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" />
-                </svg>
-                Run Scraper
-              </>
-            )}
-          </button>
-          <button
-            className="btn btn-secondary"
-            onClick={fetchScrapes}
-            disabled={scraping}
-          >
-            <svg
-              width="14"
-              height="14"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path d="M21 2v6h-6" />
-              <path d="M3 12a9 9 0 0 1 15-6.7L21 8" />
-              <path d="M3 22v-6h6" />
-              <path d="M21 12a9 9 0 0 1-15 6.7L3 16" />
-            </svg>
-            Refresh
-          </button>
-          
-          <Link href="/admin/settings" className="btn btn-secondary" style={{ padding: "8px" }} title="Settings">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} width="16" height="16">
-              <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
-              <circle cx="12" cy="12" r="3" />
-            </svg>
-          </Link>
-        </div>
-      </header>
-
       {/* Body */}
-      <div className="main-body">
+      <div className="main-body" style={{ paddingTop: 24 }}>
         {/* Scraper console output */}
         {genOutput && (
           <div
@@ -389,28 +339,22 @@ export default function DashboardPage() {
             {/* Feed */}
             <div className="feed-section">
               <div className="feed-section-header">
-                <h3>Latest Headlines</h3>
+                <h3>Latest Articles</h3>
               </div>
 
-              {/* Dual filter row */}
+              {/* Filter row + actions */}
               <div className="filter-row-container">
-                {/* Source Selector */}
+                {/* Score Selector */}
                 <div className="filter-group">
-                  <span className="filter-group-label">Source:</span>
+                  <span className="filter-group-label">Score:</span>
                   <div className="feed-filter-tabs">
-                    <button
-                      className={`feed-filter-tab ${activeFilter === "all" ? "active" : ""}`}
-                      onClick={() => setActiveFilter("all")}
-                    >
-                      All
-                    </button>
-                    {data.sources.map((src) => (
+                    {SCORE_FILTERS.map((s) => (
                       <button
-                        key={src.id}
-                        className={`feed-filter-tab ${activeFilter === src.id ? "active" : ""}`}
-                        onClick={() => setActiveFilter(src.id)}
+                        key={s.id}
+                        className={`feed-filter-tab ${activeScoreFilter === s.id ? "active" : ""}`}
+                        onClick={() => setActiveScoreFilter(s.id)}
                       >
-                        {src.name}
+                        {s.label}
                       </button>
                     ))}
                   </div>
@@ -420,25 +364,49 @@ export default function DashboardPage() {
                 <div className="filter-group">
                   <span className="filter-group-label">Timeframe:</span>
                   <div className="feed-filter-tabs">
-                    <button
-                      className={`feed-filter-tab ${activeTimeFilter === "all" ? "active" : ""}`}
-                      onClick={() => setActiveTimeFilter("all")}
-                    >
-                      Total
-                    </button>
-                    <button
-                      className={`feed-filter-tab ${activeTimeFilter === "7d" ? "active" : ""}`}
-                      onClick={() => setActiveTimeFilter("7d")}
-                    >
-                      Last 7 Days
-                    </button>
-                    <button
-                      className={`feed-filter-tab ${activeTimeFilter === "48h" ? "active" : ""}`}
-                      onClick={() => setActiveTimeFilter("48h")}
-                    >
-                      Last 48 Hours
-                    </button>
+                    {TIME_FILTERS.map((t) => (
+                      <button
+                        key={t.id}
+                        className={`feed-filter-tab ${activeTimeFilter === t.id ? "active" : ""}`}
+                        onClick={() => setActiveTimeFilter(t.id)}
+                      >
+                        {t.label}
+                      </button>
+                    ))}
                   </div>
+                </div>
+
+                {/* Actions — pushed to the right */}
+                <div style={{ display: "flex", gap: 8, marginLeft: "auto" }}>
+                  <button
+                    className="btn btn-primary"
+                    onClick={handleScrapeAndGenerate}
+                    disabled={scraping}
+                    style={{ opacity: scraping ? 0.6 : 1 }}
+                  >
+                    {scraping ? (
+                      <>
+                        <span className="loading-spinner" />
+                        Scraping...
+                      </>
+                    ) : (
+                      <>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                          <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" />
+                        </svg>
+                        Run Scraper
+                      </>
+                    )}
+                  </button>
+                  <button className="btn btn-secondary" onClick={fetchScrapes} disabled={scraping}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                      <path d="M21 2v6h-6" />
+                      <path d="M3 12a9 9 0 0 1 15-6.7L21 8" />
+                      <path d="M3 22v-6h6" />
+                      <path d="M21 12a9 9 0 0 1-15 6.7L3 16" />
+                    </svg>
+                    Refresh
+                  </button>
                 </div>
               </div>
 
@@ -498,7 +466,7 @@ export default function DashboardPage() {
                                 lineHeight: 1.4,
                                 color:
                                   h.interest_score >= 70
-                                    ? "#00e676"
+                                    ? "#4f8dfd"
                                     : h.interest_score >= 40
                                     ? "#f59e0b"
                                     : "var(--text-muted)",

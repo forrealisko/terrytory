@@ -29,7 +29,7 @@ export default function LoginPage() {
     <div style={styles.wrap}>
       <form style={styles.card} onSubmit={submit}>
         <div style={styles.brand}>
-          TERRY<span style={{ color: "var(--accent-brand, #00e676)" }}>TORY</span>
+          TERRY<span style={{ color: "var(--accent-brand, #4f8dfd)" }}>TORY</span>
         </div>
         <p style={styles.sub}>Admin access</p>
 
@@ -106,7 +106,7 @@ const styles: Record<string, CSSProperties> = {
     fontSize: 14,
     fontWeight: 600,
     color: "#0b0c0f",
-    background: "var(--accent-brand, #00e676)",
+    background: "var(--accent-brand, #4f8dfd)",
     border: "none",
     borderRadius: 8,
     cursor: "pointer",

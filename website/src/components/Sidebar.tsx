@@ -73,6 +73,16 @@ interface NicheInfo {
   accent: string;
 }
 
+// Map the current admin page to the Settings tab we should open on.
+function sectionForPathname(pathname: string): string {
+  if (pathname.startsWith("/admin/studio")) return "studio";
+  if (pathname.startsWith("/admin/chat")) return "desk";
+  if (pathname.startsWith("/admin/content")) return "create";
+  if (pathname.startsWith("/admin/analytics")) return "analytics";
+  if (pathname === "/admin") return "scraper";
+  return "general";
+}
+
 export function Sidebar() {
   const pathname = usePathname();
   const [draftCount, setDraftCount] = useState<number | null>(null);
@@ -136,12 +146,12 @@ export function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <BrandMark size={34} />
+        <BrandMark size={28} />
         <h1 className="brand-title-powerful">TERRYTORY</h1>
       </div>
 
       {niches.length > 1 && (
-        <div style={{ padding: "12px 12px 16px", display: "flex", flexDirection: "column", gap: 4 }}>
+        <div style={{ padding: "12px 12px 16px", display: "flex", flexDirection: "row", gap: 6 }}>
           {niches.map((n) => {
             const isActive = n.id === activeNiche;
             return (
@@ -151,17 +161,19 @@ export function Sidebar() {
                 style={{
                   display: "flex",
                   alignItems: "center",
+                  justifyContent: "center",
                   gap: 8,
                   padding: "7px 10px",
                   borderRadius: 8,
                   fontSize: 12,
                   fontWeight: isActive ? 700 : 500,
                   cursor: "pointer",
-                  border: `1px solid ${isActive ? `${n.accent}44` : "transparent"}`,
+                  border: `1px solid ${isActive ? `${n.accent}44` : "var(--border-subtle)"}`,
                   background: isActive ? `${n.accent}14` : "transparent",
                   color: isActive ? n.accent : "var(--text-secondary)",
-                  textAlign: "left",
-                  width: "100%",
+                  textAlign: "center",
+                  flex: 1,
+                  minWidth: 0,
                   transition: "all 0.15s ease",
                 }}
               >
@@ -188,14 +200,14 @@ export function Sidebar() {
           <Link
             key={item.href}
             href={item.href}
-            className={`sidebar-link ${pathname === item.href ? "active" : ""}`}
+            className={`sidebar-link ${pathname === item.href ? "active" : ""} ${item.href === "/admin/chat" ? "sidebar-link-muted" : ""}`}
           >
             {item.icon}
             <span>{item.label}</span>
             {item.href === "/admin/content" && draftCount !== null && draftCount > 0 && (
               <span
                 style={{
-                  background: "var(--accent-fresh, #00e676)",
+                  background: "var(--accent-fresh, #4f8dfd)",
                   color: "#0b0c0f",
                   fontSize: 10,
                   fontWeight: 700,
@@ -234,6 +246,17 @@ export function Sidebar() {
       </nav>
 
       <div className="sidebar-footer">
+        <Link
+          href={`/admin/settings?tab=${sectionForPathname(pathname)}`}
+          className={`sidebar-link ${pathname.startsWith("/admin/settings") ? "active" : ""}`}
+          style={{ marginBottom: 10 }}
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
+            <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+          <span>SETTINGS</span>
+        </Link>
         <div className="sidebar-status">
           <div className="sidebar-status-dot" />
           <span>Scrapers active</span>

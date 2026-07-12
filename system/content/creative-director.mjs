@@ -64,10 +64,63 @@ function writeIdea(paths, idea) {
   fs.writeFileSync(path.join(paths.ideas, `${idea.id}.json`), JSON.stringify(idea, null, 2));
 }
 
+// The titles of ideas we've already proposed (any status), newest first. Fed to
+// the planner so it doesn't re-pitch the same story day after day.
+function readRecentIdeaTitles(paths, limit = 15) {
+  if (!fs.existsSync(paths.ideas)) return [];
+  const ideas = fs
+    .readdirSync(paths.ideas)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => {
+      try {
+        return JSON.parse(fs.readFileSync(path.join(paths.ideas, f), "utf8"));
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean)
+    .sort((a, b) => (b.created_at || "").localeCompare(a.created_at || ""));
+  const seen = new Set();
+  const titles = [];
+  for (const idea of ideas) {
+    const t = (idea.title || "").trim();
+    if (t && !seen.has(t)) {
+      seen.add(t);
+      titles.push(t);
+    }
+    if (titles.length >= limit) break;
+  }
+  return titles;
+}
+
+// Mark the picks a plan() run considered as "planned" so they don't resurface in
+// the next run's pending pool. This is the core fix for duplicate slates: without
+// it, the same top-rated pending picks get re-planned on every run.
+function markPicksPlanned({ paths, log }, picks) {
+  let n = 0;
+  for (const pick of picks) {
+    if (!pick?.id) continue;
+    const file = path.join(paths.picks, `${pick.id}.json`);
+    if (!fs.existsSync(file)) continue;
+    try {
+      const data = JSON.parse(fs.readFileSync(file, "utf8"));
+      data.status = "planned";
+      fs.writeFileSync(file, JSON.stringify(data, null, 2));
+      n++;
+    } catch {}
+  }
+  if (n) log("info", `[Creative Director] Marked ${n} pick(s) as planned (won't resurface next run).`);
+}
+
 // ─── planner prompt ──────────────────────────────────────────────────────────
-function buildPlannerPrompt(niche, picks, count) {
+function buildPlannerPrompt(niche, picks, count, recentTitles = []) {
   const brand = niche.brand?.name || "TERRYTORY";
   const description = niche.editorial?.publication_description || "a premium publication";
+
+  const alreadyCovered = recentTitles.length
+    ? `\nTOPICS ALREADY COVERED RECENTLY (do NOT re-pitch these — no near-duplicates, no rewordings, unless there is genuinely fresh news that changes the story):
+${recentTitles.map((t) => `  - ${t}`).join("\n")}\n`
+    : "";
 
   const stories = picks
     .map((p, i) => {
@@ -93,7 +146,7 @@ ${formatsMenu()}
 
 TODAY'S RATED STORIES (your raw material):
 ${stories}
-
+${alreadyCovered}
 WHAT MAKES AN IDEA WORTH RUNNING (optimize for engagement, not just importance):
 - A clear "so what for me" hook — a money, productivity, career, or "build this today" angle beats a neutral recap.
 - A real debate or tension — "is X overhyped?", "worth it or not?", "who actually wins?". Take a side when the story earns one (that's the Hot Take format).
@@ -187,8 +240,9 @@ async function plan(ctx) {
     return;
   }
 
-  log("info", `[Creative Director] Planning from ${picks.length} rated stories${count ? ` (target ${count})` : " (auto 2-5)"}...`);
-  const { content, model } = await callPlanner(buildPlannerPrompt(niche, picks, count), apiKey);
+  const recentTitles = readRecentIdeaTitles(paths);
+  log("info", `[Creative Director] Planning from ${picks.length} rated stories${count ? ` (target ${count})` : " (auto 2-5)"}${recentTitles.length ? `, avoiding ${recentTitles.length} recent topic(s)` : ""}...`);
+  const { content, model } = await callPlanner(buildPlannerPrompt(niche, picks, count, recentTitles), apiKey);
   const parsed = parseModelJson(content);
   const scenarios = Array.isArray(parsed.scenarios) ? parsed.scenarios : [];
   if (!scenarios.length) throw new Error("Planner returned no scenarios.");
@@ -225,6 +279,9 @@ async function plan(ctx) {
     saved.push(idea);
     log("info", `  ${idea.priority}. [${format}] ${idea.title}`);
   });
+
+  // Retire the picks we just planned from so they don't get re-planned next run.
+  markPicksPlanned(ctx, picks);
 
   console.log(`\n[creative-director] Proposed ${saved.length} scenario(s) for ${niche.brand?.name || niche.id}:`);
   saved.forEach((i) => console.log(`  ${i.priority}. [${i.format}] ${i.title}`));

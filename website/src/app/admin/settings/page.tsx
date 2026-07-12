@@ -1,6 +1,18 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, Suspense } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
+
+/* ── Tabs ─────────────────────────────────────────────────────────── */
+const TABS: { id: string; label: string }[] = [
+  { id: "general", label: "General" },
+  { id: "scraper", label: "Scraper" },
+  { id: "studio", label: "Studio" },
+  { id: "desk", label: "Desk" },
+  { id: "create", label: "Create" },
+  { id: "analytics", label: "Analytics" },
+];
+const TAB_IDS = TABS.map((t) => t.id);
 
 /* ── Types ───────────────────────────────────────────────────────── */
 interface Role {
@@ -73,6 +85,31 @@ function modelShort(m: string) {
 
 /* ── Page ─────────────────────────────────────────────────────────── */
 export default function SettingsPage() {
+  return (
+    <Suspense fallback={<div className="main-body" />}>
+      <SettingsInner />
+    </Suspense>
+  );
+}
+
+function SettingsInner() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const requestedTab = searchParams.get("tab") || "general";
+  const [activeTab, setActiveTab] = useState<string>(
+    TAB_IDS.includes(requestedTab) ? requestedTab : "general"
+  );
+
+  // Keep the tab in sync when navigating in from another page (URL param changes).
+  useEffect(() => {
+    if (TAB_IDS.includes(requestedTab)) setActiveTab(requestedTab);
+  }, [requestedTab]);
+
+  const selectTab = (id: string) => {
+    setActiveTab(id);
+    router.replace(`/admin/settings?tab=${id}`);
+  };
+
   const [config, setConfig] = useState<ConfigResp | null>(null);
   const [niches, setNiches] = useState<NicheResp[]>([]);
   const [status, setStatus] = useState<Status>({});
@@ -119,6 +156,58 @@ export default function SettingsPage() {
       </header>
 
       <div className="main-body" style={{ maxWidth: 760 }}>
+        {/* ── Tab strip ── */}
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: 6,
+            marginBottom: 24,
+            borderBottom: "1px solid var(--border-subtle)",
+            paddingBottom: 12,
+          }}
+        >
+          {TABS.map((t) => (
+            <button
+              key={t.id}
+              onClick={() => selectTab(t.id)}
+              className={`feed-filter-tab ${activeTab === t.id ? "active" : ""}`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+
+        {activeTab !== "general" ? (
+          <div
+            className="settings-section"
+            style={{ textAlign: "center", padding: "40px 20px", color: "var(--text-muted)" }}
+          >
+            <div style={{ fontSize: 28, marginBottom: 10 }}>⚙️</div>
+            <p style={{ fontSize: 14, marginBottom: 6 }}>
+              No {TABS.find((t) => t.id === activeTab)?.label}-specific settings yet.
+            </p>
+            <p style={{ fontSize: 12 }}>
+              Global configuration lives under{" "}
+              <button
+                onClick={() => selectTab("general")}
+                style={{
+                  background: "none",
+                  border: "none",
+                  color: "var(--accent-brand)",
+                  cursor: "pointer",
+                  fontSize: 12,
+                  padding: 0,
+                  textDecoration: "underline",
+                }}
+              >
+                General
+              </button>
+              .
+            </p>
+          </div>
+        ) : (
+          <>
         {/* ── Spend Tier Selector ── */}
         <div className="settings-section">
           <h3>AI spending tier</h3>
@@ -283,6 +372,8 @@ export default function SettingsPage() {
             />
           </div>
         </div>
+          </>
+        )}
       </div>
     </>
   );

@@ -160,21 +160,17 @@ export default function EditorialChatPage() {
     if (loaded.current) localStorage.setItem(MODEL_KEY, model);
   }, [model]);
 
-  /* ── Ensure a "today" brief session exists once niches resolve ── */
+  /* ── Ensure a "today" brief session exists once niches resolve ──
+     Auto-creation is currently DISABLED — Desk is de-emphasized for now. The
+     manual "+ Daily brief" button still creates a brief on demand. We keep the
+     "select an existing brief if nothing is active" fallback so returning to a
+     previously-created brief still works, but never silently mint a new one. */
   useEffect(() => {
     if (!loaded.current || !niches.length) return;
+    if (activeId) return;
     const date = todayStr();
-    const exists = sessions.some(
-      (s) => s.type === "brief" && s.date === date && s.niche === activeNiche,
-    );
-    if (!exists) {
-      const s = newSession("brief", activeNiche);
-      setSessions((prev) => [s, ...prev]);
-      setActiveId(s.id);
-    } else if (!activeId) {
-      const s = sessions.find((x) => x.type === "brief" && x.date === date && x.niche === activeNiche);
-      if (s) setActiveId(s.id);
-    }
+    const s = sessions.find((x) => x.type === "brief" && x.date === date && x.niche === activeNiche);
+    if (s) setActiveId(s.id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [niches, activeNiche, loaded.current]);
 

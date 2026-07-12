@@ -52,6 +52,14 @@ export interface Author {
   bio: string;
 }
 
+export interface VisualSuggestion {
+  id?: string;
+  kind: string;
+  description: string;
+  placement?: string;
+  uploaded_url?: string;
+}
+
 export interface ArticleDraft {
   id: string;
   niche?: string;
@@ -59,6 +67,7 @@ export interface ArticleDraft {
   status: "draft" | "published" | "rejected" | "generating";
   format?: string;
   author?: Author;
+  visual_suggestions?: VisualSuggestion[];
 
   source_articles: SourceReference[];
 

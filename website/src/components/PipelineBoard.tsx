@@ -12,10 +12,10 @@ interface Stages {
 }
 
 const STAGE_META = [
-  { key: "scraped", label: "Scraped", href: "/admin", color: "#00b0ff", sub: (s: Stages) => `${s.scrapedNew} new this run` },
+  { key: "scraped", label: "Scraped", href: "/admin", color: "#38bdf8", sub: (s: Stages) => `${s.scrapedNew} new this run` },
   { key: "picks", label: "Picked", href: "/admin/content/picking", color: "#f59e0b", sub: () => "awaiting writer" },
   { key: "drafts", label: "Drafted", href: "/admin/content", color: "#a78bfa", sub: () => "awaiting review" },
-  { key: "published", label: "Published", href: "/admin/content/published", color: "#00e676", sub: () => "live on the blog" },
+  { key: "published", label: "Published", href: "/admin/content/published", color: "#4f8dfd", sub: () => "live on the blog" },
 ] as const;
 
 export function PipelineBoard() {

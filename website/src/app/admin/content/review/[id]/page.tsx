@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { MODELS } from "@/lib/models";
 
 interface Draft {
   id: string;
@@ -28,7 +27,7 @@ interface Draft {
   hero_image_url?: string;
   hero_image_alt?: string;
   hero_image_prompt?: string;
-  visual_suggestions?: { kind: string; description: string; placement?: string }[];
+  visual_suggestions?: { id?: string; kind: string; description: string; placement?: string; uploaded_url?: string }[];
   generation: {
     model: string;
     prompt_tokens: number;
@@ -37,12 +36,27 @@ interface Draft {
   };
 }
 
+// AI image models offered per slot (keys must match generate-variations route).
+const GEN_MODELS = [
+  { key: "flux-dev", label: "Flux Dev", hint: "balanced" },
+  { key: "flux-schnell", label: "Flux Schnell", hint: "fastest" },
+  { key: "flux-pro", label: "Flux 1.1 Pro", hint: "best quality" },
+] as const;
+
 function renderMarkdown(text: string): string {
   if (!text) return "";
   let html = text
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
+
+  // Editor image-brief placeholder tokens: [IMAGE #IMG2: description]
+  // Rendered as an interactive slot; the review page delegates clicks by data-img-id.
+  html = html.replace(
+    /\[IMAGE #(IMG\d+):\s*([^\]]*)\]/g,
+    (_m, id, desc) =>
+      `<div class="img-slot" data-img-id="${id}"><span class="img-slot-label">🖼 ${id}</span><span class="img-slot-desc">${desc.trim()}</span><button type="button" class="img-slot-btn" data-img-id="${id}">Upload image</button></div>`
+  );
 
   // Images
   html = html.replace(
@@ -116,6 +130,8 @@ export default function ReviewPage() {
   // Editable state
   const [selectedHeadline, setSelectedHeadline] = useState<string>("");
   const [customHeadline, setCustomHeadline] = useState("");
+  const [editingHeadline, setEditingHeadline] = useState(false);
+  const [headlineDraft, setHeadlineDraft] = useState("");
   const [body, setBody] = useState("");
   const [excerpt, setExcerpt] = useState("");
   const [slug, setSlug] = useState("");
@@ -130,17 +146,69 @@ export default function ReviewPage() {
   const [showEditor, setShowEditor] = useState(false);
   const [seoOpen, setSeoOpen] = useState(false);
   const [falConnected, setFalConnected] = useState(false);
-  
-  const [regenerateModel, setRegenerateModel] = useState<string>("anthropic/claude-sonnet-4.6");
-  const [isRegenerating, setIsRegenerating] = useState(false);
-  const pollIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const bodyRef = useRef<HTMLTextAreaElement | null>(null);
   const imageInputRef = useRef<HTMLInputElement | null>(null);
   const [uploadingImage, setUploadingImage] = useState(false);
+  // Which image-brief slot (if any) triggered the file picker, so onChange can
+  // route the file to the right inline token. null = legacy "insert at cursor".
+  const pendingImgRef = useRef<{ id: string; description: string } | null>(null);
+  const [uploadedSlots, setUploadedSlots] = useState<Record<string, string>>({});
 
-  // Upload a real image (logo/screenshot/diagram) and insert it into the body
-  // markdown at the cursor. Opens the editor first if it's in preview mode.
-  async function handleImageUpload(file: File) {
+  // ── AI image generation (fal.ai) per slot ──
+  const [genModel, setGenModel] = useState<string>("flux-dev");
+  const [modelPickerOpen, setModelPickerOpen] = useState(false);
+  const [generatingSlot, setGeneratingSlot] = useState<string | null>(null);
+  const [genVariations, setGenVariations] = useState<Record<string, { url: string }[]>>({});
+
+  // Trigger the (single, hidden) file picker for a specific image-brief slot.
+  const pickImageForSlot = (id: string, description: string) => {
+    pendingImgRef.current = { id, description };
+    imageInputRef.current?.click();
+  };
+
+  // Place a resolved image URL into a slot: swap its inline [IMAGE #IMGn: …]
+  // token for the markdown image (or append if the token is gone). Shared by
+  // manual upload and AI-gallery pick.
+  const fillSlotWithUrl = (id: string, description: string, url: string) => {
+    const caption = (description || "").replace(/"/g, "");
+    const tokenRe = new RegExp(`\\[IMAGE #${id}:[^\\]]*\\]`);
+    setBody((b) =>
+      tokenRe.test(b) ? b.replace(tokenRe, `![${caption}](${url})`) : `${b}\n\n![${caption}](${url})\n\n`
+    );
+    setUploadedSlots((prev) => ({ ...prev, [id]: url }));
+  };
+
+  // Generate a few AI variations for one slot; user picks from the gallery.
+  async function generateForSlot(v: { id?: string; description: string }) {
+    if (!v.id) return;
+    setGeneratingSlot(v.id);
+    try {
+      const res = await fetch("/api/content/generate-variations", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          prompt: v.description,
+          articleId: draftId,
+          slotId: v.id,
+          model: genModel,
+          count: 3,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Generation failed");
+      setGenVariations((prev) => ({ ...prev, [v.id!]: data.images || [] }));
+      showToast(`Generated ${data.images?.length || 0} options for ${v.id} ✓`);
+    } catch (err) {
+      showToast(`Generation failed: ${(err as Error).message}`);
+    } finally {
+      setGeneratingSlot(null);
+    }
+  }
+
+  // Upload a real image (logo/screenshot/diagram). If it targets a specific
+  // image-brief slot, replace that inline [IMAGE #IMGn: …] token with the image.
+  // Otherwise fall back to inserting markdown at the textarea cursor.
+  async function handleImageUpload(file: File, target: { id: string; description: string } | null) {
     setUploadingImage(true);
     try {
       const fd = new FormData();
@@ -150,18 +218,24 @@ export default function ReviewPage() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Upload failed");
 
-      const caption = file.name.replace(/\.[a-z0-9]+$/i, "").replace(/[-_]/g, " ");
-      const snippet = `\n\n![${caption}](${data.url})\n\n`;
-
-      setShowEditor(true);
-      const ta = bodyRef.current;
-      if (ta && typeof ta.selectionStart === "number") {
-        const pos = ta.selectionStart;
-        setBody((b) => b.slice(0, pos) + snippet + b.slice(pos));
+      if (target?.id) {
+        // Targeted slot: swap the inline token for the real image.
+        fillSlotWithUrl(target.id, target.description, data.url);
+        setToast(`Image placed in slot ${target.id}`);
       } else {
-        setBody((b) => b + snippet);
+        // Legacy: insert at cursor (opens the editor first if in preview).
+        const caption = file.name.replace(/\.[a-z0-9]+$/i, "").replace(/[-_]/g, " ");
+        const snippet = `\n\n![${caption}](${data.url})\n\n`;
+        setShowEditor(true);
+        const ta = bodyRef.current;
+        if (ta && typeof ta.selectionStart === "number") {
+          const pos = ta.selectionStart;
+          setBody((b) => b.slice(0, pos) + snippet + b.slice(pos));
+        } else {
+          setBody((b) => b + snippet);
+        }
+        setToast("Image inserted — adjust the caption in the markdown");
       }
-      setToast("Image inserted — adjust the caption in the markdown");
     } catch (err) {
       setError((err as Error).message);
     } finally {
@@ -191,12 +265,6 @@ export default function ReviewPage() {
       setHeroAlt(data.hero_image_alt || "");
       setHeroImageUrl(data.hero_image_url || "");
       setHeroImagePrompt(data.hero_image_prompt || "");
-
-      if (data.status === "generating") {
-        setIsRegenerating(true);
-      } else {
-        setIsRegenerating(false);
-      }
     } catch (err) {
       setError((err as Error).message);
     } finally {
@@ -216,19 +284,6 @@ export default function ReviewPage() {
       })
       .catch(() => {});
   }, [fetchDraft]);
-
-  useEffect(() => {
-    if (isRegenerating) {
-      pollIntervalRef.current = setInterval(() => {
-        fetchDraft(true);
-      }, 5000);
-    } else {
-      if (pollIntervalRef.current) clearInterval(pollIntervalRef.current);
-    }
-    return () => {
-      if (pollIntervalRef.current) clearInterval(pollIntervalRef.current);
-    };
-  }, [isRegenerating, fetchDraft]);
 
   const showToast = (msg: string) => {
     setToast(msg);
@@ -306,23 +361,6 @@ export default function ReviewPage() {
       router.push("/content");
     } catch {
       showToast("Failed to reject ✗");
-    }
-  };
-
-  const handleRegenerate = async () => {
-    if (!confirm("Regenerate this article? This will overwrite the current draft content.")) return;
-    try {
-      const res = await fetch(`/api/content/drafts/${draftId}/regenerate`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ model: regenerateModel }),
-      });
-      if (!res.ok) throw new Error("Failed to start regeneration");
-      showToast("Regeneration started...");
-      setIsRegenerating(true);
-      fetchDraft(true); // Immediate fetch to update status
-    } catch (err) {
-      showToast(`Regeneration failed: ${(err as Error).message}`);
     }
   };
 
@@ -440,18 +478,61 @@ export default function ReviewPage() {
             </svg>
             Headline
           </h3>
-          <p
-            style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: 22,
-              fontWeight: 700,
-              lineHeight: 1.3,
-              color: "var(--text-primary)",
-              margin: "4px 0 0",
-            }}
-          >
-            {selectedHeadline}
-          </p>
+          {editingHeadline ? (
+            <input
+              autoFocus
+              className="input-field"
+              value={headlineDraft}
+              onChange={(e) => setHeadlineDraft(e.target.value)}
+              onBlur={() => {
+                const v = headlineDraft.trim();
+                if (v) setSelectedHeadline(v);
+                setEditingHeadline(false);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  (e.target as HTMLInputElement).blur();
+                } else if (e.key === "Escape") {
+                  setEditingHeadline(false);
+                }
+              }}
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 22,
+                fontWeight: 700,
+                lineHeight: 1.3,
+                width: "100%",
+                margin: "4px 0 0",
+                padding: "6px 10px",
+              }}
+            />
+          ) : (
+            <p
+              onClick={() => {
+                setHeadlineDraft(selectedHeadline);
+                setEditingHeadline(true);
+              }}
+              title="Click to edit the headline"
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 22,
+                fontWeight: 700,
+                lineHeight: 1.3,
+                color: "var(--text-primary)",
+                margin: "4px 0 0",
+                cursor: "text",
+                borderRadius: 6,
+                padding: "6px 10px",
+                marginLeft: -10,
+                transition: "background 0.15s ease",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "var(--bg-card)")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
+            >
+              {selectedHeadline}
+            </p>
+          )}
         </section>
 
         {/* ── SECTION 2: Article Body ── */}
@@ -487,16 +568,20 @@ export default function ReviewPage() {
                 style={{ display: "none" }}
                 onChange={(e) => {
                   const f = e.target.files?.[0];
-                  if (f) handleImageUpload(f);
+                  if (f) handleImageUpload(f, pendingImgRef.current);
+                  pendingImgRef.current = null;
                   e.target.value = "";
                 }}
               />
               <button
                 className="btn btn-secondary"
-                onClick={() => imageInputRef.current?.click()}
+                onClick={() => {
+                  pendingImgRef.current = null;
+                  imageInputRef.current?.click();
+                }}
                 disabled={uploadingImage}
                 style={{ fontSize: 12 }}
-                title="Upload a real logo, screenshot or diagram and insert it into the body"
+                title="Upload a real logo, screenshot or diagram and insert it at the cursor"
               >
                 {uploadingImage ? "Uploading…" : "🖼 Insert image"}
               </button>
@@ -521,6 +606,17 @@ export default function ReviewPage() {
           ) : (
             <div
               className="review-body-preview"
+              onClick={(e) => {
+                // Event delegation: clicking an inline image-slot's Upload button
+                // opens the file picker targeted at that slot.
+                const el = (e.target as HTMLElement).closest<HTMLElement>(".img-slot-btn");
+                if (!el) return;
+                const id = el.getAttribute("data-img-id");
+                if (!id) return;
+                const desc =
+                  draft?.visual_suggestions?.find((v) => v.id === id)?.description || "";
+                pickImageForSlot(id, desc);
+              }}
               dangerouslySetInnerHTML={{
                 __html: `<h1 class="md-h1">${finalHeadline.replace(/</g, "&lt;")}</h1>${renderMarkdown(body)}`,
               }}
@@ -530,44 +626,183 @@ export default function ReviewPage() {
           {draft.visual_suggestions && draft.visual_suggestions.length > 0 && (
             <div className="visual-checklist" style={{ marginTop: 16, border: "1px solid rgba(168,85,247,0.25)", background: "rgba(168,85,247,0.04)" }}>
               <div className="visual-checklist-head" style={{ borderBottom: "1px solid rgba(168,85,247,0.15)", paddingBottom: 10, marginBottom: 10 }}>
-                📸 Image briefs — find or create these
-                <span>The AI suggests these images. Download, edit to ratio, then hit &quot;Insert image&quot; above to place them.</span>
+                <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 12 }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    📸 Image briefs — find, generate, or upload
+                    <span>Each brief has a slot in the article. Upload a real asset or ✨ Generate AI variations, then pick one to drop into place. Slots also appear inline in Preview.</span>
+                  </div>
+                  {/* Expandable model picker — applies to all ✨ Generate actions */}
+                  <div style={{ position: "relative", flexShrink: 0 }}>
+                    <button
+                      type="button"
+                      className="btn btn-secondary vc-model-btn"
+                      style={{ fontSize: 11, padding: "5px 10px", whiteSpace: "nowrap" }}
+                      onClick={() => setModelPickerOpen((o) => !o)}
+                      title="Choose the AI image model used when generating"
+                    >
+                      🎛 {GEN_MODELS.find((m) => m.key === genModel)?.label} ▾
+                    </button>
+                    {modelPickerOpen && (
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "calc(100% + 4px)",
+                          right: 0,
+                          zIndex: 20,
+                          background: "var(--bg-elevated)",
+                          border: "1px solid var(--border-active)",
+                          borderRadius: 8,
+                          padding: 4,
+                          minWidth: 180,
+                          boxShadow: "var(--shadow-lg)",
+                        }}
+                      >
+                        {GEN_MODELS.map((m) => (
+                          <button
+                            key={m.key}
+                            type="button"
+                            onClick={() => {
+                              setGenModel(m.key);
+                              setModelPickerOpen(false);
+                            }}
+                            style={{
+                              display: "flex",
+                              width: "100%",
+                              alignItems: "center",
+                              justifyContent: "space-between",
+                              gap: 10,
+                              padding: "7px 9px",
+                              borderRadius: 6,
+                              border: "none",
+                              cursor: "pointer",
+                              background: genModel === m.key ? "rgba(168,85,247,0.14)" : "transparent",
+                              color: genModel === m.key ? "#c084fc" : "var(--text-secondary)",
+                              fontSize: 12,
+                              fontWeight: genModel === m.key ? 600 : 400,
+                              textAlign: "left",
+                            }}
+                          >
+                            <span>{m.label}</span>
+                            <span style={{ fontSize: 10, color: "var(--text-muted)" }}>{m.hint}</span>
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {draft.visual_suggestions.map((v, i) => (
-                  <div
-                    key={i}
-                    style={{
-                      display: "flex",
-                      alignItems: "flex-start",
-                      gap: 10,
-                      padding: "10px 12px",
-                      background: "var(--bg-primary)",
-                      borderRadius: 8,
-                      border: "1px solid var(--border-subtle)",
-                    }}
-                  >
-                    <input type="checkbox" style={{ marginTop: 4 }} />
-                    <span className={`vc-kind vc-${v.kind}`} style={{ flexShrink: 0, marginTop: 2 }}>{v.kind}</span>
-                    <div style={{ flex: 1, minWidth: 0 }}>
-                      <div style={{ fontSize: 13, lineHeight: 1.5, color: "var(--text-primary)" }}>{v.description}</div>
-                      {v.placement && (
-                        <div style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 4 }}>📍 {v.placement}</div>
+                {draft.visual_suggestions.map((v, i) => {
+                  const hasSlot = !!(v.id && new RegExp(`\\[IMAGE #${v.id}:[^\\]]*\\]`).test(body));
+                  const uploadedUrl = v.id ? uploadedSlots[v.id] : undefined;
+                  const variations = v.id ? genVariations[v.id] : undefined;
+                  const isGenerating = generatingSlot === v.id;
+                  return (
+                    <div
+                      key={i}
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: 10,
+                        padding: "10px 12px",
+                        background: "var(--bg-primary)",
+                        borderRadius: 8,
+                        border: `1px solid ${uploadedUrl ? "rgba(45,212,191,0.4)" : "var(--border-subtle)"}`,
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+                        {uploadedUrl ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img src={uploadedUrl} alt="" style={{ width: 40, height: 40, objectFit: "cover", borderRadius: 6, flexShrink: 0 }} />
+                        ) : (
+                          <span className={`vc-kind vc-${v.kind}`} style={{ flexShrink: 0, marginTop: 2 }}>{v.kind}</span>
+                        )}
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <div style={{ fontSize: 13, lineHeight: 1.5, color: "var(--text-primary)" }}>
+                            {v.id && <strong style={{ color: "var(--text-muted)", fontWeight: 600 }}>{v.id} · </strong>}
+                            {v.description}
+                          </div>
+                          {v.placement && (
+                            <div style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 4 }}>📍 {v.placement}</div>
+                          )}
+                        </div>
+                        <div style={{ display: "flex", gap: 6, flexShrink: 0 }}>
+                          {hasSlot && (
+                            <button
+                              className="btn btn-secondary vc-gen-btn"
+                              style={{ fontSize: 11, padding: "4px 8px" }}
+                              disabled={isGenerating}
+                              onClick={() => generateForSlot(v)}
+                              title={`Generate ${GEN_MODELS.find((m) => m.key === genModel)?.label || "AI"} variations for this slot`}
+                            >
+                              {isGenerating ? "✨ Generating…" : "✨ Generate"}
+                            </button>
+                          )}
+                          {hasSlot && (
+                            <button
+                              className="btn btn-secondary"
+                              style={{ fontSize: 11, padding: "4px 8px", borderColor: "var(--accent-brand)", color: "var(--accent-brand)" }}
+                              disabled={uploadingImage}
+                              onClick={() => pickImageForSlot(v.id!, v.description)}
+                              title="Upload the real asset into this slot"
+                            >
+                              {uploadedUrl ? "↻ Replace" : "⬆ Upload"}
+                            </button>
+                          )}
+                          <button
+                            className="btn btn-secondary"
+                            style={{ fontSize: 11, padding: "4px 8px" }}
+                            onClick={() => {
+                              navigator.clipboard.writeText(v.description);
+                              showToast("Brief copied ✓");
+                            }}
+                            title="Copy this brief to clipboard (paste into an image search or AI image tool)"
+                          >
+                            📋 Copy
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Variation gallery — pick one to drop into the slot */}
+                      {variations && variations.length > 0 && (
+                        <div>
+                          <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 6 }}>
+                            Pick a variation to place in {v.id}:
+                          </div>
+                          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(120px, 1fr))", gap: 8 }}>
+                            {variations.map((img, gi) => {
+                              const chosen = uploadedUrl === img.url;
+                              return (
+                                <button
+                                  key={gi}
+                                  type="button"
+                                  onClick={() => {
+                                    fillSlotWithUrl(v.id!, v.description, img.url);
+                                    showToast(`Placed variation ${gi + 1} in ${v.id} ✓`);
+                                  }}
+                                  className="vc-variation"
+                                  style={{
+                                    padding: 0,
+                                    border: `2px solid ${chosen ? "var(--accent-fresh)" : "transparent"}`,
+                                    borderRadius: 8,
+                                    overflow: "hidden",
+                                    cursor: "pointer",
+                                    background: "var(--bg-card)",
+                                    aspectRatio: "16 / 9",
+                                  }}
+                                  title={chosen ? "Currently placed" : "Use this one"}
+                                >
+                                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                                  <img src={img.url} alt={`Variation ${gi + 1}`} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
                       )}
                     </div>
-                    <button
-                      className="btn btn-secondary"
-                      style={{ flexShrink: 0, fontSize: 11, padding: "4px 8px" }}
-                      onClick={() => {
-                        navigator.clipboard.writeText(v.description);
-                        showToast("Brief copied ✓");
-                      }}
-                      title="Copy this brief to clipboard (paste into an image search or AI image tool)"
-                    >
-                      📋 Copy
-                    </button>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}
@@ -1034,26 +1269,6 @@ export default function ReviewPage() {
           >
             ✗ Reject
           </button>
-          
-          <div style={{ display: "flex", gap: "8px", alignItems: "center", borderLeft: "1px solid var(--border-subtle)", paddingLeft: "12px", marginLeft: "auto" }}>
-            <select 
-              className="input-field" 
-              style={{ padding: "6px 12px", fontSize: 12, width: 180, height: 32 }}
-              value={regenerateModel}
-              onChange={(e) => setRegenerateModel(e.target.value)}
-              disabled={isRegenerating || shipping || saving}
-            >
-              {MODELS.map(m => <option key={m.id} value={m.id}>{m.name}</option>)}
-            </select>
-            <button
-              className="btn btn-secondary review-action-btn"
-              onClick={handleRegenerate}
-              disabled={isRegenerating || shipping || saving}
-              style={{ borderColor: "var(--accent-brand)", color: "var(--accent-brand)" }}
-            >
-              {isRegenerating ? "Regenerating..." : "🔄 Regenerate"}
-            </button>
-          </div>
         </div>
       </div>
     </>

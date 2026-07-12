@@ -103,9 +103,9 @@ export default function AnalyticsPage() {
 
   const metrics = a
     ? [
-        { label: "Scraped today", value: a.scraped.today, sub: `${a.scraped.total.toLocaleString()} total`, color: "#00b0ff" },
+        { label: "Scraped today", value: a.scraped.today, sub: `${a.scraped.total.toLocaleString()} total`, color: "#38bdf8" },
         { label: "In review", value: a.drafts, sub: "drafts awaiting edit", color: "#a78bfa" },
-        { label: "Published today", value: a.published.today, sub: `${a.published.total} total live`, color: "#00e676" },
+        { label: "Published today", value: a.published.today, sub: `${a.published.total} total live`, color: "#2dd4bf" },
         { label: "AI spend", value: `$${a.spend.total.toFixed(2)}`, sub: `$${a.spend.today.toFixed(2)} today · est.`, color: "#f59e0b" },
       ]
     : [];
@@ -149,8 +149,8 @@ export default function AnalyticsPage() {
               alignItems: "center",
               gap: 12,
               padding: "12px 16px",
-              background: scheduler.active ? "rgba(0, 230, 118, 0.02)" : "rgba(255, 23, 68, 0.02)",
-              border: `1px solid ${scheduler.active ? "rgba(0, 230, 118, 0.15)" : "rgba(255, 23, 68, 0.15)"}`,
+              background: scheduler.active ? "rgba(45, 212, 191, 0.02)" : "rgba(255, 23, 68, 0.02)",
+              border: `1px solid ${scheduler.active ? "rgba(45, 212, 191, 0.15)" : "rgba(255, 23, 68, 0.15)"}`,
               borderRadius: 10,
               fontSize: 12.5,
               marginBottom: 20,
@@ -163,13 +163,13 @@ export default function AnalyticsPage() {
                 width: 8,
                 height: 8,
                 borderRadius: "50%",
-                background: scheduler.active ? "#00e676" : "#ff1744",
-                boxShadow: `0 0 6px ${scheduler.active ? "#00e676" : "#ff1744"}`,
+                background: scheduler.active ? "#2dd4bf" : "#ff1744",
+                boxShadow: `0 0 6px ${scheduler.active ? "#2dd4bf" : "#ff1744"}`,
                 flexShrink: 0,
               }}
             />
             <div style={{ flex: 1 }}>
-              <span style={{ fontWeight: 600, color: scheduler.active ? "#00e676" : "#ff1744" }}>
+              <span style={{ fontWeight: 600, color: scheduler.active ? "#2dd4bf" : "#ff1744" }}>
                 Scheduler Daemon {scheduler.active ? "Active" : "Inactive"}
               </span>
               {scheduler.active && ` (PID: ${scheduler.pid})`}
