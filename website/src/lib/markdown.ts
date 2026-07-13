@@ -14,9 +14,14 @@ export function renderMarkdown(text: string, niche?: string): string {
   // as full <table> HTML so the paragraph splitter leaves them alone.
   html = renderTables(html);
 
+  // Images, with optional {size=small|medium|full} suffix controlling width.
   html = html.replace(
-    /!\[([^\]]*)\]\(([^)]+)\)/g,
-    '<figure class="mag-figure"><img src="$2" alt="$1" loading="lazy" /><figcaption>$1</figcaption></figure>'
+    /!\[([^\]]*)\]\(([^)\s]+)\)(?:\{size=(small|medium|full)\})?/g,
+    (_m, alt, src, size) => {
+      const cls = size && size !== "full" ? ` mag-figure--${size}` : "";
+      const cap = alt ? `<figcaption>${alt}</figcaption>` : "";
+      return `<figure class="mag-figure${cls}"><img src="${src}" alt="${alt}" loading="lazy" />${cap}</figure>`;
+    }
   );
 
   html = html.replace(/^### (.+)$/gm, "<h3>$1</h3>");

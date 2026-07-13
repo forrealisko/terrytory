@@ -16,6 +16,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "node:path";
 import fs from "node:fs";
+import { getImagesDir } from "@/lib/article-store";
+import { resolveNiche } from "@/lib/niches";
+
+export const runtime = "nodejs";
 
 // Allowlisted fal.ai endpoints. Keep keys stable — the UI sends these.
 const MODELS: Record<string, { endpoint: string; label: string }> = {
@@ -25,26 +29,13 @@ const MODELS: Record<string, { endpoint: string; label: string }> = {
 };
 const DEFAULT_MODEL = "flux-dev";
 
-function getImagesDir(): string {
-  const cwd = process.cwd();
-  const candidates = [
-    path.resolve(cwd, "..", "system", "content", "images"),
-    path.resolve(cwd, "system", "content", "images"),
-  ];
-  for (const c of candidates) {
-    if (fs.existsSync(c)) return c;
-  }
-  const fallback = candidates[0];
-  fs.mkdirSync(fallback, { recursive: true });
-  return fallback;
-}
-
 function slug(s: string): string {
   return (s || "").replace(/[^a-z0-9]+/gi, "").slice(0, 12) || "img";
 }
 
 export async function POST(req: NextRequest) {
   try {
+    const niche = resolveNiche(req);
     const { prompt, articleId, slotId, model, count } = await req.json();
 
     if (!prompt || !String(prompt).trim()) {
@@ -89,8 +80,10 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "No images returned" }, { status: 502 });
     }
 
-    // Download + persist each candidate locally.
-    const imagesDir = getImagesDir();
+    // Download + persist each candidate into the active niche's images dir
+    // (same dir /api/content/images/[filename] serves from).
+    const imagesDir = getImagesDir(niche);
+    fs.mkdirSync(imagesDir, { recursive: true });
     const ts = Date.now();
     const saved: { url: string; original_url: string }[] = [];
 

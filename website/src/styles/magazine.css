@@ -601,6 +601,17 @@ body:has(.mag) {
 .mag-figure {
   margin: 1.8em 0;
 }
+/* Size presets (chosen in the editor). Default/full = full column width. */
+.mag-figure--medium {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mag-figure--small {
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .mag-figure img {
   width: 100%;
   border-radius: 6px;

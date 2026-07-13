@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
+import type { VisualSuggestion, ImageSize } from "@/lib/article-store";
 
 interface Draft {
   id: string;
@@ -27,7 +28,7 @@ interface Draft {
   hero_image_url?: string;
   hero_image_alt?: string;
   hero_image_prompt?: string;
-  visual_suggestions?: { id?: string; kind: string; description: string; placement?: string; uploaded_url?: string }[];
+  visual_suggestions?: VisualSuggestion[];
   generation: {
     model: string;
     prompt_tokens: number;
@@ -42,6 +43,42 @@ const GEN_MODELS = [
   { key: "flux-schnell", label: "Flux Schnell", hint: "fastest" },
   { key: "flux-pro", label: "Flux 1.1 Pro", hint: "best quality" },
 ] as const;
+
+const SIZE_PRESETS: { key: ImageSize; label: string }[] = [
+  { key: "small", label: "Small" },
+  { key: "medium", label: "Medium" },
+  { key: "full", label: "Full" },
+];
+
+// Split body_markdown into text runs and inline image-slot anchors so the
+// Preview can render slots as interactive React cards in place.
+type BodySegment = { type: "text"; content: string } | { type: "slot"; id: string; desc: string };
+function parseBodySegments(body: string): BodySegment[] {
+  const re = /\[IMAGE #(IMG\d+):\s*([^\]]*)\]/g;
+  const segs: BodySegment[] = [];
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(body)) !== null) {
+    const before = body.slice(last, m.index);
+    if (before.trim()) segs.push({ type: "text", content: before });
+    segs.push({ type: "slot", id: m[1], desc: m[2].trim() });
+    last = m.index + m[0].length;
+  }
+  const tail = body.slice(last);
+  if (tail.trim()) segs.push({ type: "text", content: tail });
+  return segs;
+}
+
+// Turn all image tokens into final sized markdown for publishing.
+function bakeBodyForPublish(body: string, slots: VisualSuggestion[]): string {
+  return body.replace(/\[IMAGE #(IMG\d+):\s*([^\]]*)\]/g, (_m, id, desc) => {
+    const slot = slots.find((s) => s.id === id);
+    if (!slot?.selected_url) return ""; // no image chosen → drop the placeholder
+    const caption = (slot.description || desc || "").replace(/"/g, "");
+    const size = slot.size && slot.size !== "full" ? `{size=${slot.size}}` : "";
+    return `\n\n![${caption}](${slot.selected_url})${size}\n\n`;
+  });
+}
 
 function renderMarkdown(text: string): string {
   if (!text) return "";
@@ -152,13 +189,36 @@ export default function ReviewPage() {
   // Which image-brief slot (if any) triggered the file picker, so onChange can
   // route the file to the right inline token. null = legacy "insert at cursor".
   const pendingImgRef = useRef<{ id: string; description: string } | null>(null);
-  const [uploadedSlots, setUploadedSlots] = useState<Record<string, string>>({});
 
-  // ── AI image generation (fal.ai) per slot ──
+  // ── Image-brief slots: metadata (gallery, selection, size) lives in
+  // visual_suggestions; the body keeps [IMAGE #IMGn] tokens as position anchors
+  // and is baked into final markdown only at ship time. ──
+  const [slots, setSlots] = useState<VisualSuggestion[]>([]);
+  const [expandedSlot, setExpandedSlot] = useState<string | null>(null);
   const [genModel, setGenModel] = useState<string>("flux-dev");
-  const [modelPickerOpen, setModelPickerOpen] = useState(false);
   const [generatingSlot, setGeneratingSlot] = useState<string | null>(null);
-  const [genVariations, setGenVariations] = useState<Record<string, { url: string }[]>>({});
+
+  const slotById = (id?: string) => slots.find((s) => s.id === id);
+
+  // Persist slot metadata to the draft (partial PUT — merges over other fields).
+  const persistSlots = (next: VisualSuggestion[]) => {
+    fetch(`/api/content/drafts/${draftId}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ visual_suggestions: next }),
+    }).catch(() => {});
+  };
+
+  const mutateSlot = (id: string, patch: Partial<VisualSuggestion>) => {
+    setSlots((prev) => {
+      const exists = prev.some((s) => s.id === id);
+      const next = exists
+        ? prev.map((s) => (s.id === id ? { ...s, ...patch } : s))
+        : [...prev, { id, kind: "photo", description: "", size: "full" as ImageSize, ...patch }];
+      persistSlots(next);
+      return next;
+    });
+  };
 
   // Trigger the (single, hidden) file picker for a specific image-brief slot.
   const pickImageForSlot = (id: string, description: string) => {
@@ -166,38 +226,37 @@ export default function ReviewPage() {
     imageInputRef.current?.click();
   };
 
-  // Place a resolved image URL into a slot: swap its inline [IMAGE #IMGn: …]
-  // token for the markdown image (or append if the token is gone). Shared by
-  // manual upload and AI-gallery pick.
-  const fillSlotWithUrl = (id: string, description: string, url: string) => {
-    const caption = (description || "").replace(/"/g, "");
-    const tokenRe = new RegExp(`\\[IMAGE #${id}:[^\\]]*\\]`);
-    setBody((b) =>
-      tokenRe.test(b) ? b.replace(tokenRe, `![${caption}](${url})`) : `${b}\n\n![${caption}](${url})\n\n`
-    );
-    setUploadedSlots((prev) => ({ ...prev, [id]: url }));
-  };
+  const selectVariation = (id: string, url: string) => mutateSlot(id, { selected_url: url });
+  const removeSlotImage = (id: string) => mutateSlot(id, { selected_url: undefined });
+  const setSlotSize = (id: string, size: ImageSize) => mutateSlot(id, { size });
+  const updateSlotPrompt = (id: string, description: string) => mutateSlot(id, { description });
 
-  // Generate a few AI variations for one slot; user picks from the gallery.
-  async function generateForSlot(v: { id?: string; description: string }) {
+  // Generate AI variations for one slot; append to its gallery, auto-select if empty.
+  async function generateForSlot(v: VisualSuggestion) {
     if (!v.id) return;
     setGeneratingSlot(v.id);
     try {
       const res = await fetch("/api/content/generate-variations", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          prompt: v.description,
-          articleId: draftId,
-          slotId: v.id,
-          model: genModel,
-          count: 3,
-        }),
+        body: JSON.stringify({ prompt: v.description, articleId: draftId, slotId: v.id, model: genModel, count: 3 }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Generation failed");
-      setGenVariations((prev) => ({ ...prev, [v.id!]: data.images || [] }));
-      showToast(`Generated ${data.images?.length || 0} options for ${v.id} ✓`);
+      const urls: string[] = (data.images || []).map((im: { url: string }) => im.url);
+      setSlots((prev) => {
+        const exists = prev.some((s) => s.id === v.id);
+        const next = exists
+          ? prev.map((s) => {
+              if (s.id !== v.id) return s;
+              const gallery = [...(s.generated_urls || []), ...urls];
+              return { ...s, generated_urls: gallery, selected_url: s.selected_url || urls[0] };
+            })
+          : [...prev, { id: v.id!, kind: v.kind || "photo", description: v.description, size: "full" as ImageSize, generated_urls: urls, selected_url: urls[0] }];
+        persistSlots(next);
+        return next;
+      });
+      showToast(`Generated ${urls.length} option${urls.length === 1 ? "" : "s"} for ${v.id} ✓`);
     } catch (err) {
       showToast(`Generation failed: ${(err as Error).message}`);
     } finally {
@@ -219,8 +278,10 @@ export default function ReviewPage() {
       if (!res.ok) throw new Error(data.error || "Upload failed");
 
       if (target?.id) {
-        // Targeted slot: swap the inline token for the real image.
-        fillSlotWithUrl(target.id, target.description, data.url);
+        // Targeted slot: add to its gallery and select it (token stays as anchor).
+        const s = slotById(target.id);
+        const gallery = [...(s?.generated_urls || []), data.url];
+        mutateSlot(target.id, { generated_urls: gallery, selected_url: data.url });
         setToast(`Image placed in slot ${target.id}`);
       } else {
         // Legacy: insert at cursor (opens the editor first if in preview).
@@ -242,6 +303,99 @@ export default function ReviewPage() {
       setUploadingImage(false);
     }
   }
+
+  // Inline interactive image slot rendered in Preview at the token's position.
+  // Not a component (avoids remount/focus loss) — a plain JSX-returning helper.
+  const renderSlotCard = (slot: VisualSuggestion) => {
+    const id = slot.id!;
+    const url = slot.selected_url;
+    const size = slot.size || "full";
+    const gallery = slot.generated_urls || [];
+    const isOpen = expandedSlot === id;
+    const isGen = generatingSlot === id;
+    return (
+      <div key={id} className={`imgslot ${url ? "imgslot--filled" : "imgslot--empty"}`}>
+        {url ? (
+          <figure className={`imgslot-figure imgslot-figure--${size}`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={url} alt={slot.description} />
+          </figure>
+        ) : (
+          <div className="imgslot-empty-brief">
+            <span className="imgslot-label">🖼 {id}</span>
+            <span className="imgslot-desc">{slot.description || slot.placement || "Image slot"}</span>
+          </div>
+        )}
+
+        <div className="imgslot-toolbar">
+          <span className="imgslot-badge">🖼 {id}{url ? "" : " · empty"}</span>
+          <div className="imgslot-actions">
+            <button className="btn btn-secondary vc-gen-btn imgslot-mini" disabled={isGen} onClick={() => generateForSlot(slot)}>
+              {isGen ? "✨ Generating…" : gallery.length ? "✨ Regenerate" : "✨ Generate"}
+            </button>
+            <button className="btn btn-secondary imgslot-mini" disabled={uploadingImage} onClick={() => pickImageForSlot(id, slot.description)}>⬆ Upload</button>
+            <button className="btn btn-secondary imgslot-mini" onClick={() => setExpandedSlot(isOpen ? null : id)}>{isOpen ? "▲ Close" : "⚙ Edit"}</button>
+          </div>
+        </div>
+
+        {isOpen && (
+          <div className="imgslot-panel">
+            <label className="imgslot-field-label">Image prompt</label>
+            <textarea
+              className="input-field"
+              rows={2}
+              value={slot.description}
+              onChange={(e) => updateSlotPrompt(id, e.target.value)}
+              style={{ fontSize: 12, fontFamily: "var(--font-sans)", resize: "vertical" }}
+            />
+
+            <div className="imgslot-row">
+              <div className="imgslot-chips">
+                {GEN_MODELS.map((m) => (
+                  <button key={m.key} type="button" className={`imgslot-chip ${genModel === m.key ? "active" : ""}`} onClick={() => setGenModel(m.key)} title={m.hint}>
+                    {m.label}
+                  </button>
+                ))}
+              </div>
+              <button className="btn btn-secondary vc-gen-btn imgslot-mini" disabled={isGen} onClick={() => generateForSlot(slot)}>
+                {isGen ? "✨ Generating…" : "✨ Generate 3"}
+              </button>
+            </div>
+
+            {gallery.length > 0 && (
+              <>
+                <label className="imgslot-field-label">Variations — click to place</label>
+                <div className="imgslot-gallery">
+                  {gallery.map((g, gi) => (
+                    <button key={gi} type="button" className={`vc-variation ${url === g ? "selected" : ""}`} onClick={() => selectVariation(id, g)} title={url === g ? "Placed" : "Use this one"}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={g} alt={`Variation ${gi + 1}`} />
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
+
+            {url && (
+              <div className="imgslot-row" style={{ marginTop: 10 }}>
+                <div className="imgslot-chips">
+                  <span className="imgslot-field-label" style={{ margin: "0 4px 0 0" }}>Size</span>
+                  {SIZE_PRESETS.map((s) => (
+                    <button key={s.key} type="button" className={`imgslot-chip ${size === s.key ? "active" : ""}`} onClick={() => setSlotSize(id, s.key)}>
+                      {s.label}
+                    </button>
+                  ))}
+                </div>
+                <button className="btn btn-secondary imgslot-mini imgslot-remove" onClick={() => removeSlotImage(id)} title="Remove this image from the article">
+                  🗑 Remove
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  };
 
   const fetchDraft = useCallback(async (isPolling = false) => {
     if (!isPolling) setLoading(true);
@@ -265,6 +419,11 @@ export default function ReviewPage() {
       setHeroAlt(data.hero_image_alt || "");
       setHeroImageUrl(data.hero_image_url || "");
       setHeroImagePrompt(data.hero_image_prompt || "");
+      if (!isPolling) {
+        setSlots(
+          (data.visual_suggestions || []).map((v: VisualSuggestion) => ({ ...v, size: v.size || "full" }))
+        );
+      }
     } catch (err) {
       setError((err as Error).message);
     } finally {
@@ -310,6 +469,7 @@ export default function ReviewPage() {
           hero_image_url: heroImageUrl,
           hero_image_prompt: heroImagePrompt,
           hero_image_alt: heroAlt,
+          visual_suggestions: slots,
         }),
       });
       showToast("Draft saved ✓");
@@ -326,13 +486,15 @@ export default function ReviewPage() {
     setShipping(true);
     try {
       const finalHeadline = customHeadline.trim() || selectedHeadline;
+      // Bake image-slot tokens into final sized markdown for the public article.
+      const publishBody = bakeBodyForPublish(body, slots);
       const res = await fetch("/api/content/ship", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           draftId,
           selected_headline: finalHeadline,
-          body_markdown: body,
+          body_markdown: publishBody,
           slug,
           seo: {
             meta_title: metaTitle,
@@ -604,208 +766,45 @@ export default function ReviewPage() {
               spellCheck
             />
           ) : (
-            <div
-              className="review-body-preview"
-              onClick={(e) => {
-                // Event delegation: clicking an inline image-slot's Upload button
-                // opens the file picker targeted at that slot.
-                const el = (e.target as HTMLElement).closest<HTMLElement>(".img-slot-btn");
-                if (!el) return;
-                const id = el.getAttribute("data-img-id");
-                if (!id) return;
-                const desc =
-                  draft?.visual_suggestions?.find((v) => v.id === id)?.description || "";
-                pickImageForSlot(id, desc);
-              }}
-              dangerouslySetInnerHTML={{
-                __html: `<h1 class="md-h1">${finalHeadline.replace(/</g, "&lt;")}</h1>${renderMarkdown(body)}`,
-              }}
-            />
-          )}
-
-          {draft.visual_suggestions && draft.visual_suggestions.length > 0 && (
-            <div className="visual-checklist" style={{ marginTop: 16, border: "1px solid rgba(168,85,247,0.25)", background: "rgba(168,85,247,0.04)" }}>
-              <div className="visual-checklist-head" style={{ borderBottom: "1px solid rgba(168,85,247,0.15)", paddingBottom: 10, marginBottom: 10 }}>
-                <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 12 }}>
-                  <div style={{ flex: 1, minWidth: 0 }}>
-                    📸 Image briefs — find, generate, or upload
-                    <span>Each brief has a slot in the article. Upload a real asset or ✨ Generate AI variations, then pick one to drop into place. Slots also appear inline in Preview.</span>
-                  </div>
-                  {/* Expandable model picker — applies to all ✨ Generate actions */}
-                  <div style={{ position: "relative", flexShrink: 0 }}>
-                    <button
-                      type="button"
-                      className="btn btn-secondary vc-model-btn"
-                      style={{ fontSize: 11, padding: "5px 10px", whiteSpace: "nowrap" }}
-                      onClick={() => setModelPickerOpen((o) => !o)}
-                      title="Choose the AI image model used when generating"
-                    >
-                      🎛 {GEN_MODELS.find((m) => m.key === genModel)?.label} ▾
-                    </button>
-                    {modelPickerOpen && (
-                      <div
-                        style={{
-                          position: "absolute",
-                          top: "calc(100% + 4px)",
-                          right: 0,
-                          zIndex: 20,
-                          background: "var(--bg-elevated)",
-                          border: "1px solid var(--border-active)",
-                          borderRadius: 8,
-                          padding: 4,
-                          minWidth: 180,
-                          boxShadow: "var(--shadow-lg)",
-                        }}
-                      >
-                        {GEN_MODELS.map((m) => (
-                          <button
-                            key={m.key}
-                            type="button"
-                            onClick={() => {
-                              setGenModel(m.key);
-                              setModelPickerOpen(false);
-                            }}
-                            style={{
-                              display: "flex",
-                              width: "100%",
-                              alignItems: "center",
-                              justifyContent: "space-between",
-                              gap: 10,
-                              padding: "7px 9px",
-                              borderRadius: 6,
-                              border: "none",
-                              cursor: "pointer",
-                              background: genModel === m.key ? "rgba(168,85,247,0.14)" : "transparent",
-                              color: genModel === m.key ? "#c084fc" : "var(--text-secondary)",
-                              fontSize: 12,
-                              fontWeight: genModel === m.key ? 600 : 400,
-                              textAlign: "left",
-                            }}
-                          >
-                            <span>{m.label}</span>
-                            <span style={{ fontSize: 10, color: "var(--text-muted)" }}>{m.hint}</span>
-                          </button>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {draft.visual_suggestions.map((v, i) => {
-                  const hasSlot = !!(v.id && new RegExp(`\\[IMAGE #${v.id}:[^\\]]*\\]`).test(body));
-                  const uploadedUrl = v.id ? uploadedSlots[v.id] : undefined;
-                  const variations = v.id ? genVariations[v.id] : undefined;
-                  const isGenerating = generatingSlot === v.id;
-                  return (
-                    <div
-                      key={i}
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: 10,
-                        padding: "10px 12px",
-                        background: "var(--bg-primary)",
-                        borderRadius: 8,
-                        border: `1px solid ${uploadedUrl ? "rgba(45,212,191,0.4)" : "var(--border-subtle)"}`,
-                      }}
-                    >
-                      <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
-                        {uploadedUrl ? (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img src={uploadedUrl} alt="" style={{ width: 40, height: 40, objectFit: "cover", borderRadius: 6, flexShrink: 0 }} />
-                        ) : (
-                          <span className={`vc-kind vc-${v.kind}`} style={{ flexShrink: 0, marginTop: 2 }}>{v.kind}</span>
-                        )}
-                        <div style={{ flex: 1, minWidth: 0 }}>
-                          <div style={{ fontSize: 13, lineHeight: 1.5, color: "var(--text-primary)" }}>
-                            {v.id && <strong style={{ color: "var(--text-muted)", fontWeight: 600 }}>{v.id} · </strong>}
-                            {v.description}
-                          </div>
-                          {v.placement && (
-                            <div style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 4 }}>📍 {v.placement}</div>
-                          )}
-                        </div>
-                        <div style={{ display: "flex", gap: 6, flexShrink: 0 }}>
-                          {hasSlot && (
-                            <button
-                              className="btn btn-secondary vc-gen-btn"
-                              style={{ fontSize: 11, padding: "4px 8px" }}
-                              disabled={isGenerating}
-                              onClick={() => generateForSlot(v)}
-                              title={`Generate ${GEN_MODELS.find((m) => m.key === genModel)?.label || "AI"} variations for this slot`}
-                            >
-                              {isGenerating ? "✨ Generating…" : "✨ Generate"}
-                            </button>
-                          )}
-                          {hasSlot && (
-                            <button
-                              className="btn btn-secondary"
-                              style={{ fontSize: 11, padding: "4px 8px", borderColor: "var(--accent-brand)", color: "var(--accent-brand)" }}
-                              disabled={uploadingImage}
-                              onClick={() => pickImageForSlot(v.id!, v.description)}
-                              title="Upload the real asset into this slot"
-                            >
-                              {uploadedUrl ? "↻ Replace" : "⬆ Upload"}
-                            </button>
-                          )}
-                          <button
-                            className="btn btn-secondary"
-                            style={{ fontSize: 11, padding: "4px 8px" }}
-                            onClick={() => {
-                              navigator.clipboard.writeText(v.description);
-                              showToast("Brief copied ✓");
-                            }}
-                            title="Copy this brief to clipboard (paste into an image search or AI image tool)"
-                          >
-                            📋 Copy
-                          </button>
-                        </div>
-                      </div>
-
-                      {/* Variation gallery — pick one to drop into the slot */}
-                      {variations && variations.length > 0 && (
-                        <div>
-                          <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 6 }}>
-                            Pick a variation to place in {v.id}:
-                          </div>
-                          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(120px, 1fr))", gap: 8 }}>
-                            {variations.map((img, gi) => {
-                              const chosen = uploadedUrl === img.url;
-                              return (
-                                <button
-                                  key={gi}
-                                  type="button"
-                                  onClick={() => {
-                                    fillSlotWithUrl(v.id!, v.description, img.url);
-                                    showToast(`Placed variation ${gi + 1} in ${v.id} ✓`);
-                                  }}
-                                  className="vc-variation"
-                                  style={{
-                                    padding: 0,
-                                    border: `2px solid ${chosen ? "var(--accent-fresh)" : "transparent"}`,
-                                    borderRadius: 8,
-                                    overflow: "hidden",
-                                    cursor: "pointer",
-                                    background: "var(--bg-card)",
-                                    aspectRatio: "16 / 9",
-                                  }}
-                                  title={chosen ? "Currently placed" : "Use this one"}
-                                >
-                                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                                  <img src={img.url} alt={`Variation ${gi + 1}`} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
-                                </button>
-                              );
-                            })}
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
+            <div className="review-body-preview">
+              <div dangerouslySetInnerHTML={{ __html: `<h1 class="md-h1">${finalHeadline.replace(/</g, "&lt;")}</h1>` }} />
+              {parseBodySegments(body).map((seg, i) =>
+                seg.type === "text" ? (
+                  <div key={i} dangerouslySetInnerHTML={{ __html: renderMarkdown(seg.content) }} />
+                ) : (
+                  renderSlotCard(
+                    slotById(seg.id) || { id: seg.id, kind: "photo", description: seg.desc, size: "full" as ImageSize }
+                  )
+                )
+              )}
             </div>
           )}
+
+          {/* Unplaced briefs — have no slot anchor in the body yet */}
+          {(() => {
+            const unplaced = slots.filter(
+              (s) => s.id && s.kind !== "hero" && !new RegExp(`\\[IMAGE #${s.id}:`).test(body)
+            );
+            if (unplaced.length === 0) return null;
+            return (
+              <div className="imgslot-unplaced">
+                <div className="imgslot-unplaced-head">🗂 Unplaced briefs — not in the article yet</div>
+                {unplaced.map((s) => (
+                  <div key={s.id} className="imgslot-unplaced-row">
+                    <span className="imgslot-label">🖼 {s.id}</span>
+                    <span className="imgslot-desc">{s.description}</span>
+                    <button
+                      className="btn btn-secondary imgslot-mini"
+                      onClick={() => setBody((b) => `${b.trimEnd()}\n\n[IMAGE #${s.id}: ${s.description}]\n`)}
+                      title="Drop this brief's slot at the end of the article (drag to reposition coming soon)"
+                    >
+                      + Add to article
+                    </button>
+                  </div>
+                ))}
+              </div>
+            );
+          })()}
         </section>
 
         {/* ── SECTION 3: Excerpt ── */}

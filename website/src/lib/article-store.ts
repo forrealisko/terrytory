@@ -52,12 +52,20 @@ export interface Author {
   bio: string;
 }
 
+export type ImageSize = "small" | "medium" | "full";
+
 export interface VisualSuggestion {
   id?: string;
   kind: string;
   description: string;
   placement?: string;
   uploaded_url?: string;
+  /** All images generated/uploaded for this slot (gallery history, newest last). */
+  generated_urls?: string[];
+  /** The image currently placed in this slot. */
+  selected_url?: string;
+  /** Display size preset for the placed image. Defaults to "full". */
+  size?: ImageSize;
 }
 
 export interface ArticleDraft {
