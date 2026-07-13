@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useCallback, useRef } from "react";
+import type { ReactNode } from "react";
 import { useParams, useRouter } from "next/navigation";
 import type { VisualSuggestion, ImageSize } from "@/lib/article-store";
 import { bakeImageSlots } from "@/lib/image-slots";
@@ -51,23 +52,46 @@ const SIZE_PRESETS: { key: ImageSize; label: string }[] = [
   { key: "full", label: "Full" },
 ];
 
-// Split body_markdown into text runs and inline image-slot anchors so the
-// Preview can render slots as interactive React cards in place.
-type BodySegment = { type: "text"; content: string } | { type: "slot"; id: string; desc: string };
-function parseBodySegments(body: string): BodySegment[] {
-  const re = /\[IMAGE #(IMG\d+):\s*([^\]]*)\]/g;
-  const segs: BodySegment[] = [];
-  let last = 0;
-  let m: RegExpExecArray | null;
-  while ((m = re.exec(body)) !== null) {
-    const before = body.slice(last, m.index);
-    if (before.trim()) segs.push({ type: "text", content: before });
-    segs.push({ type: "slot", id: m[1], desc: m[2].trim() });
-    last = m.index + m[0].length;
+// Split body_markdown into block units (paragraphs, headings, lists, tables,
+// fenced code, and image-slot tokens) so the Preview can render slots as
+// interactive cards and support drag-to-reposition between blocks. Blank lines
+// separate blocks; fenced ``` regions are kept intact.
+function splitBlocks(md: string): string[] {
+  const lines = md.split("\n");
+  const blocks: string[] = [];
+  let cur: string[] = [];
+  let inFence = false;
+  const flush = () => {
+    if (cur.join("\n").trim()) blocks.push(cur.join("\n").trim());
+    cur = [];
+  };
+  for (const line of lines) {
+    if (/^\s*```/.test(line)) {
+      inFence = !inFence;
+      cur.push(line);
+      continue;
+    }
+    if (!inFence && line.trim() === "") flush();
+    else cur.push(line);
   }
-  const tail = body.slice(last);
-  if (tail.trim()) segs.push({ type: "text", content: tail });
-  return segs;
+  flush();
+  return blocks;
+}
+
+const SLOT_BLOCK_RE = /^\[IMAGE #(IMG\d+):\s*([^\]]*)\]$/;
+function slotTokenOf(block: string): { id: string; desc: string } | null {
+  const m = block.trim().match(SLOT_BLOCK_RE);
+  return m ? { id: m[1], desc: m[2].trim() } : null;
+}
+
+// Move the block at `from` to gap position `to` (0..len) and rejoin.
+function moveBlockInBody(body: string, from: number, to: number): string {
+  const blocks = splitBlocks(body);
+  if (from < 0 || from >= blocks.length) return body;
+  const [moved] = blocks.splice(from, 1);
+  const insertAt = to > from ? to - 1 : to;
+  blocks.splice(Math.max(0, Math.min(insertAt, blocks.length)), 0, moved);
+  return blocks.join("\n\n");
 }
 
 function renderMarkdown(text: string): string {
@@ -187,6 +211,10 @@ export default function ReviewPage() {
   const [expandedSlot, setExpandedSlot] = useState<string | null>(null);
   const [genModel, setGenModel] = useState<string>("flux-dev");
   const [generatingSlot, setGeneratingSlot] = useState<string | null>(null);
+  // Drag-to-reposition state (Preview): index of the block being dragged and
+  // the gap currently hovered.
+  const [dragIdx, setDragIdx] = useState<number | null>(null);
+  const [overGap, setOverGap] = useState<number | null>(null);
 
   const slotById = (id?: string) => slots.find((s) => s.id === id);
 
@@ -296,15 +324,28 @@ export default function ReviewPage() {
 
   // Inline interactive image slot rendered in Preview at the token's position.
   // Not a component (avoids remount/focus loss) — a plain JSX-returning helper.
-  const renderSlotCard = (slot: VisualSuggestion) => {
+  const renderSlotCard = (slot: VisualSuggestion, blockIndex: number) => {
     const id = slot.id!;
     const url = slot.selected_url;
     const size = slot.size || "full";
     const gallery = slot.generated_urls || [];
     const isOpen = expandedSlot === id;
     const isGen = generatingSlot === id;
+    const dragging = dragIdx === blockIndex;
     return (
-      <div key={id} className={`imgslot ${url ? "imgslot--filled" : "imgslot--empty"}`}>
+      <div
+        key={id}
+        className={`imgslot ${url ? "imgslot--filled" : "imgslot--empty"} ${dragging ? "imgslot--dragging" : ""}`}
+        draggable
+        onDragStart={(e) => {
+          setDragIdx(blockIndex);
+          e.dataTransfer.effectAllowed = "move";
+        }}
+        onDragEnd={() => {
+          setDragIdx(null);
+          setOverGap(null);
+        }}
+      >
         {url ? (
           <figure className={`imgslot-figure imgslot-figure--${size}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -318,7 +359,7 @@ export default function ReviewPage() {
         )}
 
         <div className="imgslot-toolbar">
-          <span className="imgslot-badge">🖼 {id}{url ? "" : " · empty"}</span>
+          <span className="imgslot-badge" title="Drag to reposition in the article">⠿ 🖼 {id}{url ? "" : " · empty"}</span>
           <div className="imgslot-actions">
             <button className="btn btn-secondary vc-gen-btn imgslot-mini" disabled={isGen} onClick={() => generateForSlot(slot)}>
               {isGen ? "✨ Generating…" : gallery.length ? "✨ Regenerate" : "✨ Generate"}
@@ -758,15 +799,46 @@ export default function ReviewPage() {
           ) : (
             <div className="review-body-preview">
               <div dangerouslySetInnerHTML={{ __html: `<h1 class="md-h1">${finalHeadline.replace(/</g, "&lt;")}</h1>` }} />
-              {parseBodySegments(body).map((seg, i) =>
-                seg.type === "text" ? (
-                  <div key={i} dangerouslySetInnerHTML={{ __html: renderMarkdown(seg.content) }} />
-                ) : (
-                  renderSlotCard(
-                    slotById(seg.id) || { id: seg.id, kind: "photo", description: seg.desc, size: "full" as ImageSize }
-                  )
-                )
-              )}
+              {(() => {
+                const blocks = splitBlocks(body);
+                const isDnD = dragIdx !== null;
+                const dropZone = (gap: number) => (
+                  <div
+                    key={`dz-${gap}`}
+                    className={`imgslot-dropzone ${isDnD ? "active" : ""} ${overGap === gap ? "over" : ""}`}
+                    onDragOver={(e) => {
+                      if (isDnD) {
+                        e.preventDefault();
+                        setOverGap(gap);
+                      }
+                    }}
+                    onDragLeave={() => setOverGap((g) => (g === gap ? null : g))}
+                    onDrop={(e) => {
+                      e.preventDefault();
+                      if (dragIdx !== null) setBody(moveBlockInBody(body, dragIdx, gap));
+                      setDragIdx(null);
+                      setOverGap(null);
+                    }}
+                  />
+                );
+                const out: ReactNode[] = [];
+                blocks.forEach((b, i) => {
+                  out.push(dropZone(i));
+                  const tok = slotTokenOf(b);
+                  if (tok) {
+                    out.push(
+                      renderSlotCard(
+                        slotById(tok.id) || { id: tok.id, kind: "photo", description: tok.desc, size: "full" as ImageSize },
+                        i
+                      )
+                    );
+                  } else {
+                    out.push(<div key={`b-${i}`} dangerouslySetInnerHTML={{ __html: renderMarkdown(b) }} />);
+                  }
+                });
+                out.push(dropZone(blocks.length));
+                return out;
+              })()}
             </div>
           )}
 
