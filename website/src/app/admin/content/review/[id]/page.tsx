@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
 import type { VisualSuggestion, ImageSize } from "@/lib/article-store";
+import { bakeImageSlots } from "@/lib/image-slots";
 
 interface Draft {
   id: string;
@@ -67,17 +68,6 @@ function parseBodySegments(body: string): BodySegment[] {
   const tail = body.slice(last);
   if (tail.trim()) segs.push({ type: "text", content: tail });
   return segs;
-}
-
-// Turn all image tokens into final sized markdown for publishing.
-function bakeBodyForPublish(body: string, slots: VisualSuggestion[]): string {
-  return body.replace(/\[IMAGE #(IMG\d+):\s*([^\]]*)\]/g, (_m, id, desc) => {
-    const slot = slots.find((s) => s.id === id);
-    if (!slot?.selected_url) return ""; // no image chosen → drop the placeholder
-    const caption = (slot.description || desc || "").replace(/"/g, "");
-    const size = slot.size && slot.size !== "full" ? `{size=${slot.size}}` : "";
-    return `\n\n![${caption}](${slot.selected_url})${size}\n\n`;
-  });
 }
 
 function renderMarkdown(text: string): string {
@@ -487,7 +477,7 @@ export default function ReviewPage() {
     try {
       const finalHeadline = customHeadline.trim() || selectedHeadline;
       // Bake image-slot tokens into final sized markdown for the public article.
-      const publishBody = bakeBodyForPublish(body, slots);
+      const publishBody = bakeImageSlots(body, slots);
       const res = await fetch("/api/content/ship", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -1257,6 +1247,16 @@ export default function ReviewPage() {
             disabled={saving}
           >
             {saving ? "Saving..." : "💾 Save Draft"}
+          </button>
+          <button
+            className="btn btn-secondary review-action-btn"
+            onClick={async () => {
+              await handleSave();
+              window.open(`/admin/content/review/${draftId}/preview`, "_blank");
+            }}
+            title="See exactly how this will look once published"
+          >
+            👁 Preview
           </button>
           <button
             className="btn btn-secondary review-action-btn"

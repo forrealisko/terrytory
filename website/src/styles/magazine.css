@@ -804,3 +804,14 @@ body:has(.mag) {
     transition: none;
   }
 }
+
+/* When the magazine template renders inside the admin dashboard (draft preview
+   at /admin/.../preview), out-specify .dashboard-layout's heading-font rule so
+   titles and body headings keep the Fraunces display serif. */
+.mag .mag-article-title,
+.mag .mag-article-body h1,
+.mag .mag-article-body h2,
+.mag .mag-article-body h3,
+.mag .mag-article-body h4 {
+  font-family: var(--display);
+}
