@@ -625,6 +625,42 @@ body:has(.mag) {
   font-style: italic;
 }
 
+/* ── Social embeds (self-hosted cards + provider embeds) ── */
+.mag-embed {
+  margin: 1.8em auto;
+  max-width: 540px;
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  background: var(--card);
+  padding: 18px 20px;
+}
+.mag-embed--x { border-left: 3px solid #1d9bf0; }
+.mag-embed--instagram { border-left: 3px solid #e1306c; }
+.mag-embed-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.mag-embed-icon { font-weight: 700; font-size: 1rem; color: var(--ink); }
+.mag-embed-handle { font-size: 0.9rem; color: var(--ink-soft); font-weight: 600; }
+.mag-embed-text {
+  font-family: var(--sans);
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.mag-embed-cite {
+  font-size: 0.82rem;
+  color: #1d9bf0;
+  text-decoration: none;
+  font-family: var(--sans);
+}
+.mag-embed-cite:hover { text-decoration: underline; }
+/* Responsive 16:9 video */
+.mag-embed--youtube { max-width: 720px; padding: 0; border: none; background: transparent; }
+.mag-embed-video { position: relative; width: 100%; padding-top: 56.25%; border-radius: 12px; overflow: hidden; }
+.mag-embed-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+/* Center provider embeds (twitter/instagram blockquotes) */
+.mag-article-body .twitter-tweet,
+.mag-article-body .instagram-media { margin-left: auto !important; margin-right: auto !important; }
+
 /* Author bio card */
 .mag-author-card {
   max-width: 680px;

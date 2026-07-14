@@ -44,7 +44,10 @@ export default async function DraftPreview({ params }: PageProps) {
   // writer sometimes emits (so it isn't duplicated under the title).
   const baked = bakeImageSlots(draft.body_markdown || "", draft.visual_suggestions || []);
   const rawBody = baked.replace(/^\s*#\s+.+\n+/, "");
-  const bodyHtml = renderMarkdown(rawBody, niche);
+  const bodyHtml = renderMarkdown(rawBody, niche, draft.social_embeds);
+  const liveEmbeds = draft.social_embeds?.filter((e) => e.live) || [];
+  const needsTwitter = liveEmbeds.some((e) => e.platform === "x");
+  const needsInstagram = liveEmbeds.some((e) => e.platform === "instagram");
 
   return (
     <div
@@ -122,6 +125,8 @@ export default async function DraftPreview({ params }: PageProps) {
 
         <div className="mag-container">
           <div className="mag-article-body" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+          {needsTwitter && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
+          {needsInstagram && <script async src="https://www.instagram.com/embed.js" />}
 
           {draft.author && (
             <div className="mag-author-card">

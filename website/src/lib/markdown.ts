@@ -3,12 +3,58 @@
  * Deliberately small: headings, bold/em, lists, links, code, images.
  * `niche` scopes internal image API URLs so each magazine serves its own files.
  */
-export function renderMarkdown(text: string, niche?: string): string {
+export interface EmbedLike {
+  id?: string;
+  platform: "x" | "youtube" | "instagram";
+  url: string;
+  embed_id?: string;
+  handle?: string | null;
+  text?: string | null;
+  live?: boolean;
+}
+
+function esc(s: string): string {
+  return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+/** Render one social embed as block HTML (self-hosted card, or provider embed if live). */
+function renderEmbedHtml(e: EmbedLike): string {
+  const url = e.url;
+  if (e.platform === "youtube") {
+    const vid = e.embed_id || (url.match(/(?:v=|embed\/|shorts\/|youtu\.be\/)([\w-]{6,})/)?.[1] ?? "");
+    if (!vid) return "";
+    return `<figure class="mag-embed mag-embed--youtube"><div class="mag-embed-video"><iframe src="https://www.youtube-nocookie.com/embed/${esc(vid)}" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></figure>`;
+  }
+  if (e.platform === "x") {
+    if (e.live) {
+      return `<blockquote class="twitter-tweet" data-dnt="true"><a href="${esc(url)}"></a></blockquote>`;
+    }
+    const handle = e.handle ? `<span class="mag-embed-handle">${esc(e.handle)}</span>` : "";
+    const body = e.text ? `<p class="mag-embed-text">${esc(e.text)}</p>` : "";
+    return `<figure class="mag-embed mag-embed--x"><div class="mag-embed-head"><span class="mag-embed-icon">𝕏</span>${handle}</div>${body}<a class="mag-embed-cite" href="${esc(url)}" target="_blank" rel="noopener noreferrer">View post on X →</a></figure>`;
+  }
+  // instagram
+  if (e.live) {
+    return `<blockquote class="instagram-media" data-instgrm-permalink="${esc(url)}"><a href="${esc(url)}"></a></blockquote>`;
+  }
+  const body = e.text ? `<p class="mag-embed-text">${esc(e.text)}</p>` : "";
+  return `<figure class="mag-embed mag-embed--instagram"><div class="mag-embed-head"><span class="mag-embed-icon">📷</span><span class="mag-embed-handle">Instagram</span></div>${body}<a class="mag-embed-cite" href="${esc(url)}" target="_blank" rel="noopener noreferrer">View on Instagram →</a></figure>`;
+}
+
+export function renderMarkdown(text: string, niche?: string, embeds?: EmbedLike[]): string {
   if (!text) return "";
   let html = text
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
+
+  // Social embed tokens [EMBED #En: url] → block HTML. Resolve against the
+  // article's embeds; strip unresolved tokens so they never show as raw text.
+  const embedById = new Map((embeds || []).map((e) => [e.id, e]));
+  html = html.replace(/\[EMBED #(E\d+):\s*([^\]]*)\]/g, (_m, id, url) => {
+    const e = embedById.get(id);
+    return e ? renderEmbedHtml(e) : "";
+  });
 
   // Tables first — a header row, a |---|---| separator, then body rows. Emitted
   // as full <table> HTML so the paragraph splitter leaves them alone.
@@ -48,7 +94,7 @@ export function renderMarkdown(text: string, niche?: string): string {
   );
 
   const parts = html.split(
-    /(<pre[\s\S]*?<\/pre>|<table[\s\S]*?<\/table>|<h[1-3][\s\S]*?<\/h[1-3]>|<ul>[\s\S]*?<\/ul>|<ol>[\s\S]*?<\/ol>|<figure[\s\S]*?<\/figure>|<blockquote>[\s\S]*?<\/blockquote>)/
+    /(<pre[\s\S]*?<\/pre>|<table[\s\S]*?<\/table>|<h[1-3][\s\S]*?<\/h[1-3]>|<ul>[\s\S]*?<\/ul>|<ol>[\s\S]*?<\/ol>|<figure[\s\S]*?<\/figure>|<blockquote[\s\S]*?<\/blockquote>)/
   );
   for (let i = 0; i < parts.length; i++) {
     const p = parts[i];

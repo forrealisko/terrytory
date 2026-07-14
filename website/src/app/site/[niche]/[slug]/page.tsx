@@ -48,7 +48,10 @@ export default async function MagazineArticle({ params }: PageProps) {
   const rawBody = article.body_markdown.replace(/^\s*#\s+.+\n+/, "");
   const bodyHtml = article.body_html
     ? article.body_html
-    : renderMarkdown(rawBody, niche);
+    : renderMarkdown(rawBody, niche, article.social_embeds);
+  const liveEmbeds = article.social_embeds?.filter((e) => e.live) || [];
+  const needsTwitter = liveEmbeds.some((e) => e.platform === "x");
+  const needsInstagram = liveEmbeds.some((e) => e.platform === "instagram");
 
   const { articles } = listPublished(1, 8, niche);
   const related = articles.filter((a) => a.slug !== slug).slice(0, 3);
@@ -90,6 +93,9 @@ export default async function MagazineArticle({ params }: PageProps) {
           className="mag-article-body"
           dangerouslySetInnerHTML={{ __html: bodyHtml }}
         />
+        {/* Provider widget scripts, only when a live embed of that type exists */}
+        {needsTwitter && <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />}
+        {needsInstagram && <script async src="https://www.instagram.com/embed.js" />}
 
         {article.author && (
           <div className="mag-author-card">
