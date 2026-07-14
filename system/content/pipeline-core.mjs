@@ -121,13 +121,24 @@ export async function performResearch(ctx, headline, sourceArticles, apiKey) {
 }
 
 // ─── Writer ──────────────────────────────────────────────────────────────────
-export async function writeArticleDraft(ctx, pick, researchReport, styleGuide, apiKey, modelOverride, format, author) {
+export async function writeArticleDraft(ctx, pick, researchReport, styleGuide, apiKey, modelOverride, format, author, socialEmbeds = []) {
   const model = modelOverride || CONFIG.model;
   ctx.log("info", `  [Writer] Generating ${format || "article"} draft via ${model}${author ? ` as ${author.name}` : ""}...`);
 
   const sourceContext = pick.source_articles
     .map((s, i) => `[Source ${i + 1}] Title: "${s.title}" (URL: ${s.url})\nExcerpt: ${s.excerpt || "N/A"}`)
     .join("\n\n");
+
+  // Real social posts pulled from the source articles. The writer may weave the
+  // relevant ones in as [EMBED #En: url] tokens (like the image-slot tokens).
+  const embedContext = socialEmbeds.length
+    ? `\n──────────────────────────────
+AVAILABLE SOCIAL POSTS (real, pulled from the sources — embed the ones that genuinely strengthen the piece):
+──────────────────────────────
+${socialEmbeds.map((e) => `[${e.id}] ${e.platform.toUpperCase()}${e.handle ? ` ${e.handle}` : ""}${e.text ? `: "${e.text}"` : ""} — ${e.url}`).join("\n")}
+
+To embed one, place a token on its OWN LINE in body_markdown at the exact spot it belongs, in this form: [EMBED #E1: <url>] (use the matching id and its url). Only embed a post when it is a primary source, a key quote, or a demo that adds real value — skip the rest. Never invent posts or URLs.\n`
+    : "";
 
   const brand = ctx.niche.brand?.name || "TERRYTORY";
   const angleNote = pick.angle ? `\n\nEDITORIAL ANGLE (the specific take to write toward):\n${pick.angle}\n` : "";
@@ -147,7 +158,7 @@ ${researchReport}
 ORIGINAL SOURCE FEED ARTICLES:
 ──────────────────────────────
 ${sourceContext}
-
+${embedContext}
 ──────────────────────────────
 
 Write an original, premium article for ${brand} based on the Research Report and Source Feed articles. Ensure your tone matches the style guide examples. Output valid JSON only.`;
@@ -248,12 +259,13 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
   let social_embeds = [];
   try {
     social_embeds = await collectSocialEmbeds(spec.source_articles || [], ctx.log);
+    social_embeds = social_embeds.map((e, i) => ({ ...e, id: `E${i + 1}` }));
   } catch (e) {
     ctx.log("warn", `  social embed capture failed: ${e.message}`);
   }
 
   const styleGuide = getFewShotExamples(ctx);
-  const draftContent = await writeArticleDraft(ctx, spec, researchReport, styleGuide, apiKey, modelOverride, format, author);
+  const draftContent = await writeArticleDraft(ctx, spec, researchReport, styleGuide, apiKey, modelOverride, format, author, social_embeds);
   // AI now commits to a single best headline; keep backward-compat with older `headline_options`.
   const finalHeadline =
     draftContent.headline || draftContent.headline_options?.[0] || spec.headline;

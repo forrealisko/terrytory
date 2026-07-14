@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import type { ReactNode } from "react";
 import { useParams, useRouter } from "next/navigation";
-import type { VisualSuggestion, ImageSize } from "@/lib/article-store";
+import type { VisualSuggestion, ImageSize, SocialEmbed } from "@/lib/article-store";
 import { bakeImageSlots } from "@/lib/image-slots";
 
 interface Draft {
@@ -83,6 +83,27 @@ function slotTokenOf(block: string): { id: string; desc: string } | null {
   const m = block.trim().match(SLOT_BLOCK_RE);
   return m ? { id: m[1], desc: m[2].trim() } : null;
 }
+
+const EMBED_BLOCK_RE = /^\[EMBED #(E\d+):\s*([^\]]*)\]$/;
+function embedTokenOf(block: string): { id: string; url: string } | null {
+  const m = block.trim().match(EMBED_BLOCK_RE);
+  return m ? { id: m[1], url: m[2].trim() } : null;
+}
+
+// Best-effort parse of a pasted social URL into a normalized embed.
+function parseSocialUrl(raw: string): Omit<SocialEmbed, "id"> | null {
+  const url = raw.trim();
+  let m: RegExpMatchArray | null;
+  if ((m = url.match(/(?:twitter|x)\.com\/([A-Za-z0-9_]{1,15})\/status\/(\d+)/i)))
+    return { platform: "x", url: `https://x.com/${m[1]}/status/${m[2]}`, embed_id: m[2], author: m[1], handle: `@${m[1]}`, text: null, source: "manual" };
+  if ((m = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{6,})/i)))
+    return { platform: "youtube", url: `https://www.youtube.com/watch?v=${m[1]}`, embed_id: m[1], text: null, source: "manual" };
+  if ((m = url.match(/instagram\.com\/(?:p|reel|tv)\/([\w-]+)/i)))
+    return { platform: "instagram", url: `https://www.instagram.com/p/${m[1]}/`, embed_id: m[1], text: null, source: "manual" };
+  return null;
+}
+
+const PLATFORM_LABEL: Record<string, string> = { x: "𝕏 Post", youtube: "▶ YouTube", instagram: "📷 Instagram" };
 
 // Move the block at `from` to gap position `to` (0..len) and rejoin.
 function moveBlockInBody(body: string, from: number, to: number): string {
@@ -216,7 +237,61 @@ export default function ReviewPage() {
   const [dragIdx, setDragIdx] = useState<number | null>(null);
   const [overGap, setOverGap] = useState<number | null>(null);
 
+  // ── Social embeds: captured from sources (or added by the editor). Metadata
+  // lives in social_embeds; the body keeps [EMBED #En] tokens as anchors. ──
+  const [embeds, setEmbeds] = useState<SocialEmbed[]>([]);
+  const [embedUrlInput, setEmbedUrlInput] = useState("");
+
   const slotById = (id?: string) => slots.find((s) => s.id === id);
+  const embedById = (id?: string) => embeds.find((e) => e.id === id);
+
+  const persistEmbeds = (next: SocialEmbed[]) => {
+    fetch(`/api/content/drafts/${draftId}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ social_embeds: next }),
+    }).catch(() => {});
+  };
+
+  // Remove an embed from the article: drop its token and its metadata.
+  const removeEmbed = (id: string) => {
+    setBody((b) =>
+      splitBlocks(b).filter((blk) => embedTokenOf(blk)?.id !== id).join("\n\n")
+    );
+    setEmbeds((prev) => {
+      const next = prev.filter((e) => e.id !== id);
+      persistEmbeds(next);
+      return next;
+    });
+  };
+
+  const toggleEmbedLive = (id: string) => {
+    setEmbeds((prev) => {
+      const next = prev.map((e) => (e.id === id ? { ...e, live: !e.live } : e));
+      persistEmbeds(next);
+      return next;
+    });
+  };
+
+  // Add an embed from a pasted URL: append a token + register the metadata.
+  const addEmbedFromUrl = () => {
+    const parsed = parseSocialUrl(embedUrlInput);
+    if (!parsed) {
+      showToast("Unrecognized URL — paste an X, YouTube, or Instagram link");
+      return;
+    }
+    const nextNum = embeds.reduce((max, e) => Math.max(max, parseInt((e.id || "E0").slice(1)) || 0), 0) + 1;
+    const id = `E${nextNum}`;
+    const embed: SocialEmbed = { ...parsed, id };
+    setEmbeds((prev) => {
+      const next = [...prev, embed];
+      persistEmbeds(next);
+      return next;
+    });
+    setBody((b) => `${b.trimEnd()}\n\n[EMBED #${id}: ${parsed.url}]\n`);
+    setEmbedUrlInput("");
+    showToast(`Added ${PLATFORM_LABEL[parsed.platform] || "embed"} → drag it into place`);
+  };
 
   // Persist slot metadata to the draft (partial PUT — merges over other fields).
   const persistSlots = (next: VisualSuggestion[]) => {
@@ -428,6 +503,60 @@ export default function ReviewPage() {
     );
   };
 
+  // Inline social-embed card rendered in Preview at the token's position.
+  const renderEmbedCard = (embed: SocialEmbed, blockIndex: number, url: string) => {
+    const id = embed.id!;
+    const dragging = dragIdx === blockIndex;
+    const label = PLATFORM_LABEL[embed.platform] || "Embed";
+    return (
+      <div
+        key={id}
+        className={`imgslot socialembed ${dragging ? "imgslot--dragging" : ""}`}
+        draggable
+        onDragStart={(e) => {
+          setDragIdx(blockIndex);
+          e.dataTransfer.effectAllowed = "move";
+        }}
+        onDragEnd={() => {
+          setDragIdx(null);
+          setOverGap(null);
+        }}
+      >
+        <div className={`socialembed-card socialembed-card--${embed.platform}`}>
+          <div className="socialembed-head">
+            <span className="socialembed-platform">{label}</span>
+            {embed.handle && <span className="socialembed-handle">{embed.handle}</span>}
+          </div>
+          {embed.text ? (
+            <p className="socialembed-text">{embed.text}</p>
+          ) : (
+            <p className="socialembed-text socialembed-text--muted">
+              {embed.platform === "youtube" ? "Video embed" : "Post"} · preview renders on publish
+            </p>
+          )}
+          <a className="socialembed-link" href={url} target="_blank" rel="noopener noreferrer">
+            {url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48)}
+          </a>
+        </div>
+        <div className="imgslot-toolbar">
+          <span className="imgslot-badge" title="Drag to reposition in the article">⠿ 🔗 {id}</span>
+          <div className="imgslot-actions">
+            <button
+              className={`btn btn-secondary imgslot-mini ${embed.live ? "imgslot-chip active" : ""}`}
+              onClick={() => toggleEmbedLive(id)}
+              title="Static card (default) or live provider embed on the published page"
+            >
+              {embed.live ? "⚡ Live" : "▢ Static"}
+            </button>
+            <button className="btn btn-secondary imgslot-mini imgslot-remove" onClick={() => removeEmbed(id)} title="Remove this embed from the article">
+              🗑 Remove
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   const fetchDraft = useCallback(async (isPolling = false) => {
     if (!isPolling) setLoading(true);
     try {
@@ -453,6 +582,9 @@ export default function ReviewPage() {
       if (!isPolling) {
         setSlots(
           (data.visual_suggestions || []).map((v: VisualSuggestion) => ({ ...v, size: v.size || "full" }))
+        );
+        setEmbeds(
+          (data.social_embeds || []).map((e: SocialEmbed, i: number) => ({ ...e, id: e.id || `E${i + 1}` }))
         );
       }
     } catch (err) {
@@ -501,6 +633,7 @@ export default function ReviewPage() {
           hero_image_prompt: heroImagePrompt,
           hero_image_alt: heroAlt,
           visual_suggestions: slots,
+          social_embeds: embeds,
         }),
       });
       showToast("Draft saved ✓");
@@ -825,11 +958,20 @@ export default function ReviewPage() {
                 blocks.forEach((b, i) => {
                   out.push(dropZone(i));
                   const tok = slotTokenOf(b);
+                  const emb = embedTokenOf(b);
                   if (tok) {
                     out.push(
                       renderSlotCard(
                         slotById(tok.id) || { id: tok.id, kind: "photo", description: tok.desc, size: "full" as ImageSize },
                         i
+                      )
+                    );
+                  } else if (emb) {
+                    out.push(
+                      renderEmbedCard(
+                        embedById(emb.id) || { id: emb.id, platform: "x", url: emb.url, embed_id: "", source: "manual" },
+                        i,
+                        emb.url
                       )
                     );
                   } else {
@@ -867,6 +1009,26 @@ export default function ReviewPage() {
               </div>
             );
           })()}
+
+          {/* Add a social embed by URL (X / YouTube / Instagram) */}
+          <div className="embed-add">
+            <span className="embed-add-label">🔗 Add a social post</span>
+            <input
+              className="input-field embed-add-input"
+              placeholder="Paste an X, YouTube, or Instagram URL…"
+              value={embedUrlInput}
+              onChange={(e) => setEmbedUrlInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  addEmbedFromUrl();
+                }
+              }}
+            />
+            <button className="btn btn-secondary imgslot-mini vc-gen-btn" onClick={addEmbedFromUrl} disabled={!embedUrlInput.trim()}>
+              + Add
+            </button>
+          </div>
         </section>
 
         {/* ── SECTION 3: Excerpt ── */}

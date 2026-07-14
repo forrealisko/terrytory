@@ -1375,6 +1375,32 @@ body::before {
 .imgslot-unplaced-row { display: flex; align-items: center; gap: 10px; padding: 6px 0; }
 .imgslot-unplaced-row .imgslot-desc { flex: 1; min-width: 0; }
 
+/* ── Social embed cards (review Preview) ── */
+.imgslot.socialembed { border-color: var(--border-subtle); }
+.socialembed-card {
+  padding: 14px 16px;
+  border-left: 3px solid var(--border-active);
+  background: var(--bg-card);
+}
+.socialembed-card--x { border-left-color: #1d9bf0; }
+.socialembed-card--youtube { border-left-color: #ff0000; }
+.socialembed-card--instagram { border-left-color: #e1306c; }
+.socialembed-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.socialembed-platform { font-size: 12px; font-weight: 700; color: var(--text-primary); }
+.socialembed-handle { font-size: 12px; color: var(--text-muted); }
+.socialembed-text { font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); margin: 0 0 8px; }
+.socialembed-text--muted { font-style: italic; color: var(--text-muted); }
+.socialembed-link { font-size: 11px; color: var(--accent-brand-blue); font-family: var(--font-mono); text-decoration: none; }
+.socialembed-link:hover { text-decoration: underline; }
+
+.embed-add {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin-top: 14px; padding: 12px; border-radius: 12px;
+  border: 1px dashed rgba(56, 189, 248, 0.35); background: rgba(56, 189, 248, 0.05);
+}
+.embed-add-label { font-size: 12px; color: var(--text-secondary); font-weight: 600; }
+.embed-add-input { flex: 1; min-width: 200px; font-size: 12px; }
+
 /* ═══════════════════════════════════════════════════════════════════════════ */
 /* CONTENT PIPELINE — Review Queue, Editor, Published                        */
 /* ═══════════════════════════════════════════════════════════════════════════ */

@@ -58,6 +58,8 @@ export type SocialPlatform = "x" | "youtube" | "instagram";
 
 /** A social post captured from a source article (or added by the editor). */
 export interface SocialEmbed {
+  /** Token id used in body_markdown: [EMBED #E1: url]. */
+  id?: string;
   platform: SocialPlatform;
   url: string;
   embed_id: string;
