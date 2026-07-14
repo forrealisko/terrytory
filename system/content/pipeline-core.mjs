@@ -10,6 +10,7 @@ import { loadNiche, ensureNicheDirs } from "../lib/niches.mjs";
 import { loadEnv, getOpenRouterKey } from "../lib/env.mjs";
 import { CONFIG, getEditorialPrompt, getResearchPrompt } from "./content-config.mjs";
 import { authorForFormat, authorByline } from "./authors.mjs";
+import { collectSocialEmbeds } from "./social-embeds.mjs";
 
 loadEnv();
 
@@ -242,6 +243,15 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
   const researchReport = await performResearch(ctx, spec.headline, spec.source_articles, apiKey);
   ctx.log("info", `  Research complete (${researchReport.length} chars)`);
 
+  // Capture social posts embedded in the source articles (X, YouTube, …) so the
+  // writer can weave the relevant ones in and the editor can curate them.
+  let social_embeds = [];
+  try {
+    social_embeds = await collectSocialEmbeds(spec.source_articles || [], ctx.log);
+  } catch (e) {
+    ctx.log("warn", `  social embed capture failed: ${e.message}`);
+  }
+
   const styleGuide = getFewShotExamples(ctx);
   const draftContent = await writeArticleDraft(ctx, spec, researchReport, styleGuide, apiKey, modelOverride, format, author);
   // AI now commits to a single best headline; keep backward-compat with older `headline_options`.
@@ -271,6 +281,7 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
     seo: draftContent.seo || { meta_title: "", meta_description: "", keywords: [] },
     hero_image_prompt: draftContent.hero_image_prompt || null,
     visual_suggestions: draftContent.visual_suggestions || [],
+    social_embeds,
     affiliate_slots: draftContent.affiliate_slots || [],
     generation: draftContent.generation,
   };

@@ -54,6 +54,25 @@ export interface Author {
 
 export type ImageSize = "small" | "medium" | "full";
 
+export type SocialPlatform = "x" | "youtube" | "instagram";
+
+/** A social post captured from a source article (or added by the editor). */
+export interface SocialEmbed {
+  platform: SocialPlatform;
+  url: string;
+  embed_id: string;
+  author?: string | null;
+  handle?: string | null;
+  /** Post text/caption when we could capture it (used by the static card). */
+  text?: string | null;
+  /** "blockquote" | "link" (how it was found) or "manual" (editor added). */
+  source?: string;
+  captured_at?: string;
+  from_source?: string;
+  /** Render as a live provider embed instead of a static card. Default false. */
+  live?: boolean;
+}
+
 export interface VisualSuggestion {
   id?: string;
   kind: string;
@@ -76,6 +95,7 @@ export interface ArticleDraft {
   format?: string;
   author?: Author;
   visual_suggestions?: VisualSuggestion[];
+  social_embeds?: SocialEmbed[];
 
   source_articles: SourceReference[];
 
