@@ -659,6 +659,7 @@ export default function ReviewPage() {
           draftId,
           selected_headline: finalHeadline,
           body_markdown: publishBody,
+          social_embeds: embeds,
           slug,
           seo: {
             meta_title: metaTitle,

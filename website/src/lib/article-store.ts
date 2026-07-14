@@ -264,6 +264,7 @@ export function shipDraft(
     hero_image_url?: string;
     hero_image_alt?: string;
     hero_image_prompt?: string;
+    social_embeds?: SocialEmbed[];
   },
   niche: string = DEFAULT_NICHE
 ): { folderName: string; folderPath: string } | null {
@@ -302,6 +303,7 @@ export function shipDraft(
     hero_image_prompt: finalHeroPrompt,
     generation: draft.generation,
     source_articles: draft.source_articles,
+    social_embeds: overrides?.social_embeds ?? draft.social_embeds ?? [],
   });
 
   writeJsonFile(path.join(folderPath, "formatting.json"), {
@@ -484,6 +486,7 @@ export function publishShippedArticle(
       completion_tokens: 0,
       generation_time_ms: 0,
     },
+    social_embeds: (meta.social_embeds as SocialEmbed[]) || [],
     published_at: now,
     published_slug: publishedSlug,
   };
