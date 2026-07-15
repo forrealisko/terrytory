@@ -13,47 +13,13 @@
  * Local/CI only — writes the FS and runs git.
  */
 import { NextRequest, NextResponse } from "next/server";
-import { execFileSync } from "node:child_process";
 import path from "node:path";
 import fs from "node:fs";
 import { shipDraft, publishShippedArticle } from "@/lib/article-store";
 import { resolveNiche } from "@/lib/niches";
+import { repoRoot, commitAndPushContent } from "@/lib/git-publish";
 
 export const runtime = "nodejs";
-
-/** Repo root — the app runs from website/, content lives a level up. */
-function repoRoot(): string {
-  const cwd = process.cwd();
-  for (const c of [path.resolve(cwd, ".."), cwd]) {
-    if (fs.existsSync(path.join(c, ".git"))) return c;
-  }
-  return path.resolve(cwd, "..");
-}
-
-function git(root: string, args: string[]): string {
-  return execFileSync("git", args, { cwd: root, encoding: "utf-8", timeout: 60_000 }).trim();
-}
-
-/**
- * Commit + push only the content dir, so we never sweep up unrelated WIP from
- * the working tree. Returns why it didn't push rather than throwing — the
- * article is already published locally at this point.
- */
-function commitAndPush(headline: string): { pushed: boolean; detail: string } {
-  const root = repoRoot();
-  try {
-    git(root, ["add", "system/content"]);
-    const staged = git(root, ["diff", "--cached", "--name-only"]);
-    if (!staged) return { pushed: false, detail: "No content changes to commit (already up to date)." };
-    const subject = `Publish: ${headline}`.slice(0, 72);
-    git(root, ["commit", "-m", subject]);
-    git(root, ["push"]);
-    return { pushed: true, detail: "Pushed — Vercel is rebuilding (~60-90s)." };
-  } catch (err) {
-    const msg = (err as Error & { stderr?: Buffer }).stderr?.toString() || (err as Error).message;
-    return { pushed: false, detail: `Published locally, but git push failed: ${msg.slice(0, 300)}` };
-  }
-}
 
 export async function POST(req: NextRequest) {
   try {
@@ -88,7 +54,7 @@ export async function POST(req: NextRequest) {
 
     // 4. Commit + push so the live site actually changes.
     const headline = published.selected_headline || published.headline_options?.[0] || "article";
-    const git = commitAndPush(headline);
+    const git = commitAndPushContent(`Publish: ${headline}`);
 
     const slug = published.published_slug || published.slug;
     return NextResponse.json({

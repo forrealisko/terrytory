@@ -1444,6 +1444,12 @@ body::before {
   border: 1px solid rgba(79, 141, 253, 0.2);
   background: rgba(79, 141, 253, 0.06);
 }
+/* Queued for the publish cron — amber so it reads as "waiting", not "ready" */
+.content-draft-badge.is-scheduled {
+  color: var(--accent-amber);
+  border-color: rgba(245, 158, 11, 0.3);
+  background: rgba(245, 158, 11, 0.08);
+}
 
 .content-headlines {
   display: flex;

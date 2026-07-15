@@ -93,7 +93,9 @@ export interface ArticleDraft {
   id: string;
   niche?: string;
   created_at: string;
-  status: "draft" | "published" | "rejected" | "generating";
+  status: "draft" | "scheduled" | "published" | "rejected" | "generating";
+  /** When status is "scheduled": ISO time the publish cron should take it live. */
+  publish_at?: string;
   format?: string;
   author?: Author;
   visual_suggestions?: VisualSuggestion[];
@@ -182,7 +184,12 @@ export function slugify(text: string): string {
 export function listDrafts(niche: string = DEFAULT_NICHE): ArticleDraft[] {
   const drafts = listJsonFiles(D(niche).drafts)
     .map((f) => readJsonFile<ArticleDraft>(f))
-    .filter((d): d is ArticleDraft => d !== null && (d.status === "draft" || d.status === "generating"));
+    // "scheduled" stays in the queue so it's visible (and cancellable) until the
+    // publish cron takes it live.
+    .filter(
+      (d): d is ArticleDraft =>
+        d !== null && (d.status === "draft" || d.status === "generating" || d.status === "scheduled")
+    );
 
   drafts.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
   return drafts;

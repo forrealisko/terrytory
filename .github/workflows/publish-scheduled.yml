@@ -1,0 +1,43 @@
+name: Publish Scheduled Articles
+
+# Runs in the cloud so scheduling works whether or not Lukáš's machine is on.
+# Everything is already finalized at schedule time (body baked, seo/embeds
+# resolved), so this only promotes due drafts into published/ and pushes —
+# which is what makes the live site update.
+on:
+  schedule:
+    - cron: "*/15 * * * *" # every 15 minutes
+  workflow_dispatch: {} # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-scheduled
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Publish anything that's due
+        run: node system/content/publish-due.mjs
+
+      - name: Commit & push published articles
+        run: |
+          git config user.name  "terrytory-bot"
+          git config user.email "bot@terrytory.xyz"
+          git add system/content/niches/*/published system/content/niches/*/drafts 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing published this run."
+          else
+            git commit -m "chore(publish): scheduled article(s) went live"
+            git push
+          fi

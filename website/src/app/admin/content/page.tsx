@@ -15,6 +15,8 @@ interface Draft {
   id: string;
   created_at: string;
   status: string;
+  /** Set when status is "scheduled" — ISO time the publish cron takes it live. */
+  publish_at?: string;
   source_articles: SourceRef[];
   headline_options: string[];
   slug: string;
@@ -399,11 +401,19 @@ function DraftCard({
     <div className="content-draft-card">
       {/* Header */}
       <div className="content-draft-card-header">
-        <span className="content-draft-badge">DRAFT</span>
+        {draft.status === "scheduled" && draft.publish_at ? (
+          <span className="content-draft-badge is-scheduled" title={new Date(draft.publish_at).toLocaleString()}>
+            ⏰ SCHEDULED
+          </span>
+        ) : (
+          <span className="content-draft-badge">DRAFT</span>
+        )}
         <span
           style={{ fontSize: 11, color: "var(--text-muted)", marginLeft: "auto" }}
         >
-          {timeAgo(draft.created_at)}
+          {draft.status === "scheduled" && draft.publish_at
+            ? `goes live ${new Date(draft.publish_at).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" })}`
+            : timeAgo(draft.created_at)}
         </span>
       </div>
 

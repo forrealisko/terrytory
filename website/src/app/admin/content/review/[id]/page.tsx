@@ -46,6 +46,16 @@ const GEN_MODELS = [
   { key: "flux-pro", label: "Flux 1.1 Pro", hint: "best quality" },
 ] as const;
 
+// Scheduling options offered in the action bar (hours from now).
+const SCHEDULE_PRESETS: { hours: number; label: string }[] = [
+  { hours: 1, label: "In 1 hour" },
+  { hours: 3, label: "In 3 hours" },
+  { hours: 5, label: "In 5 hours" },
+  { hours: 6, label: "In 6 hours" },
+  { hours: 12, label: "In 12 hours" },
+  { hours: 24, label: "Tomorrow" },
+];
+
 const SIZE_PRESETS: { key: ImageSize; label: string }[] = [
   { key: "small", label: "Small" },
   { key: "medium", label: "Medium" },
@@ -236,6 +246,7 @@ export default function ReviewPage() {
   // the gap currently hovered.
   const [dragIdx, setDragIdx] = useState<number | null>(null);
   const [overGap, setOverGap] = useState<number | null>(null);
+  const [scheduleOpen, setScheduleOpen] = useState(false);
 
   // ── Social embeds: captured from sources (or added by the editor). Metadata
   // lives in social_embeds; the body keeps [EMBED #En] tokens as anchors. ──
@@ -677,6 +688,45 @@ export default function ReviewPage() {
       setTimeout(() => router.push("/admin/content/published"), 1800);
     } catch (err) {
       showToast(`Publish failed: ${(err as Error).message}`);
+    } finally {
+      setShipping(false);
+    }
+  };
+
+  // Schedule this draft to go live later. Everything is finalized here (baked
+  // body, final headline/seo/embeds) so the publish cron only has to promote it.
+  const scheduleIn = async (hours: number) => {
+    setScheduleOpen(false);
+    setShipping(true);
+    try {
+      const finalHeadline = customHeadline.trim() || selectedHeadline;
+      const publishBody = bakeImageSlots(body, slots);
+      const when = new Date(Date.now() + hours * 3600_000);
+      const res = await fetch("/api/content/schedule", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          draftId,
+          publish_at: when.toISOString(),
+          selected_headline: finalHeadline,
+          body_markdown: publishBody,
+          social_embeds: embeds,
+          visual_suggestions: slots,
+          excerpt,
+          slug,
+          seo: { meta_title: metaTitle, meta_description: metaDesc, keywords },
+          hero_image_url: heroImageUrl,
+          hero_image_prompt: heroImagePrompt,
+          hero_image_alt: heroAlt,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error);
+      const label = when.toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" });
+      showToast(data.pushed ? `⏰ Scheduled for ${label}` : `⏰ Scheduled for ${label} · ${data.detail}`);
+      setTimeout(() => router.push("/admin/content"), 1800);
+    } catch (err) {
+      showToast(`Schedule failed: ${(err as Error).message}`);
     } finally {
       setShipping(false);
     }
@@ -1477,6 +1527,60 @@ export default function ReviewPage() {
               </>
             )}
           </button>
+          {/* Schedule → the publish cron takes it live, no machine needed */}
+          <div style={{ position: "relative" }}>
+            <button
+              className="btn btn-secondary review-action-btn"
+              onClick={() => setScheduleOpen((o) => !o)}
+              disabled={shipping}
+              title="Publish automatically at a later time"
+            >
+              ⏰ Schedule ▾
+            </button>
+            {scheduleOpen && (
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: "calc(100% + 6px)",
+                  left: 0,
+                  zIndex: 30,
+                  background: "var(--bg-elevated)",
+                  border: "1px solid var(--border-active)",
+                  borderRadius: 12,
+                  padding: 4,
+                  minWidth: 190,
+                  boxShadow: "var(--shadow-lg)",
+                }}
+              >
+                {SCHEDULE_PRESETS.map((p) => (
+                  <button
+                    key={p.hours}
+                    type="button"
+                    onClick={() => scheduleIn(p.hours)}
+                    style={{
+                      display: "flex",
+                      width: "100%",
+                      justifyContent: "space-between",
+                      gap: 10,
+                      padding: "8px 10px",
+                      borderRadius: 8,
+                      border: "none",
+                      background: "transparent",
+                      color: "var(--text-secondary)",
+                      fontSize: 12.5,
+                      cursor: "pointer",
+                      textAlign: "left",
+                    }}
+                  >
+                    <span>{p.label}</span>
+                    <span style={{ color: "var(--text-muted)", fontSize: 11 }}>
+                      {new Date(Date.now() + p.hours * 3600_000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <button
             className="btn btn-secondary review-action-btn"
             onClick={handleSave}
