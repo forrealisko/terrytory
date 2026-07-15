@@ -2850,3 +2850,40 @@ select:focus-visible {
   color: var(--text-primary);
   font-weight: 700;
 }
+
+/* ── Floating format toolbar (text selection in the review Preview) ── */
+.fmt-toolbar {
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  border-radius: 12px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-active);
+  box-shadow: var(--shadow-lg);
+}
+.fmt-toolbar button {
+  min-width: 30px;
+  height: 28px;
+  padding: 0 8px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all var(--dur-fast) var(--ease-out);
+}
+.fmt-toolbar button:hover {
+  background: rgba(79, 141, 253, 0.16);
+  color: var(--text-primary);
+}
+.fmt-sep {
+  width: 1px;
+  height: 18px;
+  background: var(--border-active);
+  margin: 0 2px;
+}

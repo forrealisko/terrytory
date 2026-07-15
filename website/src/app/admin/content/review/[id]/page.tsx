@@ -161,6 +161,9 @@ function renderMarkdown(text: string): string {
   // Bold & italic
   html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   html = html.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+  // Underline — markdown has none, so ++text++ is our marker (kept in sync with
+  // lib/markdown.ts so Preview and the published article agree).
+  html = html.replace(/\+\+([^+]+)\+\+/g, "<u>$1</u>");
 
   // Bullet points
   html = html.replace(/^\s*[-*]\s+(.+)$/gm, "<li>$1</li>");
@@ -247,6 +250,10 @@ export default function ReviewPage() {
   const [dragIdx, setDragIdx] = useState<number | null>(null);
   const [overGap, setOverGap] = useState<number | null>(null);
   const [scheduleOpen, setScheduleOpen] = useState(false);
+  // Floating format toolbar for a text selection in Preview.
+  const [selFmt, setSelFmt] = useState<
+    { top: number; left: number; blockIdx: number; text: string; occurrence: number } | null
+  >(null);
 
   // ── Social embeds: captured from sources (or added by the editor). Metadata
   // lives in social_embeds; the body keeps [EMBED #En] tokens as anchors. ──
@@ -407,6 +414,82 @@ export default function ReviewPage() {
       setUploadingImage(false);
     }
   }
+
+  /**
+   * Selecting text in Preview opens a small format toolbar. The tricky part is
+   * mapping a DOM selection back onto the markdown source: rendered text and
+   * source differ (`**x**` renders as `x`), so offsets don't line up. Two things
+   * make it tractable — the body is already rendered block-by-block, so we know
+   * WHICH block was selected, and within that block we count which occurrence of
+   * the selected string it is, then target the same occurrence in the source.
+   */
+  const onPreviewSelect = () => {
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || sel.rangeCount === 0) {
+      setSelFmt(null);
+      return;
+    }
+    const text = sel.toString().trim();
+    if (!text) {
+      setSelFmt(null);
+      return;
+    }
+    const range = sel.getRangeAt(0);
+    const blockEl = (range.startContainer.nodeType === 1
+      ? (range.startContainer as HTMLElement)
+      : range.startContainer.parentElement
+    )?.closest<HTMLElement>("[data-block-idx]");
+    // Only plain text blocks are formattable (not slot/embed cards).
+    if (!blockEl) {
+      setSelFmt(null);
+      return;
+    }
+    const blockIdx = Number(blockEl.getAttribute("data-block-idx"));
+
+    // Which occurrence of `text` within this block is selected?
+    const pre = range.cloneRange();
+    pre.selectNodeContents(blockEl);
+    pre.setEnd(range.startContainer, range.startOffset);
+    const occurrence = pre.toString().split(text).length - 1;
+
+    const r = range.getBoundingClientRect();
+    setSelFmt({ top: r.top + window.scrollY - 44, left: r.left + window.scrollX + r.width / 2, blockIdx, text, occurrence });
+  };
+
+  /** Wrap the selected text in the markdown source with the chosen marker. */
+  const applyFormat = (kind: "bold" | "italic" | "underline" | "link") => {
+    if (!selFmt) return;
+    const { blockIdx, text, occurrence } = selFmt;
+    const blocks = splitBlocks(body);
+    const src = blocks[blockIdx];
+    if (src === undefined) return;
+
+    // Find the same occurrence in the source.
+    let from = -1;
+    for (let i = 0; i <= occurrence; i++) {
+      from = src.indexOf(text, i === 0 ? 0 : from + 1);
+      if (from === -1) break;
+    }
+    if (from === -1) {
+      showToast("Couldn't map that selection to the source — try a cleaner selection");
+      return;
+    }
+
+    let replacement: string;
+    if (kind === "bold") replacement = `**${text}**`;
+    else if (kind === "italic") replacement = `*${text}*`;
+    else if (kind === "underline") replacement = `++${text}++`;
+    else {
+      const url = window.prompt("Link URL", "https://");
+      if (!url || url === "https://") return;
+      replacement = `[${text}](${url})`;
+    }
+
+    blocks[blockIdx] = src.slice(0, from) + replacement + src.slice(from + text.length);
+    setBody(blocks.join("\n\n"));
+    setSelFmt(null);
+    window.getSelection()?.removeAllRanges();
+  };
 
   // Inline interactive image slot rendered in Preview at the token's position.
   // Not a component (avoids remount/focus loss) — a plain JSX-returning helper.
@@ -982,7 +1065,7 @@ export default function ReviewPage() {
               spellCheck
             />
           ) : (
-            <div className="review-body-preview">
+            <div className="review-body-preview" onMouseUp={onPreviewSelect} onKeyUp={onPreviewSelect}>
               <div dangerouslySetInnerHTML={{ __html: `<h1 class="md-h1">${finalHeadline.replace(/</g, "&lt;")}</h1>` }} />
               {(() => {
                 const blocks = splitBlocks(body);
@@ -1027,7 +1110,11 @@ export default function ReviewPage() {
                       )
                     );
                   } else {
-                    out.push(<div key={`b-${i}`} dangerouslySetInnerHTML={{ __html: renderMarkdown(b) }} />);
+                    // data-block-idx lets the format toolbar map a selection back
+                    // to this block's markdown source.
+                    out.push(
+                      <div key={`b-${i}`} data-block-idx={i} dangerouslySetInnerHTML={{ __html: renderMarkdown(b) }} />
+                    );
                   }
                 });
                 out.push(dropZone(blocks.length));
@@ -1507,6 +1594,22 @@ export default function ReviewPage() {
           </div>
         </section>
       </div>
+
+      {/* Floating format toolbar — appears on a text selection in Preview */}
+      {selFmt && (
+        <div
+          className="fmt-toolbar"
+          style={{ top: selFmt.top, left: selFmt.left }}
+          // Keep the selection alive when clicking a button.
+          onMouseDown={(e) => e.preventDefault()}
+        >
+          <button onClick={() => applyFormat("bold")} title="Bold"><strong>B</strong></button>
+          <button onClick={() => applyFormat("italic")} title="Italic"><em>I</em></button>
+          <button onClick={() => applyFormat("underline")} title="Underline"><u>U</u></button>
+          <span className="fmt-sep" />
+          <button onClick={() => applyFormat("link")} title="Insert link">🔗</button>
+        </div>
+      )}
 
       {/* ── Sticky Action Bar ── */}
       <div className="review-action-bar">

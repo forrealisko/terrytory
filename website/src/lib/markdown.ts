@@ -78,6 +78,9 @@ export function renderMarkdown(text: string, niche?: string, embeds?: EmbedLike[
 
   html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   html = html.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+  // Underline — markdown has none, so ++text++ is our marker (written by the
+  // review editor's selection toolbar).
+  html = html.replace(/\+\+([^+]+)\+\+/g, "<u>$1</u>");
 
   html = html.replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>");
 
