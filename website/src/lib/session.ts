@@ -18,9 +18,26 @@ export interface Session {
   exp: number;
 }
 
-/** Read the signing secret. A loud dev fallback keeps local dev working. */
+const DEV_FALLBACK_SECRET = "dev-insecure-secret-change-me";
+
+/**
+ * Read the signing secret.
+ *
+ * In production this MUST come from the environment. This repo is public, so the
+ * dev fallback below is readable by anyone — falling back to it on a live site
+ * would let a stranger mint a valid `tt_admin` cookie and walk into the admin.
+ * So production fails closed (throws) instead of silently trusting a known
+ * constant. Locally, the fallback keeps dev frictionless.
+ */
 export function sessionSecret(): string {
-  return process.env.SESSION_SECRET || "dev-insecure-secret-change-me";
+  const secret = process.env.SESSION_SECRET;
+  if (secret) return secret;
+  if (process.env.NODE_ENV === "production") {
+    throw new Error(
+      "SESSION_SECRET is not set. Refusing to fall back to the public dev secret — set SESSION_SECRET in the Vercel environment."
+    );
+  }
+  return DEV_FALLBACK_SECRET;
 }
 
 function b64urlEncode(bytes: Uint8Array): string {
@@ -55,10 +72,16 @@ export async function createSessionToken(session: Session, secret = sessionSecre
   return `${payload}.${b64urlEncode(new Uint8Array(sig))}`;
 }
 
-/** Verify signature + expiry. Returns the session or null if invalid/expired. */
+/**
+ * Verify signature + expiry. Returns the session or null if invalid/expired.
+ *
+ * Resolves the secret INSIDE the try: in production sessionSecret() throws when
+ * SESSION_SECRET is missing, and we want that to deny access (→ redirect to
+ * /login) rather than 500 every admin request from the proxy.
+ */
 export async function verifySessionToken(
   token: string | undefined | null,
-  secret = sessionSecret(),
+  secret?: string,
 ): Promise<Session | null> {
   if (!token) return null;
   const dot = token.indexOf(".");
@@ -68,7 +91,7 @@ export async function verifySessionToken(
   if (!payload || !sig) return null;
 
   try {
-    const key = await hmacKey(secret);
+    const key = await hmacKey(secret ?? sessionSecret());
     const ok = await crypto.subtle.verify("HMAC", key, b64urlDecode(sig), enc.encode(payload));
     if (!ok) return null;
     const session = JSON.parse(dec.decode(b64urlDecode(payload))) as Session;

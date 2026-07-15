@@ -23,7 +23,19 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: false, error: "Invalid credentials" }, { status: 401 });
   }
 
-  const token = await createSessionToken({ u: user, exp: Date.now() + WEEK_SECONDS * 1000 });
+  let token: string;
+  try {
+    token = await createSessionToken({ u: user, exp: Date.now() + WEEK_SECONDS * 1000 });
+  } catch (err) {
+    // Almost always: SESSION_SECRET missing in the deploy environment. Say so
+    // plainly rather than returning an opaque 500 — credentials were correct.
+    console.error("[login] cannot mint session:", err);
+    return NextResponse.json(
+      { ok: false, error: "Server auth is misconfigured (SESSION_SECRET missing). Set it in the environment." },
+      { status: 500 }
+    );
+  }
+
   const res = NextResponse.json({ ok: true, user });
   res.cookies.set("tt_admin", token, {
     httpOnly: true,
