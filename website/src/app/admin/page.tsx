@@ -517,7 +517,7 @@ export default function DashboardPage() {
                           <button
                             className={`star-btn ${isStarred ? "active" : ""}`}
                             onClick={(e) => toggleStar(e, h)}
-                            title={isStarred ? "Starred Pick" : "Star Article"}
+                            title={isStarred ? "In the Studio — click to remove" : "Star → send to the Studio"}
                           >
                             {isStarred ? (
                               <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
