@@ -645,14 +645,14 @@ export default function ReviewPage() {
   };
 
   const handleShip = async () => {
-    if (!confirm("Ship this article? It will be packaged into a folder for publishing."))
+    if (!confirm("Publish this article live? It goes on the site and pushes to git (live in ~60-90s)."))
       return;
     setShipping(true);
     try {
       const finalHeadline = customHeadline.trim() || selectedHeadline;
       // Bake image-slot tokens into final sized markdown for the public article.
       const publishBody = bakeImageSlots(body, slots);
-      const res = await fetch("/api/content/ship", {
+      const res = await fetch("/api/content/publish-live", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -673,9 +673,10 @@ export default function ReviewPage() {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error);
-      showToast(`Shipped! → ${data.folder_name}`);
+      showToast(data.pushed ? `🚀 Published — live in ~60-90s` : `Published locally · ${data.detail}`);
+      setTimeout(() => router.push("/admin/content/published"), 1800);
     } catch (err) {
-      showToast(`Ship failed: ${(err as Error).message}`);
+      showToast(`Publish failed: ${(err as Error).message}`);
     } finally {
       setShipping(false);
     }
@@ -1468,11 +1469,11 @@ export default function ReviewPage() {
             {shipping ? (
               <>
                 <span className="loading-spinner" style={{ width: 14, height: 14 }} />
-                Shipping...
+                Publishing…
               </>
             ) : (
               <>
-                🚀 Ship
+                🚀 Publish live
               </>
             )}
           </button>
