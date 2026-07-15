@@ -63,5 +63,6 @@
     "prompt_tokens": 6802,
     "completion_tokens": 2585,
     "generation_time_ms": 57275
-  }
+  },
+  "shipped_at": "2026-07-11T07:11:30.200Z"
 }

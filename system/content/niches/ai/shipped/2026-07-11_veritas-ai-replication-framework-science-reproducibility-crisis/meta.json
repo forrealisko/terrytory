@@ -1,0 +1,40 @@
+{
+  "id": "ddf94ce9-bad1-48c2-a553-2b2dfb4721c3",
+  "niche": "ai",
+  "headline": "VERITAS Scores 88.9% on Replication. The Science Crisis It's Trying to Fix Scores Much Worse.",
+  "slug": "veritas-ai-replication-framework-science-reproducibility-crisis",
+  "folder_name": "2026-07-11_veritas-ai-replication-framework-science-reproducibility-crisis",
+  "created_at": "2026-07-10T10:23:33.780Z",
+  "shipped_at": "2026-07-11T07:11:30.200Z",
+  "seo": {
+    "meta_title": "VERITAS AI Replication Tool Misses the Real Crisis",
+    "meta_description": "VERITAS scores 88.9% on CORE-Bench. But when 85% of AI studies never share code, automating replication is the wrong solution to the right problem.",
+    "keywords": [
+      "scientific replication crisis",
+      "VERITAS replication framework",
+      "CORE-Bench benchmark",
+      "AI reproducibility",
+      "scientific transparency",
+      "replication automation",
+      "ML reproducibility"
+    ]
+  },
+  "hero_image_prompt": "Photorealistic editorial image of a lone researcher at a sleek workstation in a darkened laboratory, surrounded by glowing server racks and cascading terminal code on multiple monitors, while in the background towering shelves of physical research binders and paper archives slowly dissolve into digital static, cinematic blue and amber lighting, atmospheric depth of field, no text or logos",
+  "generation": {
+    "model": "anthropic/claude-4.6-sonnet-20260217",
+    "prompt_tokens": 6802,
+    "completion_tokens": 2585,
+    "generation_time_ms": 57275
+  },
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "url": "https://arxiv.org/abs/2607.02931",
+      "excerpt": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification of published research has become both harder and more important. As manual replication is slow and expensive, a growing line of work uses coding agents to automate parts of the process. Existing efforts are largely packa…"
+    }
+  ],
+  "hero_image_url": "",
+  "hero_image_alt": ""
+}
