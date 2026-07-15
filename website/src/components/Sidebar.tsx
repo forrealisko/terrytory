@@ -25,15 +25,6 @@ const NAV_ITEMS = [
     ),
   },
   {
-    href: "/admin/chat",
-    label: "DESK",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
-        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    ),
-  },
-  {
     href: "/admin/content",
     label: "CREATE",
     icon: (
@@ -76,7 +67,6 @@ interface NicheInfo {
 // Map the current admin page to the Settings tab we should open on.
 function sectionForPathname(pathname: string): string {
   if (pathname.startsWith("/admin/studio")) return "studio";
-  if (pathname.startsWith("/admin/chat")) return "desk";
   if (pathname.startsWith("/admin/content")) return "create";
   if (pathname.startsWith("/admin/analytics")) return "analytics";
   if (pathname === "/admin") return "scraper";
@@ -200,7 +190,7 @@ export function Sidebar() {
           <Link
             key={item.href}
             href={item.href}
-            className={`sidebar-link ${pathname === item.href ? "active" : ""} ${item.href === "/admin/chat" ? "sidebar-link-muted" : ""}`}
+            className={`sidebar-link ${pathname === item.href ? "active" : ""}`}
           >
             {item.icon}
             <span>{item.label}</span>
