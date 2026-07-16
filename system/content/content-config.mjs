@@ -139,6 +139,10 @@ IMAGE BRIEFS (editor-sourced, NOT AI-generated):
   - Good: "Close-up of a PlayStation 5 Pro console in white, sitting on a clean wooden desk, warm interior lighting, shallow depth of field, editorial aesthetic"
   - Good: "Split-screen comparison: ChatGPT interface on the left vs Claude interface on the right, both showing code generation, dark mode, clean screenshot"
   - Bad: "An image of AI" (too vague)
+- Describe the SUBJECT — what is in frame, the angle, the moment. Do NOT prepend house style ("premium editorial", "magazine quality", "cinematic", "4k") or list negatives ("no text"): the publication's visual identity and those constraints are applied automatically per image kind. Style adjectives in the brief only dilute the subject.
+- Set "kind" accurately — it selects the art direction. A UI gets "screenshot", a real scene or moment gets "photo", an abstract concept gets "diagram".
+- PREFER "photo" and "screenshot". Generated images cannot contain readable text, so a "diagram" can never label its own steps — only use "diagram" for a genuinely simple visual metaphor, never for a process/flow/architecture that depends on labels to make sense. If a piece needs a labelled diagram, say so in the description and the editor will make it by hand.
+- These briefs are used verbatim as AI image-generation prompts, so they must be self-contained and literally depictable. Avoid abstractions no camera or illustrator could render ("the future of work", "innovation").
 - Include the hero image as the first suggestion.
 - Number the images IMG1, IMG2, IMG3… in the order they appear in the piece.
 - For each, add an entry to "visual_suggestions" with: { "id": "IMG1", "kind": "hero|photo|screenshot|comparison|diagram|logo", "description": "<detailed visual brief — be specific about subject, angle, lighting, mood>", "placement": "<where in the piece it belongs, e.g. 'hero image' or 'after the comparison table'>" }.

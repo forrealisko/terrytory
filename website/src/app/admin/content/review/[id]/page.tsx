@@ -350,7 +350,9 @@ export default function ReviewPage() {
       const res = await fetch("/api/content/generate-variations", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt: v.description, articleId: draftId, slotId: v.id, model: genModel, count: 3 }),
+        // `kind` drives the art direction (a diagram shouldn't be shot like a
+        // cinematic photo) — see lib/image-style.ts.
+        body: JSON.stringify({ prompt: v.description, articleId: draftId, slotId: v.id, kind: v.kind, model: genModel, count: 3 }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Generation failed");

@@ -9,6 +9,7 @@
  *   prompt: string,        // the image brief / description
  *   articleId: string,
  *   slotId?: string,       // e.g. "IMG2" (for filenames)
+ *   kind?: string,         // hero|photo|screenshot|comparison|diagram|logo
  *   model?: string,        // key from MODELS below
  *   count?: number,        // 1..4, default 3
  * }
@@ -18,6 +19,7 @@ import path from "node:path";
 import fs from "node:fs";
 import { getImagesDir } from "@/lib/article-store";
 import { resolveNiche } from "@/lib/niches";
+import { buildImagePrompt } from "@/lib/image-style";
 
 export const runtime = "nodejs";
 
@@ -36,7 +38,7 @@ function slug(s: string): string {
 export async function POST(req: NextRequest) {
   try {
     const niche = resolveNiche(req);
-    const { prompt, articleId, slotId, model, count } = await req.json();
+    const { prompt, articleId, slotId, kind, model, count } = await req.json();
 
     if (!prompt || !String(prompt).trim()) {
       return NextResponse.json({ error: "prompt is required" }, { status: 400 });
@@ -61,8 +63,10 @@ export async function POST(req: NextRequest) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        prompt: `${prompt}. Clean, professional, high detail. No text, captions, or watermarks.`,
-        image_size: "landscape_16_9",
+        // House style + art direction for this kind of visual + the brief.
+        prompt: buildImagePrompt(prompt, kind),
+        // Diagrams/logos read better square; everything else is a 16:9 band.
+        image_size: kind === "diagram" || kind === "logo" ? "square_hd" : "landscape_16_9",
         num_images: n,
       }),
     });

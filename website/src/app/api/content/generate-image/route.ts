@@ -10,6 +10,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "node:path";
 import fs from "node:fs";
+import { buildImagePrompt } from "@/lib/image-style";
 
 function getImagesDir(): string {
   const cwd = process.cwd();
@@ -61,7 +62,7 @@ export async function POST(req: NextRequest) {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            prompt: `Editorial news photography style. ${prompt}. High contrast, dramatic lighting, cinematic composition. No text or watermarks.`,
+            prompt: buildImagePrompt(prompt, "hero"),
             image_size: "landscape_16_9",
           }),
         }
@@ -94,7 +95,7 @@ export async function POST(req: NextRequest) {
           },
           body: JSON.stringify({
             model: "openai/dall-e-3",
-            prompt: `Editorial news photography style. ${prompt}. High contrast, dramatic lighting, cinematic composition. No text or watermarks.`,
+            prompt: buildImagePrompt(prompt, "hero"),
             n: 1,
             size: "1792x1024",
             quality: "standard",
