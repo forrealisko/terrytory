@@ -63,5 +63,6 @@
     "name": "Dr. Naomi Reyes",
     "title": "Research Editor",
     "bio": "Dr. Naomi Reyes is Terrytory AI's Research Editor. With a PhD in machine learning and years spent between academia and applied labs, she translates dense papers and model cards into things builders can actually use."
-  }
+  },
+  "featured": true
 }
