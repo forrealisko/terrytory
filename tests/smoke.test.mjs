@@ -112,6 +112,33 @@ describe("disabled niches are private, not merely unlisted", () => {
   }
 });
 
+function archivedArticles(nicheId) {
+  const dir = path.join(ROOT, "system", "content", "niches", nicheId, "archived");
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
+}
+
+// Archiving is the "take it down" button. If an archived article stays
+// reachable it has failed at the one thing it exists to do.
+describe("archived articles are off the live site", () => {
+  const all = enabled().flatMap((n) => archivedArticles(n.id).map((a) => ({ niche: n.id, a })));
+
+  if (!all.length) {
+    test("nothing archived right now", () => {
+      assert.ok(true);
+    });
+  }
+
+  for (const { niche, a } of all) {
+    test(`[${niche}] ${a.slug} is not reachable`, async () => {
+      assert.equal((await raw(`${BASE}/site/${niche}/${a.slug}`)).status, 404);
+    });
+  }
+});
+
 // Five of fourteen articles shipped with broken images before anyone looked:
 // some pointed at files stranded by a directory move, others at filenames the
 // model invented and nothing ever generated.

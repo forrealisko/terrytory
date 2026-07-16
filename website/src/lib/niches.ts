@@ -122,6 +122,8 @@ export function nichePaths(id: string) {
     shipped: path.join(content, "shipped"),
     rejected: path.join(content, "rejected"),
     published: path.join(content, "published"),
+    // Pulled off the live site but kept whole, so it can go back.
+    archived: path.join(content, "archived"),
     starred: path.join(content, "starred-scrapes.json"),
     generatorLog: path.join(content, "generator.log"),
     generatorPid: path.join(content, "generator.pid"),
@@ -139,7 +141,7 @@ export function ensureNicheDirs(id: string) {
   // don't need the dirs created (listJsonFiles handles missing dirs), and
   // writes only happen in writable environments (GitHub Actions / local), so
   // swallow per-dir failures instead of crashing the request.
-  [p.content, p.picks, p.ideas, p.drafts, p.images, p.shipped, p.rejected, p.published, p.scraperData].forEach((d) => {
+  [p.content, p.picks, p.ideas, p.drafts, p.images, p.shipped, p.rejected, p.published, p.archived, p.scraperData].forEach((d) => {
     try {
       fs.mkdirSync(d, { recursive: true });
     } catch {

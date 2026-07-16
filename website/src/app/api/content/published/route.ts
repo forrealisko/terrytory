@@ -7,13 +7,16 @@
  */
 import { NextRequest, NextResponse } from "next/server";
 import { listPublished } from "@/lib/article-store";
+import { resolveNiche } from "@/lib/niches";
 
 export async function GET(req: NextRequest) {
   try {
     const page = parseInt(req.nextUrl.searchParams.get("page") || "1", 10);
     const limit = parseInt(req.nextUrl.searchParams.get("limit") || "20", 10);
 
-    const result = listPublished(page, limit);
+    // Without the niche this fell back to the default, so the Published screen
+    // showed "ai" no matter which niche the sidebar had selected.
+    const result = listPublished(page, limit, resolveNiche(req));
 
     return NextResponse.json({
       articles: result.articles,

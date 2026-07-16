@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import { Fraunces } from "next/font/google";
 import { listNiches } from "@/lib/niches";
-import { listPublished } from "@/lib/article-store";
+import { listFeatured, listPublished } from "@/lib/article-store";
+import { nicheImageUrl } from "@/lib/markdown";
 import "@/styles/magazine.css";
 
 const display = Fraunces({
@@ -14,13 +15,25 @@ const display = Fraunces({
 export const dynamic = "force-dynamic";
 
 export default function Landing() {
-  const pubs = listNiches()
-    .filter((n) => n.enabled !== false)
-    .map((n) => ({
-      id: n.id,
-      brand: n.brand,
-      count: listPublished(1, 200, n.id).articles.length,
-    }));
+  const enabled = listNiches().filter((n) => n.enabled !== false);
+
+  const pubs = enabled.map((n) => ({
+    id: n.id,
+    brand: n.brand,
+    count: listPublished(1, 200, n.id).articles.length,
+  }));
+
+  // Hand-picked from the Published screen. Nothing starred means no section at
+  // all, so the hub looks exactly as it did until the feature is actually used.
+  const featured = enabled.flatMap((n) =>
+    listFeatured(n.id).map((a) => ({
+      article: a,
+      niche: n.id,
+      accent: n.brand?.accent || "#159a67",
+      brandName: n.brand?.shortName || n.id,
+      image: nicheImageUrl(a.hero_image_url, n.id),
+    }))
+  );
 
   return (
     <div
@@ -57,6 +70,34 @@ export default function Landing() {
               researched, written, and illustrated every day. Choose a beat.
             </p>
           </section>
+
+          {featured.length > 0 && (
+            <section className="mag-featured rise rise-2">
+              <span className="mag-eyebrow">Featured</span>
+              <div className="mag-featured-grid">
+                {featured.map(({ article, niche, accent, brandName, image }) => (
+                  <Link
+                    key={article.id}
+                    href={`/site/${niche}/${article.slug}`}
+                    className="mag-featured-card"
+                    style={{ "--accent": accent } as CSSProperties}
+                  >
+                    {image && (
+                      <span className="mag-featured-media">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={image} alt={article.hero_image_alt || ""} loading="lazy" />
+                      </span>
+                    )}
+                    <span className="mag-featured-kicker">{brandName}</span>
+                    <h3 className="mag-featured-title">
+                      {article.selected_headline || article.headline_options?.[0] || article.slug}
+                    </h3>
+                    {article.excerpt && <p className="mag-featured-excerpt">{article.excerpt}</p>}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section className="mag-hub rise rise-2">
             {pubs.map((p) => (

@@ -2901,3 +2901,48 @@ select:focus-visible {
   border: 1px solid;
   white-space: nowrap;
 }
+
+/* ── Published rows ────────────────────────────────────────────────────────
+   Not .article-row: that's a 5-column grid sized for the scraper table
+   (title/source/date/star/type). These rows have their own shape — a star, a
+   title that takes the slack, then the actions. */
+.published-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+.published-row:hover {
+  background: var(--bg-card);
+}
+.published-row .published-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 500;
+}
+.published-row .published-date {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.published-star {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.published-star:hover {
+  transform: scale(1.2);
+}
+.published-star:disabled {
+  cursor: default;
+}

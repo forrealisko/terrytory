@@ -2,14 +2,19 @@
  * ╔══════════════════════════════════════════════════════════════╗
  * ║  ARTICLE STORE — niche-aware                                 ║
  * ║  Filesystem-backed article lifecycle management.             ║
- * ║  States: draft → published | rejected                        ║
+ * ║  States: draft → published | rejected, published ⇄ archived  ║
  * ║  Every function takes the niche id (defaults to "ufo").      ║
  * ╚══════════════════════════════════════════════════════════════╝
+ *
+ * Reads come straight off the disk. Writes go through content-writer, which
+ * writes files locally and commits via the GitHub API on Vercel, where the
+ * filesystem is read-only — hence the async signatures on anything that saves.
  */
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { DEFAULT_NICHE, ensureNicheDirs } from "./niches";
+import { writeJson, moveJson } from "./content-writer";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -93,7 +98,7 @@ export interface ArticleDraft {
   id: string;
   niche?: string;
   created_at: string;
-  status: "draft" | "scheduled" | "published" | "rejected" | "generating";
+  status: "draft" | "scheduled" | "published" | "rejected" | "generating" | "archived";
   /** When status is "scheduled": ISO time the publish cron should take it live. */
   publish_at?: string;
   format?: string;
@@ -123,6 +128,11 @@ export interface ArticleDraft {
   published_at?: string;
   published_slug?: string;
   shipped_at?: string;
+
+  /** Hand-picked for the hub's feature slot. */
+  featured?: boolean;
+  /** When status is "archived": ISO time it was pulled off the live site. */
+  archived_at?: string;
 }
 
 // ─── Paths ──────────────────────────────────────────────────────────────────
@@ -132,6 +142,7 @@ function D(niche: string) {
   return {
     drafts: p.drafts,
     published: p.published,
+    archived: p.archived,
     shipped: p.shipped,
     rejected: p.rejected,
     images: p.images,
@@ -544,6 +555,112 @@ export function getPublishedBySlug(slug: string, niche: string = DEFAULT_NICHE):
     }
   }
   return null;
+}
+
+// ─── Managing what's live ───────────────────────────────────────────────────
+//
+// These four write through content-writer, which picks its mechanism from the
+// filesystem: a direct write locally, a GitHub commit on Vercel (where the disk
+// is read-only). Callers just await and get an error if it didn't land.
+
+/** Locate a published article's file by slug. */
+function publishedFile(slug: string, niche: string): { filepath: string; article: ArticleDraft } | null {
+  for (const filepath of listJsonFiles(D(niche).published)) {
+    const article = readJsonFile<ArticleDraft>(filepath);
+    if (article && (article.published_slug === slug || article.slug === slug)) {
+      return { filepath, article };
+    }
+  }
+  return null;
+}
+
+/** Locate an archived article's file by slug. */
+function archivedFile(slug: string, niche: string): { filepath: string; article: ArticleDraft } | null {
+  for (const filepath of listJsonFiles(D(niche).archived)) {
+    const article = readJsonFile<ArticleDraft>(filepath);
+    if (article && (article.published_slug === slug || article.slug === slug)) {
+      return { filepath, article };
+    }
+  }
+  return null;
+}
+
+/** Pin or unpin an article for the hub's feature slot. */
+export async function setFeatured(
+  slug: string,
+  featured: boolean,
+  niche: string = DEFAULT_NICHE
+): Promise<ArticleDraft | null> {
+  const found = publishedFile(slug, niche);
+  if (!found) return null;
+  const updated: ArticleDraft = { ...found.article, featured };
+  await writeJson(found.filepath, updated, `chore(content): ${featured ? "feature" : "unfeature"} ${slug}`);
+  return updated;
+}
+
+/**
+ * Take an article off the live site, keeping it whole so it can go back.
+ *
+ * A move rather than a delete: the article stops being served the moment it
+ * leaves published/, and nothing is lost if it turns out to have been a mistake.
+ */
+export async function archivePublished(
+  slug: string,
+  niche: string = DEFAULT_NICHE
+): Promise<ArticleDraft | null> {
+  const found = publishedFile(slug, niche);
+  if (!found) return null;
+  const archived: ArticleDraft = {
+    ...found.article,
+    status: "archived",
+    archived_at: new Date().toISOString(),
+    featured: false, // an archived article must not hold the hub's feature slot
+  };
+  const dest = path.join(D(niche).archived, path.basename(found.filepath));
+  await moveJson(found.filepath, dest, archived, `chore(content): archive ${slug}`);
+  return archived;
+}
+
+/** Put an archived article back on the live site. */
+export async function restoreArchived(
+  slug: string,
+  niche: string = DEFAULT_NICHE
+): Promise<ArticleDraft | null> {
+  const found = archivedFile(slug, niche);
+  if (!found) return null;
+  const restored: ArticleDraft = { ...found.article, status: "published" };
+  delete restored.archived_at;
+  const dest = path.join(D(niche).published, path.basename(found.filepath));
+  await moveJson(found.filepath, dest, restored, `chore(content): restore ${slug}`);
+  return restored;
+}
+
+/** Edit an already-published article in place. */
+export async function updatePublished(
+  slug: string,
+  updates: Partial<ArticleDraft>,
+  niche: string = DEFAULT_NICHE
+): Promise<ArticleDraft | null> {
+  const found = publishedFile(slug, niche);
+  if (!found) return null;
+  // Identity and provenance are not the editor's to rewrite.
+  const { id, niche: _n, created_at, published_at, published_slug, status, ...safe } = updates;
+  void id; void _n; void created_at; void published_at; void published_slug; void status;
+  const updated: ArticleDraft = { ...found.article, ...safe };
+  await writeJson(found.filepath, updated, `chore(content): edit ${slug}`);
+  return updated;
+}
+
+export function listArchived(niche: string = DEFAULT_NICHE): ArticleDraft[] {
+  return listJsonFiles(D(niche).archived)
+    .map((f) => readJsonFile<ArticleDraft>(f))
+    .filter((a): a is ArticleDraft => a !== null)
+    .sort((a, b) => new Date(b.archived_at || 0).getTime() - new Date(a.archived_at || 0).getTime());
+}
+
+/** Featured articles for the hub, newest first. */
+export function listFeatured(niche: string = DEFAULT_NICHE): ArticleDraft[] {
+  return listPublished(1, 500, niche).articles.filter((a) => a.featured);
 }
 
 /** Get the images directory path */
