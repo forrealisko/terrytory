@@ -1,0 +1,19 @@
+{
+  "id": "8e2ae807-14db-4efc-9ad9-0ac98dbdda99",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:56.665Z",
+  "status": "pending",
+  "headline": "The Real Reason OnePlus Failed in the US",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its strong clickability within the tech enthusiast community and its relevance to the broader consumer market. The failure of a major phone brand is significant news, and the underlying reason—the economics of the US carrier system—is a relatable and practical issue for anyone who buys a smartphone. The story also lends itself to multiple engaging formats, from a 'hot take' on the US phone market to a practical listicle of alternative devices.",
+  "summary": "OnePlus has officially ceased operations in the United States after struggling to gain a foothold. The brand's failure is attributed to its value-focused, 'flagship killer' model being fundamentally incompatible with the US market's reliance on carrier financing for expensive phones.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "OnePlus never had a chance in the US",
+      "url": "https://www.theverge.com/tech/966274/oneplus-never-had-a-chance-in-the-us",
+      "excerpt": "Twelve years after the launch of the OnePlus One, OnePlus announced today that it has exited the United States. It's bittersweet, as the brand has been on a comeback tour of sorts with its excellent OnePlus 15 and widely praised (though still too expensive) OnePlus Open. The writing has been on the wall for a […]"
+    }
+  ]
+}

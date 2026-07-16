@@ -1,0 +1,43 @@
+{
+  "id": "496181bf-f2f7-4cd8-b158-647b5f4ebbc0",
+  "niche": "ai",
+  "batch_id": "6877913c-ae2a-4e11-8694-46162ec4085b",
+  "created_at": "2026-07-16T17:26:31.089Z",
+  "status": "proposed",
+  "format": "listicle",
+  "title": "Code-Stealing Tools, AI-Powered Spies, and Botnets: 3 New AI Threats to Your Security",
+  "angle": "From state-sponsored hackers compromising your messaging apps to AI assistants secretly uploading your code, we break down the new wave of AI-driven security risks and give you concrete steps to protect yourself from each.",
+  "audience": "builders, tech-curious",
+  "rationale": "Combines three high-impact security stories into a single, actionable guide that provides immediate value and practical advice.",
+  "priority": 3,
+  "source_pick_ids": [
+    "dfeb2603-ba32-42e4-be25-514c7bba6f9d",
+    "6df89d9f-c3a9-4abe-8d31-51ab108b7f8b",
+    "c99b2b41-6b8e-492a-8f7f-8a6860045de6"
+  ],
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
+      "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+      "excerpt": "Operation by two Russia-state groups has been ongoing since at least March."
+    },
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "excerpt": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositories, \"including files it was told not to open […]"
+    },
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "excerpt": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\""
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

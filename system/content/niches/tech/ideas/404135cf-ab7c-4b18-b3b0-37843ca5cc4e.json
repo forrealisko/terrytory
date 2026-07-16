@@ -1,0 +1,27 @@
+{
+  "id": "404135cf-ab7c-4b18-b3b0-37843ca5cc4e",
+  "niche": "tech",
+  "batch_id": "4ac45f69-d495-4c13-949e-be31ae3971c6",
+  "created_at": "2026-07-16T17:27:12.520Z",
+  "status": "proposed",
+  "format": "listicle",
+  "title": "5 Reasons Ninja's New Microwave Air Fryer Is the Only Gadget Your Kitchen Needs",
+  "angle": "It's a $450 microwave, but hear us out. We break down why this 2-in-1 appliance isn't just another kitchen gadget, but a legitimate solution to decluttering your countertop and, finally, ending soggy leftovers forever.",
+  "audience": "Gadget enthusiasts, tech-curious homeowners",
+  "rationale": "It taps into a universal pain point (bad leftovers) and frames a new product within a larger trend, sparking a strong 'is it worth it?' debate for a mainstream audience.",
+  "priority": 4,
+  "source_pick_ids": [
+    "51832c07-57a2-4ba2-9554-395388c326dd"
+  ],
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "Ninja’s microwave air fryer could be the fix for soggy reheated pizza",
+      "url": "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance",
+      "excerpt": "Ninja has added everything from ice cream makers to double-decker toaster ovens to its extensive lineup of counter-clogging appliances, but it's only now introducing its first microwave. What makes the new Ninja Crispi Microwave stand out among its many competitors is that it doubles as an air fryer. After heating your food using microwaves, you […]"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

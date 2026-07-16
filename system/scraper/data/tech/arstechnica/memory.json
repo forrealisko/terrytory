@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:42.225Z",
-  "last_scrape": "2026-07-10T09:41:23.856Z",
-  "total_scrapes": 6,
+  "last_scrape": "2026-07-16T17:13:23.690Z",
+  "total_scrapes": 7,
   "seen_hashes": {
     "8148750f2162d86b": {
       "first_seen": "2026-07-03T21:08:47.657Z",
@@ -477,9 +477,129 @@
       "last_seen": "2026-07-10T09:41:23.856Z",
       "title": "Payloads used to dictate the terms of launch. That's finally changing.",
       "url": "https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/"
+    },
+    "c1764252b4e4f38d": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "OnePlus ends phone releases in US and Europe, further reducing smartphone choice",
+      "url": "https://arstechnica.com/gadgets/2026/07/oneplus-ends-phone-releases-in-us-and-europe-further-reducing-smartphone-choice/"
+    },
+    "0818a3943238eaf7": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Could China and Russia really destroy Starlink? Only with a boomerang.",
+      "url": "https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/"
+    },
+    "09cf494e150548a0": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/"
+    },
+    "c5917588eba9facd": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Tesla driver who blamed crash on autopilot pressed accelerator 100%, NTSB finds",
+      "url": "https://arstechnica.com/tech-policy/2026/07/tesla-driver-who-blamed-crash-on-autopilot-pressed-accelerator-100-ntsb-finds/"
+    },
+    "38f57f5965649d94": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Move over, GPS: Navigation satellites in low-Earth orbit are making a comeback",
+      "url": "https://arstechnica.com/space/2026/07/move-over-gps-navigation-satellites-in-low-earth-orbit-are-making-a-comeback/"
+    },
+    "c60206c3f56316c0": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Hundreds rally at Bethesda HQ to protest Xbox layoffs, and Ars was there",
+      "url": "https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/"
+    },
+    "aeadabb7ae9f0c8d": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Buzz Aldrin sells famous felt-tip pen that helped launch Apollo from the Moon",
+      "url": "https://arstechnica.com/space/2026/07/apollo-11s-broken-switch-and-mission-saving-pen-sell-for-860k/"
+    },
+    "9d5e47af5dc9a315": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+      "url": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/"
+    },
+    "923d48417a83f396": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Judge: Trump can’t deport researchers just for working in content moderation",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/"
+    },
+    "428f3f011947764f": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Engineer identifies and explains every '90s computer seen in Jurassic Park",
+      "url": "https://arstechnica.com/gadgets/2026/07/engineer-identifies-and-explains-every-90s-computer-seen-in-jurassic-park/"
+    },
+    "f47b3a5e2ceb4197": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/"
+    },
+    "37fe3ccb4e395e0b": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "FCC to repeal 39% TV ownership cap in boost for Trump-friendly news orgs",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/"
+    },
+    "cecc08785d349a7d": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "In memoriam: 7 of our favorite Sam Neill films",
+      "url": "https://arstechnica.com/culture/2026/07/in-memoriam-seven-of-our-favorite-sam-neill-films/"
+    },
+    "806f0cce9d9302fe": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Third-party app stores coming to Google Play next week as Epic settlement withdrawn",
+      "url": "https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn/"
+    },
+    "2484151c76341684": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "OpenAI's first branded hardware is... a light-up keyboard?",
+      "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/"
+    },
+    "1db13bd5da96f1db": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "A most improbable astronaut just went to space",
+      "url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/"
+    },
+    "ccf1614da28ad987": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "How hard is it to build orbital data centers, actually?",
+      "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/"
+    },
+    "45769a3d89ebf9b5": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Sotheby's big T. rex auction raises concerns hype and wealth are upending science",
+      "url": "https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science/"
+    },
+    "eb3c87932c477f1d": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/"
+    },
+    "4919efee7a6647d6": {
+      "first_seen": "2026-07-16T17:13:23.689Z",
+      "last_seen": "2026-07-16T17:13:23.689Z",
+      "title": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
+      "url": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/"
     }
   },
   "stats": {
-    "total_headlines_ever": 79
+    "total_headlines_ever": 99
   }
 }

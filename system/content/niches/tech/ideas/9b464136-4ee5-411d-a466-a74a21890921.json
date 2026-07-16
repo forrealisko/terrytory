@@ -1,0 +1,27 @@
+{
+  "id": "9b464136-4ee5-411d-a466-a74a21890921",
+  "niche": "tech",
+  "batch_id": "4ac45f69-d495-4c13-949e-be31ae3971c6",
+  "created_at": "2026-07-16T17:27:12.520Z",
+  "status": "proposed",
+  "format": "article",
+  "title": "Google Search Just Became an 'Everything App'. Here’s What That Actually Means.",
+  "angle": "This isn't just a feature update; it's a fundamental rewiring of the web where Google becomes the central controller of your digital life, turning apps like Instacart into mere plugins for its AI. We analyze the immediate power and long-term risks.",
+  "audience": "Builders, businesses, tech-curious",
+  "rationale": "It's the single biggest, most forward-looking news of the day, explaining a fundamental strategic shift with massive implications for both users and the entire app economy.",
+  "priority": 2,
+  "source_pick_ids": [
+    "1c79a09b-2b6c-4e53-8c6b-fd08f85e46d4"
+  ],
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "excerpt": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

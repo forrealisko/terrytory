@@ -1,0 +1,19 @@
+{
+  "id": "44c1c288-63d4-429b-ba2e-3a8b09f02752",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:23:21.988Z",
+  "status": "planned",
+  "headline": "My $2,000 E-Bike Was Lost, But the Real Nightmare Was AI Chatbot Hell",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal by tapping into a universal, modern frustration with automated customer service. The personal story of a significant financial loss makes it highly relatable and shareable, and the subject lends itself perfectly to multiple engaging formats, from a personal essay to a 'how-to-beat-the-bots' listicle.",
+  "summary": "A customer's expensive e-bike delivery went missing, and their attempt to get help resulted in a months-long, unresolved battle against incompetent AI chatbots from FedEx, the retailer, and their bank. The story serves as a powerful case study on the failures of current AI-driven customer support.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell",
+      "url": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
+      "excerpt": "Companies’ increasing reliance on AI chatbots isn’t making the customer service experience smarter. It’s just making it more infuriating."
+    }
+  ]
+}

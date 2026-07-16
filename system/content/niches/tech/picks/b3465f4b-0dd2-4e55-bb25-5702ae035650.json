@@ -1,0 +1,19 @@
+{
+  "id": "b3465f4b-0dd2-4e55-bb25-5702ae035650",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:49.951Z",
+  "status": "pending",
+  "headline": "OpenAI Wants You to Touch Grass... With Its $70 ChatGPT Basketball",
+  "rating": 8.2,
+  "reasoning": "This topic scores very highly on clickability and mainstream appeal due to the absurdity of a leading AI company selling a basketball. While it has low practical value, it's perfect for a punchy hot take or listicle ('Weirdest Tech Merch'), generating social media buzz and commentary, which aligns perfectly with our publication's voice.",
+  "summary": "AI research company OpenAI has launched a new line of merchandise that includes a $70 branded basketball, a $230 mini-keyboard, and other expensive apparel.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "excerpt": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball."
+    }
+  ]
+}

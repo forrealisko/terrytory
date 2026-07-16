@@ -1,0 +1,19 @@
+{
+  "id": "44ccbf18-9dfb-4716-8fbb-926368f2a232",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:09:49.166Z",
+  "status": "pending",
+  "headline": "AI vs. Nolan: This 'AI Slop' Movie Is Trying to Cash In On a Hollywood Blockbuster",
+  "rating": 8.5,
+  "reasoning": "This topic scores high on clickability and mainstream appeal due to the classic 'Hollywood vs. AI' conflict, featuring a well-known director (Nolan) and a controversial new technology. While its direct practical value is moderate, it offers significant contextual value by helping readers understand the current state of AI in entertainment and spot low-effort 'AI slop.' The story also lends itself to multiple engaging formats, including a head-to-head comparison, a hot take, and an explainer.",
+  "summary": "An AI film studio is releasing a low-budget, AI-generated version of \"The Odyssey\" to coincide with Christopher Nolan's blockbuster, prompting criticism that it's a low-quality marketing stunt rather than a serious artistic endeavor.",
+  "source_articles": [
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "AI slop movies are the new direct-to-video cash grabs",
+      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "excerpt": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric […]"
+    }
+  ]
+}

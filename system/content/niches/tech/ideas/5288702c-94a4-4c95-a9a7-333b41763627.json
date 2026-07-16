@@ -1,0 +1,51 @@
+{
+  "id": "5288702c-94a4-4c95-a9a7-333b41763627",
+  "niche": "tech",
+  "batch_id": "4ac45f69-d495-4c13-949e-be31ae3971c6",
+  "created_at": "2026-07-16T17:27:12.520Z",
+  "status": "proposed",
+  "format": "opinion",
+  "title": "We Didn't Ask For This: Why Big Tech's Forced AI 'Upgrades' Are a Betrayal",
+  "angle": "Synthesizing recent news (Meta's facial recognition lies, Stardust's data sharing, AI chatbot hell), we argue that the industry's 'opt-out by default' strategy for AI is actively burning user trust and is doomed to fail.",
+  "audience": "Tech-curious, builders, consumers",
+  "rationale": "This piece captures the current zeitgeist of user frustration and ties multiple top-rated stories into a single, powerful argument that defines our publication's voice.",
+  "priority": 1,
+  "source_pick_ids": [
+    "b45747e5-dbdd-436d-aedc-8a39cac074ad",
+    "a8235f54-a2fe-4ddd-8dab-1fa97686bfd0",
+    "3ada4e01-7e39-4a9a-a13a-5f72b63fb537",
+    "44c1c288-63d4-429b-ba2e-3a8b09f02752"
+  ],
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "Please Stop Making Me Opt Out of AI",
+      "url": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
+      "excerpt": "I’m sick of “opt-out” toggles for automatically enabled generative AI features. It’s past time to make “opt in” the default setting for sensitive features."
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "Here’s the Truth About Whether Meta’s NameTag Face Recognition Tech ‘Exists’",
+      "url": "https://www.wired.com/story/heres-the-truth-about-whether-metas-nametag-face-recognition-exists/",
+      "excerpt": "Since WIRED reported on Meta’s NameTag face recognition system, company executives have made confusing and conflicting remarks about its very existence."
+    },
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Period tracker Stardust shares users’ health data with analytics firm, says Mozilla research",
+      "url": "https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research/",
+      "excerpt": "One period tracker app tested by Mozilla was 'squeaky clean,' while another app was seen sharing users' health data with an analytics company, underscoring vast differences in user privacy among these apps."
+    },
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell",
+      "url": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
+      "excerpt": "Companies’ increasing reliance on AI chatbots isn’t making the customer service experience smarter. It’s just making it more infuriating."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

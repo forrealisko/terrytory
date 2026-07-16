@@ -1,0 +1,19 @@
+{
+  "id": "4789145f-799d-47b7-aef3-8289b5805534",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:22:51.452Z",
+  "status": "pending",
+  "headline": "SpaceX vs. Physics: The Brutal Reality of Building Data Centers in Orbit",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its immense clickability, driven by the involvement of SpaceX and the futuristic concept of orbital data centers. While its direct practical value for consumers is low, it has strong mainstream appeal and offers exceptional versatility for various engaging formats like explainers, listicles, and head-to-head comparisons. The inherent debate about its feasibility provides a compelling narrative hook for our audience of tech enthusiasts and builders.",
+  "summary": "SpaceX plans to build a massive constellation of data centers in orbit to power AI services, a concept that faces significant technical and economic challenges. The source material analyzes the feasibility of this plan, weighing optimistic projections against skeptical industry views and the hard physics of operating such a system in space.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "How hard is it to build orbital data centers, actually?",
+      "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
+      "excerpt": "\"The ISS radiators are expensive and heavy. We're focused on making them cheap and light.\""
+    }
+  ]
+}

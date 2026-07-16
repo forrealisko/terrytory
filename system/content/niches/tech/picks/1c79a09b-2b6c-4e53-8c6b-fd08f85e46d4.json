@@ -1,0 +1,19 @@
+{
+  "id": "1c79a09b-2b6c-4e53-8c6b-fd08f85e46d4",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:23.963Z",
+  "status": "planned",
+  "headline": "Google's AI Search Now Controls Your Apps—Starting with Instacart and Canva",
+  "rating": 9.3,
+  "reasoning": "This topic scores highly due to its strong mainstream appeal, focusing on a major update to Google Search—a universally used product. It has immense practical value by showing users how to automate daily tasks, and its direct competition with ChatGPT provides a compelling narrative. The story is also highly versatile, easily adaptable into how-to guides, listicles, or comparison pieces, maximizing its content potential.",
+  "summary": "Google has updated its AI Mode in search to allow direct integration with third-party apps like Instacart, Canva, and YouTube. Users can now perform tasks like adding items to a shopping cart or creating a music playlist directly from the conversational search interface.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "excerpt": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly."
+    }
+  ]
+}

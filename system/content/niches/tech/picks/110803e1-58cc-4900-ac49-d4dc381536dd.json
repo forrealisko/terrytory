@@ -1,0 +1,19 @@
+{
+  "id": "110803e1-58cc-4900-ac49-d4dc381536dd",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:07.785Z",
+  "status": "pending",
+  "headline": "Google's AI Can Now Create Your Playlists, Design Flyers, and Write Your Grocery List",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its strong mainstream appeal and direct practical value for everyday consumers. The integration of AI with popular apps like YouTube Music, Canva, and Instacart is highly relatable and click-worthy. Furthermore, the story is a goldmine for format diversity, easily adaptable into quick tips, how-to guides, or a listicle of new AI tricks, maximizing engagement.",
+  "summary": "Google is expanding its AI capabilities within Search by integrating with Canva, YouTube Music, and Instacart. This allows users to generate playlists, design templates, and compile shopping lists using natural language prompts.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Google AI Mode now integrates with Canva, YouTube Music and Instacart",
+      "url": "https://www.engadget.com/2216707/google-ai-mode-now-integrates-with-canva-youtube-music-and-instacart/",
+      "excerpt": "You can now make playlists, design flyers and compile shopping lists using AI in Search."
+    }
+  ]
+}

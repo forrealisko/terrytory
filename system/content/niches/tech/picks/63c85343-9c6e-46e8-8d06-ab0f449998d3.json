@@ -1,0 +1,19 @@
+{
+  "id": "63c85343-9c6e-46e8-8d06-ab0f449998d3",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:09.921Z",
+  "status": "pending",
+  "headline": "Sheryl Sandberg Backs AI That Turns Your Phone Into a Car Damage Inspector",
+  "rating": 8,
+  "reasoning": "This story scores highly due to the combination of a major tech figure (Sheryl Sandberg), a hot-button topic (AI), and a highly relatable, mainstream application (cars). While the startup's model is B2B, the underlying tech has clear implications for consumers, making it interesting and easy to understand. The topic is also ripe for multiple formats, such as an explainer on AI in the auto industry or a listicle of disruptive auto-tech startups.",
+  "summary": "Former Meta COO Sheryl Sandberg's venture firm has led a $10 million investment into Self Inspection, a startup using AI and smartphone photos to assess vehicle damage.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
+      "url": "https://techcrunch.com/2026/07/16/sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service/",
+      "excerpt": "The startup, founded in 2021, lets enterprise customers use smartphones to scan and spot vehicle damage."
+    }
+  ]
+}

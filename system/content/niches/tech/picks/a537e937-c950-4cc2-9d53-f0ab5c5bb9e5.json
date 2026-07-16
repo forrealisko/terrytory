@@ -1,0 +1,19 @@
+{
+  "id": "a537e937-c950-4cc2-9d53-f0ab5c5bb9e5",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:39.867Z",
+  "status": "pending",
+  "headline": "Apple Intelligence Gets Green Light in China, Powered by Alibaba and Baidu AI",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its potent mix of tech giant drama (Apple navigating Chinese regulations) and a major product launch, ensuring high clickability and mainstream appeal. The partnership with local Chinese firms like Alibaba and Baidu adds a layer of intrigue and sparks debate, lending itself to multiple formats like explainers ('Why Apple Needed a Chinese AI Partner') and hot takes. While the direct practical value is for users in China, the strategic implications are fascinating for a global tech audience.",
+  "summary": "Apple has received approval to launch its Apple Intelligence AI features in China after striking deals to integrate local AI models from Alibaba and Baidu. This move ends a significant delay for the feature suite in one of Apple's most critical markets.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "excerpt": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market."
+    }
+  ]
+}

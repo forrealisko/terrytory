@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:51.886Z",
-  "last_scrape": "2026-07-10T09:41:24.110Z",
-  "total_scrapes": 6,
+  "last_scrape": "2026-07-16T17:13:23.940Z",
+  "total_scrapes": 7,
   "seen_hashes": {
     "70ae8fcbe6ecc488": {
       "first_seen": "2026-07-03T21:08:55.880Z",
@@ -651,9 +651,129 @@
       "last_seen": "2026-07-10T09:41:24.109Z",
       "title": "The BBC and Channel 4 are in talks to merge streaming services... yet again",
       "url": "https://www.engadget.com/2211235/bbc-channel-4-uk-streaming-service/"
+    },
+    "8b1a9aea3d22e4fa": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Google AI Mode now integrates with Canva, YouTube Music and Instacart",
+      "url": "https://www.engadget.com/2216707/google-ai-mode-now-integrates-with-canva-youtube-music-and-instacart/"
+    },
+    "19261fd05b4d880c": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "An OLED iPad mini could finally arrive this year",
+      "url": "https://www.engadget.com/2216688/an-oled-ipad-mini-could-finally-arrive-this-year/"
+    },
+    "b060358630877a6b": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Google's NotebookLM is now Gemini Notebook",
+      "url": "https://www.engadget.com/2216473/google-notebooklm-is-now-gemini-notebook/"
+    },
+    "1d0fa8c9e10923cb": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Suno brings its gen AI music gunk to iMessage",
+      "url": "https://www.engadget.com/2216558/suno-brings-gen-ai-music-gunk-to-imessage/"
+    },
+    "ee7934a84cd6f27c": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Smart speakers could help OpenAI lose even more money",
+      "url": "https://www.engadget.com/2216556/smart-speakers-could-help-openai-lose-even-more-money/"
+    },
+    "1bc2d4e0a957d0b4": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Ofcom, the UK's communications regulator, is investigating TikTok's child safety measures",
+      "url": "https://www.engadget.com/2216550/ofcom-uk-communications-regulator-investigating-tiktok-child-safety-measures/"
+    },
+    "d2ba538ce0125f77": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Why does wireless Android Auto use both Bluetooth and Wi-Fi?",
+      "url": "https://www.engadget.com/2210415/why-wireless-android-auto-uses-both-bluetooth-wifi/"
+    },
+    "7161216792366230": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "You can now grant Claude access to your 1Password credentials",
+      "url": "https://www.engadget.com/2216405/1password-anthropic-claude-integration/"
+    },
+    "55b1b25ae71847a4": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Vital Signals puts continuous blood pressure monitoring into a ring",
+      "url": "https://www.engadget.com/2216390/vital-signals-blood-pressure-ring/"
+    },
+    "e35b920607c6c03c": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "EU demands Google give AI rivals more access to Android",
+      "url": "https://www.engadget.com/2216454/eu-demands-google-give-ai-rivals-more-access-to-android/"
+    },
+    "0341f30f3371a020": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Hyundai reportedly looking to take total control of robotics giant Boston Dynamics",
+      "url": "https://www.engadget.com/2216427/hyundai-reportedly-looking-to-buy-all-of-boston-dynamics-from-softbank/"
+    },
+    "63ebc1b9a977bca4": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Meta will alert parents if their teens discuss self harm with Meta AI tools",
+      "url": "https://www.engadget.com/2216412/meta-ai-alert-parents-if-teens-discuss-self-harm/"
+    },
+    "4f44c73bfdb2370a": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "The Oversight Board says leading AI models might be restricting free expression",
+      "url": "https://www.engadget.com/2216274/the-oversight-board-says-leading-ai-models-might-be-restricting-free-expression/"
+    },
+    "908d949cc928908d": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Netflix releases a VHS-quality version of Stranger Things' first season",
+      "url": "https://www.engadget.com/2216396/netflix-stranger-things-vhs-quality/"
+    },
+    "09cc6d3490da0ed4": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "OnePlus is officially leaving the US and Europe",
+      "url": "https://www.engadget.com/2213731/oneplus-is-officially-leaving-the-us-and-europe/"
+    },
+    "0722f4a8ff773861": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "xAI sues Grok user for generating nonconsensual sexualized deepfakes",
+      "url": "https://www.engadget.com/2216382/xai-sues-grok-user-generating-nonconsensual-sexualized-deepfakes/"
+    },
+    "4434cbd936142042": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "AppleCare+ prices just went up for Macs and iPads",
+      "url": "https://www.engadget.com/2216377/applecare-plus-prices-just-went-up-for-macs-and-ipads/"
+    },
+    "aa4b8a8d424c1d92": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Skullcandy Crusher 1080 review: Haptic bass meets whisper-quiet ANC",
+      "url": "https://www.engadget.com/2215794/skullcandy-crusher-1080-review/"
+    },
+    "160c18223643b435": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Elon Musk bought a gas turbine company",
+      "url": "https://www.engadget.com/2216186/elon-musk-bought-a-gas-turbine-company/"
+    },
+    "f506df07bc6c110e": {
+      "first_seen": "2026-07-16T17:13:23.939Z",
+      "last_seen": "2026-07-16T17:13:23.939Z",
+      "title": "Samsung isn't sure why some Galaxy S26 Ultra screens are turning red",
+      "url": "https://www.engadget.com/2216077/samsung-galaxy-s26-ultra-screens-turning-red-not-sure-why/"
     }
   },
   "stats": {
-    "total_headlines_ever": 108
+    "total_headlines_ever": 128
   }
 }

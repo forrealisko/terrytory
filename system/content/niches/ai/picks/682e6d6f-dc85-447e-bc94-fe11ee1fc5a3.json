@@ -1,0 +1,19 @@
+{
+  "id": "682e6d6f-dc85-447e-bc94-fe11ee1fc5a3",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:11:05.482Z",
+  "status": "pending",
+  "headline": "AI's 'Forbidden Words' Are Now a Superweapon Against Hackers",
+  "rating": 8,
+  "reasoning": "This topic has high clickability due to its clever 'uno reverse card' premise of using an attack method as a defense, which is inherently surprising and engaging. While the direct practical application is for developers, the story has strong mainstream appeal as a fascinating look into the AI security arms race, and it lends itself perfectly to multiple formats like an explainer ('What is Context Bombing?') or a listicle. The core concept of tricking an AI into triggering its own safety filters is a simple, powerful narrative for our audience.",
+  "summary": "Security researchers have developed a new defense called 'context bombing' that stops attacking AI agents by planting 'forbidden' prompts in sensitive areas. When the attacking AI reads these prompts, it triggers its own safety guardrails and shuts down, effectively neutralizing the threat.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+      "excerpt": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm."
+    }
+  ]
+}

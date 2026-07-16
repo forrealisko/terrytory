@@ -1,0 +1,19 @@
+{
+  "id": "31f8429f-ac57-4ac2-a6e9-7356de9f9df0",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:20:12.065Z",
+  "status": "pending",
+  "headline": "Court Slams Brakes on Trump's Plan to Deport Content Moderation Researchers",
+  "rating": 8.5,
+  "reasoning": "This topic scores very highly due to its exceptional clickability and viral potential, blending tech giant drama (Elon Musk's X) with high-stakes political conflict (Trump administration vs. a federal judge). It has strong mainstream appeal as it touches on the universally debated topics of content moderation and censorship on platforms everyone uses. While its direct practical value is low for the average user, its value in explaining the forces shaping their online world is immense, and it lends itself well to an explainer or hot-take format.",
+  "summary": "A federal judge has issued a preliminary injunction blocking the Trump administration from using a policy to deport non-US citizen researchers who work in content moderation. The judge found the policy's enforcement likely violated the First Amendment by targeting researchers based on their viewpoints.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "Judge: Trump can’t deport researchers just for working in content moderation",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
+      "excerpt": "Disinformation researchers praise ruling blocking Trump visa denials and deportations."
+    }
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "meta": {
+    "scrape_id": "232f466a-4a8e-4538-8d00-4126c246afe8",
+    "scraped_at": "2026-07-16T17:13:23.521Z",
+    "source_url": "https://www.wired.com/feed/rss",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 40,
+    "new_headlines": 39,
+    "previously_seen": 1
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Swatch’s New Gold MoonSwatch Solves the Problem of the Nightmare Royal Pop Launch",
+      "url": "https://www.wired.com/story/swatch-gold-moonswatch-solves-the-problem-of-the-nightmare-royal-pop-launch/",
+      "article_date": "2026-07-16T15:37:09.000Z",
+      "article_date_raw": null,
+      "author": "Jeremy White",
+      "excerpt": "Swatch’s latest MoonSwatch is the Mission to the Moon 1969, a limited-edition model with components crafted from Omega’s 18K Moonshine Gold. To get one, you'll have to join a lottery.",
+      "image_url": "https://media.wired.com/photos/6a58f0f4d35982f319740d69/master/pass/TOP%20ART!.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:37:09.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "XPeng’s New ‘Budget’ EV Looks Like the Ferrari Luce",
+      "url": "https://www.wired.com/story/xpeng-new-budget-ev-looks-like-the-ferrari-luce/",
+      "article_date": "2026-07-16T12:09:08.000Z",
+      "article_date_raw": null,
+      "author": "Jeremy White",
+      "excerpt": "The electric L03 is looking to punch above its weight in style and tech as it launches in 60 countries worldwide.",
+      "image_url": "https://media.wired.com/photos/6a57a68bb4d9b6f52c4df6bc/master/pass/Purple-City%20Driving-1-1_1_resized.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T12:09:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "11 Best Sleeping Bags (2026): Ultralight, Warm Weather, for Kids",
+      "url": "https://www.wired.com/story/the-best-sleeping-bags-for-every-adventure/",
+      "article_date": "2026-07-16T12:06:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson, Gear Team",
+      "excerpt": "Whether you’re climbing peaks or taking the family to the local park, we’ve found the best sleeping bags for every temperature, budget, and camping expedition.",
+      "image_url": "https://media.wired.com/photos/6a57155826e9b49c3a93d47b/master/pass/The-Best-Sleeping-Bags-for-Every-Adventure.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Outdoor"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T12:06:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "The Best Backpacking Water Filters of 2026",
+      "url": "https://www.wired.com/gallery/best-backpacking-water-filters/",
+      "article_date": "2026-07-16T11:33:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "We’ve tested filters from Sawyer, Katadyn, LifeStraw, MSR and more to find the best option for every adventure.",
+      "image_url": "https://media.wired.com/photos/6a5702fd8c2ec9babcb2fda4/master/pass/The-Best-Backpacking-Water-Filters.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Outdoor"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T11:33:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Hisense XR10 Smart Projector Review: RGB-Powered Wonder",
+      "url": "https://www.wired.com/review/hisense-xr10-smart-projector/",
+      "article_date": "2026-07-16T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "John Brandon",
+      "excerpt": "Projectors are adopting RGB backlighting, the hottest tech from the world of TVs. This large but vivid projector is a great option for summer movie nights.",
+      "image_url": "https://media.wired.com/photos/6a586e26a9e280f5390dcae3/master/pass/Review--Hisense-XR10-Smart-Projector.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Products",
+        "Gear / Reviews",
+        "Gear / Products / Televisions"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Gay Men Flocked to Goose for Friendship. Some Still Feel Excluded",
+      "url": "https://www.wired.com/story/gay-men-flocked-to-goose-for-friendship-some-still-feel-excluded/",
+      "article_date": "2026-07-16T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Jason Parham",
+      "excerpt": "Despite positioning itself as an anti-hookup app, users tell WIRED that Goose has fake profiles, harsh acceptance standards, and problems with inclusivity.",
+      "image_url": "https://media.wired.com/photos/6a56676f36e98c56882c9583/master/pass/Culture_Goose's%20Users%20Are%20Trashing%20The%20App_v3.jpg",
+      "categories": [
+        "Culture",
+        "Culture / Digital Culture"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Best Air Purifiers (2026): Coway, AirDoctor, IQAir, and More",
+      "url": "https://www.wired.com/gallery/best-air-purifiers/",
+      "article_date": "2026-07-16T10:08:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Protect your home against dust, pets, allergens, and more with the best air purifiers, tested firsthand.",
+      "image_url": "https://media.wired.com/photos/6a5869bdad0fb31ed65f955c/master/pass/Breathe-Easy-Thanks-to-the-Best-Air-Purifier-for-Every-Home.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Smart Home",
+        "Gear / Products / Home"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T10:08:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Please Stop Making Me Opt Out of AI",
+      "url": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
+      "article_date": "2026-07-16T10:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Reece Rogers",
+      "excerpt": "I’m sick of “opt-out” toggles for automatically enabled generative AI features. It’s past time to make “opt in” the default setting for sensitive features.",
+      "image_url": "https://media.wired.com/photos/6a581a11a304459a2f2ac833/master/pass/Stop-Making-Me-Opt-Out-Gear.gif",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / How To and Advice"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T10:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Astronomers Have Found a Sugar Molecule in Deep Space for the First Time Ever",
+      "url": "https://www.wired.com/story/astronomers-found-sugar-molecule-in-deep-space/",
+      "article_date": "2026-07-16T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Jorge Garay",
+      "excerpt": "Researchers identified traces of erythrulose, a monosaccharide, thousands of light-years away.",
+      "image_url": "https://media.wired.com/photos/6a57c0134de2a00b6b98bb26/master/pass/centro%20de%20la%20galaxia.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T09:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "OnePlus, the ‘Flagship-Killer’ Smartphone Brand, Is All but Dead",
+      "url": "https://www.wired.com/story/oneplus-is-all-but-dead/",
+      "article_date": "2026-07-16T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Julian Chokkattu",
+      "excerpt": "The original OnePlus phone disrupted the mobile market 13 years ago with its affordable price and top-end specs. Now, the company is exiting North America and Europe to focus on China.",
+      "image_url": "https://media.wired.com/photos/6a5651e90289d3b8cc7ba689/master/pass/OnePlus%20RIP.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Phones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Lenovo Coupon Codes and Deals in July 2026",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "article_date": "2026-07-16T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Luke Larsen",
+      "excerpt": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "image_url": "https://media.wired.com/photos/67b63b909468ebbf8f0cbc77/master/pass/WIRED-Coupons-R2_8.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Surfshark Promo Codes: 87% Off | July 2026",
+      "url": "https://www.wired.com/story/surfshark-coupon/",
+      "article_date": "2026-07-16T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+      "image_url": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Priceline Promo Codes & Coupons: 10% Off July",
+      "url": "https://www.wired.com/story/priceline-promo-code/",
+      "article_date": "2026-07-16T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
+      "image_url": "https://media.wired.com/photos/66ea076fca863bb4c1028b64/master/pass/WIRED-Coupons-11.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "HostGator Coupon Codes: 76% Off Hosting in July 2026",
+      "url": "https://www.wired.com/story/hostgator-coupon/",
+      "article_date": "2026-07-16T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Unlock massive savings on HostGator web hosting, WordPress, VPS, and business email plans with our exclusive HostGator promo codes and deals.",
+      "image_url": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7b/master/pass/WIRED-Coupons-R2_6.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Verizon Promo Codes: $200 Verizon Gift Cards | July 2026",
+      "url": "https://www.wired.com/story/verizon-promo-code/",
+      "article_date": "2026-07-16T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Ready for an upgrade? Apply our latest promotional codes today and choose a select service plan to score a discount with Verizon.",
+      "image_url": "https://media.wired.com/photos/66ea076e97780c31bf362cf9/master/pass/WIRED-Coupons-14.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "25% Off Adidas Promo Code | July 2026",
+      "url": "https://www.wired.com/story/adidas-promo-code/",
+      "article_date": "2026-07-16T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
+      "image_url": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T05:00:00.000Z"
+      },
+      "is_new": false,
+      "first_seen": "2026-07-07T09:48:54.361Z"
+    },
+    {
+      "type": "article",
+      "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for July",
+      "url": "https://www.wired.com/story/sony-promo-code/",
+      "article_date": "2026-07-16T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Gear Team",
+      "excerpt": "Upgrade your setup with Sony’s newest releases. Save on industry-leading noise-canceling audio, and pro-level Alpha cameras.",
+      "image_url": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7a/master/pass/WIRED-Coupons-R2_9.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Can Bose Help Skullcandy Shake Its Bargain-Bin Reputation?",
+      "url": "https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/",
+      "article_date": "2026-07-16T00:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Julian Chokkattu",
+      "excerpt": "Skullcandy’s audio products aren’t exactly known for their stellar audio quality or noise cancellation, but its latest headphones are getting an assist from Bose to turn things around.",
+      "image_url": "https://media.wired.com/photos/6a56063395e35992f7024e83/master/pass/Skullcandy_Crusher_1080_ANC_Family_Press_Images_9645.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Gear News and Events"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T00:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "How to Protect Your Health as Skies Fill With Smoke From Canada’s Wildfires",
+      "url": "https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/",
+      "article_date": "2026-07-15T23:05:03.000Z",
+      "article_date_raw": null,
+      "author": "Molly Taft",
+      "excerpt": "Roughly 100 fires are raging out of control in Ontario, sending smoke streaming 1,000 miles to the south and east.",
+      "image_url": "https://media.wired.com/photos/6a57d920c34efe431f7a321a/master/pass/Northeast-Being-Blanketed-in-Canadian-Wildfire-Smoke-Science-2285609475.jpg",
+      "categories": [
+        "Science",
+        "Science / Environment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T23:05:03.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Intel Officials Predict the Pentagon’s Bill for the Iran War Will Exceed $100 Billion",
+      "url": "https://www.wired.com/story/pentagons-bill-for-iran-war-exceed-100-billion/",
+      "article_date": "2026-07-15T21:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Hugo Lowell",
+      "excerpt": "The Trump administration has not disclosed its cost estimates for the Iran war.",
+      "image_url": "https://media.wired.com/photos/6a56c8af2d27f7a7082fbc5e/master/pass/politics_iran_war_billions.jpg",
+      "categories": [
+        "Politics",
+        "Politics / Politics News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T21:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Here’s the Truth About Whether Meta’s NameTag Face Recognition Tech ‘Exists’",
+      "url": "https://www.wired.com/story/heres-the-truth-about-whether-metas-nametag-face-recognition-exists/",
+      "article_date": "2026-07-15T20:58:16.000Z",
+      "article_date_raw": null,
+      "author": "Andrew Couts",
+      "excerpt": "Since WIRED reported on Meta’s NameTag face recognition system, company executives have made confusing and conflicting remarks about its very existence.",
+      "image_url": "https://media.wired.com/photos/6a569a928e9c863ad104a9a8/master/pass/GettyImages-2256683396-ZoomedIn.jpg",
+      "categories": [
+        "Security",
+        "Security / Privacy"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T20:58:16.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "AI Isn’t Smarter Than a Baby—Yet",
+      "url": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
+      "article_date": "2026-07-15T18:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Will Knight",
+      "excerpt": "Babies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.",
+      "image_url": "https://media.wired.com/photos/6a56a73aa8c3319e5ecf8c80/master/pass/AI-Lab-AI-Still-Isnt-Smarter-Than-a-Baby-Business.jpg",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T18:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Thinking Machines Lab Drops Its First Model",
+      "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+      "article_date": "2026-07-15T18:05:00.000Z",
+      "article_date_raw": null,
+      "author": "Will Knight",
+      "excerpt": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
+      "image_url": "https://media.wired.com/photos/6a57d5395bdb9adeb6a7d1c2/master/pass/Thinking-Labs-Releasing-Its-First-Open-Weight-Model-Business-2279106900.jpg",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T18:05:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Lionel Messi’s Final World Cup—and the Death of Early Retirement",
+      "url": "https://www.wired.com/story/lionel-messis-final-world-cup-and-the-death-of-early-retirement/",
+      "article_date": "2026-07-15T16:28:43.000Z",
+      "article_date_raw": null,
+      "author": "Malak Saleh",
+      "excerpt": "Argentina’s Lionel Messi was supposed to be done years ago. Now, sports science is helping soccer’s biggest stars rewrite the rules of aging.",
+      "image_url": "https://media.wired.com/photos/6a57b7f003633be86b3dcdae/master/pass/OldLeo_Lead2_1.gif",
+      "categories": [
+        "Science",
+        "Science / Health"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T16:28:43.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "An Inventor of Apple’s FaceID Wants to Analyze Your Brain’s Health With AI",
+      "url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+      "article_date": "2026-07-15T12:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Isabella Ward",
+      "excerpt": "Gidi Littwin’s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as for a blood test.",
+      "image_url": "https://media.wired.com/photos/6a5639acbebf57977f2b4f6b/master/pass/AppleIDBrainScan.jpg",
+      "categories": [
+        "Science",
+        "Science / Biotech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T12:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "The Best iPad to Buy (and Some to Avoid) in 2026: Air, Pro, Mini",
+      "url": "https://www.wired.com/gallery/the-best-ipad/",
+      "article_date": "2026-07-15T11:01:00.000Z",
+      "article_date_raw": null,
+      "author": "Luke Larsen",
+      "excerpt": "Apple just raised its prices. Here’s an updated breakdown of the brand’s tablets to find the best one for your needs.",
+      "image_url": "https://media.wired.com/photos/69ced2e8b3e67db87f57d6c7/master/pass/ipad-air-m4-04%20(1).jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Tablets"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T11:01:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "MSI Claw 8 EX AI+ Review: Great Power, Shocking Price",
+      "url": "https://www.wired.com/review/msi-claw-8-ex-ai/",
+      "article_date": "2026-07-15T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Matt Kamen",
+      "excerpt": "But with great power comes a great price.",
+      "image_url": "https://media.wired.com/photos/6a560346a97dd358c78df6c6/master/pass/MSI%20Claw%20Review.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Gaming"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "4 Best Personal Safety Alarms: Garmin, Sabre, & More (2026)",
+      "url": "https://www.wired.com/gallery/the-best-personal-safety-alarms-and-gadgets-for-every-situation/",
+      "article_date": "2026-07-15T10:33:00.000Z",
+      "article_date_raw": null,
+      "author": "Boutayna Chokrane",
+      "excerpt": "Make some noise for safety with our favorite alarms, from keychain sirens to wearable bracelets.",
+      "image_url": "https://media.wired.com/photos/6a5669d326e9b49c3a93d074/master/pass/The-Best-Personal-Safety-Alarms-and-Gadgets-for-Every-Situation.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Lifestyle",
+        "Gear / Products / Outdoor"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T10:33:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "The Best Google Home Speaker (2026)",
+      "url": "https://www.wired.com/story/best-google-home-speaker/",
+      "article_date": "2026-07-15T10:32:00.000Z",
+      "article_date_raw": null,
+      "author": "Nena Farrell",
+      "excerpt": "There’s now only one worth buying—but you can still access new features on older models you might already own.",
+      "image_url": "https://media.wired.com/photos/6a566fa9172a7c9e12eeae10/master/pass/The-WIRED-Guide-to-Buying-A-Google-Smart-Speaker.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Smart Home"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T10:32:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell",
+      "url": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
+      "article_date": "2026-07-15T10:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Dillon Thompson",
+      "excerpt": "Companies’ increasing reliance on AI chatbots isn’t making the customer service experience smarter. It’s just making it more infuriating.",
+      "image_url": "https://media.wired.com/photos/6a56d2eadc766a3e72330fe5/master/pass/Ebike-Delivery-Went-Missing-Gear%202%20(0-00-03-22).jpg",
+      "categories": [
+        "Gear",
+        "Gear / Trends"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T10:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "The Explosive Diarrhea Outbreak Is About to Get Much Bigger",
+      "url": "https://www.wired.com/story/explosive-diarrhea-outbreak-about-to-get-bigger/",
+      "article_date": "2026-07-15T09:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Emily Mullin, Kate Taylor",
+      "excerpt": "Official case counts likely capture only a fraction of US cyclosporiasis infections, and the outbreak is likely to get worse before it gets better.",
+      "image_url": "https://media.wired.com/photos/6a56d8065bdb9adeb6a7cb83/master/pass/science_explosive_diarrhea_bigger.jpg",
+      "categories": [
+        "Science",
+        "Science / Health",
+        "Business"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T09:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
+      "url": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
+      "article_date": "2026-07-15T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Maxwell Zeff",
+      "excerpt": "OpenAI employees have donated more than $215,000 to a political effort opposing Leading the Future, a group backed by the company’s president, Greg Brockman.",
+      "image_url": "https://media.wired.com/photos/6a554454e782ee66fec754f3/master/pass/OpenAI-Employees-Launch-Super-PAC-to-Push-for-AI-Guardrails-Business-2274040983.jpg",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Noom Promo Codes: 50% Off Best Deals & Free Trials for July 2026",
+      "url": "https://www.wired.com/story/noom-promo-code/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Louryn Strampe",
+      "excerpt": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
+      "image_url": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7a/master/pass/WIRED-Coupons-R2_9.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Hydrow Discount Code: Save Up to $150 | July 2026",
+      "url": "https://www.wired.com/story/hydrow-discount-code/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Chris Haslam",
+      "excerpt": "Save on rowers and accessories with Hydrow coupons, including an exclusive discount of $50.",
+      "image_url": "https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Naturepedic Promo Codes: Get 20% Off Plus Free Pillows",
+      "url": "https://www.wired.com/story/naturepedic-promo-code/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Nena Farrell",
+      "excerpt": "Shop the Naturepedic sale this 2026.",
+      "image_url": "https://media.wired.com/photos/67b63b9283a9f95e0ab9b215/master/pass/WIRED-Coupons-R2_3.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "1Password Coupon: Score a Free Trial in July 2026",
+      "url": "https://www.wired.com/story/1password-coupon/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Scott Gilbertson",
+      "excerpt": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
+      "image_url": "https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "HelloFresh Promo Codes: 55% Off for July 2026",
+      "url": "https://www.wired.com/story/hellofresh-coupon/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Matthew Korfhage",
+      "excerpt": "Get up to 55% off and free meal boxes using a HelloFresh coupon code in July 2026. Discover our best codes and discounts to let you save time and money.",
+      "image_url": "https://media.wired.com/photos/67b63b9283a9f95e0ab9b215/master/pass/WIRED-Coupons-R2_3.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Chegg Coupon Codes July 2026: Save on Study, Textbooks, & More",
+      "url": "https://www.wired.com/story/chegg-coupon-code/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Unlock Chegg promo codes, student discounts, and free trials for Chegg Study and Chegg Writing.",
+      "image_url": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Wayfair Coupons: Up to 80% Off July 2026",
+      "url": "https://www.wired.com/story/wayfair-promo-code/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+      "image_url": "https://media.wired.com/photos/67b63b969468ebbf8f0cbc7d/master/pass/WIRED-Coupons-R2_5.png",
+      "categories": [
+        "Gear"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "T-Mobile Promo Codes: 25% Off | July 2026",
+      "url": "https://www.wired.com/story/t-mobile-business-promo-code/",
+      "article_date": "2026-07-15T05:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Molly Higgins",
+      "excerpt": "Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled offers and free lines.",
+      "image_url": "https://media.wired.com/photos/67b63b972c751893c256c1e6/master/pass/WIRED-Coupons-R2_16.png",
+      "categories": [
+        "Gear",
+        "Gear / Deals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T05:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    }
+  ]
+}

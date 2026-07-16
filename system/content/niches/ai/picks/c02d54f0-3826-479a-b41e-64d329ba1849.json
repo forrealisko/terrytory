@@ -1,0 +1,19 @@
+{
+  "id": "c02d54f0-3826-479a-b41e-64d329ba1849",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:12:09.993Z",
+  "status": "pending",
+  "headline": "OpenAI and Jony Ive Are Reportedly Building a ChatGPT Speaker to Take On Alexa",
+  "rating": 8.8,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal by combining a household name (ChatGPT) with a familiar product category (smart speakers) and a legendary designer (Jony Ive). While the 2027 release date lowers its immediate practical value, the story's jaw-dropping details like 'moving mechanical parts' and industry drama with Apple make it highly shareable. It also lends itself perfectly to diverse formats like 'X vs Y' comparisons and 'What this means for you' explainers.",
+  "summary": "OpenAI is reportedly developing its first major hardware device, a smart speaker powered by ChatGPT, in collaboration with former Apple designer Jony Ive. The device, planned for a 2027 launch, will reportedly be screenless but feature a camera and unique moving parts to interact with its environment.",
+  "source_articles": [
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "excerpt": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit against OpenAI that accused […]"
+    }
+  ]
+}

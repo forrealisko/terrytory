@@ -1,0 +1,19 @@
+{
+  "id": "3ada4e01-7e39-4a9a-a13a-5f72b63fb537",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:48.781Z",
+  "status": "planned",
+  "headline": "Period Tracker Stardust Caught Sharing Sensitive Health Data After Claiming It Was 'Private. Period.'",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high on all criteria. It has massive viral potential due to the breach of trust involving sensitive health data, a highly relevant issue for a mainstream audience. The practical value is immense, as it directly warns users of a popular app and provides a safer alternative, making it immediately actionable. Furthermore, the story is a natural fit for diverse, engaging formats like a 'Privacy Showdown' comparison or a listicle of 'The Safest Health Tracking Apps.'",
+  "summary": "Mozilla research revealed that the period tracking app Stardust shares users' sensitive health data, including reproductive goals and symptoms, with a third-party analytics firm. This directly contradicts the company's prominent marketing claim that user data is private.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Period tracker Stardust shares users’ health data with analytics firm, says Mozilla research",
+      "url": "https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research/",
+      "excerpt": "One period tracker app tested by Mozilla was 'squeaky clean,' while another app was seen sharing users' health data with an analytics company, underscoring vast differences in user privacy among these apps."
+    }
+  ]
+}

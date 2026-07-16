@@ -1,0 +1,19 @@
+{
+  "id": "ebb8fed2-e732-4d24-a9cd-6363f3c6acec",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:09:47.571Z",
+  "status": "pending",
+  "headline": "A New Windows Flaw Lets Anyone Take Over Your PC—Here's How to Protect Yourself",
+  "rating": 8.5,
+  "reasoning": "This topic scores high due to its massive mainstream appeal, as it affects a huge number of Windows users and has a clear 'how this affects me' angle. It offers immense practical value by providing actionable steps for protection, and the inherent drama between the researcher and Microsoft boosts its clickability. The story can be easily adapted into multiple formats, such as a 'how-to' guide or a quick tip, making it a strong fit for our publication.",
+  "summary": "A researcher has publicly released a new Windows zero-day exploit, HiveLegacy, that allows users with limited access to gain administrator privileges. While Microsoft investigates, other security experts have already provided scripts and methods for users to detect and defend against the vulnerability.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "excerpt": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions."
+    }
+  ]
+}

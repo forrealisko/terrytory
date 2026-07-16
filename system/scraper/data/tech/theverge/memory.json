@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:37.301Z",
-  "last_scrape": "2026-07-10T09:41:23.686Z",
-  "total_scrapes": 6,
+  "last_scrape": "2026-07-16T17:13:23.607Z",
+  "total_scrapes": 7,
   "seen_hashes": {
     "5762e9515f24e939": {
       "first_seen": "2026-07-03T21:08:42.221Z",
@@ -363,9 +363,69 @@
       "last_seen": "2026-07-10T09:41:23.685Z",
       "title": "Schlage’s Sense Pro unlocks the door so I don’t have to",
       "url": "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock"
+    },
+    "0ff82072604fe41f": {
+      "first_seen": "2026-07-16T17:13:23.605Z",
+      "last_seen": "2026-07-16T17:13:23.605Z",
+      "title": "Google is better at playing the EU regulations game",
+      "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai"
+    },
+    "f93aaa9ebbc28121": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "Roblox will let people use AI to make games on their phone",
+      "url": "https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games"
+    },
+    "e73c0bbc64e9a639": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm"
+    },
+    "6399d958b8ff77c8": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "Time’s running out to save $10 on Splatoon Raiders physical preorders",
+      "url": "https://www.theverge.com/gadgets/966478/splatoon-raiders-preorder-the-sopranos-4k-bluray-deal-sale"
+    },
+    "f1d0eb488c8837ad": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm",
+      "url": "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation"
+    },
+    "08824292cc3e71a9": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "Apple&#8217;s OLED iPad Mini upgrade is on the way as prices continue to rise",
+      "url": "https://www.theverge.com/tech/966535/apple-oled-ipad-mini-rumor"
+    },
+    "211721a883195cc8": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "‘No company is going to go to jail for you’: Proton’s CTO on balancing privacy, policy, and trust",
+      "url": "https://www.theverge.com/podcast/966074/proton-cto-bart-butler-privacy-encryption-surveillance-age-verification"
+    },
+    "3b8578eb517dc5ad": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "Ninja’s microwave air fryer could be the fix for soggy reheated pizza",
+      "url": "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance"
+    },
+    "373529598e14c341": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "Samsung&#8217;s Galaxy Z Flip 8 leaks a week before launch event",
+      "url": "https://www.theverge.com/tech/966492/samsung-galaxy-z-flip-8-design-specs-leaked"
+    },
+    "1cbde4e380a5aba3": {
+      "first_seen": "2026-07-16T17:13:23.606Z",
+      "last_seen": "2026-07-16T17:13:23.606Z",
+      "title": "OnePlus never had a chance in the US",
+      "url": "https://www.theverge.com/tech/966274/oneplus-never-had-a-chance-in-the-us"
     }
   },
   "stats": {
-    "total_headlines_ever": 60
+    "total_headlines_ever": 70
   }
 }

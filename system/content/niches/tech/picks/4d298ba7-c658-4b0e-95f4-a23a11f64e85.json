@@ -1,0 +1,19 @@
+{
+  "id": "4d298ba7-c658-4b0e-95f4-a23a11f64e85",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:48.483Z",
+  "status": "pending",
+  "headline": "This New $399 Smart Ring Claims to Ditch Subscriptions and Finally Nail Blood Pressure Monitoring",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly across the board, combining a hot product category (smart rings) with a major health tech breakthrough (calibration-free blood pressure), making it highly clickable and practically valuable. The founder's notable background and contrarian 'no subscription, no AI' stance provide unique angles perfect for diverse formats like comparisons, hot takes, and deep-dive reviews.",
+  "summary": "A new company, Vital Signals, has launched the Signal Ring, a $399 wearable that claims to provide continuous, calibration-free blood pressure monitoring. Founded by an Android and Nextbit veteran, the device notably has no subscription fee and is aiming for regulatory clearance.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Vital Signals puts continuous blood pressure monitoring into a ring",
+      "url": "https://www.engadget.com/2216390/vital-signals-blood-pressure-ring/",
+      "excerpt": "Vital Signals promises its algorithmic blood pressure monitoring ring will reshape how we live with hypertension and other cardiac conditions"
+    }
+  ]
+}

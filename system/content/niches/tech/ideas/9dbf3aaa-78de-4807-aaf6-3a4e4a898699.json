@@ -1,0 +1,27 @@
+{
+  "id": "9dbf3aaa-78de-4807-aaf6-3a4e4a898699",
+  "niche": "tech",
+  "batch_id": "4ac45f69-d495-4c13-949e-be31ae3971c6",
+  "created_at": "2026-07-16T17:27:12.520Z",
+  "status": "proposed",
+  "format": "comparison",
+  "title": "iPad Air vs. iPad Pro (2024): The Only Comparison You Need to Read",
+  "angle": "Don't just look at specs. We cut through Apple's marketing jargon for a head-to-head comparison focused on real-world creative and productivity workflows, helping you decide if the Pro's extra cost is actually justified for you.",
+  "audience": "Creatives, students, professionals",
+  "rationale": "This addresses a very common and high-stakes consumer decision, providing clear, actionable advice that prevents buyer's remorse and has high search potential.",
+  "priority": 3,
+  "source_pick_ids": [
+    "934729a0-d801-4df1-a6f1-7bcb7a2c6cd9"
+  ],
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "The Best iPad to Buy (and Some to Avoid) in 2026: Air, Pro, Mini",
+      "url": "https://www.wired.com/gallery/the-best-ipad/",
+      "excerpt": "Apple just raised its prices. Here’s an updated breakdown of the brand’s tablets to find the best one for your needs."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "2e29e763-3bb1-4367-a75e-432a8aa85ed8",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:43.326Z",
+  "status": "pending",
+  "headline": "Sudo Make Me a Sandwich: DoorDash's New CLI Lets You Order Food With Code",
+  "rating": 8.5,
+  "reasoning": "This topic scores exceptionally high on clickability and viral potential by combining a mainstream brand (DoorDash) with classic programmer humor (CLI, XKCD). While the tool itself is niche, it serves as a perfect, engaging explainer for the emerging concept of 'agentic commerce' for a broader audience. The story's inherent absurdity and strong cultural hook provide excellent opportunities for diverse formats like hot takes, explainers, and listicles.",
+  "summary": "DoorDash has released a command-line interface (CLI) in a limited beta, allowing developers to order food directly from their terminal. The tool is being positioned as a way for AI agents to interact with the DoorDash platform, representing a real-world example of 'agentic commerce'.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Yes, you can now order DoorDash from the command line",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "excerpt": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans."
+    }
+  ]
+}

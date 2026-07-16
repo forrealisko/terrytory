@@ -1,0 +1,19 @@
+{
+  "id": "a8235f54-a2fe-4ddd-8dab-1fa97686bfd0",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:20:48.344Z",
+  "status": "planned",
+  "headline": "Meta's 'NameTag' Fiasco: What They're Hiding About Face Recognition",
+  "rating": 9.2,
+  "reasoning": "This topic is a perfect fit, combining high-stakes tech giant drama with a controversial consumer technology—face recognition. The story has immense clickability due to Meta's contradictory and evasive statements, and it directly addresses mainstream privacy concerns. It's also versatile, easily adaptable into an explainer on biometric laws, a hot take on corporate doublespeak, or a timeline of the controversy.",
+  "summary": "Meta executives claim a face recognition feature called 'NameTag' for their smart glasses 'doesn't exist,' despite code for it being found in their public app and a CTO describing its functionality in detail. The controversy highlights the company's delicate dance around biometric privacy laws and public perception.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "Here’s the Truth About Whether Meta’s NameTag Face Recognition Tech ‘Exists’",
+      "url": "https://www.wired.com/story/heres-the-truth-about-whether-metas-nametag-face-recognition-exists/",
+      "excerpt": "Since WIRED reported on Meta’s NameTag face recognition system, company executives have made confusing and conflicting remarks about its very existence."
+    }
+  ]
+}

@@ -1,30 +1,30 @@
 {
   "version": 1,
   "created_at": "2026-07-03T20:12:12.365Z",
-  "last_scrape": "2026-07-10T10:51:06.137Z",
-  "total_scrapes": 3,
+  "last_scrape": "2026-07-16T17:07:27.097Z",
+  "total_scrapes": 4,
   "seen_hashes": {
     "474f7328326cc846": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
       "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
       "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
     },
     "319975cb5f1ba629": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
       "title": "Claude Science is Anthropic’s newest flagship product",
       "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     "9058bcd27a2443da": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.097Z",
       "title": "AI agents are not your “coworkers”",
       "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/"
     },
     "0b5b669013148f8e": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.097Z",
       "title": "The $400 million machine powering the future of chipmaking",
       "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/"
     },
@@ -42,7 +42,7 @@
     },
     "87c282464d6eaf83": {
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.097Z",
       "title": "Three things to watch amid Anthropic’s latest feud with the government",
       "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/"
     },
@@ -72,30 +72,42 @@
     },
     "656d0246c92afc74": {
       "first_seen": "2026-07-07T09:48:51.718Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
       "title": "Your family’s $300 stake in OpenAI",
       "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
     },
     "65f527a36efca151": {
       "first_seen": "2026-07-08T08:34:42.472Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
       "title": "The foundational elements of AI architecture that IT leaders need to scale",
       "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/"
     },
     "e6a6865cf15a9c11": {
       "first_seen": "2026-07-08T08:34:42.472Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
       "title": "Elastic",
       "url": "https://www.elastic.co/"
     },
     "c5eec3a9829875a7": {
       "first_seen": "2026-07-10T09:41:21.933Z",
-      "last_seen": "2026-07-10T10:51:06.136Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
       "title": "Anthropic found a hidden space where Claude puzzles over concepts",
       "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
+    },
+    "dba38c1924d6fe74": {
+      "first_seen": "2026-07-16T17:07:27.096Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
+    },
+    "083560c542d97e23": {
+      "first_seen": "2026-07-16T17:07:27.096Z",
+      "last_seen": "2026-07-16T17:07:27.096Z",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/"
     }
   },
   "stats": {
-    "total_headlines_ever": 15
+    "total_headlines_ever": 17
   }
 }

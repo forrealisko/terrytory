@@ -1,0 +1,27 @@
+{
+  "id": "266ede8a-c711-40ff-ab7a-92552eee7fd1",
+  "niche": "ai",
+  "batch_id": "6877913c-ae2a-4e11-8694-46162ec4085b",
+  "created_at": "2026-07-16T17:26:31.089Z",
+  "status": "proposed",
+  "format": "explainer",
+  "title": "What Are 'AI Cops'? A Plain-Language Guide to the Tech Being Sold to Your Police",
+  "angle": "Investigative reports reveal a boom in AI tools for law enforcement. We explain what these systems—from predictive policing to automated report-writing—actually do, and why experts are sounding the alarm about bias and accountability.",
+  "audience": "tech-curious",
+  "rationale": "This piece demystifies a controversial and consequential application of AI, making a complex societal issue accessible to a broad audience.",
+  "priority": 4,
+  "source_pick_ids": [
+    "92c844d1-437d-4636-84d9-bbe96c0df3ab"
+  ],
+  "source_articles": [
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "Computer cops",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+      "excerpt": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told me […]"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

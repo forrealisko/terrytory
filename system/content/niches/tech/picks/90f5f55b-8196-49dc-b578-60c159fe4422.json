@@ -1,0 +1,19 @@
+{
+  "id": "90f5f55b-8196-49dc-b578-60c159fe4422",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:20:27.720Z",
+  "status": "pending",
+  "headline": "That 'Unix System' in Jurassic Park Was Real—An Engineer Just Identified All the Retro Tech",
+  "rating": 8.8,
+  "reasoning": "This topic is a home run for clickability and mainstream appeal, blending powerful movie nostalgia with a satisfying retro-tech deep dive. While its practical value is low, its viral potential is proven, and it's perfectly suited for engaging formats like a listicle ('Every Computer in Jurassic Park, Explained') or a visual breakdown. It's the ideal 'fun tech history' story that makes our publication feel both smart and accessible.",
+  "summary": "A software engineer created a comprehensive list identifying the real-world 1990s computers used in the film Jurassic Park, including the SGI workstations that ran the famous 'Unix system' 3D file browser. The detailed breakdown has gained significant traction on social media and tech forums.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "Engineer identifies and explains every '90s computer seen in Jurassic Park",
+      "url": "https://arstechnica.com/gadgets/2026/07/engineer-identifies-and-explains-every-90s-computer-seen-in-jurassic-park/",
+      "excerpt": "Yes, it was, in fact, a Unix system."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "a47a09fe-c199-41c5-8c08-960ca1a1c5bd",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:18:04.041Z",
+  "status": "pending",
+  "headline": "The High-Tech Gadgets That Turn Any Stream into Pure Drinking Water",
+  "rating": 8,
+  "reasoning": "This topic scores highly on practical value and format diversity, making it a strong piece of service journalism. While its mainstream appeal is more niche than a smartphone review, it perfectly aligns with our coverage of consumer gadgets and applied science, appealing to the significant overlap between tech enthusiasts and outdoor gearheads. The content can be easily repurposed into listicles, comparisons, and explainers, maximizing its value.",
+  "summary": "A comprehensive review and buying guide analyzes the top backpacking water filters, detailing the technology behind them and offering practical advice for hikers and travelers. The guide compares various models on portability, flow rate, and ease of use.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "The Best Backpacking Water Filters of 2026",
+      "url": "https://www.wired.com/gallery/best-backpacking-water-filters/",
+      "excerpt": "We’ve tested filters from Sawyer, Katadyn, LifeStraw, MSR and more to find the best option for every adventure."
+    }
+  ]
+}

@@ -1,16 +1,85 @@
 {
   "meta": {
-    "scrape_id": "5b770eb4-a530-4056-ad74-41a78dd7e06b",
-    "scraped_at": "2026-07-10T10:50:50.988Z",
+    "scrape_id": "d4ee5384-a45d-47c6-a299-e2cc61146ef2",
+    "scraped_at": "2026-07-16T17:07:20.072Z",
     "source_url": "https://venturebeat.com/category/ai/feed/",
     "source_type": "rss",
     "scraper_version": "2.0.0",
-    "proxy": "brightdata-residential",
+    "proxy": "direct",
     "total_headlines": 7,
-    "new_headlines": 0,
-    "previously_seen": 7
+    "new_headlines": 3,
+    "previously_seen": 4
   },
   "headlines": [
+    {
+      "type": "article",
+      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "article_date": "2026-07-16T17:06:08.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the dedicated vector databases that define the category — yet a majority of enterprises have already watched their agents produce confident, wron…",
+      "image_url": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&q=30",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T17:06:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z",
+      "interest_score": 10,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
+    },
+    {
+      "type": "article",
+      "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "article_date": "2026-07-16T16:40:48.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only one in twenty fully trusts automated evaluation today; and the most-cited weakness is that evaluations do not align with real-world outcome…",
+      "image_url": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&q=30",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T16:40:48.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z",
+      "interest_score": 10,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
+    },
+    {
+      "type": "article",
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "article_date": "2026-07-15T22:24:17.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is deliberately hybrid to avoid lo…",
+      "image_url": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&q=30",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T22:24:17.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z",
+      "interest_score": 10,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
+    },
     {
       "type": "article",
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -29,13 +98,13 @@
       "tags": [],
       "date_analysis": {
         "relative": "this_year",
-        "age_days": 51,
+        "age_days": 57,
         "parsed": "2026-05-19T17:45:00.000Z"
       },
       "is_new": false,
       "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 35,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 98,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -53,13 +122,13 @@
       "tags": [],
       "date_analysis": {
         "relative": "this_year",
-        "age_days": 168,
+        "age_days": 175,
         "parsed": "2026-01-22T14:00:00.000Z"
       },
       "is_new": false,
       "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 80,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 25,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -77,13 +146,13 @@
       "tags": [],
       "date_analysis": {
         "relative": "this_year",
-        "age_days": 171,
+        "age_days": 178,
         "parsed": "2026-01-19T14:00:00.000Z"
       },
       "is_new": false,
       "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 82,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 100,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -101,87 +170,13 @@
       "tags": [],
       "date_analysis": {
         "relative": "this_year",
-        "age_days": 174,
+        "age_days": 181,
         "parsed": "2026-01-16T14:01:00.000Z"
       },
       "is_new": false,
       "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 78,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
-    },
-    {
-      "type": "article",
-      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-      "article_date": "2026-01-13T13:00:00.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees.The new Slackbot, now generally available to Business+ and Enterprise+ customers, is Sal…",
-      "image_url": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
-      "categories": [
-        "Technology",
-        "AI",
-        "Automation"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "this_year",
-        "age_days": 177,
-        "parsed": "2026-01-13T13:00:00.000Z"
-      },
-      "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 90,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
-    },
-    {
-      "type": "article",
-      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-      "article_date": "2026-01-12T11:30:00.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, pos…",
-      "image_url": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&q=30",
-      "categories": [
-        "Technology",
-        "AI",
-        "Automation"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "this_year",
-        "age_days": 178,
-        "parsed": "2026-01-12T11:30:00.000Z"
-      },
-      "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 92,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
-    },
-    {
-      "type": "article",
-      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-      "article_date": "2026-01-07T20:00:00.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics processors.The model, called NousCoder-14B, is another entry in a crowded field of AI coding assistants, …",
-      "image_url": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&q=30",
-      "categories": [
-        "Technology",
-        "AI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "this_year",
-        "age_days": 183,
-        "parsed": "2026-01-07T20:00:00.000Z"
-      },
-      "is_new": false,
-      "first_seen": "2026-07-03T20:12:31.259Z",
-      "interest_score": 75,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 65,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     }
   ]
 }

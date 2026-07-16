@@ -3,7 +3,7 @@
   "niche": "ai",
   "batch_id": "8a66f2ed-4839-4c7f-8118-984bd92318e6",
   "created_at": "2026-07-10T10:05:58.635Z",
-  "status": "proposed",
+  "status": "banked",
   "format": "explainer",
   "title": "What is 'Self-Feedback Retry' and Why Your LLM Agents Need It",
   "angle": "We break down PivoARL, a critical self-feedback mechanism that allows LLM agents to identify and correct pivotal errors, drastically improving performance and reducing costs in complex tasks. Understand how this 'mental reset' works and why it's a game-changer for agent reliability.",

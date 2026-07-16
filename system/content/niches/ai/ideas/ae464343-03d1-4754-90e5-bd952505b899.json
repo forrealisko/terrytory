@@ -1,0 +1,27 @@
+{
+  "id": "ae464343-03d1-4754-90e5-bd952505b899",
+  "niche": "ai",
+  "batch_id": "6877913c-ae2a-4e11-8694-46162ec4085b",
+  "created_at": "2026-07-16T17:26:31.089Z",
+  "status": "proposed",
+  "format": "opinion",
+  "title": "Notion Just Killed Its Email App. It's a Warning Shot for Every Other SaaS Tool.",
+  "angle": "Notion's claim that 'AI agents replaced the inbox' isn't an excuse, it's a prophecy. This move signals the end of single-purpose apps and the rise of the AI agent as the primary interface for professional work.",
+  "audience": "professionals, businesses, creators",
+  "rationale": "This story translates a specific product shutdown into a massive, forward-looking trend that directly affects our professional audience.",
+  "priority": 2,
+  "source_pick_ids": [
+    "54d7070c-0744-4256-ad06-1567088f217a"
+  ],
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "excerpt": "Notion is \"going all in on using agents to run your inbox.\""
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

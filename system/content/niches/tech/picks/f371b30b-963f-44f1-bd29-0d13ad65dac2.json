@@ -1,0 +1,19 @@
+{
+  "id": "f371b30b-963f-44f1-bd29-0d13ad65dac2",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:15:56.773Z",
+  "status": "pending",
+  "headline": "How Google Outsmarted Apple in Europe's AI War",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its strong clickability, pitting tech giants Apple and Google against each other in a high-stakes regulatory battle over AI. It has massive mainstream appeal by explaining why a major new feature is available on one platform but not another for millions of users. The story also lends itself perfectly to multiple engaging formats, such as a head-to-head comparison or a hot-take opinion piece, making it a prime candidate for our publication.",
+  "summary": "The EU has granted Google a grace period to make Android compliant for rival AI assistants, while denying Apple a similar runway for its new Siri AI. This has allowed Google's Gemini to stay on the market in Europe while Apple has withheld its new AI features, highlighting a major strategic divergence.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "Google is better at playing the EU regulations game",
+      "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+      "excerpt": "Today, the European Union ordered Google to give its AI rivals greater access to Android, the open-source operating system that powers billions of devices worldwide. The demand is hardly surprising. It may look like a defeat on paper for Google, which has spent years resisting exactly this kind of access, but it is a regulatory […]"
+    }
+  ]
+}

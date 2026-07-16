@@ -1,0 +1,19 @@
+{
+  "id": "32c25e0e-a4d2-4958-9cec-215e74a746c6",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:11:28.802Z",
+  "status": "pending",
+  "headline": "Your Software Vendor Could Sue You For Leaving—Just Ask Allstate",
+  "rating": 8.3,
+  "reasoning": "This story excels in clickability and format diversity by framing a complex B2B lawsuit as a relatable 'messy breakup' with high stakes, tapping into widespread frustration with big tech. While not a hands-on tool, it provides immense practical value as a cautionary tale for any business or professional, highlighting the hidden risks of vendor lock-in. The involvement of a household name like Allstate gives it strong mainstream appeal, making it a perfect fit for our audience.",
+  "summary": "Insurance giant Allstate is being sued by Broadcom after deciding to stop using its VMware software, in what Allstate alleges is a retaliatory move. The lawsuit highlights the increasingly aggressive tactics customers face when trying to leave major software ecosystems.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
+      "url": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/",
+      "excerpt": "Broadcom accuses Allstate of dodging VMware audits."
+    }
+  ]
+}

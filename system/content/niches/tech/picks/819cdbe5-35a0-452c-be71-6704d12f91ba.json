@@ -1,0 +1,19 @@
+{
+  "id": "819cdbe5-35a0-452c-be71-6704d12f91ba",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:18:57.548Z",
+  "status": "planned",
+  "headline": "AI's Reckoning: xAI Sues User for Creating Abusive Deepfakes",
+  "rating": 9,
+  "reasoning": "This story scores exceptionally high on clickability and viral potential, as it combines tech giant drama (Elon Musk's xAI), a highly controversial topic (AI deepfakes), and a landmark legal action. It has massive mainstream appeal by addressing public fears about AI safety and sets a precedent that affects all tech users and platforms. The topic also lends itself to multiple formats, including a hot take on corporate responsibility, an explainer on AI's new legal frontiers, or a deep dive into the challenges of content moderation.",
+  "summary": "Elon Musk's xAI has filed a lawsuit against one of its users for creating non-consensual sexualized deepfakes of adults and minors with its Grok AI model. This is one of the first major legal actions taken by an AI company against a user for malicious misuse of its technology.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "xAI sues Grok user for generating nonconsensual sexualized deepfakes",
+      "url": "https://www.engadget.com/2216382/xai-sues-grok-user-generating-nonconsensual-sexualized-deepfakes/",
+      "excerpt": "xAI has filed a lawsuit against a man who used Grok to generate sexualized images of adults and children."
+    }
+  ]
+}

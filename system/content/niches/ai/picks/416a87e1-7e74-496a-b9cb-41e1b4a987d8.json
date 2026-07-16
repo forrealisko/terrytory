@@ -1,0 +1,19 @@
+{
+  "id": "416a87e1-7e74-496a-b9cb-41e1b4a987d8",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:09:10.772Z",
+  "status": "pending",
+  "headline": "AI's Hidden Cost: The Multi-Billion Dollar Energy Gold Rush",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly on mainstream appeal and clickability by revealing a surprising, tangible consequence of the AI boom: a massive strain on the power grid. It translates the abstract world of AI into a physical-world problem of energy and money, making it highly relatable for a general audience. While not a direct 'how-to', it offers significant contextual value and can be adapted into various engaging formats like explainers or listicles.",
+  "summary": "The massive energy demands of AI data centers are creating a bottleneck, causing investors to pour billions into energy companies. This has sparked a surge in IPOs for firms specializing in power infrastructure, from nuclear and geothermal to traditional electrical equipment.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "excerpt": "Companies coming to market are raising money at fastest pace this century."
+    }
+  ]
+}

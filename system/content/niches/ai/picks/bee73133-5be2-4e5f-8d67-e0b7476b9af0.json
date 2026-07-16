@@ -1,0 +1,19 @@
+{
+  "id": "bee73133-5be2-4e5f-8d67-e0b7476b9af0",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:12:48.556Z",
+  "status": "pending",
+  "headline": "Oracle Slashes 21,000 Jobs to Fund Its AI Ambitions",
+  "rating": 8.5,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal by tapping into the universal fear of AI-related job loss, backed by a staggering number (21,000 layoffs). While not a practical 'how-to,' it's a perfect explainer on the real-world financial and human costs of the AI gold rush, making it highly relevant to our audience. The story's inherent drama and connection to big names like OpenAI also lend it to multiple engaging formats, like a hot take or a deep dive.",
+  "summary": "Oracle laid off 21,000 employees in one year, explicitly citing the adoption of AI and the need to fund massive investments in AI data center infrastructure. The company is taking on billions in debt to support AI clients, raising concerns among investors.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
+      "excerpt": "Oracle is spending billions on data center infrastructure to support AI."
+    }
+  ]
+}

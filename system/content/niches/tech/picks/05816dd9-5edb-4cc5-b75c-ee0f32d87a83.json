@@ -1,0 +1,19 @@
+{
+  "id": "05816dd9-5edb-4cc5-b75c-ee0f32d87a83",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:20:37.058Z",
+  "status": "pending",
+  "headline": "The Pen That Saved the Apollo 11 Moon Mission Just Sold for $857K",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its immense clickability and mainstream appeal, combining space history, a near-disaster, and a clever low-tech solution that saved the mission. While its direct practical value is low, its inspirational quality and incredible versatility for different formats—from listicles ('5 Low-Tech Hacks That Saved High-Tech Missions') to deep explainers—make it a perfect fit for our audience of enthusiasts and builders.",
+  "summary": "The felt-tip pen and broken switch that Buzz Aldrin used to repair the Apollo 11 ascent engine, averting a potential disaster on the Moon, have been sold at auction for $857,600.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "Buzz Aldrin sells famous felt-tip pen that helped launch Apollo from the Moon",
+      "url": "https://arstechnica.com/space/2026/07/apollo-11s-broken-switch-and-mission-saving-pen-sell-for-860k/",
+      "excerpt": "While an impressive sale, the pen and switch did not break records."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "6ad53e79-a76c-4b00-aba5-41afb642d4c2",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:07.647Z",
+  "status": "pending",
+  "headline": "Suno Puts an AI Songwriter Directly Into Your iMessage Chats",
+  "rating": 8.8,
+  "reasoning": "This topic scores exceptionally high on mainstream appeal and clickability by merging a hot tech trend (generative AI music) with a ubiquitous consumer platform (iMessage). The story has immediate practical value for a huge audience of iPhone users and is incredibly versatile for our formats, easily adaptable into a quick tip, a hot take on AI communication, or an explainer. The novelty of creating a song from a text message is inherently shareable and debatable, giving it strong viral potential.",
+  "summary": "AI music generator Suno has released an iMessage app that allows users to create and send 30-second songs directly within a chat, using text or voice prompts.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Suno brings its gen AI music gunk to iMessage",
+      "url": "https://www.engadget.com/2216558/suno-brings-gen-ai-music-gunk-to-imessage/",
+      "excerpt": "Maybe just sing a silly song in a voice note instead?"
+    }
+  ]
+}

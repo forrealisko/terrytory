@@ -2,7 +2,7 @@
   "id": "f5641b15-ac80-41b2-87af-ca2867edb812",
   "niche": "ai",
   "created_at": "2026-07-10T10:52:06.570Z",
-  "status": "pending",
+  "status": "planned",
   "headline": "Persona Cartography: Mapping LLM Personality Traits in Weight Space for Enhanced Control and Safety",
   "rating": 9.2,
   "reasoning": "This research directly addresses a critical area in AI: understanding and controlling the behavioral patterns (personas) of large language models. The use of the OCEAN framework and low-rank adapters to manipulate traits in weight space is a novel and significant technical breakthrough, offering concrete tools for improving LLM generalization and safety. The paper's origin from arXiv and detailed methodology lend strong technical credibility.",

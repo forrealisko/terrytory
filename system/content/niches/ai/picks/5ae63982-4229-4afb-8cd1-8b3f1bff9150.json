@@ -2,7 +2,7 @@
   "id": "5ae63982-4229-4afb-8cd1-8b3f1bff9150",
   "niche": "ai",
   "created_at": "2026-07-10T10:51:49.262Z",
-  "status": "pending",
+  "status": "planned",
   "headline": "Infinity-Parser2: New Multimodal Model for End-to-End Document Parsing with SOTA Performance",
   "rating": 9.2,
   "reasoning": "This is a highly relevant AI research paper detailing a new large multimodal model for document parsing. It introduces significant advancements in data synthesis, multi-task reinforcement learning, and achieves state-of-the-art results on established benchmarks, indicating a meaningful breakthrough in a practical AI application. The publication on arXiv from a team of researchers lends strong technical credibility.",

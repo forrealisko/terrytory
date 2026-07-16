@@ -1,0 +1,532 @@
+{
+  "meta": {
+    "scrape_id": "18a47e10-fe31-4c3c-a084-76cd4b327dc5",
+    "scraped_at": "2026-07-16T17:07:20.072Z",
+    "source_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 20,
+    "new_headlines": 20,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "article_date": "2026-07-16T15:48:21.000Z",
+      "article_date_raw": null,
+      "author": "Martha Muir in New York",
+      "excerpt": "Companies coming to market are raising money at fastest pace this century.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ftcms_2c2b4618-eb73-4160-997a-8f8bb5485e20-1152x648.jpeg",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "ai data centers",
+        "AI energy",
+        "energy investment",
+        "syndication"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:48:21.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+      "url": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
+      "article_date": "2026-07-15T21:41:56.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding",
+      "excerpt": "The convenience store chain will use StorMagic instead.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/images-1152x648-1784145789.jpg",
+      "categories": [
+        "Biz & IT",
+        "Broadcom",
+        "vmware"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T21:41:56.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "article_date": "2026-07-15T19:59:48.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/windows-malware-1024x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "microsoft",
+        "Windows",
+        "zerodays"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T19:59:48.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "article_date": "2026-07-14T22:20:48.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/computer-start-button-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "bootkits",
+        "microsoft",
+        "secure boot",
+        "shims"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-14T22:20:48.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "The US government warns that Russia state hackers are coming after your router",
+      "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
+      "article_date": "2026-07-13T21:03:07.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/wireless-router-cables-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "CISA",
+        "hackers",
+        "proxy networks",
+        "routers"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 2,
+        "parsed": "2026-07-13T21:03:07.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+      "article_date": "2026-07-13T15:06:34.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ai-agent-robot-guardrail-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Security",
+        "context bombing\\",
+        "guardrails",
+        "LLMs",
+        "prompt injections"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 3,
+        "parsed": "2026-07-13T15:06:34.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
+      "url": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/",
+      "article_date": "2026-07-09T20:52:55.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "The feud between NightmareEclipse and Microsoft shows no signs of resolving soon.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "microsoft",
+        "Windows Defender",
+        "zero days"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-07-09T20:52:55.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
+      "url": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/",
+      "article_date": "2026-07-09T20:28:55.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding",
+      "excerpt": "Broadcom accuses Allstate of dodging VMware audits.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279315069-1024x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Allstate",
+        "Broadcom",
+        "lawsuit",
+        "vmware"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 6,
+        "parsed": "2026-07-09T20:28:55.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
+      "article_date": "2026-07-08T19:01:19.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "Both vulnerabilities allow untrusted users to gain root privileges.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "exploits",
+        "Linux",
+        "local privilege escalation",
+        "vulnerabilities"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-07-08T19:01:19.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
+      "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/",
+      "article_date": "2026-07-08T18:10:16.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding",
+      "excerpt": "But the devices could \"easily be reflashed.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238063763-1152x648-1783530792.jpg",
+      "categories": [
+        "Biz & IT",
+        "Policy",
+        "Tech",
+        "australia",
+        "Cisco",
+        "e-waste",
+        "samknows"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_week",
+        "age_days": 7,
+        "parsed": "2026-07-08T18:10:16.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
+      "url": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/",
+      "article_date": "2026-07-08T13:26:10.000Z",
+      "article_date_raw": null,
+      "author": "Camilla Hodgson in London",
+      "excerpt": "Miners backed by Trump admin sell to Japan, South Korea despite push to develop domestic supply chain.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270755803-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Science",
+        "Energy Fuels",
+        "MP Materials",
+        "Phoenix Tailings",
+        "rare earths"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-07-08T13:26:10.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "article_date": "2026-07-08T07:00:51.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/rogue-ai-agent-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Features",
+        "Security",
+        "hallucinations",
+        "LLMs",
+        "typosquatting"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 8,
+        "parsed": "2026-07-08T07:00:51.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Newly discovered PamStealer isn't your typical macOS malware",
+      "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+      "article_date": "2026-07-02T19:38:57.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "The discovery underscores the increased effort being poured into Mac infostealers.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1299483011-1152x648.jpg",
+      "categories": [
+        "Apple",
+        "Biz & IT",
+        "Security",
+        "infostealers",
+        "MacOS Malware"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 13,
+        "parsed": "2026-07-02T19:38:57.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
+      "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
+      "article_date": "2026-07-01T21:21:21.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding",
+      "excerpt": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-t-mobile-sign-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Broadcom",
+        "lawsuit",
+        "t-mobile",
+        "vmware"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 14,
+        "parsed": "2026-07-01T21:21:21.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "article_date": "2026-06-30T20:03:14.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/broken-ai-robot-browser-404-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Security",
+        "browsers",
+        "jailbreaks",
+        "LLMs"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 15,
+        "parsed": "2026-06-30T20:03:14.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
+      "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+      "article_date": "2026-06-29T22:05:33.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "Operation by two Russia-state groups has been ongoing since at least March.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/russia-hacking-binary-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "phishing",
+        "russia state",
+        "signal messenger",
+        "whatsapp"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 16,
+        "parsed": "2026-06-29T22:05:33.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "article_date": "2026-06-25T19:04:57.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding",
+      "excerpt": "Notion is \"going all in on using agents to run your inbox.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2230437159-1024x648.jpg",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Tech",
+        "apps",
+        "email",
+        "email client",
+        "Skiff",
+        "software"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 20,
+        "parsed": "2026-06-25T19:04:57.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
+      "url": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
+      "article_date": "2026-06-24T21:03:34.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "\"Operation Endgame\" simultaneously disrupts two widely used crime tools.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-459908461-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Policy",
+        "Security",
+        "botnets",
+        "cybercrime",
+        "law enforcement",
+        "ransomware",
+        "scams"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 21,
+        "parsed": "2026-06-24T21:03:34.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
+      "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
+      "article_date": "2026-06-23T22:30:57.000Z",
+      "article_date_raw": null,
+      "author": "Dan Goodin",
+      "excerpt": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1070527780-1152x648.jpg",
+      "categories": [
+        "Biz & IT",
+        "Policy",
+        "Security",
+        "cryptography",
+        "encryption",
+        "quantum computing"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 22,
+        "parsed": "2026-06-23T22:30:57.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
+      "article_date": "2026-06-23T20:17:38.000Z",
+      "article_date_raw": null,
+      "author": "Scharon Harding",
+      "excerpt": "Oracle is spending billions on data center infrastructure to support AI.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2212917669-1152x648.jpg",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "job losses",
+        "oracle"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "this_month",
+        "age_days": 22,
+        "parsed": "2026-06-23T20:17:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "a4a136bb-8962-4d2a-817e-5d672c1ba305",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:22:14.954Z",
+  "status": "pending",
+  "headline": "OpenAI's First Hardware is a $230 Mini-Keyboard for AI Power Users",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its immense clickability, stemming from OpenAI's first foray into hardware being a surprisingly niche and expensive product. While its direct practical value is limited to power users, the story has strong mainstream appeal as it signals the future direction of a major tech player and sparks debate. The subject is also perfect for diverse formats like hot takes ('Is this genius or a gimmick?'), explainers, and gadget comparisons, making it an excellent fit for our publication.",
+  "summary": "OpenAI has launched its first-ever branded hardware, the Codex Micro, a $230 specialized mini-keyboard created in collaboration with Work Louder to help users monitor and interact with AI agents.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "OpenAI's first branded hardware is... a light-up keyboard?",
+      "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
+      "excerpt": "The Codex Micro is designed to monitor multiple agentic threads at a glance."
+    }
+  ]
+}

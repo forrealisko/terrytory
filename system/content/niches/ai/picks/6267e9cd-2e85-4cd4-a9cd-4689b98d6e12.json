@@ -1,0 +1,18 @@
+{
+  "id": "6267e9cd-2e85-4cd4-a9cd-4689b98d6e12",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:12:57.108Z",
+  "status": "pending",
+  "headline": "OpenAI Built an AI 'Super-Hacker' to Attack Its Own Models",
+  "rating": 8.5,
+  "reasoning": "The concept of an 'AI super-hacker' is extremely clickable and has massive mainstream appeal, framing a complex security topic as a compelling 'AI vs. AI' battle. While it lacks direct practical value since the tool is internal to OpenAI, its high potential for engaging formats like explainers ('How AI hacks AI') and its 'wow' factor make it a perfect story for our audience. It demystifies how companies are trying to make powerful AI models safer.",
+  "summary": "OpenAI has developed an internal AI model called GPT-Red, which acts as a 'super-hacker' to find and patch security flaws in its other models like GPT-5. This AI-driven 'red-teaming' has proven more effective than human testers at discovering novel attacks.",
+  "source_articles": [
+    {
+      "source_id": "mittechreview",
+      "source_name": "MIT Technology Review",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "020e4ff8-e6c4-4c93-a4dc-57920f4c7c94",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:18:34.189Z",
+  "status": "pending",
+  "headline": "Report: Your AI Assistant Is Enforcing Foreign Censorship Laws",
+  "rating": 8,
+  "reasoning": "This topic scores high on clickability and format diversity due to its focus on AI censorship, a hot-button issue involving major tech giants like Google and OpenAI. While its direct practical value is more about awareness than action, the story's potential for engaging formats like head-to-head AI comparisons ('We Tested It: Which AI Stands Up to Censors?') makes it a strong fit for our audience. It translates a complex issue into a tangible concern for everyday users of popular AI tools.",
+  "summary": "A new report from the Oversight Board finds that leading AI models from companies like OpenAI and Google are more likely to refuse user requests that criticize authoritarian governments, effectively enforcing foreign censorship laws across borders.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "The Oversight Board says leading AI models might be restricting free expression",
+      "url": "https://www.engadget.com/2216274/the-oversight-board-says-leading-ai-models-might-be-restricting-free-expression/",
+      "excerpt": "The group is trying to extend its influence beyond Meta."
+    }
+  ]
+}

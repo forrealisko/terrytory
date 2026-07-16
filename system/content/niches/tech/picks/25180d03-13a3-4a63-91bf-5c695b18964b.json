@@ -1,0 +1,19 @@
+{
+  "id": "25180d03-13a3-4a63-91bf-5c695b18964b",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:45.826Z",
+  "status": "pending",
+  "headline": "Swatch's New Gold MoonSwatch Requires a Bizarre 32-Question 'ESTA' Application to Buy",
+  "rating": 8.2,
+  "reasoning": "This topic has high clickability and viral potential due to the well-known chaos of past MoonSwatch launches and the novel 'ESTA' application solution, which is guaranteed to spark debate. While the practical value is limited to potential buyers, the story has strong mainstream appeal as a case study in hype marketing and consumer tech drama. It also scores high on format diversity, easily adaptable into a hot take ('Is This the Future of Hype Drops?'), an explainer, or a standard news article.",
+  "summary": "To prevent the chaos of previous releases, Swatch is selling its new limited-edition gold MoonSwatch via a 32-question online application system, allowing only 1,969 approved applicants the right to purchase the watch.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "Swatch’s New Gold MoonSwatch Solves the Problem of the Nightmare Royal Pop Launch",
+      "url": "https://www.wired.com/story/swatch-gold-moonswatch-solves-the-problem-of-the-nightmare-royal-pop-launch/",
+      "excerpt": "Swatch’s latest MoonSwatch is the Mission to the Moon 1969, a limited-edition model with components crafted from Omega’s 18K Moonshine Gold. To get one, you'll have to join a lottery."
+    }
+  ]
+}

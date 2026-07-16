@@ -1,0 +1,19 @@
+{
+  "id": "983af455-298a-4ceb-a06a-9312f7a27913",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:11:56.345Z",
+  "status": "pending",
+  "headline": "Google Pays $340K for Critical Bugs, Including One Found by an AI Scanner",
+  "rating": 8,
+  "reasoning": "This topic scores highly on clickability due to the large cash bounty from Google and the surprise factor of bugs lurking for over 15 years. While the subject is technical, its connection to cloud security and the direct involvement of an AI in discovering a flaw gives it strong mainstream appeal for our audience. The story lends itself well to multiple formats, such as an explainer on AI-powered security or a hot take on the fragility of core internet infrastructure.",
+  "summary": "Two critical, long-standing vulnerabilities were discovered in the Linux kernel, with Google paying over $340,000 in bounties for their disclosure. Notably, one of the high-severity bugs was identified by an AI-assisted vulnerability scanner, highlighting AI's growing role in cybersecurity.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
+      "excerpt": "Both vulnerabilities allow untrusted users to gain root privileges."
+    }
+  ]
+}

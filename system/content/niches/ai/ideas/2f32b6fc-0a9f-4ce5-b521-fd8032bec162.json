@@ -1,0 +1,27 @@
+{
+  "id": "2f32b6fc-0a9f-4ce5-b521-fd8032bec162",
+  "niche": "ai",
+  "batch_id": "6877913c-ae2a-4e11-8694-46162ec4085b",
+  "created_at": "2026-07-16T17:26:31.089Z",
+  "status": "proposed",
+  "format": "article",
+  "title": "Suno's Leaked Files: Why the AI Music Scandal Is a Moment of Truth for Fair Use",
+  "angle": "The bombshell leak allegedly showing Suno scraped YouTube isn't just about one company; it's the opening battle in a war that will define the legality of training AI on public data and could upend the entire generative AI industry.",
+  "audience": "creators, businesses, tech-curious",
+  "rationale": "This is the day's biggest AI drama, hitting the intersection of tech, law, and ethics, guaranteeing high engagement.",
+  "priority": 1,
+  "source_pick_ids": [
+    "d246d275-591c-4909-8aba-a8d57bd54aa2"
+  ],
+  "source_articles": [
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+      "excerpt": "Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and how they were acquired, this a rare […]"
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-pro"
+}

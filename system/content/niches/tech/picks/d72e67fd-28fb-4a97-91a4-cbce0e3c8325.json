@@ -1,0 +1,19 @@
+{
+  "id": "d72e67fd-28fb-4a97-91a4-cbce0e3c8325",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:17.914Z",
+  "status": "pending",
+  "headline": "Why a Top AI Founder Is Ditching 'AGI' for 'World Models'",
+  "rating": 8,
+  "reasoning": "This topic scores high on clickability and format diversity. It features a prominent AI figure taking a contrarian stance against popular buzzwords like 'AGI', which is great for sparking debate. The concept of 'world models' is a fresh and easily explainable angle on the future of AI, lending itself perfectly to explainers, comparisons, and hot-take articles.",
+  "summary": "The CEO of AMI Labs, a well-funded AI startup co-founded by Yann LeCun, is dismissing terms like 'AGI' and 'superintelligence' as useless. Instead, the company is focused on building 'world models,' a type of AI designed to understand physics and the real world to power the next generation of robotics.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+      "excerpt": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word."
+    }
+  ]
+}

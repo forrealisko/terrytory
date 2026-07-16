@@ -1,0 +1,19 @@
+{
+  "id": "a3377165-4099-4a07-9f1e-476e41e36e63",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:21:58.096Z",
+  "status": "planned",
+  "headline": "It's Happening: Rival App Stores Are Coming to Google Play Next Week",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high across all criteria. It combines major tech giant drama (Google vs. Epic) with a fundamental, practical change for every Android user, making it both highly clickable and mainstream. The ability to spin this into numerous formats—from explainers and listicles ('Top 5 App Stores to Try') to quick tips—gives it maximum content potential for our publication.",
+  "summary": "Following the withdrawal of a proposed settlement with Epic Games, Google will now be required to list third-party app stores for download directly within the Google Play Store, with the change taking effect next week.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "Third-party app stores coming to Google Play next week as Epic settlement withdrawn",
+      "url": "https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn/",
+      "excerpt": "With the settlement withdrawn, Google is now bound by the court's full antitrust remedies."
+    }
+  ]
+}

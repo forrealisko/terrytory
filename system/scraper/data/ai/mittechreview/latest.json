@@ -1,16 +1,58 @@
 {
   "meta": {
-    "scrape_id": "16c4a7cd-5336-41ce-9422-320a90641c51",
-    "scraped_at": "2026-07-10T10:50:50.988Z",
+    "scrape_id": "fcbf5e43-172b-47f5-9b6a-db5ce9018953",
+    "scraped_at": "2026-07-16T17:07:20.072Z",
     "source_url": "https://www.technologyreview.com/topic/artificial-intelligence/",
     "source_type": "html",
     "scraper_version": "2.0.0",
-    "proxy": "brightdata-residential",
+    "proxy": "direct",
     "total_headlines": 11,
-    "new_headlines": 0,
-    "previously_seen": 11
+    "new_headlines": 2,
+    "previously_seen": 9
   },
   "headlines": [
+    {
+      "type": "article",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z",
+      "interest_score": 85,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
+    },
+    {
+      "type": "article",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z",
+      "interest_score": 35,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
+    },
     {
       "type": "article",
       "title": "Anthropic found a hidden space where Claude puzzles over concepts",
@@ -29,8 +71,8 @@
       },
       "is_new": false,
       "first_seen": "2026-07-10T09:41:21.933Z",
-      "interest_score": 87,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 55,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -50,50 +92,8 @@
       },
       "is_new": false,
       "first_seen": "2026-07-07T09:48:51.718Z",
-      "interest_score": 42,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
-    },
-    {
-      "type": "article",
-      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-      "article_date": null,
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": null,
-      "image_url": null,
-      "categories": [],
-      "tags": [],
-      "date_analysis": {
-        "relative": "unknown",
-        "age_days": null,
-        "parsed": null
-      },
-      "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 85,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
-    },
-    {
-      "type": "article",
-      "title": "Claude Science is Anthropic’s newest flagship product",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
-      "article_date": null,
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": null,
-      "image_url": null,
-      "categories": [],
-      "tags": [],
-      "date_analysis": {
-        "relative": "unknown",
-        "age_days": null,
-        "parsed": null
-      },
-      "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 75,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 95,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -113,13 +113,34 @@
       },
       "is_new": false,
       "first_seen": "2026-07-08T08:34:42.472Z",
-      "interest_score": 60,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 10,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
       "title": "Elastic",
       "url": "https://www.elastic.co/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/04/Elastic-logo.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:42.472Z",
+      "interest_score": 0,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
+    },
+    {
+      "type": "article",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
       "article_date": null,
       "article_date_raw": null,
       "author": null,
@@ -133,9 +154,30 @@
         "parsed": null
       },
       "is_new": false,
-      "first_seen": "2026-07-08T08:34:42.472Z",
-      "interest_score": 10,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "interest_score": 78,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
+    },
+    {
+      "type": "article",
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:25.939Z",
+      "interest_score": 25,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -155,8 +197,8 @@
       },
       "is_new": false,
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 70,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 90,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -176,8 +218,8 @@
       },
       "is_new": false,
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 55,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 70,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     },
     {
       "type": "article",
@@ -197,50 +239,8 @@
       },
       "is_new": false,
       "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 65,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
-    },
-    {
-      "type": "article",
-      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-      "article_date": null,
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": null,
-      "image_url": null,
-      "categories": [],
-      "tags": [],
-      "date_analysis": {
-        "relative": "unknown",
-        "age_days": null,
-        "parsed": null
-      },
-      "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 88,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
-    },
-    {
-      "type": "article",
-      "title": "Want to get a data center online quickly? Give it some flex.",
-      "url": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
-      "article_date": null,
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": null,
-      "image_url": null,
-      "categories": [],
-      "tags": [],
-      "date_analysis": {
-        "relative": "unknown",
-        "age_days": null,
-        "parsed": null
-      },
-      "is_new": false,
-      "first_seen": "2026-07-03T20:12:25.939Z",
-      "interest_score": 40,
-      "ranked_at": "2026-07-10T10:51:31.074Z"
+      "interest_score": 75,
+      "ranked_at": "2026-07-16T17:08:52.313Z"
     }
   ]
 }

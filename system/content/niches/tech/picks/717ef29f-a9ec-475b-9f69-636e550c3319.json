@@ -1,0 +1,19 @@
+{
+  "id": "717ef29f-a9ec-475b-9f69-636e550c3319",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:15:51.874Z",
+  "status": "pending",
+  "headline": "Uber's $15 Billion Gamble to Dominate Global Food Delivery",
+  "rating": 8.5,
+  "reasoning": "This story scores high on mainstream appeal and clickability, as it involves a household name (Uber) in a highly relatable consumer space (food delivery). The massive $14.8B price tag and the 'doubling its footprint' angle create significant viral potential, while the topic lends itself to diverse formats like explainers on market impact or comparisons against competitors like DoorDash.",
+  "summary": "Uber has agreed to acquire its competitor Delivery Hero in a $14.8 billion all-stock deal. If approved, the acquisition would nearly double Uber's global delivery market presence, positioning it as the largest food delivery platform outside of China.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+      "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+      "excerpt": "Uber has agreed to acquire Delivery Hero in a $14.8 billion all-stock deal that would nearly double the company’s global footprint and create one of the world’s largest food delivery platforms outside China."
+    }
+  ]
+}

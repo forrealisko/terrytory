@@ -1,0 +1,19 @@
+{
+  "id": "6c24354a-e4bc-4436-b5f3-7d7b7ccca88a",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:21:24.836Z",
+  "status": "pending",
+  "headline": "Why Babies Are Still Smarter Than The World's Most Advanced AI",
+  "rating": 8.5,
+  "reasoning": "This topic scores very high on clickability and mainstream appeal due to its provocative and easily understood 'AI vs. Baby' premise. It has excellent potential for diverse formats like explainers or hot takes, making it a great fit for our publication's style. While its direct practical value is moderate, it offers significant insight into the future of AI, making it highly relevant for enthusiasts and builders.",
+  "summary": "Researchers have created a new challenge for AI models using head-cam footage from babies, revealing that current cutting-edge AI fails to learn from messy, real-world data the way infants do. This suggests that future AI may need to incorporate brain-like structures to achieve more efficient, human-like learning.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "AI Isn’t Smarter Than a Baby—Yet",
+      "url": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
+      "excerpt": "Babies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains."
+    }
+  ]
+}

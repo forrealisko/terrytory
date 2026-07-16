@@ -1,0 +1,19 @@
+{
+  "id": "d8995216-ae6c-4676-83f4-483618e42a13",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:09:29.858Z",
+  "status": "pending",
+  "headline": "EU Mandates You Can Replace Google Assistant with ChatGPT on Android",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly on mainstream appeal and clickability due to its direct impact on millions of Android users and the high-stakes drama between Google and the EU. While the practical application is years away, the story's potential for diverse formats like explainers ('What is the DMA?') and future comparisons ('Gemini vs. ChatGPT on Android') is extremely high. It perfectly fits the 'how does this affect ME?' angle that our audience craves.",
+  "summary": "The European Union has ordered Google to allow rival AI assistants, like ChatGPT, to have deep, system-level access on Android devices, effectively letting users choose their default assistant. Google must also share search data with competing search engines to comply with the Digital Markets Act (DMA).",
+  "source_articles": [
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "Google ordered to open Android and Search to rivals in Europe",
+      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "excerpt": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules. The two decisions, handed down Thursday, could weaken Google's control over two of the tech industry's most important platforms and have […]"
+    }
+  ]
+}

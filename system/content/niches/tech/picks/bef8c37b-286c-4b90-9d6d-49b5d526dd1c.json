@@ -1,0 +1,19 @@
+{
+  "id": "bef8c37b-286c-4b90-9d6d-49b5d526dd1c",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:47.242Z",
+  "status": "pending",
+  "headline": "EU Orders Google to Let You Replace Gemini with Rival AIs on Android",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly across the board, combining high-stakes tech giant drama with direct, practical implications for millions of Android users. The conflict between the EU and Google is inherently clickable, and the subject matter lends itself perfectly to diverse formats like listicles ('Best AI assistants for Android') and head-to-head comparisons, maximizing engagement potential.",
+  "summary": "The European Union has mandated that Google must allow third-party AI assistants deeper integration into its Android operating system, enabling users to choose alternatives to Gemini. Google must also share anonymized search data with rival search engines to foster competition.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "EU demands Google give AI rivals more access to Android",
+      "url": "https://www.engadget.com/2216454/eu-demands-google-give-ai-rivals-more-access-to-android/",
+      "excerpt": "Google has been ordered by the EU to open up key Android handset features to rival AI voice assistants."
+    }
+  ]
+}

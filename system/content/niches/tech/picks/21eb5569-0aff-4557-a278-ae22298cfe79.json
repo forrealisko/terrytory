@@ -1,0 +1,19 @@
+{
+  "id": "21eb5569-0aff-4557-a278-ae22298cfe79",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:09.592Z",
+  "status": "pending",
+  "headline": "China and Russia Have a Secret Plan to Kill Starlink—Here's Why It Would Backfire",
+  "rating": 8.5,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal, combining tech giant drama (Elon Musk, SpaceX) with high-stakes geopolitics (China, Russia, space weapons). While not a direct 'how-to' for consumers, it offers significant value as an explainer on a critical technology's role in global security. The subject is perfect for multiple engaging formats, such as a deep dive or a 'what if' analysis, making it an excellent fit for our publication.",
+  "summary": "Leaked documents reveal a joint plan by China and Russia to develop strategies and weapons to counter SpaceX's Starlink. Experts note that while the nations view the satellite network as a military threat, any large-scale attack would likely create a catastrophic field of space debris, backfiring on everyone.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "Could China and Russia really destroy Starlink? Only with a boomerang.",
+      "url": "https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/",
+      "excerpt": "\"We will likely have similar concerns and discussions when China fields its Starlink-like constellation.\""
+    }
+  ]
+}

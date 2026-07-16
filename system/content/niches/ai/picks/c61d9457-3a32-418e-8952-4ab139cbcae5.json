@@ -2,7 +2,7 @@
   "id": "c61d9457-3a32-418e-8952-4ab139cbcae5",
   "niche": "ai",
   "created_at": "2026-07-07T19:56:06.853Z",
-  "status": "pending",
+  "status": "planned",
   "headline": "OpenDDE: Open-Source AI Foundation Model for Drug Discovery",
   "rating": 9.2,
   "reasoning": "This paper introduces OpenDDE, an open-source, all-atom biomolecular foundation model for drug discovery, which is highly relevant to AI/ML and represents a significant development in the application of AI to a critical field. The release of training code, checkpoints, and benchmarks from Aureka AI OpenDDE project lends strong technical credibility and promotes collaborative research, moving beyond mere speculation.",

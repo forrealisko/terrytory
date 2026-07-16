@@ -1,0 +1,19 @@
+{
+  "id": "58594fd0-9916-43c1-8d87-39ee065136f2",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:22:02.362Z",
+  "status": "pending",
+  "headline": "The Tech That Keeps Messi on the Pitch: How Data Science Is Defeating Retirement",
+  "rating": 8.5,
+  "reasoning": "This topic has immense mainstream appeal by connecting the world's most popular sport with a compelling tech narrative, making it highly clickable and shareable. The use of global superstars like Messi and Ronaldo as a hook is extremely powerful. The story also lends itself perfectly to diverse formats, such as listicles on recovery tech or explainers on sports data science, giving it a high format diversity bonus.",
+  "summary": "Elite soccer players are extending their careers thanks to advancements in sports science, data analytics, and personalized recovery. Technologies like GPS trackers, sleep monitoring, and individualized training plans allow aging stars like Lionel Messi to compensate for physical decline and stay competitive for longer.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "Lionel Messi’s Final World Cup—and the Death of Early Retirement",
+      "url": "https://www.wired.com/story/lionel-messis-final-world-cup-and-the-death-of-early-retirement/",
+      "excerpt": "Argentina’s Lionel Messi was supposed to be done years ago. Now, sports science is helping soccer’s biggest stars rewrite the rules of aging."
+    }
+  ]
+}

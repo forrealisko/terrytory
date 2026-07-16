@@ -1,0 +1,19 @@
+{
+  "id": "987db203-2e81-40f6-a5c0-9510ff6ade0c",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:31.796Z",
+  "status": "pending",
+  "headline": "Galaxy Z Flip 8 Leaks Reveal a Disappointingly Minor Upgrade",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its strong clickability and mainstream appeal, as leaks for major Samsung flagships always generate significant interest and debate. The 'disappointing' nature of the iterative update provides fertile ground for hot takes and comparisons, boosting its viral potential. Furthermore, it offers high practical value for consumers considering an upgrade and lends itself to diverse formats like 'X vs. Y' or listicles, making it a perfect fit for our publication.",
+  "summary": "Leaked images and specs for Samsung's upcoming Galaxy Z Flip 8 suggest it will be a minor iterative update, featuring a nearly identical design, a new Exynos chip instead of a Snapdragon, and slightly faster charging.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "Samsung&#8217;s Galaxy Z Flip 8 leaks a week before launch event",
+      "url": "https://www.theverge.com/tech/966492/samsung-galaxy-z-flip-8-design-specs-leaked",
+      "excerpt": "Samsung's next flip phone might be tough to tell apart from last year's Galaxy Z Flip 7. As 9to5Google points out, leaked images and specs for the upcoming Galaxy Z Flip 8 shared by WinFuture are nearly identical to Samsung's current flip phone. According to the leak, Samsung is not planning to upgrade the Z […]"
+    }
+  ]
+}

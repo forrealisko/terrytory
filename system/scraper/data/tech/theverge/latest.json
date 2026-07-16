@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scrape_id": "9c7e77a1-723d-49a5-b391-f05a0bd314e4",
-    "scraped_at": "2026-07-10T09:41:23.540Z",
+    "scrape_id": "003c9c70-2ada-4c47-b8b9-ba81dc79fd29",
+    "scraped_at": "2026-07-16T17:13:23.521Z",
     "source_url": "https://www.theverge.com/rss/index.xml",
     "source_type": "rss",
     "scraper_version": "2.0.0",
@@ -13,17 +13,202 @@
   "headlines": [
     {
       "type": "article",
-      "title": "Microsoft’s carbon emissions went up 25 percent last year",
-      "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-      "article_date": "2026-07-10T00:04:13.000Z",
+      "title": "Google is better at playing the EU regulations game",
+      "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+      "article_date": "2026-07-16T17:11:40.000Z",
       "article_date_raw": null,
-      "author": "Stevie Bonifield",
-      "excerpt": "Microsoft may once again be struggling to keep up with its own climate goals, according to its 2026 sustainability report. As reported by GeekWire, the report states that Microsoft's carbon emissions increased 25 percent in 2025, totalling 34 million metric tons \"without select interventions.\" Microsoft says this was \"driven primarily by the expansion of our […]",
+      "author": "Robert Hart",
+      "excerpt": "Today, the European Union ordered Google to give its AI rivals greater access to Android, the open-source operating system that powers billions of devices worldwide. The demand is hardly surprising. It may look like a defeat on paper for Google, which has spent years resisting exactly this kind of access, but it is a regulatory […]",
+      "image_url": null,
+      "categories": [
+        "Analysis",
+        "Apple",
+        "Google",
+        "Policy",
+        "Report",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T17:11:40.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 60,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Roblox will let people use AI to make games on their phone",
+      "url": "https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games",
+      "article_date": "2026-07-16T16:45:29.000Z",
+      "article_date_raw": null,
+      "author": "Jay Peters",
+      "excerpt": "Roblox is about to let people make games with AI right inside its mobile app, which could make a platform that's already filled with content of questionable quality feel even more overloaded. The company has embraced AI with open arms, including a preview of an ambitious take on AI world models similar to Google's Project […]",
+      "image_url": null,
+      "categories": [
+        "Entertainment",
+        "Gaming",
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T16:45:29.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 73,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "article_date": "2026-07-16T16:11:20.000Z",
+      "article_date_raw": null,
+      "author": "Emma Roth",
+      "excerpt": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing […]",
       "image_url": null,
       "categories": [
         "AI",
-        "Environment",
-        "Microsoft",
+        "Apps",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T16:11:20.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 25,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Time’s running out to save $10 on Splatoon Raiders physical preorders",
+      "url": "https://www.theverge.com/gadgets/966478/splatoon-raiders-preorder-the-sopranos-4k-bluray-deal-sale",
+      "article_date": "2026-07-16T15:42:07.000Z",
+      "article_date_raw": null,
+      "author": "Cameron Faulkner",
+      "excerpt": "Splatoon Raiders’ July 23rd launch day is almost here, so your window to preorder the physical version at a $10 discount is about to close. The digital version is $49.99, and so is the game on cartridge if you preorder at Walmart. Amazon previously honored the preorder discount, but it’s selling the game at full […]",
+      "image_url": null,
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Gaming",
+        "Verge Shopping"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:42:07.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 20,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm",
+      "url": "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation",
+      "article_date": "2026-07-16T15:41:09.000Z",
+      "article_date_raw": null,
+      "author": "Emma Roth",
+      "excerpt": "The Tesla driver who fatally struck a woman after crashing into her home \"manually overrode\" the vehicle's Full Self-Driving (FSD) technology by pressing the gas pedal to 100 percent, the National Transportation Safety Board (NTSB) confirmed in a preliminary report on Wednesday. After examining the car's electronic data, investigators found that the Tesla Model 3 […]",
+      "image_url": null,
+      "categories": [
+        "Electric Cars",
+        "News",
+        "Tesla",
+        "Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:41:09.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 63,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple&#8217;s OLED iPad Mini upgrade is on the way as prices continue to rise",
+      "url": "https://www.theverge.com/tech/966535/apple-oled-ipad-mini-rumor",
+      "article_date": "2026-07-16T15:22:11.000Z",
+      "article_date_raw": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "The iPad Mini could get an OLED display upgrade as soon as October, according to Bloomberg's Mark Gurman. It would be the most significant refresh for the Mini since its 2021 redesign. An OLED iPad Mini has been rumored for months now, with Gurman previously reporting last year that it will also come with a […]",
+      "image_url": null,
+      "categories": [
+        "Apple",
+        "Apple Rumors",
+        "iPad",
+        "News",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:22:11.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "‘No company is going to go to jail for you’: Proton’s CTO on balancing privacy, policy, and trust",
+      "url": "https://www.theverge.com/podcast/966074/proton-cto-bart-butler-privacy-encryption-surveillance-age-verification",
+      "article_date": "2026-07-16T13:59:05.000Z",
+      "article_date_raw": null,
+      "author": "Nilay Patel",
+      "excerpt": "Today on Decoder, we’ve got the first of a two-part series on the systems that run the world: I’m talking with Bart Butler, the CTO of Proton, the company that makes private and secure productivity software. You probably know it best for Proton Mail, which is encrypted by default, but the company also has docs, […]",
+      "image_url": null,
+      "categories": [
+        "Decoder",
+        "Podcasts",
+        "Policy",
+        "Privacy",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T13:59:05.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 68,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Ninja’s microwave air fryer could be the fix for soggy reheated pizza",
+      "url": "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance",
+      "article_date": "2026-07-16T13:04:34.000Z",
+      "article_date_raw": null,
+      "author": "Andrew Liszewski",
+      "excerpt": "Ninja has added everything from ice cream makers to double-decker toaster ovens to its extensive lineup of counter-clogging appliances, but it's only now introducing its first microwave. What makes the new Ninja Crispi Microwave stand out among its many competitors is that it doubles as an air fryer. After heating your food using microwaves, you […]",
+      "image_url": null,
+      "categories": [
+        "Food",
+        "Gadgets",
         "News",
         "Science",
         "Tech"
@@ -32,227 +217,68 @@
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-10T00:04:13.000Z"
+        "parsed": "2026-07-16T13:04:34.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 88,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-      "article_date": "2026-07-09T23:24:04.000Z",
-      "article_date_raw": null,
-      "author": "Hayden Field",
-      "excerpt": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\" she said on X. The news follows Simo's original announcement in April that she would take a few weeks of medical leave due to a neuroimmune condition, shortly after she had taken on the […]",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "News",
-        "OpenAI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T23:24:04.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Netflix reportedly considers adding always-on channels",
-      "url": "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles",
-      "article_date": "2026-07-09T23:00:31.000Z",
-      "article_date_raw": null,
-      "author": "Jay Peters",
-      "excerpt": "Netflix is thinking about adding always-on channels that would stream specific shows and movies, according to The Wall Street Journal. The move sounds like a Netflix version of always-on services like Pluto TV and Tubi, except the big hook for those is that they're free - because of the ads you have to watch. Netflix […]",
-      "image_url": null,
-      "categories": [
-        "Entertainment",
-        "Netflix",
-        "News",
-        "Streaming"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T23:00:31.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "The ChatGPT browser is already dead",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-      "article_date": "2026-07-09T21:49:26.000Z",
-      "article_date_raw": null,
-      "author": "Jay Peters",
-      "excerpt": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\" Atlas and is targeting an […]",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "News",
-        "OpenAI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:49:26.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "The floatable, powerful Soundcore Boom 2 speaker is over half off",
-      "url": "https://www.theverge.com/gadgets/963537/anker-soundcore-boom-2-bluetooth-speaker-deal-sale",
-      "article_date": "2026-07-09T20:32:18.000Z",
-      "article_date_raw": null,
-      "author": "Brad Bourque",
-      "excerpt": "Bluetooth speakers with big sound and great features are hard to find for under $100, with most offerings being some variation of the same basic (and often small) design. Thankfully, through July 10th Woot has the Anker Soundcore Boom 2 on sale for $69.99, which is $20 cheaper than the discounted price at other retailers […]",
-      "image_url": null,
-      "categories": [
-        "Deals",
-        "Gadgets",
-        "Verge Shopping"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T20:32:18.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Google will now tell you if an ad was made with AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
-      "article_date": "2026-07-09T20:11:38.000Z",
+      "title": "Samsung&#8217;s Galaxy Z Flip 8 leaks a week before launch event",
+      "url": "https://www.theverge.com/tech/966492/samsung-galaxy-z-flip-8-design-specs-leaked",
+      "article_date": "2026-07-16T13:23:50.000Z",
       "article_date_raw": null,
       "author": "Stevie Bonifield",
-      "excerpt": "You can see if ads on Google Search, Google Discover, and YouTube were made or edited using AI from a new section in Google's \"My Ad Center,\" as reported earlier by TechCrunch. The update, announced on Thursday, adds a \"created or edited with AI\" label under the \"how this ad was made\" tab. Users can […]",
+      "excerpt": "Samsung's next flip phone might be tough to tell apart from last year's Galaxy Z Flip 7. As 9to5Google points out, leaked images and specs for the upcoming Galaxy Z Flip 8 shared by WinFuture are nearly identical to Samsung's current flip phone. According to the leak, Samsung is not planning to upgrade the Z […]",
       "image_url": null,
       "categories": [
-        "AI",
-        "Google",
+        "Foldable Phones",
+        "Mobile",
         "News",
+        "Samsung",
         "Tech"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T20:11:38.000Z"
+        "parsed": "2026-07-16T13:23:50.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 68,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Google&#8217;s Nest Thermostat has hit its best price of the year",
-      "url": "https://www.theverge.com/gadgets/963475/google-nest-thermostat-deal-sale",
-      "article_date": "2026-07-09T17:33:46.000Z",
+      "title": "OnePlus never had a chance in the US",
+      "url": "https://www.theverge.com/tech/966274/oneplus-never-had-a-chance-in-the-us",
+      "article_date": "2026-07-16T15:29:40.000Z",
       "article_date_raw": null,
-      "author": "Sheena Vasani",
-      "excerpt": "If you’re looking for a relatively affordable way to cut down on cooling costs, Google’s Nest Thermostat can help. It’s packed with smart controls and energy-saving features, and right now it’s on sale in white for $79 ($50 off), which is its best price of the year, at Amazon. The smart thermostat is quick to […]",
+      "author": "David Imel",
+      "excerpt": "Twelve years after the launch of the OnePlus One, OnePlus announced today that it has exited the United States. It's bittersweet, as the brand has been on a comeback tour of sorts with its excellent OnePlus 15 and widely praised (though still too expensive) OnePlus Open. The writing has been on the wall for a […]",
       "image_url": null,
       "categories": [
-        "Deals",
+        "Analysis",
         "Gadgets",
-        "Google",
-        "Smart Home",
-        "Tech",
-        "Verge Shopping"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T17:33:46.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Microsoft’s patch Tuesdays are about to get bigger",
-      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-      "article_date": "2026-07-09T14:55:37.000Z",
-      "article_date_raw": null,
-      "author": "Stevie Bonifield",
-      "excerpt": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in a blog post on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security updates included in each security release.\" Hackers, even amateurs, have increasingly been using AI […]",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "Microsoft",
-        "News",
-        "Security",
+        "Mobile",
+        "OnePlus",
+        "Phones",
+        "Report",
         "Tech"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T14:55:37.000Z"
+        "parsed": "2026-07-16T15:29:40.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "article_date": "2026-07-09T17:32:30.000Z",
-      "article_date_raw": null,
-      "author": "Hayden Field",
-      "excerpt": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To celebrate, […]",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "News",
-        "OpenAI",
-        "Policy"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T17:32:30.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Schlage’s Sense Pro unlocks the door so I don’t have to",
-      "url": "https://www.theverge.com/tech/963100/schlage-sense-pro-review-apple-home-key-uwb-handsfree-unlock",
-      "article_date": "2026-07-09T15:50:06.000Z",
-      "article_date_raw": null,
-      "author": "Jennifer Pattison Tuohy",
-      "excerpt": "The Schlage Sense Pro is a beautiful smart lock. Sleek, discreet, and simple to use, it's Schlage's smartest lock to date. Thanks to ultra-wideband (UWB), it unlocks as I walk up to my front door; I don't need to enter a code or tap my phone or press my finger against it. I've tested several […]",
-      "image_url": null,
-      "categories": [
-        "Matter",
-        "Reviews",
-        "Smart Home",
-        "Smart Home Reviews",
-        "Tech"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T15:50:06.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 68,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     }
   ]
 }

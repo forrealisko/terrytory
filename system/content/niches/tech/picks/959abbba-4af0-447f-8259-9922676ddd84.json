@@ -1,0 +1,19 @@
+{
+  "id": "959abbba-4af0-447f-8259-9922676ddd84",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:22:16.355Z",
+  "status": "pending",
+  "headline": "The Inventor of Apple's FaceID is Now Building an AI to Read Your Brain",
+  "rating": 8.5,
+  "reasoning": "This story scores highly due to its exceptional clickability, linking a familiar Apple technology (FaceID) with a futuristic and compelling application of AI in brain health. This connection makes a complex scientific topic highly accessible to a mainstream tech audience and sparks curiosity. While its immediate practical value is low, the topic is perfect for multiple engaging formats like explainers or deep dives, and it taps into major reader interests in AI, health tech, and the moves of former tech giant innovators.",
+  "summary": "The co-inventor of Apple's FaceID has launched a startup, Hemispheric, which raised $52 million to develop an AI model that analyzes EEG brain data. The goal is to create a non-invasive tool for diagnosing cognitive disorders like PTSD, depression, and Alzheimer's.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "An Inventor of Apple’s FaceID Wants to Analyze Your Brain’s Health With AI",
+      "url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+      "excerpt": "Gidi Littwin’s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as for a blood test."
+    }
+  ]
+}

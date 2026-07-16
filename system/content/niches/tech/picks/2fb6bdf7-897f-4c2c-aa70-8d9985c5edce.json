@@ -1,0 +1,19 @@
+{
+  "id": "2fb6bdf7-897f-4c2c-aa70-8d9985c5edce",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:23:37.721Z",
+  "status": "pending",
+  "headline": "Inside OpenAI's Civil War: Staffers Fund Rival PAC to Fight Their Own Boss on AI Rules",
+  "rating": 8.8,
+  "reasoning": "This story scores exceptionally high on clickability and mainstream appeal due to its compelling 'insider vs. boss' conflict at the world's most famous AI company. It perfectly fits our 'tech giant drama' vertical and sparks debate on the critical issue of AI safety and regulation. While not a practical 'how-to,' it provides essential context for any tech-savvy reader and can be framed as an explainer or a hot take, adding to its format diversity.",
+  "summary": "A group of current and former OpenAI employees are donating to a Super PAC that advocates for stricter AI regulation, directly opposing a pro-industry PAC funded by their own company's president, Greg Brockman.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
+      "url": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
+      "excerpt": "OpenAI employees have donated more than $215,000 to a political effort opposing Leading the Future, a group backed by the company’s president, Greg Brockman."
+    }
+  ]
+}

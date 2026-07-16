@@ -1,0 +1,19 @@
+{
+  "id": "2c3048f1-8705-44cf-826e-f9b4a857d1e4",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:18:06.513Z",
+  "status": "pending",
+  "headline": "This Startup Thinks AI Gadgets Are Doing It Wrong, and Just Raised $5.5M to Fix Them",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its strong clickability and relevance within the current AI hardware race. The founder's direct criticism of hyped products like the Rabbit R1 and Humane Pin provides a compelling 'hot take' angle, and the story lends itself to multiple engaging formats, from listicles comparing new AI gadgets to explainers on 'action-oriented' AI. While the hardware is for power users, its connection to the broader consumer AI trend gives it significant appeal.",
+  "summary": "Aina, a startup founded by a former Ultrahuman hardware executive, has raised $5.5 million to build 'action-oriented' AI hardware. Their first product is a smart macro-keyboard designed to control AI agents, deliberately moving away from the passive recording model of recent competitors.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Ultrahuman’s former hardware VP raises $5.5M for devices that control AI agents, not just record you",
+      "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/",
+      "excerpt": "Aina is going to pilot a new device in the coming weeks."
+    }
+  ]
+}

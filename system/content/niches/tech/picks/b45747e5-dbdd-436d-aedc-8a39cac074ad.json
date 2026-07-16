@@ -1,0 +1,19 @@
+{
+  "id": "b45747e5-dbdd-436d-aedc-8a39cac074ad",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:18:35.147Z",
+  "status": "planned",
+  "headline": "The Opt-Out Onslaught: How Big Tech Is Forcing AI Into Your Life",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high by combining tech giant drama (Meta's quick reversal) with immense practical value and mainstream appeal, as it affects users of the world's biggest platforms like Instagram and Google Docs. The inherent conflict and widespread user frustration give it significant viral potential. It's also a perfect fit for diverse formats, from actionable 'how-to' guides and listicles to strong opinion pieces.",
+  "summary": "Tech companies are increasingly enabling new AI features by default, forcing users to actively opt out, which has sparked significant backlash and a broader debate about privacy and consent.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "Please Stop Making Me Opt Out of AI",
+      "url": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
+      "excerpt": "I’m sick of “opt-out” toggles for automatically enabled generative AI features. It’s past time to make “opt in” the default setting for sensitive features."
+    }
+  ]
+}

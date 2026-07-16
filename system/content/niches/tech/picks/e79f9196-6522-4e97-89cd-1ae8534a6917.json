@@ -1,0 +1,19 @@
+{
+  "id": "e79f9196-6522-4e97-89cd-1ae8534a6917",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:19:34.816Z",
+  "status": "pending",
+  "headline": "Your Tech Toolkit for Surviving Wildfire Smoke Season",
+  "rating": 8.8,
+  "reasoning": "This topic scores exceptionally high on mainstream appeal and practical value, as it addresses a widespread environmental and health crisis affecting millions of consumers. While not a typical gadget story, it provides a perfect opportunity for service journalism centered on technology like air purifiers, AQI monitoring apps, and smart home sensors. The subject also lends itself extremely well to diverse, high-engagement formats like listicles ('5 Best Air Purifiers for Smoke') and explainers ('What the AQI Number on Your Phone Really Means').",
+  "summary": "Smoke from Canadian wildfires is creating hazardous air quality conditions across the US Northeast and Midwest. Health experts are advising the public to limit outdoor exposure and use technology like N95 masks and air purifiers to protect against harmful airborne particles.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "How to Protect Your Health as Skies Fill With Smoke From Canada’s Wildfires",
+      "url": "https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/",
+      "excerpt": "Roughly 100 fires are raging out of control in Ontario, sending smoke streaming 1,000 miles to the south and east."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bab81c86-a6d3-45d9-9f89-65b2ed798247",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:23.238Z",
+  "status": "pending",
+  "headline": "The Two-Radio Trick That Makes Wireless Android Auto Work",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its strong mainstream appeal and practical value for the millions of Android Auto users. It answers a common 'why does it do that?' question, explains a noticeable side effect (battery drain), and provides actionable advice on how to get the feature in older cars. The content is perfect for an 'Explainer' format, which aligns well with our publication's diverse content strategy.",
+  "summary": "Wireless Android Auto requires both Bluetooth and Wi-Fi to function. Bluetooth handles the initial low-power handshake and hands-free calls, while a more powerful 5GHz Wi-Fi connection provides the necessary bandwidth to stream the map, media, and user interface to the car's display.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Why does wireless Android Auto use both Bluetooth and Wi-Fi?",
+      "url": "https://www.engadget.com/2210415/why-wireless-android-auto-uses-both-bluetooth-wifi/",
+      "excerpt": "Bluetooth and Wi-Fi work in tandem to power the wireless Android Auto experience."
+    }
+  ]
+}

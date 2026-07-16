@@ -1,0 +1,19 @@
+{
+  "id": "9d0cd8ca-fc41-49b4-a077-41b91efb64eb",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:15:55.121Z",
+  "status": "pending",
+  "headline": "Build a Game With Just Words: Roblox's New AI Puts a Dev Studio in Your Pocket",
+  "rating": 8.5,
+  "reasoning": "This topic hits a sweet spot, combining the massive mainstream appeal of Roblox with the viral potential of generative AI. It's highly clickable and sparks debate about the future of creativity versus 'AI slop,' making it perfect for social media discussion. The story also lends itself to multiple engaging formats, from explainers and hot takes to future how-to guides, giving it high editorial value.",
+  "summary": "Roblox is launching a new feature called 'Build' that allows users to create basic games directly within its mobile app using simple text prompts. The AI-powered tool aims to lower the barrier to game creation while relying on discovery algorithms to filter out low-quality content.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "Roblox will let people use AI to make games on their phone",
+      "url": "https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games",
+      "excerpt": "Roblox is about to let people make games with AI right inside its mobile app, which could make a platform that's already filled with content of questionable quality feel even more overloaded. The company has embraced AI with open arms, including a preview of an ambitious take on AI world models similar to Google's Project […]"
+    }
+  ]
+}

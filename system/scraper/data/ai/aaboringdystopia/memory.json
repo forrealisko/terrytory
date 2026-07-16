@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "created_at": "2026-07-16T17:07:27.447Z",
+  "last_scrape": "2026-07-16T17:07:27.530Z",
+  "total_scrapes": 1,
+  "seen_hashes": {
+    "09cf494e150548a0": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/"
+    },
+    "9d5e47af5dc9a315": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+      "url": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/"
+    },
+    "f47b3a5e2ceb4197": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/"
+    },
+    "eb3c87932c477f1d": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/"
+    },
+    "36a140b344ed5a9d": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "The US government warns that Russia state hackers are coming after your router",
+      "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/"
+    },
+    "92d24f686067fdfe": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/"
+    },
+    "9ba5511d8dded97a": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
+      "url": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/"
+    },
+    "c6d6e0db00fca93c": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
+      "url": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/"
+    },
+    "a004d3c55b9fc9c7": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/"
+    },
+    "5e229a1d2c992500": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
+      "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/"
+    },
+    "1b239cfa513eaa98": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
+      "url": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/"
+    },
+    "e5525d910e9c2c4f": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+    },
+    "f6cc881ad8ab449a": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Newly discovered PamStealer isn't your typical macOS malware",
+      "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/"
+    },
+    "1a736c748026c5e9": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
+      "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/"
+    },
+    "56b95adf3934817c": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/"
+    },
+    "3ee220182a55d191": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
+      "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/"
+    },
+    "2dc4a2dae635b397": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/"
+    },
+    "7ebbb3922a4ab607": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
+      "url": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/"
+    },
+    "b05d0a886a5ee1e0": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
+      "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/"
+    },
+    "71f308253a322d41": {
+      "first_seen": "2026-07-16T17:07:27.529Z",
+      "last_seen": "2026-07-16T17:07:27.529Z",
+      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/"
+    }
+  },
+  "stats": {
+    "total_headlines_ever": 20
+  }
+}

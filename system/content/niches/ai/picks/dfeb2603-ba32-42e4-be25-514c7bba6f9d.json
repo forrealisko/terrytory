@@ -1,0 +1,19 @@
+{
+  "id": "dfeb2603-ba32-42e4-be25-514c7bba6f9d",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:12:28.289Z",
+  "status": "planned",
+  "headline": "Russian Spies Are Hacking WhatsApp & Signal Accounts—Here's How to Stay Safe",
+  "rating": 9.3,
+  "reasoning": "This story scores exceptionally high across all criteria. It has massive clickability due to the mention of popular 'secure' apps like Signal and WhatsApp, a state-sponsored threat, and a splashy '$10 million' reward. The practical value is immense, as it provides specific examples of phishing messages and clear, actionable steps for users to protect their accounts, directly serving our audience of curious beginners and professionals. The topic has huge mainstream appeal and can be easily repurposed into multiple formats, such as a 'How-To' guide, a listicle of warning signs, or a security-tip post.",
+  "summary": "The US government is offering a $10 million reward for information on a Russian hacking group that is using sophisticated phishing scams to compromise the Signal and WhatsApp accounts of high-profile individuals.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
+      "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+      "excerpt": "Operation by two Russia-state groups has been ongoing since at least March."
+    }
+  ]
+}

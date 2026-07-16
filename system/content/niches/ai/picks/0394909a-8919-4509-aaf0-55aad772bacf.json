@@ -2,7 +2,7 @@
   "id": "0394909a-8919-4509-aaf0-55aad772bacf",
   "niche": "ai",
   "created_at": "2026-07-07T19:54:59.687Z",
-  "status": "pending",
+  "status": "planned",
   "headline": "VERITAS: AI-Powered Tool Automates Scientific Research Replication",
   "rating": 8.8,
   "reasoning": "This topic is highly relevant to AI, focusing on using AI agents to solve a critical problem in scientific research: replication. The development of a general-purpose, domain-agnostic tool like VERITAS, which outperforms existing baselines, represents a significant and novel breakthrough with substantial implications for research integrity and efficiency. The paper is from arXiv, indicating a credible research output with technical substance.",

@@ -1,0 +1,19 @@
+{
+  "id": "a6e98550-4aa9-47d6-831a-4d66024ba0d1",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:30.313Z",
+  "status": "pending",
+  "headline": "This Week's Best Tech Deals: Save on 'Splatoon Raiders', Nothing Headphones, and More",
+  "rating": 8.8,
+  "reasoning": "This topic has high practical value, offering readers a direct way to save money on a highly anticipated Nintendo game. Its format as a deals roundup is inherently versatile, fitting our listicle and quick-tip formats, and the lead item has strong mainstream appeal and clickability for our gaming and consumer tech audience.",
+  "summary": "A limited-time preorder discount offers the upcoming game 'Splatoon Raiders' for $10 off its retail price. The source also compiles other notable deals on consumer tech, including Nothing headphones and a 4K Blu-ray set of 'The Sopranos'.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "Time’s running out to save $10 on Splatoon Raiders physical preorders",
+      "url": "https://www.theverge.com/gadgets/966478/splatoon-raiders-preorder-the-sopranos-4k-bluray-deal-sale",
+      "excerpt": "Splatoon Raiders’ July 23rd launch day is almost here, so your window to preorder the physical version at a $10 discount is about to close. The digital version is $49.99, and so is the game on cartridge if you preorder at Walmart. Amazon previously honored the preorder discount, but it’s selling the game at full […]"
+    }
+  ]
+}

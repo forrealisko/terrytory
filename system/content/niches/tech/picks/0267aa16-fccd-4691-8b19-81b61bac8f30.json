@@ -1,0 +1,19 @@
+{
+  "id": "0267aa16-fccd-4691-8b19-81b61bac8f30",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:18:03.155Z",
+  "status": "pending",
+  "headline": "Hyundai Moves to Take Full Control of Boston Dynamics, Plans to Mass-Produce Atlas Robots",
+  "rating": 8,
+  "reasoning": "This topic scores highly due to the immense viral potential and mainstream recognition of Boston Dynamics and its humanoid robots. While the immediate practical value for consumers is low, the story has huge 'future is now' appeal and sparks debate about AI and automation, making it highly clickable. The story also lends itself to multiple engaging formats, from explainers on 'Physical AI' to speculative hot takes on a future with mass-produced humanoid workers.",
+  "summary": "Hyundai, which already owns a majority stake in Boston Dynamics, is reportedly planning to acquire the remaining shares from Softbank. The move is intended to accelerate the commercialization of the famous Atlas humanoid robot, with plans to produce tens of thousands annually.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Hyundai reportedly looking to take total control of robotics giant Boston Dynamics",
+      "url": "https://www.engadget.com/2216427/hyundai-reportedly-looking-to-buy-all-of-boston-dynamics-from-softbank/",
+      "excerpt": "Hyundai could soon own Boston Dynamics in full."
+    }
+  ]
+}

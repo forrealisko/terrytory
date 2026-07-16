@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "scrape_id": "fcbf5e43-172b-47f5-9b6a-db5ce9018953",
+    "scraped_at": "2026-07-16T17:07:20.072Z",
+    "source_url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+    "source_type": "html",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 11,
+    "new_headlines": 2,
+    "previously_seen": 9
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:07:20.072Z"
+    },
+    {
+      "type": "article",
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-10T09:41:21.933Z"
+    },
+    {
+      "type": "article",
+      "title": "Your family’s $300 stake in OpenAI",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-07T09:48:51.718Z"
+    },
+    {
+      "type": "article",
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:42.472Z"
+    },
+    {
+      "type": "article",
+      "title": "Elastic",
+      "url": "https://www.elastic.co/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/04/Elastic-logo.png",
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-08T08:34:42.472Z"
+    },
+    {
+      "type": "article",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:25.939Z"
+    },
+    {
+      "type": "article",
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:25.939Z"
+    },
+    {
+      "type": "article",
+      "title": "AI agents are not your “coworkers”",
+      "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:25.939Z"
+    },
+    {
+      "type": "article",
+      "title": "The $400 million machine powering the future of chipmaking",
+      "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:25.939Z"
+    },
+    {
+      "type": "article",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "article_date": null,
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": null,
+      "image_url": null,
+      "categories": [],
+      "tags": [],
+      "date_analysis": {
+        "relative": "unknown",
+        "age_days": null,
+        "parsed": null
+      },
+      "is_new": false,
+      "first_seen": "2026-07-03T20:12:25.939Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "378205cd-abcf-417d-9a4f-6e5ab2831cc0",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:42.372Z",
+  "status": "pending",
+  "headline": "1Password Now Lets Claude AI Use Your Logins—But Is It Actually Safe?",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly as it merges two major consumer tech trends: AI assistants and password security. It has strong clickability due to the provocative nature of an AI handling credentials, high practical value for users of 1Password or Claude, and can be easily adapted into multiple formats like explainers, how-to guides, or opinion pieces. While slightly niche to users of these specific platforms, the underlying theme of AI agent security has broad appeal to a tech-savvy audience.",
+  "summary": "Password manager 1Password has launched an integration with the AI assistant Claude, allowing the AI to securely use your credentials for tasks without the passwords being exposed to the AI model. The new feature works via a browser extension and is part of a new 'Agentic Mode' designed to safeguard vaults from AI agents.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "You can now grant Claude access to your 1Password credentials",
+      "url": "https://www.engadget.com/2216405/1password-anthropic-claude-integration/",
+      "excerpt": "1Password lets you use Claude agents for personal chores without exposing your credentials."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "6fe32f65-07a6-49a5-82fa-88b5390238d3",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:32.613Z",
+  "status": "pending",
+  "headline": "Proton's CTO on Privacy's Limits: 'No Company is Going to Go to Jail For You'",
+  "rating": 8.8,
+  "reasoning": "This topic scores highly due to its strong clickability, tapping into the evergreen debate on privacy, surveillance, and big tech alternatives. It has significant practical value for consumers evaluating privacy-focused services and offers high potential for diverse, engaging formats. The inherent drama of a privacy company navigating government demands gives it broad appeal to both enthusiasts and mainstream users.",
+  "summary": "In a recent interview, Proton's CTO explained how the company balances its privacy promises with real-world legal obligations, revealing the limits of their protection when faced with lawful government requests.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "‘No company is going to go to jail for you’: Proton’s CTO on balancing privacy, policy, and trust",
+      "url": "https://www.theverge.com/podcast/966074/proton-cto-bart-butler-privacy-encryption-surveillance-age-verification",
+      "excerpt": "Today on Decoder, we’ve got the first of a two-part series on the systems that run the world: I’m talking with Bart Butler, the CTO of Proton, the company that makes private and secure productivity software. You probably know it best for Proton Mail, which is encrypted by default, but the company also has docs, […]"
+    }
+  ]
+}

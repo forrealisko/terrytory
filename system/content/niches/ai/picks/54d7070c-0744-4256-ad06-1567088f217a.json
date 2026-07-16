@@ -1,0 +1,19 @@
+{
+  "id": "54d7070c-0744-4256-ad06-1567088f217a",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:12:37.445Z",
+  "status": "planned",
+  "headline": "Notion Kills Its Email App, Claims AI Agents Have Replaced the Inbox",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal due to its provocative core claim: AI agents are making traditional email inboxes obsolete. The story involves a major, popular brand (Notion), industry drama (killing an acquired product), and a forward-looking angle that directly impacts a universal user behavior (checking email). It's a perfect fit for multiple formats, including a hot take, an explainer on 'AI email agents', or a listicle of alternative tools.",
+  "summary": "Notion is shutting down its Notion Mail client, which was built from the acquisition of Skiff. The company claims the reason is that a majority of users now prefer to manage their email using AI agents rather than a traditional inbox.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "excerpt": "Notion is \"going all in on using agents to run your inbox.\""
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "be59f2d3-af7c-4c9d-9ac6-9e0c13e75000",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:19:00.393Z",
+  "status": "pending",
+  "headline": "Apple Quietly Hikes AppleCare+ Prices for New Macs and iPads",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly across the board due to its focus on Apple, a brand with immense mainstream appeal and clickability. The subject of a price increase, even a minor one, has high practical value for consumers and naturally sparks debate, boosting its viral potential. Furthermore, the story is a perfect launchpad for various engaging formats like 'Is it worth it?' explainers, listicles on insurance alternatives, and hot takes on Apple's pricing strategy.",
+  "summary": "Apple has increased the price of its AppleCare+ extended warranty service for new Mac and iPad purchases. The cost has risen by $0.50 per month or $5 per year, following recent price hikes on the devices themselves.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "AppleCare+ prices just went up for Macs and iPads",
+      "url": "https://www.engadget.com/2216377/applecare-plus-prices-just-went-up-for-macs-and-ipads/",
+      "excerpt": "Applecare+ prices for Mac, MacBook and iPad products just rose by $.50 per month or $5 per year."
+    }
+  ]
+}

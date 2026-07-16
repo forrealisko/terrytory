@@ -1,0 +1,19 @@
+{
+  "id": "192c93b7-ac0b-44b1-bd29-30f37e5608e7",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:22:33.988Z",
+  "status": "pending",
+  "headline": "Rejected by NASA 4 Times, This Doctor Became SpaceX's First Flight Surgeon",
+  "rating": 8,
+  "reasoning": "This topic scores very high on clickability and mainstream appeal due to its compelling human-interest narrative involving household names like NASA and SpaceX. The story of perseverance is universally relatable and offers a fascinating behind-the-scenes look at a pivotal moment in commercial spaceflight. While it has low direct practical value and is best suited for a feature profile, its inspirational quality and relevance to the 'builder' audience make it a strong content piece.",
+  "summary": "After four rejections from NASA's astronaut program, Dr. Anil Menon pivoted his career and became the first flight surgeon for SpaceX, where he played a crucial role in the historic Demo-2 mission.",
+  "source_articles": [
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "A most improbable astronaut just went to space",
+      "url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
+      "excerpt": "\"I pretty much, at that point in time, gave up on being an astronaut.\""
+    }
+  ]
+}

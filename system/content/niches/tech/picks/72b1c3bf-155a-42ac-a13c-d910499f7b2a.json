@@ -1,0 +1,19 @@
+{
+  "id": "72b1c3bf-155a-42ac-a13c-d910499f7b2a",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:40.129Z",
+  "status": "pending",
+  "headline": "UK Jails Teen Hackers from 'Scattered Spider' Crew Behind MGM and London Transit Attacks",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its strong clickability and mainstream appeal, tapping into the classic 'teen hacker' narrative with connections to recent, high-profile corporate breaches like MGM and Okta. While its direct practical value is moderate, it serves as a compelling cautionary tale about social engineering and offers excellent potential for diverse formats, such as an explainer on the Scattered Spider group or a deep dive into the methods of modern cybercrime.",
+  "summary": "Two young UK hackers, aged 18 and 20, have been sentenced to prison for their role in the infamous Scattered Spider cybercrime group. They were responsible for a massive 2024 cyberattack on Transport for London that caused millions in damages.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "UK cops say arrest of two young hackers disrupted the operations of an infamous hacking group",
+      "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+      "excerpt": "Owen Flowers and Thalha Jubair, two members of the prolific Scattered Spider hacking group, pleaded guilty and were sentenced to five years and six months in jail for hacking London’s metropolitan transit system."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "id": "280a5627-e5ad-4a4a-a956-d0766cc459de",
   "niche": "ai",
   "created_at": "2026-07-07T19:55:55.843Z",
-  "status": "pending",
+  "status": "planned",
   "headline": "PivoARL: Enhancing LLM Agent Efficiency with Pivotal-Aware Self-Feedback Retry",
   "rating": 8.8,
   "reasoning": "This paper presents a novel and technically sound approach to improve LLM agent performance in long-horizon tasks by efficiently handling failed trajectories. The proposed PivoARL framework addresses a significant challenge in agent reinforcement learning, offering substantial performance gains and interaction cost reductions, making it a meaningful development from a credible research institution (arXiv).",

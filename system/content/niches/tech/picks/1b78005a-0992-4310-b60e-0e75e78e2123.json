@@ -1,0 +1,19 @@
+{
+  "id": "1b78005a-0992-4310-b60e-0e75e78e2123",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:17:03.356Z",
+  "status": "pending",
+  "headline": "How a DeepMind Vet Raised $55M at a $300M Valuation—Before Building a Product",
+  "rating": 8.8,
+  "reasoning": "This topic scores exceptionally high on clickability and viral potential due to the shocking $300M pre-product valuation in the hot AI space. While the deep fundraising advice is niche, the story has strong mainstream appeal for tech enthusiasts. Most importantly, the content is a goldmine for format diversity, easily adaptable into listicles ('5 Fundraising Secrets...'), explainers ('What is Visual AGI?'), and hot takes on the AI bubble, making it a perfect fit for our publication.",
+  "summary": "Andrew Dai, a former Google DeepMind researcher, raised a $55 million seed round at a $300 million valuation for his new visual AI startup, Elorian, before launching a product. In a podcast, he detailed his strategy for pitching a complex technical vision and securing strategic investors.",
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "excerpt": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence."
+    }
+  ]
+}

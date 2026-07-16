@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scrape_id": "b8544648-3f03-41fd-8fad-e5b67da3a0bb",
-    "scraped_at": "2026-07-10T09:41:23.540Z",
+    "scrape_id": "52383331-fd17-4910-8655-2d301a880354",
+    "scraped_at": "2026-07-16T17:13:23.521Z",
     "source_url": "https://techcrunch.com/feed/",
     "source_type": "rss",
     "scraper_version": "2.0.0",
@@ -13,503 +13,543 @@
   "headlines": [
     {
       "type": "article",
-      "title": "After Apple, India’s smartphone manufacturing boom enters new phase with Vivo JV",
-      "url": "https://techcrunch.com/2026/07/09/after-apple-indias-smartphone-manufacturing-boom-enters-new-phase-with-vivo-jv/",
-      "article_date": "2026-07-10T04:36:20.000Z",
-      "article_date_raw": null,
-      "author": "Jagmeet Singh",
-      "excerpt": "Vivo's joint venture could become a template for Chinese smartphone makers in India.",
-      "image_url": null,
-      "categories": [
-        "Government & Policy",
-        "Hardware",
-        "Dixon",
-        "vivo"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-10T04:36:20.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
-      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-      "article_date": "2026-07-10T00:16:54.000Z",
-      "article_date_raw": null,
-      "author": "Lucas Ropek",
-      "excerpt": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "Copilot",
-        "gpt-5.6",
-        "Microsoft",
-        "OpenAI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-10T00:16:54.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Don’t want to invest in Elon Musk? Two new ETFs explicitly exclude him",
-      "url": "https://techcrunch.com/2026/07/09/dont-want-to-invest-in-elon-musk-two-new-etfs-explicitly-exclude-him/",
-      "article_date": "2026-07-10T00:13:00.000Z",
+      "title": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+      "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+      "article_date": "2026-07-16T17:12:00.000Z",
       "article_date_raw": null,
       "author": "Kirsten Korosec",
-      "excerpt": "The new exchanged-traded funds exclude companies that are founded, controlled, or led by Elon Musk. That means no SpaceX or Tesla.",
+      "excerpt": "Uber has agreed to acquire Delivery Hero in a $14.8 billion all-stock deal that would nearly double the company’s global footprint and create one of the world’s largest food delivery platforms outside China.",
       "image_url": null,
       "categories": [
-        "Fintech",
+        "Commerce",
         "Transportation",
-        "Elon Musk",
-        "ETFs"
+        "delivery",
+        "Delivery Hero",
+        "eCommerce",
+        "Uber"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-10T00:13:00.000Z"
+        "parsed": "2026-07-16T17:12:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 53,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Fidji Simo steps down from OpenAI’s no. 2 role",
-      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-      "article_date": "2026-07-09T23:38:00.000Z",
+      "title": "Newsletter platform Beehiiv’s now lets subscribers chat with each other, adds AI",
+      "url": "https://techcrunch.com/2026/07/16/newsletter-platform-beehiivs-now-lets-subscribers-chat-with-each-other-adds-ai/",
+      "article_date": "2026-07-16T17:00:00.000Z",
       "article_date_raw": null,
-      "author": "Connie Loizos",
-      "excerpt": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
-      "image_url": null,
-      "categories": [
-        "AI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T23:38:00.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "OpenAI launches its new family of models with GPT-5.6",
-      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-      "article_date": "2026-07-09T22:24:24.000Z",
-      "article_date_raw": null,
-      "author": "Lucas Ropek",
-      "excerpt": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "ChatGPT",
-        "gpt-5.6",
-        "OpenAI",
-        "sam altman"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T22:24:24.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "An AI agent startup just let its agent run its $100M fundraise",
-      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-      "article_date": "2026-07-09T22:08:58.000Z",
-      "article_date_raw": null,
-      "author": "Connie Loizos",
-      "excerpt": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "Fundraising",
-        "Startups",
-        "ai agent",
-        "In Brief"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T22:08:58.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
-      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "article_date": "2026-07-09T22:03:54.000Z",
-      "article_date_raw": null,
-      "author": "Rebecca Bellan",
-      "excerpt": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "AI browser",
-        "atlas",
-        "chatgpt atlas",
-        "OpenAI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T22:03:54.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
-      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
-      "article_date": "2026-07-09T21:57:42.000Z",
-      "article_date_raw": null,
-      "author": "Julie Bort",
-      "excerpt": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "Hardware",
-        "Anthropic",
-        "Elon Musk",
-        "SpaceX",
-        "xAI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:57:42.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Can AI answer the $3 trillion question?",
-      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
-      "article_date": "2026-07-09T21:47:50.000Z",
-      "article_date_raw": null,
-      "author": "Tim Fernholz",
-      "excerpt": "The AI ROI debate has returned and the numbers are even bigger, as are, perhaps, the consequences.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "apollo",
-        "CAPEX",
-        "Sequioa"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:47:50.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
-      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "article_date": "2026-07-09T19:40:45.000Z",
-      "article_date_raw": null,
-      "author": "Lucas Ropek",
-      "excerpt": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "Anthropic",
-        "Mark Zuckerberg",
-        "Meta",
-        "muse spark",
-        "OpenAI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T19:40:45.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Charles Hudson shares the common mistakes he’s seen after investing in 500+ startups",
-      "url": "https://techcrunch.com/2026/07/09/charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups/",
-      "article_date": "2026-07-09T19:26:31.000Z",
-      "article_date_raw": null,
-      "author": "Maggie Nye",
-      "excerpt": "In this week’s episode of Build Mode, Isabelle Johannessen talks with Precursor Ventures' Charles Hudson about the headwinds facing early-stage founders today and the most common mistakes founders should avoid in order to get funded.",
-      "image_url": null,
-      "categories": [
-        "Startups",
-        "Venture",
-        "Build Mode",
-        "charles hudson",
-        "precursor ventures"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T19:26:31.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
-      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
-      "article_date": "2026-07-09T19:05:58.000Z",
-      "article_date_raw": null,
-      "author": "Rebecca Bellan",
-      "excerpt": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
-      "image_url": null,
-      "categories": [
-        "AI",
-        "Government & Policy",
-        "ChatGPT",
-        "copyright",
-        "copyright infringement",
-        "OpenAI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T19:05:58.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Slate Auto teams up with Crayola to color its EV truck",
-      "url": "https://techcrunch.com/2026/07/09/slate-auto-teams-up-with-crayola-to-color-its-ev-truck/",
-      "article_date": "2026-07-09T19:01:16.000Z",
-      "article_date_raw": null,
-      "author": "Kirsten Korosec",
-      "excerpt": "Slate has an answer for owners who have always want to drive a truck with bright crayon colors.",
-      "image_url": null,
-      "categories": [
-        "Transportation",
-        "crayola",
-        "EVs",
-        "jeff bezos",
-        "slate auto"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T19:01:16.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "FanDuel sent a video from star athlete Bryce Harper to a customer with a gambling problem",
-      "url": "https://techcrunch.com/2026/07/09/fanduel-sent-a-video-from-star-athlete-bryce-harper-to-a-customer-with-a-gambling-problem/",
-      "article_date": "2026-07-09T18:50:00.000Z",
-      "article_date_raw": null,
-      "author": "Amanda Silberling",
-      "excerpt": "The video call highlights the murky relationship between professional athletes and gambling apps.",
+      "author": "Ivan Mehta",
+      "excerpt": "Beehiiv is launching an AI Copilot to help publishers with user growth and analytics",
       "image_url": null,
       "categories": [
         "Apps",
-        "FanDuel",
-        "In Brief",
-        "online gambling"
+        "community",
+        "newsletter",
+        "beehiiv"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T18:50:00.000Z"
+        "parsed": "2026-07-16T17:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 40,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Mercor is in talks for a $20B valuation",
-      "url": "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/",
-      "article_date": "2026-07-09T18:42:22.000Z",
+      "title": "X cracks down on creators who steal content",
+      "url": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
+      "article_date": "2026-07-16T16:40:36.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "X will use Grok AI to better detect stolen content, redirect payouts to original creators, and crack down on engagement bait.",
+      "image_url": null,
+      "categories": [
+        "Social",
+        "Creators",
+        "social media",
+        "X"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T16:40:36.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 60,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
+      "url": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
+      "article_date": "2026-07-16T16:08:40.000Z",
       "article_date_raw": null,
       "author": "Dominic-Madori Davis",
-      "excerpt": "A new $20 billion valuation would be a giant step up from the $10 billion valuation it reached in October.",
+      "excerpt": "Travel agency Fora announced a $60 million Series D round led by Forerunner and Tactile Ventures, valuing the company at $1 billion.",
       "image_url": null,
       "categories": [
         "Fundraising",
         "Startups",
         "Venture",
-        "In Brief",
-        "Mercor"
+        "unicorn"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T18:42:22.000Z"
+        "parsed": "2026-07-16T16:08:40.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 43,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Google will now disclose which ads are made with AI",
-      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
-      "article_date": "2026-07-09T18:40:51.000Z",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "article_date": "2026-07-16T16:00:00.000Z",
       "article_date_raw": null,
-      "author": "Sarah Perez",
-      "excerpt": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose.",
+      "author": "Aisha Malik",
+      "excerpt": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
       "image_url": null,
       "categories": [
         "AI",
-        "Commerce",
-        "Adtech",
-        "advertising",
-        "Generative AI",
+        "Apps",
+        "ai mode",
         "Google"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T18:40:51.000Z"
+        "parsed": "2026-07-16T16:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 83,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
-      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
-      "article_date": "2026-07-09T18:34:35.000Z",
+      "title": "Google continues its renaming streak by turning NotebookLM to Gemini Notebook",
+      "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/",
+      "article_date": "2026-07-16T16:00:00.000Z",
       "article_date_raw": null,
-      "author": "Julie Bort",
-      "excerpt": "The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\"",
+      "author": "Ivan Mehta",
+      "excerpt": "Google said users can soon access their notebooks through AI Mode in Search.",
       "image_url": null,
       "categories": [
-        "AI",
-        "Venture",
-        "nvidia",
-        "Kyutai",
-        "In Brief",
-        "Gradium"
+        "Apps",
+        "gemini",
+        "Google",
+        "notebooklm"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T18:34:35.000Z"
+        "parsed": "2026-07-16T16:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 33,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
-      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
-      "article_date": "2026-07-09T18:22:39.000Z",
+      "title": "Yes, you can now order DoorDash from the command line",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "article_date": "2026-07-16T15:38:55.000Z",
       "article_date_raw": null,
-      "author": "Tim Fernholz",
-      "excerpt": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+      "author": "Sarah Perez",
+      "excerpt": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
       "image_url": null,
       "categories": [
         "AI",
-        "Government & Policy",
+        "Commerce",
+        "DoorDash",
+        "eCommerce"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:38:55.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "UK cops say arrest of two young hackers disrupted the operations of an infamous hacking group",
+      "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+      "article_date": "2026-07-16T15:37:47.000Z",
+      "article_date_raw": null,
+      "author": "Lorenzo Franceschi-Bicchierai",
+      "excerpt": "Owen Flowers and Thalha Jubair, two members of the prolific Scattered Spider hacking group, pleaded guilty and were sentenced to five years and six months in jail for hacking London’s metropolitan transit system.",
+      "image_url": null,
+      "categories": [
+        "Security",
+        "cyberattack",
+        "cybercrime",
+        "cybersecurity",
+        "London Underground",
+        "Scattered Spider",
+        "transport for london"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:37:47.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 40,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Period tracker Stardust shares users’ health data with analytics firm, says Mozilla research",
+      "url": "https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research/",
+      "article_date": "2026-07-16T15:33:28.000Z",
+      "article_date_raw": null,
+      "author": "Zack Whittaker",
+      "excerpt": "One period tracker app tested by Mozilla was 'squeaky clean,' while another app was seen sharing users' health data with an analytics company, underscoring vast differences in user privacy among these apps.",
+      "image_url": null,
+      "categories": [
+        "Biotech & Health",
+        "Privacy",
+        "Security",
+        "cybersecurity",
+        "period trackers",
+        "privacy"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:33:28.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 78,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "article_date": "2026-07-16T15:31:09.000Z",
+      "article_date_raw": null,
+      "author": "Amanda Silberling",
+      "excerpt": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "ChatGPT",
+        "Exclusive",
         "OpenAI"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T18:22:39.000Z"
+        "parsed": "2026-07-16T15:31:09.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 63,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
-      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
-      "article_date": "2026-07-09T17:56:47.000Z",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "article_date": "2026-07-16T15:02:00.000Z",
       "article_date_raw": null,
-      "author": "Lauren Forristal",
-      "excerpt": "Muse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person's profile is public, another user can tag that account and use their images as part of an AI-generated creation.",
+      "author": "Maggie Nye",
+      "excerpt": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+      "image_url": null,
+      "categories": [
+        "Security",
+        "AI",
+        "Build Mode",
+        "Build Mode Video"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:02:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 45,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
+      "url": "https://techcrunch.com/2026/07/16/sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service/",
+      "article_date": "2026-07-16T15:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Sean O'Kane",
+      "excerpt": "The startup, founded in 2021, lets enterprise customers use smartphones to scan and spot vehicle damage.",
+      "image_url": null,
+      "categories": [
+        "Fundraising",
+        "Startups",
+        "Transportation",
+        "Sheryl Sandberg",
+        "Exclusive",
+        "self inspection",
+        "bernthal venture partners"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 33,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+      "article_date": "2026-07-16T14:40:00.000Z",
+      "article_date_raw": null,
+      "author": "Kate Park",
+      "excerpt": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
       "image_url": null,
       "categories": [
         "AI",
+        "Startups",
+        "Alexandre LeBrun",
+        "AMI Labs",
+        "superintelligence",
+        "world model",
+        "Yann LeCun"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T14:40:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 50,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "article_date": "2026-07-16T14:26:29.000Z",
+      "article_date_raw": null,
+      "author": "Dominic-Madori Davis",
+      "excerpt": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "China",
+        "moonshot",
+        "Anthropic",
+        "In Brief"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T14:26:29.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 28,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "article_date": "2026-07-16T13:17:59.000Z",
+      "article_date_raw": null,
+      "author": "Sarah Perez",
+      "excerpt": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "alibaba",
+        "Apple",
+        "Apple Intelligence",
+        "In Brief",
+        "qwen"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T13:17:59.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 65,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Ultrahuman’s former hardware VP raises $5.5M for devices that control AI agents, not just record you",
+      "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/",
+      "article_date": "2026-07-16T11:30:00.000Z",
+      "article_date_raw": null,
+      "author": "Ivan Mehta",
+      "excerpt": "Aina is going to pilot a new device in the coming weeks.",
+      "image_url": null,
+      "categories": [
+        "Apps",
+        "Startups",
+        "AI agents",
+        "dune"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T11:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 50,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta now alerts parents if their teen discussed suicide or self-harm with its AI chatbot",
+      "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/",
+      "article_date": "2026-07-16T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Aisha Malik",
+      "excerpt": "The updates come as Meta and other tech companies are facing scrutiny from regulators and parents around how AI chatbots respond to users in crisis, particularly teenagers.",
+      "image_url": null,
+      "categories": [
         "Apps",
         "Social",
-        "Generative AI",
-        "image generator",
-        "Instagram",
-        "Meta",
-        "Muse Image"
+        "meta ai",
+        "self harm"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T17:56:47.000Z"
+        "parsed": "2026-07-16T11:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 80,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Meta’s new AI chips will begin production in September",
-      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-      "article_date": "2026-07-09T17:17:37.000Z",
+      "title": "Phone maker OnePlus says it won’t release new phones in the US and Europe",
+      "url": "https://techcrunch.com/2026/07/16/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
+      "article_date": "2026-07-16T09:00:00.000Z",
       "article_date_raw": null,
-      "author": "Ram Iyer",
-      "excerpt": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.",
+      "author": "Ivan Mehta",
+      "excerpt": "OnePlus could also wind down its operations in India by 2027.",
       "image_url": null,
       "categories": [
-        "AI",
-        "Hardware",
-        "AI chips",
-        "ai infrastructure",
-        "GPUS",
-        "Meta",
-        "semiconductors"
+        "Gadgets",
+        "OnePlus",
+        "oppo",
+        "smartphones"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T17:17:37.000Z"
+        "parsed": "2026-07-16T09:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Lululemon backs nylon-recycling startup Syntetica in $30M Series A",
+      "url": "https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/",
+      "article_date": "2026-07-16T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Anna Heim",
+      "excerpt": "Syntetica, a French startup that has developed a novel approach to recycling nylon, has already obtained big-name partners and investors.",
+      "image_url": null,
+      "categories": [
+        "Climate",
+        "Fundraising",
+        "Startups",
+        "recycling",
+        "lululemon",
+        "syntetica"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 25,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "article_date": "2026-07-16T04:00:00.000Z",
+      "article_date_raw": null,
+      "author": "Ram Iyer",
+      "excerpt": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
+      "image_url": null,
+      "categories": [
+        "Startups",
+        "AI",
+        "Fundraising",
+        "energy",
+        "oil and gas",
+        "petrochemicals"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T04:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 13,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "9bc873e5-8fce-4065-9332-951a8a1b88ac",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:23:12.399Z",
+  "status": "planned",
+  "headline": "MSI's New $1,800 Handheld Is a Performance Monster With a Price to Match",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high due to its immense clickability, driven by the shocking $1,800 price point for a consumer gadget in a hot market. It has strong mainstream appeal as a conversation starter about high-end gaming and the economic impact of the AI boom on components. Furthermore, the story is a goldmine for format diversity, easily lending itself to head-to-head comparisons, hot takes on pricing, and listicles about premium tech.",
+  "summary": "MSI has released the Claw 8 EX AI+, a new Windows gaming handheld featuring Intel's powerful Arc G3 Extreme chip, which delivers incredible performance but comes with a staggering $1,800 price tag. The high cost, attributed to the AI component crunch, makes it a powerful but questionable value proposition against competitors.",
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "MSI Claw 8 EX AI+ Review: Great Power, Shocking Price",
+      "url": "https://www.wired.com/review/msi-claw-8-ex-ai/",
+      "excerpt": "But with great power comes a great price."
+    }
+  ]
+}

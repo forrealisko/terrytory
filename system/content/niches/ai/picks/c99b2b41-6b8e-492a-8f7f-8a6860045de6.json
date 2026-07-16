@@ -1,0 +1,19 @@
+{
+  "id": "c99b2b41-6b8e-492a-8f7f-8a6860045de6",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:12:09.518Z",
+  "status": "planned",
+  "headline": "What is 'HalluSquatting'? The New AI Threat That Turns Coding Assistants into Botnets",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal by combining a scary, easily understood threat (botnets, hacking) with popular AI tools people are using today (GitHub Copilot, Gemini). The catchy name 'HalluSquatting' and the 'wait, you can do THAT?' nature of the exploit create significant viral potential. It has strong practical value in raising security awareness and can be easily adapted into multiple engaging formats like explainers or listicles.",
+  "summary": "Researchers have discovered a new attack method called 'HalluSquatting' that exploits the tendency of AI models to hallucinate. This allows attackers to trick popular AI coding assistants into downloading malicious code from fake repositories, enabling the creation of large-scale botnets.",
+  "source_articles": [
+    {
+      "source_id": "aaboringdystopia",
+      "source_name": "Ars Technica AI",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "excerpt": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\""
+    }
+  ]
+}

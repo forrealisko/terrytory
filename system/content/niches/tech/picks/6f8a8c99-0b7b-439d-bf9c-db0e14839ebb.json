@@ -1,0 +1,19 @@
+{
+  "id": "6f8a8c99-0b7b-439d-bf9c-db0e14839ebb",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:18:18.497Z",
+  "status": "pending",
+  "headline": "Meta's AI Will Now Alert Parents About Teens' Self-Harm Chats",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its potent mix of a major tech giant (Meta), a hot-button technology (AI), and a sensitive, mainstream issue (teen mental health). It has significant clickability and viral potential by sparking debate on privacy versus safety, while also offering high practical value for parents and users of Meta's platforms. The story can be easily adapted into multiple formats, including an explainer, a how-to guide for parents, or a hot-take opinion piece.",
+  "summary": "Meta is rolling out a new safety feature that uses AI to detect conversations about self-harm in its AI tools and will proactively notify the teen's supervising parent. The system includes manual review before an alert is sent to avoid false alarms.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Meta will alert parents if their teens discuss self harm with Meta AI tools",
+      "url": "https://www.engadget.com/2216412/meta-ai-alert-parents-if-teens-discuss-self-harm/",
+      "excerpt": "Meta has rolled out a new safeguard for teens' AI interactions."
+    }
+  ]
+}

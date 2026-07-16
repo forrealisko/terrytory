@@ -1,529 +1,578 @@
 {
   "meta": {
-    "scrape_id": "72878ad5-182a-4019-9805-a2ddf1532498",
-    "scraped_at": "2026-07-10T09:41:23.540Z",
+    "scrape_id": "5fb884e1-dc34-4d92-af04-aed50b4a5235",
+    "scraped_at": "2026-07-16T17:13:23.521Z",
     "source_url": "https://feeds.arstechnica.com/arstechnica/index",
     "source_type": "rss",
     "scraper_version": "2.0.0",
     "proxy": "direct",
     "total_headlines": 20,
-    "new_headlines": 14,
-    "previously_seen": 6
+    "new_headlines": 20,
+    "previously_seen": 0
   },
   "headlines": [
     {
       "type": "article",
-      "title": "Flores Hobbits' eating habits offer clues about their evolutionary past",
-      "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/",
-      "article_date": "2026-07-09T22:29:10.000Z",
+      "title": "OnePlus ends phone releases in US and Europe, further reducing smartphone choice",
+      "url": "https://arstechnica.com/gadgets/2026/07/oneplus-ends-phone-releases-in-us-and-europe-further-reducing-smartphone-choice/",
+      "article_date": "2026-07-16T16:29:46.000Z",
       "article_date_raw": null,
-      "author": "Kiona N. Smith",
-      "excerpt": "If Homo floresiensis wasn't a fire-using hunter, its origins could be different than we thought.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/komododragon_slasher_ZA_7204-750x500-1.jpg",
+      "author": "Ryan Whitwam",
+      "excerpt": "OnePlus promises to continue supporting the phones it's already released.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/OnePlus-15-5-1152x648.jpg",
+      "categories": [
+        "Tech",
+        "android",
+        "OnePlus",
+        "smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T16:29:46.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Could China and Russia really destroy Starlink? Only with a boomerang.",
+      "url": "https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/",
+      "article_date": "2026-07-16T16:19:28.000Z",
+      "article_date_raw": null,
+      "author": "Stephen Clark",
+      "excerpt": "\"We will likely have similar concerns and discussions when China fields its Starlink-like constellation.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/starlink_stack1-1152x648.jpg",
       "categories": [
         "Science",
-        "anthropology",
-        "Archaeology",
-        "extinct megafauna",
-        "Flores",
-        "hominin evolution",
-        "hominins",
-        "homo erectus"
+        "Space",
+        "broadband",
+        "china",
+        "military space",
+        "russia",
+        "space warfare",
+        "spacex"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T22:29:10.000Z"
+        "parsed": "2026-07-16T16:19:28.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 63,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Michigan's explosive outbreak of diarrheal parasite jumps to over 1,200 cases",
-      "url": "https://arstechnica.com/health/2026/07/michigans-explosive-outbreak-of-diarrheal-parasite-jumps-to-over-1200-cases/",
-      "article_date": "2026-07-09T21:56:44.000Z",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "article_date": "2026-07-16T15:48:21.000Z",
       "article_date_raw": null,
-      "author": "Beth Mole",
-      "excerpt": "In neighboring Ohio, cases have reportedly reached over 500.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1615411744-1152x648.jpg",
-      "categories": [
-        "Health",
-        "cyclosporiasis",
-        "diarrhea",
-        "Michigan",
-        "Ohio",
-        "outbreak",
-        "parasite"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:56:44.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "OpenAI wants its new tool to do your work for you and with you",
-      "url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
-      "article_date": "2026-07-09T21:25:55.000Z",
-      "article_date_raw": null,
-      "author": "Kyle Orland",
-      "excerpt": "Rebranded Codex promises independent workflows that can run \"for hours if needed.\"",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/gptwork-1152x648-1783630571.webp",
+      "author": "Martha Muir in New York",
+      "excerpt": "Companies coming to market are raising money at fastest pace this century.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ftcms_2c2b4618-eb73-4160-997a-8f8bb5485e20-1152x648.jpeg",
       "categories": [
         "AI",
-        "agent mode",
-        "ChatGPT",
-        "ChatGPT agent",
-        "chatgpt codex"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:25:55.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
-      "url": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/",
-      "article_date": "2026-07-09T20:52:55.000Z",
-      "article_date_raw": null,
-      "author": "Dan Goodin",
-      "excerpt": "The feud between NightmareEclipse and Microsoft shows no signs of resolving soon.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg",
-      "categories": [
         "Biz & IT",
-        "Security",
-        "microsoft",
-        "Windows Defender",
-        "zero days"
+        "ai data centers",
+        "AI energy",
+        "energy investment",
+        "syndication"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T20:52:55.000Z"
+        "parsed": "2026-07-16T15:48:21.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 25,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
-      "url": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/",
-      "article_date": "2026-07-09T20:28:55.000Z",
+      "title": "Tesla driver who blamed crash on autopilot pressed accelerator 100%, NTSB finds",
+      "url": "https://arstechnica.com/tech-policy/2026/07/tesla-driver-who-blamed-crash-on-autopilot-pressed-accelerator-100-ntsb-finds/",
+      "article_date": "2026-07-16T14:48:32.000Z",
+      "article_date_raw": null,
+      "author": "Ashley Belanger",
+      "excerpt": "NTSB findings back Elon Musk's claim that driver manually overrode FSD.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/via-Barbour-complaint-1152x648.jpg",
+      "categories": [
+        "Policy",
+        "autopilot",
+        "Elon Musk",
+        "full self-driving",
+        "Tesla",
+        "traffic safety"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T14:48:32.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 63,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Move over, GPS: Navigation satellites in low-Earth orbit are making a comeback",
+      "url": "https://arstechnica.com/space/2026/07/move-over-gps-navigation-satellites-in-low-earth-orbit-are-making-a-comeback/",
+      "article_date": "2026-07-16T11:00:21.000Z",
+      "article_date_raw": null,
+      "author": "Jeremy Hsu",
+      "excerpt": "Xona aims to deploy 258 satellites into low-Earth orbit as a GPS alternative.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Xona_InSitu_Orbit_03-1152x648.jpg",
+      "categories": [
+        "Space",
+        "Tech",
+        "global navigation satellite systems",
+        "global positioning systems",
+        "GNSS",
+        "GPS",
+        "leo",
+        "low earth orbit"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T11:00:21.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 68,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Hundreds rally at Bethesda HQ to protest Xbox layoffs, and Ars was there",
+      "url": "https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/",
+      "article_date": "2026-07-15T22:36:28.000Z",
+      "article_date_raw": null,
+      "author": "Kyle Orland",
+      "excerpt": "Union wants to halt a \"perpetual cycle\" of layoffs, get back to contract bargaining.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/rally13-1152x648-1784152724.jpeg",
+      "categories": [
+        "Gaming",
+        "bethesda",
+        "Bethesda Game Studios",
+        "id Software",
+        "idtech",
+        "layoffs",
+        "microsoft",
+        "rally"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T22:36:28.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 45,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Buzz Aldrin sells famous felt-tip pen that helped launch Apollo from the Moon",
+      "url": "https://arstechnica.com/space/2026/07/apollo-11s-broken-switch-and-mission-saving-pen-sell-for-860k/",
+      "article_date": "2026-07-15T22:10:41.000Z",
+      "article_date_raw": null,
+      "author": "Robert Pearlman",
+      "excerpt": "While an impressive sale, the pen and switch did not break records.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-071526a-lg-1152x648.jpg",
+      "categories": [
+        "Space",
+        "Apollo 11",
+        "ascent engine",
+        "buzz aldrin",
+        "circuit breaker",
+        "Duro",
+        "engine arm",
+        "Family Trust"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T22:10:41.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 40,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+      "url": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
+      "article_date": "2026-07-15T21:41:56.000Z",
       "article_date_raw": null,
       "author": "Scharon Harding",
-      "excerpt": "Broadcom accuses Allstate of dodging VMware audits.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279315069-1024x648.jpg",
+      "excerpt": "The convenience store chain will use StorMagic instead.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/images-1152x648-1784145789.jpg",
       "categories": [
         "Biz & IT",
-        "Allstate",
         "Broadcom",
-        "lawsuit",
         "vmware"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T20:28:55.000Z"
+        "parsed": "2026-07-15T21:41:56.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 13,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs",
-      "url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
-      "article_date": "2026-07-09T20:12:03.000Z",
-      "article_date_raw": null,
-      "author": "Jeremy Hsu",
-      "excerpt": "Preclinical trial is testing the feasibility of humanoid robots in surgery.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/humanoid-robot-surgeons-1152x648.png",
-      "categories": [
-        "AI",
-        "humanoid robots",
-        "medical robots",
-        "robotic surgery",
-        "robots",
-        "surgery",
-        "teleoperation"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T20:12:03.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Judge doesn't like Elon Musk settlement with SEC, but says court can't block it",
-      "url": "https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/",
-      "article_date": "2026-07-09T19:10:33.000Z",
-      "article_date_raw": null,
-      "author": "Jon Brodkin",
-      "excerpt": "Judge reluctantly approves $1.5M settlement with SEC over Twitter stock violation.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/02/getty-musk-1152x648.jpg",
-      "categories": [
-        "Policy",
-        "Elon Musk",
-        "Securities and Exchange Commission",
-        "Twitter"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T19:10:33.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
-      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-      "article_date": "2026-07-09T18:57:53.000Z",
+      "title": "Judge: Trump can’t deport researchers just for working in content moderation",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
+      "article_date": "2026-07-15T21:26:02.000Z",
       "article_date_raw": null,
       "author": "Ashley Belanger",
-      "excerpt": "OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270682238-1152x648.jpg",
+      "excerpt": "Disinformation researchers praise ruling blocking Trump visa denials and deportations.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2201944209-1024x648.jpg",
       "categories": [
-        "AI",
         "Policy",
-        "AI training",
-        "copyright",
-        "copyright infringement",
-        "generative ai",
-        "new york times",
-        "online journalism"
+        "censorship",
+        "center for countering digital hate",
+        "disinformation",
+        "Elon Musk",
+        "Marco Rubio",
+        "misinformation",
+        "online hate speech"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T18:57:53.000Z"
+        "parsed": "2026-07-15T21:26:02.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 33,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Surprised doctors find 10-inch worm in man's groin during elective surgery",
-      "url": "https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/",
-      "article_date": "2026-07-09T15:33:41.000Z",
+      "title": "Engineer identifies and explains every '90s computer seen in Jurassic Park",
+      "url": "https://arstechnica.com/gadgets/2026/07/engineer-identifies-and-explains-every-90s-computer-seen-in-jurassic-park/",
+      "article_date": "2026-07-15T21:04:22.000Z",
       "article_date_raw": null,
-      "author": "Beth Mole",
-      "excerpt": "Oddly, it wasn't the first time this had happened to the man.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Sparganum_UHUHS_A.jpg",
-      "categories": [
-        "Health",
-        "New England Journal of Medicine",
-        "parasite",
-        "sparganosis",
-        "worm"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T15:33:41.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Conspiracies and regrets abound in Dune: Part Three trailer",
-      "url": "https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/",
-      "article_date": "2026-07-09T14:45:44.000Z",
-      "article_date_raw": null,
-      "author": "Jennifer Ouellette",
-      "excerpt": "\"You promised me that you would never take power in your name.\"",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/duneTOP-1152x648.jpg",
+      "author": "Samuel Axon",
+      "excerpt": "Yes, it was, in fact, a Unix system.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/unix-system-jp-1152x648.jpg",
       "categories": [
         "Culture",
-        "denis villeneuve",
-        "Dune: Part 3",
-        "film trailers",
-        "Trailers",
-        "Warner Bros."
+        "Tech",
+        "Jurassic Park",
+        "the 90s",
+        "UNIX",
+        "Unix operating system"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T14:45:44.000Z"
+        "parsed": "2026-07-15T21:04:22.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Ruf debuts new flat-eight engine at Goodwood",
-      "url": "https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/",
-      "article_date": "2026-07-09T14:32:48.000Z",
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "article_date": "2026-07-15T19:59:48.000Z",
       "article_date_raw": null,
-      "author": "Jonathan M. Gitlin",
-      "excerpt": "The 4.8 L eight-cylinder generates more than 1,000 hp and 1,000 Nm, Ruf says.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Ruf_8-Zylinder_01-1152x648.jpg",
+      "author": "Dan Goodin",
+      "excerpt": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/windows-malware-1024x648.jpg",
       "categories": [
-        "Cars",
-        "Ruf"
+        "Biz & IT",
+        "Security",
+        "microsoft",
+        "Windows",
+        "zerodays"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T14:32:48.000Z"
+        "parsed": "2026-07-15T19:59:48.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 63,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Free Waymo rides in California? You can thank a regulatory quirk.",
-      "url": "https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/",
-      "article_date": "2026-07-09T13:31:00.000Z",
+      "title": "FCC to repeal 39% TV ownership cap in boost for Trump-friendly news orgs",
+      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/",
+      "article_date": "2026-07-15T18:52:22.000Z",
       "article_date_raw": null,
-      "author": "Aarian Marshall",
-      "excerpt": "State agency's delay could mean free robotaxi rides in company’s new Ojai vehicle for a few months.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277937156-1-1152x648.jpg",
+      "author": "Jon Brodkin",
+      "excerpt": "FCC chairman claims power to repeal TV ownership limit set by Congress.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/brendan-carr-hearing-1152x648-1766003281.jpg",
       "categories": [
-        "Cars",
-        "google",
-        "syndication",
-        "waymo"
+        "Policy",
+        "brendan carr",
+        "FCC",
+        "national tv ownership limit"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T13:31:00.000Z"
+        "parsed": "2026-07-15T18:52:22.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 25,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "The newest entrant in the military’s launch competition isn't actually a launch company",
-      "url": "https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/",
-      "article_date": "2026-07-09T13:08:27.000Z",
+      "title": "In memoriam: 7 of our favorite Sam Neill films",
+      "url": "https://arstechnica.com/culture/2026/07/in-memoriam-seven-of-our-favorite-sam-neill-films/",
+      "article_date": "2026-07-15T18:39:58.000Z",
+      "article_date_raw": null,
+      "author": "Jennifer Ouellette",
+      "excerpt": "The actor, who starred in 1993's Jurassic Park, died Monday in Sydney, Australia, at the age of 78.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/samneill-1152x648.jpg",
+      "categories": [
+        "Culture",
+        "films",
+        "listicles",
+        "Obituaries",
+        "Sam Neill"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T18:39:58.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 33,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Third-party app stores coming to Google Play next week as Epic settlement withdrawn",
+      "url": "https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn/",
+      "article_date": "2026-07-15T16:55:12.000Z",
+      "article_date_raw": null,
+      "author": "Ryan Whitwam",
+      "excerpt": "With the settlement withdrawn, Google is now bound by the court's full antitrust remedies.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/google-play-store-1152x648.jpg",
+      "categories": [
+        "Google",
+        "Tech",
+        "antitrust",
+        "app stores",
+        "apps",
+        "epic",
+        "google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T16:55:12.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 78,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "OpenAI's first branded hardware is... a light-up keyboard?",
+      "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
+      "article_date": "2026-07-15T16:00:33.000Z",
+      "article_date_raw": null,
+      "author": "Kyle Orland",
+      "excerpt": "The Codex Micro is designed to monitor multiple agentic threads at a glance.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/codexmicro-1152x648-1784128291.png",
+      "categories": [
+        "AI",
+        "AI keyboard",
+        "keyboard",
+        "keyboard shortcut",
+        "openai"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T16:00:33.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 73,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "A most improbable astronaut just went to space",
+      "url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
+      "article_date": "2026-07-15T11:30:07.000Z",
       "article_date_raw": null,
       "author": "Eric Berger",
-      "excerpt": "\"I think it's fair to say that Phase 3 did not contemplate this.\"",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/36af0186816f14ac23c368a204957528772f23b1-6635x4423-1-1152x648.jpg",
+      "excerpt": "\"I pretty much, at that point in time, gave up on being an astronaut.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/NHQ20260713_admin_0003large-1152x648.jpg",
       "categories": [
         "Space",
-        "geo",
-        "Helios",
-        "impulse space",
-        "NSSL",
+        "anil menon",
+        "anna menon",
+        "NASA",
+        "soyuz",
+        "space",
+        "spacex"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T11:30:07.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 48,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "How hard is it to build orbital data centers, actually?",
+      "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
+      "article_date": "2026-07-15T11:00:09.000Z",
+      "article_date_raw": null,
+      "author": "Eric Berger",
+      "excerpt": "\"The ISS radiators are expensive and heavy. We're focused on making them cheap and light.\"",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/space-datacenter-analysis-one-1152x648.jpg",
+      "categories": [
+        "Features",
+        "Space",
+        "cost per satellite",
+        "feature",
+        "orbital data centers",
         "space"
       ],
       "tags": [],
       "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T13:08:27.000Z"
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T11:00:09.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 60,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Payloads used to dictate the terms of launch. That's finally changing.",
-      "url": "https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/",
-      "article_date": "2026-07-09T11:00:26.000Z",
+      "title": "Sotheby's big T. rex auction raises concerns hype and wealth are upending science",
+      "url": "https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science/",
+      "article_date": "2026-07-15T10:30:39.000Z",
       "article_date_raw": null,
-      "author": "Stephen Clark",
-      "excerpt": "\"The Starship Pez dispenser demonstrates very smart industrial design and scale.\"",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/starlinkv3deploy-1152x648.jpg",
+      "author": "Kate Wong, WIRED.com",
+      "excerpt": "Private buyers are increasingly outbidding museums for fossils.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Gus-TRex-Science-Photo-credit_-Matthew-Sherman-3-1152x648.jpg",
       "categories": [
-        "Features",
         "Science",
-        "Space",
-        "aerospace corporation",
-        "launch",
-        "muon space",
-        "satellites",
-        "starlink"
+        "auctions",
+        "dinosaurs",
+        "fossils",
+        "syndication",
+        "T. rex",
+        "tyrannosaurs"
       ],
       "tags": [],
       "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T11:00:26.000Z"
+        "relative": "yesterday",
+        "age_days": 1,
+        "parsed": "2026-07-15T10:30:39.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 40,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
-      "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-      "article_date": "2026-07-08T21:42:44.000Z",
-      "article_date_raw": null,
-      "author": "Nate Anderson",
-      "excerpt": "AI cheating leads to \"a failed society,\" professor says.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261090247-1152x648.jpg",
-      "categories": [
-        "AI",
-        "Culture",
-        "cheating",
-        "higher ed",
-        "Ivy League"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "yesterday",
-        "age_days": 1,
-        "parsed": "2026-07-08T21:42:44.000Z"
-      },
-      "is_new": false,
-      "first_seen": "2026-07-09T09:46:29.856Z"
-    },
-    {
-      "type": "article",
-      "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
-      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-      "article_date": "2026-07-08T19:56:37.000Z",
-      "article_date_raw": null,
-      "author": "Ashley Belanger",
-      "excerpt": "More young girls sue X over Grok CSAM; X accused of shielding child predators.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261524889-1024x648.jpg",
-      "categories": [
-        "AI",
-        "Policy",
-        "ai csam",
-        "child sex abuse materials",
-        "Elon Musk",
-        "generative ai",
-        "grok",
-        "grok csam"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "yesterday",
-        "age_days": 1,
-        "parsed": "2026-07-08T19:56:37.000Z"
-      },
-      "is_new": false,
-      "first_seen": "2026-07-09T09:46:29.856Z"
-    },
-    {
-      "type": "article",
-      "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
-      "url": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/",
-      "article_date": "2026-07-08T19:14:02.000Z",
-      "article_date_raw": null,
-      "author": "Jon Brodkin",
-      "excerpt": "Kalshi tried to ignore gambling laws on its prediction market, NY governor says.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-1152x648-1783536871.jpg",
-      "categories": [
-        "Policy",
-        "Kalshi",
-        "new york",
-        "prediction markets"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "yesterday",
-        "age_days": 1,
-        "parsed": "2026-07-08T19:14:02.000Z"
-      },
-      "is_new": false,
-      "first_seen": "2026-07-09T09:46:29.856Z"
-    },
-    {
-      "type": "article",
-      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
-      "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
-      "article_date": "2026-07-08T19:01:19.000Z",
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "article_date": "2026-07-14T22:20:48.000Z",
       "article_date_raw": null,
       "author": "Dan Goodin",
-      "excerpt": "Both vulnerabilities allow untrusted users to gain root privileges.",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg",
+      "excerpt": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/computer-start-button-1152x648.jpg",
       "categories": [
         "Biz & IT",
         "Security",
-        "exploits",
-        "Linux",
-        "local privilege escalation",
-        "vulnerabilities"
+        "bootkits",
+        "microsoft",
+        "secure boot",
+        "shims"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "yesterday",
         "age_days": 1,
-        "parsed": "2026-07-08T19:01:19.000Z"
+        "parsed": "2026-07-14T22:20:48.000Z"
       },
-      "is_new": false,
-      "first_seen": "2026-07-09T09:46:29.856Z"
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 78,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
-      "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/",
-      "article_date": "2026-07-08T18:10:16.000Z",
+      "title": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
+      "url": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
+      "article_date": "2026-07-14T22:09:31.000Z",
       "article_date_raw": null,
-      "author": "Scharon Harding",
-      "excerpt": "But the devices could \"easily be reflashed.\"",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238063763-1152x648-1783530792.jpg",
+      "author": "Beth Mole",
+      "excerpt": "Citizens must now spend 21 days in a third country before they are allowed to come home.",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2278375280-1-1024x648.jpg",
       "categories": [
-        "Biz & IT",
-        "Policy",
-        "Tech",
-        "australia",
-        "Cisco",
-        "e-waste",
-        "samknows"
+        "Health",
+        "CDC",
+        "ebola",
+        "travel",
+        "Trump",
+        "WHO"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "yesterday",
         "age_days": 1,
-        "parsed": "2026-07-08T18:10:16.000Z"
+        "parsed": "2026-07-14T22:09:31.000Z"
       },
-      "is_new": false,
-      "first_seen": "2026-07-09T09:46:29.856Z"
-    },
-    {
-      "type": "article",
-      "title": "TikTok users don't have as much agency over their FYPs as they think",
-      "url": "https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps/",
-      "article_date": "2026-07-08T18:00:49.000Z",
-      "article_date_raw": null,
-      "author": "Jennifer Ouellette",
-      "excerpt": "The \"not interested\" feature is your friend, but users must intentionally and constantly curate their FYPs",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/04/getty-tiktok-1152x648.jpg",
-      "categories": [
-        "Science",
-        "Tech",
-        "social media",
-        "social psychology"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "yesterday",
-        "age_days": 1,
-        "parsed": "2026-07-08T18:00:49.000Z"
-      },
-      "is_new": false,
-      "first_seen": "2026-07-09T09:46:29.856Z"
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 18,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     }
   ]
 }

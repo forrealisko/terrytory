@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scrape_id": "379d8d8f-fb7b-477a-92b9-3c771e1a5ab1",
-    "scraped_at": "2026-07-10T09:41:23.540Z",
+    "scrape_id": "26666b34-8a45-4e19-b55d-b4057101767a",
+    "scraped_at": "2026-07-16T17:13:23.521Z",
     "source_url": "https://www.engadget.com/rss.xml",
     "source_type": "rss",
     "scraper_version": "2.0.0",
@@ -13,141 +13,13 @@
   "headlines": [
     {
       "type": "article",
-      "title": "NVIDIA decided now is the time to announce 'GeForce Trading Cards'",
-      "url": "https://www.engadget.com/2212119/nvidia-geforce-trading-cards/",
-      "article_date": "2026-07-10T08:23:28.000Z",
+      "title": "Google AI Mode now integrates with Canva, YouTube Music and Instacart",
+      "url": "https://www.engadget.com/2216707/google-ai-mode-now-integrates-with-canva-youtube-music-and-instacart/",
+      "article_date": "2026-07-16T16:28:46.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "NVIDIA launches trading cards that feature 'GeForce PC gaming's great moments.'",
-      "image_url": "https://www.engadget.com/img/gallery/nvidia-decided-now-is-the-time-to-announce-geforce-trading-cards/l-intro-1783671678.jpg",
-      "categories": [
-        "Gaming"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-10T08:23:28.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Days after announcing mass layoffs, Xbox CEO Asha Sharma tapped to advise the Federal Reserve on jobs",
-      "url": "https://www.engadget.com/2211983/days-after-laying-off-3-200-xbox-ceo-asha-sharma-tapped-to-advise-the-federal-reserve-on-jobs/",
-      "article_date": "2026-07-09T22:54:22.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "That's a choice.",
-      "image_url": "https://www.engadget.com/img/gallery/days-after-laying-off-3200-xbox-ceo-asha-sharma-tapped-to-advise-the-federal-reserve-on-jobs/l-intro-1783637559.jpg",
-      "categories": [
-        "AI",
-        "Big Tech"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T22:54:22.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Playdate is helping Big Ben ring on time",
-      "url": "https://www.engadget.com/2211936/playdate-is-helping-big-ben-ring-on-time/",
-      "article_date": "2026-07-09T21:56:50.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "Crank it up!",
-      "image_url": "https://www.engadget.com/img/gallery/playdate-is-helping-big-ben-ring-on-time/l-intro-1783633974.jpg",
-      "categories": [
-        "Gaming"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:56:50.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Retroid Pocket 5 and Flip 2 are getting a spec bump, but will cost $10 more after July 14",
-      "url": "https://www.engadget.com/2211909/retroid-pocket-5-and-flip-2-are-getting-a-spec-bump-but-will-cost-10-more-after-july-14/",
-      "article_date": "2026-07-09T21:21:53.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "Even older emulation-focused handhelds can't escape RAMaggedon.",
-      "image_url": "https://www.engadget.com/img/gallery/retroid-pocket-5-and-flip-2-are-getting-a-spec-bump-but-will-cost-10-more-after-july-14/l-intro-1783632040.jpg",
-      "categories": [
-        "Gaming"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:21:53.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Guy who took photo of Jupiter with a Game Boy Camera and giant telescope publishes DIY tutorial",
-      "url": "https://www.engadget.com/2211886/guy-who-took-photo-of-jupiter-with-a-game-boy-camera-and-giant-telescope-publishes-diy-tutorial/",
-      "article_date": "2026-07-09T21:04:48.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "The latest adventure for the kooky camera looks skyward.",
-      "image_url": "https://www.engadget.com/img/gallery/guy-who-made-a-3d-printed-telescope-adapter-for-game-boy-camera-to-photograph-jupiter-publishes-diy-tutorial/l-intro-1783630766.jpg",
-      "categories": [
-        "Nintendo",
-        "Space"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T21:04:48.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "OpenAI releases a new ChatGPT tool for all things work related",
-      "url": "https://www.engadget.com/2211869/openai-releases-chatgpt-work-tool-macos-windows-web-plans/",
-      "article_date": "2026-07-09T20:50:04.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "OpenAI's long-awaited super app is here.",
-      "image_url": "https://www.engadget.com/img/gallery/openai-releases-chatgpt-work-tool-macos-windows-web-plans/l-intro-1783630509.jpg",
-      "categories": [
-        "AI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T20:50:04.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "AI-generated ads on Google will hopefully get disclosures soon",
-      "url": "https://www.engadget.com/2211839/ai-generated-ads-google-get-disclosures-soon/",
-      "article_date": "2026-07-09T20:06:17.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "If Google's AI tools are used, it will automatically be noted in My Ad Center.",
-      "image_url": "https://www.engadget.com/img/gallery/ai-generated-ads-on-google-will-hopefully-get-disclosures-soon/l-intro-1783627422.jpg",
+      "excerpt": "You can now make playlists, design flyers and compile shopping lists using AI in Search.",
+      "image_url": "https://www.engadget.com/img/gallery/google-ai-mode-now-integrates-with-canva-youtube-music-and-instacart/l-intro-1784219278.jpg",
       "categories": [
         "AI",
         "Google"
@@ -156,105 +28,162 @@
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T20:06:17.000Z"
+        "parsed": "2026-07-16T16:28:46.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 83,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Aviation pioneer and space-travel record breaker Wally Funk dies at 87",
-      "url": "https://www.engadget.com/2211828/aviation-pioneer-space-travel-record-breaker-wally-funk-dies/",
-      "article_date": "2026-07-09T19:53:48.000Z",
+      "title": "An OLED iPad mini could finally arrive this year",
+      "url": "https://www.engadget.com/2216688/an-oled-ipad-mini-could-finally-arrive-this-year/",
+      "article_date": "2026-07-16T16:18:46.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "Funk became the oldest person to fly in space in 2021.",
-      "image_url": "https://www.engadget.com/img/gallery/aviation-pioneer-and-space-travel-record-breaker-wally-funk-dies-at-87/l-intro-1783626661.jpg",
+      "excerpt": "Apple will reportedly refresh the iPad mini this fall and the rest of its iPad lineup in the first half of 2027.",
+      "image_url": "https://www.engadget.com/img/gallery/an-oled-ipad-mini-could-finally-arrive-this-year/l-intro-1784218361.jpg",
       "categories": [
-        "Space"
+        "Amazon"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T19:53:48.000Z"
+        "parsed": "2026-07-16T16:18:46.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Sony launches $120 in-ear monitors for pros",
-      "url": "https://www.engadget.com/2211768/sony-launches-ier-m500-iem-earphones-for-pros/",
-      "article_date": "2026-07-09T19:17:10.000Z",
+      "title": "Google's NotebookLM is now Gemini Notebook",
+      "url": "https://www.engadget.com/2216473/google-notebooklm-is-now-gemini-notebook/",
+      "article_date": "2026-07-16T16:00:00.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "The IER-M500 earphones were designed for fit and comfort during stage wear.",
-      "image_url": "https://www.engadget.com/img/gallery/sony-launches-120-in-ear-monitors-for-pros/l-intro-1783624099.jpg",
+      "excerpt": "Google already baked NotebookLM into Gemini, now it's changing the name to reflect the tighter integration",
+      "image_url": "https://www.engadget.com/img/gallery/googles-notebooklm-is-now-gemini-notebook/l-intro-1784207605.jpg",
       "categories": [
-        "Accessories"
+        "AI",
+        "Google"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T19:17:10.000Z"
+        "parsed": "2026-07-16T16:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 25,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "The PocketMage is an E Ink digital assistant that's absolutely obsessed with wizards",
-      "url": "https://www.engadget.com/2211733/pocketmage-e-ink-digital-assistant-that-absolutely-obsessed-with-wizards/",
-      "article_date": "2026-07-09T18:47:43.000Z",
+      "title": "Suno brings its gen AI music gunk to iMessage",
+      "url": "https://www.engadget.com/2216558/suno-brings-gen-ai-music-gunk-to-imessage/",
+      "article_date": "2026-07-16T14:50:00.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "It has a proprietary OS, a QWERTY keyboard and dual(ish) screens.",
-      "image_url": "https://www.engadget.com/img/gallery/the-pocketmage-is-an-e-ink-digital-assistant-thats-absolutely-obsessed-with-wizards/l-intro-1783622695.jpg",
+      "excerpt": "Maybe just sing a silly song in a voice note instead?",
+      "image_url": "https://www.engadget.com/img/gallery/suno-brings-its-gen-ai-music-gunk-to-imessage/l-intro-1784212721.jpg",
       "categories": [
-        "Computing"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T18:47:43.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "iPhone Ultra rumors: The most credible leaks, price and expected release date",
-      "url": "https://www.engadget.com/2211037/iphone-ultra-roundup-leaks-price-release-date/",
-      "article_date": "2026-07-09T18:30:00.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "iPhone Ultra or the iPhone Fold. No matter what you call it, here are all the rumors and leaks we've gathered on Apple's most anticipated iPhone in years.",
-      "image_url": "https://www.engadget.com/img/gallery/iphone-ultra-rumors-the-most-credible-leaks-price-and-expected-release-date/l-intro-1783544626.jpg",
-      "categories": [
-        "Smartphones",
+        "AI",
         "Apple"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T18:30:00.000Z"
+        "parsed": "2026-07-16T14:50:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 68,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "You can snap up a Lego Hubble set before the real one burns up in the atmosphere",
-      "url": "https://www.engadget.com/2211411/you-can-snap-up-a-lego-hubble-set-before-the-real-one-burns-up-in-the-atmosphere/",
-      "article_date": "2026-07-09T14:49:20.000Z",
+      "title": "Smart speakers could help OpenAI lose even more money",
+      "url": "https://www.engadget.com/2216556/smart-speakers-could-help-openai-lose-even-more-money/",
+      "article_date": "2026-07-16T14:40:38.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "The $140, 1,252-piece Hubble Telescope Lego set goes on sale on August 1.",
-      "image_url": "https://www.engadget.com/img/gallery/you-can-snap-up-a-lego-hubble-set-before-the-real-one-burns-up-in-the-atmosphere/l-intro-1783608490.jpg",
+      "excerpt": "A smart speaker won't save OpenAI.",
+      "image_url": "https://www.engadget.com/img/gallery/smart-speakers-could-help-openai-lose-even-more-money/l-intro-1784212703.jpg",
+      "categories": [
+        "AI"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T14:40:38.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 63,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Ofcom, the UK's communications regulator, is investigating TikTok's child safety measures",
+      "url": "https://www.engadget.com/2216550/ofcom-uk-communications-regulator-investigating-tiktok-child-safety-measures/",
+      "article_date": "2026-07-16T14:35:08.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The regulator is assessing whether the platform is doing enough to protect children from harmful content.",
+      "image_url": "https://www.engadget.com/img/gallery/ofcom-the-uks-communications-regulator-is-investigating-tiktoks-child-safety-measures/l-intro-1784211945.jpg",
+      "categories": [
+        "Social Media"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T14:35:08.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 55,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Why does wireless Android Auto use both Bluetooth and Wi-Fi?",
+      "url": "https://www.engadget.com/2210415/why-wireless-android-auto-uses-both-bluetooth-wifi/",
+      "article_date": "2026-07-16T13:30:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Bluetooth and Wi-Fi work in tandem to power the wireless Android Auto experience.",
+      "image_url": "https://www.engadget.com/img/gallery/why-does-wireless-android-auto-use-both-bluetooth-and-wi-fi/l-intro-1783517059.jpg",
+      "categories": [
+        "Google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T13:30:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 80,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "You can now grant Claude access to your 1Password credentials",
+      "url": "https://www.engadget.com/2216405/1password-anthropic-claude-integration/",
+      "article_date": "2026-07-16T13:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "1Password lets you use Claude agents for personal chores without exposing your credentials.",
+      "image_url": "https://www.engadget.com/img/gallery/you-can-now-grant-claude-access-to-your-1password-credentials/l-intro-1784196809.jpg",
       "categories": [
         "News"
       ],
@@ -262,20 +191,22 @@
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T14:49:20.000Z"
+        "parsed": "2026-07-16T13:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 65,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Sony's RX10 V superzoom finally arrives with a new design and 4K 120p video",
-      "url": "https://www.engadget.com/2211219/sony-rx10-v-superzoom/",
-      "article_date": "2026-07-09T14:05:16.000Z",
+      "title": "Vital Signals puts continuous blood pressure monitoring into a ring",
+      "url": "https://www.engadget.com/2216390/vital-signals-blood-pressure-ring/",
+      "article_date": "2026-07-16T13:00:00.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "Sony has finally unveiled the RX10 V superzoom with a 24-600mm zoom lens and 20.1-megapixel 1-inch sensor.",
-      "image_url": "https://www.engadget.com/img/gallery/sony-rx10-v-superzoom/l-intro-1783608915.jpg",
+      "excerpt": "Vital Signals promises its algorithmic blood pressure monitoring ring will reshape how we live with hypertension and other cardiac conditions",
+      "image_url": "https://www.engadget.com/img/gallery/vital-signals-puts-continuous-blood-pressure-monitoring-into-a-ring/l-intro-1784191885.jpg",
       "categories": [
         "News"
       ],
@@ -283,42 +214,162 @@
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T14:05:16.000Z"
+        "parsed": "2026-07-16T13:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "New York is the first US state to ban smart glasses in all its courthouses",
-      "url": "https://www.engadget.com/2211151/new-york-first-us-state-ban-smart-glasses-all-courthouses/",
-      "article_date": "2026-07-09T13:30:00.000Z",
+      "title": "EU demands Google give AI rivals more access to Android",
+      "url": "https://www.engadget.com/2216454/eu-demands-google-give-ai-rivals-more-access-to-android/",
+      "article_date": "2026-07-16T12:58:26.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "New York has banned smart glasses in all 1,240 state, county, city, town and village courts.",
-      "image_url": "https://www.engadget.com/img/gallery/new-york-is-the-first-us-state-to-ban-smart-glasses-in-all-its-courthouses/l-intro-1783569455.jpg",
+      "excerpt": "Google has been ordered by the EU to open up key Android handset features to rival AI voice assistants.",
+      "image_url": "https://www.engadget.com/img/gallery/eu-demands-google-give-ai-rivals-more-access-to-android/l-intro-1784206648.jpg",
+      "categories": [
+        "Google"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T12:58:26.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 55,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Hyundai reportedly looking to take total control of robotics giant Boston Dynamics",
+      "url": "https://www.engadget.com/2216427/hyundai-reportedly-looking-to-buy-all-of-boston-dynamics-from-softbank/",
+      "article_date": "2026-07-16T11:49:17.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Hyundai could soon own Boston Dynamics in full.",
+      "image_url": "https://www.engadget.com/img/gallery/hyundai-is-reportedly-buying-the-rest-of-boston-dynamics-from-softbank/l-intro-1784202458.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T11:49:17.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 50,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Meta will alert parents if their teens discuss self harm with Meta AI tools",
+      "url": "https://www.engadget.com/2216412/meta-ai-alert-parents-if-teens-discuss-self-harm/",
+      "article_date": "2026-07-16T11:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Meta has rolled out a new safeguard for teens' AI interactions.",
+      "image_url": "https://www.engadget.com/img/gallery/meta-ai-alert-parents-if-teens-discuss-self-harm/l-intro-1784217884.jpg",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T11:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 80,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "The Oversight Board says leading AI models might be restricting free expression",
+      "url": "https://www.engadget.com/2216274/the-oversight-board-says-leading-ai-models-might-be-restricting-free-expression/",
+      "article_date": "2026-07-16T10:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "The group is trying to extend its influence beyond Meta.",
+      "image_url": "https://www.engadget.com/img/gallery/the-oversight-board-says-leading-ai-models-might-be-restricting-free-expression/l-intro-1784158214.jpg",
       "categories": [
         "AI",
+        "Social Media",
         "Meta"
       ],
       "tags": [],
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T13:30:00.000Z"
+        "parsed": "2026-07-16T10:00:00.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 55,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Claude's new Reflect dashboard wants to help you log off of Claude",
-      "url": "https://www.engadget.com/2211304/claude-reflect-dashboard-wants-to-help-you-log-off/",
-      "article_date": "2026-07-09T13:30:00.000Z",
+      "title": "Netflix releases a VHS-quality version of Stranger Things' first season",
+      "url": "https://www.engadget.com/2216396/netflix-stranger-things-vhs-quality/",
+      "article_date": "2026-07-16T09:19:06.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "The Claude Reflect dashboard is like a mix of Spotify Wrapped and the screen time tool on your phone.",
-      "image_url": "https://www.engadget.com/img/gallery/claudes-new-reflect-dashboard-wants-to-help-you-log-off-of-claude/l-intro-1783602350.jpg",
+      "excerpt": "Netflix rolls out a 'VHS' special edition of Stranger Things season 1 and says more seasons could follow if enough people watch it.",
+      "image_url": "https://www.engadget.com/img/gallery/netflix-releases-a-vhs-quality-version-of-stranger-things-first-season/l-intro-1784193477.jpg",
+      "categories": [
+        "Entertainment"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T09:19:06.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 65,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "OnePlus is officially leaving the US and Europe",
+      "url": "https://www.engadget.com/2213731/oneplus-is-officially-leaving-the-us-and-europe/",
+      "article_date": "2026-07-16T09:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "After canceling its second foldable, OnePlus is officially bowing out of the US and Europe.",
+      "image_url": "https://www.engadget.com/img/gallery/oneplus-is-officially-leaving-the-us-and-europe/l-intro-1783959534.jpg",
+      "categories": [
+        "Smartphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T09:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "xAI sues Grok user for generating nonconsensual sexualized deepfakes",
+      "url": "https://www.engadget.com/2216382/xai-sues-grok-user-generating-nonconsensual-sexualized-deepfakes/",
+      "article_date": "2026-07-16T08:05:05.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "xAI has filed a lawsuit against a man who used Grok to generate sexualized images of adults and children.",
+      "image_url": "https://www.engadget.com/img/gallery/xai-sues-grok-user-for-generating-nonconsensual-sexualized-deepfakes/l-intro-1784188673.jpg",
       "categories": [
         "AI"
       ],
@@ -326,104 +377,22 @@
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T13:30:00.000Z"
+        "parsed": "2026-07-16T08:05:05.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 70,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     },
     {
       "type": "article",
-      "title": "Here's how to block Meta from using your Instagram pictures for its AI",
-      "url": "https://www.engadget.com/2211315/heres-how-to-block-meta-from-using-your-instagram-pictures-for-its-ai/",
-      "article_date": "2026-07-09T13:17:18.000Z",
+      "title": "AppleCare+ prices just went up for Macs and iPads",
+      "url": "https://www.engadget.com/2216377/applecare-plus-prices-just-went-up-for-macs-and-ipads/",
+      "article_date": "2026-07-16T07:47:02.000Z",
       "article_date_raw": null,
       "author": null,
-      "excerpt": "Meta has automatically opted all public accounts into its Muse Image AI.",
-      "image_url": "https://www.engadget.com/img/gallery/heres-how-to-block-meta-from-using-your-instagram-pictures-for-its-ai/l-intro-1783602921.jpg",
-      "categories": [
-        "Meta"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T13:17:18.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "Alienware 34 QD-OLED review: An ultrawide showcase for Samsung's latest display tech",
-      "url": "https://www.engadget.com/2210970/alienware-34-qd-oled-aw3426dw-review/",
-      "article_date": "2026-07-09T13:00:00.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "Alienware's latest 34-inch ultrawide gaming monitor is far brighter than before, and it can finally handle text without fringing.",
-      "image_url": "https://www.engadget.com/img/gallery/alienware-34-qd-oled-review-an-ultrawide-showcase-for-samsungs-latest-display-tech/l-intro-1783540391.jpg",
-      "categories": [
-        "Gaming"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T13:00:00.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "I quite fancy a Slate EV in a Crayola crayon color",
-      "url": "https://www.engadget.com/2207579/slate-ev-crayola-color-wraps/",
-      "article_date": "2026-07-09T12:00:00.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "Slate's barebones EV trucks lack whimsy, which is why the company has teamed up with Crayola.",
-      "image_url": "https://www.engadget.com/img/gallery/i-quite-fancy-a-slate-ev-in-a-crayola-crayon-color/l-intro-1783083242.jpg",
-      "categories": [
-        "EVs and Transportation"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T12:00:00.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "SpaceXAI launches Grok 4.5, its first built with Cursor's help",
-      "url": "https://www.engadget.com/2211260/spacex-ai-grok-4-5-cursor/",
-      "article_date": "2026-07-09T11:48:22.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "SpaceXAI has rolled out Grok 4.5, the first model it trained with Cursor.",
-      "image_url": "https://www.engadget.com/img/gallery/spacexai-launches-grok-4-5-its-first-built-with-cursors-help/l-intro-1783597587.jpg",
-      "categories": [
-        "AI"
-      ],
-      "tags": [],
-      "date_analysis": {
-        "relative": "today",
-        "age_days": 0,
-        "parsed": "2026-07-09T11:48:22.000Z"
-      },
-      "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
-    },
-    {
-      "type": "article",
-      "title": "The BBC and Channel 4 are in talks to merge streaming services... yet again",
-      "url": "https://www.engadget.com/2211235/bbc-channel-4-uk-streaming-service/",
-      "article_date": "2026-07-09T10:11:31.000Z",
-      "article_date_raw": null,
-      "author": null,
-      "excerpt": "The BBC wanted to launch a UK-wide streaming service with ITV and Channel 4 in 2007... and again in 2017... will the third time be the charm?",
-      "image_url": "https://www.engadget.com/img/gallery/the-bbc-and-channel-4-are-in-talks-to-merge-streaming-services-yet-again/l-intro-1783591824.jpg",
+      "excerpt": "Applecare+ prices for Mac, MacBook and iPad products just rose by $.50 per month or $5 per year.",
+      "image_url": "https://www.engadget.com/img/gallery/applecare-prices-just-went-up-for-macs-and-ipads/l-intro-1784187852.jpg",
       "categories": [
         "News"
       ],
@@ -431,10 +400,82 @@
       "date_analysis": {
         "relative": "today",
         "age_days": 0,
-        "parsed": "2026-07-09T10:11:31.000Z"
+        "parsed": "2026-07-16T07:47:02.000Z"
       },
       "is_new": true,
-      "first_seen": "2026-07-10T09:41:23.540Z"
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 75,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Skullcandy Crusher 1080 review: Haptic bass meets whisper-quiet ANC",
+      "url": "https://www.engadget.com/2215794/skullcandy-crusher-1080-review/",
+      "article_date": "2026-07-16T00:00:00.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Skullcandy's new flagship Crusher 1080 headphones blend Bose audio and big bass.",
+      "image_url": "https://www.engadget.com/img/gallery/skullcandy-crusher-1080-review-haptic-bass-meets-whisper-quiet-anc/l-intro-1784132851.jpg",
+      "categories": [
+        "Headphones"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T00:00:00.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 73,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Elon Musk bought a gas turbine company",
+      "url": "https://www.engadget.com/2216186/elon-musk-bought-a-gas-turbine-company/",
+      "article_date": "2026-07-15T21:41:52.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "It's likely to become a direct power source for SpaceXAI's data centers.",
+      "image_url": "https://www.engadget.com/img/gallery/elon-musk-bought-a-gas-turbine-company/l-intro-1784151303.jpg",
+      "categories": [
+        "AI",
+        "Big Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T21:41:52.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 38,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
+    },
+    {
+      "type": "article",
+      "title": "Samsung isn't sure why some Galaxy S26 Ultra screens are turning red",
+      "url": "https://www.engadget.com/2216077/samsung-galaxy-s26-ultra-screens-turning-red-not-sure-why/",
+      "article_date": "2026-07-15T20:14:57.000Z",
+      "article_date_raw": null,
+      "author": null,
+      "excerpt": "Samsung appears to be internally investigating the discoloration defect.",
+      "image_url": "https://www.engadget.com/img/gallery/samsung-isnt-sure-why-some-galaxy-s26-ultra-screens-are-turning-red/l-intro-1784146409.jpg",
+      "categories": [
+        "Samsung"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-15T20:14:57.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z",
+      "interest_score": 78,
+      "ranked_at": "2026-07-16T17:15:37.519Z"
     }
   ]
 }

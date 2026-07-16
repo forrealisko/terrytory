@@ -1,8 +1,8 @@
 {
   "version": 1,
   "created_at": "2026-07-03T21:08:47.660Z",
-  "last_scrape": "2026-07-10T09:41:24.005Z",
-  "total_scrapes": 6,
+  "last_scrape": "2026-07-16T17:13:23.796Z",
+  "total_scrapes": 7,
   "seen_hashes": {
     "ebebe46d142b6e7d": {
       "first_seen": "2026-07-03T21:08:51.881Z",
@@ -639,9 +639,129 @@
       "last_seen": "2026-07-10T09:41:24.004Z",
       "title": "Meta’s new AI chips will begin production in September",
       "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/"
+    },
+    "1e74384e6f7e3b11": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+      "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/"
+    },
+    "e6254ca5b82cd44f": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Newsletter platform Beehiiv’s now lets subscribers chat with each other, adds AI",
+      "url": "https://techcrunch.com/2026/07/16/newsletter-platform-beehiivs-now-lets-subscribers-chat-with-each-other-adds-ai/"
+    },
+    "8254f9b8714ece1a": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "X cracks down on creators who steal content",
+      "url": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/"
+    },
+    "bff69f545ead4ee9": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
+      "url": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/"
+    },
+    "80f7b84f7442abd8": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"
+    },
+    "dd0b736c8ccb11c6": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Google continues its renaming streak by turning NotebookLM to Gemini Notebook",
+      "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/"
+    },
+    "f40f21a3f6d4232b": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Yes, you can now order DoorDash from the command line",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/"
+    },
+    "c0ed51ab827e05fb": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "UK cops say arrest of two young hackers disrupted the operations of an infamous hacking group",
+      "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/"
+    },
+    "e29797a7298d6319": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Period tracker Stardust shares users’ health data with analytics firm, says Mozilla research",
+      "url": "https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research/"
+    },
+    "e677ab81bc6bb1dc": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/"
+    },
+    "1c40aad62f3bb1a3": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
+    },
+    "0e83d929c7c7ba69": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
+      "url": "https://techcrunch.com/2026/07/16/sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service/"
+    },
+    "88783e9ab7078047": {
+      "first_seen": "2026-07-16T17:13:23.795Z",
+      "last_seen": "2026-07-16T17:13:23.795Z",
+      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"
+    },
+    "c3f670f0e59024d0": {
+      "first_seen": "2026-07-16T17:13:23.796Z",
+      "last_seen": "2026-07-16T17:13:23.796Z",
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/"
+    },
+    "8ea1a081b43d3d8a": {
+      "first_seen": "2026-07-16T17:13:23.796Z",
+      "last_seen": "2026-07-16T17:13:23.796Z",
+      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"
+    },
+    "0de55c7e99fa4130": {
+      "first_seen": "2026-07-16T17:13:23.796Z",
+      "last_seen": "2026-07-16T17:13:23.796Z",
+      "title": "Ultrahuman’s former hardware VP raises $5.5M for devices that control AI agents, not just record you",
+      "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/"
+    },
+    "fc29734b07368745": {
+      "first_seen": "2026-07-16T17:13:23.796Z",
+      "last_seen": "2026-07-16T17:13:23.796Z",
+      "title": "Meta now alerts parents if their teen discussed suicide or self-harm with its AI chatbot",
+      "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/"
+    },
+    "cf5840ba66307589": {
+      "first_seen": "2026-07-16T17:13:23.796Z",
+      "last_seen": "2026-07-16T17:13:23.796Z",
+      "title": "Phone maker OnePlus says it won’t release new phones in the US and Europe",
+      "url": "https://techcrunch.com/2026/07/16/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/"
+    },
+    "d7c56480a7c31f52": {
+      "first_seen": "2026-07-16T17:13:23.796Z",
+      "last_seen": "2026-07-16T17:13:23.796Z",
+      "title": "Lululemon backs nylon-recycling startup Syntetica in $30M Series A",
+      "url": "https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/"
+    },
+    "faf51a22877b31f6": {
+      "first_seen": "2026-07-16T17:13:23.796Z",
+      "last_seen": "2026-07-16T17:13:23.796Z",
+      "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/"
     }
   },
   "stats": {
-    "total_headlines_ever": 106
+    "total_headlines_ever": 126
   }
 }

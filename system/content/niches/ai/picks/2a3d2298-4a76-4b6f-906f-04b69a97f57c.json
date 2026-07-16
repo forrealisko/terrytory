@@ -2,7 +2,7 @@
   "id": "2a3d2298-4a76-4b6f-906f-04b69a97f57c",
   "niche": "ai",
   "created_at": "2026-07-10T10:51:33.382Z",
-  "status": "pending",
+  "status": "planned",
   "headline": "Context Graphs Enable Proactive Enterprise AI Agents",
   "rating": 8.8,
   "reasoning": "This paper presents a novel approach to move enterprise AI agents from reactive to proactive, a significant step for real-world business applications. The 'Context Graph' concept, combined with a Delta Detection Engine and Proactivity Scorer, offers a technically sound and well-evaluated solution, moving beyond theoretical discussions to practical implementation with demonstrable results. The use of established frameworks like RAG and agentic systems, but addressing a core limitation, makes this highly relevant and impactful.",

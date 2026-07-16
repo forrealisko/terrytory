@@ -1,0 +1,19 @@
+{
+  "id": "e18a5049-7c70-4302-9d8c-39187748a7c3",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:19:53.603Z",
+  "status": "pending",
+  "headline": "Elon Musk Buys Fossil Fuel Company to Power AI After Calling It the 'Dumbest Experiment in History'",
+  "rating": 8.5,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal due to the involvement of Elon Musk and the inherent drama of his apparent hypocrisy regarding fossil fuels. While its direct practical value for consumers is low, it's a perfect fit for a 'hot take' or 'explainer' format, touching on the massive, controversial energy needs of the AI boom. The story is guaranteed to provoke debate and social media engagement, aligning perfectly with our publication's focus on tech giant drama.",
+  "summary": "Elon Musk has quietly acquired APR Energy, a company specializing in mobile gas and diesel turbines, likely to provide direct power for his energy-intensive xAI data centers. The move represents a stark reversal from his previous public stance against fossil fuels.",
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Elon Musk bought a gas turbine company",
+      "url": "https://www.engadget.com/2216186/elon-musk-bought-a-gas-turbine-company/",
+      "excerpt": "It's likely to become a direct power source for SpaceXAI's data centers."
+    }
+  ]
+}

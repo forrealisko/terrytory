@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "scrape_id": "003c9c70-2ada-4c47-b8b9-ba81dc79fd29",
+    "scraped_at": "2026-07-16T17:13:23.521Z",
+    "source_url": "https://www.theverge.com/rss/index.xml",
+    "source_type": "rss",
+    "scraper_version": "2.0.0",
+    "proxy": "direct",
+    "total_headlines": 10,
+    "new_headlines": 10,
+    "previously_seen": 0
+  },
+  "headlines": [
+    {
+      "type": "article",
+      "title": "Google is better at playing the EU regulations game",
+      "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+      "article_date": "2026-07-16T17:11:40.000Z",
+      "article_date_raw": null,
+      "author": "Robert Hart",
+      "excerpt": "Today, the European Union ordered Google to give its AI rivals greater access to Android, the open-source operating system that powers billions of devices worldwide. The demand is hardly surprising. It may look like a defeat on paper for Google, which has spent years resisting exactly this kind of access, but it is a regulatory […]",
+      "image_url": null,
+      "categories": [
+        "Analysis",
+        "Apple",
+        "Google",
+        "Policy",
+        "Report",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T17:11:40.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Roblox will let people use AI to make games on their phone",
+      "url": "https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games",
+      "article_date": "2026-07-16T16:45:29.000Z",
+      "article_date_raw": null,
+      "author": "Jay Peters",
+      "excerpt": "Roblox is about to let people make games with AI right inside its mobile app, which could make a platform that's already filled with content of questionable quality feel even more overloaded. The company has embraced AI with open arms, including a preview of an ambitious take on AI world models similar to Google's Project […]",
+      "image_url": null,
+      "categories": [
+        "Entertainment",
+        "Gaming",
+        "News"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T16:45:29.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "article_date": "2026-07-16T16:11:20.000Z",
+      "article_date_raw": null,
+      "author": "Emma Roth",
+      "excerpt": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing […]",
+      "image_url": null,
+      "categories": [
+        "AI",
+        "Apps",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T16:11:20.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Time’s running out to save $10 on Splatoon Raiders physical preorders",
+      "url": "https://www.theverge.com/gadgets/966478/splatoon-raiders-preorder-the-sopranos-4k-bluray-deal-sale",
+      "article_date": "2026-07-16T15:42:07.000Z",
+      "article_date_raw": null,
+      "author": "Cameron Faulkner",
+      "excerpt": "Splatoon Raiders’ July 23rd launch day is almost here, so your window to preorder the physical version at a $10 discount is about to close. The digital version is $49.99, and so is the game on cartridge if you preorder at Walmart. Amazon previously honored the preorder discount, but it’s selling the game at full […]",
+      "image_url": null,
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Gaming",
+        "Verge Shopping"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:42:07.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm",
+      "url": "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation",
+      "article_date": "2026-07-16T15:41:09.000Z",
+      "article_date_raw": null,
+      "author": "Emma Roth",
+      "excerpt": "The Tesla driver who fatally struck a woman after crashing into her home \"manually overrode\" the vehicle's Full Self-Driving (FSD) technology by pressing the gas pedal to 100 percent, the National Transportation Safety Board (NTSB) confirmed in a preliminary report on Wednesday. After examining the car's electronic data, investigators found that the Tesla Model 3 […]",
+      "image_url": null,
+      "categories": [
+        "Electric Cars",
+        "News",
+        "Tesla",
+        "Transportation"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:41:09.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Apple&#8217;s OLED iPad Mini upgrade is on the way as prices continue to rise",
+      "url": "https://www.theverge.com/tech/966535/apple-oled-ipad-mini-rumor",
+      "article_date": "2026-07-16T15:22:11.000Z",
+      "article_date_raw": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "The iPad Mini could get an OLED display upgrade as soon as October, according to Bloomberg's Mark Gurman. It would be the most significant refresh for the Mini since its 2021 redesign. An OLED iPad Mini has been rumored for months now, with Gurman previously reporting last year that it will also come with a […]",
+      "image_url": null,
+      "categories": [
+        "Apple",
+        "Apple Rumors",
+        "iPad",
+        "News",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:22:11.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "‘No company is going to go to jail for you’: Proton’s CTO on balancing privacy, policy, and trust",
+      "url": "https://www.theverge.com/podcast/966074/proton-cto-bart-butler-privacy-encryption-surveillance-age-verification",
+      "article_date": "2026-07-16T13:59:05.000Z",
+      "article_date_raw": null,
+      "author": "Nilay Patel",
+      "excerpt": "Today on Decoder, we’ve got the first of a two-part series on the systems that run the world: I’m talking with Bart Butler, the CTO of Proton, the company that makes private and secure productivity software. You probably know it best for Proton Mail, which is encrypted by default, but the company also has docs, […]",
+      "image_url": null,
+      "categories": [
+        "Decoder",
+        "Podcasts",
+        "Policy",
+        "Privacy",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T13:59:05.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Ninja’s microwave air fryer could be the fix for soggy reheated pizza",
+      "url": "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance",
+      "article_date": "2026-07-16T13:04:34.000Z",
+      "article_date_raw": null,
+      "author": "Andrew Liszewski",
+      "excerpt": "Ninja has added everything from ice cream makers to double-decker toaster ovens to its extensive lineup of counter-clogging appliances, but it's only now introducing its first microwave. What makes the new Ninja Crispi Microwave stand out among its many competitors is that it doubles as an air fryer. After heating your food using microwaves, you […]",
+      "image_url": null,
+      "categories": [
+        "Food",
+        "Gadgets",
+        "News",
+        "Science",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T13:04:34.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "Samsung&#8217;s Galaxy Z Flip 8 leaks a week before launch event",
+      "url": "https://www.theverge.com/tech/966492/samsung-galaxy-z-flip-8-design-specs-leaked",
+      "article_date": "2026-07-16T13:23:50.000Z",
+      "article_date_raw": null,
+      "author": "Stevie Bonifield",
+      "excerpt": "Samsung's next flip phone might be tough to tell apart from last year's Galaxy Z Flip 7. As 9to5Google points out, leaked images and specs for the upcoming Galaxy Z Flip 8 shared by WinFuture are nearly identical to Samsung's current flip phone. According to the leak, Samsung is not planning to upgrade the Z […]",
+      "image_url": null,
+      "categories": [
+        "Foldable Phones",
+        "Mobile",
+        "News",
+        "Samsung",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T13:23:50.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    },
+    {
+      "type": "article",
+      "title": "OnePlus never had a chance in the US",
+      "url": "https://www.theverge.com/tech/966274/oneplus-never-had-a-chance-in-the-us",
+      "article_date": "2026-07-16T15:29:40.000Z",
+      "article_date_raw": null,
+      "author": "David Imel",
+      "excerpt": "Twelve years after the launch of the OnePlus One, OnePlus announced today that it has exited the United States. It's bittersweet, as the brand has been on a comeback tour of sorts with its excellent OnePlus 15 and widely praised (though still too expensive) OnePlus Open. The writing has been on the wall for a […]",
+      "image_url": null,
+      "categories": [
+        "Analysis",
+        "Gadgets",
+        "Mobile",
+        "OnePlus",
+        "Phones",
+        "Report",
+        "Tech"
+      ],
+      "tags": [],
+      "date_analysis": {
+        "relative": "today",
+        "age_days": 0,
+        "parsed": "2026-07-16T15:29:40.000Z"
+      },
+      "is_new": true,
+      "first_seen": "2026-07-16T17:13:23.521Z"
+    }
+  ]
+}

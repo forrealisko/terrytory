@@ -3,7 +3,7 @@
   "niche": "ai",
   "batch_id": "a9968dd2-c531-4704-a96d-8f0c80e56716",
   "created_at": "2026-07-10T10:53:39.712Z",
-  "status": "proposed",
+  "status": "banked",
   "format": "article",
   "title": "Your LLM's 'Persona' Is a Feature, Not a Bug: Why Persona Cartography Changes Everything for Control & Safety",
   "angle": "Forget generic alignment — 'Persona Cartography' reveals how direct control over LLM personality traits, from conscientiousness to emotional stability, is the real game-changer for deploying safer, more predictable, and more effective AI, especially in sensitive applications.",

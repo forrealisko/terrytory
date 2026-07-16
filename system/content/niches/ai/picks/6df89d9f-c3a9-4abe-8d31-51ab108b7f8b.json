@@ -1,0 +1,19 @@
+{
+  "id": "6df89d9f-c3a9-4abe-8d31-51ab108b7f8b",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:10:47.523Z",
+  "status": "planned",
+  "headline": "Elon Musk's Grok AI Was Secretly Uploading Entire User Codebases",
+  "rating": 9,
+  "reasoning": "This story is a perfect fit for our audience, scoring high on all criteria. It combines a high-profile, controversial figure (Elon Musk) with a major privacy scandal, guaranteeing high clickability and viral potential. The core issue of data privacy has massive mainstream appeal beyond just developers, and the story provides immense practical value as a warning to users of new AI tools. Furthermore, the topic is ripe for diverse formats, such as a 'Grok vs. GitHub Copilot' security comparison, a listicle on '5 Ways to Protect Your Code from AI Tools,' or a hot take on AI development ethics.",
+  "summary": "An AI coding assistant from Elon Musk's SpaceXAI, called Grok Build, was found to be uploading users' entire code repositories to the cloud, including sensitive files and secrets. After researchers exposed the behavior, the company disabled the feature and Musk promised all uploaded data would be deleted.",
+  "source_articles": [
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "excerpt": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositories, \"including files it was told not to open […]"
+    }
+  ]
+}

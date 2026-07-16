@@ -1,0 +1,19 @@
+{
+  "id": "92c844d1-437d-4636-84d9-bbe96c0df3ab",
+  "niche": "ai",
+  "created_at": "2026-07-16T17:10:30.981Z",
+  "status": "planned",
+  "headline": "Meet the 'AI Cops': The Tech Companies Selling Robocop Dreams to Your Local Police",
+  "rating": 9,
+  "reasoning": "This topic scores exceptionally high on clickability and mainstream appeal. The intersection of AI, surveillance, and law enforcement is inherently dramatic and controversial, making it prime for social sharing. While it lacks direct practical value for the reader (you can't 'try' this tool), it has immense societal value and lends itself perfectly to multiple formats like explainers ('What is a Real-Time Crime Center?'), listicles ('5 AI Tools Your Cops Are Using'), and hot takes, making it a perfect fit for our audience.",
+  "summary": "An investigative report reveals a booming industry of tech companies selling AI-powered surveillance and decision-making tools to police departments. These systems, which automate everything from report writing to crime analysis, are being adopted with little oversight, raising serious concerns about bias, accountability, and the erosion of civil liberties.",
+  "source_articles": [
+    {
+      "source_id": "thevergeai",
+      "source_name": "The Verge AI",
+      "title": "Computer cops",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+      "excerpt": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told me […]"
+    }
+  ]
+}

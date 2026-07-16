@@ -1,0 +1,26 @@
+{
+  "id": "7ff82a62-041b-4050-98f4-26115d266402",
+  "niche": "tech",
+  "created_at": "2026-07-16T17:16:34.383Z",
+  "status": "pending",
+  "headline": "The 'Autopilot Did It' Defense Crumbles: Feds Confirm Driver Overrode Tesla in Fatal Crash",
+  "rating": 8.5,
+  "reasoning": "This topic scores highly due to its immense clickability, tapping into the ongoing drama and debate surrounding Tesla's self-driving technology. It has strong mainstream appeal and lends itself to multiple engaging formats, from a hot take on driver responsibility to an explainer on how FSD works. While not a direct 'how-to,' it offers significant contextual value for consumers interested in the real-world implications of autonomous driving.",
+  "summary": "Federal investigators confirmed that a Tesla driver involved in a fatal crash, who initially blamed the car's Full Self-Driving feature, had manually overridden the system by pressing the accelerator to 100%.",
+  "source_articles": [
+    {
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm",
+      "url": "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation",
+      "excerpt": "The Tesla driver who fatally struck a woman after crashing into her home \"manually overrode\" the vehicle's Full Self-Driving (FSD) technology by pressing the gas pedal to 100 percent, the National Transportation Safety Board (NTSB) confirmed in a preliminary report on Wednesday. After examining the car's electronic data, investigators found that the Tesla Model 3 […]"
+    },
+    {
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "title": "Tesla driver who blamed crash on autopilot pressed accelerator 100%, NTSB finds",
+      "url": "https://arstechnica.com/tech-policy/2026/07/tesla-driver-who-blamed-crash-on-autopilot-pressed-accelerator-100-ntsb-finds/",
+      "excerpt": "NTSB findings back Elon Musk's claim that driver manually overrode FSD."
+    }
+  ]
+}
