@@ -1,3 +1,4 @@
 {
-  "spend_tier": "best"
+  "spend_tier": "low",
+  "vacation": true
 }

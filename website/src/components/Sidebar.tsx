@@ -79,6 +79,10 @@ export function Sidebar() {
   const [slateCount, setSlateCount] = useState<number | null>(null);
   const [niches, setNiches] = useState<NicheInfo[]>([]);
   const [activeNiche, setActiveNiche] = useState<string>("ai");
+  const [vacation, setVacation] = useState<boolean | null>(null);
+  const [canSave, setCanSave] = useState(true);
+  const [savingVacation, setSavingVacation] = useState(false);
+  const [vacationError, setVacationError] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/api/niches")
@@ -89,6 +93,39 @@ export function Sidebar() {
       })
       .catch(() => {});
   }, []);
+
+  useEffect(() => {
+    fetch("/api/settings")
+      .then((r) => r.json())
+      .then((d) => {
+        setVacation(!!d.vacation);
+        setCanSave(d.can_save !== false);
+      })
+      .catch(() => {});
+  }, []);
+
+  const toggleVacation = async () => {
+    const next = !vacation;
+    setSavingVacation(true);
+    setVacationError(null);
+    setVacation(next); // optimistic — the toggle should feel instant
+    try {
+      const res = await fetch("/api/settings", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ vacation: next }),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setVacation(!next); // it didn't land — don't leave the UI lying about it
+        setVacationError(body.error || `Couldn't save (${res.status})`);
+      }
+    } catch (e) {
+      setVacation(!next);
+      setVacationError((e as Error).message);
+    }
+    setSavingVacation(false);
+  };
 
   const switchNiche = (id: string) => {
     if (id === activeNiche) return;
@@ -247,10 +284,36 @@ export function Sidebar() {
           </svg>
           <span>SETTINGS</span>
         </Link>
-        <div className="sidebar-status">
+        {/* Was a hardcoded "Scrapers active" that never checked anything. Now it
+            reports the real state and is the switch: the daily scrape is the one
+            automated job that spends money, and this is what stops it. */}
+        <button
+          type="button"
+          className={`sidebar-status sidebar-vacation${vacation ? " on" : ""}`}
+          onClick={toggleVacation}
+          disabled={savingVacation || vacation === null || !canSave}
+          title={
+            !canSave
+              ? "This deployment can't save settings — set GITHUB_TOKEN, or toggle it locally and push."
+              : vacation
+                ? "Automation is frozen. Click to resume the daily scrape."
+                : "Click to freeze the daily scrape — no rating, no spend."
+          }
+        >
           <div className="sidebar-status-dot" />
-          <span>Scrapers active</span>
-        </div>
+          <span>
+            {vacation === null
+              ? "Checking…"
+              : vacation
+                ? "🏖 Vacation — automation off"
+                : "Scrapers active"}
+          </span>
+        </button>
+        {vacationError && (
+          <div style={{ fontSize: 10, color: "#ef4444", padding: "4px 10px 0", lineHeight: 1.4 }}>
+            {vacationError}
+          </div>
+        )}
         <button
           type="button"
           onClick={async () => {

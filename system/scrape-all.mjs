@@ -17,6 +17,26 @@ import { enabledNiches, nichePaths } from "./lib/niches.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ENGINE = path.join(__dirname, "scraper", "engine", "scrape.mjs");
 const DIRECTOR = path.join(__dirname, "content", "creative-director.mjs");
+const SETTINGS = path.join(__dirname, "content", "runtime-settings.json");
+
+/**
+ * Vacation mode — the off switch for everything that costs money.
+ *
+ * This is the only automated job that spends: every run rates ~130 topics and
+ * plans a slate, all LLM calls, and it fires whether or not anyone is watching.
+ * Checked here rather than in the workflow so it holds no matter how the script
+ * is invoked — cron, workflow_dispatch, or by hand.
+ *
+ * Read fresh off disk (not via content-config, which caches at import) so the
+ * flag takes effect the moment it's committed, with no redeploy involved.
+ */
+function onVacation() {
+  try {
+    return JSON.parse(fs.readFileSync(SETTINGS, "utf8")).vacation === true;
+  } catch {
+    return false; // no settings file → not on vacation; never fail closed by accident
+  }
+}
 
 function readPendingPicks(id) {
   const dir = nichePaths(id).picks;
@@ -35,6 +55,12 @@ function readPendingPicks(id) {
 }
 
 async function main() {
+  if (onVacation()) {
+    console.log("[scrape-all] 🏖  VACATION MODE — skipping. No scraping, no rating, no spend.");
+    console.log('[scrape-all] Turn it off in the dashboard sidebar, or set "vacation": false in system/content/runtime-settings.json.');
+    return;
+  }
+
   const niches = enabledNiches();
   console.log(`[scrape-all] ${niches.length} enabled niche(s): ${niches.map((n) => n.id).join(", ")}`);
 

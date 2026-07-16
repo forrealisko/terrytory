@@ -2946,3 +2946,36 @@ select:focus-visible {
 .published-star:disabled {
   cursor: default;
 }
+
+/* ── Vacation toggle ───────────────────────────────────────────────────────
+   The sidebar status line doubles as the off switch for paid automation, so it
+   needs to look pressable and read unmistakably when it's on — an accidental
+   vacation that goes unnoticed is a silent content outage. */
+.sidebar-vacation {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  font: inherit;
+}
+.sidebar-vacation:hover:not(:disabled) {
+  background: var(--bg-card);
+  border-color: var(--border);
+}
+.sidebar-vacation:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+.sidebar-vacation.on {
+  background: rgba(245, 166, 35, 0.1);
+  border-color: rgba(245, 166, 35, 0.35);
+  color: #f5a623;
+}
+.sidebar-vacation.on .sidebar-status-dot {
+  background: #f5a623;
+  box-shadow: 0 0 6px #f5a623;
+}
