@@ -66,6 +66,11 @@ async function openrouter(body, apiKey, label) {
 }
 
 export function parseModelJson(raw) {
+  // A refusal or a truncated stream gives us no content at all. Say that,
+  // rather than dying on `null.trim()` and reporting it as a parse failure.
+  if (typeof raw !== "string" || !raw.trim()) {
+    throw new Error("Model returned no content.");
+  }
   try {
     return JSON.parse(raw.trim());
   } catch {
@@ -198,7 +203,11 @@ export async function generateAndSaveImage(ctx, prompt, filename) {
     const response = await fetch("https://fal.run/fal-ai/flux/dev", {
       method: "POST",
       headers: { Authorization: `Key ${falKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ prompt: fullPrompt, image_size: "landscape_16_9" }),
+      // 1536x864 rather than the landscape_16_9 preset (1024x576), which was
+      // soft on retina in a full-width hero. Flux dev is trained around 1MP, so
+      // this 1.3MP stretch stays close enough to avoid the duplicated-element
+      // artifacts that show up nearer 2MP.
+      body: JSON.stringify({ prompt: fullPrompt, image_size: { width: 1536, height: 864 } }),
     });
     const data = await response.json();
     if (!response.ok) throw new Error(data.detail || "Fal.ai failed");
