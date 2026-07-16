@@ -16,7 +16,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       FAL_KEY: ${{ secrets.FAL_KEY }}
@@ -54,6 +54,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new data to commit."
           else
-            git commit -m "chore(scrape): daily headlines, picks & idea slate [skip ci]"
+            git commit -m "chore(scrape): daily headlines, picks & idea slate"
             git push
           fi

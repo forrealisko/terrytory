@@ -16,6 +16,9 @@ import { cliNiche, getNicheContext, getApiKey, parseModelJson } from "./pipeline
 const ctx = getNicheContext(cliNiche());
 const { log, paths, niche } = ctx;
 
+// How many topics to rate at once. Kept modest to stay inside provider rate limits.
+const RATING_CONCURRENCY = 5;
+
 async function fetchArticleBody(url) {
   try {
     const controller = new AbortController();
@@ -178,49 +181,61 @@ async function main() {
   }
 
   let saved = 0;
-  for (let i = 0; i < groups.length; i++) {
-    const group = groups[i];
-    log("info", `─── Rating topic ${i + 1}/${groups.length} ───`);
-    log("info", `  Title: "${group[0].title}" (${group.length} source[s])`);
+  let next = 0;
 
-    try {
-      const sourceTexts = await Promise.all(group.map((a) => fetchArticleBody(a.url)));
-      const ratingResult = await rateTopic(group, sourceTexts, apiKey);
-      const score = parseFloat(ratingResult.rating);
-      log("info", `  AI Rating: ${score}/10 | Headline: "${ratingResult.headline}"`);
-      log("info", `  Reason: ${ratingResult.reasoning}`);
+  // Each topic is an independent LLM round-trip, so RATING_CONCURRENCY of them
+  // run at a time. Log lines are buffered per topic and flushed on completion —
+  // otherwise concurrent topics interleave mid-block.
+  async function worker() {
+    while (next < groups.length) {
+      const i = next++;
+      const group = groups[i];
+      const lines = [
+        ["info", `─── Rating topic ${i + 1}/${groups.length} ───`],
+        ["info", `  Title: "${group[0].title}" (${group.length} source[s])`],
+      ];
 
-      if (score >= CONFIG.rating_threshold) {
-        const id = crypto.randomUUID();
-        const pickData = {
-          id,
-          niche: niche.id,
-          created_at: new Date().toISOString(),
-          status: "pending",
-          headline: ratingResult.headline,
-          rating: score,
-          reasoning: ratingResult.reasoning,
-          summary: ratingResult.summary,
-          source_articles: group.map((a) => ({
-            source_id: a.source_id,
-            source_name: a.source_name,
-            title: a.title,
-            url: a.url,
-            excerpt: a.excerpt || undefined,
-          })),
-        };
-        fs.writeFileSync(path.join(paths.picks, `${id}.json`), JSON.stringify(pickData, null, 2));
-        log("info", `  ✓ Saved as pick`);
-        saved++;
-      } else {
-        log("info", `  Discarded (rating ${score} < threshold ${CONFIG.rating_threshold})`);
+      try {
+        const sourceTexts = await Promise.all(group.map((a) => fetchArticleBody(a.url)));
+        const ratingResult = await rateTopic(group, sourceTexts, apiKey);
+        const score = parseFloat(ratingResult.rating);
+        lines.push(["info", `  AI Rating: ${score}/10 | Headline: "${ratingResult.headline}"`]);
+        lines.push(["info", `  Reason: ${ratingResult.reasoning}`]);
+
+        if (score >= CONFIG.rating_threshold) {
+          const id = crypto.randomUUID();
+          const pickData = {
+            id,
+            niche: niche.id,
+            created_at: new Date().toISOString(),
+            status: "pending",
+            headline: ratingResult.headline,
+            rating: score,
+            reasoning: ratingResult.reasoning,
+            summary: ratingResult.summary,
+            source_articles: group.map((a) => ({
+              source_id: a.source_id,
+              source_name: a.source_name,
+              title: a.title,
+              url: a.url,
+              excerpt: a.excerpt || undefined,
+            })),
+          };
+          fs.writeFileSync(path.join(paths.picks, `${id}.json`), JSON.stringify(pickData, null, 2));
+          lines.push(["info", `  ✓ Saved as pick`]);
+          saved++;
+        } else {
+          lines.push(["info", `  Discarded (rating ${score} < threshold ${CONFIG.rating_threshold})`]);
+        }
+      } catch (err) {
+        lines.push(["error", `  ✗ Failed to rate topic: ${err.message}`]);
       }
-    } catch (err) {
-      log("error", `  ✗ Failed to rate topic: ${err.message}`);
-    }
 
-    if (i < groups.length - 1) await new Promise((r) => setTimeout(r, 1000));
+      for (const [level, msg] of lines) log(level, msg);
+    }
   }
+
+  await Promise.all(Array.from({ length: Math.min(RATING_CONCURRENCY, groups.length) }, worker));
 
   log("info", `Processed ${groups.length} topic(s). Saved ${saved} pick(s) >= ${CONFIG.rating_threshold}.`);
   log("info", "Topic Rater complete ✓");
