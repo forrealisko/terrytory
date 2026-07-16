@@ -1,0 +1,19 @@
+{
+  "id": "95b4e79f-b9e8-4a0a-88df-869c6dfcecdb",
+  "niche": "ai",
+  "created_at": "2026-07-16T12:37:40.561Z",
+  "status": "pending",
+  "headline": "Researchers Force AI to 'Overthink' and Spill Its Secrets",
+  "rating": 8,
+  "reasoning": "This topic has immense clickability and viral potential due to the dramatic framing of AI having 'secrets' that can be extracted. While the source is a dense academic paper, the core concept is easily translated for a mainstream audience and taps into common curiosities and fears about AI's hidden capabilities. Although it lacks direct practical value for a consumer, its high 'wow' factor and potential for engaging formats like explainers or hot takes make it a strong candidate for publication.",
+  "summary": "Researchers have developed a technique called 'overthinking' that amplifies an AI's reasoning processes, causing it to reveal hidden information or unintended behaviors up to 10 times more frequently than standard models.",
+  "source_articles": [
+    {
+      "source_id": "arxivai",
+      "source_name": "ArXiv cs.AI",
+      "title": "Overthinking: Amplifying Reasoning Weights to Extract Learned Secrets",
+      "url": "https://arxiv.org/abs/2607.08173",
+      "excerpt": "arXiv:2607.08173v1 Announce Type: new Abstract: Black box auditing of language models is an essential pre-deployment tool, but it may miss subtle forms of misalignment and hidden information. To better elicit hidden information during an auditing process, we introduce \\emph{overthinking}: the process of using reasoning task vectors to amplify the propensity to think out loud of reasoning models. G…"
+    }
+  ]
+}

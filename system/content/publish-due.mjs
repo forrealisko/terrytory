@@ -33,12 +33,55 @@ function readJson(file) {
   }
 }
 
+const IMG_RE = /!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+
+/**
+ * Drop markdown image refs that would 404 on the live site.
+ *
+ * Nothing upstream guarantees an image ref resolves: the model can invent a
+ * filename in prose ("inline_foo_visualization.webp") that was never generated,
+ * and refs can outlive their file. Both shipped — five published articles had
+ * ten dead refs before this existed.
+ *
+ * Strips rather than blocks: publishing runs unattended every 15 minutes, and a
+ * ref that points at nothing renders as a broken icon either way — holding back
+ * an otherwise-good article over a missing decoration is the worse trade.
+ */
+function stripUnresolvableImages(draft, paths) {
+  const body = draft.body_markdown;
+  if (typeof body !== "string" || !body) return { body, dropped: [] };
+
+  const dropped = [];
+  const cleaned = body.replace(IMG_RE, (full, src) => {
+    if (src.startsWith("http://") || src.startsWith("https://")) return full;
+    if (src.startsWith("/api/content/images/")) {
+      const filename = path.basename(src.split("?")[0]);
+      if (fs.existsSync(path.join(paths.images, filename))) return full;
+      dropped.push(src);
+      return "";
+    }
+    // Anything else (bare filename, stray relative path) can never resolve.
+    dropped.push(src);
+    return "";
+  });
+
+  if (!dropped.length) return { body, dropped };
+  return { body: cleaned.replace(/\n{3,}/g, "\n\n"), dropped };
+}
+
 /** Promote one scheduled draft into published/. Mirrors the website's publishDraft. */
 function publish(draft, paths, now) {
   const finalSlug = draft.slug;
   const publishedSlug = `${now.slice(0, 10)}_${finalSlug}`;
+
+  const { body, dropped } = stripUnresolvableImages(draft, paths);
+  for (const src of dropped) {
+    log(`  ⚠ dropped unresolvable image ref: ${src}`);
+  }
+
   const published = {
     ...draft,
+    body_markdown: body,
     status: "published",
     published_at: now,
     published_slug: publishedSlug,
