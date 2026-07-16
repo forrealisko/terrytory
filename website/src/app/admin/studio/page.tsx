@@ -28,15 +28,12 @@ export default function StudioPage() {
   const [slate, setSlate] = useState<Idea[]>([]);
   const [banked, setBanked] = useState<Idea[]>([]);
   const [niche, setNiche] = useState<string>("ai");
-  const [count, setCount] = useState<(typeof COUNTS)[number]>(() => {
-    if (typeof window !== "undefined") {
-      const saved = localStorage.getItem("studio_count");
-      if (saved && ["auto", "2", "3", "4", "5"].includes(saved)) {
-        return saved as (typeof COUNTS)[number];
-      }
-    }
-    return "auto";
-  });
+  // Always "auto" for the first render. Seeding this from localStorage during
+  // render makes the client disagree with the server-rendered HTML (the server
+  // has no localStorage, so it always says "auto"), and React leaves that
+  // mismatch unpatched — the highlighted option ends up wrong. Restore it after
+  // mount instead, where the two renders have already agreed.
+  const [count, setCount] = useState<(typeof COUNTS)[number]>("auto");
   const [planning, setPlanning] = useState(false);
   const [creatingId, setCreatingId] = useState<string | null>(null);
   const [busyId, setBusyId] = useState<string | null>(null);
@@ -56,6 +53,13 @@ export default function StudioPage() {
   useEffect(() => {
     loadIdeas();
   }, [loadIdeas]);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("studio_count");
+    if (saved && (COUNTS as readonly string[]).includes(saved)) {
+      setCount(saved as (typeof COUNTS)[number]);
+    }
+  }, []);
 
   const changeCount = (c: (typeof COUNTS)[number]) => {
     setCount(c);

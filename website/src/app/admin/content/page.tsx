@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { fmt } from "@/lib/formats";
 
@@ -63,22 +63,31 @@ export default function ContentQueuePage() {
   const [scraping, setScraping] = useState(false);
   const [isStreamingScraper, setIsStreamingScraper] = useState(false);
   const [isStreamingGenerator, setIsStreamingGenerator] = useState(false);
-  const [genOutput, setGenOutput] = useState<string | null>(() => {
-    if (typeof window !== "undefined") {
-      return sessionStorage.getItem("terrytory_genOutput");
-    }
-    return null;
-  });
+  // Null for the first render, restored after mount. Reading sessionStorage in
+  // the initializer makes the client's first render disagree with the
+  // server-rendered HTML (the server has no sessionStorage), and React leaves
+  // that mismatch unpatched.
+  const [genOutput, setGenOutput] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  // Persist genOutput to sessionStorage whenever it changes
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      if (genOutput) {
-        sessionStorage.setItem("terrytory_genOutput", genOutput);
-      } else {
-        sessionStorage.removeItem("terrytory_genOutput");
-      }
+    const saved = sessionStorage.getItem("terrytory_genOutput");
+    if (saved) setGenOutput(saved);
+  }, []);
+
+  // Persist genOutput whenever it changes. Skips the mount pass: at that point
+  // genOutput is still the initial null, and writing it out would clear the very
+  // value the effect above is busy restoring.
+  const persisted = useRef(false);
+  useEffect(() => {
+    if (!persisted.current) {
+      persisted.current = true;
+      return;
+    }
+    if (genOutput) {
+      sessionStorage.setItem("terrytory_genOutput", genOutput);
+    } else {
+      sessionStorage.removeItem("terrytory_genOutput");
     }
   }, [genOutput]);
 
