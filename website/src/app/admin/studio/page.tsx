@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { fmt } from "@/lib/formats";
 
 /* ── Types (mirror system/content/creative-director.mjs output) ── */
 interface IdeaSource {
@@ -20,17 +21,6 @@ interface Idea {
   source_articles: IdeaSource[];
   draft_id: string | null;
 }
-
-const FORMAT_META: Record<string, { emoji: string; label: string }> = {
-  article: { emoji: "📰", label: "Article" },
-  tip: { emoji: "💡", label: "Tip" },
-  comparison: { emoji: "⚖️", label: "Comparison" },
-  explainer: { emoji: "🧭", label: "Explainer" },
-  roundup: { emoji: "🗞️", label: "Roundup" },
-  listicle: { emoji: "🔢", label: "List" },
-  opinion: { emoji: "🔥", label: "Hot Take" },
-};
-const fmt = (id: string) => FORMAT_META[id] || { emoji: "✦", label: id };
 
 const COUNTS = ["auto", "2", "3", "4", "5"] as const;
 

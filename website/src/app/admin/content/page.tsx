@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { fmt } from "@/lib/formats";
 
 interface SourceRef {
   source_id: string;
@@ -15,6 +16,8 @@ interface Draft {
   id: string;
   created_at: string;
   status: string;
+  /** article | opinion | comparison | … — drives the card's identity. */
+  format?: string;
   /** Set when status is "scheduled" — ISO time the publish cron takes it live. */
   publish_at?: string;
   source_articles: SourceRef[];
@@ -260,7 +263,7 @@ export default function ContentQueuePage() {
           <span
             style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 2 }}
           >
-            Review AI-generated articles before publishing
+            Hot takes, comparisons, explainers — shape them, then ship
           </span>
         </div>
         <div className="main-header-actions" style={{ gap: 12 }}>
@@ -397,16 +400,24 @@ function DraftCard({
   const words = wordCount(draft.body_markdown);
   const readTime = Math.max(1, Math.ceil(words / 250));
 
+  const f = fmt(draft.format);
+
   return (
     <div className="content-draft-card">
       {/* Header */}
       <div className="content-draft-card-header">
-        {draft.status === "scheduled" && draft.publish_at ? (
+        {/* Lead with WHAT this is — a Hot Take and a Comparison aren't the same
+            thing, and "DRAFT" on everything hid that. */}
+        <span
+          className="format-badge"
+          style={{ color: f.color, borderColor: `${f.color}44`, background: `${f.color}14` }}
+        >
+          {f.emoji} {f.label}
+        </span>
+        {draft.status === "scheduled" && draft.publish_at && (
           <span className="content-draft-badge is-scheduled" title={new Date(draft.publish_at).toLocaleString()}>
             ⏰ SCHEDULED
           </span>
-        ) : (
-          <span className="content-draft-badge">DRAFT</span>
         )}
         <span
           style={{ fontSize: 11, color: "var(--text-muted)", marginLeft: "auto" }}

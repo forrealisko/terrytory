@@ -2887,3 +2887,17 @@ select:focus-visible {
   background: var(--border-active);
   margin: 0 2px;
 }
+
+/* Format identity badge — we publish Hot Takes and Comparisons, not just
+   "articles", so each card leads with what it actually is. Colour comes
+   per-format from lib/formats.ts. */
+.format-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 9px;
+  border-radius: 999px;
+  border: 1px solid;
+  white-space: nowrap;
+}
