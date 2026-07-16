@@ -24,15 +24,27 @@ export async function proxy(req: NextRequest) {
   const p = url.pathname;
 
   // ── Admin auth gate ────────────────────────────────────────────────────
-  // Any admin surface (/admin path or admin subdomain) requires a *valid*
-  // signed session cookie; otherwise redirect to /login. The login page + its
-  // API are exempt. Verifying the signature (not just presence) is what stops a
-  // forged `tt_admin` cookie from granting access.
-  const isAdminArea = sub === "admin" || p.startsWith("/admin");
-  const isAuthRoute = p === "/login" || p.startsWith("/api/admin/");
-  if (isAdminArea && !isAuthRoute) {
+  // Any admin surface requires a *valid* signed session cookie. Verifying the
+  // signature (not just presence) is what stops a forged `tt_admin` cookie.
+  //
+  // The gate must cover /api/* as well as /admin/*: the API is not nested under
+  // /admin, so gating by path prefix alone left every route (drafts, settings,
+  // publish) readable and writable by anyone on any host that isn't the admin
+  // subdomain — which is every host, since the site is served from www.
+  //
+  // Public by design: the login page and its API (or you could never sign in),
+  // and the image endpoint the magazine renders its pictures from.
+  const isPublicApi = p.startsWith("/api/admin/") || p.startsWith("/api/content/images/");
+  const needsSession = sub === "admin" || p.startsWith("/admin") || (p.startsWith("/api/") && !isPublicApi);
+
+  if (needsSession && p !== "/login") {
     const session = await verifySessionToken(req.cookies.get("tt_admin")?.value);
     if (!session) {
+      // Redirecting an API call to an HTML login page just yields a confusing
+      // 200 full of markup, so answer those with a plain 401 instead.
+      if (p.startsWith("/api/")) {
+        return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+      }
       url.pathname = "/login";
       url.search = "";
       return NextResponse.redirect(url);
