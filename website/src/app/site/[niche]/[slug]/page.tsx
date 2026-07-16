@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getPublishedBySlug, listPublished } from "@/lib/article-store";
 import { renderMarkdown, nicheImageUrl, readTimeMin } from "@/lib/markdown";
-import { isValidNiche, magBasePath, nicheBrand, formatDate } from "@/lib/site";
+import { isPublicNiche, magBasePath, nicheBrand, formatDate } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
@@ -13,7 +13,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { niche, slug } = await params;
-  if (!isValidNiche(niche)) return { title: "TERRYTORY" };
+  if (!isPublicNiche(niche)) return { title: "TERRYTORY" };
   const article = getPublishedBySlug(slug, niche);
   if (!article) return { title: "Not found" };
   const headline = article.selected_headline || article.headline_options?.[0] || "Untitled";
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function MagazineArticle({ params }: PageProps) {
   const { niche, slug } = await params;
-  if (!isValidNiche(niche)) notFound();
+  if (!isPublicNiche(niche)) notFound();
 
   const brand = nicheBrand(niche);
   const base = await magBasePath(niche);

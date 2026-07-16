@@ -1,0 +1,60 @@
+name: Smoke Tests
+
+# Runs on every push and PR. These are the checks that would have caught the
+# real incidents: a public admin API, a "disabled" niche serving articles to
+# anyone with the URL, and published articles rendering broken images.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: {}
+
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # A throwaway secret so session signing is wired up. The tests only assert
+      # that anonymous requests are *rejected*, so they never mint a session —
+      # but the app must not be misconfigured, or /admin would 500 instead of
+      # redirecting and the auth test would pass for the wrong reason.
+      SESSION_SECRET: ci-smoke-test-secret-not-used-anywhere-real
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install
+        working-directory: website
+        run: npm ci
+
+      - name: Build
+        working-directory: website
+        run: npm run build
+
+      - name: Start server
+        working-directory: website
+        run: |
+          npx next start -p 3199 &
+          echo $! > /tmp/server.pid
+          for i in $(seq 1 30); do
+            curl -sf -o /dev/null http://localhost:3199/ && echo "server up after ${i}s" && exit 0
+            sleep 1
+          done
+          echo "server never came up"; exit 1
+
+      - name: Smoke tests
+        run: node --test tests/smoke.test.mjs
+
+      - name: Stop server
+        if: always()
+        run: kill "$(cat /tmp/server.pid)" 2>/dev/null || true

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Fraunces } from "next/font/google";
-import { isValidNiche, magBasePath, nicheBrand } from "@/lib/site";
+import { isPublicNiche, magBasePath, nicheBrand } from "@/lib/site";
 import "@/styles/magazine.css";
 
 const display = Fraunces({
@@ -19,7 +19,7 @@ interface LayoutProps {
 
 export async function generateMetadata({ params }: { params: Promise<{ niche: string }> }): Promise<Metadata> {
   const { niche } = await params;
-  if (!isValidNiche(niche)) return { title: "TERRYTORY" };
+  if (!isPublicNiche(niche)) return { title: "TERRYTORY" };
   const brand = nicheBrand(niche);
   return {
     title: { default: brand.name, template: `%s — ${brand.name}` },
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ niche: st
 
 export default async function MagazineLayout({ children, params }: LayoutProps) {
   const { niche } = await params;
-  if (!isValidNiche(niche)) notFound();
+  if (!isPublicNiche(niche)) notFound();
 
   const brand = nicheBrand(niche);
   const base = await magBasePath(niche);

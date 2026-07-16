@@ -8,8 +8,19 @@
 import { headers } from "next/headers";
 import { getNiche, listNicheIds } from "./niches";
 
+/** A niche whose config file exists. Says nothing about whether it's public. */
 export function isValidNiche(id: string): boolean {
   return listNicheIds().includes(id);
+}
+
+/**
+ * A niche the public is allowed to see. `enabled: false` has to mean private,
+ * not merely unlisted — the hub already hides disabled niches, but the magazine
+ * route was gated on existence alone, so /site/ufo answered 200 to anyone with
+ * the URL and served twelve articles that were supposed to be off.
+ */
+export function isPublicNiche(id: string): boolean {
+  return isValidNiche(id) && getNiche(id).enabled !== false;
 }
 
 export async function magBasePath(niche: string): Promise<string> {

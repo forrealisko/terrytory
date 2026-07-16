@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { listPublished } from "@/lib/article-store";
 import { nicheImageUrl, readTimeMin } from "@/lib/markdown";
-import { isValidNiche, magBasePath, nicheBrand, formatDate } from "@/lib/site";
+import { isPublicNiche, magBasePath, nicheBrand, formatDate } from "@/lib/site";
 import type { ArticleDraft } from "@/lib/article-store";
 
 export const dynamic = "force-dynamic";
@@ -56,7 +56,7 @@ function Card({
 
 export default async function MagazineHome({ params }: PageProps) {
   const { niche } = await params;
-  if (!isValidNiche(niche)) notFound();
+  if (!isPublicNiche(niche)) notFound();
 
   const brand = nicheBrand(niche);
   const base = await magBasePath(niche);
