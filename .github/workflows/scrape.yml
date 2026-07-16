@@ -46,7 +46,13 @@ jobs:
       - name: Scrape all niches
         run: node system/scrape-all.mjs
 
+      # always() so a scrape that times out or dies partway still keeps what it
+      # already wrote. This step being conditional on success is what turned a
+      # slow rater into six days of lost data: the job was cancelled at the
+      # timeout every morning and everything it had scraped went with it.
+      # Partial headlines beat none, and each pick is a self-contained file.
       - name: Commit new headlines, picks & ideas
+        if: always()
         run: |
           git config user.name  "terrytory-bot"
           git config user.email "bot@terrytory.xyz"
