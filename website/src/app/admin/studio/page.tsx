@@ -76,6 +76,16 @@ export default function StudioPage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
     });
+    // Failures come back as JSON rather than a log stream, so read the message
+    // out instead of piping raw JSON into the console the user is reading.
+    if (!res.ok) {
+      const msg = await res
+        .json()
+        .then((b) => b.error as string | undefined)
+        .catch(() => undefined);
+      setLog((l) => l + `\n⚠ ${msg || `Request failed (${res.status})`}\n`);
+      return;
+    }
     if (!res.body) {
       setLog((l) => l + `\n[no response stream — ${res.status}]`);
       return;

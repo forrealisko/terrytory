@@ -47,17 +47,42 @@ export function getApiKey() {
 }
 
 // ─── OpenRouter helpers ──────────────────────────────────────────────────────
-async function openrouter(body, apiKey, label) {
-  const response = await fetch(CONFIG.openrouter_url, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "HTTP-Referer": "https://sys.terrytory.com",
-      "X-Title": `Terrytory ${label}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(body),
-  });
+
+/**
+ * Generous on purpose. These calls are genuinely slow and wildly variable — the
+ * same model and prompt has taken 15s once and 128s minutes later — so a tight
+ * timeout would abort work that was going to succeed, after we'd already paid
+ * for it. This is only here to stop a truly stuck request hanging forever,
+ * which it previously did: no timeout at all meant a wedged call blocked draft
+ * generation indefinitely with nothing in the log after "[Writer] Generating…".
+ */
+const MODEL_TIMEOUT_MS = 240_000;
+
+async function openrouter(body, apiKey, label, timeoutMs = MODEL_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  let response;
+  try {
+    response = await fetch(CONFIG.openrouter_url, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "HTTP-Referer": "https://sys.terrytory.com",
+        "X-Title": `Terrytory ${label}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+      signal: controller.signal,
+    });
+  } catch (err) {
+    if (err.name === "AbortError") {
+      throw new Error(`${label} timed out after ${Math.round(timeoutMs / 1000)}s (model: ${body.model})`);
+    }
+    throw err;
+  } finally {
+    clearTimeout(timer);
+  }
+
   const data = await response.json();
   if (!response.ok) {
     throw new Error(`${label} API error: ${data.error?.message || JSON.stringify(data)}`);
