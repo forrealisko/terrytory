@@ -17,6 +17,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { listNicheIds, nichePaths } from "../lib/niches.mjs";
+import { recordPublishedEdit } from "./editorial-memory.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DRY = process.argv.includes("--dry-run");
@@ -93,6 +94,15 @@ function publish(draft, paths, now) {
     path.join(paths.published, `${publishedSlug}.json`),
     JSON.stringify(published, null, 2)
   );
+
+  // Publication is the moment the editor's version becomes ground truth, so
+  // that's when the gap between it and the model's draft is worth recording.
+  try {
+    const rec = recordPublishedEdit(published, paths);
+    if (rec) log(`  ↳ recorded editorial changes for the writer to learn from`);
+  } catch (err) {
+    log(`  ⚠ couldn't record editorial changes: ${err.message}`);
+  }
   // Clear it out of the Create queue — published/ now holds the content.
   try {
     fs.unlinkSync(path.join(paths.drafts, `${draft.id}.json`));

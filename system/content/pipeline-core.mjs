@@ -11,6 +11,7 @@ import { loadEnv, getOpenRouterKey } from "../lib/env.mjs";
 import { CONFIG, getEditorialPrompt, getResearchPrompt } from "./content-config.mjs";
 import { authorForFormat, authorByline } from "./authors.mjs";
 import { collectSocialEmbeds } from "./social-embeds.mjs";
+import { buildStyleBrief } from "./editorial-memory.mjs";
 
 loadEnv();
 
@@ -172,12 +173,20 @@ To embed one, place a token on its OWN LINE in body_markdown at the exact spot i
 
   const brand = ctx.niche.brand?.name || "TERRYTORY";
   const angleNote = pick.angle ? `\n\nEDITORIAL ANGLE (the specific take to write toward):\n${pick.angle}\n` : "";
+
+  // What the editor actually changed about previous drafts. Empty until a few
+  // articles have shipped; placed after the style guide so it wins on conflict —
+  // published articles show the house voice, but the edits show what this editor
+  // keeps having to fix by hand.
+  const styleBrief = buildStyleBrief(ctx.paths);
+
   const prompt = `${getEditorialPrompt(ctx.niche, { format, author })}${angleNote}
 
 ──────────────────────────────
 WRITING STYLE GUIDELINES (Use these past articles to copy the tone, vocabulary, formatting, and style):
 ──────────────────────────────
 ${styleGuide || "No past articles available. Write in a confident, authoritative style appropriate for the publication."}
+${styleBrief ? `\n──────────────────────────────\n${styleBrief}──────────────────────────────\n` : ""}
 
 ──────────────────────────────
 WEB RESEARCH REPORT (Factual grounding):
@@ -330,6 +339,21 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
     social_embeds,
     affiliate_slots: draftContent.affiliate_slots || [],
     generation: draftContent.generation,
+
+    // What the model actually produced, frozen. Everything above gets edited in
+    // place by the review UI, so without this snapshot the AI's version is gone
+    // the moment the editor touches it — and the difference between the two is
+    // the only real signal for what "good" means on this publication.
+    // Never write to this after generation.
+    ai_original: {
+      headline: finalHeadline,
+      body_markdown: draftContent.body_markdown || "",
+      excerpt: draftContent.excerpt || "",
+      seo: draftContent.seo || { meta_title: "", meta_description: "", keywords: [] },
+      hero_image_prompt: draftContent.hero_image_prompt || null,
+      model: draftContent.generation?.model || null,
+      captured_at: new Date().toISOString(),
+    },
   };
 
   fs.writeFileSync(path.join(ctx.paths.drafts, `${draftId}.json`), JSON.stringify(draftData, null, 2));

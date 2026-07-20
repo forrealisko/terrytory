@@ -129,6 +129,22 @@ export interface ArticleDraft {
   published_slug?: string;
   shipped_at?: string;
 
+  /**
+   * What the model produced, frozen at generation and never written again.
+   * Editing a draft overwrites the fields above in place, so this is the only
+   * record of what the AI actually wrote — and the gap between the two is what
+   * editorial-memory learns the house voice from.
+   */
+  ai_original?: {
+    headline: string;
+    body_markdown: string;
+    excerpt: string;
+    seo?: ArticleSeo;
+    hero_image_prompt?: string | null;
+    model?: string | null;
+    captured_at: string;
+  };
+
   /** Hand-picked for the hub's feature slot. */
   featured?: boolean;
   /** When status is "archived": ISO time it was pulled off the live site. */
@@ -513,11 +529,42 @@ export function publishShippedArticle(
   return published;
 }
 
+/**
+ * Record a rejection for the writer to learn from.
+ *
+ * Throwing a draft away is the editor's clearest "no", so it's worth more than
+ * most edits. Written here rather than imported from system/content/
+ * editorial-memory.mjs to avoid reaching across the .mjs/.ts boundary for one
+ * small object; the shape matches what readRecords() there expects.
+ */
+function recordRejection(draft: ArticleDraft, niche: string): void {
+  const ai = draft.ai_original;
+  if (!ai) return; // generated before snapshots existed — nothing to compare
+  try {
+    const dir = path.join(D(niche).content, "learning");
+    fs.mkdirSync(dir, { recursive: true });
+    const recorded_at = new Date().toISOString();
+    writeJsonFile(path.join(dir, `${recorded_at.slice(0, 10)}_${draft.id}.json`), {
+      id: draft.id,
+      niche: draft.niche || niche,
+      slug: draft.slug,
+      format: draft.format || "article",
+      model: ai.model ?? null,
+      recorded_at,
+      verdict: "rejected",
+      headline: { ai: ai.headline, final: null, changed: false },
+    });
+  } catch {
+    // Learning is a nice-to-have; never let it block a rejection.
+  }
+}
+
 /** Reject a draft — moves it to the rejected directory */
 export function rejectDraft(id: string, niche: string = DEFAULT_NICHE): boolean {
   const draft = getDraft(id, niche);
   if (!draft) return false;
 
+  recordRejection(draft, niche);
   writeJsonFile(path.join(D(niche).rejected, `${id}.json`), { ...draft, status: "rejected" as const });
   try {
     fs.unlinkSync(path.join(D(niche).drafts, `${id}.json`));
