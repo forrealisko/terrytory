@@ -529,6 +529,107 @@ export function publishShippedArticle(
   return published;
 }
 
+/** Words, ignoring markdown syntax — comparisons should be about prose. */
+function wordCountOf(text: string): number {
+  return String(text || "")
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/[#*_>`[\]()]/g, " ")
+    .split(/\s+/)
+    .filter(Boolean).length;
+}
+
+/** Punctuation and phrasing tics that make AI prose read as AI prose. */
+function ticsOf(text: string) {
+  const t = String(text || "");
+  return {
+    em_dashes: (t.match(/—/g) || []).length,
+    semicolons: (t.match(/;/g) || []).length,
+    not_just: (t.match(/\bnot just\b/gi) || []).length,
+    isnt_merely: (t.match(/\bisn't (just|merely|simply)\b/gi) || []).length,
+    in_todays: (t.match(/\bin today's\b/gi) || []).length,
+    rhetorical_q: (t.match(/\?\s*$/gm) || []).length,
+  };
+}
+
+/**
+ * Record what the editor changed, on manual publish.
+ *
+ * The scheduled publisher (system/content/publish-due.mjs) already does this
+ * via editorial-memory.mjs, but that path only fires for *scheduled* drafts.
+ * Publishing by hand from the review screen went through here instead and
+ * recorded nothing — which is the path actually being used, so the learning
+ * corpus would have stayed empty. Shape matches readRecords() in
+ * editorial-memory.mjs so both paths feed one corpus.
+ */
+export function recordPublishedEdit(
+  published: ArticleDraft,
+  aiOriginal: NonNullable<ArticleDraft["ai_original"]> | undefined,
+  niche: string = DEFAULT_NICHE,
+  extra?: { edit_seconds?: number; edit_sessions?: number }
+): void {
+  if (!aiOriginal) return; // generated before snapshots existed
+  try {
+    const finalHeadline = published.selected_headline || published.headline_options?.[0] || "";
+    const finalBody = published.body_markdown || "";
+    const aiTics = ticsOf(aiOriginal.body_markdown);
+    const finalTics = ticsOf(finalBody);
+    const ticDelta: Record<string, { ai: number; final: number }> = {};
+    for (const k of Object.keys(aiTics) as Array<keyof typeof aiTics>) {
+      if (aiTics[k] !== finalTics[k]) ticDelta[k] = { ai: aiTics[k], final: finalTics[k] };
+    }
+
+    const norm = (s: string) => s.trim().replace(/\s+/g, " ");
+    const aiParas = aiOriginal.body_markdown.split(/\n{2,}/).map(norm).filter(Boolean);
+    const finalParas = new Set(finalBody.split(/\n{2,}/).map(norm).filter(Boolean));
+    const aiSet = new Set(aiParas);
+
+    const aiWords = wordCountOf(aiOriginal.body_markdown);
+    const finalWords = wordCountOf(finalBody);
+    const recorded_at = new Date().toISOString();
+
+    const dir = path.join(D(niche).content, "learning");
+    fs.mkdirSync(dir, { recursive: true });
+    writeJsonFile(path.join(dir, `${recorded_at.slice(0, 10)}_${published.id}.json`), {
+      id: published.id,
+      niche,
+      slug: published.published_slug || published.slug,
+      format: published.format || "article",
+      model: aiOriginal.model ?? null,
+      recorded_at,
+      verdict: "published",
+      published_via: "manual",
+      headline: {
+        ai: aiOriginal.headline,
+        final: finalHeadline,
+        changed: aiOriginal.headline !== finalHeadline,
+      },
+      excerpt: {
+        ai: aiOriginal.excerpt,
+        final: published.excerpt || "",
+        changed: (aiOriginal.excerpt || "") !== (published.excerpt || ""),
+      },
+      body: {
+        ai_words: aiWords,
+        final_words: finalWords,
+        word_delta: finalWords - aiWords,
+        untouched: aiOriginal.body_markdown === finalBody,
+        cut: aiParas.filter((p) => !finalParas.has(p)).slice(0, 5),
+        added: [...finalParas].filter((p) => !aiSet.has(p)).slice(0, 5),
+      },
+      tics: ticDelta,
+      effort: {
+        // How long the draft was actually worked on. A long edit means the
+        // model's draft was poor; near-zero means it landed. Probably the
+        // single most honest quality signal available.
+        edit_seconds: extra?.edit_seconds ?? null,
+        edit_sessions: extra?.edit_sessions ?? null,
+      },
+    });
+  } catch {
+    // Learning is a nice-to-have; never let it block a publish.
+  }
+}
+
 /**
  * Record a rejection for the writer to learn from.
  *

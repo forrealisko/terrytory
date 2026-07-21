@@ -15,7 +15,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "node:path";
 import fs from "node:fs";
-import { shipDraft, publishShippedArticle } from "@/lib/article-store";
+import {
+  shipDraft,
+  publishShippedArticle,
+  getDraft,
+  recordPublishedEdit,
+} from "@/lib/article-store";
 import { resolveNiche } from "@/lib/niches";
 import { repoRoot, commitAndPushContent } from "@/lib/git-publish";
 
@@ -25,10 +30,16 @@ export async function POST(req: NextRequest) {
   try {
     const niche = resolveNiche(req);
     const body = await req.json();
-    const { draftId, ...overrides } = body;
+    const { draftId, edit_seconds, edit_sessions, ...overrides } = body;
     if (!draftId) {
       return NextResponse.json({ error: "draftId is required" }, { status: 400 });
     }
+
+    // Grab the model's original before shipping — shipDraft rebuilds the article
+    // from the shipped package and doesn't carry ai_original through, and the
+    // draft file is deleted below. Read it while it still exists or the edit
+    // has nothing to be compared against.
+    const aiOriginal = getDraft(draftId, niche)?.ai_original;
 
     // 1. Package into shipped/ (unchanged behaviour — the artifact is kept).
     const shipped = shipDraft(draftId, overrides, niche);
@@ -42,6 +53,14 @@ export async function POST(req: NextRequest) {
         { status: 500 }
       );
     }
+
+    // 2b. Record what the editor changed, while both versions are in hand.
+    //     This is the path that actually gets used (publishing by hand), so
+    //     without it the learning corpus never fills up.
+    recordPublishedEdit(published, aiOriginal, niche, {
+      edit_seconds: typeof edit_seconds === "number" ? edit_seconds : undefined,
+      edit_sessions: typeof edit_sessions === "number" ? edit_sessions : undefined,
+    });
 
     // 3. Clear it out of the Create queue (the shipped folder + published JSON
     //    hold the content now — same as the existing publishDraft behaviour).
@@ -57,12 +76,14 @@ export async function POST(req: NextRequest) {
     const git = commitAndPushContent(`Publish: ${headline}`);
 
     const slug = published.published_slug || published.slug;
+    // Path-based, not <niche>.terrytory.xyz — those subdomains have no DNS yet,
+    // so the old link went nowhere. Switch this back once DNS is pointed.
     return NextResponse.json({
       success: true,
       folder_name: shipped.folderName,
       slug,
       blog_url: `/blog/${slug}`,
-      live_url: `https://${niche}.terrytory.xyz/${published.slug}`,
+      live_url: `https://www.terrytory.xyz/site/${niche}/${published.slug}`,
       pushed: git.pushed,
       detail: git.detail,
     });

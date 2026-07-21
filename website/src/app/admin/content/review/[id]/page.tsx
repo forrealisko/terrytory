@@ -212,6 +212,40 @@ export default function ReviewPage() {
   const [error, setError] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
 
+  /**
+   * How long this draft was actually worked on, in seconds.
+   *
+   * Wall-clock from open to publish is useless — a tab left open overnight
+   * would report sixteen hours. Instead the timer only advances while there is
+   * recent interaction, so walking away stops the clock.
+   *
+   * The number matters because it is the most honest quality signal available:
+   * a draft that took twenty minutes to fix was a bad draft, one published in
+   * two was a good one. That distinction is hard to get from the text alone.
+   */
+  const editSecondsRef = useRef(0);
+  const lastActiveRef = useRef<number>(Date.now());
+  const sessionsRef = useRef(1);
+
+  useEffect(() => {
+    const IDLE_MS = 60_000; // no interaction for a minute → treat as away
+    const bump = () => {
+      const now = Date.now();
+      const gap = now - lastActiveRef.current;
+      if (gap < IDLE_MS) {
+        editSecondsRef.current += gap / 1000;
+      } else {
+        sessionsRef.current += 1; // came back after a break
+      }
+      lastActiveRef.current = now;
+    };
+    const events = ["keydown", "mousedown", "mousemove", "scroll"];
+    for (const e of events) window.addEventListener(e, bump, { passive: true });
+    return () => {
+      for (const e of events) window.removeEventListener(e, bump);
+    };
+  }, []);
+
   // Editable state
   const [selectedHeadline, setSelectedHeadline] = useState<string>("");
   const [customHeadline, setCustomHeadline] = useState("");
@@ -753,6 +787,8 @@ export default function ReviewPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           draftId,
+          edit_seconds: Math.round(editSecondsRef.current),
+          edit_sessions: sessionsRef.current,
           selected_headline: finalHeadline,
           body_markdown: publishBody,
           social_embeds: embeds,
