@@ -3112,72 +3112,198 @@ select:focus-visible {
 }
 
 /* ── AI command bar (article editor) ───────────────────────────────────────
-   Plain-English edits to the article. Purple to read as "AI", distinct from
-   the green publish actions. */
-.ai-cmd-section {
-  border: 1px solid rgba(167, 139, 250, 0.25);
-  background: rgba(167, 139, 250, 0.04);
+   A focused prompt surface, not a stray input. Purple reads as "AI", distinct
+   from the green publish actions. */
+.aibar {
+  position: relative;
+  margin-top: 18px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(167, 139, 250, 0.22);
+  background:
+    radial-gradient(120% 140% at 0% 0%, rgba(167, 139, 250, 0.08), transparent 55%),
+    var(--bg-card);
+  overflow: hidden;
 }
-.ai-cmd-hint {
+.aibar-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  margin-bottom: 14px;
+}
+.aibar-title {
+  font-size: 14px;
+  font-weight: 650;
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.aibar-spark {
+  color: #a78bfa;
+  filter: drop-shadow(0 0 6px rgba(167, 139, 250, 0.6));
+}
+.aibar-sub {
   font-size: 12px;
   color: var(--text-muted);
-  margin: 4px 0 12px;
-  line-height: 1.5;
 }
-.ai-cmd-row {
+.aibar-chips {
   display: flex;
-  gap: 10px;
-  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 12px;
 }
-.ai-cmd-input {
-  flex: 1;
-  resize: vertical;
-  min-height: 46px;
-  padding: 10px 12px;
-  border-radius: 10px;
+.aibar-chip {
+  padding: 6px 11px;
+  border-radius: 999px;
   border: 1px solid var(--border-subtle);
-  background: var(--bg-input, rgba(0, 0, 0, 0.2));
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text-secondary);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.aibar-chip:hover:not(:disabled) {
+  border-color: rgba(167, 139, 250, 0.5);
+  background: rgba(167, 139, 250, 0.1);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+.aibar-chip:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.aibar-box {
+  position: relative;
+  border-radius: 13px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(0, 0, 0, 0.22);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.aibar-box:focus-within {
+  border-color: rgba(167, 139, 250, 0.65);
+  box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.14);
+}
+.aibar-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px 8px;
+  border: none;
+  background: transparent;
   color: var(--text-primary);
   font: inherit;
-  font-size: 13.5px;
-  line-height: 1.45;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: vertical;
+  min-height: 64px;
 }
-.ai-cmd-input:focus {
+.aibar-input:focus {
   outline: none;
-  border-color: rgba(167, 139, 250, 0.6);
 }
-.ai-cmd-btn {
-  flex: none;
-  align-self: stretch;
-  padding: 0 18px;
+.aibar-input::placeholder {
+  color: var(--text-muted);
+}
+.aibar-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px 12px;
+}
+.aibar-kbd {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.aibar-kbd kbd {
+  font-family: inherit;
+  font-size: 10.5px;
+  padding: 1px 5px;
+  border-radius: 5px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+.aibar-apply {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
   border: none;
   border-radius: 10px;
-  background: linear-gradient(180deg, #a78bfa, #8b5cf6);
+  background: linear-gradient(180deg, #a78bfa, #7c5cf5);
   color: #fff;
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;
-  white-space: nowrap;
+  box-shadow: 0 4px 14px -4px rgba(124, 92, 245, 0.6);
+  transition: transform 0.12s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
-.ai-cmd-btn:disabled {
-  opacity: 0.5;
+.aibar-apply:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px -4px rgba(124, 92, 245, 0.75);
+}
+.aibar-apply:disabled {
+  opacity: 0.45;
   cursor: default;
+  box-shadow: none;
 }
-.ai-cmd-note {
-  margin-top: 10px;
-  padding: 8px 12px;
-  border-radius: 8px;
+.aibar-spinner {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #fff;
+  animation: aibar-spin 0.7s linear infinite;
+}
+@keyframes aibar-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* soft moving sheen along the top edge while thinking */
+.aibar-box.busy {
+  border-color: rgba(167, 139, 250, 0.5);
+}
+.aibar-box.busy::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(110deg, transparent 30%, rgba(167, 139, 250, 0.8), transparent 70%);
+  background-size: 200% 100%;
+  animation: aibar-sheen 1.4s linear infinite;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+@keyframes aibar-sheen {
+  to {
+    background-position: -200% 0;
+  }
+}
+.aibar-note,
+.aibar-error {
+  margin-top: 12px;
+  padding: 10px 13px;
+  border-radius: 10px;
   font-size: 12.5px;
+  line-height: 1.45;
+}
+.aibar-note {
   background: rgba(52, 199, 89, 0.1);
-  border: 1px solid rgba(52, 199, 89, 0.25);
-  color: #34c759;
+  border: 1px solid rgba(52, 199, 89, 0.28);
+  color: #4ade80;
 }
-.ai-cmd-error {
-  margin-top: 10px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 12.5px;
+.aibar-error {
   background: rgba(239, 68, 68, 0.1);
   border: 1px solid rgba(239, 68, 68, 0.3);
-  color: #ef4444;
+  color: #f87171;
 }

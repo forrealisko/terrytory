@@ -88,6 +88,16 @@ function splitBlocks(md: string): string[] {
   return blocks;
 }
 
+// One-tap starting points for the AI command bar. Click fills the input; the
+// editor tweaks and applies. Kept short and genuinely useful.
+const AI_EDIT_EXAMPLES = [
+  "Tighten the intro",
+  "Make the headline punchier",
+  "Add an image slot at the bottom, prompt from the text above",
+  "Fix any awkward or robotic phrasing",
+  "Shorten the whole thing by ~20%",
+];
+
 const SLOT_BLOCK_RE = /^\[IMAGE #(IMG\d+):\s*([^\]]*)\]$/;
 function slotTokenOf(block: string): { id: string; desc: string } | null {
   const m = block.trim().match(SLOT_BLOCK_RE);
@@ -1270,19 +1280,32 @@ export default function ReviewPage() {
         </section>
 
         {/* ── AI command bar ── */}
-        <section className="review-section ai-cmd-section">
-          <h3 className="review-section-label">
-            <span style={{ color: "#a78bfa" }}>✦</span> Ask the AI to edit
-          </h3>
-          <p className="ai-cmd-hint">
-            Plain English. e.g. &quot;add an image slot at the very bottom and write its prompt
-            from the text above it&quot;, &quot;tighten the intro&quot;, &quot;make the headline punchier&quot;.
-            Changes apply here for you to review — nothing saves until you hit Save or Publish.
-          </p>
-          <div className="ai-cmd-row">
+        <section className="aibar">
+          <div className="aibar-head">
+            <span className="aibar-title">
+              <span className="aibar-spark">✦</span> Ask AI to edit
+            </span>
+            <span className="aibar-sub">Applies here for review — nothing saves until you Save or Publish</span>
+          </div>
+
+          <div className="aibar-chips">
+            {AI_EDIT_EXAMPLES.map((ex) => (
+              <button
+                key={ex}
+                type="button"
+                className="aibar-chip"
+                onClick={() => setAiCmd(ex)}
+                disabled={aiRunning}
+              >
+                {ex}
+              </button>
+            ))}
+          </div>
+
+          <div className={`aibar-box${aiRunning ? " busy" : ""}`}>
             <textarea
-              className="ai-cmd-input"
-              placeholder="Tell the AI what to change…"
+              className="aibar-input"
+              placeholder="Describe the change in plain English…"
               value={aiCmd}
               onChange={(e) => setAiCmd(e.target.value)}
               onKeyDown={(e) => {
@@ -1291,19 +1314,32 @@ export default function ReviewPage() {
                   runAiEdit();
                 }
               }}
-              rows={2}
+              rows={3}
               disabled={aiRunning}
             />
-            <button
-              className="btn ai-cmd-btn"
-              onClick={runAiEdit}
-              disabled={aiRunning || !aiCmd.trim()}
-            >
-              {aiRunning ? "Thinking…" : "Apply ✦"}
-            </button>
+            <div className="aibar-foot">
+              <span className="aibar-kbd">
+                <kbd>⌘</kbd>
+                <kbd>↵</kbd> to apply
+              </span>
+              <button
+                className="aibar-apply"
+                onClick={runAiEdit}
+                disabled={aiRunning || !aiCmd.trim()}
+              >
+                {aiRunning ? (
+                  <>
+                    <span className="aibar-spinner" /> Thinking…
+                  </>
+                ) : (
+                  <>Apply ✦</>
+                )}
+              </button>
+            </div>
           </div>
-          {aiNote && <div className="ai-cmd-note">✓ {aiNote}</div>}
-          {aiError && <div className="ai-cmd-error">⚠ {aiError}</div>}
+
+          {aiNote && <div className="aibar-note">✓ {aiNote}</div>}
+          {aiError && <div className="aibar-error">⚠ {aiError}</div>}
         </section>
 
         {/* ── SECTION 3: Excerpt ── */}
