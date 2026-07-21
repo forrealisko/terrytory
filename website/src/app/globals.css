@@ -2979,3 +2979,134 @@ select:focus-visible {
   background: #f5a623;
   box-shadow: 0 0 6px #f5a623;
 }
+
+/* ── Daily checklist ───────────────────────────────────────────────────────
+   The morning ritual on the admin home. One article a day only sticks if it
+   feels small and rewards you, so this stays light and a little warm. */
+.daily-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+.daily-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.daily-kicker {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--accent-brand);
+}
+.daily-title {
+  margin: 3px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.daily-count {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-muted);
+  white-space: nowrap;
+  padding-top: 2px;
+}
+.daily-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.daily-step {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 7px 9px;
+  border-radius: 9px;
+  transition: background 0.15s ease;
+}
+.daily-step:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+.daily-check {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1.5px solid var(--border-subtle);
+  background: transparent;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+.daily-step.checked .daily-check {
+  background: var(--accent-brand);
+  border-color: var(--accent-brand);
+}
+.daily-step-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.daily-step-label {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.daily-step-label:hover {
+  color: var(--accent-brand);
+}
+.daily-step.checked .daily-step-label {
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+.daily-step-hint {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.daily-goal {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+}
+.daily-goal-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+.daily-goal-label {
+  font-size: 12.5px;
+  color: var(--text-secondary);
+}
+.daily-goal-label b {
+  color: var(--text-primary);
+}
+.daily-goal-milestones {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.daily-goal-track {
+  height: 7px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+.daily-goal-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--accent-brand), #4f8dfd);
+  transition: width 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}

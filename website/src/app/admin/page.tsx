@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { DailyChecklist } from "@/components/DailyChecklist";
 
 interface Headline {
   type: string;
@@ -290,6 +291,8 @@ export default function DashboardPage() {
     <>
       {/* Body */}
       <div className="main-body" style={{ paddingTop: 24 }}>
+        <DailyChecklist />
+
         {/* Scraper console output */}
         {genOutput && (
           <div
