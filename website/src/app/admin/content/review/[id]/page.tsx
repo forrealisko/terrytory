@@ -277,6 +277,12 @@ export default function ReviewPage() {
   // and is baked into final markdown only at ship time. ──
   const [slots, setSlots] = useState<VisualSuggestion[]>([]);
   const [expandedSlot, setExpandedSlot] = useState<string | null>(null);
+
+  // ── AI command bar: plain-English edits to text / image slots ──
+  const [aiCmd, setAiCmd] = useState("");
+  const [aiRunning, setAiRunning] = useState(false);
+  const [aiNote, setAiNote] = useState<string | null>(null);
+  const [aiError, setAiError] = useState<string | null>(null);
   const [genModel, setGenModel] = useState<string>("flux-dev");
   const [generatingSlot, setGeneratingSlot] = useState<string | null>(null);
   // Drag-to-reposition state (Preview): index of the block being dragged and
@@ -343,6 +349,61 @@ export default function ReviewPage() {
     setBody((b) => `${b.trimEnd()}\n\n[EMBED #${id}: ${parsed.url}]\n`);
     setEmbedUrlInput("");
     showToast(`Added ${PLATFORM_LABEL[parsed.platform] || "embed"} → drag it into place`);
+  };
+
+  // Run a plain-English editing command. The route proposes changes; we apply
+  // them to local state only — nothing persists until the editor hits Save or
+  // Publish, so a bad edit is undone by simply not saving.
+  const runAiEdit = async () => {
+    const instruction = aiCmd.trim();
+    if (!instruction || aiRunning) return;
+    setAiRunning(true);
+    setAiNote(null);
+    setAiError(null);
+    try {
+      const res = await fetch("/api/content/ai-edit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          instruction,
+          article: {
+            headline: customHeadline.trim() || selectedHeadline,
+            excerpt,
+            body_markdown: body,
+            slots: slots.map((s) => ({ id: s.id, description: s.description })),
+          },
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setAiError(data.error || `Failed (${res.status})`);
+        return;
+      }
+      const ch = data.changes || {};
+      if (typeof ch.headline === "string") setSelectedHeadline(ch.headline);
+      if (typeof ch.excerpt === "string") setExcerpt(ch.excerpt);
+      if (typeof ch.body_markdown === "string") setBody(ch.body_markdown);
+      if (Array.isArray(ch.slots)) {
+        // Reconcile: keep existing images/size by id, apply new descriptions,
+        // create full slots for newly added ids, drop ones the AI removed.
+        setSlots((prev) => {
+          const byId = new Map(prev.map((s) => [s.id, s]));
+          return (ch.slots as Array<{ id: string; description: string }>).map((ns) => {
+            const old = byId.get(ns.id);
+            return old
+              ? { ...old, description: ns.description }
+              : { id: ns.id, kind: "photo", description: ns.description, size: "full" as ImageSize };
+          });
+        });
+      }
+      setAiNote(data.summary || "Done.");
+      setAiCmd("");
+      if (data.changed?.length) showToast(`AI edit applied · review, then Save`);
+    } catch (err) {
+      setAiError((err as Error).message);
+    } finally {
+      setAiRunning(false);
+    }
   };
 
   // Persist slot metadata to the draft (partial PUT — merges over other fields).
@@ -1206,6 +1267,43 @@ export default function ReviewPage() {
               + Add
             </button>
           </div>
+        </section>
+
+        {/* ── AI command bar ── */}
+        <section className="review-section ai-cmd-section">
+          <h3 className="review-section-label">
+            <span style={{ color: "#a78bfa" }}>✦</span> Ask the AI to edit
+          </h3>
+          <p className="ai-cmd-hint">
+            Plain English. e.g. &quot;add an image slot at the very bottom and write its prompt
+            from the text above it&quot;, &quot;tighten the intro&quot;, &quot;make the headline punchier&quot;.
+            Changes apply here for you to review — nothing saves until you hit Save or Publish.
+          </p>
+          <div className="ai-cmd-row">
+            <textarea
+              className="ai-cmd-input"
+              placeholder="Tell the AI what to change…"
+              value={aiCmd}
+              onChange={(e) => setAiCmd(e.target.value)}
+              onKeyDown={(e) => {
+                if ((e.metaKey || e.ctrlKey) && e.key === "Enter") {
+                  e.preventDefault();
+                  runAiEdit();
+                }
+              }}
+              rows={2}
+              disabled={aiRunning}
+            />
+            <button
+              className="btn ai-cmd-btn"
+              onClick={runAiEdit}
+              disabled={aiRunning || !aiCmd.trim()}
+            >
+              {aiRunning ? "Thinking…" : "Apply ✦"}
+            </button>
+          </div>
+          {aiNote && <div className="ai-cmd-note">✓ {aiNote}</div>}
+          {aiError && <div className="ai-cmd-error">⚠ {aiError}</div>}
         </section>
 
         {/* ── SECTION 3: Excerpt ── */}

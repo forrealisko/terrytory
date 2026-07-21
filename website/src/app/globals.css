@@ -3110,3 +3110,74 @@ select:focus-visible {
   background: linear-gradient(90deg, var(--accent-brand), #4f8dfd);
   transition: width 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
+
+/* ── AI command bar (article editor) ───────────────────────────────────────
+   Plain-English edits to the article. Purple to read as "AI", distinct from
+   the green publish actions. */
+.ai-cmd-section {
+  border: 1px solid rgba(167, 139, 250, 0.25);
+  background: rgba(167, 139, 250, 0.04);
+}
+.ai-cmd-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 4px 0 12px;
+  line-height: 1.5;
+}
+.ai-cmd-row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+.ai-cmd-input {
+  flex: 1;
+  resize: vertical;
+  min-height: 46px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-input, rgba(0, 0, 0, 0.2));
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+.ai-cmd-input:focus {
+  outline: none;
+  border-color: rgba(167, 139, 250, 0.6);
+}
+.ai-cmd-btn {
+  flex: none;
+  align-self: stretch;
+  padding: 0 18px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #a78bfa, #8b5cf6);
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.ai-cmd-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.ai-cmd-note {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  background: rgba(52, 199, 89, 0.1);
+  border: 1px solid rgba(52, 199, 89, 0.25);
+  color: #34c759;
+}
+.ai-cmd-error {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+}
