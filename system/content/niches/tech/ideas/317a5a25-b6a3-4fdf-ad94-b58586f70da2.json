@@ -1,0 +1,27 @@
+{
+  "id": "317a5a25-b6a3-4fdf-ad94-b58586f70da2",
+  "niche": "tech",
+  "batch_id": "7dc23b8e-ee16-41bb-ab7b-266551515812",
+  "created_at": "2026-07-16T17:54:47.226Z",
+  "status": "proposed",
+  "format": "listicle",
+  "title": "Beyond Air Purifiers: 5 Essential Tech Upgrades for Wildfire Smoke Season",
+  "angle": "With wildfire smoke becoming an annual threat, traditional solutions aren't enough. We'll list the crucial tech, from smart masks to air quality monitors and even home automation tricks, that can genuinely protect your health and home.",
+  "audience": "tech-curious, builders",
+  "rationale": "This offers immediate, actionable value in response to a timely and widespread environmental issue.",
+  "priority": 3,
+  "source_pick_ids": [
+    "e79f9196-6522-4e97-89cd-1ae8534a6917"
+  ],
+  "source_articles": [
+    {
+      "source_id": "wired",
+      "source_name": "Wired",
+      "title": "How to Protect Your Health as Skies Fill With Smoke From Canada’s Wildfires",
+      "url": "https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/",
+      "excerpt": "Roughly 100 fires are raging out of control in Ontario, sending smoke streaming 1,000 miles to the south and east."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

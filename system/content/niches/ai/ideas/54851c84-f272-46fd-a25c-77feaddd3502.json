@@ -1,0 +1,24 @@
+{
+  "id": "54851c84-f272-46fd-a25c-77feaddd3502",
+  "niche": "ai",
+  "batch_id": "starred",
+  "created_at": "2026-07-16T17:51:00.484Z",
+  "status": "created",
+  "format": "article",
+  "title": "AI slop movies are the new direct-to-video cash grabs",
+  "angle": "",
+  "rationale": "Starred by you in the Scraper.",
+  "priority": 1,
+  "source_pick_ids": [],
+  "source_articles": [
+    {
+      "source_id": "starred",
+      "source_name": "Starred",
+      "title": "AI slop movies are the new direct-to-video cash grabs",
+      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood"
+    }
+  ],
+  "draft_id": "54851c84-f272-46fd-a25c-77feaddd3502",
+  "planner_model": "user-starred",
+  "created_draft_at": "2026-07-16T17:53:28.480Z"
+}

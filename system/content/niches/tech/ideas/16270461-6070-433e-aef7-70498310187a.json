@@ -1,0 +1,27 @@
+{
+  "id": "16270461-6070-433e-aef7-70498310187a",
+  "niche": "tech",
+  "batch_id": "4eea1a3d-ca57-4389-add5-94cd3931a089",
+  "created_at": "2026-07-16T17:45:07.707Z",
+  "status": "banked",
+  "format": "opinion",
+  "title": "Meta's AI Teen Safety Net: Guardian Angel or Privacy Nightmare?",
+  "angle": "Meta's new AI feature for alerting parents about teen self-harm chats sparks a crucial debate: Is it a necessary safety measure, or a dangerous erosion of privacy for vulnerable youth? We dig into the ethical tightrope Meta is walking.",
+  "audience": "tech-curious, parents, policy makers",
+  "rationale": "This story hits a high emotional and ethical note, making it perfect for a strong, opinionated take that will drive engagement.",
+  "priority": 1,
+  "source_pick_ids": [
+    "cb9e8adb-fc93-4e11-9d51-75491913227c"
+  ],
+  "source_articles": [
+    {
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "title": "Meta now alerts parents if their teen discussed suicide or self-harm with its AI chatbot",
+      "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/",
+      "excerpt": "The updates come as Meta and other tech companies are facing scrutiny from regulators and parents around how AI chatbots respond to users in crisis, particularly teenagers."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}

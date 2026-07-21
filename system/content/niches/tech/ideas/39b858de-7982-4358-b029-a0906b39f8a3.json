@@ -1,0 +1,27 @@
+{
+  "id": "39b858de-7982-4358-b029-a0906b39f8a3",
+  "niche": "tech",
+  "batch_id": "4eea1a3d-ca57-4389-add5-94cd3931a089",
+  "created_at": "2026-07-16T17:45:07.707Z",
+  "status": "banked",
+  "format": "listicle",
+  "title": "Google's AI Grab Bag: 5 New Ways AI Is About to Change Your Daily Apps (and What to Try First)",
+  "angle": "Google just integrated AI with Canva, YouTube Music, and Instacart. Here are the top 5 practical, everyday uses you can start leveraging today to make your life easier, from generating playlists to designing quick flyers.",
+  "audience": "everyday users, productivity enthusiasts",
+  "rationale": "This offers immediate, actionable value to a broad audience, transforming a tech update into practical tips they can use now.",
+  "priority": 2,
+  "source_pick_ids": [
+    "110803e1-58cc-4900-ac49-d4dc381536dd"
+  ],
+  "source_articles": [
+    {
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "title": "Google AI Mode now integrates with Canva, YouTube Music and Instacart",
+      "url": "https://www.engadget.com/2216707/google-ai-mode-now-integrates-with-canva-youtube-music-and-instacart/",
+      "excerpt": "You can now make playlists, design flyers and compile shopping lists using AI in Search."
+    }
+  ],
+  "draft_id": null,
+  "planner_model": "google/gemini-2.5-flash"
+}
