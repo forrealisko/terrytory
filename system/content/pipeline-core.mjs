@@ -174,13 +174,23 @@ To embed one, place a token on its OWN LINE in body_markdown at the exact spot i
   const brand = ctx.niche.brand?.name || "TERRYTORY";
   const angleNote = pick.angle ? `\n\nEDITORIAL ANGLE (the specific take to write toward):\n${pick.angle}\n` : "";
 
+  // The headline the editor greenlit in planning. Left to itself the writer
+  // invents a fresh, usually blander one ("X Is Missing Y, and It's Only Going
+  // to Get More Complicated"), so tell it the chosen headline up front and write
+  // the piece toward it. It may only propose an alternative that is *punchier* —
+  // never more generic or explanatory.
+  const chosenNote = pick.headline
+    ? `\n\nCHOSEN HEADLINE (the editor approved this exact headline for its hook — keep it):\n"${pick.headline}"\n` +
+      `Write the article so this headline fits. In "headline" return this same headline, unless you can make it genuinely PUNCHIER and more specific — never longer, blander, or more explanatory.\n`
+    : "";
+
   // What the editor actually changed about previous drafts. Empty until a few
   // articles have shipped; placed after the style guide so it wins on conflict —
   // published articles show the house voice, but the edits show what this editor
   // keeps having to fix by hand.
   const styleBrief = buildStyleBrief(ctx.paths);
 
-  const prompt = `${getEditorialPrompt(ctx.niche, { format, author })}${angleNote}
+  const prompt = `${getEditorialPrompt(ctx.niche, { format, author })}${angleNote}${chosenNote}
 
 ──────────────────────────────
 WRITING STYLE GUIDELINES (Use these past articles to copy the tone, vocabulary, formatting, and style):
@@ -309,10 +319,21 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
 
   const styleGuide = getFewShotExamples(ctx);
   const draftContent = await writeArticleDraft(ctx, spec, researchReport, styleGuide, apiKey, modelOverride, format, author, social_embeds);
-  // AI now commits to a single best headline; keep backward-compat with older `headline_options`.
-  const finalHeadline =
-    draftContent.headline || draftContent.headline_options?.[0] || spec.headline;
-  ctx.log("info", `  ✓ ${format} generated: "${finalHeadline}"`);
+
+  // Default to the headline the editor approved in planning — it was chosen for
+  // its hook, and the writer's own headline tends to drift toward bland and
+  // explanatory. The writer's headline is kept as an alternative (first option
+  // in the review screen after the chosen one) in case it genuinely landed
+  // something punchier. Falls back to the writer's if no headline was chosen.
+  const writerHeadline = draftContent.headline || draftContent.headline_options?.[0] || null;
+  const finalHeadline = spec.headline || writerHeadline || "Untitled";
+  const headlineOptions = [...new Set([finalHeadline, writerHeadline].filter(Boolean))];
+  if (writerHeadline && writerHeadline !== finalHeadline) {
+    ctx.log("info", `  ✓ ${format} generated. Kept editor headline: "${finalHeadline}"`);
+    ctx.log("info", `     (writer suggested: "${writerHeadline}" — saved as alternative)`);
+  } else {
+    ctx.log("info", `  ✓ ${format} generated: "${finalHeadline}"`);
+  }
 
   const draftId = spec.id;
 
@@ -328,7 +349,7 @@ export async function generateDraft(ctx, spec, apiKey, { modelOverride = null, w
     author: authorByline(author),
     source_articles: spec.source_articles,
     headline: finalHeadline,
-    headline_options: [finalHeadline],
+    headline_options: headlineOptions,
     selected_headline: finalHeadline,
     slug: draftContent.slug || spec.id,
     body_markdown: draftContent.body_markdown || "",
