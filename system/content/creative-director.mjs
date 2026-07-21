@@ -132,10 +132,13 @@ ${recentTitles.map((t) => `  - ${t}`).join("\n")}\n`
     })
     .join("\n\n");
 
+  // These are cheap idea sketches, not drafts — nothing gets researched or
+  // written until the editor clicks one. So propose a generous spread (8) and
+  // let them choose; the cost of an unused idea is a few tokens, not an article.
   const countRule =
     count && count >= 1
       ? `Produce EXACTLY ${count} scenarios.`
-      : `Decide how many scenarios are worth doing today: minimum 2, maximum 5. Only propose ideas that are genuinely strong — fewer great ideas beat five weak ones.`;
+      : `Produce 8 distinct scenarios, ordered best first. These are lightweight idea sketches the editor will browse — variety matters, so vary the format and the angle. Only the ones the editor picks get written, so it costs nothing to offer a wide spread.`;
 
   return `You are the Creative Director and Editor-in-Chief of ${brand}, ${description}.
 
@@ -206,9 +209,16 @@ async function callPlanner(prompt, apiKey) {
 // Bank any leftover "proposed" ideas from earlier slates so a fresh daily run
 // starts clean — yesterday's un-picked ideas move to the reuse bank rather than
 // piling up in today's slate. (Created drafts are left untouched.)
+// Ideas the editor never picked pile up forever otherwise — the bank had grown
+// past 17 on one niche. Keep at most this many banked ideas for the "maybe
+// later" pool (and as dedup memory for the planner); older ones are just noise.
+const BANK_CAP = 12;
+
 function bankStaleProposed({ paths, log }) {
   if (!fs.existsSync(paths.ideas)) return;
-  let n = 0;
+
+  // 1. Yesterday's unchosen slate moves to the bank.
+  let banked = 0;
   for (const f of fs.readdirSync(paths.ideas).filter((x) => x.endsWith(".json"))) {
     const p = path.join(paths.ideas, f);
     try {
@@ -216,11 +226,31 @@ function bankStaleProposed({ paths, log }) {
       if (idea.status === "proposed") {
         idea.status = "banked";
         fs.writeFileSync(p, JSON.stringify(idea, null, 2));
-        n++;
+        banked++;
       }
     } catch {}
   }
-  if (n) log("info", `[Creative Director] Banked ${n} stale proposed idea(s) from prior slates.`);
+
+  // 2. Prune the bank down to BANK_CAP, newest kept. Never delete an idea that
+  //    became a draft (draft_id set) — that would orphan the draft's origin.
+  const bankedIdeas = [];
+  for (const f of fs.readdirSync(paths.ideas).filter((x) => x.endsWith(".json"))) {
+    try {
+      const idea = JSON.parse(fs.readFileSync(path.join(paths.ideas, f), "utf8"));
+      if (idea.status === "banked" && !idea.draft_id) bankedIdeas.push({ f, idea });
+    } catch {}
+  }
+  bankedIdeas.sort((a, b) => (b.idea.created_at || "").localeCompare(a.idea.created_at || ""));
+  let pruned = 0;
+  for (const { f } of bankedIdeas.slice(BANK_CAP)) {
+    try {
+      fs.unlinkSync(path.join(paths.ideas, f));
+      pruned++;
+    } catch {}
+  }
+
+  if (banked) log("info", `[Creative Director] Banked ${banked} unchosen idea(s) from the last slate.`);
+  if (pruned) log("info", `[Creative Director] Pruned ${pruned} stale idea(s) from the bank (cap ${BANK_CAP}).`);
 }
 
 // ─── PLAN: propose today's slate ─────────────────────────────────────────────
@@ -228,7 +258,7 @@ async function plan(ctx) {
   const { paths, niche, log } = ctx;
   const apiKey = getApiKey();
   const countArg = parseInt(arg("--count") || "", 10);
-  const count = Number.isFinite(countArg) ? Math.max(1, Math.min(5, countArg)) : null;
+  const count = Number.isFinite(countArg) ? Math.max(1, Math.min(8, countArg)) : null;
 
   // Clear the previous slate into the bank first so we don't accumulate stale unchosen ideas.
   bankStaleProposed(ctx);
@@ -251,7 +281,7 @@ async function plan(ctx) {
   const now = new Date().toISOString();
   const saved = [];
 
-  scenarios.slice(0, 5).forEach((s, rank) => {
+  scenarios.slice(0, 8).forEach((s, rank) => {
     const format = FORMAT_IDS.includes(s.format) ? s.format : DEFAULT_FORMAT;
     const idxs = Array.isArray(s.source_indexes) ? s.source_indexes : [];
     const refPicks = idxs.map((n) => picks[n - 1]).filter(Boolean);

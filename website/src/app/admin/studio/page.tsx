@@ -22,18 +22,11 @@ interface Idea {
   draft_id: string | null;
 }
 
-const COUNTS = ["auto", "2", "3", "4", "5"] as const;
 
 export default function StudioPage() {
   const [slate, setSlate] = useState<Idea[]>([]);
   const [banked, setBanked] = useState<Idea[]>([]);
   const [niche, setNiche] = useState<string>("ai");
-  // Always "auto" for the first render. Seeding this from localStorage during
-  // render makes the client disagree with the server-rendered HTML (the server
-  // has no localStorage, so it always says "auto"), and React leaves that
-  // mismatch unpatched — the highlighted option ends up wrong. Restore it after
-  // mount instead, where the two renders have already agreed.
-  const [count, setCount] = useState<(typeof COUNTS)[number]>("auto");
   const [planning, setPlanning] = useState(false);
   const [creatingId, setCreatingId] = useState<string | null>(null);
   const [busyId, setBusyId] = useState<string | null>(null);
@@ -53,18 +46,6 @@ export default function StudioPage() {
   useEffect(() => {
     loadIdeas();
   }, [loadIdeas]);
-
-  useEffect(() => {
-    const saved = localStorage.getItem("studio_count");
-    if (saved && (COUNTS as readonly string[]).includes(saved)) {
-      setCount(saved as (typeof COUNTS)[number]);
-    }
-  }, []);
-
-  const changeCount = (c: (typeof COUNTS)[number]) => {
-    setCount(c);
-    localStorage.setItem("studio_count", c);
-  };
 
   useEffect(() => {
     if (logRef.current) logRef.current.scrollTop = logRef.current.scrollHeight;
@@ -101,9 +82,11 @@ export default function StudioPage() {
 
   async function plan() {
     setPlanning(true);
-    setLog(`▶ Creative Director planning today's slate${count === "auto" ? " (auto 2–5)" : ` (${count})`}…\n`);
+    setLog(`▶ Creative Director suggesting 8 ideas…\n`);
     try {
-      await runStream("/api/content/ideas/plan", { count: count === "auto" ? 0 : Number(count) });
+      // count 0 → the planner's default spread (8). These are cheap sketches;
+      // nothing is written until an idea is clicked.
+      await runStream("/api/content/ideas/plan", { count: 0 });
       await loadIdeas();
     } finally {
       setPlanning(false);
@@ -143,24 +126,12 @@ export default function StudioPage() {
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h2 style={{ margin: 0 }}>Creative Director</h2>
           <span style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 2 }}>
-            Your AI editor-in-chief proposes today&apos;s slate for {niche.toUpperCase()} — you pick the best, the rest are banked.
+            8 ideas for {niche.toUpperCase()}. Nothing gets written until you click one.
           </span>
         </div>
         <div className="main-header-actions" style={{ gap: 10 }}>
-          <div className="studio-count">
-            {COUNTS.map((c) => (
-              <button
-                key={c}
-                className={`studio-count-opt ${count === c ? "active" : ""}`}
-                onClick={() => changeCount(c)}
-                disabled={busy}
-              >
-                {c === "auto" ? "Auto" : c}
-              </button>
-            ))}
-          </div>
           <button className="studio-plan-btn" onClick={plan} disabled={busy}>
-            {planning ? "Planning…" : "✨ Generate today's slate"}
+            {planning ? "Thinking…" : "✨ Suggest ideas"}
           </button>
         </div>
       </header>
