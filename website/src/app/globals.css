@@ -636,15 +636,40 @@ body::before {
 }
 
 .empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: 64px 32px;
+  padding: 56px 32px;
+  color: var(--text-secondary);
+}
+/* First line is the message; anything after is a muted sub-note. */
+.empty-state p {
+  margin: 0;
+  max-width: 340px;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+.empty-state p ~ p {
+  margin-top: 7px;
+  font-size: 12.5px;
   color: var(--text-muted);
+  line-height: 1.5;
 }
 
+/* The icon sits in a soft badge rather than floating faded — reads as
+   intentional, not like something failed to load. */
 .empty-state-icon {
-  font-size: 48px;
-  margin-bottom: 16px;
-  opacity: 0.4;
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 18px;
+  font-size: 27px;
+  border-radius: 16px;
+  background: radial-gradient(circle at 50% 35%, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015));
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 8px 22px -14px rgba(0, 0, 0, 0.6);
 }
 
 /* ─── Pulse animation for live indicator ─────────────────────────────────── */
