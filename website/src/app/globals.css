@@ -3453,3 +3453,90 @@ select:focus-visible {
   color: var(--text-muted, #5c6c8f);
   text-align: center;
 }
+
+/* ── Analytics polish ──────────────────────────────────────────────────────
+   Give the metric tiles a per-metric accent strip and a hover lift so the page
+   reads as a dashboard, and replace the ad-hoc scheduler block with a tidy
+   status banner. */
+.analytics-metric {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.analytics-metric::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--metric, var(--accent-brand));
+  opacity: 0.85;
+}
+.analytics-metric:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-active, #2c3e63);
+  box-shadow: 0 12px 28px -16px rgba(0, 0, 0, 0.5);
+}
+
+.status-banner {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  flex-wrap: wrap;
+  padding: 12px 15px;
+  border-radius: 12px;
+  font-size: 12.5px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.status-banner.ok {
+  background: rgba(45, 212, 191, 0.06);
+  border: 1px solid rgba(45, 212, 191, 0.2);
+}
+.status-banner.off {
+  background: rgba(148, 163, 184, 0.05);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+}
+.status-banner-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-banner.ok .status-banner-dot {
+  background: #2dd4bf;
+  box-shadow: 0 0 7px #2dd4bf;
+}
+.status-banner.off .status-banner-dot {
+  background: #64748b;
+}
+.status-banner-body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  flex: 1;
+  min-width: 0;
+}
+.status-banner-title {
+  font-weight: 650;
+  color: var(--text-primary);
+}
+.status-banner.ok .status-banner-title {
+  color: #2dd4bf;
+}
+.status-banner-meta {
+  color: var(--text-secondary);
+  position: relative;
+}
+.status-banner-meta::before {
+  content: "·";
+  margin-right: 14px;
+  color: var(--text-muted);
+}
+.status-banner-vitals {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--text-muted);
+}

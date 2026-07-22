@@ -127,7 +127,11 @@ export default function AnalyticsPage() {
           {metrics.length === 0
             ? [0, 1, 2, 3].map((i) => <div key={i} className="loading-skeleton" style={{ height: 92, borderRadius: 14 }} />)
             : metrics.map((m) => (
-                <div key={m.label} className="analytics-metric">
+                <div
+                  key={m.label}
+                  className="analytics-metric"
+                  style={{ "--metric": m.color } as React.CSSProperties}
+                >
                   <div className="analytics-metric-label">{m.label}</div>
                   <div className="analytics-metric-value" style={{ color: m.color }}>{m.value}</div>
                   <div className="analytics-metric-sub">{m.sub}</div>
@@ -143,44 +147,23 @@ export default function AnalyticsPage() {
 
         {/* Scheduler status (moved from Scraper page) */}
         {scheduler && (
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 12,
-              padding: "12px 16px",
-              background: scheduler.active ? "rgba(45, 212, 191, 0.02)" : "rgba(255, 23, 68, 0.02)",
-              border: `1px solid ${scheduler.active ? "rgba(45, 212, 191, 0.15)" : "rgba(255, 23, 68, 0.15)"}`,
-              borderRadius: 10,
-              fontSize: 12.5,
-              marginBottom: 20,
-              color: "var(--text-secondary)",
-              lineHeight: 1.4,
-            }}
-          >
-            <span
-              style={{
-                width: 8,
-                height: 8,
-                borderRadius: "50%",
-                background: scheduler.active ? "#2dd4bf" : "#ff1744",
-                boxShadow: `0 0 6px ${scheduler.active ? "#2dd4bf" : "#ff1744"}`,
-                flexShrink: 0,
-              }}
-            />
-            <div style={{ flex: 1 }}>
-              <span style={{ fontWeight: 600, color: scheduler.active ? "#2dd4bf" : "#ff1744" }}>
-                Scheduler Daemon {scheduler.active ? "Active" : "Inactive"}
+          <div className={`status-banner${scheduler.active ? " ok" : " off"}`}>
+            <span className="status-banner-dot" />
+            <div className="status-banner-body">
+              <span className="status-banner-title">
+                Scheduler daemon {scheduler.active ? "active" : "inactive"}
               </span>
-              {scheduler.active && ` (PID: ${scheduler.pid})`}
-              {" | "}
-              <strong>Next Scrape:</strong> {scheduler.schedule?.morningScrape} / {scheduler.schedule?.eveningScrape}
-              {" | "}
-              <strong>Next Gen &amp; Post:</strong> {scheduler.schedule?.noonCycle} / {scheduler.schedule?.midnightCycle}
+              {scheduler.active && <span className="status-banner-meta">PID {scheduler.pid}</span>}
+              <span className="status-banner-meta">
+                Scrape {scheduler.schedule?.morningScrape} / {scheduler.schedule?.eveningScrape}
+              </span>
+              <span className="status-banner-meta">
+                Gen &amp; post {scheduler.schedule?.noonCycle} / {scheduler.schedule?.midnightCycle}
+              </span>
             </div>
             {scheduler.heartbeat && (
-              <span style={{ fontSize: 11, color: "var(--text-muted)", marginLeft: "auto" }}>
-                Vitals OK ({new Date(scheduler.heartbeat).toLocaleTimeString()})
+              <span className="status-banner-vitals">
+                vitals OK · {new Date(scheduler.heartbeat).toLocaleTimeString()}
               </span>
             )}
           </div>
