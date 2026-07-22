@@ -59,20 +59,12 @@ const TIER_META: Record<string, { icon: string; color: string; glow: string }> =
 /* ── Helpers ──────────────────────────────────────────────────────── */
 function StatusRow({ ok, label, detail }: { ok: boolean; label: string; detail: string }) {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 13, color: ok ? "var(--accent-brand)" : "var(--text-muted)" }}>
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-        {ok ? (
-          <>
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" strokeLinecap="round" strokeLinejoin="round" />
-            <polyline points="22 4 12 14.01 9 11.01" strokeLinecap="round" strokeLinejoin="round" />
-          </>
-        ) : (
-          <circle cx="12" cy="12" r="10" />
-        )}
-      </svg>
-      <span>
-        <strong>{label}:</strong> {detail}
-      </span>
+    <div className="settings-row">
+      <span className={`settings-row-dot ${ok ? "ok" : "off"}`} />
+      <div className="settings-row-main">
+        <div className="settings-row-label">{label}</div>
+        <div className="settings-row-note">{detail}</div>
+      </div>
     </div>
   );
 }
@@ -178,32 +170,18 @@ function SettingsInner() {
         </div>
 
         {activeTab !== "general" ? (
-          <div
-            className="settings-section"
-            style={{ textAlign: "center", padding: "40px 20px", color: "var(--text-muted)" }}
-          >
-            <div style={{ fontSize: 28, marginBottom: 10 }}>⚙️</div>
-            <p style={{ fontSize: 14, marginBottom: 6 }}>
-              No {TABS.find((t) => t.id === activeTab)?.label}-specific settings yet.
-            </p>
-            <p style={{ fontSize: 12 }}>
-              Global configuration lives under{" "}
-              <button
-                onClick={() => selectTab("general")}
-                style={{
-                  background: "none",
-                  border: "none",
-                  color: "var(--accent-brand)",
-                  cursor: "pointer",
-                  fontSize: 12,
-                  padding: 0,
-                  textDecoration: "underline",
-                }}
-              >
-                General
-              </button>
-              .
-            </p>
+          <div className="settings-section">
+            <div className="empty-state">
+              <div className="empty-state-icon">⚙️</div>
+              <p>No {TABS.find((t) => t.id === activeTab)?.label}-specific settings yet.</p>
+              <p>
+                Global configuration lives under{" "}
+                <button className="link-btn" onClick={() => selectTab("general")}>
+                  General
+                </button>
+                .
+              </p>
+            </div>
           </div>
         ) : (
           <>
@@ -267,25 +245,14 @@ function SettingsInner() {
           <h3>Active models</h3>
           <p>These are resolved from the <strong>{config?.spend_tier ?? "—"}</strong> tier and used by every pipeline step.</p>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          <div className="settings-rows">
             {(config?.roles ?? []).map((r) => (
-              <div
-                key={r.key}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 12,
-                  padding: "11px 14px",
-                  background: "var(--bg-primary)",
-                  borderRadius: 8,
-                  border: "1px solid var(--border-subtle)",
-                }}
-              >
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: 13, fontWeight: 600 }}>{r.label}</div>
-                  <div style={{ fontSize: 11, color: "var(--text-muted)" }}>{r.note}</div>
+              <div key={r.key} className="settings-row">
+                <div className="settings-row-main">
+                  <div className="settings-row-label">{r.label}</div>
+                  <div className="settings-row-note">{r.note}</div>
                 </div>
-                <code style={{ fontSize: 12, color: "var(--accent-brand)", fontFamily: "var(--font-mono)" }}>{modelShort(r.model)}</code>
+                <code className="settings-row-value">{modelShort(r.model)}</code>
               </div>
             ))}
           </div>
