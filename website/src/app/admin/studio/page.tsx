@@ -93,11 +93,14 @@ export default function StudioPage() {
     }
   }
 
-  async function create(id: string) {
+  // `tier` overrides the writer model for this run only — used by "Rewrite
+  // (best)" so a draft written on the cheap tier can be redone properly without
+  // changing the global spend setting.
+  async function create(id: string, tier?: "low" | "medium" | "best") {
     setCreatingId(id);
-    setLog(`▶ Creating draft…\n`);
+    setLog(tier ? `▶ Rewriting with the ${tier} writer…\n` : `▶ Creating draft…\n`);
     try {
-      await runStream("/api/content/ideas/create", { id });
+      await runStream("/api/content/ideas/create", tier ? { id, tier } : { id });
       await loadIdeas();
     } finally {
       setCreatingId(null);
@@ -167,6 +170,7 @@ export default function StudioPage() {
                 onCreate={() => create(idea.id)}
                 onChoose={() => status(idea.id, "choose")}
                 onBank={() => status(idea.id, "bank")}
+                onRewrite={() => create(idea.id, "best")}
               />
             ))}
           </div>
@@ -210,6 +214,7 @@ function IdeaCard({
   onChoose,
   onBank,
   onRestore,
+  onRewrite,
 }: {
   idea: Idea;
   creating: boolean;
@@ -219,6 +224,7 @@ function IdeaCard({
   onChoose?: () => void;
   onBank?: () => void;
   onRestore?: () => void;
+  onRewrite?: () => void;
 }) {
   const f = fmt(idea.format);
   const created = idea.status === "created";
@@ -256,6 +262,16 @@ function IdeaCard({
             <a className="studio-btn ghost" href={`/admin/content/review/${idea.draft_id}`}>
               📝 Review
             </a>
+            {onRewrite && (
+              <button
+                className="studio-btn ghost"
+                onClick={onRewrite}
+                disabled={busy}
+                title="Write it again with the best writer model, whatever the spend tier is set to"
+              >
+                ↻ Rewrite (best)
+              </button>
+            )}
             {onBank && (
               <button className="studio-btn ghost" onClick={onBank} disabled={busy}>
                 🗄 Bank

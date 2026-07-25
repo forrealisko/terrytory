@@ -328,7 +328,14 @@ async function create(ctx) {
   const idea = readIdea(paths, id);
   if (!idea) throw new Error(`Idea not found: ${id}`);
 
-  log("info", `[Creative Director] Creating ${idea.format}: "${idea.title}"`);
+  // Optional writer override, so a draft can be rewritten with a stronger model
+  // than the active spend tier without changing the tier for everything else.
+  const modelOverride = arg("--model") || null;
+
+  log(
+    "info",
+    `[Creative Director] Creating ${idea.format}: "${idea.title}"${modelOverride ? ` (model: ${modelOverride})` : ""}`
+  );
 
   const spec = {
     id: idea.id,
@@ -336,7 +343,7 @@ async function create(ctx) {
     angle: idea.angle,
     source_articles: idea.source_articles || [],
   };
-  const draft = await generateDraft(ctx, spec, apiKey, { format: idea.format });
+  const draft = await generateDraft(ctx, spec, apiKey, { format: idea.format, modelOverride });
 
   idea.status = "created";
   idea.draft_id = draft.id;

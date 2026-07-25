@@ -1,4 +1,4 @@
-import { Sidebar } from "@/components/Sidebar";
+import { TopNav } from "@/components/TopNav";
 
 export default function DashboardLayout({
   children,
@@ -15,7 +15,7 @@ export default function DashboardLayout({
         <div className="ufo-particle ufo-particle--spark"></div>
         <div className="ufo-particle ufo-particle--planet"></div>
       </div>
-      <Sidebar />
+      <TopNav />
       <main className="main-content">{children}</main>
     </div>
   );

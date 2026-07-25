@@ -3,11 +3,16 @@
  * format-aware write + images). Streams the agent's log. The draft lands in the
  * CREATE queue; the idea is marked "created" with its draft_id.
  *
- * Body: { id: string }
+ * Body: { id: string, tier?: "low"|"medium"|"best", model?: string }
+ *
+ * Passing a tier (or an explicit model id) overrides the writer model for this
+ * one run — that's how a draft gets rewritten with a stronger model without
+ * changing the global spend tier.
  */
 import { NextRequest, NextResponse } from "next/server";
 import { spawn } from "node:child_process";
 import fs from "node:fs";
+import path from "node:path";
 import { resolveNiche, SCRIPTS } from "@/lib/niches";
 
 export const runtime = "nodejs";
@@ -34,7 +39,7 @@ const STALE_MS = 15 * 60_000;
 export async function POST(req: NextRequest) {
   try {
     const niche = resolveNiche(req);
-    const { id } = await req.json().catch(() => ({}));
+    const { id, tier, model } = await req.json().catch(() => ({}));
     if (!id) return NextResponse.json({ error: "id is required" }, { status: 400 });
 
     if (!fs.existsSync(SCRIPTS.creativeDirector)) {
@@ -58,7 +63,26 @@ export async function POST(req: NextRequest) {
       generating.delete(key);
     }
 
+    // Optional writer override so a draft can be (re)written with a stronger
+    // model than the active spend tier, without changing the tier globally.
+    // A tier name resolves server-side from model-tiers.json — the UI offers
+    // quality levels and never hardcodes model ids.
+    let modelOverride: string | null = null;
+    if (typeof tier === "string" && ["low", "medium", "best"].includes(tier)) {
+      try {
+        const tiers = JSON.parse(
+          fs.readFileSync(path.join(SCRIPTS.contentDir, "model-tiers.json"), "utf8")
+        );
+        modelOverride = tiers[tier]?.writer || null;
+      } catch {
+        /* fall through — no override */
+      }
+    } else if (typeof model === "string" && model.includes("/")) {
+      modelOverride = model;
+    }
+
     const args = [SCRIPTS.creativeDirector, "create", "--niche", niche, "--id", String(id)];
+    if (modelOverride) args.push("--model", modelOverride);
     const encoder = new TextEncoder();
     const stream = new ReadableStream({
       start(controller) {
